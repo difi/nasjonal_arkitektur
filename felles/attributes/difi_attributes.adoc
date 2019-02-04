@@ -1,0 +1,10 @@
+//Attributes with deafult values:
+
+:difi_template: mal_generell_artikkel.adoc
+
+:difi_orig_language: no
+:difi_translation_status: -
+:difi_test_attr_translation_status!:
+
+:author_no: Direktoratet for forvaltning og ikt (Difi)
+

@@ -1,0 +1,7 @@
+ifndef::commonincludes_included[]
+//
+include::translation.adoc[]
+include::commonlinks1.adoc[]
+include::standardheader.adoc[]
+:commonincludes_included:
+endif::commonincludes_included[]

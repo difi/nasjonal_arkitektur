@@ -1,0 +1,11 @@
+
+
+:path_architeture_repo_root: ../arkitekturbibliotek
+
+:path_solution_building_blocks: {path_architeture_repo_root}/Løsningsbyggeklosser
+
+:url_github_difi_nasjonal_arkitektur: https://github.com/difi/nasjonal_arkitektur/[GitHub-bibliotek for Nasjonal arkitektur]
+
+:url_togaf_92: http://pubs.opengroup.org/architecture/togaf9-doc/arch/[TOGAF 9.2]
+
+:url_norsk_arkitekturrammeverk_for_samhandling: https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/nasjonal-arkitektur/samhandlingsarkitektur#Norsk%20arkitekturrammeverk%20for%20samhandling[Norsk arkitekturrammeverk for samhandling]
