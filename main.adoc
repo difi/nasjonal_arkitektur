@@ -12,7 +12,9 @@ include::./felles/includes/commonincludes.adoc[]
 
 
 
-image:./images/norsk-flagg.png[width=60, height=60] image:./images/uttar-pradesh-vidhaan-sabha.png[width=150, height=150] 
+//image:./images/norsk-flagg.png[width=60, height=60]
+
+// image:./images/uttar-pradesh-vidhaan-sabha.png[width=150, height=150] 
 
 ////
 image:linked-data.png[width=75, height=75]
