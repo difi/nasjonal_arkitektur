@@ -24,7 +24,7 @@ image:building-1295569_640.png[width=50, height=50]
 //image:./felles/images/i-arbeid.png[width=50, height=50]
 
 [.lead] 
-Plattform for samproduksjon og deling av arkitekturdokumentasjon på tvers av sektorer og virksomheter i Norge. 
+Platttform for samproduksjon og deling av arkitekturdokumentasjon på tvers av sektorer og virksomheter i Norge. 
 
 NOTE: _Nasjonal arkitekturplattform_ er inntil videre et eksperiment, som ledd i Difis arbeid med kommunikasjonsløsninger.
 
