@@ -69,7 +69,7 @@ Anbefalinger for disse kategoriene er:
 
 1. Bruk GitHub Desktop (enkel bruk) eller TortoiseGit (mer avansert)
 2. Bruk _Git Bash_ eller _Git CMD_ (eller Windows CMD).
-3. Arbeid direkte i nettleseren under https://github.com/nasjonal-arkitektur/nasjonal-arkitektur.github.io , uten å klone til lokalt filområde;  eventuelt bruk asciidoclive for asciidoc-dokumentasjon; ref. https://asciidoclive.com/edit/scratch/1
+3. Arbeid direkte i nettleseren under https://github.com/difi/nasjonal_arkitektur , uten å klone til lokalt filområde;  eventuelt bruk asciidoclive for asciidoc-dokumentasjon; ref. https://asciidoclive.com/edit/scratch/1
 
 
 ==== Alternativ 1: GitHub Desktop
@@ -104,7 +104,7 @@ WARNING: Bruke MS Internet Explorer eller MS Edge! Preview fungerer ikke i Chrom
 
 Om du bruker GitHub Desktop, kan det gjøres slik:
 
-a. Åpne  GitHub-biblioteket i nettleser, dvs.   https://github.com/nasjonal-arkitektur/nasjonal-arkitektur.github.io
+a. Åpne  GitHub-biblioteket i nettleser, dvs.   https://github.com/difi/nasjonal_arkitektur
 
 b. Velg "Clone or Download" i GitHub og velg så "Open in Desktop".
 

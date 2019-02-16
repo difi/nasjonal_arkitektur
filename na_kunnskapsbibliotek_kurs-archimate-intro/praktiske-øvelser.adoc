@@ -12,17 +12,17 @@ include::../na_felles/includes/commonincludes.adoc[]
 
 . *Installer Archi og Collaboration plugin*
 +
-Se link:https://nasjonal-arkitektur.github.io/praktiske-tips/#_installer_archi_og_plugin[]. 
+Se link:https://doc.difi.no/nasjonal-arkitektur/praktiske-tips/#_installer_archi_og_plugin[]. 
 
 . *Importer kurs-modellene.*
 +
-Følg oppskriften under https://nasjonal-arkitektur.github.io/praktiske-tips/#_importer_github_repository, men oppgi https://github.com/nasjonal-arkitektur/nasjonal-arkitektur.github.io/archi-kurs-1. 
+Følg oppskriften under https://doc.difi.no/nasjonal-arkitektur/praktiske-tips/#_importer_github_repository, men oppgi https://github.com/difi/nasjonal_arkitektur/archi-kurs-1. 
 +
 WARNING: Husk å sette Preferences slik at du har kontroll på hvor på harddisken din resultatet havner.
     
 . *Tilpass Default Figures under Preferences*
 +
-Se link:https://nasjonal-arkitektur.github.io/praktiske-tips/#_installer_archi_og_plugin[].
+Se link:https://doc.difi.no/nasjonal-arkitektur/praktiske-tips/#_installer_archi_og_plugin[].
 
 . *Modeller "Hei verden!" - dvs. deg selv i verden.*
 +

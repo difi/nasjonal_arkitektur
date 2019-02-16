@@ -69,7 +69,7 @@ NOTE: Disse og andre løsninger for operativ forvaltning av bibliotekinnholdet v
 == Tips om redigeringsverktøy for Asciidoc - kom i gang!
 Det finnes flere brukbare verktøy for editering av Asciidoc. De fleste vil ha nytte av en editor som gir støtte til formatering og gir  forhåndsvisnig av resultatet, men det er også mulig å benytte en ordinær teksteditor som f.eks. Notepad++ eller redigere tekst direkte i netleseren på Github.com. 
 
-Om du ikke har mulighet til å installere programvare på din maskin og ikke vil vente til du får hjelp av noen med administratorrettigheter, kan du forsøke å arbeide direkte i nettleseren under https://github.com/nasjonal-arkitektur/nasjonal-arkitektur.github.io , uten å klone til lokalt filområde. Du kan alternativt bruke asciidoclive; ref. https://asciidoclive.com/edit/scratch/1
+Om du ikke har mulighet til å installere programvare på din maskin og ikke vil vente til du får hjelp av noen med administratorrettigheter, kan du forsøke å arbeide direkte i nettleseren under https://github.com/difi/nasjonal_arkitektur , uten å klone til lokalt filområde. Du kan alternativt bruke asciidoclive; ref. https://asciidoclive.com/edit/scratch/1
 
 Anbefalt her:
 

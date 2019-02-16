@@ -21,7 +21,7 @@ link:../na_praktiske-tips_archi[Praktiske tips om samarbeid med Archi].
 
 
 == Web-publisering for lesing 
-Publiserte modeller kan navigeres via nettleser; se https://nasjonal-arkitektur.github.io/na_arkitekturbibliotek_modeller/html-hovedbibliotek.
+Publiserte modeller kan navigeres via nettleser; se https://doc.difi.no/nasjonal-arkitektur/na_arkitekturbibliotek_modeller/html-hovedbibliotek.
 
 
 Følgende biblioteker er dessuten tilgjengelige for lesing, samt eventuelt redigering av autoriserte brukere via Archi Collaboration plugin: TBD.
