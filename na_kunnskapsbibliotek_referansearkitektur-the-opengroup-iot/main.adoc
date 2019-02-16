@@ -1,0 +1,29 @@
+:lang: no
+:doctitle: Referensearkitekturer for IoT, The OpenGroup 
+:keywords: Utviklingsmetodikk
+
+include::../na_felles/includes/commonincludes.adoc[]
+
+
+[.lead]
+The London Workshop included presentations of four emerging standard reference architectures: the Draft ISO IoT Reference Architecture, the IIC Industrial Internet Reference Architecture (IIRA), the Reference Architecture Model for Industry 4.0 (RAMI 4.0), and the Web of Things. This chapter contains a comparison of them.
+
+
+
+image:../na_felles/media/i-arbeid.png[width=75, height=75] Første versjon av denne omtalen er fremdeles i arbeid 
+
+
+
+
+////
+////
+
+== Målgrupper
+* Arkitekter
+
+== Hva er dette?
+They use the ArchiMate modeling language as a common graphical language, to facilitate comparison between architecture descriptions that use different diagrammatic notations.
+
+== Hvor kan jeg lese om dette?
+http://www.opengroup.org/iot/wp-refarchs/p3.htm
+

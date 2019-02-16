@@ -2,53 +2,45 @@
 :doctitle: Nasjonal arkitekturplattform
 :keywords: nasjonal arkitektur, virksomhetsarkitektur
 :audience: alle
+include::./na_felles/includes/commonincludes.adoc[]
 
-include::./felles/includes/commonincludes.adoc[]
+// setting imagesdir before displaying the images seems to be necessary in order for the images to display correctly in this case
+:imagesdir: ./na_images/
+image:norsk-flagg.png[width=60, height=60] image:uttar-pradesh-vidhaan-sabha.png[width=150, height=150]
 
+//reset imagesdir
+:imagesdir!:
 
-//:imagesdir@: ./images
-
-//image:./images/eif.png[width=300, height=300] 
-
-
-
-image:./images/norsk-flagg.png[width=60, height=60]
-
-image:./images/uttar-pradesh-vidhaan-sabha.png[width=150, height=150] 
-
-////
-image:linked-data.png[width=75, height=75]
-image:building-1295569_640.png[width=50, height=50] 
-////
-
-//image:./felles/images/i-arbeid.png[width=50, height=50]
 
 [.lead] 
-Platttform for samproduksjon og deling av arkitekturdokumentasjon på tvers av sektorer og virksomheter i Norge. 
+Nasjonal arkitekturplattform er en plattform for samproduksjon og deling av arkitekturdokumentasjon på tvers av sektorer og virksomheter i Norge. 
+
+//image:./na_felles/media/i-arbeid.png[width=50, height=50]
+
 
 NOTE: _Nasjonal arkitekturplattform_ er inntil videre et eksperiment, som ledd i Difis arbeid med kommunikasjonsløsninger.
 
  
-. link:om-plattformen/[Om plattformen]
+. link:./na_om-plattformen/[Om plattformen]
 +
 Denne plattformen er tilrettelagt av Difi, med utgangspunkt i gratis verktøy og åpen kildekode. Plattformen har funksjonalitet for redigering, lagring og publisering av dokumenter og arkitekturmodeller, i tillegg til diskusjonsgrupper m.m.
 
 
-. link:praktiske-tips/[Praktiske tips] 
+. link:./na_praktiske-tips/[Praktiske tips] 
 +
 Praktiske tips for å komme i gang og bidra med innhold, forslag og tilbakemeldinger. 
 
 
-. link:arkitekturbibliotek/[Nasjonalt arkitekturbibliotek]
+. link:./na_arkitekturbibliotek/[Nasjonalt arkitekturbibliotek]
 +
 Rammeverk, standarder, veiledere, føringer, felles behov, felles løsninger, felles arkitekturer, styringsinformasjon og annet av interesse på tvers av sektorer og virksomheter. 
 
-. link:kunnskapsbibliotek/[Kunnskapsbibliotek]
+. link:.\na_kunnskapsbibliotek/[Kunnskapsbibliotek]
 +
 Samling av interessant og relevant informasjon fra eksterne kilder, som redskap for felles forståelse og kunnskapsbygging på tvers. Dette kan være lenker og omtale av internasjonale standarder, utvalgte bøker, verktøy, arkitekturrammeverk fra andre land, med videre. Alle oppfordres til å bidra med innhold eller forslag til innhold.
 
 
-. link:blogg/[Blogger og meningsinnlegg]
+. link:./na_blogg/[Blogger og meningsinnlegg]
 +
 Personlige innlegg - blogger og meningsinnlegg - for å informere eller påvirke  utviklingen av nasjonal arkitektur og nasjonalt arkitekturbibliotek. Alle oppfordres til å bidra med sine personlige meninger. 
 

@@ -1,0 +1,104 @@
+:lang: no
+:doctitle: Kunnskapsbibliotek
+:keywords: Kunnskapsbibliotek
+
+include::../na_felles/includes/commonincludes.adoc[]
+
+
+image:../na_felles/media/i-arbeid.png[width=75, height=75, alt="Figur mangler: i-arbeid.png?",]Uferdig innhold - første versjon er fremdeles i arbeid
+
+
+
+[.lead]
+Her finnes en samling av diverse grunnlagsinformasjon for felles forståelse og kunnskapsbygging på tvers. Dette kan være lenker og omtale av internasjonale standarder, utvalgte bøker, verktøy, arkitekturrammeverk fra andre land, med videre. Kom gjerne med forslag til innhold. Se link:../na_praktiske-tips[praktiske tips] om hvordan.
+
+// NB: Generering av innholdsfortegnelse og lenker må automatiseres
+
+== Strategiske temaer
+=== Generelt
+Figur som viser sammenhengen mellom temaene, samt forholdet til styrende mål og strategier: [red]#TBD#
+
+=== Tverrgående prosesser og tjenesteutvikling
+=== Dataanalyse og kunstig intelligens
+=== Datadeling og informajonsforvaltning
+=== Samhandling og interoperabilitet
+=== Program, portefølje- og prosjektstyring
+=== Digital transformasjon
+link:https://1drv.ms/b/s!Ao0VyYhs1XdLhc0L8fCRiZxkTzjzbA[The Seven Levers of Digital Transformation, An Overview.pdf]
+
+=== Anskaffelser
+Inkl. sourcing,  
+
+== Metodikk
+
+=== Virksomhetsarkitektur
+
+=== Tjenestedesign
+
+=== Service Integration and Management (SIAM)
+
+Se link:../na_kunnskapsbibliotek_metode_siam[Service Integration and Management (SIAM)].
+
+
+== Bøker 
+Tips om spesielt relevante og interessante bøker for virksomhetsarkitekter og andre roller i arbeidet med nasjonal arkitektur.  
+
+=== Data Management Body of Knowledge (DMBOK2)
+link:../na_kunnskapsbibliotek_bok-dmbok2[2017: Data Management Body of Knowledge (DMBOK2)] er et omfattende og sterkt verk om data- og informasjonsforvaltning fra DAMA, utarbeidet av mange spesialister over flere år. Se også  link:../na_kunnskapsbibliotek_bok-navigating-the-labyrinth[Navigating the Labyrinth: An Executive Guide to Data Management (2018)], som er en  forkortet og forenklet framstilling av den større og mer kompliserte DMBOK2. 
+
+=== The Information Management Body of Knowledge (IMBOK)
+Se http://www.imbok.info/.
+
+=== Business Architecture Body of Knowledge (BIZBOK)
+
+=== Business Analysis Body of Knowledge (BABOK)
+Se https://www.iiba.org/standards-and-resources/babok/
+
+=== Digital Professional Body of Knowledge (DPBOK)
+
+
+== Arkitekturrammeverk fra andre land
+
+. link:../na_kunnskapsbibliotek_arkitekturrammeverk-india[indEA - arkitekturrammeverk fra India]
+
+. Arkitekturrammeverk fra Western Australia
+
+
+== Referansearkitekturer
+=== Foundation Architectures
+==== The Open Group: IT4IT
+link:../na_kunnskapsbibliotek_referansearkitektur-the-opengroup-it4it[The OpenGroup's IT4IT] - en standard referansearkitektur for verdikjedene i utvikling og og forvaltning av IT-tjenester.
+
+==== The Open Group: The TOGAF® Technical Reference Model (TRM)
+
+==== The Open Group: Technology Base Reference Models for Open Platform 3.0
+
+link:https://1drv.ms/b/s!Ao0VyYhs1XdLhc0J9VFSjTVqOvu_1g[Technology Base Reference Models for Open Platform 3.0.pdf]
+
+=== Common Systems Architectures
+
+==== The Open Group: Four Internet of Things Reference Architectures
+http://www.opengroup.org/iot/wp-refarchs/p3.htm
+
+
+=== Industry Arhitectures
+
+=== Organization-Specific Architectures
+
+==== Referansearkitekturer og referansemodeller fra andre land
+
+. New Zealand: Taksonomier
+. Danmark: Referansearkitekturer for selvbetjening, saksbehandling, tverrgående tjenester, m.m. 
+
+. Estland: Datamodeller
+ 
+== Internasjonale aktører og aktiviteter 
+=== EU 
+==== Digital Single Market
+https://ec.europa.eu/digital-single-market/en/news/digital-single-market-mid-term-review
+
+
+==== ISA2-programmet
+https://ec.europa.eu/isa2/isa2_en
+
+image:../na_felles/media/i-arbeid.png[width=75, height=75, alt="Figur mangler: i-arbeid.png?",]

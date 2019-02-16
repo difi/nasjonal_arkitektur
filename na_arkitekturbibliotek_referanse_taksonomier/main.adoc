@@ -1,0 +1,49 @@
+:lang: no
+:doctitle: Taksonomier
+:keywords: Taksonomier
+:preamble: Her kommer informasjon om taksonomier for datamodeller, sluttbrukertjenester, IT-tjenester og teknologier.
+
+include::../na_felles/includes/commonincludes.adoc[]
+
+
+////
+////
+image:../na_felles/media/i-arbeid.png[width=75, height=75]
+
+== Hvorfor taksonomier?
+
+* Navigering via taksonomi/kategorier
+
+* Søkeoptimalisering
+
+* Flerspråklige beskrivelser 
+
+* Menystruktur for offentlige tjeneste
+
+* Benchmarking - hvike tjenester/prosesser/leverandøer gir best tjeneste (ytelse, pris)
+
+* Capability lookup  
+
+* Fjerne redundans/overlapp 
+
+* Porteføljestyring – proaktivt, behovsdrevet
+
+* Interoperabilitet  - interoperable prosesser, kontroll på avhengigheter
+
+
+== Research
+
+//include::./oystein.adoc[]
+
+include::../na_kunnskapsbibliotek_taksonomier_LOS/main.adoc[]
+
+include::../na_kunnskapsbibliotek_taksonomier_research/klassifikasjonssystemer-research.adoc[]
+
+Se også:
+
+
+* link:../na_kunnskapsbibliotek_taksonomier_research/klassifikasjonssystemer-research.adoc[Klassifikasjonssystemer-research(asciidoc, migrering fra MS Word i arbeid)]
+
+
+* link:../na_kunnskapsbibliotek_taksonomier_research/klassifikasjonssystemer-research-1.docx[Klassifikasjonssystemer - research mars 2018 (MS Word)]
+

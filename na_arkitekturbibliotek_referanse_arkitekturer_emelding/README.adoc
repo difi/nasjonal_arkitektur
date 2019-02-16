@@ -1,0 +1,17 @@
+:lang: no
+:difi_orig_language: no
+:difi_translation_status: -
+:doctitle_no:  Referansearkitektur for eMelding
+:keywords_no: eMelding, referansearkitektur
+:doctitle_en: English title TBD  
+:keywords_en: English keywords TBD
+
+:preamble: Område for lagring av dokumentasjon relatert til arbeidet med referansearkitekturer for eMelding. 
+
+include::../na_felles/includes/standardheader.adoc[]
+include::../na_felles/includes/commonlinks1.adoc[]
+
+// Article contents written below this point
+== Overskrift 1
+
+...

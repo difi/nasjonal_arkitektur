@@ -1,0 +1,4 @@
+= geonorge.no
+
+== Kort beskrivelse
+Nasjonal portal for kartdata, med mulighet for å søke etter og få tilgang til tilgjengelig informasjon​

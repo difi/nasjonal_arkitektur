@@ -1,0 +1,51 @@
+:doctitle: Tips for å skrive enkle dokumenter
+:revdate: 2018-08-06
+:keywords: dokumentasjon, asciidoc, tips, maler
+include::../na_felles/includes/standardheader.adoc[]
+
+Skriv det ned! Det skal være enkelt å gjøre, enten det er en huskelapp, en blogg eller en seksjon om noe som i neste omgang kanskje skal inngå som et kapittel i et større dokument eller en bok. 
+
+Du kan velge å bruke en standard teksteditor som f.eks, Notepad og selv angi koder for å angi formatering og mening. 
+
+Du kan også velge å bruke en mer avansert editor som f.eks. AsciidocFX, som gir deg et brukergrensesnitt som likner noe på Word, men som etter litt tilvenning gir deg bedre kontroll over resultatet. Du skriver innhold og "kommandoer" i ett vindu og ser umiddelbart en forhåndsvisning av resultatet i et annet vindu. For noen av de vanligste operasjonene har du knapper i en verktøylinje som i Word. Dette dekker de mest elementære behovene, slik som blant annet tekstsformatering, lister, tabeller og insetting av bilder.
+
+Her er noen maler for å skrive enkle dokumenter:
+    
+    * Mal for enkel artikkel. Eksempel: #TBD#
+    * Mal for enkel blogg. Eksempel:  #TBD#
+    * Mal for enkelt notat.Eksempel:  #TBD#
+    * Mal for enkelt møtereferat. Eksempel: #TBD# 
+
+////
+=======================
+ALT NEDENFOR ER GAMMELT - SLETTES ELLET FLYTTES...
+
+Her følger noen enkle tips:
+
+* Punkter i unummerert liste (som her)
+* Andre former for lister (#kommer her#)
+* Sette inn figurer og bilder (se nedenfor)
+* Lenker til eksternt innhold på web, som f.eks. https://asciidoctor.org/docs/user-manual/[Asciidoctor User Manual]
+* <<Interne kryssreferanser>> 
+* Kapittelinndeling (se nedenfor)
+
+== Ekspempel på kapittel
+=== Eksempel på underkapittel
+Om du vil med kapitler (sections), i enkle artikkel, kan det gjøres slik som dette. En kan også generere innholdsfortegnelse, men det beskrives nærmere under http://url[Hvordan sette sammen  dokumenter og bøker].
+
+Et viktig poeng her er uansett at en kan sette sammen artikler som kapitler i dokumenter (bøker).Det er da mulig å tilpasse kapittelnivået, slik at du ikke behøver å tenke på det når du skriver en artikkel som dette.
+
+=== Interne kryssreferanser
+Dette kan gjøres på flere måter, f.eks. slik som lenken hit fra listen over.
+
+=== Sette inn figurer og bilder
+Anbefaling: Sett attributt #imagedir# i header og lagre aktuelle figurer i denne mappen. Deretter kan bilder enkelt tas inn, f.eks. slik dette... //image:./media/difilogo.svg[image,width=169,height=66]
+
+=== Annet
+[red]#Flere tips kommer her#.
+
+I mellomtiden, se
+
+* https://asciidoctor.org/docs/user-manual/[Asciidoctor User Manual].
+* ...
+////

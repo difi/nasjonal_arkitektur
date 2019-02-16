@@ -1,0 +1,28 @@
+:lang: no
+:difi_orig_language: no
+:difi_translation_status: -
+
+:doctitle_no: Løsningslandskap
+:keywords_no: Løsningslandskap, arkitekturbibliotek
+:doctitle_en: English title TBD  
+:keywords_en: English keywords TBD
+
+
+include::../na_felles/includes/commonincludes.adoc[]
+
+[.lead]
+Løsningslandskapet inneholder byggeklosser i form av spesifikke applikasjoner, tjenester, prosesser m.m.
+
+
+// Article contents written below
+== Generelt
+Sitat fra TOGAF 9.2:
+
+ The Solutions Landscape holds the Solution Building Blocks (SBBs) which support the Architecture Building Blocks (ABBs) specified, developed, and deployed. The building blocks may be products or services which may be categorized according to the Enterprise Continuum categorization and/or the ABB specifications as Strategic, Segment, or Capability SBBs.
+
+ SBBs may also include tools, systems, services, and information which describe the actual solutions that may be selected and their operation. For example, vendor-specific reference models or vendor-specific levels 4 and 5 of the IT4IT Reference Architecture would be defined here.
+
+ However, the Solutions Landscape will not include the information and data content produced by the solutions selected; that is the responsibility of the solutions themselves.
+
+== Løsningsbyggeklosser
+link:../na_arkitekturbibliotek_løsningslandskap_ssb/[Nasjonale fellesløsninger]

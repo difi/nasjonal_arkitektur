@@ -1,0 +1,17 @@
+:lang: no
+:attr_orig_language: no
+:attr_translation_status: incomplete
+//:author: Erik
+//:email: erik.hagen@difi.no
+:revdate: 2018-08-06
+:doctitle_en: User manual for the GitHub based Architecture Repository  
+:doctitle_no: Brukerveiledning for arkitekturbibliotek på GitHub
+:keywords_no: Brukerveiledning, GitHub, arkitekturbibliotek
+:keywords_en: User manual, GitHub, Architecture Repository
+
+//:preamble: Fjern kommentar om du vil ha med innledningsvis beskrivelse med noe større skrift (og erstatt denne teksten). Wikipedia: A preamble is an introductory and expressionary statement in a document that explains the document's purpose and underlying philosophy. 
+
+include::../na_felles/includes/standardheader.adoc[]
+include::../na_felles/includes/commonlinks1.adoc[]
+
+Readme-tekst kommer her...

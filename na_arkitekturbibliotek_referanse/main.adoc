@@ -1,0 +1,12 @@
+:lang: no
+:doctitle: Referansebibliotek
+:keywords: Referansebibliotek
+
+
+include::../na_felles/includes/commonincludes.adoc[]
+
+. link:../na_arkitekturbibliotek_referanse_begreper[Begreper]
+. link:../na_arkitekturbibliotek_referanse_arkitekturer[Referansearkitekturer og god praksis]
+. link:../na_arkitekturbibliotek_referanse_taksonomier[Taksonomier]
+. link:../na_arkitekturbibliotek_referanse_maler[Maler]
+

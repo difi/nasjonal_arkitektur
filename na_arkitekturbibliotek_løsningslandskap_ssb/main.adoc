@@ -1,0 +1,90 @@
+:lang: no
+:difi_orig_language: no
+:difi_translation_status: -
+:doctitle_no: Nasjonale fellesløsninger
+:keywords_no: Løsningslandskap, fellessløsninger, fellestjenester, felleskomponenter
+:doctitle_en: English title TBD  
+:keywords_en: English keywords TBD
+include::../na_felles/includes/commonincludes.adoc[]
+
+[.lead]
+Nasjonale fellesløsninger - foreløpig utvalg
+
+== Generelt om nasjonale fellesløsninger
+TBD.
+
+== Nasjonale fellesløsninger (utvalg)
+. link:../na_arkitekturbibliotek_løsningslandskap_sbb_altinn-samhandlings-og-integrasjonsplattform/[ID-porten]
++
+Påloggingsløsning som tilbyr innbyggerne en sikker digital tjeneste.
+
+
+. link:../na_arkitekturbibliotek_løsningslandskap_sbb_altinn-tilgangsstyring/[Altinn Tilgangsstyring]
++
+Gir tilgang til å benytte data eller tjenester basert på autorisasjon.
+
+. link:../na_arkitekturbibliotek_løsningslandskap_sbb_altinn-tjenesteplattform/[Altinn tjenesteplattform]
++
+Samling av tjenester og funksjoner for deling og gjenbruk av data og tjenester fra offentlig sektor. Plattformen gjør det enkelt for offentlige virksomheter (tjenesteeiere) å utvikle digitale tjenester til sine brukere, både innbyggere og virksomheter.
+
+. link:../na_arkitekturbibliotek_løsningslandskap_sbb_altinn-samhandlings-og-integrasjonsplattform/[Altinn samhandlings- og 
+integrasjonsplattform]
++
+Samling tjenester og funksjoner for utveksling av data og informasjon.
+
+. link:../na_arkitekturbibliotek_løsningslandskap_sbb_difi-digital-post-til-innbyggere/[Digital postkasse til innbyggere (DPI)]
++
+Løsning for å sende digital post til innbyggere.
+
+. link:../na_arkitekturbibliotek_løsningslandskap_sbb_brreg-digital-post-til-virksomheter/[Digital post til virksomheter (DPV)]
++
+Løsning for å sende digital post til virksomheter.
+
+
+. link:../na_arkitekturbibliotek_løsningslandskap_sbb_difi-kontakt-og-reservasjonsregisteret​-for-innbyggere/[Kontakt- og reservasjonsregisteret​ for innbyggere (KRR)]
++
+Register over digital kontaktinformasjon (mobilnummer og e-postadresse) og reservasjonsstatus. Fellesløsning for å samle inn og tilgjengeliggjøre informasjonen.
+
+. link:../na_arkitekturbibliotek_løsningslandskap_sbb_brreg-digital-kontaktinformasjon-og-fullmakter-for-virksomheter/[Digital kontaktinformasjon og fullmakter for virksomheter (KoFuVi)]
++
+Fellesløsning for å samle inn og tilgjengeliggjøre opplysninger om digital kontaktinformasjon og fullmakter for virksomheter.
+
+. link:../na_arkitekturbibliotek_løsningslandskap_sbb_difi-eformidling/[eFormidling]
++
+Løsning for å forenkle sending og mottak av meldinger med grensenitt til virksomhetenes fagsystemer.
+
+. link:../na_arkitekturbibliotek_løsningslandskap_sbb_difi-einnsyn/[eInnsyn]
++
+Felles løsning for publisering av postlister, og kanal for tilgjengeliggjøring av publiserte dokumenter​
+
+. link:../na_arkitekturbibliotek_løsningslandskap_sbb_brreg-enhetsregisteret/[Enhetsregisteret]
++
+Grunndata om enheter.
+
+. link:../na_arkitekturbibliotek_løsningslandskap_sbb_difi-esignering/[eSignering]
++
+Løsning for å signere dokumenter digitalt.
+
+
+. link:../na_arkitekturbibliotek_løsningslandskap_sbb_brreg-felles-datakatalog/[Felles datakatalog, API-katalog og begrepskatalog]
++
+Oversikt over hvilke data de ulike offentlige virksomhetene har, hvordan de henger sammen og hva de betyr.
+
+. link:../na_arkitekturbibliotek_løsningslandskap_sbb_skattetaten-folkeregisteret/[Folkeregisteret]
++
+Nasjonalt grunndataregister om personer.
+
+
+. link:../na_arkitekturbibliotek_løsningslandskap_sbb_ks-fiks-tjenesteplattform/[KS FIKS tjenesteplattform]
++
+Plattform for utvikling og drift av kommunale applikasjonstjenester som benyttes i offentlige tjenester.
+
+. link:../na_arkitekturbibliotek_løsningslandskap_sbb_ks-svarut/[KS SvarUt]
++
+Meldingstjeneste på FIKS-plattformen som formidler avsenders forsendelse via den kanalen mottaker har valgt.
+
+
+. link:../na_arkitekturbibliotek_løsningslandskap_sbb_kartverket-matrikkelen/[Matrikkelen]
++
+Nasjonalt grunndataregister for informasjon om eiendom.
+

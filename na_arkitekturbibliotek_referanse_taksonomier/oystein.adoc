@@ -1,0 +1,7 @@
+:lang: no
+:doctitle: Øystein?
+:keywords: 
+
+include::../na_felles/includes/commonincludes.adoc[]
+
+== Kap. 1?
