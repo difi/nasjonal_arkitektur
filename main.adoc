@@ -45,3 +45,7 @@ Samling av interessant og relevant informasjon fra eksterne kilder, som redskap 
 Personlige innlegg - blogger og meningsinnlegg - for å informere eller påvirke  utviklingen av nasjonal arkitektur og nasjonalt arkitekturbibliotek. Alle oppfordres til å bidra med sine personlige meninger. 
 
 
+http://www.vg.no[vg]
+
+link:http://www.vg.no[vg]
+
