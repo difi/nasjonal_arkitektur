@@ -1,0 +1,19 @@
+:lang: no
+:doctitle: Archimate navnestandarder
+:keywords: Archimate
+
+include::../na_felles/includes/commonincludes.adoc[]
+
+== Generelt
+Om intet annet er sagt, følger vi de navnestandardene som gis av Archinare-stanadse.......
+
+... presieruiger
+
+== Prosess
+
+
+== Kapabilitet
+Bruk verb slik at dte asser med ..
+
+
+Aktør elelr system må være i s tand til å ......
