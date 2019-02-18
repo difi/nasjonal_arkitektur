@@ -1,5 +1,5 @@
 :lang: no
-:doctitle: Konvesnjoner for modlelering med Archimate 
+:doctitle: Konvensjoner for modlelering med Archimate 
 :keywords: Archimate
 
 include::../na_felles/includes/commonincludes.adoc[]
