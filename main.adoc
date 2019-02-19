@@ -1,8 +1,4 @@
-:lang: no
-:doctitle: Nasjonal arkitekturplattform
-:keywords: nasjonal arkitektur, virksomhetsarkitektur
-:audience: alle
-include::./plattform_felles/includes/commonincludes.adoc[]
+Se: link:./plattform_/[Nasjonal arkitekturplattform]
 
-include::./plattform_/main.adoc[]
+//include::./plattform_/main.adoc[]
 
