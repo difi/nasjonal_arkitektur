@@ -1,0 +1,13 @@
+:lang: no
+:doctitle: Kravbibliotek - funksjonelle behov
+:keywords: Krav
+
+
+include::../nab_felles/includes/commonincludes.adoc[]
+
+
+
+
+
+
+

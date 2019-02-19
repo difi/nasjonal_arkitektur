@@ -2,7 +2,7 @@
 :doctitle: The OpenGroup's IT4IT
 :keywords: Utviklingsmetodikk
 
-include::../na_felles/includes/commonincludes.adoc[]
+include::../nab_felles/includes/commonincludes.adoc[]
 
 
 [.lead]
@@ -11,9 +11,9 @@ IT4IT fra The Open Group er en standard referansearkitektur for verdikjedene i u
 image:./media/it4it-logo.png[]
 
 
-// :imagesdir@: ../na_felles/media
+// :imagesdir@: ../nab_felles/media
 
-image:../na_felles/media/i-arbeid.png[width=75, height=75] Første versjon av denne omtalen er fremdeles i arbeid - men kanskje du finner noe nyttig?
+image:../nab_felles/media/i-arbeid.png[width=75, height=75] Første versjon av denne omtalen er fremdeles i arbeid - men kanskje du finner noe nyttig?
 
 
 
@@ -94,4 +94,4 @@ image:./media/it-value-chain.png[]
 osv.
 
 
-image:../na_felles/media/i-arbeid.png[width=75, height=75] I arbeid 
+image:../nab_felles/media/i-arbeid.png[width=75, height=75] I arbeid 

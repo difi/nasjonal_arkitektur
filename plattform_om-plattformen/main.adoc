@@ -2,12 +2,12 @@
 :doctitle: Om plattformen
 :keywords: Github, asciidoc, archi, slack
 
-include::../na_felles/includes/commonincludes.adoc[]
+include::../nab_felles/includes/commonincludes.adoc[]
 
 [.lead]
 Plattform for samproduksjon og deling av arkitekturdokumentasjon, tilrettelagt av Difi.
 
-image:../na_felles/media/i-arbeid.png[width=75, height=75] I arbeid
+image:../nab_felles/media/i-arbeid.png[width=75, height=75] I arbeid
 
 :numbered:
 

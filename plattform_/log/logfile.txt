@@ -468,3 +468,1017 @@
 19.02.2019 06:20:07: Start SjekkAsciidocInclude()
 19.02.2019 06:20:10: Start SjekkAsciidocLinks()
 19.02.2019 06:20:10: Error: Failed to locate link file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_standarder\, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_\main.adoc
+19.02.2019 06:23:05: SøkTekstIAlleFiler(na_)
+19.02.2019 06:23:06: Linje: include::./na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:06: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\main.adoc
+19.02.2019 06:23:06: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:06: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75]
+19.02.2019 06:23:06: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\blogg_\all-of-government.adoc
+19.02.2019 06:23:06: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:06: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75] Uferdig innhold - første versjon er fremdeles i arbeid
+19.02.2019 06:23:06: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\blogg_\main.adoc
+19.02.2019 06:23:06: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:06: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75] Svar i arbeid
+19.02.2019 06:23:06: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\blogg_2018-12-28-sporsmål-om-drift-og-forvaltning-av-ikt\sporsmål-om-drift-og-forvaltning-av-ikt.adoc
+19.02.2019 06:23:06: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:06: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75, alt="Figur mangler: i-arbeid.png?",]Uferdig innhold - første versjon er fremdeles i arbeid
+19.02.2019 06:23:06: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75, alt="Figur mangler: i-arbeid.png?",]
+19.02.2019 06:23:06: 3 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_\main.adoc
+19.02.2019 06:23:06: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:06: Linje: //image:../na_felles/media/i-arbeid.png[width=75, height=75]
+19.02.2019 06:23:06: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_arkitekturrammeverk-india\indias-arkitekturrammeverk.adoc
+19.02.2019 06:23:06: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:06: Linje: //image:../na_felles/media/i-arbeid.png[width=75, height=75]
+19.02.2019 06:23:06: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_arkitekturrammeverk-india\main.adoc
+19.02.2019 06:23:06: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:06: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_bok-dmbok2\main.adoc
+19.02.2019 06:23:06: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:06: Linje: //image:../na_felles/media/i-arbeid.png[width=75, height=75] Uferdig innhold - første versjon er fremdeles i arbeid
+19.02.2019 06:23:06: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_bok-navigating-the-labyrinth\main.adoc
+19.02.2019 06:23:06: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:06: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_kurs-archimate-intro\kjøreplan.adoc
+19.02.2019 06:23:06: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:06: Linje: //image:../na_felles/media/i-arbeid.png[width=75, height=75] Første versjon av denne omtalen er fremdeles i arbeid 
+19.02.2019 06:23:06: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_kurs-archimate-intro\main.adoc
+19.02.2019 06:23:06: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:06: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_kurs-archimate-intro\praktiske-øvelser.adoc
+19.02.2019 06:23:06: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:06: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_kurs-archimate-intro\temaer.adoc
+19.02.2019 06:23:06: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:06: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75]Uferdig innhold - første versjon er fremdeles i arbeid
+19.02.2019 06:23:06: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_metode_siam\main.adoc
+19.02.2019 06:23:06: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:06: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75] Første versjon av denne omtalen er fremdeles i arbeid 
+19.02.2019 06:23:06: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_referansearkitektur-the-opengroup-iot\main.adoc
+19.02.2019 06:23:06: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:06: Linje: // :imagesdir@: ../na_felles/media
+19.02.2019 06:23:06: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75] Første versjon av denne omtalen er fremdeles i arbeid - men kanskje du finner noe nyttig?
+19.02.2019 06:23:06: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75] I arbeid 
+19.02.2019 06:23:06: 4 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_referansearkitektur-the-opengroup-it4it\main.adoc
+19.02.2019 06:23:06: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:06: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_standard-archimate\kilder-til-kunnskap.adoc
+19.02.2019 06:23:06: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:06: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75] Første versjon av denne omtalen er fremdeles i arbeid 
+19.02.2019 06:23:06: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_standard-archimate\main.adoc
+19.02.2019 06:23:06: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:06: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_taksonomier_LOS\main.adoc
+19.02.2019 06:23:06: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:06: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75] Uferdig innhold
+19.02.2019 06:23:06: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_verktøy_asciidoc-fx\main.adoc
+19.02.2019 06:23:06: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:06: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75] Uferdig innhold
+19.02.2019 06:23:06: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_verktøy_asciidoctor\main.adoc
+19.02.2019 06:23:06: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:06: Linje: //image:../na_felles/media/difilogo.svg[image,width=169,height=66]
+19.02.2019 06:23:06: Linje: //image:../na_felles/media/i-arbeid.png[width=75, height=75]I arbeid
+19.02.2019 06:23:06: Linje: Se link:../na_modeller/[modellbiblioteket] om arkitekturmodeller.
+19.02.2019 06:23:06: Linje: . link:../na_rammeverk/[Rammeverk]
+19.02.2019 06:23:06: Linje: . link:../na_arkitekturlandskap/[Arkitekturlandskap]
+19.02.2019 06:23:06: Linje: . link:../na_løsningslandskap/[Løsningslandskap]
+19.02.2019 06:23:06: Linje: . link:../na_standard/[Standarder]
+19.02.2019 06:23:06: Linje: . link:../na_kravbibliotek/[Funksjonelle behov (kravbibliotek)]
+19.02.2019 06:23:06: Linje: . link:../na_referanse_/[Referansebibliotek]
+19.02.2019 06:23:06: Linje: . link:../na_organisering/[Organisering og kompetanse]
+19.02.2019 06:23:06: Linje: . link:../na_styring/[Styring og oppfølging]
+19.02.2019 06:23:06: 12 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_\main.adoc
+19.02.2019 06:23:06: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:06: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_arkitekturlandskap\main.adoc
+19.02.2019 06:23:06: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:06: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_kravbibliotek\main.adoc
+19.02.2019 06:23:06: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:06: Linje: link:../na_løsningslandskap_ssb/[Nasjonale fellesløsninger]
+19.02.2019 06:23:06: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap\main.adoc
+19.02.2019 06:23:06: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:06: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_altinn-samhandlings-og-integrasjonsplattform\main.adoc
+19.02.2019 06:23:06: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:06: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_altinn-tilgangsstyring\main.adoc
+19.02.2019 06:23:06: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:06: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_altinn-tjenesteplattform\main.adoc
+19.02.2019 06:23:06: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:06: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_brreg-digital-kontaktinformasjon-og-fullmakter-for-virksomheter\main.adoc
+19.02.2019 06:23:06: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:06: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_brreg-digital-post-til-virksomheter\main.adoc
+19.02.2019 06:23:06: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:06: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_brreg-enhetsregisteret\main.adoc
+19.02.2019 06:23:06: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:06: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_brreg-felles-datakatalog\main.adoc
+19.02.2019 06:23:06: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:06: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_difi-digital-post-til-innbyggere\main.adoc
+19.02.2019 06:23:06: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:06: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_difi-eformidling\main.adoc
+19.02.2019 06:23:06: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:06: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_difi-einnsyn\main.adoc
+19.02.2019 06:23:06: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:06: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_difi-esignering\main.adoc
+19.02.2019 06:23:06: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:06: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_difi-idporten\main.adoc
+19.02.2019 06:23:06: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:06: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_difi-kontakt-og-reservasjonsregisteret​-for-innbyggere\main.adoc
+19.02.2019 06:23:06: Linje: include::../na_felles/includes/standardheader.adoc[]
+19.02.2019 06:23:06: Linje: include::../na_felles/includes/commonlinks1.adoc[]
+19.02.2019 06:23:06: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_difi-nasjonalt-arkitekturbiblotek\dokumentasjonskonvensjoner.adoc
+19.02.2019 06:23:06: Linje: include::../na_felles/includes/standardheader.adoc[]
+19.02.2019 06:23:06: Linje: include::../na_felles/includes/commonlinks1.adoc[]
+19.02.2019 06:23:06: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_difi-nasjonalt-arkitekturbiblotek\README.adoc
+19.02.2019 06:23:06: Linje: include::../na_felles/includes/standardheader.adoc[]
+19.02.2019 06:23:06: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_difi-nasjonalt-arkitekturbiblotek\Tips_for_å_skrive_enkle_dokumenter.adoc
+19.02.2019 06:23:06: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:06: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_kartverket-geonorge\main.adoc
+19.02.2019 06:23:06: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:06: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_kartverket-matrikkelen\main.adoc
+19.02.2019 06:23:06: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:06: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_ks-fiks-tjenesteplattform\main.adoc
+19.02.2019 06:23:06: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:06: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_ks-svarut\main.adoc
+19.02.2019 06:23:06: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:06: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_skattetaten-folkeregisteret\main.adoc
+19.02.2019 06:23:06: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:06: Linje: . link:../na_løsningslandskap_sbb_altinn-samhandlings-og-integrasjonsplattform/[ID-porten]
+19.02.2019 06:23:06: Linje: . link:../na_løsningslandskap_sbb_altinn-tilgangsstyring/[Altinn Tilgangsstyring]
+19.02.2019 06:23:06: Linje: . link:../na_løsningslandskap_sbb_altinn-tjenesteplattform/[Altinn tjenesteplattform]
+19.02.2019 06:23:06: Linje: . link:../na_løsningslandskap_sbb_altinn-samhandlings-og-integrasjonsplattform/[Altinn samhandlings- og 
+19.02.2019 06:23:06: Linje: . link:../na_løsningslandskap_sbb_difi-digital-post-til-innbyggere/[Digital postkasse til innbyggere (DPI)]
+19.02.2019 06:23:06: Linje: . link:../na_løsningslandskap_sbb_brreg-digital-post-til-virksomheter/[Digital post til virksomheter (DPV)]
+19.02.2019 06:23:06: Linje: . link:../na_løsningslandskap_sbb_difi-kontakt-og-reservasjonsregisteret​-for-innbyggere/[Kontakt- og reservasjonsregisteret​ for innbyggere (KRR)]
+19.02.2019 06:23:06: Linje: . link:../na_løsningslandskap_sbb_brreg-digital-kontaktinformasjon-og-fullmakter-for-virksomheter/[Digital kontaktinformasjon og fullmakter for virksomheter (KoFuVi)]
+19.02.2019 06:23:06: Linje: . link:../na_løsningslandskap_sbb_difi-eformidling/[eFormidling]
+19.02.2019 06:23:06: Linje: . link:../na_løsningslandskap_sbb_difi-einnsyn/[eInnsyn]
+19.02.2019 06:23:06: Linje: . link:../na_løsningslandskap_sbb_brreg-enhetsregisteret/[Enhetsregisteret]
+19.02.2019 06:23:06: Linje: . link:../na_løsningslandskap_sbb_difi-esignering/[eSignering]
+19.02.2019 06:23:06: Linje: . link:../na_løsningslandskap_sbb_brreg-felles-datakatalog/[Felles datakatalog, API-katalog og begrepskatalog]
+19.02.2019 06:23:06: Linje: . link:../na_løsningslandskap_sbb_skattetaten-folkeregisteret/[Folkeregisteret]
+19.02.2019 06:23:06: Linje: . link:../na_løsningslandskap_sbb_ks-fiks-tjenesteplattform/[KS FIKS tjenesteplattform]
+19.02.2019 06:23:06: Linje: . link:../na_løsningslandskap_sbb_ks-svarut/[KS SvarUt]
+19.02.2019 06:23:06: Linje: . link:../na_løsningslandskap_sbb_kartverket-matrikkelen/[Matrikkelen]
+19.02.2019 06:23:06: 18 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_ssb\main.adoc
+19.02.2019 06:23:06: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:06: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75]
+19.02.2019 06:23:06: Linje: Publiserte modeller kan navigeres via nettleser; se https://doc.difi.no/nasjonal-arkitektur/na_modeller/html-hovedbibliotek.
+19.02.2019 06:23:06: 3 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_modeller\main.adoc
+19.02.2019 06:23:06: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:06: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_organisering\main.adoc
+19.02.2019 06:23:06: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:06: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75]
+19.02.2019 06:23:06: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_organisering_kompetanse\main.adoc
+19.02.2019 06:23:06: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:06: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75] Foreløpig tekst
+19.02.2019 06:23:06: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_rammeverk\main.adoc
+19.02.2019 06:23:06: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:06: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75] Foreløpig tekst
+19.02.2019 06:23:06: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_rammeverk_metamodell\main.adoc
+19.02.2019 06:23:06: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:06: Linje: . link:../na_referanse_begreper[Begreper]
+19.02.2019 06:23:06: Linje: . link:../na_referanse_arkitekturer[Referansearkitekturer og god praksis]
+19.02.2019 06:23:06: Linje: . link:../na_referanse_taksonomier[Taksonomier]
+19.02.2019 06:23:06: Linje: . link:../na_referanse_maler[Maler]
+19.02.2019 06:23:06: 5 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_\main.adoc
+19.02.2019 06:23:06: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:06: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75]
+19.02.2019 06:23:06: Linje: include::../na_referanse_arkitekturer/strategi-for-referansearkitekturer.adoc[]
+19.02.2019 06:23:07: Linje: include::../na_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer/main.adoc[]
+19.02.2019 06:23:07: Linje: include::../na_referanse_arkitekturer_samhandlingsmønstre/main.adoc[]
+19.02.2019 06:23:07: Linje: include::../na_referanse_arkitekturer_eoppslag/eOppslag-Referansearkitektur.adoc[]
+19.02.2019 06:23:07: 6 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer\main.adoc
+19.02.2019 06:23:07: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:07: Linje: I dokumentasjon av link:../na_referanse_arkitekturer_samhandlingsmønstre/main.adoc[Samhandlingsmønstre] dokumenteres det hvordan de forskjellige forretningsmessige samhandlingsmønstrene hver og en kan mappes mot en bestemt referansearkitektur. For en referansearkitektur kan man så igjen finne beste tekniske løsningsarkitektur som dokumenterer beste praksis for hvordan man teknisk skal samhandle for å realisere et samhandlingsmønster. Se link:../na_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer[Metode for valg av referansearkitektur] for beste praksis for å gå fra digital samhandlingsprosess til løsningsarkitektur.
+19.02.2019 06:23:07: Linje: Se link:../na_referanse_arkitekturer_eoppslag/eOppslag-referansearkitektur.adoc[eOppslag] for mer informasjon om referansearkitektur for eOppslag.
+19.02.2019 06:23:07: 3 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer\strategi-for-referansearkitekturer.adoc
+19.02.2019 06:23:07: Linje: include::../na_felles/includes/standardheader.adoc[]
+19.02.2019 06:23:07: Linje: include::../na_felles/includes/commonlinks1.adoc[]
+19.02.2019 06:23:07: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_emelding\README.adoc
+19.02.2019 06:23:07: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:07: Linje: . link:../na_referanse_arkitekturer_eoppslag_sikkerhet/eOppslag_sikkerhetsmodell_overordnet.adoc[Overordnet innføring i sikkerhetsmekanismer for eOppslag]
+19.02.2019 06:23:07: Linje: . link:../na_referanse_arkitekturer_eoppslag_sikkerhet/20180629-eoppslag-autorisering-og-delegering.adoc[Modell for autorisering og delegering - eOppslag]
+19.02.2019 06:23:07: 3 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
+19.02.2019 06:23:07: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:07: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag_sikkerhet\20180629-eoppslag-autorisering-og-delegering.adoc
+19.02.2019 06:23:07: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:07: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag_sikkerhet\eOppslag_sikkerhetsmodell_overordnet.adoc
+19.02.2019 06:23:07: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:07: Linje: For hvert samhandlingsmønster pekes det på hvilken link:../na_referanse_arkitekturer/main.adoc[referansearkitektur] som skal benyttes for samhandlingen.
+19.02.2019 06:23:07: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_samhandlingsmønstre\main.adoc
+19.02.2019 06:23:07: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:07: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer\Generelt.adoc
+19.02.2019 06:23:07: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:07: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75]
+19.02.2019 06:23:07: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer\main.adoc
+19.02.2019 06:23:07: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:07: Linje: Digital samhandling mellom virksomheter vil fra et forretningsperspektiv gjøres på et fåtall måter. Dette kaller vi llink:../na_referanse_arkitekturer_samhandlingsmønstre/main.adoc[samhandlingsmønstre]. I link:./Steg2.adoc[steg 2] vil vi se på hvordan vi enkelt kan avdekke hvilke samhandlingsmønstre man har behov for å realisere en digital samhandlingsprosess og deretter mappe disse mor referansearkitekturer i link:./Steg3.adoc[steg 3]. Først når man har identifisert samhandlingsmønstre og referansearkitektur, er det riktig å diskutere løsningsarkitektur og hvilke tekniske løsningsalternativer man har for hver enkelt samhandling. Dette ser vi på i link:./Steg4.adoc[steg 4]. Sagt på en annen måte, man må forstå og være enige om behovet før man kan diskutere teknologi.
+19.02.2019 06:23:07: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer\Steg1.adoc
+19.02.2019 06:23:07: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:07: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer\Steg2.adoc
+19.02.2019 06:23:07: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:07: Linje: Har man fått til en god enighet om samhandlingsmønstre, så vil ofte prosessen med å mappe mot referansearkitektur være ganske enkel da det under link:../na_referanse_arkitekturer_samhandlingsmønstre/main.adoc[samhandlingsmønstre] er angitt hvilken referansearkitektur som gjelder for et bestemt samhandlingsmønster.
+19.02.2019 06:23:07: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer\Steg3.adoc
+19.02.2019 06:23:07: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:07: Linje: Fra et arkitekturståsted så består en referansearkitektur av et sett med funksjonelle byggeklosser (ABBer) som representerer funksjonaliteten som kreves for å realisere samhandlingsbehovet. Det vil både kunne være påbudte og valgfrie funksjonelle byggeklosser. Valgfrie byggeklosser benyttes kun der behov og krav til kvalitetsegenskaper tilsier at det kreves. For eksempel vil ikke alle samhandlingsbehov kreve kapabiliteten meldingskryptering for link:../na_referanse_arkitekturer_eoppslag/eOppslag-referansearkitektur.adoc[eOppslag].
+19.02.2019 06:23:07: Linje: * link:../na_referanse_arkitekturer_eoppslag/eOppslag-referansearkitektur.adoc[eOppslag] 
+19.02.2019 06:23:07: 3 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer\Steg4.adoc
+19.02.2019 06:23:07: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:07: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_begreper\arkitekturbegreper.adoc
+19.02.2019 06:23:07: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:07: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_begreper\main.adoc
+19.02.2019 06:23:07: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:07: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_archimate\archimate-navnestandarder.adoc
+19.02.2019 06:23:07: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:07: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_archimate\main.adoc
+19.02.2019 06:23:07: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:07: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_asciidoc\mal-fellesløsning.adoc
+19.02.2019 06:23:07: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:07: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75]
+19.02.2019 06:23:07: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_taksonomier\main.adoc
+19.02.2019 06:23:07: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:07: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_taksonomier_LOS\main.adoc
+19.02.2019 06:23:07: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:07: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_standard\main.adoc
+19.02.2019 06:23:07: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:07: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_styring\main.adoc
+19.02.2019 06:23:07: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:07: Linje: //image:./na_felles/media/i-arbeid.png[width=50, height=50]
+19.02.2019 06:23:07: Linje: . link:../na_/[Nasjonalt arkitekturbibliotek]
+19.02.2019 06:23:07: 3 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_\main.adoc
+19.02.2019 06:23:07: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:07: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75] I arbeid
+19.02.2019 06:23:07: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_om-plattformen\main.adoc
+19.02.2019 06:23:07: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:07: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_praktiske-tips\main.adoc
+19.02.2019 06:23:07: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:07: Linje: //image:../na_felles/media/i-arbeid.png[width=75, height=75] Uferdig innhold
+19.02.2019 06:23:07: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_praktiske-tips_archi\main.adoc
+19.02.2019 06:23:07: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:07: Linje: //image:../na_felles/media/i-arbeid.png[width=75, height=75] I arbeid
+19.02.2019 06:23:07: Linje:  include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:07: Linje:     include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:07: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75] I arbeid
+19.02.2019 06:23:07: 5 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_praktiske-tips_asciidoc\main.adoc
+19.02.2019 06:23:07: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:07: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75] Uferdig innhold
+19.02.2019 06:23:07: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_praktiske-tips_asciidoctor\main.adoc
+19.02.2019 06:23:07: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:23:07: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75] I arbeid.
+19.02.2019 06:23:07: Linje: image:../na_felles//media/i-arbeid.png[width=75, height=75]I arbeid
+19.02.2019 06:23:07: 3 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_praktiske-tips_github\main.adoc
+19.02.2019 06:24:50: SøkTekstIAlleFiler(na_)
+19.02.2019 06:24:50: Linje: include::./na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:50: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\main.adoc
+19.02.2019 06:24:50: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:50: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75]
+19.02.2019 06:24:50: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\blogg_\all-of-government.adoc
+19.02.2019 06:24:50: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:50: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75] Uferdig innhold - første versjon er fremdeles i arbeid
+19.02.2019 06:24:50: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\blogg_\main.adoc
+19.02.2019 06:24:50: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:50: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75] Svar i arbeid
+19.02.2019 06:24:50: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\blogg_2018-12-28-sporsmål-om-drift-og-forvaltning-av-ikt\sporsmål-om-drift-og-forvaltning-av-ikt.adoc
+19.02.2019 06:24:50: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:50: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75, alt="Figur mangler: i-arbeid.png?",]Uferdig innhold - første versjon er fremdeles i arbeid
+19.02.2019 06:24:50: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75, alt="Figur mangler: i-arbeid.png?",]
+19.02.2019 06:24:50: 3 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_\main.adoc
+19.02.2019 06:24:50: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:50: Linje: //image:../na_felles/media/i-arbeid.png[width=75, height=75]
+19.02.2019 06:24:50: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_arkitekturrammeverk-india\indias-arkitekturrammeverk.adoc
+19.02.2019 06:24:50: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:50: Linje: //image:../na_felles/media/i-arbeid.png[width=75, height=75]
+19.02.2019 06:24:50: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_arkitekturrammeverk-india\main.adoc
+19.02.2019 06:24:50: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:50: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_bok-dmbok2\main.adoc
+19.02.2019 06:24:50: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:50: Linje: //image:../na_felles/media/i-arbeid.png[width=75, height=75] Uferdig innhold - første versjon er fremdeles i arbeid
+19.02.2019 06:24:50: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_bok-navigating-the-labyrinth\main.adoc
+19.02.2019 06:24:50: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:50: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_kurs-archimate-intro\kjøreplan.adoc
+19.02.2019 06:24:50: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:50: Linje: //image:../na_felles/media/i-arbeid.png[width=75, height=75] Første versjon av denne omtalen er fremdeles i arbeid 
+19.02.2019 06:24:50: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_kurs-archimate-intro\main.adoc
+19.02.2019 06:24:50: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:50: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_kurs-archimate-intro\praktiske-øvelser.adoc
+19.02.2019 06:24:50: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:50: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_kurs-archimate-intro\temaer.adoc
+19.02.2019 06:24:50: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:50: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75]Uferdig innhold - første versjon er fremdeles i arbeid
+19.02.2019 06:24:50: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_metode_siam\main.adoc
+19.02.2019 06:24:50: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:50: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75] Første versjon av denne omtalen er fremdeles i arbeid 
+19.02.2019 06:24:50: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_referansearkitektur-the-opengroup-iot\main.adoc
+19.02.2019 06:24:50: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:50: Linje: // :imagesdir@: ../na_felles/media
+19.02.2019 06:24:50: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75] Første versjon av denne omtalen er fremdeles i arbeid - men kanskje du finner noe nyttig?
+19.02.2019 06:24:50: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75] I arbeid 
+19.02.2019 06:24:50: 4 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_referansearkitektur-the-opengroup-it4it\main.adoc
+19.02.2019 06:24:50: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:50: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_standard-archimate\kilder-til-kunnskap.adoc
+19.02.2019 06:24:50: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:50: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75] Første versjon av denne omtalen er fremdeles i arbeid 
+19.02.2019 06:24:50: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_standard-archimate\main.adoc
+19.02.2019 06:24:50: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:50: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_taksonomier_LOS\main.adoc
+19.02.2019 06:24:50: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:50: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75] Uferdig innhold
+19.02.2019 06:24:50: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_verktøy_asciidoc-fx\main.adoc
+19.02.2019 06:24:50: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:50: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75] Uferdig innhold
+19.02.2019 06:24:50: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_verktøy_asciidoctor\main.adoc
+19.02.2019 06:24:50: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:50: Linje: //image:../na_felles/media/difilogo.svg[image,width=169,height=66]
+19.02.2019 06:24:50: Linje: //image:../na_felles/media/i-arbeid.png[width=75, height=75]I arbeid
+19.02.2019 06:24:50: Linje: Se link:../na_modeller/[modellbiblioteket] om arkitekturmodeller.
+19.02.2019 06:24:50: Linje: . link:../na_rammeverk/[Rammeverk]
+19.02.2019 06:24:50: Linje: . link:../na_arkitekturlandskap/[Arkitekturlandskap]
+19.02.2019 06:24:50: Linje: . link:../na_løsningslandskap/[Løsningslandskap]
+19.02.2019 06:24:50: Linje: . link:../na_standard/[Standarder]
+19.02.2019 06:24:50: Linje: . link:../na_kravbibliotek/[Funksjonelle behov (kravbibliotek)]
+19.02.2019 06:24:50: Linje: . link:../na_referanse_/[Referansebibliotek]
+19.02.2019 06:24:50: Linje: . link:../na_organisering/[Organisering og kompetanse]
+19.02.2019 06:24:50: Linje: . link:../na_styring/[Styring og oppfølging]
+19.02.2019 06:24:50: 12 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_\main.adoc
+19.02.2019 06:24:50: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:50: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_arkitekturlandskap\main.adoc
+19.02.2019 06:24:50: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:50: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_kravbibliotek\main.adoc
+19.02.2019 06:24:50: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:51: Linje: link:../na_løsningslandskap_ssb/[Nasjonale fellesløsninger]
+19.02.2019 06:24:51: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap\main.adoc
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:51: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_altinn-samhandlings-og-integrasjonsplattform\main.adoc
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:51: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_altinn-tilgangsstyring\main.adoc
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:51: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_altinn-tjenesteplattform\main.adoc
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:51: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_brreg-digital-kontaktinformasjon-og-fullmakter-for-virksomheter\main.adoc
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:51: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_brreg-digital-post-til-virksomheter\main.adoc
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:51: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_brreg-enhetsregisteret\main.adoc
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:51: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_brreg-felles-datakatalog\main.adoc
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:51: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_difi-digital-post-til-innbyggere\main.adoc
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:51: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_difi-eformidling\main.adoc
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:51: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_difi-einnsyn\main.adoc
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:51: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_difi-esignering\main.adoc
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:51: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_difi-idporten\main.adoc
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:51: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_difi-kontakt-og-reservasjonsregisteret​-for-innbyggere\main.adoc
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/standardheader.adoc[]
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/commonlinks1.adoc[]
+19.02.2019 06:24:51: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_difi-nasjonalt-arkitekturbiblotek\dokumentasjonskonvensjoner.adoc
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/standardheader.adoc[]
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/commonlinks1.adoc[]
+19.02.2019 06:24:51: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_difi-nasjonalt-arkitekturbiblotek\README.adoc
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/standardheader.adoc[]
+19.02.2019 06:24:51: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_difi-nasjonalt-arkitekturbiblotek\Tips_for_å_skrive_enkle_dokumenter.adoc
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:51: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_kartverket-geonorge\main.adoc
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:51: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_kartverket-matrikkelen\main.adoc
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:51: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_ks-fiks-tjenesteplattform\main.adoc
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:51: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_ks-svarut\main.adoc
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:51: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_skattetaten-folkeregisteret\main.adoc
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:51: Linje: . link:../na_løsningslandskap_sbb_altinn-samhandlings-og-integrasjonsplattform/[ID-porten]
+19.02.2019 06:24:51: Linje: . link:../na_løsningslandskap_sbb_altinn-tilgangsstyring/[Altinn Tilgangsstyring]
+19.02.2019 06:24:51: Linje: . link:../na_løsningslandskap_sbb_altinn-tjenesteplattform/[Altinn tjenesteplattform]
+19.02.2019 06:24:51: Linje: . link:../na_løsningslandskap_sbb_altinn-samhandlings-og-integrasjonsplattform/[Altinn samhandlings- og 
+19.02.2019 06:24:51: Linje: . link:../na_løsningslandskap_sbb_difi-digital-post-til-innbyggere/[Digital postkasse til innbyggere (DPI)]
+19.02.2019 06:24:51: Linje: . link:../na_løsningslandskap_sbb_brreg-digital-post-til-virksomheter/[Digital post til virksomheter (DPV)]
+19.02.2019 06:24:51: Linje: . link:../na_løsningslandskap_sbb_difi-kontakt-og-reservasjonsregisteret​-for-innbyggere/[Kontakt- og reservasjonsregisteret​ for innbyggere (KRR)]
+19.02.2019 06:24:51: Linje: . link:../na_løsningslandskap_sbb_brreg-digital-kontaktinformasjon-og-fullmakter-for-virksomheter/[Digital kontaktinformasjon og fullmakter for virksomheter (KoFuVi)]
+19.02.2019 06:24:51: Linje: . link:../na_løsningslandskap_sbb_difi-eformidling/[eFormidling]
+19.02.2019 06:24:51: Linje: . link:../na_løsningslandskap_sbb_difi-einnsyn/[eInnsyn]
+19.02.2019 06:24:51: Linje: . link:../na_løsningslandskap_sbb_brreg-enhetsregisteret/[Enhetsregisteret]
+19.02.2019 06:24:51: Linje: . link:../na_løsningslandskap_sbb_difi-esignering/[eSignering]
+19.02.2019 06:24:51: Linje: . link:../na_løsningslandskap_sbb_brreg-felles-datakatalog/[Felles datakatalog, API-katalog og begrepskatalog]
+19.02.2019 06:24:51: Linje: . link:../na_løsningslandskap_sbb_skattetaten-folkeregisteret/[Folkeregisteret]
+19.02.2019 06:24:51: Linje: . link:../na_løsningslandskap_sbb_ks-fiks-tjenesteplattform/[KS FIKS tjenesteplattform]
+19.02.2019 06:24:51: Linje: . link:../na_løsningslandskap_sbb_ks-svarut/[KS SvarUt]
+19.02.2019 06:24:51: Linje: . link:../na_løsningslandskap_sbb_kartverket-matrikkelen/[Matrikkelen]
+19.02.2019 06:24:51: 18 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_ssb\main.adoc
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:51: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75]
+19.02.2019 06:24:51: Linje: Publiserte modeller kan navigeres via nettleser; se https://doc.difi.no/nasjonal-arkitektur/na_modeller/html-hovedbibliotek.
+19.02.2019 06:24:51: 3 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_modeller\main.adoc
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:51: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_organisering\main.adoc
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:51: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75]
+19.02.2019 06:24:51: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_organisering_kompetanse\main.adoc
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:51: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75] Foreløpig tekst
+19.02.2019 06:24:51: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_rammeverk\main.adoc
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:51: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75] Foreløpig tekst
+19.02.2019 06:24:51: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_rammeverk_metamodell\main.adoc
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:51: Linje: . link:../na_referanse_begreper[Begreper]
+19.02.2019 06:24:51: Linje: . link:../na_referanse_arkitekturer[Referansearkitekturer og god praksis]
+19.02.2019 06:24:51: Linje: . link:../na_referanse_taksonomier[Taksonomier]
+19.02.2019 06:24:51: Linje: . link:../na_referanse_maler[Maler]
+19.02.2019 06:24:51: 5 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_\main.adoc
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:51: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75]
+19.02.2019 06:24:51: Linje: include::../na_referanse_arkitekturer/strategi-for-referansearkitekturer.adoc[]
+19.02.2019 06:24:51: Linje: include::../na_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer/main.adoc[]
+19.02.2019 06:24:51: Linje: include::../na_referanse_arkitekturer_samhandlingsmønstre/main.adoc[]
+19.02.2019 06:24:51: Linje: include::../na_referanse_arkitekturer_eoppslag/eOppslag-Referansearkitektur.adoc[]
+19.02.2019 06:24:51: 6 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer\main.adoc
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:51: Linje: I dokumentasjon av link:../na_referanse_arkitekturer_samhandlingsmønstre/main.adoc[Samhandlingsmønstre] dokumenteres det hvordan de forskjellige forretningsmessige samhandlingsmønstrene hver og en kan mappes mot en bestemt referansearkitektur. For en referansearkitektur kan man så igjen finne beste tekniske løsningsarkitektur som dokumenterer beste praksis for hvordan man teknisk skal samhandle for å realisere et samhandlingsmønster. Se link:../na_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer[Metode for valg av referansearkitektur] for beste praksis for å gå fra digital samhandlingsprosess til løsningsarkitektur.
+19.02.2019 06:24:51: Linje: Se link:../na_referanse_arkitekturer_eoppslag/eOppslag-referansearkitektur.adoc[eOppslag] for mer informasjon om referansearkitektur for eOppslag.
+19.02.2019 06:24:51: 3 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer\strategi-for-referansearkitekturer.adoc
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/standardheader.adoc[]
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/commonlinks1.adoc[]
+19.02.2019 06:24:51: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_emelding\README.adoc
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:51: Linje: . link:../na_referanse_arkitekturer_eoppslag_sikkerhet/eOppslag_sikkerhetsmodell_overordnet.adoc[Overordnet innføring i sikkerhetsmekanismer for eOppslag]
+19.02.2019 06:24:51: Linje: . link:../na_referanse_arkitekturer_eoppslag_sikkerhet/20180629-eoppslag-autorisering-og-delegering.adoc[Modell for autorisering og delegering - eOppslag]
+19.02.2019 06:24:51: 3 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:51: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag_sikkerhet\20180629-eoppslag-autorisering-og-delegering.adoc
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:51: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag_sikkerhet\eOppslag_sikkerhetsmodell_overordnet.adoc
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:51: Linje: For hvert samhandlingsmønster pekes det på hvilken link:../na_referanse_arkitekturer/main.adoc[referansearkitektur] som skal benyttes for samhandlingen.
+19.02.2019 06:24:51: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_samhandlingsmønstre\main.adoc
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:51: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer\Generelt.adoc
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:51: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75]
+19.02.2019 06:24:51: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer\main.adoc
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:51: Linje: Digital samhandling mellom virksomheter vil fra et forretningsperspektiv gjøres på et fåtall måter. Dette kaller vi llink:../na_referanse_arkitekturer_samhandlingsmønstre/main.adoc[samhandlingsmønstre]. I link:./Steg2.adoc[steg 2] vil vi se på hvordan vi enkelt kan avdekke hvilke samhandlingsmønstre man har behov for å realisere en digital samhandlingsprosess og deretter mappe disse mor referansearkitekturer i link:./Steg3.adoc[steg 3]. Først når man har identifisert samhandlingsmønstre og referansearkitektur, er det riktig å diskutere løsningsarkitektur og hvilke tekniske løsningsalternativer man har for hver enkelt samhandling. Dette ser vi på i link:./Steg4.adoc[steg 4]. Sagt på en annen måte, man må forstå og være enige om behovet før man kan diskutere teknologi.
+19.02.2019 06:24:51: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer\Steg1.adoc
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:51: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer\Steg2.adoc
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:51: Linje: Har man fått til en god enighet om samhandlingsmønstre, så vil ofte prosessen med å mappe mot referansearkitektur være ganske enkel da det under link:../na_referanse_arkitekturer_samhandlingsmønstre/main.adoc[samhandlingsmønstre] er angitt hvilken referansearkitektur som gjelder for et bestemt samhandlingsmønster.
+19.02.2019 06:24:51: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer\Steg3.adoc
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:51: Linje: Fra et arkitekturståsted så består en referansearkitektur av et sett med funksjonelle byggeklosser (ABBer) som representerer funksjonaliteten som kreves for å realisere samhandlingsbehovet. Det vil både kunne være påbudte og valgfrie funksjonelle byggeklosser. Valgfrie byggeklosser benyttes kun der behov og krav til kvalitetsegenskaper tilsier at det kreves. For eksempel vil ikke alle samhandlingsbehov kreve kapabiliteten meldingskryptering for link:../na_referanse_arkitekturer_eoppslag/eOppslag-referansearkitektur.adoc[eOppslag].
+19.02.2019 06:24:51: Linje: * link:../na_referanse_arkitekturer_eoppslag/eOppslag-referansearkitektur.adoc[eOppslag] 
+19.02.2019 06:24:51: 3 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer\Steg4.adoc
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:51: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_begreper\arkitekturbegreper.adoc
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:51: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_begreper\main.adoc
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:51: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_archimate\archimate-navnestandarder.adoc
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:51: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_archimate\main.adoc
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:51: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_asciidoc\mal-fellesløsning.adoc
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:51: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75]
+19.02.2019 06:24:51: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_taksonomier\main.adoc
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:51: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_taksonomier_LOS\main.adoc
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:51: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_standard\main.adoc
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:51: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_styring\main.adoc
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:51: Linje: //image:./na_felles/media/i-arbeid.png[width=50, height=50]
+19.02.2019 06:24:51: Linje: . link:../na_/[Nasjonalt arkitekturbibliotek]
+19.02.2019 06:24:51: 3 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_\main.adoc
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:51: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75] I arbeid
+19.02.2019 06:24:51: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_om-plattformen\main.adoc
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:51: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_praktiske-tips\main.adoc
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:51: Linje: //image:../na_felles/media/i-arbeid.png[width=75, height=75] Uferdig innhold
+19.02.2019 06:24:51: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_praktiske-tips_archi\main.adoc
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:51: Linje: //image:../na_felles/media/i-arbeid.png[width=75, height=75] I arbeid
+19.02.2019 06:24:51: Linje:  include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:51: Linje:     include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:51: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75] I arbeid
+19.02.2019 06:24:51: 5 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_praktiske-tips_asciidoc\main.adoc
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:51: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75] Uferdig innhold
+19.02.2019 06:24:51: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_praktiske-tips_asciidoctor\main.adoc
+19.02.2019 06:24:51: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:24:52: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75] I arbeid.
+19.02.2019 06:24:52: Linje: image:../na_felles//media/i-arbeid.png[width=75, height=75]I arbeid
+19.02.2019 06:24:52: 3 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_praktiske-tips_github\main.adoc
+19.02.2019 06:25:14: SøkTekstIAlleFiler(/na_)
+19.02.2019 06:25:14: Linje: include::./na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:14: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\main.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:14: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75]
+19.02.2019 06:25:14: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\blogg_\all-of-government.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:14: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75] Uferdig innhold - første versjon er fremdeles i arbeid
+19.02.2019 06:25:14: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\blogg_\main.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:14: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75] Svar i arbeid
+19.02.2019 06:25:14: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\blogg_2018-12-28-sporsmål-om-drift-og-forvaltning-av-ikt\sporsmål-om-drift-og-forvaltning-av-ikt.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:14: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75, alt="Figur mangler: i-arbeid.png?",]Uferdig innhold - første versjon er fremdeles i arbeid
+19.02.2019 06:25:14: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75, alt="Figur mangler: i-arbeid.png?",]
+19.02.2019 06:25:14: 3 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_\main.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:14: Linje: //image:../na_felles/media/i-arbeid.png[width=75, height=75]
+19.02.2019 06:25:14: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_arkitekturrammeverk-india\indias-arkitekturrammeverk.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:14: Linje: //image:../na_felles/media/i-arbeid.png[width=75, height=75]
+19.02.2019 06:25:14: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_arkitekturrammeverk-india\main.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:14: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_bok-dmbok2\main.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:14: Linje: //image:../na_felles/media/i-arbeid.png[width=75, height=75] Uferdig innhold - første versjon er fremdeles i arbeid
+19.02.2019 06:25:14: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_bok-navigating-the-labyrinth\main.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:14: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_kurs-archimate-intro\kjøreplan.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:14: Linje: //image:../na_felles/media/i-arbeid.png[width=75, height=75] Første versjon av denne omtalen er fremdeles i arbeid 
+19.02.2019 06:25:14: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_kurs-archimate-intro\main.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:14: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_kurs-archimate-intro\praktiske-øvelser.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:14: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_kurs-archimate-intro\temaer.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:14: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75]Uferdig innhold - første versjon er fremdeles i arbeid
+19.02.2019 06:25:14: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_metode_siam\main.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:14: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75] Første versjon av denne omtalen er fremdeles i arbeid 
+19.02.2019 06:25:14: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_referansearkitektur-the-opengroup-iot\main.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:14: Linje: // :imagesdir@: ../na_felles/media
+19.02.2019 06:25:14: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75] Første versjon av denne omtalen er fremdeles i arbeid - men kanskje du finner noe nyttig?
+19.02.2019 06:25:14: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75] I arbeid 
+19.02.2019 06:25:14: 4 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_referansearkitektur-the-opengroup-it4it\main.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:14: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_standard-archimate\kilder-til-kunnskap.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:14: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75] Første versjon av denne omtalen er fremdeles i arbeid 
+19.02.2019 06:25:14: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_standard-archimate\main.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:14: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_taksonomier_LOS\main.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:14: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75] Uferdig innhold
+19.02.2019 06:25:14: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_verktøy_asciidoc-fx\main.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:14: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75] Uferdig innhold
+19.02.2019 06:25:14: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_verktøy_asciidoctor\main.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:14: Linje: //image:../na_felles/media/difilogo.svg[image,width=169,height=66]
+19.02.2019 06:25:14: Linje: //image:../na_felles/media/i-arbeid.png[width=75, height=75]I arbeid
+19.02.2019 06:25:14: Linje: Se link:../na_modeller/[modellbiblioteket] om arkitekturmodeller.
+19.02.2019 06:25:14: Linje: . link:../na_rammeverk/[Rammeverk]
+19.02.2019 06:25:14: Linje: . link:../na_arkitekturlandskap/[Arkitekturlandskap]
+19.02.2019 06:25:14: Linje: . link:../na_løsningslandskap/[Løsningslandskap]
+19.02.2019 06:25:14: Linje: . link:../na_standard/[Standarder]
+19.02.2019 06:25:14: Linje: . link:../na_kravbibliotek/[Funksjonelle behov (kravbibliotek)]
+19.02.2019 06:25:14: Linje: . link:../na_referanse_/[Referansebibliotek]
+19.02.2019 06:25:14: Linje: . link:../na_organisering/[Organisering og kompetanse]
+19.02.2019 06:25:14: Linje: . link:../na_styring/[Styring og oppfølging]
+19.02.2019 06:25:14: 12 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_\main.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:14: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_arkitekturlandskap\main.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:14: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_kravbibliotek\main.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:14: Linje: link:../na_løsningslandskap_ssb/[Nasjonale fellesløsninger]
+19.02.2019 06:25:14: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap\main.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:14: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_altinn-samhandlings-og-integrasjonsplattform\main.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:14: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_altinn-tilgangsstyring\main.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:14: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_altinn-tjenesteplattform\main.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:14: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_brreg-digital-kontaktinformasjon-og-fullmakter-for-virksomheter\main.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:14: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_brreg-digital-post-til-virksomheter\main.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:14: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_brreg-enhetsregisteret\main.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:14: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_brreg-felles-datakatalog\main.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:14: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_difi-digital-post-til-innbyggere\main.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:14: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_difi-eformidling\main.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:14: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_difi-einnsyn\main.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:14: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_difi-esignering\main.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:14: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_difi-idporten\main.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:14: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_difi-kontakt-og-reservasjonsregisteret​-for-innbyggere\main.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/standardheader.adoc[]
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonlinks1.adoc[]
+19.02.2019 06:25:14: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_difi-nasjonalt-arkitekturbiblotek\dokumentasjonskonvensjoner.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/standardheader.adoc[]
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonlinks1.adoc[]
+19.02.2019 06:25:14: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_difi-nasjonalt-arkitekturbiblotek\README.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/standardheader.adoc[]
+19.02.2019 06:25:14: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_difi-nasjonalt-arkitekturbiblotek\Tips_for_å_skrive_enkle_dokumenter.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:14: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_kartverket-geonorge\main.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:14: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_kartverket-matrikkelen\main.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:14: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_ks-fiks-tjenesteplattform\main.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:14: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_ks-svarut\main.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:14: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_sbb_skattetaten-folkeregisteret\main.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:14: Linje: . link:../na_løsningslandskap_sbb_altinn-samhandlings-og-integrasjonsplattform/[ID-porten]
+19.02.2019 06:25:14: Linje: . link:../na_løsningslandskap_sbb_altinn-tilgangsstyring/[Altinn Tilgangsstyring]
+19.02.2019 06:25:14: Linje: . link:../na_løsningslandskap_sbb_altinn-tjenesteplattform/[Altinn tjenesteplattform]
+19.02.2019 06:25:14: Linje: . link:../na_løsningslandskap_sbb_altinn-samhandlings-og-integrasjonsplattform/[Altinn samhandlings- og 
+19.02.2019 06:25:14: Linje: . link:../na_løsningslandskap_sbb_difi-digital-post-til-innbyggere/[Digital postkasse til innbyggere (DPI)]
+19.02.2019 06:25:14: Linje: . link:../na_løsningslandskap_sbb_brreg-digital-post-til-virksomheter/[Digital post til virksomheter (DPV)]
+19.02.2019 06:25:14: Linje: . link:../na_løsningslandskap_sbb_difi-kontakt-og-reservasjonsregisteret​-for-innbyggere/[Kontakt- og reservasjonsregisteret​ for innbyggere (KRR)]
+19.02.2019 06:25:14: Linje: . link:../na_løsningslandskap_sbb_brreg-digital-kontaktinformasjon-og-fullmakter-for-virksomheter/[Digital kontaktinformasjon og fullmakter for virksomheter (KoFuVi)]
+19.02.2019 06:25:14: Linje: . link:../na_løsningslandskap_sbb_difi-eformidling/[eFormidling]
+19.02.2019 06:25:14: Linje: . link:../na_løsningslandskap_sbb_difi-einnsyn/[eInnsyn]
+19.02.2019 06:25:14: Linje: . link:../na_løsningslandskap_sbb_brreg-enhetsregisteret/[Enhetsregisteret]
+19.02.2019 06:25:14: Linje: . link:../na_løsningslandskap_sbb_difi-esignering/[eSignering]
+19.02.2019 06:25:14: Linje: . link:../na_løsningslandskap_sbb_brreg-felles-datakatalog/[Felles datakatalog, API-katalog og begrepskatalog]
+19.02.2019 06:25:14: Linje: . link:../na_løsningslandskap_sbb_skattetaten-folkeregisteret/[Folkeregisteret]
+19.02.2019 06:25:14: Linje: . link:../na_løsningslandskap_sbb_ks-fiks-tjenesteplattform/[KS FIKS tjenesteplattform]
+19.02.2019 06:25:14: Linje: . link:../na_løsningslandskap_sbb_ks-svarut/[KS SvarUt]
+19.02.2019 06:25:14: Linje: . link:../na_løsningslandskap_sbb_kartverket-matrikkelen/[Matrikkelen]
+19.02.2019 06:25:14: 18 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_ssb\main.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:14: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75]
+19.02.2019 06:25:14: Linje: Publiserte modeller kan navigeres via nettleser; se https://doc.difi.no/nasjonal-arkitektur/na_modeller/html-hovedbibliotek.
+19.02.2019 06:25:14: 3 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_modeller\main.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:14: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_organisering\main.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:14: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75]
+19.02.2019 06:25:14: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_organisering_kompetanse\main.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:14: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75] Foreløpig tekst
+19.02.2019 06:25:14: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_rammeverk\main.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:14: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75] Foreløpig tekst
+19.02.2019 06:25:14: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_rammeverk_metamodell\main.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:14: Linje: . link:../na_referanse_begreper[Begreper]
+19.02.2019 06:25:14: Linje: . link:../na_referanse_arkitekturer[Referansearkitekturer og god praksis]
+19.02.2019 06:25:14: Linje: . link:../na_referanse_taksonomier[Taksonomier]
+19.02.2019 06:25:14: Linje: . link:../na_referanse_maler[Maler]
+19.02.2019 06:25:14: 5 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_\main.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:14: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75]
+19.02.2019 06:25:14: Linje: include::../na_referanse_arkitekturer/strategi-for-referansearkitekturer.adoc[]
+19.02.2019 06:25:14: Linje: include::../na_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer/main.adoc[]
+19.02.2019 06:25:14: Linje: include::../na_referanse_arkitekturer_samhandlingsmønstre/main.adoc[]
+19.02.2019 06:25:14: Linje: include::../na_referanse_arkitekturer_eoppslag/eOppslag-Referansearkitektur.adoc[]
+19.02.2019 06:25:14: 6 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer\main.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:14: Linje: I dokumentasjon av link:../na_referanse_arkitekturer_samhandlingsmønstre/main.adoc[Samhandlingsmønstre] dokumenteres det hvordan de forskjellige forretningsmessige samhandlingsmønstrene hver og en kan mappes mot en bestemt referansearkitektur. For en referansearkitektur kan man så igjen finne beste tekniske løsningsarkitektur som dokumenterer beste praksis for hvordan man teknisk skal samhandle for å realisere et samhandlingsmønster. Se link:../na_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer[Metode for valg av referansearkitektur] for beste praksis for å gå fra digital samhandlingsprosess til løsningsarkitektur.
+19.02.2019 06:25:14: Linje: Se link:../na_referanse_arkitekturer_eoppslag/eOppslag-referansearkitektur.adoc[eOppslag] for mer informasjon om referansearkitektur for eOppslag.
+19.02.2019 06:25:14: 3 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer\strategi-for-referansearkitekturer.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/standardheader.adoc[]
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonlinks1.adoc[]
+19.02.2019 06:25:14: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_emelding\README.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:14: Linje: . link:../na_referanse_arkitekturer_eoppslag_sikkerhet/eOppslag_sikkerhetsmodell_overordnet.adoc[Overordnet innføring i sikkerhetsmekanismer for eOppslag]
+19.02.2019 06:25:14: Linje: . link:../na_referanse_arkitekturer_eoppslag_sikkerhet/20180629-eoppslag-autorisering-og-delegering.adoc[Modell for autorisering og delegering - eOppslag]
+19.02.2019 06:25:14: 3 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:14: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag_sikkerhet\20180629-eoppslag-autorisering-og-delegering.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:14: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag_sikkerhet\eOppslag_sikkerhetsmodell_overordnet.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:14: Linje: For hvert samhandlingsmønster pekes det på hvilken link:../na_referanse_arkitekturer/main.adoc[referansearkitektur] som skal benyttes for samhandlingen.
+19.02.2019 06:25:14: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_samhandlingsmønstre\main.adoc
+19.02.2019 06:25:14: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:14: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer\Generelt.adoc
+19.02.2019 06:25:15: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:15: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75]
+19.02.2019 06:25:15: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer\main.adoc
+19.02.2019 06:25:15: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:15: Linje: Digital samhandling mellom virksomheter vil fra et forretningsperspektiv gjøres på et fåtall måter. Dette kaller vi llink:../na_referanse_arkitekturer_samhandlingsmønstre/main.adoc[samhandlingsmønstre]. I link:./Steg2.adoc[steg 2] vil vi se på hvordan vi enkelt kan avdekke hvilke samhandlingsmønstre man har behov for å realisere en digital samhandlingsprosess og deretter mappe disse mor referansearkitekturer i link:./Steg3.adoc[steg 3]. Først når man har identifisert samhandlingsmønstre og referansearkitektur, er det riktig å diskutere løsningsarkitektur og hvilke tekniske løsningsalternativer man har for hver enkelt samhandling. Dette ser vi på i link:./Steg4.adoc[steg 4]. Sagt på en annen måte, man må forstå og være enige om behovet før man kan diskutere teknologi.
+19.02.2019 06:25:15: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer\Steg1.adoc
+19.02.2019 06:25:15: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:15: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer\Steg2.adoc
+19.02.2019 06:25:15: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:15: Linje: Har man fått til en god enighet om samhandlingsmønstre, så vil ofte prosessen med å mappe mot referansearkitektur være ganske enkel da det under link:../na_referanse_arkitekturer_samhandlingsmønstre/main.adoc[samhandlingsmønstre] er angitt hvilken referansearkitektur som gjelder for et bestemt samhandlingsmønster.
+19.02.2019 06:25:15: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer\Steg3.adoc
+19.02.2019 06:25:15: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:15: Linje: Fra et arkitekturståsted så består en referansearkitektur av et sett med funksjonelle byggeklosser (ABBer) som representerer funksjonaliteten som kreves for å realisere samhandlingsbehovet. Det vil både kunne være påbudte og valgfrie funksjonelle byggeklosser. Valgfrie byggeklosser benyttes kun der behov og krav til kvalitetsegenskaper tilsier at det kreves. For eksempel vil ikke alle samhandlingsbehov kreve kapabiliteten meldingskryptering for link:../na_referanse_arkitekturer_eoppslag/eOppslag-referansearkitektur.adoc[eOppslag].
+19.02.2019 06:25:15: Linje: * link:../na_referanse_arkitekturer_eoppslag/eOppslag-referansearkitektur.adoc[eOppslag] 
+19.02.2019 06:25:15: 3 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer\Steg4.adoc
+19.02.2019 06:25:15: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:15: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_begreper\arkitekturbegreper.adoc
+19.02.2019 06:25:15: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:15: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_begreper\main.adoc
+19.02.2019 06:25:15: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:15: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_archimate\archimate-navnestandarder.adoc
+19.02.2019 06:25:15: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:15: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_archimate\main.adoc
+19.02.2019 06:25:15: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:15: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_asciidoc\mal-fellesløsning.adoc
+19.02.2019 06:25:15: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:15: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75]
+19.02.2019 06:25:15: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_taksonomier\main.adoc
+19.02.2019 06:25:15: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:15: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_taksonomier_LOS\main.adoc
+19.02.2019 06:25:15: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:15: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_standard\main.adoc
+19.02.2019 06:25:15: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:15: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_styring\main.adoc
+19.02.2019 06:25:15: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:15: Linje: //image:./na_felles/media/i-arbeid.png[width=50, height=50]
+19.02.2019 06:25:15: Linje: . link:../na_/[Nasjonalt arkitekturbibliotek]
+19.02.2019 06:25:15: 3 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_\main.adoc
+19.02.2019 06:25:15: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:15: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75] I arbeid
+19.02.2019 06:25:15: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_om-plattformen\main.adoc
+19.02.2019 06:25:15: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:15: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_praktiske-tips\main.adoc
+19.02.2019 06:25:15: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:15: Linje: //image:../na_felles/media/i-arbeid.png[width=75, height=75] Uferdig innhold
+19.02.2019 06:25:15: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_praktiske-tips_archi\main.adoc
+19.02.2019 06:25:15: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:15: Linje: //image:../na_felles/media/i-arbeid.png[width=75, height=75] I arbeid
+19.02.2019 06:25:15: Linje:  include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:15: Linje:     include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:15: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75] I arbeid
+19.02.2019 06:25:15: 5 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_praktiske-tips_asciidoc\main.adoc
+19.02.2019 06:25:15: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:15: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75] Uferdig innhold
+19.02.2019 06:25:15: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_praktiske-tips_asciidoctor\main.adoc
+19.02.2019 06:25:15: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:25:15: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75] I arbeid.
+19.02.2019 06:25:15: Linje: image:../na_felles//media/i-arbeid.png[width=75, height=75]I arbeid
+19.02.2019 06:25:15: 3 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_praktiske-tips_github\main.adoc
+19.02.2019 06:26:56: ErstattTekstIAlleFiler(na_, nab_)
+19.02.2019 06:26:56: Finner ikke en del av banen.
+19.02.2019 06:26:58: Finner ikke en del av banen.
+19.02.2019 06:26:59: Finner ikke en del av banen.
+19.02.2019 06:27:00: Finner ikke en del av banen.
+19.02.2019 06:27:04: ErstattTekstIAlleFiler(na_, nab_)
+19.02.2019 06:27:08: ErstattTekstIAlleFiler(/na_, /nab_)
+19.02.2019 06:27:09: Linje: include::./na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:09: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\main.adoc
+19.02.2019 06:27:09: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:09: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75]
+19.02.2019 06:27:09: 2 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\blogg_\all-of-government.adoc
+19.02.2019 06:27:09: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:09: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75] Uferdig innhold - første versjon er fremdeles i arbeid
+19.02.2019 06:27:09: 2 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\blogg_\main.adoc
+19.02.2019 06:27:09: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:09: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75] Svar i arbeid
+19.02.2019 06:27:09: 2 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\blogg_2018-12-28-sporsmål-om-drift-og-forvaltning-av-ikt\sporsmål-om-drift-og-forvaltning-av-ikt.adoc
+19.02.2019 06:27:09: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:09: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75, alt="Figur mangler: i-arbeid.png?",]Uferdig innhold - første versjon er fremdeles i arbeid
+19.02.2019 06:27:09: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75, alt="Figur mangler: i-arbeid.png?",]
+19.02.2019 06:27:09: 3 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_\main.adoc
+19.02.2019 06:27:09: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:09: Linje: //image:../na_felles/media/i-arbeid.png[width=75, height=75]
+19.02.2019 06:27:09: 2 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_arkitekturrammeverk-india\indias-arkitekturrammeverk.adoc
+19.02.2019 06:27:09: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:09: Linje: //image:../na_felles/media/i-arbeid.png[width=75, height=75]
+19.02.2019 06:27:09: 2 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_arkitekturrammeverk-india\main.adoc
+19.02.2019 06:27:09: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:09: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_bok-dmbok2\main.adoc
+19.02.2019 06:27:09: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:09: Linje: //image:../na_felles/media/i-arbeid.png[width=75, height=75] Uferdig innhold - første versjon er fremdeles i arbeid
+19.02.2019 06:27:09: 2 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_bok-navigating-the-labyrinth\main.adoc
+19.02.2019 06:27:09: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:09: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_kurs-archimate-intro\kjøreplan.adoc
+19.02.2019 06:27:09: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:09: Linje: //image:../na_felles/media/i-arbeid.png[width=75, height=75] Første versjon av denne omtalen er fremdeles i arbeid 
+19.02.2019 06:27:09: 2 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_kurs-archimate-intro\main.adoc
+19.02.2019 06:27:09: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:09: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_kurs-archimate-intro\praktiske-øvelser.adoc
+19.02.2019 06:27:09: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:09: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_kurs-archimate-intro\temaer.adoc
+19.02.2019 06:27:09: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:09: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75]Uferdig innhold - første versjon er fremdeles i arbeid
+19.02.2019 06:27:09: 2 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_metode_siam\main.adoc
+19.02.2019 06:27:09: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:09: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75] Første versjon av denne omtalen er fremdeles i arbeid 
+19.02.2019 06:27:09: 2 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_referansearkitektur-the-opengroup-iot\main.adoc
+19.02.2019 06:27:09: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:09: Linje: // :imagesdir@: ../na_felles/media
+19.02.2019 06:27:09: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75] Første versjon av denne omtalen er fremdeles i arbeid - men kanskje du finner noe nyttig?
+19.02.2019 06:27:09: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75] I arbeid 
+19.02.2019 06:27:09: 4 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_referansearkitektur-the-opengroup-it4it\main.adoc
+19.02.2019 06:27:09: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:09: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_standard-archimate\kilder-til-kunnskap.adoc
+19.02.2019 06:27:09: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:09: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75] Første versjon av denne omtalen er fremdeles i arbeid 
+19.02.2019 06:27:09: 2 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_standard-archimate\main.adoc
+19.02.2019 06:27:09: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:09: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_taksonomier_LOS\main.adoc
+19.02.2019 06:27:09: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:09: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75] Uferdig innhold
+19.02.2019 06:27:09: 2 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_verktøy_asciidoc-fx\main.adoc
+19.02.2019 06:27:09: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:09: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75] Uferdig innhold
+19.02.2019 06:27:09: 2 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_verktøy_asciidoctor\main.adoc
+19.02.2019 06:27:09: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:09: Linje: //image:../na_felles/media/difilogo.svg[image,width=169,height=66]
+19.02.2019 06:27:09: Linje: //image:../na_felles/media/i-arbeid.png[width=75, height=75]I arbeid
+19.02.2019 06:27:09: Linje: Se link:../na_modeller/[modellbiblioteket] om arkitekturmodeller.
+19.02.2019 06:27:09: Linje: . link:../na_rammeverk/[Rammeverk]
+19.02.2019 06:27:09: Linje: . link:../na_arkitekturlandskap/[Arkitekturlandskap]
+19.02.2019 06:27:09: Linje: . link:../na_løsningslandskap/[Løsningslandskap]
+19.02.2019 06:27:09: Linje: . link:../na_standard/[Standarder]
+19.02.2019 06:27:09: Linje: . link:../na_kravbibliotek/[Funksjonelle behov (kravbibliotek)]
+19.02.2019 06:27:09: Linje: . link:../na_referanse_/[Referansebibliotek]
+19.02.2019 06:27:09: Linje: . link:../na_organisering/[Organisering og kompetanse]
+19.02.2019 06:27:09: Linje: . link:../na_styring/[Styring og oppfølging]
+19.02.2019 06:27:09: 12 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_\main.adoc
+19.02.2019 06:27:09: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:09: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_arkitekturlandskap\main.adoc
+19.02.2019 06:27:09: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:09: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_kravbibliotek\main.adoc
+19.02.2019 06:27:09: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:09: Linje: link:../na_løsningslandskap_ssb/[Nasjonale fellesløsninger]
+19.02.2019 06:27:09: 2 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap\main.adoc
+19.02.2019 06:27:09: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:09: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_altinn-samhandlings-og-integrasjonsplattform\main.adoc
+19.02.2019 06:27:09: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:09: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_altinn-tilgangsstyring\main.adoc
+19.02.2019 06:27:09: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:09: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_altinn-tjenesteplattform\main.adoc
+19.02.2019 06:27:09: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:09: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_brreg-digital-kontaktinformasjon-og-fullmakter-for-virksomheter\main.adoc
+19.02.2019 06:27:09: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:09: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_brreg-digital-post-til-virksomheter\main.adoc
+19.02.2019 06:27:09: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:09: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_brreg-enhetsregisteret\main.adoc
+19.02.2019 06:27:09: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:09: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_brreg-felles-datakatalog\main.adoc
+19.02.2019 06:27:09: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:09: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_difi-digital-post-til-innbyggere\main.adoc
+19.02.2019 06:27:09: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:09: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_difi-eformidling\main.adoc
+19.02.2019 06:27:09: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:09: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_difi-einnsyn\main.adoc
+19.02.2019 06:27:09: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:09: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_difi-esignering\main.adoc
+19.02.2019 06:27:09: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:09: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_difi-idporten\main.adoc
+19.02.2019 06:27:09: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:09: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_difi-kontakt-og-reservasjonsregisteret​-for-innbyggere\main.adoc
+19.02.2019 06:27:09: Linje: include::../na_felles/includes/standardheader.adoc[]
+19.02.2019 06:27:09: Linje: include::../na_felles/includes/commonlinks1.adoc[]
+19.02.2019 06:27:09: 2 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_difi-nasjonalt-arkitekturbiblotek\dokumentasjonskonvensjoner.adoc
+19.02.2019 06:27:09: Linje: include::../na_felles/includes/standardheader.adoc[]
+19.02.2019 06:27:09: Linje: include::../na_felles/includes/commonlinks1.adoc[]
+19.02.2019 06:27:09: 2 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_difi-nasjonalt-arkitekturbiblotek\README.adoc
+19.02.2019 06:27:09: Linje: include::../na_felles/includes/standardheader.adoc[]
+19.02.2019 06:27:09: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_difi-nasjonalt-arkitekturbiblotek\Tips_for_å_skrive_enkle_dokumenter.adoc
+19.02.2019 06:27:09: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:09: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_kartverket-geonorge\main.adoc
+19.02.2019 06:27:09: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:09: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_kartverket-matrikkelen\main.adoc
+19.02.2019 06:27:09: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:09: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_ks-fiks-tjenesteplattform\main.adoc
+19.02.2019 06:27:09: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:09: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_ks-svarut\main.adoc
+19.02.2019 06:27:09: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:09: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_skattetaten-folkeregisteret\main.adoc
+19.02.2019 06:27:09: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:09: Linje: . link:../na_løsningslandskap_sbb_altinn-samhandlings-og-integrasjonsplattform/[ID-porten]
+19.02.2019 06:27:09: Linje: . link:../na_løsningslandskap_sbb_altinn-tilgangsstyring/[Altinn Tilgangsstyring]
+19.02.2019 06:27:09: Linje: . link:../na_løsningslandskap_sbb_altinn-tjenesteplattform/[Altinn tjenesteplattform]
+19.02.2019 06:27:09: Linje: . link:../na_løsningslandskap_sbb_altinn-samhandlings-og-integrasjonsplattform/[Altinn samhandlings- og 
+19.02.2019 06:27:09: Linje: . link:../na_løsningslandskap_sbb_difi-digital-post-til-innbyggere/[Digital postkasse til innbyggere (DPI)]
+19.02.2019 06:27:09: Linje: . link:../na_løsningslandskap_sbb_brreg-digital-post-til-virksomheter/[Digital post til virksomheter (DPV)]
+19.02.2019 06:27:09: Linje: . link:../na_løsningslandskap_sbb_difi-kontakt-og-reservasjonsregisteret​-for-innbyggere/[Kontakt- og reservasjonsregisteret​ for innbyggere (KRR)]
+19.02.2019 06:27:09: Linje: . link:../na_løsningslandskap_sbb_brreg-digital-kontaktinformasjon-og-fullmakter-for-virksomheter/[Digital kontaktinformasjon og fullmakter for virksomheter (KoFuVi)]
+19.02.2019 06:27:09: Linje: . link:../na_løsningslandskap_sbb_difi-eformidling/[eFormidling]
+19.02.2019 06:27:09: Linje: . link:../na_løsningslandskap_sbb_difi-einnsyn/[eInnsyn]
+19.02.2019 06:27:09: Linje: . link:../na_løsningslandskap_sbb_brreg-enhetsregisteret/[Enhetsregisteret]
+19.02.2019 06:27:09: Linje: . link:../na_løsningslandskap_sbb_difi-esignering/[eSignering]
+19.02.2019 06:27:09: Linje: . link:../na_løsningslandskap_sbb_brreg-felles-datakatalog/[Felles datakatalog, API-katalog og begrepskatalog]
+19.02.2019 06:27:09: Linje: . link:../na_løsningslandskap_sbb_skattetaten-folkeregisteret/[Folkeregisteret]
+19.02.2019 06:27:09: Linje: . link:../na_løsningslandskap_sbb_ks-fiks-tjenesteplattform/[KS FIKS tjenesteplattform]
+19.02.2019 06:27:09: Linje: . link:../na_løsningslandskap_sbb_ks-svarut/[KS SvarUt]
+19.02.2019 06:27:09: Linje: . link:../na_løsningslandskap_sbb_kartverket-matrikkelen/[Matrikkelen]
+19.02.2019 06:27:09: 18 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_ssb\main.adoc
+19.02.2019 06:27:09: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:09: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75]
+19.02.2019 06:27:09: Linje: Publiserte modeller kan navigeres via nettleser; se https://doc.difi.no/nasjonal-arkitektur/na_modeller/html-hovedbibliotek.
+19.02.2019 06:27:09: 3 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_modeller\main.adoc
+19.02.2019 06:27:10: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:10: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_organisering\main.adoc
+19.02.2019 06:27:10: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:10: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75]
+19.02.2019 06:27:10: 2 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_organisering_kompetanse\main.adoc
+19.02.2019 06:27:10: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:10: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75] Foreløpig tekst
+19.02.2019 06:27:10: 2 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_rammeverk\main.adoc
+19.02.2019 06:27:10: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:10: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75] Foreløpig tekst
+19.02.2019 06:27:10: 2 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_rammeverk_metamodell\main.adoc
+19.02.2019 06:27:10: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:10: Linje: . link:../na_referanse_begreper[Begreper]
+19.02.2019 06:27:10: Linje: . link:../na_referanse_arkitekturer[Referansearkitekturer og god praksis]
+19.02.2019 06:27:10: Linje: . link:../na_referanse_taksonomier[Taksonomier]
+19.02.2019 06:27:10: Linje: . link:../na_referanse_maler[Maler]
+19.02.2019 06:27:10: 5 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_\main.adoc
+19.02.2019 06:27:10: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:10: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75]
+19.02.2019 06:27:10: Linje: include::../na_referanse_arkitekturer/strategi-for-referansearkitekturer.adoc[]
+19.02.2019 06:27:10: Linje: include::../na_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer/main.adoc[]
+19.02.2019 06:27:10: Linje: include::../na_referanse_arkitekturer_samhandlingsmønstre/main.adoc[]
+19.02.2019 06:27:10: Linje: include::../na_referanse_arkitekturer_eoppslag/eOppslag-Referansearkitektur.adoc[]
+19.02.2019 06:27:10: 6 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer\main.adoc
+19.02.2019 06:27:10: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:10: Linje: I dokumentasjon av link:../na_referanse_arkitekturer_samhandlingsmønstre/main.adoc[Samhandlingsmønstre] dokumenteres det hvordan de forskjellige forretningsmessige samhandlingsmønstrene hver og en kan mappes mot en bestemt referansearkitektur. For en referansearkitektur kan man så igjen finne beste tekniske løsningsarkitektur som dokumenterer beste praksis for hvordan man teknisk skal samhandle for å realisere et samhandlingsmønster. Se link:../na_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer[Metode for valg av referansearkitektur] for beste praksis for å gå fra digital samhandlingsprosess til løsningsarkitektur.
+19.02.2019 06:27:10: Linje: Se link:../na_referanse_arkitekturer_eoppslag/eOppslag-referansearkitektur.adoc[eOppslag] for mer informasjon om referansearkitektur for eOppslag.
+19.02.2019 06:27:10: 3 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer\strategi-for-referansearkitekturer.adoc
+19.02.2019 06:27:10: Linje: include::../na_felles/includes/standardheader.adoc[]
+19.02.2019 06:27:10: Linje: include::../na_felles/includes/commonlinks1.adoc[]
+19.02.2019 06:27:10: 2 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_emelding\README.adoc
+19.02.2019 06:27:10: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:10: Linje: . link:../na_referanse_arkitekturer_eoppslag_sikkerhet/eOppslag_sikkerhetsmodell_overordnet.adoc[Overordnet innføring i sikkerhetsmekanismer for eOppslag]
+19.02.2019 06:27:10: Linje: . link:../na_referanse_arkitekturer_eoppslag_sikkerhet/20180629-eoppslag-autorisering-og-delegering.adoc[Modell for autorisering og delegering - eOppslag]
+19.02.2019 06:27:10: 3 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
+19.02.2019 06:27:10: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:10: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_eoppslag_sikkerhet\20180629-eoppslag-autorisering-og-delegering.adoc
+19.02.2019 06:27:10: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:10: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_eoppslag_sikkerhet\eOppslag_sikkerhetsmodell_overordnet.adoc
+19.02.2019 06:27:10: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:10: Linje: For hvert samhandlingsmønster pekes det på hvilken link:../na_referanse_arkitekturer/main.adoc[referansearkitektur] som skal benyttes for samhandlingen.
+19.02.2019 06:27:10: 2 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_samhandlingsmønstre\main.adoc
+19.02.2019 06:27:10: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:10: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer\Generelt.adoc
+19.02.2019 06:27:10: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:10: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75]
+19.02.2019 06:27:10: 2 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer\main.adoc
+19.02.2019 06:27:10: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:10: Linje: Digital samhandling mellom virksomheter vil fra et forretningsperspektiv gjøres på et fåtall måter. Dette kaller vi llink:../na_referanse_arkitekturer_samhandlingsmønstre/main.adoc[samhandlingsmønstre]. I link:./Steg2.adoc[steg 2] vil vi se på hvordan vi enkelt kan avdekke hvilke samhandlingsmønstre man har behov for å realisere en digital samhandlingsprosess og deretter mappe disse mor referansearkitekturer i link:./Steg3.adoc[steg 3]. Først når man har identifisert samhandlingsmønstre og referansearkitektur, er det riktig å diskutere løsningsarkitektur og hvilke tekniske løsningsalternativer man har for hver enkelt samhandling. Dette ser vi på i link:./Steg4.adoc[steg 4]. Sagt på en annen måte, man må forstå og være enige om behovet før man kan diskutere teknologi.
+19.02.2019 06:27:10: 2 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer\Steg1.adoc
+19.02.2019 06:27:10: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:10: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer\Steg2.adoc
+19.02.2019 06:27:10: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:10: Linje: Har man fått til en god enighet om samhandlingsmønstre, så vil ofte prosessen med å mappe mot referansearkitektur være ganske enkel da det under link:../na_referanse_arkitekturer_samhandlingsmønstre/main.adoc[samhandlingsmønstre] er angitt hvilken referansearkitektur som gjelder for et bestemt samhandlingsmønster.
+19.02.2019 06:27:10: 2 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer\Steg3.adoc
+19.02.2019 06:27:10: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:10: Linje: Fra et arkitekturståsted så består en referansearkitektur av et sett med funksjonelle byggeklosser (ABBer) som representerer funksjonaliteten som kreves for å realisere samhandlingsbehovet. Det vil både kunne være påbudte og valgfrie funksjonelle byggeklosser. Valgfrie byggeklosser benyttes kun der behov og krav til kvalitetsegenskaper tilsier at det kreves. For eksempel vil ikke alle samhandlingsbehov kreve kapabiliteten meldingskryptering for link:../na_referanse_arkitekturer_eoppslag/eOppslag-referansearkitektur.adoc[eOppslag].
+19.02.2019 06:27:10: Linje: * link:../na_referanse_arkitekturer_eoppslag/eOppslag-referansearkitektur.adoc[eOppslag] 
+19.02.2019 06:27:10: 3 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer\Steg4.adoc
+19.02.2019 06:27:10: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:10: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_begreper\arkitekturbegreper.adoc
+19.02.2019 06:27:10: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:10: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_begreper\main.adoc
+19.02.2019 06:27:10: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:10: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_maler_archimate\archimate-navnestandarder.adoc
+19.02.2019 06:27:10: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:10: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_maler_archimate\main.adoc
+19.02.2019 06:27:10: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:10: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_maler_asciidoc\mal-fellesløsning.adoc
+19.02.2019 06:27:10: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:10: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75]
+19.02.2019 06:27:10: 2 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_taksonomier\main.adoc
+19.02.2019 06:27:10: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:10: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_taksonomier_LOS\main.adoc
+19.02.2019 06:27:10: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:10: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_standard\main.adoc
+19.02.2019 06:27:10: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:10: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_styring\main.adoc
+19.02.2019 06:27:10: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:10: Linje: //image:./na_felles/media/i-arbeid.png[width=50, height=50]
+19.02.2019 06:27:10: Linje: . link:../na_/[Nasjonalt arkitekturbibliotek]
+19.02.2019 06:27:10: 3 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_\main.adoc
+19.02.2019 06:27:10: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:10: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75] I arbeid
+19.02.2019 06:27:10: 2 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_om-plattformen\main.adoc
+19.02.2019 06:27:10: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:10: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_praktiske-tips\main.adoc
+19.02.2019 06:27:10: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:10: Linje: //image:../na_felles/media/i-arbeid.png[width=75, height=75] Uferdig innhold
+19.02.2019 06:27:10: 2 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_praktiske-tips_archi\main.adoc
+19.02.2019 06:27:10: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:10: Linje: //image:../na_felles/media/i-arbeid.png[width=75, height=75] I arbeid
+19.02.2019 06:27:10: Linje:  include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:10: Linje:     include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:10: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75] I arbeid
+19.02.2019 06:27:10: 5 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_praktiske-tips_asciidoc\main.adoc
+19.02.2019 06:27:10: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:10: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75] Uferdig innhold
+19.02.2019 06:27:10: 2 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_praktiske-tips_asciidoctor\main.adoc
+19.02.2019 06:27:10: Linje: include::../na_felles/includes/commonincludes.adoc[]
+19.02.2019 06:27:10: Linje: image:../na_felles/media/i-arbeid.png[width=75, height=75] I arbeid.
+19.02.2019 06:27:10: Linje: image:../na_felles//media/i-arbeid.png[width=75, height=75]I arbeid
+19.02.2019 06:27:10: 3 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_praktiske-tips_github\main.adoc
+19.02.2019 06:27:15: Start SjekkAsciidocLinks()
+19.02.2019 06:27:19: Start SjekkAsciidocInclude()
+19.02.2019 06:27:21: Start SjekkAsciidocImages()
+19.02.2019 06:27:21: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer\media\Referansearkitekturer.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer\strategi-for-referansearkitekturer.adoc
+19.02.2019 06:27:21: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_eoppslag\media\eOppslagRefArk.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
+19.02.2019 06:27:21: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_eoppslag\media\ABBs.jpg, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
+19.02.2019 06:27:21: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_maler_asciidoc\media\smallnew.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_maler_asciidoc\artikkelmal-engelsk.adoc
+19.02.2019 06:27:21: Error: Asciidoc link ./media/ missing [ in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_maler_asciidoc\artikkelmal-engelsk.adoc

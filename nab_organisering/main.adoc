@@ -1,0 +1,32 @@
+:lang: no
+:doctitle: Organisering og kompetanse
+:keywords: Referansebibliotek
+
+
+include::../nab_felles/includes/commonincludes.adoc[]
+
+[.lead]
+Strukturer og prosesser  for å styre arkitekturarbeidet. 
+
+Her oppbevares bakgrunnsmateriale som er kilde til krav og endringsaktiviteter. Her oppbevares også arkitekturmandatet (og charteret) som beskriver mål, virkemidler og planer for arkitekturarbeidet.
+
+Arkitekturmandat
+
+    Arkitekturmandatet svarer på forhold knyttet til hvorfor, hvordan, hvem, hva og når. Dokumentet skal sikre god etterlevelse av beslutningene, etablere klare mål og fokusere på riktige virkemidler.
+
+Kompetansebibliotek
+
+    Beskriver den totale kompetansen på arkitekturområdet samt hvilken kompetansestyring som er nødvendig for å dekke framtidige behov.
+
+Ressurser
+
+    Er eiendeler eid eller under kontroll av et individ eller organisasjon (aktør) som kan relateres til samhandling.
+
+Organisering
+
+    Her gis en oversikt over arkitekturressurser, interessenter, roller, aktører og organisasjonsledd involvert. Det må beskrives hva som skal besluttes av hvem og når det skal rapporteres i organisasjonen.
+
+Gjennomføringsplaner
+
+    Planer som iverksettes ved å sette sammen kapabiliteter og ressurser i den hensikt å nå effektmål for samhandling.
+

@@ -1,0 +1,32 @@
+:lang: no
+:doctitle: Overordnet rammeverk
+:keywords: Norsk, arkitekturbibliotek, offenlig sektor, virksomhetsarkitektur, NIF, samhandlingsarkitektur, rammeverk, GitHub
+//:preamble: 
+
+include::../nab_felles/includes/commonincludes.adoc[]
+
+[.lead]
+Overordnet rammeverk for arbeidet med nasjonal arkitektur 
+
+
+
+image:../nab_felles/media/i-arbeid.png[width=75, height=75] Foreløpig tekst
+
+
+
+Arbeidet med nasjonal arkitektur i Norge baserer seg på flere metoder og rammeverk, på tvers av flere fagdisipliner.
+
+På nasjonalt nivå omhandles i utgangspunktet "hele bildet", der metoder og arkitekturer for områder som samhandlingsarkitektur, informasjonsforvaltning, dataanalyse, IoT, big data og kunstig intelligens inngår.
+
+
+Per 2018 er Nasjonalt arkitekturrammeverk for samhandling (NIF) det primære rammverket; se https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/nasjonal-arkitektur/arkitekturrammeverk-samhandling[introduksjon til NIF på Difis hjemmesider].
+
+Kort fortalt: Nasjonalt arkitekturrammeverk for samhandling kan ses på som en tilpasning av TOGAF versjon 9.2, med utgangspunkt i EIF - European Interoperability Framework. Ut fra dette kalles også rammeverket NIF - National Interoperability Framework.
+
+Nasjonalt arkitekturrammeverk for samhandling (NIF) fokuserer på arkitekturer som støtter utvikling av sammenhengende og tverrgående tjenester. Under dette dekkes også metoder og rammeverk for tjenestedesign m.m.
+
+Videre detaljer om metodikk, veiledninger, dokumentasjonskonvensjoner og metamodeller finnes under ... Metodikk-og-rammeverk... under "referansebibliotek" (lenke kommer).
+
+
+
+    

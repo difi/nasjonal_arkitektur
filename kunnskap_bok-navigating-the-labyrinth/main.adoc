@@ -2,7 +2,7 @@
 :doctitle: Navigating the Labyrinth: An Executive Guide to Data Management
 :keywords: Informasjonsforvaltning, Dataforvaltning
 
-include::../na_felles/includes/commonincludes.adoc[]
+include::../nab_felles/includes/commonincludes.adoc[]
 
 [.lead]
 Navigating the Labyrinth is a concise guide to data management, providing an executive’s overview to the DMBOK2. Utgitt 2018-06-01.
@@ -14,7 +14,7 @@ image:./media/bokfront-navigating-the-labyrinth.png[width=100, height=100]
 ////
 ////
 
-//image:../na_felles/media/i-arbeid.png[width=75, height=75] Uferdig innhold - første versjon er fremdeles i arbeid
+//image:../nab_felles/media/i-arbeid.png[width=75, height=75] Uferdig innhold - første versjon er fremdeles i arbeid
 
 :numbered!:
 

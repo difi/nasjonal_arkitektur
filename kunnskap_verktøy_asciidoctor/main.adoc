@@ -1,13 +1,13 @@
 :lang: no
 :doctitle: Asciidoctor
 
-include::../na_felles/includes/commonincludes.adoc[]
+include::../nab_felles/includes/commonincludes.adoc[]
 
 [.lead]
 Asciidoctor er et kommandolinje verktøy for å ...
 
 
-image:../na_felles/media/i-arbeid.png[width=75, height=75] Uferdig innhold
+image:../nab_felles/media/i-arbeid.png[width=75, height=75] Uferdig innhold
 
 
 ////

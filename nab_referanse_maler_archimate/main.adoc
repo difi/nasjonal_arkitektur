@@ -1,0 +1,10 @@
+:lang: no
+:doctitle: Konvensjoner for modlelering med Archimate 
+:keywords: Archimate
+
+include::../nab_felles/includes/commonincludes.adoc[]
+
+== Navnestandarder
+
+
+== Viewpoints

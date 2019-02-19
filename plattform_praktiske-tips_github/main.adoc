@@ -2,7 +2,7 @@
 :doctitle: Praktiske tips for å komme igang med GitHub
 :keywords: Github
 
-include::../na_felles/includes/commonincludes.adoc[]
+include::../nab_felles/includes/commonincludes.adoc[]
 
 
 
@@ -125,7 +125,7 @@ Gitt at du har skriverettigheter, kan du endre eksisterende filer, slette filer 
 
 === Synkronisering og publisering av endringer
 
-image:../na_felles/media/i-arbeid.png[width=75, height=75] I arbeid.
+image:../nab_felles/media/i-arbeid.png[width=75, height=75] I arbeid.
 
 ==== Synkronisering og publisering med GitHub Desktop
 GitHub Desktop vil kontinuerlig polle og hente ned endringer fra GitHub til valgt _Current Repository_. Du vil også løpende se hvilke endringer du selv har gjort som foreløpig ikke er synkronisert tli GitHub. 
@@ -149,4 +149,4 @@ Git Submodules brukes for prosjektarbeid der en ønsker å tildele skriverettigh
 
 ==== Annet
 
-image:../na_felles//media/i-arbeid.png[width=75, height=75]I arbeid
+image:../nab_felles//media/i-arbeid.png[width=75, height=75]I arbeid

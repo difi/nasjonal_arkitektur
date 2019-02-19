@@ -3,11 +3,11 @@
 :keywords: India, Arkitekturrammeverk
 :preamble: IndEA bygger på TOGAF og har en "All of Government" tilnærming, med FNs bærekraftsmål som overordnede mål.
 
-include::../na_felles/includes/commonincludes.adoc[]
+include::../nab_felles/includes/commonincludes.adoc[]
 
 ////
 ////
-//image:../na_felles/media/i-arbeid.png[width=75, height=75]
+//image:../nab_felles/media/i-arbeid.png[width=75, height=75]
 
 == Innledning
 IndEA anno 2018 bygger på TOGAF og har en klar "All of Government" tilnærming, med FNs bærekraftsmål som overordnede mål. IndEA framstår som et helhetlig rammeverk for utvikling av offentlig sektor, med mye interessant og godt innhold. Det er uansett "work in progress" og kan ikke uten videre tas som fasit for norske forhold.

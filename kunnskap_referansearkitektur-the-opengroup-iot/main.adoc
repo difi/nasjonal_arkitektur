@@ -2,7 +2,7 @@
 :doctitle: Referensearkitekturer for IoT, The OpenGroup 
 :keywords: Utviklingsmetodikk
 
-include::../na_felles/includes/commonincludes.adoc[]
+include::../nab_felles/includes/commonincludes.adoc[]
 
 
 [.lead]
@@ -10,7 +10,7 @@ The London Workshop included presentations of four emerging standard reference a
 
 
 
-image:../na_felles/media/i-arbeid.png[width=75, height=75] Første versjon av denne omtalen er fremdeles i arbeid 
+image:../nab_felles/media/i-arbeid.png[width=75, height=75] Første versjon av denne omtalen er fremdeles i arbeid 
 
 
 

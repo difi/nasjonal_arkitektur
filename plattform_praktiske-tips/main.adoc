@@ -2,7 +2,7 @@
 :doctitle: Praktiske tips for å komme igang 
 :keywords: Github, asciidoc, archi
 
-include::../na_felles/includes/commonincludes.adoc[]
+include::../nab_felles/includes/commonincludes.adoc[]
 
 [.lead]
 Nasjonalt arkitekturbibliotek er en plattform for samproduksjon og deling av arkitekturdokumentasjon i offentlig sektor, etablert av Difi i 2019.

@@ -2,13 +2,13 @@
 :doctitle: SIAM - Service Integration and Management
 :keywords: SIAM, Service Integration and Management
 
-include::../na_felles/includes/commonincludes.adoc[]
+include::../nab_felles/includes/commonincludes.adoc[]
 
 
 [.lead]
 The SIAM Foundation Body of Knowledge from Scopism Ltd defines SIAM as ″a management methodology that can be applied in an environment that includes services sourced from a number of service providers″.
 
-image:../na_felles/media/i-arbeid.png[width=75, height=75]Uferdig innhold - første versjon er fremdeles i arbeid
+image:../nab_felles/media/i-arbeid.png[width=75, height=75]Uferdig innhold - første versjon er fremdeles i arbeid
 
 
 

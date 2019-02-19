@@ -1,0 +1,9 @@
+:lang: no
+:doctitle: Begreper 
+:keywords: Begreper
+include::../nab_felles/includes/commonincludes.adoc[]
+
+
+. link:./arkitekturbegreper.adoc[Virksomhetsarkitektur]
++
+Begreper innen virksomhetsarkitektur.

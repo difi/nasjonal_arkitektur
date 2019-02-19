@@ -1,7 +1,7 @@
 :lang: no
 :doctitle: Kjøreplan for kurset
 
-include::../na_felles/includes/commonincludes.adoc[]
+include::../nab_felles/includes/commonincludes.adoc[]
 
 [.lead]
 

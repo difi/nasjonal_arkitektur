@@ -1,6 +1,6 @@
 :lang: no
 :doctitle: Temaer
-include::../na_felles/includes/commonincludes.adoc[]
+include::../nab_felles/includes/commonincludes.adoc[]
 [.lead]
 
 

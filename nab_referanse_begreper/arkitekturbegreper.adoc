@@ -1,0 +1,9 @@
+:lang: no
+:doctitle: Virksomhetsarkitektur-begreper 
+:keywords: Begreper
+include::../nab_felles/includes/commonincludes.adoc[]
+
+== SKOS-format
+Ref. link:./kildefiler/virksomhetsarkitektur-begeper.ttl[Virksomhetsarkitektur-begreper på SKOS-format (Turtle)].
+
+NOTE: Denne filen __(er per 18/2 2019 planlagt at skal)__ høstes av Felles Datakatalog.

@@ -2,7 +2,7 @@
 :doctitle: Nasjonal arkitekturplattform
 :keywords: nasjonal arkitektur, virksomhetsarkitektur
 :audience: alle
-include::./na_felles/includes/commonincludes.adoc[]
+include::./nab_felles/includes/commonincludes.adoc[]
 
 include::./plattform_/main.adoc[]
 

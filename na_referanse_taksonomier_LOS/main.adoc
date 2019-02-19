@@ -1,3 +1,0 @@
-:lang: no
-:doctitle: LOS
-include::../na_felles/includes/commonincludes.adoc[]
