@@ -7,7 +7,7 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 
 [.lead]
-Arkitekturdokumentasjon - modeller, standarder, referansearkitekturer, veiledninger, anbefalinger, tips, maler og annet av  interesse på tvers av offentlig (og privat) sektor i Norge. 
+Arkitekturdokumentasjon - modeller, standarder, referansearkitekturer, veiledninger, anbefalinger, tips, maler og annet av  interesse på tvers av offentlig (og privat) sektor i Norge..
 
 
 //image:../plattform_felles/media/difilogo.svg[image,width=169,height=66]
