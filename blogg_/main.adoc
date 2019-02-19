@@ -3,12 +3,12 @@
 :keywords: Blogg
 :preamble: Blogger og personlige meninger om nasjonal arkitektur.
 
-include::../nab_felles/includes/commonincludes.adoc[]
+include::../plattform_felles/includes/commonincludes.adoc[]
 
 
 ////
 ////
-image:../nab_felles/media/i-arbeid.png[width=75, height=75] Uferdig innhold - første versjon er fremdeles i arbeid
+image:../plattform_felles/media/i-arbeid.png[width=75, height=75] Uferdig innhold - første versjon er fremdeles i arbeid
 
 :leveloffset!:
 :leveloffset: +2

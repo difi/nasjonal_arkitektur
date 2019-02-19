@@ -3,14 +3,14 @@
 :keywords: Norsk, arkitekturbibliotek, offenlig sektor, virksomhetsarkitektur, NIF, samhandlingsarkitektur, rammeverk, GitHub
 //:preamble: 
 
-include::../nab_felles/includes/commonincludes.adoc[]
+include::../plattform_felles/includes/commonincludes.adoc[]
 
 [.lead]
 Overordnet rammeverk for arbeidet med nasjonal arkitektur 
 
 
 
-image:../nab_felles/media/i-arbeid.png[width=75, height=75] Foreløpig tekst
+image:../plattform_felles/media/i-arbeid.png[width=75, height=75] Foreløpig tekst
 
 
 

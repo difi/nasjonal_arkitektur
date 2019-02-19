@@ -2,7 +2,7 @@
 :doctitle: Steg 4 - Identifisere løsningsarkitektur
 :keywords: Metodikk
 
-include::../nab_felles/includes/commonincludes.adoc[]
+include::../plattform_felles/includes/commonincludes.adoc[]
 
 
 Når referansearkitektur er identifisert, se link:./Steg3.adoc[steg 3], kan man gå videre å jobbe med løsningsarkitektur.

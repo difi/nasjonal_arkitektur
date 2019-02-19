@@ -3,16 +3,16 @@
 :keywords: Norsk, arkitekturbibliotek, offenlig sektor, virksomhetsarkitektur, NIF, samhandlingsarkitektur, rammeverk, GitHub
 //:preamble: 
 
-include::../nab_felles/includes/commonincludes.adoc[]
+include::../plattform_felles/includes/commonincludes.adoc[]
 
 
 [.lead]
 Arkitekturdokumentasjon - modeller, standarder, referansearkitekturer, veiledninger, anbefalinger, tips, maler og annet av  interesse på tvers av offentlig (og privat) sektor i Norge. 
 
 
-//image:../nab_felles/media/difilogo.svg[image,width=169,height=66]
+//image:../plattform_felles/media/difilogo.svg[image,width=169,height=66]
 
-//image:../nab_felles/media/i-arbeid.png[width=75, height=75]I arbeid
+//image:../plattform_felles/media/i-arbeid.png[width=75, height=75]I arbeid
 
 ////
 == Introduksjon

@@ -3,7 +3,7 @@
 :keywords: Referansebibliotek
 
 
-include::../nab_felles/includes/commonincludes.adoc[]
+include::../plattform_felles/includes/commonincludes.adoc[]
 
 WARNING: Teksten nedenfor er generell og må tilpasses nasjonalt arkitekturbibliotek! 
 

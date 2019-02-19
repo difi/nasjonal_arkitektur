@@ -2,7 +2,7 @@
 :doctitle: Nasjonal arkitekturplattform
 :keywords: nasjonal arkitektur, virksomhetsarkitektur
 :audience: alle
-include::../nab_felles/includes/commonincludes.adoc[]
+include::../plattform_felles/includes/commonincludes.adoc[]
 
 
 image:./media/norsk-flagg.png[width=60, height=60] image:./media/uttar-pradesh-vidhaan-sabha.png[width=150, height=150]

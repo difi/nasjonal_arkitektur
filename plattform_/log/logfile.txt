@@ -1482,3 +1482,317 @@
 19.02.2019 06:27:21: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_eoppslag\media\ABBs.jpg, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
 19.02.2019 06:27:21: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_maler_asciidoc\media\smallnew.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_maler_asciidoc\artikkelmal-engelsk.adoc
 19.02.2019 06:27:21: Error: Asciidoc link ./media/ missing [ in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_maler_asciidoc\artikkelmal-engelsk.adoc
+19.02.2019 06:31:59: ErstattTekstIAlleFiler(include::../nab_felles/includes/commonincludes.adoc[], include::../plattform_felles/includes/commonincludes.adoc[])
+19.02.2019 06:31:59: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:31:59: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\blogg_\all-of-government.adoc
+19.02.2019 06:31:59: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:31:59: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\blogg_\main.adoc
+19.02.2019 06:31:59: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:31:59: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\blogg_2018-12-28-sporsmål-om-drift-og-forvaltning-av-ikt\sporsmål-om-drift-og-forvaltning-av-ikt.adoc
+19.02.2019 06:31:59: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:31:59: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_\main.adoc
+19.02.2019 06:31:59: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:31:59: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_arkitekturrammeverk-india\indias-arkitekturrammeverk.adoc
+19.02.2019 06:31:59: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:31:59: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_arkitekturrammeverk-india\main.adoc
+19.02.2019 06:31:59: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:31:59: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_bok-dmbok2\main.adoc
+19.02.2019 06:31:59: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:31:59: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_bok-navigating-the-labyrinth\main.adoc
+19.02.2019 06:31:59: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:31:59: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_kurs-archimate-intro\kjøreplan.adoc
+19.02.2019 06:31:59: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:31:59: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_kurs-archimate-intro\main.adoc
+19.02.2019 06:31:59: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:31:59: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_kurs-archimate-intro\praktiske-øvelser.adoc
+19.02.2019 06:31:59: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:31:59: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_kurs-archimate-intro\temaer.adoc
+19.02.2019 06:31:59: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:31:59: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_metode_siam\main.adoc
+19.02.2019 06:31:59: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:31:59: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_referansearkitektur-the-opengroup-iot\main.adoc
+19.02.2019 06:31:59: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_referansearkitektur-the-opengroup-it4it\main.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_standard-archimate\kilder-til-kunnskap.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_standard-archimate\main.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_taksonomier_LOS\main.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_verktøy_asciidoc-fx\main.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_verktøy_asciidoctor\main.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_\main.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_arkitekturlandskap\main.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_kravbibliotek\main.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap\main.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_altinn-samhandlings-og-integrasjonsplattform\main.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_altinn-tilgangsstyring\main.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_altinn-tjenesteplattform\main.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_brreg-digital-kontaktinformasjon-og-fullmakter-for-virksomheter\main.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_brreg-digital-post-til-virksomheter\main.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_brreg-enhetsregisteret\main.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_brreg-felles-datakatalog\main.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_difi-digital-post-til-innbyggere\main.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_difi-eformidling\main.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_difi-einnsyn\main.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_difi-esignering\main.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_difi-idporten\main.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_difi-kontakt-og-reservasjonsregisteret​-for-innbyggere\main.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_kartverket-geonorge\main.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_kartverket-matrikkelen\main.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_ks-fiks-tjenesteplattform\main.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_ks-svarut\main.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_skattetaten-folkeregisteret\main.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_ssb\main.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_modeller\main.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_organisering\main.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_organisering_kompetanse\main.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_rammeverk\main.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_rammeverk_metamodell\main.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_\main.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer\main.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer\strategi-for-referansearkitekturer.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_eoppslag_sikkerhet\20180629-eoppslag-autorisering-og-delegering.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_eoppslag_sikkerhet\eOppslag_sikkerhetsmodell_overordnet.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_samhandlingsmønstre\main.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer\Generelt.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer\main.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer\Steg1.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer\Steg2.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer\Steg3.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer\Steg4.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_begreper\arkitekturbegreper.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_begreper\main.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_maler_archimate\archimate-navnestandarder.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_maler_archimate\main.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_maler_asciidoc\mal-fellesløsning.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_taksonomier\main.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_taksonomier_LOS\main.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_standard\main.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_styring\main.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_\main.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_om-plattformen\main.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_praktiske-tips\main.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_praktiske-tips_archi\main.adoc
+19.02.2019 06:32:00: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: Linje:  include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:00: Linje:     include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:01: 3 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_praktiske-tips_asciidoc\main.adoc
+19.02.2019 06:32:01: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:01: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_praktiske-tips_asciidoctor\main.adoc
+19.02.2019 06:32:01: Linje: include::../nab_felles/includes/commonincludes.adoc[]
+19.02.2019 06:32:01: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_praktiske-tips_github\main.adoc
+19.02.2019 06:32:07: Start SjekkAsciidocLinks()
+19.02.2019 06:32:10: Start SjekkAsciidocInclude()
+19.02.2019 06:32:13: Start SjekkAsciidocImages()
+19.02.2019 06:32:13: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer\media\Referansearkitekturer.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer\strategi-for-referansearkitekturer.adoc
+19.02.2019 06:32:13: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_eoppslag\media\eOppslagRefArk.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
+19.02.2019 06:32:13: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_eoppslag\media\ABBs.jpg, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
+19.02.2019 06:32:13: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_maler_asciidoc\media\smallnew.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_maler_asciidoc\artikkelmal-engelsk.adoc
+19.02.2019 06:32:13: Error: Asciidoc link ./media/ missing [ in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_maler_asciidoc\artikkelmal-engelsk.adoc
+19.02.2019 06:33:01: Start SjekkAsciidocLinks()
+19.02.2019 06:33:03: Start SjekkAsciidocInclude()
+19.02.2019 06:33:04: Error: Failed to locate include file ../nab_felles/includes/standardheader.adoc, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_difi-nasjonalt-arkitekturbiblotek\dokumentasjonskonvensjoner.adoc
+19.02.2019 06:33:10: Error: Failed to locate include file ../nab_felles/includes/commonlinks1.adoc, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_difi-nasjonalt-arkitekturbiblotek\dokumentasjonskonvensjoner.adoc
+19.02.2019 06:33:11: Error: Failed to locate include file ../nab_felles/includes/standardheader.adoc, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_difi-nasjonalt-arkitekturbiblotek\README.adoc
+19.02.2019 06:33:12: Error: Failed to locate include file ../nab_felles/includes/commonlinks1.adoc, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_difi-nasjonalt-arkitekturbiblotek\README.adoc
+19.02.2019 06:34:09: Error: Failed to locate include file ../nab_felles/includes/standardheader.adoc, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_difi-nasjonalt-arkitekturbiblotek\Tips_for_å_skrive_enkle_dokumenter.adoc
+19.02.2019 06:34:09: Error: Failed to locate include file ../nab_felles/includes/standardheader.adoc, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_emelding\README.adoc
+19.02.2019 06:34:09: Error: Failed to locate include file ../nab_felles/includes/commonlinks1.adoc, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_emelding\README.adoc
+19.02.2019 06:34:09: Error: Failed to locate include file ./nab_felles/includes/commonincludes.adoc, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\main.adoc
+19.02.2019 06:40:22: Start SjekkAsciidocLinks()
+19.02.2019 06:40:25: Start SjekkAsciidocInclude()
+19.02.2019 06:40:25: Error: Failed to locate include file ../nab_felles/includes/standardheader.adoc, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_emelding\README.adoc
+19.02.2019 06:40:25: Error: Failed to locate include file ../nab_felles/includes/commonlinks1.adoc, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_emelding\README.adoc
+19.02.2019 06:40:25: Error: Failed to locate include file ./nab_felles/includes/commonincludes.adoc, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\main.adoc
+19.02.2019 06:42:54: Start SjekkAsciidocInclude()
+19.02.2019 06:42:56: Start SjekkAsciidocImages()
+19.02.2019 06:42:56: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_felles\media\i-arbeid.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\blogg_\all-of-government.adoc
+19.02.2019 06:42:56: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_felles\media\i-arbeid.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\blogg_\main.adoc
+19.02.2019 06:42:56: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_felles\media\i-arbeid.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\blogg_2018-12-28-sporsmål-om-drift-og-forvaltning-av-ikt\sporsmål-om-drift-og-forvaltning-av-ikt.adoc
+19.02.2019 06:42:56: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_felles\media\i-arbeid.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_\main.adoc
+19.02.2019 06:42:56: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_felles\media\i-arbeid.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_\main.adoc
+19.02.2019 06:42:56: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_felles\media\i-arbeid.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_metode_siam\main.adoc
+19.02.2019 06:42:56: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_felles\media\i-arbeid.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_referansearkitektur-the-opengroup-iot\main.adoc
+19.02.2019 06:42:56: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_felles\media\i-arbeid.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_referansearkitektur-the-opengroup-it4it\main.adoc
+19.02.2019 06:42:56: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_felles\media\i-arbeid.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_referansearkitektur-the-opengroup-it4it\main.adoc
+19.02.2019 06:42:56: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_felles\media\i-arbeid.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_standard-archimate\main.adoc
+19.02.2019 06:42:56: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_felles\media\i-arbeid.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_verktøy_asciidoc-fx\main.adoc
+19.02.2019 06:42:56: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_felles\media\i-arbeid.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_verktøy_asciidoctor\main.adoc
+19.02.2019 06:42:56: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_felles\media\i-arbeid.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_modeller\main.adoc
+19.02.2019 06:42:56: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_felles\media\i-arbeid.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_organisering_kompetanse\main.adoc
+19.02.2019 06:42:56: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_felles\media\i-arbeid.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_rammeverk\main.adoc
+19.02.2019 06:42:56: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_felles\media\i-arbeid.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_rammeverk_metamodell\main.adoc
+19.02.2019 06:42:56: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_felles\media\i-arbeid.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer\main.adoc
+19.02.2019 06:42:56: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer\media\Referansearkitekturer.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer\strategi-for-referansearkitekturer.adoc
+19.02.2019 06:42:56: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_eoppslag\media\eOppslagRefArk.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
+19.02.2019 06:42:56: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_eoppslag\media\ABBs.jpg, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
+19.02.2019 06:42:56: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_felles\media\i-arbeid.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer\main.adoc
+19.02.2019 06:42:56: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_maler_asciidoc\media\smallnew.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_maler_asciidoc\artikkelmal-engelsk.adoc
+19.02.2019 06:42:56: Error: Asciidoc link ./media/ missing [ in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_maler_asciidoc\artikkelmal-engelsk.adoc
+19.02.2019 06:42:56: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_felles\media\i-arbeid.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_taksonomier\main.adoc
+19.02.2019 06:42:56: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_felles\media\i-arbeid.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_om-plattformen\main.adoc
+19.02.2019 06:42:56: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_felles\media\i-arbeid.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_praktiske-tips_asciidoc\main.adoc
+19.02.2019 06:42:56: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_felles\media\i-arbeid.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_praktiske-tips_asciidoctor\main.adoc
+19.02.2019 06:42:56: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_felles\media\i-arbeid.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_praktiske-tips_github\main.adoc
+19.02.2019 06:42:56: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_felles\\media\i-arbeid.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_praktiske-tips_github\main.adoc
+19.02.2019 06:43:02: Start SjekkAsciidocLinks()
+19.02.2019 06:43:04: Start SjekkAsciidocImages()
+19.02.2019 06:43:05: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_felles\media\i-arbeid.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\blogg_\all-of-government.adoc
+19.02.2019 06:43:05: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_felles\media\i-arbeid.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\blogg_\main.adoc
+19.02.2019 06:43:05: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_felles\media\i-arbeid.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\blogg_2018-12-28-sporsmål-om-drift-og-forvaltning-av-ikt\sporsmål-om-drift-og-forvaltning-av-ikt.adoc
+19.02.2019 06:43:05: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_felles\media\i-arbeid.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_\main.adoc
+19.02.2019 06:43:05: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_felles\media\i-arbeid.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_\main.adoc
+19.02.2019 06:43:05: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_felles\media\i-arbeid.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_metode_siam\main.adoc
+19.02.2019 06:43:05: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_felles\media\i-arbeid.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_referansearkitektur-the-opengroup-iot\main.adoc
+19.02.2019 06:43:05: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_felles\media\i-arbeid.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_referansearkitektur-the-opengroup-it4it\main.adoc
+19.02.2019 06:43:05: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_felles\media\i-arbeid.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_referansearkitektur-the-opengroup-it4it\main.adoc
+19.02.2019 06:43:05: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_felles\media\i-arbeid.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_standard-archimate\main.adoc
+19.02.2019 06:43:05: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_felles\media\i-arbeid.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_verktøy_asciidoc-fx\main.adoc
+19.02.2019 06:43:05: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_felles\media\i-arbeid.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_verktøy_asciidoctor\main.adoc
+19.02.2019 06:43:05: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_felles\media\i-arbeid.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_modeller\main.adoc
+19.02.2019 06:43:05: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_felles\media\i-arbeid.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_organisering_kompetanse\main.adoc
+19.02.2019 06:43:05: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_felles\media\i-arbeid.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_rammeverk\main.adoc
+19.02.2019 06:43:05: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_felles\media\i-arbeid.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_rammeverk_metamodell\main.adoc
+19.02.2019 06:43:05: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_felles\media\i-arbeid.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer\main.adoc
+19.02.2019 06:43:05: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer\media\Referansearkitekturer.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer\strategi-for-referansearkitekturer.adoc
+19.02.2019 06:43:05: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_eoppslag\media\eOppslagRefArk.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
+19.02.2019 06:43:05: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_eoppslag\media\ABBs.jpg, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
+19.02.2019 06:43:05: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_felles\media\i-arbeid.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer\main.adoc
+19.02.2019 06:43:05: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_maler_asciidoc\media\smallnew.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_maler_asciidoc\artikkelmal-engelsk.adoc
+19.02.2019 06:43:05: Error: Asciidoc link ./media/ missing [ in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_maler_asciidoc\artikkelmal-engelsk.adoc
+19.02.2019 06:43:05: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_felles\media\i-arbeid.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_taksonomier\main.adoc
+19.02.2019 06:43:05: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_felles\media\i-arbeid.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_om-plattformen\main.adoc
+19.02.2019 06:43:05: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_felles\media\i-arbeid.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_praktiske-tips_asciidoc\main.adoc
+19.02.2019 06:43:05: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_felles\media\i-arbeid.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_praktiske-tips_asciidoctor\main.adoc
+19.02.2019 06:43:05: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_felles\media\i-arbeid.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_praktiske-tips_github\main.adoc
+19.02.2019 06:43:05: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_felles\\media\i-arbeid.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_praktiske-tips_github\main.adoc
+19.02.2019 06:45:02: ErstattTekstIAlleFiler(image:../nab_felles/media/, image:../plattform_felles/media/)
+19.02.2019 06:45:02: Linje: image:../nab_felles/media/i-arbeid.png[width=75, height=75]
+19.02.2019 06:45:02: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\blogg_\all-of-government.adoc
+19.02.2019 06:45:02: Linje: image:../nab_felles/media/i-arbeid.png[width=75, height=75] Uferdig innhold - første versjon er fremdeles i arbeid
+19.02.2019 06:45:02: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\blogg_\main.adoc
+19.02.2019 06:45:02: Linje: image:../nab_felles/media/i-arbeid.png[width=75, height=75] Svar i arbeid
+19.02.2019 06:45:02: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\blogg_2018-12-28-sporsmål-om-drift-og-forvaltning-av-ikt\sporsmål-om-drift-og-forvaltning-av-ikt.adoc
+19.02.2019 06:45:02: Linje: image:../nab_felles/media/i-arbeid.png[width=75, height=75, alt="Figur mangler: i-arbeid.png?",]Uferdig innhold - første versjon er fremdeles i arbeid
+19.02.2019 06:45:02: Linje: image:../nab_felles/media/i-arbeid.png[width=75, height=75, alt="Figur mangler: i-arbeid.png?",]
+19.02.2019 06:45:02: 2 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_\main.adoc
+19.02.2019 06:45:02: Linje: //image:../nab_felles/media/i-arbeid.png[width=75, height=75]
+19.02.2019 06:45:02: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_arkitekturrammeverk-india\indias-arkitekturrammeverk.adoc
+19.02.2019 06:45:02: Linje: //image:../nab_felles/media/i-arbeid.png[width=75, height=75]
+19.02.2019 06:45:02: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_arkitekturrammeverk-india\main.adoc
+19.02.2019 06:45:02: Linje: //image:../nab_felles/media/i-arbeid.png[width=75, height=75] Uferdig innhold - første versjon er fremdeles i arbeid
+19.02.2019 06:45:02: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_bok-navigating-the-labyrinth\main.adoc
+19.02.2019 06:45:02: Linje: //image:../nab_felles/media/i-arbeid.png[width=75, height=75] Første versjon av denne omtalen er fremdeles i arbeid 
+19.02.2019 06:45:02: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_kurs-archimate-intro\main.adoc
+19.02.2019 06:45:02: Linje: image:../nab_felles/media/i-arbeid.png[width=75, height=75]Uferdig innhold - første versjon er fremdeles i arbeid
+19.02.2019 06:45:02: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_metode_siam\main.adoc
+19.02.2019 06:45:02: Linje: image:../nab_felles/media/i-arbeid.png[width=75, height=75] Første versjon av denne omtalen er fremdeles i arbeid 
+19.02.2019 06:45:02: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_referansearkitektur-the-opengroup-iot\main.adoc
+19.02.2019 06:45:02: Linje: image:../nab_felles/media/i-arbeid.png[width=75, height=75] Første versjon av denne omtalen er fremdeles i arbeid - men kanskje du finner noe nyttig?
+19.02.2019 06:45:02: Linje: image:../nab_felles/media/i-arbeid.png[width=75, height=75] I arbeid 
+19.02.2019 06:45:02: 2 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_referansearkitektur-the-opengroup-it4it\main.adoc
+19.02.2019 06:45:02: Linje: image:../nab_felles/media/i-arbeid.png[width=75, height=75] Første versjon av denne omtalen er fremdeles i arbeid 
+19.02.2019 06:45:02: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_standard-archimate\main.adoc
+19.02.2019 06:45:02: Linje: image:../nab_felles/media/i-arbeid.png[width=75, height=75] Uferdig innhold
+19.02.2019 06:45:02: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_verktøy_asciidoc-fx\main.adoc
+19.02.2019 06:45:02: Linje: image:../nab_felles/media/i-arbeid.png[width=75, height=75] Uferdig innhold
+19.02.2019 06:45:02: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_verktøy_asciidoctor\main.adoc
+19.02.2019 06:45:02: Linje: //image:../nab_felles/media/difilogo.svg[image,width=169,height=66]
+19.02.2019 06:45:02: Linje: //image:../nab_felles/media/i-arbeid.png[width=75, height=75]I arbeid
+19.02.2019 06:45:02: 2 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_\main.adoc
+19.02.2019 06:45:02: Linje: image:../nab_felles/media/i-arbeid.png[width=75, height=75]
+19.02.2019 06:45:02: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_modeller\main.adoc
+19.02.2019 06:45:02: Linje: image:../nab_felles/media/i-arbeid.png[width=75, height=75]
+19.02.2019 06:45:02: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_organisering_kompetanse\main.adoc
+19.02.2019 06:45:02: Linje: image:../nab_felles/media/i-arbeid.png[width=75, height=75] Foreløpig tekst
+19.02.2019 06:45:02: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_rammeverk\main.adoc
+19.02.2019 06:45:02: Linje: image:../nab_felles/media/i-arbeid.png[width=75, height=75] Foreløpig tekst
+19.02.2019 06:45:02: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_rammeverk_metamodell\main.adoc
+19.02.2019 06:45:02: Linje: image:../nab_felles/media/i-arbeid.png[width=75, height=75]
+19.02.2019 06:45:02: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer\main.adoc
+19.02.2019 06:45:03: Linje: image:../nab_felles/media/i-arbeid.png[width=75, height=75]
+19.02.2019 06:45:03: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer\main.adoc
+19.02.2019 06:45:03: Linje: image:../nab_felles/media/i-arbeid.png[width=75, height=75]
+19.02.2019 06:45:03: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_taksonomier\main.adoc
+19.02.2019 06:45:03: Linje: image:../nab_felles/media/i-arbeid.png[width=75, height=75] I arbeid
+19.02.2019 06:45:03: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_om-plattformen\main.adoc
+19.02.2019 06:45:03: Linje: //image:../nab_felles/media/i-arbeid.png[width=75, height=75] Uferdig innhold
+19.02.2019 06:45:03: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_praktiske-tips_archi\main.adoc
+19.02.2019 06:45:03: Linje: //image:../nab_felles/media/i-arbeid.png[width=75, height=75] I arbeid
+19.02.2019 06:45:03: Linje: image:../nab_felles/media/i-arbeid.png[width=75, height=75] I arbeid
+19.02.2019 06:45:03: 2 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_praktiske-tips_asciidoc\main.adoc
+19.02.2019 06:45:03: Linje: image:../nab_felles/media/i-arbeid.png[width=75, height=75] Uferdig innhold
+19.02.2019 06:45:03: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_praktiske-tips_asciidoctor\main.adoc
+19.02.2019 06:45:03: Linje: image:../nab_felles/media/i-arbeid.png[width=75, height=75] I arbeid.
+19.02.2019 06:45:03: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_praktiske-tips_github\main.adoc
+19.02.2019 06:45:06: Start SjekkAsciidocImages()
+19.02.2019 06:45:06: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer\media\Referansearkitekturer.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer\strategi-for-referansearkitekturer.adoc
+19.02.2019 06:45:06: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_eoppslag\media\eOppslagRefArk.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
+19.02.2019 06:45:06: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_eoppslag\media\ABBs.jpg, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
+19.02.2019 06:45:06: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_maler_asciidoc\media\smallnew.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_maler_asciidoc\artikkelmal-engelsk.adoc
+19.02.2019 06:45:06: Error: Asciidoc link ./media/ missing [ in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_maler_asciidoc\artikkelmal-engelsk.adoc
+19.02.2019 06:45:06: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_felles\\media\i-arbeid.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_praktiske-tips_github\main.adoc
+19.02.2019 06:47:45: Start SjekkAsciidocImages()
+19.02.2019 06:47:45: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer\media\Referansearkitekturer.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer\strategi-for-referansearkitekturer.adoc
+19.02.2019 06:47:45: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_eoppslag\media\eOppslagRefArk.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
+19.02.2019 06:47:45: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_eoppslag\media\ABBs.jpg, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
+19.02.2019 06:47:45: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_maler_asciidoc\media\smallnew.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_maler_asciidoc\artikkelmal-engelsk.adoc
+19.02.2019 06:47:45: Error: Asciidoc link ./media/ missing [ in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_maler_asciidoc\artikkelmal-engelsk.adoc

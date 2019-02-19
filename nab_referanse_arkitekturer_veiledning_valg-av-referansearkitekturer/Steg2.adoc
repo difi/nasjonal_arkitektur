@@ -2,7 +2,7 @@
 :doctitle: Steg 2 - Identifisere samhandlingsmønstre
 :keywords: Metodikk
 
-include::../nab_felles/includes/commonincludes.adoc[]
+include::../plattform_felles/includes/commonincludes.adoc[]
 
 
 

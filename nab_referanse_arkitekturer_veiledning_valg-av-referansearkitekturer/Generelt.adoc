@@ -2,7 +2,7 @@
 :doctitle: Generelt
 :keywords: metode
 
-include::../nab_felles/includes/commonincludes.adoc[]
+include::../plattform_felles/includes/commonincludes.adoc[]
 
 
 Digital samhandling mellom virksomheter er i stadig endring. Som del av den digitale transformasjonen så vil man ikke lenger sette strøm på papir, men i steden identifisere prosesser for digital samhandling som skiller seg mye fra hvordan man samhandler i dag. De nye prosessene bør ha større fokus på brukernes behov ved å sette brukeren i sentrum og derigjennom understøtte Digital agenda og Personvernforordningen.

@@ -2,13 +2,13 @@
 :doctitle: Arkitekturmodeller
 :keywords: Arkitekturmodeller
 
-include::../nab_felles/includes/commonincludes.adoc[]
+include::../plattform_felles/includes/commonincludes.adoc[]
 
 
 [.lead] 
 Samarbeid om arkitekturmodeller i Nasjonalt arkitekturbibliotek gjøres via filutveksling av standard utvekslingsformater for Archimate, BPMN, UML og DMN, med lagring på Github. Det benyttes også en Collaboration plugin til gratisverktøyet Archi. Modellene publiseres på web.
 
-image:../nab_felles/media/i-arbeid.png[width=75, height=75]
+image:../plattform_felles/media/i-arbeid.png[width=75, height=75]
 
 
 //:leveloffset: +1

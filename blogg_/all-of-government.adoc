@@ -3,11 +3,11 @@
 :keywords: Arkitektur
 :preamble: Norge behøver en helhetlig og mer forretningsdrevet tilnærming til digitaliseringsarbeidet.
 
-include::../nab_felles/includes/commonincludes.adoc[]
+include::../plattform_felles/includes/commonincludes.adoc[]
 
 ////
 ////
-image:../nab_felles/media/i-arbeid.png[width=75, height=75]
+image:../plattform_felles/media/i-arbeid.png[width=75, height=75]
 
 == Innledning
 

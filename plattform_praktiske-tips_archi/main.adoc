@@ -2,7 +2,7 @@
 :doctitle: Praktiske tips om samarbeid med Archi
 :keywords: Archi
 
-include::../nab_felles/includes/commonincludes.adoc[]
+include::../plattform_felles/includes/commonincludes.adoc[]
 
 
 [.lead]
@@ -10,7 +10,7 @@ Archi er et gratis og open-source verktøy som støtter Archimate-standarden for
 
 image:../plattform_praktiske-tips_archi/media/archi-logo.png[]
  
-//image:../nab_felles/media/i-arbeid.png[width=75, height=75] Uferdig innhold
+//image:../plattform_felles/media/i-arbeid.png[width=75, height=75] Uferdig innhold
 
 ////
 ////

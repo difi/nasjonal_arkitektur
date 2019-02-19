@@ -5,7 +5,7 @@
 :keywords_no: Løsningslandskap, fellessløsninger, fellestjenester, felleskomponenter
 :doctitle_en: English title TBD  
 :keywords_en: English keywords TBD
-include::../nab_felles/includes/commonincludes.adoc[]
+include::../plattform_felles/includes/commonincludes.adoc[]
 
 [.lead]
 Nasjonale fellesløsninger - foreløpig utvalg

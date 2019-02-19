@@ -1,7 +1,7 @@
 :doctitle: Tips for å skrive enkle dokumenter
 :revdate: 2018-08-06
 :keywords: dokumentasjon, asciidoc, tips, maler
-include::../nab_felles/includes/standardheader.adoc[]
+include::../plattform_felles/includes/commonincludes.adoc[]
 
 Skriv det ned! Det skal være enkelt å gjøre, enten det er en huskelapp, en blogg eller en seksjon om noe som i neste omgang kanskje skal inngå som et kapittel i et større dokument eller en bok. 
 

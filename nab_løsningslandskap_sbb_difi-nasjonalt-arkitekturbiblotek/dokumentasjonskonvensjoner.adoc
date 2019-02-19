@@ -7,8 +7,7 @@
 :keywords_no: dokumentasjon, konvensjoner, retningslinjer
 :keywords_en: documentation, conventions, guidelines
 
-include::../nab_felles/includes/standardheader.adoc[]
-include::../nab_felles/includes/commonlinks1.adoc[]
+include::../plattform_felles/includes/commonincludes.adoc[]
 
 
 == Generelt om dokumentasjonsformater, lagringsmedia og verktøy 

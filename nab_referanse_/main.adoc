@@ -3,7 +3,7 @@
 :keywords: Referansebibliotek
 
 
-include::../nab_felles/includes/commonincludes.adoc[]
+include::../plattform_felles/includes/commonincludes.adoc[]
 
 . link:../nab_referanse_begreper[Begreper]
 . link:../nab_referanse_arkitekturer[Referansearkitekturer og god praksis]

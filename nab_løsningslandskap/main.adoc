@@ -8,7 +8,7 @@
 :keywords_en: English keywords TBD
 
 
-include::../nab_felles/includes/commonincludes.adoc[]
+include::../plattform_felles/includes/commonincludes.adoc[]
 
 [.lead]
 Løsningslandskapet inneholder byggeklosser i form av spesifikke applikasjoner, tjenester, prosesser m.m.

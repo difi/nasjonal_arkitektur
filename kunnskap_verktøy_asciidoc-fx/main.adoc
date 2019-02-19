@@ -1,13 +1,13 @@
 :lang: no
 :doctitle: Asciidoc FX
 
-include::../nab_felles/includes/commonincludes.adoc[]
+include::../plattform_felles/includes/commonincludes.adoc[]
 
 [.lead]
 Asciidoc FX is a book / document editor to build PDF, Epub, Mobi and HTML books, documents and slides
 
 
-image:../nab_felles/media/i-arbeid.png[width=75, height=75] Uferdig innhold
+image:../plattform_felles/media/i-arbeid.png[width=75, height=75] Uferdig innhold
 
 
 ////

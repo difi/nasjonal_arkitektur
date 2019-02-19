@@ -2,7 +2,7 @@
 :doctitle: Altinn tilgangsstyring
 :keywords: nasjonal arkitektur, virksomhetsarkitektur
 :audience: alle
-include::../nab_felles/includes/commonincludes.adoc[]
+include::../plattform_felles/includes/commonincludes.adoc[]
 
 == Løsningsnavn
 *Altinn tilgangsstyring*

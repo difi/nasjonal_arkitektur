@@ -11,7 +11,6 @@
 
 //:preamble: Fjern kommentar om du vil ha med innledningsvis beskrivelse med noe større skrift (og erstatt denne teksten). Wikipedia: A preamble is an introductory and expressionary statement in a document that explains the document's purpose and underlying philosophy. 
 
-include::../nab_felles/includes/standardheader.adoc[]
-include::../nab_felles/includes/commonlinks1.adoc[]
+include::../plattform_felles/includes/commonincludes.adoc[]
 
 Readme-tekst kommer her...

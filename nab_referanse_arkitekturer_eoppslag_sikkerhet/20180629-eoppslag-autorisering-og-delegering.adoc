@@ -4,7 +4,7 @@
 :doctitle: e-oppslag, modell for autorisering og delegering
 :keywords: eOppslag sikkerhet autentisering
 
-include::../nab_felles/includes/commonincludes.adoc[]
+include::../plattform_felles/includes/commonincludes.adoc[]
 
 == Innledning
 

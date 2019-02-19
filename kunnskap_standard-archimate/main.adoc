@@ -2,7 +2,7 @@
 :doctitle: Archimate - en standard for modellering av virksomhetsarkitektur 
 :keywords: standard, modellering
 
-include::../nab_felles/includes/commonincludes.adoc[]
+include::../plattform_felles/includes/commonincludes.adoc[]
 
 
 [.lead]
@@ -10,7 +10,7 @@ The ArchiMate Specification, an Open Group Standard, is an open and independent 
 
 
 
-image:../nab_felles/media/i-arbeid.png[width=75, height=75] Første versjon av denne omtalen er fremdeles i arbeid 
+image:../plattform_felles/media/i-arbeid.png[width=75, height=75] Første versjon av denne omtalen er fremdeles i arbeid 
 
 
 

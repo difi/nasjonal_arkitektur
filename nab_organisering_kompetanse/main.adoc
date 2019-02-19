@@ -2,11 +2,11 @@
 :doctitle: Kompetanse
 :keywords: Kompetanse
 
-include::../nab_felles/includes/commonincludes.adoc[]
+include::../plattform_felles/includes/commonincludes.adoc[]
 
 [.lead]
 Beskrivelser av aktuell kompetanse innen arkitektur, samt hvilken kompetansestyring som er nødvendig for å dekke framtidige behov.
 ////
 ////
-image:../nab_felles/media/i-arbeid.png[width=75, height=75]
+image:../plattform_felles/media/i-arbeid.png[width=75, height=75]
 

@@ -2,4 +2,4 @@
 :doctitle: Standarder
 :keywords: Standarder 
 
-include::../nab_felles/includes/commonincludes.adoc[]
+include::../plattform_felles/includes/commonincludes.adoc[]

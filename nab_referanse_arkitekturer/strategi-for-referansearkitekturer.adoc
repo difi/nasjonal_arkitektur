@@ -2,7 +2,7 @@
 :doctitle: Strategi for arbeidet med referansearkitekturer
 :keywords: Referansearkitekturer
 
-include::../nab_felles/includes/commonincludes.adoc[]
+include::../plattform_felles/includes/commonincludes.adoc[]
 
 Det vil bli etablert flere referansearkitekturer for digital samhandling som dokumenterer beste praksis for hvordan man skal samhandle gitt et konkret behov for samhandling. Dokumentasjonen vil være i henhold til https://www.difi.no/arkitektur[Nasjonal-arkitektur] og da spesielt https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/nasjonal-arkitektur/arkitekturrammeverk-samhandling[Nasjonal-arkitektur arkitekturrammeverk-samhandling].
 

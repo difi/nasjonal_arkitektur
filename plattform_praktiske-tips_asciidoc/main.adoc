@@ -2,14 +2,14 @@
 :doctitle: Praktiske tips om bruk av Asciidoc
 :keywords: Asciidoc
 
-include::../nab_felles/includes/commonincludes.adoc[]
+include::../plattform_felles/includes/commonincludes.adoc[]
 
 [.lead]
 Asciidoc er et kildeformat for artikler og bøker som er tatt inn som gjeldende standard for Nasjonalt arkitekturbibliotek.
 
 image:../plattform_om-plattformen/media/asciidoctor-logo.png[width=80, height=80]
 
-//image:../nab_felles/media/i-arbeid.png[width=75, height=75] I arbeid
+//image:../plattform_felles/media/i-arbeid.png[width=75, height=75] I arbeid
 
 
 
@@ -38,9 +38,9 @@ Alle asciidoc-filer inkluderer maler og annet som ligger i en egen felles-mappe.
 === Om standard-header
 Standardmalene inkluderes gjennom følgende include-setning:
 
- include::../nab_felles/includes/commonincludes.adoc[]
+ include::../plattform_felles/includes/commonincludes.adoc[]
  
-    include::../nab_felles/includes/commonincludes.adoc[]
+    include::../plattform_felles/includes/commonincludes.adoc[]
 
 Her finnes blant annet standardheader.adoc, som tar asciidoc-attrbutter som input og sørger for at det finnes et minimum av metadata, samt at det blir et ensartet utseende av overskrifter, innholdsfortegnelse m.m. 
 == Om teknologiene for html-publisering av Asciidoc-dokumenter
@@ -196,7 +196,7 @@ Samme som for filnavn, men dessuten:
 
 
 == Maler
-image:../nab_felles/media/i-arbeid.png[width=75, height=75] I arbeid
+image:../plattform_felles/media/i-arbeid.png[width=75, height=75] I arbeid
 
 
 

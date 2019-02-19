@@ -2,7 +2,7 @@
 :doctitle: Data Management Book of Knowledge (DMBOK2)
 :keywords: Informasjonsforvaltning, Dataforvaltning
 
-include::../nab_felles/includes/commonincludes.adoc[]
+include::../plattform_felles/includes/commonincludes.adoc[]
 
 [.lead]
 Data Management Body of Knowledge (2nd Edition) fra DAMA er et omfattende verk om data- og informasjonsforvaltning, Utgitt 2017-07-10.

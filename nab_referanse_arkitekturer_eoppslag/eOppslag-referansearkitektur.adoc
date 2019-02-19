@@ -2,7 +2,7 @@
 :doctitle: Referansearkitektur eOppslag 
 :keywords: eOppslag
 
-include::../nab_felles/includes/commonincludes.adoc[]
+include::../plattform_felles/includes/commonincludes.adoc[]
 
 image:./media/eOppslagRefArk.png[alt="missing image, eOppslag Referanse arkitektur"]
  

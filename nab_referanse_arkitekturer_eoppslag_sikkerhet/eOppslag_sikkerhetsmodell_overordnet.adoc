@@ -4,7 +4,7 @@
 :doctitle_no: Overordnet innføring i sikkerhetsmekanismer for eOppslag
 :keywords: eOppslag sikkerhet autentisering
 
-include::../nab_felles/includes/commonincludes.adoc[]
+include::../plattform_felles/includes/commonincludes.adoc[]
 
 
 == Overordnede mål

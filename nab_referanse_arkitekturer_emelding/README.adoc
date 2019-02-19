@@ -8,8 +8,7 @@
 
 :preamble: Område for lagring av dokumentasjon relatert til arbeidet med referansearkitekturer for eMelding. 
 
-include::../nab_felles/includes/standardheader.adoc[]
-include::../nab_felles/includes/commonlinks1.adoc[]
+include::../plattform_felles/includes/commonincludes.adoc[]
 
 // Article contents written below this point
 == Overskrift 1

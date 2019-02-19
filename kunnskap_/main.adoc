@@ -2,10 +2,10 @@
 :doctitle: Kunnskapsbibliotek
 :keywords: Kunnskapsbibliotek
 
-include::../nab_felles/includes/commonincludes.adoc[]
+include::../plattform_felles/includes/commonincludes.adoc[]
 
 
-image:../nab_felles/media/i-arbeid.png[width=75, height=75, alt="Figur mangler: i-arbeid.png?",]Uferdig innhold - første versjon er fremdeles i arbeid
+image:../plattform_felles/media/i-arbeid.png[width=75, height=75, alt="Figur mangler: i-arbeid.png?",]Uferdig innhold - første versjon er fremdeles i arbeid
 
 
 
@@ -101,4 +101,4 @@ https://ec.europa.eu/digital-single-market/en/news/digital-single-market-mid-ter
 ==== ISA2-programmet
 https://ec.europa.eu/isa2/isa2_en
 
-image:../nab_felles/media/i-arbeid.png[width=75, height=75, alt="Figur mangler: i-arbeid.png?",]
+image:../plattform_felles/media/i-arbeid.png[width=75, height=75, alt="Figur mangler: i-arbeid.png?",]
