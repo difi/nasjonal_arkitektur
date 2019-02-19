@@ -4,6 +4,6 @@
 include::../plattform_felles/includes/commonincludes.adoc[]
 
 
-. link:./arkitekturbegreper.adoc[Virksomhetsarkitektur]
+. link:../nab_referanse_begreper/arkitekturbegreper.adoc[Virksomhetsarkitektur]
 +
 Begreper innen virksomhetsarkitektur.
