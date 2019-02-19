@@ -4,6 +4,9 @@
 :audience: alle
 include::./na_felles/includes/commonincludes.adoc[]
 
+include::./plattform_/main.adoc[]
+
+////
 // setting imagesdir before displaying the images seems to be necessary in order for the images to display correctly in this case
 :imagesdir: ./media/
 image:norsk-flagg.png[width=60, height=60] image:uttar-pradesh-vidhaan-sabha.png[width=150, height=150]
@@ -44,3 +47,4 @@ Samling av interessant og relevant informasjon fra eksterne kilder, som redskap 
 +
 Personlige innlegg - blogger og meningsinnlegg - for å informere eller påvirke  utviklingen av nasjonal arkitektur og nasjonalt arkitekturbibliotek. Alle oppfordres til å bidra med sine personlige meninger. 
 
+////

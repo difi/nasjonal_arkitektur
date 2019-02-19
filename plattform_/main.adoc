@@ -4,12 +4,8 @@
 :audience: alle
 include::../na_felles/includes/commonincludes.adoc[]
 
-// setting imagesdir before displaying the images seems to be necessary in order for the images to display correctly in this case
-:imagesdir: ../plattform_/media/
-image:norsk-flagg.png[width=60, height=60] image:uttar-pradesh-vidhaan-sabha.png[width=150, height=150]
 
-//reset imagesdir
-:imagesdir!:
+image:./media/norsk-flagg.png[width=60, height=60] image:./media/uttar-pradesh-vidhaan-sabha.png[width=150, height=150]
 
 
 [.lead] 
