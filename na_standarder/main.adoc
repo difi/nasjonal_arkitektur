@@ -1,5 +1,0 @@
-:lang: no
-:doctitle: Standarder
-:keywords: Standarder 
-
-include::../na_felles/includes/commonincludes.adoc[]

@@ -69,7 +69,7 @@ Oppbyggingen av dette arkitekturbiblioteket forøvrig følger i grove trekk stru
 . link:../na_rammeverk/[Rammeverk]
 . link:../na_arkitekturlandskap/[Arkitekturlandskap]
 . link:../na_løsningslandskap/[Løsningslandskap]
-. link:../na_standarder/[Standarder]
+. link:../na_standard/[Standarder]
 . link:../na_kravbibliotek/[Funksjonelle behov (kravbibliotek)]
 . link:../na_referanse_/[Referansebibliotek]
 . link:../na_organisering/[Organisering og kompetanse]
