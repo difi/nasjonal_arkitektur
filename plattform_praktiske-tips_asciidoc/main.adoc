@@ -98,28 +98,17 @@ Det er ønskelig at disse konvensjonene følges. Enkeltstående Asciidoc-artikle
 === Metadata og attributter
 Absolutt minimum metadata for (norske) asciidoc-filer er at det oppgis følgende:
 
- [underline]lang: Språk, f.eks. "no" for norsk
+ lang: <no for norsk eller en for engelsk>
+ doctitle: <dokumentittel>
 
+Dessuten bør følgende attributter vurderes:
 
+ author:
+ keywords:
+ audience:
+ difi_orig_language:
 
-
-Som minimum må de oppgi s
-Det benyttes 
-
-* doctitle
-+
-
-* keywords 
-+
-
-* audience
-+
-Default: alle
-
-* lang: no
-difi_orig_language
-author
-
+Forklaring: TBD.
 
 
 === Språkstøtte
@@ -171,7 +160,7 @@ Bildefiler inkluderes i asciidoc gjennom et eget [blue]_image-direktiv_ der adre
 
 Når bildefiler inkluderes indirekte ved at det inkluderes asciidoc-filer som igjen inkluderer images, kan adresseringen lett bli feil. En måte å sikre seg mot slike feil på, er å sørge for at den samme (relative) lenken er gyldig i begge tilfeller. Slik teknologien fungerer per 2018 er det nødvendig å adressere bildefiler relativt til en felles "rotmappe".
 
-NOTE:  Med en "flat" mappestruktur blir relative lenker bestandig de samme (ett hakk opp og ett ned). Dette er en hovedgrunn til valget av flat mappestruktur for Nasjonal arkitekturplattform.
+NOTE:  Med en "flat" mappestruktur blir alle relative lenker til samme fil like uansett utgangspunkt (ett hakk opp og ett ned). Dette er en hovedgrunn til valget av flat mappestruktur for Nasjonal arkitekturplattform.
 
 Gjeldende konvensjon er å bestandig adressere bildefiler relativt til felles "rotmappe" gjennom å gå "ett hakk opp og et ned", f.eks. slik:
 
