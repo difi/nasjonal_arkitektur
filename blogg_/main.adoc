@@ -13,7 +13,7 @@ image:../plattform_felles/media/i-arbeid.png[width=75, height=75] Uferdig innhol
 :leveloffset!:
 :leveloffset: +2
 
-. link:../blogg_all-of-government/[All-of-government]
+. link:../blogg_2018-12-03-all-of-government/[All-of-government]
 . link:../blogg_2018-12-28-sporsmål-om-drift-og-forvaltning-av-ikt/[2018-12-28-sporsmål-om-drift-og-forvaltning-av-ikt]
 
 
