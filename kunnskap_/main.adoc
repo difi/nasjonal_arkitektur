@@ -2,6 +2,7 @@
 :doctitle: Kunnskapsbibliotek
 :keywords: Kunnskapsbibliotek
 
+:toclevels: 2
 include::../plattform_felles/includes/commonincludes.adoc[]
 
 

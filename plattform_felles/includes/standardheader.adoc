@@ -83,7 +83,9 @@ endif::[]
 //:toc: macro
 :sectnums:
 :leveloffset: +0
-:toclevels: 3
+ifndef::toclevels[]
+:toclevels: 2
+endif::toclevels[]
 :sectlinks:
 :linkattrs:
 :sectids:
