@@ -1796,3 +1796,13 @@
 19.02.2019 06:47:45: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_eoppslag\media\ABBs.jpg, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
 19.02.2019 06:47:45: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_maler_asciidoc\media\smallnew.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_maler_asciidoc\artikkelmal-engelsk.adoc
 19.02.2019 06:47:45: Error: Asciidoc link ./media/ missing [ in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_maler_asciidoc\artikkelmal-engelsk.adoc
+19.02.2019 07:02:05: Start SjekkAsciidocLinks()
+19.02.2019 07:02:05: Error: Failed to locate link file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\blogg\all-of-government\, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\blogg_\main.adoc
+19.02.2019 07:02:05: Error: Failed to locate link file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\blogg\blogg_2018-12-28-sporsmål-om-drift-og-forvaltning-av-ikt\, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\blogg_\main.adoc
+19.02.2019 07:03:05: Start SjekkAsciidocLinks()
+19.02.2019 07:03:05: Error: Failed to locate link file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\blogg\all-of-government\, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\blogg_\main.adoc
+19.02.2019 07:03:05: Error: Failed to locate link file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\blogg\blogg_2018-12-28-sporsmål-om-drift-og-forvaltning-av-ikt\, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\blogg_\main.adoc
+19.02.2019 07:03:25: Start SjekkAsciidocLinks()
+19.02.2019 07:03:26: Error: Failed to locate link file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\blogg_\all-of-government\, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\blogg_\main.adoc
+19.02.2019 07:03:26: Error: Failed to locate link file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\blogg_\blogg_2018-12-28-sporsmål-om-drift-og-forvaltning-av-ikt\, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\blogg_\main.adoc
+19.02.2019 07:05:09: Start SjekkAsciidocLinks()
