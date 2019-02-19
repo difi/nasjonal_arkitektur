@@ -1,0 +1,164 @@
+ifndef::difi_orig_language[]
+:difi_orig_language: {lang}
+endif::difi_orig_language[]
+
+ifndef::difi_translation_status[]
+:difi_translation_status: -
+endif::difi_translation_status[]
+
+ifeval::["{lang}" == "no"]
+//************************
+ifdef::doctitle_no[]
+:doctitle: {doctitle_no}
+endif::[]
+//
+ifndef::author[]
+ifndef::author_no[]
+:author_no: Direktoratet for forvaltning og ikt (Difi)
+endif::[]
+ifdef::author_no[]
+:author: {author_no}
+endif::[]
+endif::author[]
+//
+//
+ifdef::keywords_no[]
+:keywords: {keywords_no}
+endif::[]
+//**********************
+endif::[]
+
+//
+ifeval::["{lang}" == "en"]
+ifdef::doctitle_en[]
+:doctitle: {doctitle_en}
+endif::[]
+ifndef::author[]
+ifndef::author_en[]
+:author_no: Direktoratet for forvaltning og ikt (Difi)
+:author_en: Agency for Public Management and eGovernment (Difi)
+endif::[]
+ifdef::author_en[]
+:author: {author_en}
+endif::[]
+endif::author[]
+//
+ifdef::keywords_en[]
+:keywords: {keywords_en}
+endif::[]
+endif::[]
+//
+ifdef::doctitle[]
+= {doctitle}
+endif::[]
+////
+//:output_dificonvention_errors:
+ifdef::output_dificonvention_errors[]
+ifndef::doctitle[]
+[red small]__Difi convention error (standardheader.adoc): Missing "doctitle"__
+endif::doctitle[]
+endif::output_dificonvention_errors[]
+////
+ifdef::author[]
+{author}
+endif::[]
+ifndef::email[]
+:email: nasjonalarkitektur@difi.no
+endif::[]
+ifdef::revdate[]
+{revdate}
+endif::[]
+ifndef::revdate[]
+endif::[]
+ifeval::["{lang}" == "no"]
+:toc-title: Innhold
+endif::[]
+ifeval::["{lang}" == "en"]
+:toc-title: Contents
+endif::[]
+//:doctype: article
+:icons: font
+//:docinfodir: ../common/meta
+//:docinfo:
+//:toc: macro
+:sectnums:
+:leveloffset: +0
+:toclevels: 3
+:sectlinks:
+:linkattrs:
+:sectids:
+:sectanchors:
+:sectnumlevels: 3
+:xrefstyle: short
+:imagesdir!:
+//:imagesdir@: ./media
+////
+ifdef::attr-root-dir[]
+:imagesdir@: ./common/media
+endif::[]
+////
+// data-uri benyttes for å inkludere images i generert html-fil :data-uri:
+:toc: left
+
+// consider deprecate support for preamble and realy on .lead insteads
+ifdef::preamble[]
+{preamble}
+endif::[]
+
+
+
+////
+ifeval::["{toc}" == "macro"]
+toc::[]
+endif::[]
+////
+
+//image:difilogo.svg[image,width=169,height=66]
+
+//:difi_include_implementation_notes:
+ifdef::difi_include_implementation_notes[]
+= TIP: Implementation note, Erik, 2018-08-18: Consider introducing attributes to indicate the state of the translation and give hints to the user about that: difi_orig_language (normally  _no_ or _en_) and difi_translation_status (set to _complete_, _partial_ or _missing_).
+endif::difi_include_implementation_notes[]
+
+
+//:difi_test_translation_status:
+ifdef::difi_test_translation_status[]
+:lang: en
+:difi_orig_language: no
+:difi_translation_status: incomplete
+endif::difi_test_translation_status[]
+
+ifeval::["{difi_translation_status}" == ""]
+:difi_translation_status: -
+endif::[]
+ifeval::["{difi_translation_status}" == "-"]
+:difi_translation_status: missing
+endif::[]
+
+
+ifdef::difi_translation_status[]
+//
+ifeval::["{lang}" == "en"]
+//
+ifeval::["{difi_orig_language}" != "en"]
+WARNING: This document was originally written in another language ({difi_orig_language}).
+The English translation is marked as __{difi_translation_status}__
+.
+endif::[]
+endif::[]
+//
+
+ifeval::["{lang}" == "no"]
+ifeval::["{difi_orig_language}" != "no"]
+WARNING: Dette dokumentet ble opprinnelig skrevet på et annet språk ({difi_orig_language}). Norsk oversettelse er markert som __{difi_translation_status}__
+ifeval::["{difi_translation_status}" == "missing"]
+(__ikke oversatt__)
+endif::[]
+ifeval::["{difi_translation_status}" == "incomplete"]
+(__uferdig__)
+endif::[]
+.
+endif::[]
+endif::[]
+
+endif::difi_translation_status[]

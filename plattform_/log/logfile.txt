@@ -442,3 +442,18 @@
 19.02.2019 05:53:02: Error: Asciidoc link ./media/ missing [ in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_asciidoc\artikkelmal-engelsk.adoc
 19.02.2019 05:53:02: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\norsk-flagg.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\main.adoc
 19.02.2019 05:53:41: Start SjekkAsciidocLinks()
+19.02.2019 06:15:25: Start SjekkAsciidocLinks()
+19.02.2019 06:15:26: Error: Failed to locate link file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_blogg\, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_\main.adoc
+19.02.2019 06:15:26: Error: Failed to locate link file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_blogg\, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\main.adoc
+19.02.2019 06:15:29: Start SjekkAsciidocImages()
+19.02.2019 06:15:29: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer\media\Referansearkitekturer.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer\strategi-for-referansearkitekturer.adoc
+19.02.2019 06:15:29: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\media\eOppslagRefArk.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
+19.02.2019 06:15:29: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\media\ABBs.jpg, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
+19.02.2019 06:15:29: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_asciidoc\media\smallnew.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_asciidoc\artikkelmal-engelsk.adoc
+19.02.2019 06:15:29: Error: Asciidoc link ./media/ missing [ in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_asciidoc\artikkelmal-engelsk.adoc
+19.02.2019 06:15:29: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\norsk-flagg.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\main.adoc
+19.02.2019 06:15:31: Start SjekkAsciidocInclude()
+19.02.2019 06:15:47: Start SjekkAsciidocLinks()
+19.02.2019 06:15:47: Error: Failed to locate link file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_blogg\, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_\main.adoc
+19.02.2019 06:15:47: Error: Failed to locate link file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_blogg\, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\main.adoc
+19.02.2019 06:17:05: Start SjekkAsciidocLinks()
