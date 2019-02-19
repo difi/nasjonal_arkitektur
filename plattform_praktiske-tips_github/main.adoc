@@ -1,0 +1,152 @@
+:lang: no
+:doctitle: Praktiske tips for å komme igang med GitHub
+:keywords: Github
+
+include::../na_felles/includes/commonincludes.adoc[]
+
+
+
+
+[.lead]
+Her gis praktiske tips om bruk av Github i tilknytning til arbeidet med Nasjonal arkitektur. Det gis tips om spesifikke verktøy, men hver enkelt står fritt til å velge andre alternativer.
+
+
+////
+////
+
+
+
+== Generelt
+Git er en standard for versjonskontroll og lagring av kode og dokumenter. GitHub er en av flere skytjenester som støtter git, og er den tjenesten som er valgt av Difi. Det er i utgangspunktet gratisversjonen av Github som benyttes. 
+
+NOTE: Github ble oppkjøpt av Microsoft i 2018.
+
+
+Github kan brukes til å lagre vilkårlige dokumenttyper, men egner seg best til tekstbaserte dokumenter, dvs. dokumenter hvor kildeformatet er rå tekst. Det er dette _git_ ble laget for, og da opprinnelig for versjonsstyring og samarbeid om 
+kode (programvare).
+
+Markupspråk som Markdown og Asciidoc lar deg skrive dokumenter i ren tekst, og egner seg tilsvarende godt for den funksjonaliteten som finnes rundt versjonsstyring i Github. Asciidoc er valgt her, fordi dette er lett å komme i gang med for nye brukere, samtidig som det gir avanserte muligheter for erfarne brukere. Asciidoc som kildeformat foretrekkes framfor f.eks. Microsoft Word, fordi det framstår som mer åpent og "prosesseringsvennlig". Se link:../plattform_praktiske-tips_asciidoc/main.adoc[Praktiske tips on Asciidoc] for mer informasjon.  
+
+Standard utvekslingsformater for modelleringsspråk som Archimate, BPMN, DMN og UML er også tekstbaserte, og egner seg for versjonsstyring i Github.    
+
+
+Nasjonalt Arkitekturbibliotek er organisert i en mappestruktur med undermapper for dokumentasjon av arkitekturer, løsninger, referansearkitekturer m.m. 
+
+I tillegg finnes seperate prosjektbiblioteker. Prosjektleveranser i form av dokumentasjon kopieres til "riktig" sted i strukturen under Nasjonalt arkitekturbiblitotek før prosjektslutt, mens arbeidsversjoner, møtereferater og annet prosjektspesifikt innhold tas vare på i prosjektområdet så lenge det er interessant.
+
+Skriverettigheter til selve arkitekturbiblioteket er forbeholdt medlemmer av bibliotekredaksjonen. Tilsvarende er det kun prosjektmedlemmenene som vil ha skrivetilgang til hvert  prosjekt-repository.
+
+Andre som vil bidra med innhold kan gjøre dette ved å kopiere aktuelt GitHub repository (git Fork), gjøre endringer og så spille inn endringsforslag (git Pull Request). Redaksjonen for aktuelt GitHub-repository (arkitekturbibliotek eller prosjekt) vil så behandle endringsforslaget og eventuelt ta inn nytt eller endret innhold (git merge).
+
+_Merk: Git gir flere muligheter enn "fork" og "pull request" for å spille inn endringsforslag, men vi anbefaler inntil videre "fork" og "pull request" som nevnt._
+
+
+== Prosedyre for å komme i gang med git og Github
+=== Opprett GitHub bruker
+Dersom du ikke allerede har en GitHub-bruker, kan dette gjøres https://github.com/join?source=header[her].
+
+=== Etabler lokal filmappe for kloning av github-filer
+
+Lag en filmappe som hjemmeområde for å arbeide lokalt med github-filer, eventuelt med en undermappe for biblioteker fra Difi.
+
+WARNING: For spesielt interesserte: Om du bruker lange navn og dyp mappestruktur i Windows, kan du få problemer med en begrensning på 260
+karakterer i total lengde på filnavn. I og med Windows 10 kan denne begrensningen oppheves. Se f.eks.
+https://www.howtogeek.com/266621/how-to-make-windows-10-accept-file-paths-over-260-characters/ for en oppskrift på
+hvordan dette kan gjøres. +
+ +
+Kort fortalt: På Windows 10 Enterprise kan du kjøre gpedit.msc og endre Aktiver lange Win32 baner under
+Datamaskinkonfigurasjon, Administrative maler, System, Filsystem. Du må restarte eller logge av og på for at endringen skal tre i kraft.
+
+=== Installer programvare for git og GitHub 
+=== Generelt
+Det finnes tre kategorier mennesker:
+
+. De som foretrekker grafiske brukergrensesnitt  
+. De som foretrekker å skrive tekstkommandoer 
+. De som ikke har anledning til å installere programvare
+
+Anbefalinger for disse kategoriene er:
+
+1. Bruk GitHub Desktop (enkel bruk) eller TortoiseGit (mer avansert)
+2. Bruk _Git Bash_ eller _Git CMD_ (eller Windows CMD).
+3. Arbeid direkte i nettleseren under https://github.com/difi/nasjonal_arkitektur , uten å klone til lokalt filområde;  eventuelt bruk asciidoclive for asciidoc-dokumentasjon; ref. https://asciidoclive.com/edit/scratch/1
+
+
+==== Alternativ 1: GitHub Desktop
+
+GitHub Desktop er en mye brukt og god klient for å klone og oppdatere GitHub-biblioteker.
+
+GitHub Desktop kan lastes ned her: https://desktop.github.com/[].
+
+WARNING: Om GitHub desktop har problemer med å aksessere .gitconfig-filen, er en fix å opprette en systemvariabel HOME til den mappen du har opprettet som hjemmeområde for dine lokale GitHub-filer (bruk Kontrollpanel, System, Avanserte systeminnstillinger, miljøvariabler). +
+ +
+Tips: Det er kanskje en god ide å unngå å bruke nettverks-drive (som noen virksomheter bruker som default for Dokumenter)? Bruk  heller en katalog direkte under ditt brukernavn på C:\Users? Se også  https://github.com/desktop/desktop/issues/4119.
+
+
+==== Alternativ 2: TortoiseGit
+TBD.
+
+==== Alternativ 3: Git Bash
+Git Bash fås med siste versjon av Git for Windows her: https://git-scm.com/download/win
+
+Generelle tips om å komme igang med Bash kommandolinke:
+
+* https://rubygarage.org/blog/most-basic-git-commands-with-examples
+
+==== Alternativ 4: Asciidoclive
+Ingen installasjon nødvendig. Se https://asciidoclive.com/edit/scratch/1. 
+
+WARNING: Bruke MS Internet Explorer eller MS Edge! Preview fungerer ikke i Chrome eller Firefox.
+
+
+=== Klon GitHub-prosjektet til din maskin
+==== Kloning med GitHub Desktop  
+
+Om du bruker GitHub Desktop, kan det gjøres slik:
+
+a. Åpne  GitHub-biblioteket i nettleser, dvs.   https://github.com/difi/nasjonal_arkitektur
+
+b. Velg "Clone or Download" i GitHub og velg så "Open in Desktop".
+
+c. I GitHub Desktop, velg File | Clone a repository og angi hvor filene skal legges på din harddisk, som omtalt under avsnittet om lokla filmappe ovenfor. Om du f.eks. benytter C:\Users\eha\GitHub\Difi, vil GitHub Desktop opprette C:\Users\eha\GitHub\Difi\nasjonal_arkitektur.
+
+==== Kloning med TortoiseGit 
+TBD.
+
+==== Kloning med Windows kommandolinje
+TBD.
+
+==== Kloning med Git Bash
+TBD.
+
+=== Gjør endringer
+Gitt at du har skriverettigheter, kan du endre eksisterende filer, slette filer og tilsvarende for mapper. Når du gjør dette i et lokalt, klonet, repository, må du deretter synkronisere og eventuelt publisere dette før det blir tilgjengelig for andre.
+
+
+=== Synkronisering og publisering av endringer
+
+image:../na_felles/media/i-arbeid.png[width=75, height=75] I arbeid.
+
+==== Synkronisering og publisering med GitHub Desktop
+GitHub Desktop vil kontinuerlig polle og hente ned endringer fra GitHub til valgt _Current Repository_. Du vil også løpende se hvilke endringer du selv har gjort som foreløpig ikke er synkronisert tli GitHub. 
+
+For å publisere endringer med GitHub Desktop, må du først gi en _Description_, så trykke  _Commit to Master_ og til sist trykke _Push to origin_.
+
+
+==== Publisering med TortoiseGit
+TBD.
+
+==== Publisering med Windows kommandolinje
+TBD.
+
+==== Publisering med Git Bash
+TBD.
+
+=== Mer avanserte temaer
+
+==== Git Submodules
+Git Submodules brukes for prosjektarbeid der en ønsker å tildele skriverettigheter til  prosjektmedlemmene, noe som ikke uten videre er tilrådelig for hele arkitekturbiblioteket.
+
+==== Annet
+
+image:../na_felles//media/i-arbeid.png[width=75, height=75]I arbeid

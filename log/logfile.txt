@@ -40,3 +40,397 @@
 18.02.2019 18:17:55: Start SjekkAsciidocLinks()
 18.02.2019 18:17:55: Error: Failed to locate link file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_praktiske-tips_asciidoc\asciidoc-tips.adoc, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_praktiske-tips_github\main.adoc
 18.02.2019 18:20:32: Start SjekkAsciidocLinks()
+18.02.2019 18:42:11: Start SjekkAsciidocLinks()
+18.02.2019 18:42:11: Error: Failed to locate link file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_arkitekturbibliotek_referanse_arkitekturer_samhandlingsmønstre\samhandlingsmønstre.adoc, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_arkitekturbibliotek_referanse_arkitekturer\strategi-for-referansearkitekturer.adoc
+18.02.2019 18:42:11: Error: Failed to locate link file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_arkitekturbibliotek_referanse_arkitekturer_samhandlingsmønstre\samhandlingsmønstre.adoc, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_arkitekturbibliotek_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer\Steg1.adoc
+18.02.2019 18:42:11: Error: Failed to locate link file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_arkitekturbibliotek_referanse_arkitekturer_samhandlingsmønstre\samhandlingsmønstre.adoc, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_arkitekturbibliotek_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer\Steg3.adoc
+18.02.2019 18:44:10: Start SjekkAsciidocLinks()
+18.02.2019 18:44:10: Error: Failed to locate link file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_arkitekturbibliotek_referanse_arkitekturer_samhandlingsmønstre\samhandlingsmønstre.adoc, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_arkitekturbibliotek_referanse_arkitekturer\strategi-for-referansearkitekturer.adoc
+18.02.2019 18:44:10: Error: Failed to locate link file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_arkitekturbibliotek_referanse_arkitekturer_samhandlingsmønstre\samhandlingsmønstre.adoc, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_arkitekturbibliotek_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer\Steg1.adoc
+18.02.2019 18:44:10: Error: Failed to locate link file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_arkitekturbibliotek_referanse_arkitekturer_samhandlingsmønstre\samhandlingsmønstre.adoc, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_arkitekturbibliotek_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer\Steg3.adoc
+18.02.2019 18:46:25: Start SjekkAsciidocLinks()
+18.02.2019 18:46:25: Error: Failed to locate link file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_arkitekturbibliotek_referanse_arkitekturer_samhandlingsmønstre\samhandlingsmønstre.adoc, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_arkitekturbibliotek_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer\Steg1.adoc
+18.02.2019 18:47:29: Start SjekkAsciidocLinks()
+18.02.2019 18:47:30: Error: Failed to locate link file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_arkitekturbibliotek_referanse_arkitekturer_samhandlingsmønstre\samhandlingsmønstre.adoc, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_arkitekturbibliotek_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer\Steg1.adoc
+18.02.2019 18:50:50: Start SjekkAsciidocLinks()
+18.02.2019 20:30:02: Start SjekkAsciidocLinks()
+18.02.2019 20:33:09: Start SjekkAsciidocLinks()
+18.02.2019 20:37:01: Start SjekkAsciidocLinks()
+18.02.2019 20:37:05: Start SjekkAsciidocInclude()
+18.02.2019 20:37:05: Error: Failed to locate include file ../na_arkitekturbibliotek_referanse_arkitekturer_samhandlingsmønstre/samhandlingsmønstre.adoc, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_arkitekturbibliotek_referanse_arkitekturer\main.adoc
+18.02.2019 20:37:10: Error: Failed to locate include file Standardmalene inkluderes gjennom følgende include-setning: ", see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_praktiske-tips_asciidoc\main.adoc
+18.02.2019 20:41:59: Start SjekkAsciidocLinks()
+18.02.2019 20:42:33: Start SjekkAsciidocLinks()
+18.02.2019 20:43:31: Start SjekkAsciidocLinks()
+18.02.2019 20:50:04: Start SjekkAsciidocLinks()
+18.02.2019 20:54:19: Start SjekkAsciidocInclude()
+18.02.2019 20:54:33: Error: Failed to locate include file ../na_arkitekturbibliotek_referanse_arkitekturer_samhandlingsmønstre/samhandlingsmønstre.adoc, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_arkitekturbibliotek_referanse_arkitekturer\main.adoc
+18.02.2019 20:56:08: Start SjekkAsciidocInclude()
+18.02.2019 21:08:15: Start SjekkAsciidocInclude()
+18.02.2019 21:08:18: Start SjekkAsciidocLinks()
+18.02.2019 21:08:50: Start SjekkAsciidocLinks()
+18.02.2019 21:17:55: Start SjekkAsciidocLinks()
+18.02.2019 21:17:58: Start SjekkAsciidocLinks()
+18.02.2019 21:19:10: Start SjekkAsciidocLinks()
+19.02.2019 04:21:40: Start SjekkAsciidocLinks()
+19.02.2019 04:21:47: Start SjekkAsciidocImages()
+19.02.2019 04:21:47: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_arkitekturbibliotek_referanse_arkitekturer\media\Referansearkitekturer.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_arkitekturbibliotek_referanse_arkitekturer\strategi-for-referansearkitekturer.adoc
+19.02.2019 04:21:47: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_arkitekturbibliotek_referanse_arkitekturer_eoppslag\media\eOppslagRefArk.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_arkitekturbibliotek_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
+19.02.2019 04:21:47: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_arkitekturbibliotek_referanse_arkitekturer_eoppslag\media\ABBs.jpg, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_arkitekturbibliotek_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
+19.02.2019 04:21:47: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_arkitekturbibliotek_referanse_maler_asciidoc\media\smallnew.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_arkitekturbibliotek_referanse_maler_asciidoc\artikkelmal-engelsk.adoc
+19.02.2019 04:21:47: Error: Asciidoc link ./media/ missing [ in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_arkitekturbibliotek_referanse_maler_asciidoc\artikkelmal-engelsk.adoc
+19.02.2019 04:21:48: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\norsk-flagg.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\main.adoc
+19.02.2019 04:24:05: ErstattTekstIAlleFiler(na_kunnskapsbibliotek_, na_kunnskap_)
+19.02.2019 04:24:11: Start SjekkAsciidocLinks()
+19.02.2019 04:24:12: Error: Failed to locate link file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_kunnskapsbibliotek_taksonomier_research\klassifikasjonssystemer-research.adoc, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_arkitekturbibliotek_referanse_taksonomier\main.adoc
+19.02.2019 04:24:12: Error: Failed to locate link file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_kunnskapsbibliotek_taksonomier_research\klassifikasjonssystemer-research-1.docx, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_arkitekturbibliotek_referanse_taksonomier\main.adoc
+19.02.2019 04:24:12: Error: Failed to locate link file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_kunnskapsbibliotek_taksonomier_LOS\los-hva-hvem-hvordan.pptx, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_arkitekturbibliotek_referanse_taksonomier_LOS\main.adoc
+19.02.2019 04:24:12: Error: Failed to locate link file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_kunnskapsbibliotek_metode_siam, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_kunnskapsbibliotek\main.adoc
+19.02.2019 04:24:12: Error: Failed to locate link file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_kunnskapsbibliotek_bok-dmbok2, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_kunnskapsbibliotek\main.adoc
+19.02.2019 04:24:12: Error: Failed to locate link file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_kunnskapsbibliotek_arkitekturrammeverk-india, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_kunnskapsbibliotek\main.adoc
+19.02.2019 04:24:12: Error: Failed to locate link file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_kunnskapsbibliotek_referansearkitektur-the-opengroup-it4it, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_kunnskapsbibliotek\main.adoc
+19.02.2019 04:24:12: Error: Failed to locate link file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_kunnskapsbibliotek_verktøy_asciidoctor\main.adoc, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_praktiske-tips_asciidoc\main.adoc
+19.02.2019 04:24:12: Error: Failed to locate link file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_kunnskapsbibliotek_verktøy_asciidoc-fx\main.adoc, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_praktiske-tips_asciidoc\main.adoc
+19.02.2019 04:26:57: SøkTekstIAlleFiler(na_kunnskapsbibliotek_)
+19.02.2019 04:26:58: Linje: include::../na_kunnskapsbibliotek_taksonomier_LOS/main.adoc[]
+19.02.2019 04:26:58: Linje: include::../na_kunnskapsbibliotek_taksonomier_research/klassifikasjonssystemer-research.adoc[]
+19.02.2019 04:26:58: Linje: * link:../na_kunnskapsbibliotek_taksonomier_research/klassifikasjonssystemer-research.adoc[Klassifikasjonssystemer-research(asciidoc, migrering fra MS Word i arbeid)]
+19.02.2019 04:26:58: Linje: * link:../na_kunnskapsbibliotek_taksonomier_research/klassifikasjonssystemer-research-1.docx[Klassifikasjonssystemer - research mars 2018 (MS Word)]
+19.02.2019 04:26:58: 4 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_arkitekturbibliotek_referanse_taksonomier\main.adoc
+19.02.2019 04:26:58: Linje: . link:../na_kunnskapsbibliotek_taksonomier_LOS/los-hva-hvem-hvordan.pptx[LOS - hva, hvem og hvordan]
+19.02.2019 04:26:58: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_arkitekturbibliotek_referanse_taksonomier_LOS\main.adoc
+19.02.2019 04:26:58: Linje: Se link:../na_kunnskapsbibliotek_metode_siam[Service Integration and Management (SIAM)].
+19.02.2019 04:26:58: Linje: link:../na_kunnskapsbibliotek_bok-dmbok2[2017: Data Management Body of Knowledge (DMBOK2)] er et omfattende og sterkt verk om data- og informasjonsforvaltning fra DAMA, utarbeidet av mange spesialister over flere år. Se også  link:../na_kunnskapsbibliotek_bok-navigating-the-labyrinth[Navigating the Labyrinth: An Executive Guide to Data Management (2018)], som er en  forkortet og forenklet framstilling av den større og mer kompliserte DMBOK2. 
+19.02.2019 04:26:58: Linje: . link:../na_kunnskapsbibliotek_arkitekturrammeverk-india[indEA - arkitekturrammeverk fra India]
+19.02.2019 04:26:58: Linje: link:../na_kunnskapsbibliotek_referansearkitektur-the-opengroup-it4it[The OpenGroup's IT4IT] - en standard referansearkitektur for verdikjedene i utvikling og og forvaltning av IT-tjenester.
+19.02.2019 04:26:58: 4 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_kunnskapsbibliotek\main.adoc
+19.02.2019 04:26:58: Linje: include::../na_kunnskapsbibliotek_standard-archimate/kilder-til-kunnskap.adoc[]
+19.02.2019 04:26:58: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_kunnskap_kurs-archimate-intro\main.adoc
+19.02.2019 04:26:58: Linje: . link:../na_kunnskapsbibliotek_verktøy_asciidoctor/main.adoc[Mer om Asciidoctor].
+19.02.2019 04:26:58: Linje: Se også link:../na_kunnskapsbibliotek_verktøy_asciidoc-fx/main.adoc[mer om AsciidocFX].
+19.02.2019 04:26:58: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_praktiske-tips_asciidoc\main.adoc
+19.02.2019 04:28:04: ErstattTekstIAlleFiler(na_kunnskapsbibliotek_, na_kunnskap_)
+19.02.2019 04:28:05: Linje: include::../na_kunnskapsbibliotek_taksonomier_LOS/main.adoc[]
+19.02.2019 04:28:05: Linje: include::../na_kunnskapsbibliotek_taksonomier_research/klassifikasjonssystemer-research.adoc[]
+19.02.2019 04:28:05: Linje: * link:../na_kunnskapsbibliotek_taksonomier_research/klassifikasjonssystemer-research.adoc[Klassifikasjonssystemer-research(asciidoc, migrering fra MS Word i arbeid)]
+19.02.2019 04:28:05: Linje: * link:../na_kunnskapsbibliotek_taksonomier_research/klassifikasjonssystemer-research-1.docx[Klassifikasjonssystemer - research mars 2018 (MS Word)]
+19.02.2019 04:28:05: 4 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_arkitekturbibliotek_referanse_taksonomier\main.adoc
+19.02.2019 04:28:05: Linje: . link:../na_kunnskapsbibliotek_taksonomier_LOS/los-hva-hvem-hvordan.pptx[LOS - hva, hvem og hvordan]
+19.02.2019 04:28:05: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_arkitekturbibliotek_referanse_taksonomier_LOS\main.adoc
+19.02.2019 04:28:05: Linje: Se link:../na_kunnskapsbibliotek_metode_siam[Service Integration and Management (SIAM)].
+19.02.2019 04:28:05: Linje: link:../na_kunnskapsbibliotek_bok-dmbok2[2017: Data Management Body of Knowledge (DMBOK2)] er et omfattende og sterkt verk om data- og informasjonsforvaltning fra DAMA, utarbeidet av mange spesialister over flere år. Se også  link:../na_kunnskapsbibliotek_bok-navigating-the-labyrinth[Navigating the Labyrinth: An Executive Guide to Data Management (2018)], som er en  forkortet og forenklet framstilling av den større og mer kompliserte DMBOK2. 
+19.02.2019 04:28:05: Linje: . link:../na_kunnskapsbibliotek_arkitekturrammeverk-india[indEA - arkitekturrammeverk fra India]
+19.02.2019 04:28:05: Linje: link:../na_kunnskapsbibliotek_referansearkitektur-the-opengroup-it4it[The OpenGroup's IT4IT] - en standard referansearkitektur for verdikjedene i utvikling og og forvaltning av IT-tjenester.
+19.02.2019 04:28:05: 4 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_kunnskapsbibliotek\main.adoc
+19.02.2019 04:28:05: Linje: include::../na_kunnskapsbibliotek_standard-archimate/kilder-til-kunnskap.adoc[]
+19.02.2019 04:28:05: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_kunnskap_kurs-archimate-intro\main.adoc
+19.02.2019 04:28:05: Linje: . link:../na_kunnskapsbibliotek_verktøy_asciidoctor/main.adoc[Mer om Asciidoctor].
+19.02.2019 04:28:05: Linje: Se også link:../na_kunnskapsbibliotek_verktøy_asciidoc-fx/main.adoc[mer om AsciidocFX].
+19.02.2019 04:28:05: 2 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_praktiske-tips_asciidoc\main.adoc
+19.02.2019 04:28:10: Start SjekkAsciidocLinks()
+19.02.2019 04:28:14: Start SjekkAsciidocImages()
+19.02.2019 04:28:14: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_arkitekturbibliotek_referanse_arkitekturer\media\Referansearkitekturer.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_arkitekturbibliotek_referanse_arkitekturer\strategi-for-referansearkitekturer.adoc
+19.02.2019 04:28:14: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_arkitekturbibliotek_referanse_arkitekturer_eoppslag\media\eOppslagRefArk.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_arkitekturbibliotek_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
+19.02.2019 04:28:14: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_arkitekturbibliotek_referanse_arkitekturer_eoppslag\media\ABBs.jpg, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_arkitekturbibliotek_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
+19.02.2019 04:28:14: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_arkitekturbibliotek_referanse_maler_asciidoc\media\smallnew.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_arkitekturbibliotek_referanse_maler_asciidoc\artikkelmal-engelsk.adoc
+19.02.2019 04:28:14: Error: Asciidoc link ./media/ missing [ in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_arkitekturbibliotek_referanse_maler_asciidoc\artikkelmal-engelsk.adoc
+19.02.2019 04:28:14: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\norsk-flagg.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\main.adoc
+19.02.2019 04:28:17: Start SjekkAsciidocInclude()
+19.02.2019 04:34:34: ErstattTekstIAlleFiler(na_arkitekturbibliotek_, na_)
+19.02.2019 04:34:34: Finner ikke en del av banen.
+19.02.2019 04:34:46: ErstattTekstIAlleFiler(na_arkitekturbibliotek_, na_)
+19.02.2019 04:36:24: ErstattTekstIAlleFiler(na_arkitekturbibliotek_, na_)
+19.02.2019 04:36:24: Linje: Se link:../na_arkitekturbibliotek_modeller/[modellbiblioteket] om arkitekturmodeller.
+19.02.2019 04:36:24: Linje: . link:../na_arkitekturbibliotek_rammeverk/[Rammeverk]
+19.02.2019 04:36:24: Linje: . link:../na_arkitekturbibliotek_arkitekturlandskap/[Arkitekturlandskap]
+19.02.2019 04:36:24: Linje: . link:../na_arkitekturbibliotek_løsningslandskap/[Løsningslandskap]
+19.02.2019 04:36:24: Linje: . link:../na_arkitekturbibliotek_standarder/[Standarder]
+19.02.2019 04:36:24: Linje: . link:../na_arkitekturbibliotek_kravbibliotek/[Funksjonelle behov (kravbibliotek)]
+19.02.2019 04:36:24: Linje: . link:../na_arkitekturbibliotek_referanse/[Referansebibliotek]
+19.02.2019 04:36:24: Linje: . link:../na_arkitekturbibliotek_organisering/[Organisering og kompetanse]
+19.02.2019 04:36:24: Linje: . link:../na_arkitekturbibliotek_styring/[Styring og oppfølging]
+19.02.2019 04:36:24: 9 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_arkitekturbibliotek\main.adoc
+19.02.2019 04:36:24: Linje: link:../na_arkitekturbibliotek_løsningslandskap_ssb/[Nasjonale fellesløsninger]
+19.02.2019 04:36:24: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap\main.adoc
+19.02.2019 04:36:24: Linje: . link:../na_arkitekturbibliotek_løsningslandskap_sbb_altinn-samhandlings-og-integrasjonsplattform/[ID-porten]
+19.02.2019 04:36:24: Linje: . link:../na_arkitekturbibliotek_løsningslandskap_sbb_altinn-tilgangsstyring/[Altinn Tilgangsstyring]
+19.02.2019 04:36:24: Linje: . link:../na_arkitekturbibliotek_løsningslandskap_sbb_altinn-tjenesteplattform/[Altinn tjenesteplattform]
+19.02.2019 04:36:24: Linje: . link:../na_arkitekturbibliotek_løsningslandskap_sbb_altinn-samhandlings-og-integrasjonsplattform/[Altinn samhandlings- og 
+19.02.2019 04:36:24: Linje: . link:../na_arkitekturbibliotek_løsningslandskap_sbb_difi-digital-post-til-innbyggere/[Digital postkasse til innbyggere (DPI)]
+19.02.2019 04:36:24: Linje: . link:../na_arkitekturbibliotek_løsningslandskap_sbb_brreg-digital-post-til-virksomheter/[Digital post til virksomheter (DPV)]
+19.02.2019 04:36:24: Linje: . link:../na_arkitekturbibliotek_løsningslandskap_sbb_difi-kontakt-og-reservasjonsregisteret​-for-innbyggere/[Kontakt- og reservasjonsregisteret​ for innbyggere (KRR)]
+19.02.2019 04:36:24: Linje: . link:../na_arkitekturbibliotek_løsningslandskap_sbb_brreg-digital-kontaktinformasjon-og-fullmakter-for-virksomheter/[Digital kontaktinformasjon og fullmakter for virksomheter (KoFuVi)]
+19.02.2019 04:36:24: Linje: . link:../na_arkitekturbibliotek_løsningslandskap_sbb_difi-eformidling/[eFormidling]
+19.02.2019 04:36:24: Linje: . link:../na_arkitekturbibliotek_løsningslandskap_sbb_difi-einnsyn/[eInnsyn]
+19.02.2019 04:36:24: Linje: . link:../na_arkitekturbibliotek_løsningslandskap_sbb_brreg-enhetsregisteret/[Enhetsregisteret]
+19.02.2019 04:36:24: Linje: . link:../na_arkitekturbibliotek_løsningslandskap_sbb_difi-esignering/[eSignering]
+19.02.2019 04:36:24: Linje: . link:../na_arkitekturbibliotek_løsningslandskap_sbb_brreg-felles-datakatalog/[Felles datakatalog, API-katalog og begrepskatalog]
+19.02.2019 04:36:24: Linje: . link:../na_arkitekturbibliotek_løsningslandskap_sbb_skattetaten-folkeregisteret/[Folkeregisteret]
+19.02.2019 04:36:24: Linje: . link:../na_arkitekturbibliotek_løsningslandskap_sbb_ks-fiks-tjenesteplattform/[KS FIKS tjenesteplattform]
+19.02.2019 04:36:24: Linje: . link:../na_arkitekturbibliotek_løsningslandskap_sbb_ks-svarut/[KS SvarUt]
+19.02.2019 04:36:24: Linje: . link:../na_arkitekturbibliotek_løsningslandskap_sbb_kartverket-matrikkelen/[Matrikkelen]
+19.02.2019 04:36:24: 17 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_løsningslandskap_ssb\main.adoc
+19.02.2019 04:36:24: Linje: Publiserte modeller kan navigeres via nettleser; se https://doc.difi.no/nasjonal-arkitektur/na_arkitekturbibliotek_modeller/html-hovedbibliotek.
+19.02.2019 04:36:24: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_modeller\main.adoc
+19.02.2019 04:36:24: Linje: . link:../na_arkitekturbibliotek_referanse_begreper[Begreper]
+19.02.2019 04:36:24: Linje: . link:../na_arkitekturbibliotek_referanse_arkitekturer[Referansearkitekturer og god praksis]
+19.02.2019 04:36:24: Linje: . link:../na_arkitekturbibliotek_referanse_taksonomier[Taksonomier]
+19.02.2019 04:36:24: Linje: . link:../na_arkitekturbibliotek_referanse_maler[Maler]
+19.02.2019 04:36:24: 4 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse\main.adoc
+19.02.2019 04:36:24: Linje: include::../na_arkitekturbibliotek_referanse_arkitekturer/strategi-for-referansearkitekturer.adoc[]
+19.02.2019 04:36:24: Linje: include::../na_arkitekturbibliotek_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer/main.adoc[]
+19.02.2019 04:36:24: Linje: include::../na_arkitekturbibliotek_referanse_arkitekturer_samhandlingsmønstre/main.adoc[]
+19.02.2019 04:36:24: Linje: include::../na_arkitekturbibliotek_referanse_arkitekturer_eoppslag/eOppslag-Referansearkitektur.adoc[]
+19.02.2019 04:36:24: 4 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer\main.adoc
+19.02.2019 04:36:24: Linje: I dokumentasjon av link:../na_arkitekturbibliotek_referanse_arkitekturer_samhandlingsmønstre/main.adoc[Samhandlingsmønstre] dokumenteres det hvordan de forskjellige forretningsmessige samhandlingsmønstrene hver og en kan mappes mot en bestemt referansearkitektur. For en referansearkitektur kan man så igjen finne beste tekniske løsningsarkitektur som dokumenterer beste praksis for hvordan man teknisk skal samhandle for å realisere et samhandlingsmønster. Se link:../na_arkitekturbibliotek_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer[Metode for valg av referansearkitektur] for beste praksis for å gå fra digital samhandlingsprosess til løsningsarkitektur.
+19.02.2019 04:36:24: Linje: Se link:../na_arkitekturbibliotek_referanse_arkitekturer_eoppslag/eOppslag-referansearkitektur.adoc[eOppslag] for mer informasjon om referansearkitektur for eOppslag.
+19.02.2019 04:36:24: 2 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer\strategi-for-referansearkitekturer.adoc
+19.02.2019 04:36:24: Linje: . link:../na_arkitekturbibliotek_referanse_arkitekturer_eoppslag_sikkerhet/eOppslag_sikkerhetsmodell_overordnet.adoc[Overordnet innføring i sikkerhetsmekanismer for eOppslag]
+19.02.2019 04:36:24: Linje: . link:../na_arkitekturbibliotek_referanse_arkitekturer_eoppslag_sikkerhet/20180629-eoppslag-autorisering-og-delegering.adoc[Modell for autorisering og delegering - eOppslag]
+19.02.2019 04:36:24: 2 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
+19.02.2019 04:36:24: Linje: For hvert samhandlingsmønster pekes det på hvilken link:../na_arkitekturbibliotek_referanse_arkitekturer/main.adoc[referansearkitektur] som skal benyttes for samhandlingen.
+19.02.2019 04:36:24: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_samhandlingsmønstre\main.adoc
+19.02.2019 04:36:24: Linje: Digital samhandling mellom virksomheter vil fra et forretningsperspektiv gjøres på et fåtall måter. Dette kaller vi llink:../na_arkitekturbibliotek_referanse_arkitekturer_samhandlingsmønstre/main.adoc[samhandlingsmønstre]. I link:./Steg2.adoc[steg 2] vil vi se på hvordan vi enkelt kan avdekke hvilke samhandlingsmønstre man har behov for å realisere en digital samhandlingsprosess og deretter mappe disse mor referansearkitekturer i link:./Steg3.adoc[steg 3]. Først når man har identifisert samhandlingsmønstre og referansearkitektur, er det riktig å diskutere løsningsarkitektur og hvilke tekniske løsningsalternativer man har for hver enkelt samhandling. Dette ser vi på i link:./Steg4.adoc[steg 4]. Sagt på en annen måte, man må forstå og være enige om behovet før man kan diskutere teknologi.
+19.02.2019 04:36:24: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer\Steg1.adoc
+19.02.2019 04:36:24: Linje: Har man fått til en god enighet om samhandlingsmønstre, så vil ofte prosessen med å mappe mot referansearkitektur være ganske enkel da det under link:../na_arkitekturbibliotek_referanse_arkitekturer_samhandlingsmønstre/main.adoc[samhandlingsmønstre] er angitt hvilken referansearkitektur som gjelder for et bestemt samhandlingsmønster.
+19.02.2019 04:36:24: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer\Steg3.adoc
+19.02.2019 04:36:24: Linje: Fra et arkitekturståsted så består en referansearkitektur av et sett med funksjonelle byggeklosser (ABBer) som representerer funksjonaliteten som kreves for å realisere samhandlingsbehovet. Det vil både kunne være påbudte og valgfrie funksjonelle byggeklosser. Valgfrie byggeklosser benyttes kun der behov og krav til kvalitetsegenskaper tilsier at det kreves. For eksempel vil ikke alle samhandlingsbehov kreve kapabiliteten meldingskryptering for link:../na_arkitekturbibliotek_referanse_arkitekturer_eoppslag/eOppslag-referansearkitektur.adoc[eOppslag].
+19.02.2019 04:36:24: Linje: * link:../na_arkitekturbibliotek_referanse_arkitekturer_eoppslag/eOppslag-referansearkitektur.adoc[eOppslag] 
+19.02.2019 04:36:24: 2 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer\Steg4.adoc
+19.02.2019 04:36:32: Start SjekkAsciidocLinks()
+19.02.2019 04:36:35: Start SjekkAsciidocImages()
+19.02.2019 04:36:36: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer\media\Referansearkitekturer.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer\strategi-for-referansearkitekturer.adoc
+19.02.2019 04:36:36: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\media\eOppslagRefArk.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
+19.02.2019 04:36:36: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\media\ABBs.jpg, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
+19.02.2019 04:36:36: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_asciidoc\media\smallnew.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_asciidoc\artikkelmal-engelsk.adoc
+19.02.2019 04:36:36: Error: Asciidoc link ./media/ missing [ in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_asciidoc\artikkelmal-engelsk.adoc
+19.02.2019 04:36:36: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\norsk-flagg.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\main.adoc
+19.02.2019 04:36:38: Start SjekkAsciidocInclude()
+19.02.2019 04:44:55: Start SjekkAsciidocInclude()
+19.02.2019 04:44:58: Start SjekkAsciidocImages()
+19.02.2019 04:44:59: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer\media\Referansearkitekturer.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer\strategi-for-referansearkitekturer.adoc
+19.02.2019 04:44:59: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\media\eOppslagRefArk.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
+19.02.2019 04:44:59: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\media\ABBs.jpg, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
+19.02.2019 04:44:59: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_asciidoc\media\smallnew.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_asciidoc\artikkelmal-engelsk.adoc
+19.02.2019 04:44:59: Error: Asciidoc link ./media/ missing [ in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_asciidoc\artikkelmal-engelsk.adoc
+19.02.2019 04:44:59: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\norsk-flagg.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\main.adoc
+19.02.2019 04:45:01: Start SjekkAsciidocLinks()
+19.02.2019 04:45:01: Error: Failed to locate link file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_arkitekturbibliotek_referanse_begreper\kildefiler\virksomhetsarkitektur-begeper.ttl, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_arkitekturbibliotek_referanse_begreper\arkitekturbegreper.adoc
+19.02.2019 04:45:02: Error: Failed to locate link file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_arkitekturbibliotek\, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\main.adoc
+19.02.2019 04:45:02: Error: Failed to locate link file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_kunnskapsbibliotek\, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\main.adoc
+19.02.2019 04:51:59: Start SjekkAsciidocLinks()
+19.02.2019 04:51:59: Error: Failed to locate link file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse\, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_\main.adoc
+19.02.2019 04:53:56: Start SjekkAsciidocLinks()
+19.02.2019 04:53:59: Start SjekkAsciidocImages()
+19.02.2019 04:54:00: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer\media\Referansearkitekturer.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer\strategi-for-referansearkitekturer.adoc
+19.02.2019 04:54:00: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\media\eOppslagRefArk.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
+19.02.2019 04:54:00: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\media\ABBs.jpg, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
+19.02.2019 04:54:00: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_asciidoc\media\smallnew.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_asciidoc\artikkelmal-engelsk.adoc
+19.02.2019 04:54:00: Error: Asciidoc link ./media/ missing [ in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_asciidoc\artikkelmal-engelsk.adoc
+19.02.2019 04:54:00: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\norsk-flagg.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\main.adoc
+19.02.2019 04:54:02: Start SjekkAsciidocInclude()
+19.02.2019 05:00:22: Start SjekkAsciidocLinks()
+19.02.2019 05:00:26: Start SjekkAsciidocImages()
+19.02.2019 05:00:26: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer\media\Referansearkitekturer.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer\strategi-for-referansearkitekturer.adoc
+19.02.2019 05:00:26: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\media\eOppslagRefArk.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
+19.02.2019 05:00:26: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\media\ABBs.jpg, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
+19.02.2019 05:00:26: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_asciidoc\media\smallnew.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_asciidoc\artikkelmal-engelsk.adoc
+19.02.2019 05:00:26: Error: Asciidoc link ./media/ missing [ in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_asciidoc\artikkelmal-engelsk.adoc
+19.02.2019 05:00:26: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\norsk-flagg.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\main.adoc
+19.02.2019 05:00:29: Start SjekkAsciidocInclude()
+19.02.2019 05:00:31: ErstattTekstIAlleFiler(na_kunnskap_, kunnskap_)
+19.02.2019 05:00:36: ErstattTekstIAlleFiler(na_kunnskap_, kunnskap_)
+19.02.2019 05:00:36: Linje: . link:.\na_kunnskap_/[Kunnskapsbibliotek]
+19.02.2019 05:00:36: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\main.adoc
+19.02.2019 05:00:36: Linje: Se link:../na_kunnskap_metode_siam[Service Integration and Management (SIAM)].
+19.02.2019 05:00:36: Linje: link:../na_kunnskap_bok-dmbok2[2017: Data Management Body of Knowledge (DMBOK2)] er et omfattende og sterkt verk om data- og informasjonsforvaltning fra DAMA, utarbeidet av mange spesialister over flere år. Se også  link:../na_kunnskap_bok-navigating-the-labyrinth[Navigating the Labyrinth: An Executive Guide to Data Management (2018)], som er en  forkortet og forenklet framstilling av den større og mer kompliserte DMBOK2. 
+19.02.2019 05:00:36: Linje: . link:../na_kunnskap_arkitekturrammeverk-india[indEA - arkitekturrammeverk fra India]
+19.02.2019 05:00:36: Linje: link:../na_kunnskap_referansearkitektur-the-opengroup-it4it[The OpenGroup's IT4IT] - en standard referansearkitektur for verdikjedene i utvikling og og forvaltning av IT-tjenester.
+19.02.2019 05:00:36: 4 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_\main.adoc
+19.02.2019 05:00:36: Linje: include::../na_kunnskap_standard-archimate/kilder-til-kunnskap.adoc[]
+19.02.2019 05:00:36: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_kurs-archimate-intro\main.adoc
+19.02.2019 05:00:37: Linje: . link:../na_kunnskap_verktøy_asciidoctor/main.adoc[Mer om Asciidoctor].
+19.02.2019 05:00:37: Linje: Se også link:../na_kunnskap_verktøy_asciidoc-fx/main.adoc[mer om AsciidocFX].
+19.02.2019 05:00:37: 2 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_praktiske-tips_asciidoc\main.adoc
+19.02.2019 05:00:37: Linje: include::../na_kunnskap_taksonomier_LOS/main.adoc[]
+19.02.2019 05:00:37: Linje: include::../na_kunnskap_taksonomier_research/klassifikasjonssystemer-research.adoc[]
+19.02.2019 05:00:37: Linje: * link:../na_kunnskap_taksonomier_research/klassifikasjonssystemer-research.adoc[Klassifikasjonssystemer-research(asciidoc, migrering fra MS Word i arbeid)]
+19.02.2019 05:00:37: Linje: * link:../na_kunnskap_taksonomier_research/klassifikasjonssystemer-research-1.docx[Klassifikasjonssystemer - research mars 2018 (MS Word)]
+19.02.2019 05:00:37: 4 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_taksonomier\main.adoc
+19.02.2019 05:00:37: Linje: . link:../na_kunnskap_taksonomier_LOS/los-hva-hvem-hvordan.pptx[LOS - hva, hvem og hvordan]
+19.02.2019 05:00:37: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_taksonomier_LOS\main.adoc
+19.02.2019 05:00:41: Start SjekkAsciidocLinks()
+19.02.2019 05:00:44: Start SjekkAsciidocImages()
+19.02.2019 05:00:44: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer\media\Referansearkitekturer.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer\strategi-for-referansearkitekturer.adoc
+19.02.2019 05:00:44: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\media\eOppslagRefArk.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
+19.02.2019 05:00:44: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\media\ABBs.jpg, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
+19.02.2019 05:00:44: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_asciidoc\media\smallnew.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_asciidoc\artikkelmal-engelsk.adoc
+19.02.2019 05:00:44: Error: Asciidoc link ./media/ missing [ in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_asciidoc\artikkelmal-engelsk.adoc
+19.02.2019 05:00:44: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\norsk-flagg.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\main.adoc
+19.02.2019 05:00:46: Start SjekkAsciidocInclude()
+19.02.2019 05:03:50: ErstattTekstIAlleFiler(na_praktiske-tips, plattform_praktiske-tips)
+19.02.2019 05:03:58: ErstattTekstIAlleFiler(na_praktiske-tips, plattform_praktiske-tips)
+19.02.2019 05:03:58: Linje: . link:./na_praktiske-tips/[Praktiske tips] 
+19.02.2019 05:03:58: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\main.adoc
+19.02.2019 05:03:58: Linje: Her finnes en samling av diverse grunnlagsinformasjon for felles forståelse og kunnskapsbygging på tvers. Dette kan være lenker og omtale av internasjonale standarder, utvalgte bøker, verktøy, arkitekturrammeverk fra andre land, med videre. Kom gjerne med forslag til innhold. Se link:../na_praktiske-tips[praktiske tips] om hvordan.
+19.02.2019 05:03:58: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_\main.adoc
+19.02.2019 05:03:58: Linje: link:../na_praktiske-tips_archi[Praktiske tips om samarbeid med Archi].
+19.02.2019 05:03:58: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_modeller\main.adoc
+19.02.2019 05:03:58: Linje: include::../na_praktiske-tips_github/main.adoc[]
+19.02.2019 05:03:58: Linje: include::../na_praktiske-tips_asciidoc/main.adoc[]
+19.02.2019 05:03:58: Linje: include::../na_praktiske-tips_archi/main.adoc[]
+19.02.2019 05:03:58: 3 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_praktiske-tips\main.adoc
+19.02.2019 05:03:58: Linje: image:../na_praktiske-tips_archi/media/archi-logo.png[]
+19.02.2019 05:03:58: Linje: image:../na_praktiske-tips_archi/media/collaboration-plugin.png[width=450, height=450]
+19.02.2019 05:03:58: Linje: image:../na_praktiske-tips_archi/media/archi-collaboration-preferences.png[width=600, height=600]
+19.02.2019 05:03:58: Linje: image:../na_praktiske-tips_archi/media/preferences-default-figures.png[width=600, height=600]
+19.02.2019 05:03:58: Linje: image:../na_praktiske-tips_archi/media/add-remote-model.png[width=550, height=550]
+19.02.2019 05:03:58: Linje: image:../na_praktiske-tips_archi/media/archi-workspace.png[width=220, height=220]
+19.02.2019 05:03:58: Linje: image:../na_praktiske-tips_archi/media/hidden-git-files.png[width=300, height=300]
+19.02.2019 05:03:58: 7 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_praktiske-tips_archi\main.adoc
+19.02.2019 05:03:58: Linje: . link:../na_praktiske-tips_github/main.adoc[Praktiske tips om bruk av Github].
+19.02.2019 05:03:58: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_praktiske-tips_asciidoc\main.adoc
+19.02.2019 05:03:58: Linje: Markupspråk som Markdown og Asciidoc lar deg skrive dokumenter i ren tekst, og egner seg tilsvarende godt for den funksjonaliteten som finnes rundt versjonsstyring i Github. Asciidoc er valgt her, fordi dette er lett å komme i gang med for nye brukere, samtidig som det gir avanserte muligheter for erfarne brukere. Asciidoc som kildeformat foretrekkes framfor f.eks. Microsoft Word, fordi det framstår som mer åpent og "prosesseringsvennlig". Se link:../na_praktiske-tips_asciidoc/main.adoc[Praktiske tips on Asciidoc] for mer informasjon.  
+19.02.2019 05:03:58: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_praktiske-tips_github\main.adoc
+19.02.2019 05:04:02: Start SjekkAsciidocLinks()
+19.02.2019 05:04:04: Start SjekkAsciidocImages()
+19.02.2019 05:04:04: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer\media\Referansearkitekturer.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer\strategi-for-referansearkitekturer.adoc
+19.02.2019 05:04:04: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\media\eOppslagRefArk.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
+19.02.2019 05:04:04: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\media\ABBs.jpg, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
+19.02.2019 05:04:04: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_asciidoc\media\smallnew.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_asciidoc\artikkelmal-engelsk.adoc
+19.02.2019 05:04:04: Error: Asciidoc link ./media/ missing [ in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_asciidoc\artikkelmal-engelsk.adoc
+19.02.2019 05:04:05: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\norsk-flagg.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\main.adoc
+19.02.2019 05:04:07: Start SjekkAsciidocInclude()
+19.02.2019 05:08:16: Start SjekkAsciidocLinks()
+19.02.2019 05:08:16: Error: Failed to locate link file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_\na_om-plattformen\, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_\main.adoc
+19.02.2019 05:08:16: Error: Failed to locate link file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_\plattform_praktiske-tips\, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_\main.adoc
+19.02.2019 05:08:16: Error: Failed to locate link file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_\na_\, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_\main.adoc
+19.02.2019 05:08:16: Error: Failed to locate link file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_\kunnskap_\, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_\main.adoc
+19.02.2019 05:08:16: Error: Failed to locate link file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_\na_blogg\, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_\main.adoc
+19.02.2019 05:10:41: Start SjekkAsciidocLinks()
+19.02.2019 05:10:44: Start SjekkAsciidocImages()
+19.02.2019 05:10:44: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer\media\Referansearkitekturer.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer\strategi-for-referansearkitekturer.adoc
+19.02.2019 05:10:44: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\media\eOppslagRefArk.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
+19.02.2019 05:10:44: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\media\ABBs.jpg, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
+19.02.2019 05:10:44: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_asciidoc\media\smallnew.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_asciidoc\artikkelmal-engelsk.adoc
+19.02.2019 05:10:44: Error: Asciidoc link ./media/ missing [ in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_asciidoc\artikkelmal-engelsk.adoc
+19.02.2019 05:10:44: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_\norsk-flagg.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_\main.adoc
+19.02.2019 05:10:44: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\norsk-flagg.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\main.adoc
+19.02.2019 05:10:47: Start SjekkAsciidocInclude()
+19.02.2019 05:10:47: Error: Failed to locate include file ./na_felles/includes/commonincludes.adoc, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_\main.adoc
+19.02.2019 05:12:20: Start SjekkAsciidocInclude()
+19.02.2019 05:12:20: Error: Failed to locate include file ./na_felles/includes/commonincludes.adoc, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_\main.adoc
+19.02.2019 05:12:51: Start SjekkAsciidocInclude()
+19.02.2019 05:15:01: Start SjekkAsciidocInclude()
+19.02.2019 05:15:04: Start SjekkAsciidocImages()
+19.02.2019 05:15:05: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer\media\Referansearkitekturer.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer\strategi-for-referansearkitekturer.adoc
+19.02.2019 05:15:05: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\media\eOppslagRefArk.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
+19.02.2019 05:15:05: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\media\ABBs.jpg, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
+19.02.2019 05:15:05: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_asciidoc\media\smallnew.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_asciidoc\artikkelmal-engelsk.adoc
+19.02.2019 05:15:05: Error: Asciidoc link ./media/ missing [ in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_asciidoc\artikkelmal-engelsk.adoc
+19.02.2019 05:15:05: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_\norsk-flagg.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_\main.adoc
+19.02.2019 05:15:05: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_om-plattformen\media\github-logo.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_om-plattformen\main.adoc
+19.02.2019 05:15:05: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_om-plattformen\media\onedrive-logo.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_om-plattformen\main.adoc
+19.02.2019 05:15:05: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_om-plattformen\media\googledrive-logo.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_om-plattformen\main.adoc
+19.02.2019 05:15:05: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_om-plattformen\media\archi-logo.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_om-plattformen\main.adoc
+19.02.2019 05:15:05: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_om-plattformen\media\slack-logo.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_om-plattformen\main.adoc
+19.02.2019 05:15:05: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_om-plattformen\media\asciidoctor-logo.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_om-plattformen\main.adoc
+19.02.2019 05:15:05: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_om-plattformen\media\asciidoctor-logo.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_praktiske-tips_asciidoc\main.adoc
+19.02.2019 05:15:05: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_om-plattformen\media\asciidoctor-logo.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_praktiske-tips_asciidoc\main.adoc
+19.02.2019 05:15:05: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\norsk-flagg.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\main.adoc
+19.02.2019 05:15:07: Start SjekkAsciidocLinks()
+19.02.2019 05:15:08: Error: Failed to locate link file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_om-plattformen\, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\main.adoc
+19.02.2019 05:16:45: Start SjekkAsciidocLinks()
+19.02.2019 05:16:48: Start SjekkAsciidocImages()
+19.02.2019 05:16:48: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer\media\Referansearkitekturer.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer\strategi-for-referansearkitekturer.adoc
+19.02.2019 05:16:48: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\media\eOppslagRefArk.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
+19.02.2019 05:16:48: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\media\ABBs.jpg, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
+19.02.2019 05:16:48: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_asciidoc\media\smallnew.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_asciidoc\artikkelmal-engelsk.adoc
+19.02.2019 05:16:48: Error: Asciidoc link ./media/ missing [ in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_asciidoc\artikkelmal-engelsk.adoc
+19.02.2019 05:16:48: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_\norsk-flagg.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_\main.adoc
+19.02.2019 05:16:48: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_om-plattformen\media\github-logo.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_om-plattformen\main.adoc
+19.02.2019 05:16:48: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_om-plattformen\media\onedrive-logo.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_om-plattformen\main.adoc
+19.02.2019 05:16:48: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_om-plattformen\media\googledrive-logo.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_om-plattformen\main.adoc
+19.02.2019 05:16:48: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_om-plattformen\media\archi-logo.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_om-plattformen\main.adoc
+19.02.2019 05:16:48: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_om-plattformen\media\slack-logo.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_om-plattformen\main.adoc
+19.02.2019 05:16:48: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_om-plattformen\media\asciidoctor-logo.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_om-plattformen\main.adoc
+19.02.2019 05:16:48: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_om-plattformen\media\asciidoctor-logo.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_praktiske-tips_asciidoc\main.adoc
+19.02.2019 05:16:48: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_om-plattformen\media\asciidoctor-logo.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_praktiske-tips_asciidoc\main.adoc
+19.02.2019 05:16:48: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\norsk-flagg.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\main.adoc
+19.02.2019 05:18:34: Start SjekkAsciidocImages()
+19.02.2019 05:18:34: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer\media\Referansearkitekturer.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer\strategi-for-referansearkitekturer.adoc
+19.02.2019 05:18:34: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\media\eOppslagRefArk.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
+19.02.2019 05:18:34: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\media\ABBs.jpg, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
+19.02.2019 05:18:34: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_asciidoc\media\smallnew.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_asciidoc\artikkelmal-engelsk.adoc
+19.02.2019 05:18:34: Error: Asciidoc link ./media/ missing [ in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_asciidoc\artikkelmal-engelsk.adoc
+19.02.2019 05:18:34: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_\norsk-flagg.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_\main.adoc
+19.02.2019 05:18:34: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_om-plattformen\media\github-logo.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_om-plattformen\main.adoc
+19.02.2019 05:18:34: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_om-plattformen\media\onedrive-logo.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_om-plattformen\main.adoc
+19.02.2019 05:18:34: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_om-plattformen\media\googledrive-logo.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_om-plattformen\main.adoc
+19.02.2019 05:18:34: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_om-plattformen\media\archi-logo.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_om-plattformen\main.adoc
+19.02.2019 05:18:34: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_om-plattformen\media\slack-logo.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_om-plattformen\main.adoc
+19.02.2019 05:18:34: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_om-plattformen\media\asciidoctor-logo.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_om-plattformen\main.adoc
+19.02.2019 05:18:34: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_om-plattformen\media\asciidoctor-logo.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_praktiske-tips_asciidoc\main.adoc
+19.02.2019 05:18:34: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_om-plattformen\media\asciidoctor-logo.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_praktiske-tips_asciidoc\main.adoc
+19.02.2019 05:18:34: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\norsk-flagg.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\main.adoc
+19.02.2019 05:19:00: Start SjekkAsciidocImages()
+19.02.2019 05:19:00: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer\media\Referansearkitekturer.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer\strategi-for-referansearkitekturer.adoc
+19.02.2019 05:19:00: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\media\eOppslagRefArk.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
+19.02.2019 05:19:00: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\media\ABBs.jpg, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
+19.02.2019 05:19:00: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_asciidoc\media\smallnew.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_asciidoc\artikkelmal-engelsk.adoc
+19.02.2019 05:19:00: Error: Asciidoc link ./media/ missing [ in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_asciidoc\artikkelmal-engelsk.adoc
+19.02.2019 05:19:00: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_\norsk-flagg.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_\main.adoc
+19.02.2019 05:19:00: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_om-plattformen\media\github-logo.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_om-plattformen\main.adoc
+19.02.2019 05:19:00: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_om-plattformen\media\onedrive-logo.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_om-plattformen\main.adoc
+19.02.2019 05:19:00: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_om-plattformen\media\googledrive-logo.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_om-plattformen\main.adoc
+19.02.2019 05:19:00: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_om-plattformen\media\archi-logo.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_om-plattformen\main.adoc
+19.02.2019 05:19:00: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_om-plattformen\media\slack-logo.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_om-plattformen\main.adoc
+19.02.2019 05:19:00: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_om-plattformen\media\asciidoctor-logo.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_om-plattformen\main.adoc
+19.02.2019 05:19:00: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_om-plattformen\media\asciidoctor-logo.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_praktiske-tips_asciidoc\main.adoc
+19.02.2019 05:19:00: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_om-plattformen\media\asciidoctor-logo.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_praktiske-tips_asciidoc\main.adoc
+19.02.2019 05:19:00: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\norsk-flagg.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\main.adoc
+19.02.2019 05:21:41: ErstattTekstIAlleFiler(na_om-plattformen, plattform_om-plattformen)
+19.02.2019 05:21:41: Linje: image:../na_om-plattformen/media/asciidoctor-logo.png[width=80, height=80]
+19.02.2019 05:21:41: Linje:  image:../na_om-plattformen/media/asciidoctor-logo.png[width=80, height=80]
+19.02.2019 05:21:41: 2 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_praktiske-tips_asciidoc\main.adoc
+19.02.2019 05:21:46: Start SjekkAsciidocImages()
+19.02.2019 05:21:46: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer\media\Referansearkitekturer.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer\strategi-for-referansearkitekturer.adoc
+19.02.2019 05:21:46: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\media\eOppslagRefArk.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
+19.02.2019 05:21:46: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\media\ABBs.jpg, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
+19.02.2019 05:21:46: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_asciidoc\media\smallnew.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_asciidoc\artikkelmal-engelsk.adoc
+19.02.2019 05:21:46: Error: Asciidoc link ./media/ missing [ in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_asciidoc\artikkelmal-engelsk.adoc
+19.02.2019 05:21:46: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_\norsk-flagg.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_\main.adoc
+19.02.2019 05:21:46: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\norsk-flagg.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\main.adoc
+19.02.2019 05:31:41: Start SjekkAsciidocImages()
+19.02.2019 05:31:41: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer\media\Referansearkitekturer.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer\strategi-for-referansearkitekturer.adoc
+19.02.2019 05:31:41: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\media\eOppslagRefArk.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
+19.02.2019 05:31:41: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\media\ABBs.jpg, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
+19.02.2019 05:31:41: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_asciidoc\media\smallnew.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_asciidoc\artikkelmal-engelsk.adoc
+19.02.2019 05:31:41: Error: Asciidoc link ./media/ missing [ in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_asciidoc\artikkelmal-engelsk.adoc
+19.02.2019 05:31:41: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_\norsk-flagg.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_\main.adoc
+19.02.2019 05:31:41: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\norsk-flagg.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\main.adoc
+19.02.2019 05:33:24: Start SjekkAsciidocLinks()
+19.02.2019 05:33:24: Error: Failed to locate link file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_taksonomier_LOS\los-hva-hvem-hvordan.pptx, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_taksonomier_LOS\main.adoc
+19.02.2019 05:33:27: Start SjekkAsciidocImages()
+19.02.2019 05:33:27: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer\media\Referansearkitekturer.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer\strategi-for-referansearkitekturer.adoc
+19.02.2019 05:33:27: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\media\eOppslagRefArk.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
+19.02.2019 05:33:27: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\media\ABBs.jpg, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
+19.02.2019 05:33:27: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_asciidoc\media\smallnew.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_asciidoc\artikkelmal-engelsk.adoc
+19.02.2019 05:33:27: Error: Asciidoc link ./media/ missing [ in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_asciidoc\artikkelmal-engelsk.adoc
+19.02.2019 05:33:27: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_\norsk-flagg.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_\main.adoc
+19.02.2019 05:33:27: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\norsk-flagg.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\main.adoc
+19.02.2019 05:33:30: Start SjekkAsciidocInclude()
+19.02.2019 05:33:33: Start SjekkAsciidocLinks()
+19.02.2019 05:33:33: Error: Failed to locate link file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_taksonomier_LOS\los-hva-hvem-hvordan.pptx, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_taksonomier_LOS\main.adoc
+19.02.2019 05:38:30: Start SjekkAsciidocLinks()
+19.02.2019 05:38:31: Error: Failed to locate link file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_taksonomier_LOS\los-hva-hvem-hvordan.pptx, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_taksonomier_LOS\main.adoc
+19.02.2019 05:42:24: Start SjekkAsciidocLinks()
+19.02.2019 05:42:26: Start SjekkAsciidocInclude()
+19.02.2019 05:42:29: Start SjekkAsciidocImages()
+19.02.2019 05:42:29: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer\media\Referansearkitekturer.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer\strategi-for-referansearkitekturer.adoc
+19.02.2019 05:42:29: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\media\eOppslagRefArk.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
+19.02.2019 05:42:29: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\media\ABBs.jpg, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
+19.02.2019 05:42:29: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_asciidoc\media\smallnew.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_asciidoc\artikkelmal-engelsk.adoc
+19.02.2019 05:42:29: Error: Asciidoc link ./media/ missing [ in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\na_referanse_maler_asciidoc\artikkelmal-engelsk.adoc
+19.02.2019 05:42:29: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_\norsk-flagg.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_\main.adoc
+19.02.2019 05:42:29: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\norsk-flagg.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\main.adoc

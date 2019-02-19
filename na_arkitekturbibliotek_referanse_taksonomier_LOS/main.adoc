@@ -1,7 +1,0 @@
-= LOS
-
-== Dokumenter
-. link:../na_kunnskapsbibliotek_taksonomier_LOS/los-hva-hvem-hvordan.pptx[LOS - hva, hvem og hvordan]
-
-. https://1drv.ms/p/s!Ao0VyYhs1XdLiakctcwEzc9o3f1guw[LOS - hva, hvem og hvordan (testlenke til Onedrive - dokumentet åpnes uten å måtte lastes ned først]
-

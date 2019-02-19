@@ -1,0 +1,33 @@
+:lang: no
+:doctitle: Archimate-kurs del 1 
+:keywords: kurs, standard, modellering
+
+include::../na_felles/includes/commonincludes.adoc[]
+
+
+[.lead]
+50-50 teori og praksis for å komme i gang med Archimate
+
+
+
+//image:../na_felles/media/i-arbeid.png[width=75, height=75] Første versjon av denne omtalen er fremdeles i arbeid 
+
+
+image:./media/archimate-logo.jpg[width= 200]
+////
+////
+
+== Målgrupper og formål
+* Arkitekter: Kom i gang med  å Archimate-modellering
+* Andre: Kom i gang med å kunne lese Archimate-modeller ute frykt
+
+== Kjøreplan
+include::./kjøreplan.adoc[Kjøreplan]
+
+== Temaer
+:leveloffset: +1
+include::./temaer.adoc[Kjøreplan]
+:leveloffset: -1
+== Kilder til kunnskap
+:leveloffset: +1
+include::../kunnskap_standard-archimate/kilder-til-kunnskap.adoc[]

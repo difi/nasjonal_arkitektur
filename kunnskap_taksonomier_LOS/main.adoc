@@ -1,0 +1,5 @@
+:lang: no
+:doctitle: LOS
+include::../na_felles/includes/commonincludes.adoc[]
+
+Se link:./kildefiler/los-hva-hvem-hvordan.pptx[Los: Hva-hvem-hvordan.pptx]
