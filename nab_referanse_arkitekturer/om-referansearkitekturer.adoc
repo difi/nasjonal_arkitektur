@@ -1,0 +1,38 @@
+:lang: no
+:doctitle: Om referanseartkitekturer
+:keywords: Referansearkitekturer
+
+include::../na_felles/includes/commonincludes.adoc[]
+
+=== Hva er en referansearkitektur?
+
+En referansearkitektur er en løsningsmal for hvordan virksomheter utvikler løsninger innenfor et avgrenset område. Referansearkitekturen beskriver forretningsmessige mål, fastlegger prinsipper og begreper som gjelder for området, hvilke standarder og eventuelt hvilke teknologier som bør benyttes, og hvordan virksomheten skal realiserer effekter både på forretningsnivå og teknisk nivå.
+
+Det finnes ulike typer referansearkitekturer: 
+
+* Grunnleggende referansearkitekturer, som beskriver generelle krav til for eksempel informasjonssikkerhet.
+
+* Tekniske, som beskriver arkitekturen og peker på relevante teknologiske løsninger som skal utvikles og brukes, for eksempel krav til tegnsett når data skal utveksles mellom registre.
+
+* Anvendelsesorienterte, som innen et spesifikt forretningsområde peker på prinsipper og retningslinjer til konkrete løsninger, f.eks. denne referansearkitekturen om meldingsutveksling.
+
+Referansearkitekturer kan beskrives på ulike abstraksjonsnivåer. Omfangsrike og altomfattende arkitekturer kan være hinder for innovasjon. Det viktig å finne rett balanse på omfang og detaljeringsnivå. Hvis ensartet samhandling er viktig, bør kravene som stilles være mer detaljert.
+
+Referansearkitektur må ta utgangspunkt i brukerbehov, være basert på erfaring og peke på beste praksis.
+Referansearkitekturene gir både offentlige og private virksomheter felles retning på nyutvikling, videreutvikling og anskaffelser av offentlige samhandlingsløsninger.
+
+=== Hvorfor bruke referansearkitekturer?
+
+Referansearkitektur tilbyr harmonisering av samhandlingsarkitekturer gjennom felles begrepsbruk, gjenbrukbare løsninger og erfaring basert på beste praksis.
+
+* Økt fart: Referansearkitekturer gir et modent startpunkt for arbeidet med arkitektur i et utviklingsprosjekt. Virksomheten trenger ikke finne opp hjulet på nytt.
+
+* Høyere kvalitet: Referansearkitekturer baserer seg på erfaring og beste praksis.
+
+* Mer Gjenbruk: Referansearkitekturer peker på ressurser som kan gjenbrukes, og dermed enklere å finne.
+Sterkere harmonisering og samhandling: Harmoniserer samhandlingen generelt og på tvers av sektorer og forvaltningsnivå. 
+
+* Effektivt samarbeid på tvers: Det er enklere å samarbeide på tvers av sektorer og forvaltningsnivå ved bruk av felles begreper, modeller og arkitektur. Det blir enklere å utveksle erfaringer og virksomhetene modnes sammen.
+
+* I tråd med lover og regler: Referansearkitekturer kan bygge inn juridiske krav og sikre at disse kravene følges.
+
