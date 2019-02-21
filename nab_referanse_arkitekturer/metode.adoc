@@ -1,0 +1,46 @@
+:lang: no
+:doctitle: Metode
+:keywords: Norsk, arkitekturbibliotek, offenlig sektor, virksomhetsarkitektur, NIF, samhandlingsarkitektur, rammeverk, GitHub
+
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+
+image:../plattform_felles/media/i-arbeid.png[width=75, height=75]
+
+
+
+== Generelt
+:leveloffset: +1
+include::metode_generelt.adoc[]
+
+:leveloffset: -1
+
+
+== Steg 1 - Modeller fulldigitaliserte forretningsprosesser med fokus på samhandling
+
+:leveloffset: +1
+include::metode_Steg1.adoc[]
+:leveloffset: -1
+
+== Steg 2 - Identifisere samhandlingsmønstre
+
+:leveloffset: +1
+include::metode_Steg2.adoc[]
+:leveloffset: -1
+
+
+== Steg 3 - Identifisere referansearkitektur med fokus på samhandling
+
+:leveloffset: +1
+include::metode_Steg3.adoc[]
+:leveloffset: -1
+
+
+== Steg 4 - Identifisere løsningsarkitektur
+
+:leveloffset: +1
+include::metode_Steg4.adoc[]
+:leveloffset: -1
+
+
+

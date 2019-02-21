@@ -1,0 +1,20 @@
+:lang: no
+:doctitle: Generelt
+:keywords: metode
+
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+
+Digital samhandling mellom virksomheter er i stadig endring. Som del av den digitale transformasjonen så vil man ikke lenger sette strøm på papir, men i steden identifisere prosesser for digital samhandling som skiller seg mye fra hvordan man samhandler i dag. De nye prosessene bør ha større fokus på brukernes behov ved å sette brukeren i sentrum og derigjennom understøtte Digital agenda og Personvernforordningen.
+Under https://www.difi.no/arkitektur finner man https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/nasjonal-arkitektur/arkitekturrammeverk-samhandling[arkitekturrammeverk-samhandling] som gir en introduksjon til de 4 interoperabilitetsnivåene i European Interoperability Framework (EIF, se https://ec.europa.eu/isa2/eif_en). For å oppnå en digital transformasjon i hvordan virksomheter samhandler, er man avhengig av å også digitalisere hvordan hver enkelt virksomhet samhandler. Metoden som her beskrives er et enkelt hjelpemiddel for å starte på denne reisen. Den tar utgangspunkt i de 4 interoperabilitetsnivåene i EIF for å oppnå ønsket samhandlingsevne på tvers av virksomheter:
+
+
+image:./media/Samhandlingsevne.png[alt="Samhandlingsevne", width=750]
+ 
+Metoden sier noe om hvordan man skal oppnå digital samhandlingsevne og vil underveis peke på de 4 interoperabilitetsnivåene. Det understrekes at man må jobbe i parallell med alle nivåene, da det er synergier mellom dem.
+
+Metoden har som formål å sikre at man ikke snakker om teknisk samhandlingsevne før man forstår det forretningsmessige behovet på en tilfredsstillende måte. Erfaringene tilsier at man lettere kommer fram til et forslag til den digitale samhandlingsprosessen når man ikke snakker om teknologi. Når man har enighet om prosessen så kan man avklare hvordan den tekniske samhandlingsevnen skal ivaretas.
+
+Metoden er først og fremst tenkt i forhold til hvordan 2 virksomheter kan digitalisere sin samhandling, men tankegodset kan også ha en verdi når man ser på hvordan 2 domener i en virksomhet skal samhandle digitalt.
+
+Metoden er uavhengig av om den ene, begge eller ingen benytter serviceprovidere i deres løsninger.

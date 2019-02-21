@@ -1,0 +1,21 @@
+:lang: no
+:doctitle: Steg 3 - Identifisere referansearkitektur med fokus på samhandling
+:keywords: metodikk
+
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+
+
+Når samhandlingsmønstre er identifisert, se link:./Steg2.adoc[steg 2], så kan man mappe disse mot link:../Referansearkitekturer.adoc[referansearkitektur] for hver enkelt samhandling.
+
+Har man fått til en god enighet om samhandlingsmønstre, så vil ofte prosessen med å mappe mot referansearkitektur være ganske enkel da det under link:../nab_referanse_arkitekturer_samhandlingsmønstre/main.adoc[samhandlingsmønstre] er angitt hvilken referansearkitektur som gjelder for et bestemt samhandlingsmønster.
+
+Mapping til referansearkitektur for lånesøknad vil da se slik ut:
+
+image:./media/Prosess SBL med angivelse av referansearkitektur.png[alt="bad!", width=750]
+
+Mapping til referansearkitektur for  konkurs og lønnsgaranti vil da se slik ut:
+
+image:./media/Samhandling bostyrer og NAV.png[alt="bad!", width=1100]
+
+Når referansearkitektur er identifisert for hver enkelt samhandling, så blir neste steg å identifisere løsningsarkitektur med tilhørende løsningskomponenter, se link:./Steg4.adoc[steg 4].
