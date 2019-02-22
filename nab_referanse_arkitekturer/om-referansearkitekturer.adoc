@@ -40,13 +40,15 @@ Sterkere harmonisering og samhandling: Harmoniserer samhandlingen generelt og p�
 
 Målgruppen for referansearkitekturene er offentlige tjenestetilbydere og deres leverandører og er relevant for arkitekter, forretningsutviklere og prosjektledere som jobber med digitalisering av forretningsprosesser som involverer flere virksomheter.
 
-Detaljeringsnivået på beskrivelse av referansearkitekturene vil ikke være på nivå med en implementasjonsguide, men gi veiledning i løsningsdesign og sette rammer for denne. Referansearkitekturene vil forvaltes og utvikles over tid, og vil derfor ha ulikt detaljeringsnivå for de ulike områdene. De overordnede beskrivelsene tas sikte på å være stabile over tid, mens de mer løsningsspesifikke anbefalingene kan endres seg i noe større grad.
+Detaljeringsnivået på beskrivelse av referansearkitekturene vil ikke være på nivå med en implementasjonsguide, men gi veiledning i løsningsdesign og sette rammer for denne. Referansearkitekturene vil forvaltes og utvikles over tid, og vil derfor ha ulikt detaljeringsnivå for de ulike områdene. De overordnede beskrivelsene tas sikte på å være mer stabile, mens de mer løsningsspesifikke anbefalingene kan endres seg i noe større grad.
 
 ==== Status referansearkitektuerer for informasjonsutveksling
 
 Referansearkitekturen er delt inn i flere områder som vist i figuren under. I tillegg vil det være en del overgripende temaer bl.a. tilknyttet informasjonssikkerhet.
 
 Hvert av områdene vil støttes av en referansearkitektur og det er en overordnet metode for å identifisere hvilken referansearkitektur som passer til det respektive samhandlingsbehovet.
+
+image:./media/Oversikt referansearkitekturer.png[alt="Bilde mangler", width=750]
 
 //sett in figur her
 
