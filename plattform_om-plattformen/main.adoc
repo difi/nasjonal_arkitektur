@@ -28,8 +28,4 @@ image:../plattform_om-plattformen/media/asciidoctor-logo.png[width=80, height=80
 
 
 
-////
-
-
-
 
