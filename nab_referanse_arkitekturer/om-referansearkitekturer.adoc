@@ -2,7 +2,7 @@
 :doctitle: Om referanseartkitekturer
 :keywords: Referansearkitekturer
 
-include::../na_felles/includes/commonincludes.adoc[]
+include::../plattform_felles/includes/commonincludes.adoc[]
 
 === Hva er en referansearkitektur?
 
