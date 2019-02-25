@@ -11,7 +11,7 @@ Fra et arkitekturståsted så består en referansearkitektur av et sett med funk
 
 Hver av de funksjonelle byggeklossene kan realiseres av en eller flere løsningskomponenter (SBBer). En funksjonell byggekloss kan ha flere mulige løsningskomponenter. Rett løsningskomponent velges i så fall basert på behov og kvalitetsegenskapene som kreves og som best svarer på behov og krav til kvalitetsegenskaper, inkludert behov avdekket som del av risikoanalyse for sikkerhet og personvern. Se følgende konseptuelle figur:
 
-image:./media/mapping referansearkitektur til løsningsarkitektur.png[alt="missing figure", width=500]
+image:./media/Mapping referansearkitektur til løsningsarkitektur.png[alt="missing figure", width=500]
 
 Man velger løsningsarkitektur ved å ta utgangspunkt i beste praksis for referansearkitekturen og se om denne dekker behovet. Der valget står mellom flere løsningskomponenter, må man vurdere hvilken som best dekker funksjonelle behov og krav til kvalitetsegenskaper. Har man spesielle behov, kan det hende man må ta i bruk løsningskomponenter som ikke ligger dokumentert som beste praksis. I så fall bør man oppdatere beste praksis.
 
