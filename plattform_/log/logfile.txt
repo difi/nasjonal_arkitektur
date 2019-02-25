@@ -1807,3 +1807,11 @@
 19.02.2019 07:03:26: Error: Failed to locate link file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\blogg_\blogg_2018-12-28-sporsmål-om-drift-og-forvaltning-av-ikt\, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\blogg_\main.adoc
 19.02.2019 07:05:09: Start SjekkAsciidocLinks()
 19.02.2019 07:07:07: Start SjekkAsciidocLinks()
+20.02.2019 12:12:00: Start SjekkAsciidocLinks()
+20.02.2019 12:12:05: Start SjekkAsciidocImages()
+20.02.2019 12:12:05: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer\media\Referansearkitekturer.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer\strategi-for-referansearkitekturer.adoc
+20.02.2019 12:12:05: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_eoppslag\media\eOppslagRefArk.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
+20.02.2019 12:12:05: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_eoppslag\media\ABBs.jpg, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_eoppslag\eOppslag-referansearkitektur.adoc
+20.02.2019 12:12:05: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_maler_asciidoc\media\smallnew.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_maler_asciidoc\artikkelmal-engelsk.adoc
+20.02.2019 12:12:05: Error: Asciidoc link ./media/ missing [ in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_maler_asciidoc\artikkelmal-engelsk.adoc
+20.02.2019 12:12:07: Start SjekkAsciidocInclude()
