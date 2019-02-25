@@ -1,9 +1,15 @@
-= Klassifikasjonssystemer - hvem, hva, hvorfor
-Erik Hagen, Difi
+:lang: no
+:doctitle: Klassifikasjonssystemer - hvem, hva, hvorfor
+:keywords: nasjonal arkitektur, virksomhetsarkitektur
+:audience: alle
+:author: Erik Hagen
+include::../plattform_felles/includes/commonincludes.adoc[]
+
 
 _Merk: Anbefalinger og øvrig innhold i dette notatet står inntil videre for underegnedes regning, og representerer ikke nødvendigvis Difis syn._
 
-:toc: left
+image:../plattform_felles/media/i-arbeid.png[width=75, height=75] I arbeid
+
 
 == Overordnet sammendrag
 
