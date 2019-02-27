@@ -9,17 +9,24 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 image:../plattform_felles/media/i-arbeid.png[width=75, height=75]
 
+
 == Om referansearkitekturer
+:leveloffset: +1
 include::../nab_referanse_arkitekturer/om-referansearkitekturer.adoc[]
 
+:leveloffset: -1
+
 == Strategi for arbeidet med referansearkitekturer
+:leveloffset: +1
 include::../nab_referanse_arkitekturer/strategi-for-referansearkitekturer.adoc[]
 
+:leveloffset: -1
+
 == Metode
-:leveloffset: +2
+:leveloffset: +1
 include::metode.adoc[]
 
-:leveloffset: -2
+:leveloffset: -1
 == Brukstilfeller (samhandlingsmønstre)
 :leveloffset: +1
 include::../nab_referanse_arkitekturer_samhandlingsmønstre/main.adoc[]

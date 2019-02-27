@@ -20,12 +20,14 @@ include::metode_generelt.adoc[]
 
 :leveloffset: +1
 include::metode_Steg1.adoc[]
+
 :leveloffset: -1
 
 == Steg 2 - Identifisere samhandlingsmønstre
 
 :leveloffset: +1
 include::metode_Steg2.adoc[]
+
 :leveloffset: -1
 
 
@@ -33,6 +35,7 @@ include::metode_Steg2.adoc[]
 
 :leveloffset: +1
 include::metode_Steg3.adoc[]
+
 :leveloffset: -1
 
 
@@ -40,6 +43,7 @@ include::metode_Steg3.adoc[]
 
 :leveloffset: +1
 include::metode_Steg4.adoc[]
+
 :leveloffset: -1
 
 

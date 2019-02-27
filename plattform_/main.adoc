@@ -35,9 +35,3 @@ Rammeverk, standarder, veiledere, føringer, felles behov, felles løsninger, fe
 +
 Samling av interessant og relevant informasjon fra eksterne kilder, som redskap for felles forståelse og kunnskapsbygging på tvers. Dette kan være lenker og omtale av internasjonale standarder, utvalgte bøker, verktøy, arkitekturrammeverk fra andre land, med videre. Alle oppfordres til å bidra med innhold eller forslag til innhold.
 
-
-. link:../blogg_/[Blogger og meningsinnlegg]
-+
-Personlige innlegg - blogger og meningsinnlegg - for å informere eller påvirke  utviklingen av nasjonal arkitektur og nasjonalt arkitekturbibliotek. Alle oppfordres til å bidra med sine personlige meninger. 
-
-

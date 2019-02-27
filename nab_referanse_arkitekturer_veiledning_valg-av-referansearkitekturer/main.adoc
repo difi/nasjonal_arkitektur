@@ -20,12 +20,14 @@ include::Generelt.adoc[]
 
 :leveloffset: +1
 include::Steg1.adoc[]
-:leveloffset: -1
 
+:leveloffset: -1
 == Steg 2 - Identifisere samhandlingsmønstre
 
 :leveloffset: +1
+
 include::Steg2.adoc[]
+
 :leveloffset: -1
 
 
@@ -33,6 +35,7 @@ include::Steg2.adoc[]
 
 :leveloffset: +1
 include::Steg3.adoc[]
+
 :leveloffset: -1
 
 
@@ -40,6 +43,7 @@ include::Steg3.adoc[]
 
 :leveloffset: +1
 include::Steg4.adoc[]
+       
 :leveloffset: -1
 
 
