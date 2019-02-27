@@ -1,5 +1,5 @@
 :lang: no
-:doctitle: Metode
+:doctitle: Metode for valg av referansearkitektur
 :keywords: Norsk, arkitekturbibliotek, offenlig sektor, virksomhetsarkitektur, NIF, samhandlingsarkitektur, rammeverk, GitHub
 
 include::../plattform_felles/includes/commonincludes.adoc[]

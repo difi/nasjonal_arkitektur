@@ -73,5 +73,5 @@ Det er foreløpig ikke startet arbeid med referansearkitektur for hendelsesdreve
 ===== Oppdatere data
 Deling av data med formål om å oppdatere autoritativ datakilde fra en aktør som ikke er eier eller forvalter av dataene. Oppdatere data kan være å opprette, endre eller å slette data.
 
-===== Gi tilbakemelding på data
+=====Tilbakemelding på data
 Deling av data med formål om å gi tilbakemelding på f.eks. kvalitet. Tilbakemeldinger vil være metadata relatert til bruk, og ikke endringer i selve datasettet.
