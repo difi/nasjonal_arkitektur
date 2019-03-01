@@ -44,11 +44,17 @@ Detaljeringsnivået på beskrivelse av referansearkitekturene vil ikke være på
 
 == Status referansearkitektuerer for informasjonsutveksling
 
-Referansearkitekturen er delt inn i flere områder som vist i figuren under. I tillegg vil det være en del overgripende temaer bl.a. tilknyttet informasjonssikkerhet.
+Referansearkitekturen er delt inn i flere områder som vist i figurene under. I tillegg vil det være en del overgripende temaer bl.a. tilknyttet informasjonssikkerhet.
 
 Hvert av områdene vil støttes av en referansearkitektur og det er en overordnet metode for å identifisere hvilken referansearkitektur som passer til det respektive samhandlingsbehovet.
 
-image:./media/Oversikt referansearkitekturer.png[alt="Bilde mangler", width=750]
+De tre første områdene omhandler ulike mønstre for deling av data:
+
+image:./media/Referansearkitekturer deling av data.png[alt="Bilde mangler", width=750]
+
+De to neste handler om oppdatering og tilbakemelding på data. Dette er foreløpig et mer umodent område:
+
+image:./media/Referansearkitekturer oppdatering.png[alt="Bilde mangler", width=750]
 
 //sett in figur her
 
