@@ -77,7 +77,7 @@ Detaljeringsnivået på beskrivelse av referansearkitekturene vil ikke være på
 
 ifdef::Erik-kommentarer[] 
 ****
-[white]##Erik-kommentar: Overskriften om "status" er ikke gjenspeilet i teksten - her er det  ##
+[white]##Erik-kommentar: Overskriften om "status" er ikke gjenspeilet i teksten - her er det kun snakk om "omfang" (eller oversikt). ##
 ****
 endif::[]
 
