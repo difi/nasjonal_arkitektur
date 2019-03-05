@@ -4,8 +4,6 @@
 
 include::../plattform_felles/includes/commonincludes.adoc[]
 
-:Erik-kommentarer:
-
 [.lead]
 Det arbeides per 2019 med å ta fram prioriterte nasjonale referansearkitekturer
 ifndef::Erik-forslag[]
