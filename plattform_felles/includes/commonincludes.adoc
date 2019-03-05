@@ -7,3 +7,4 @@ include::commentinclusion.adoc[]
 
 :commonincludes_included:
 endif::commonincludes_included[]
+
