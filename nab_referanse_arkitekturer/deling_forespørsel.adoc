@@ -1,0 +1,260 @@
+:lang: no
+:doctitle: Deling av data på forespørsel (eOppslag)
+:keywords: Referansearkitekturer
+
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+
+
+image:./media/Deling på forespørsel.png[alt="Bilde mangler", width=750]
+
+[cols ="1,1,3", options="header"]
+.Elementer i figur for deling av data på forespørsel
+|===
+|Element
+|Elementtype
+|Beskrivelse
+
+|Tilbyder av data
+|Rolle
+|
+
+|Konsument (databruker)
+|Rolle
+|
+
+|Tilgjengeliggjøring av data på forespørsel
+|Kapabilitet
+|
+
+|Registerering av sikkert API
+|Sub-kapabilitet
+|
+
+|Avgi forespurte data
+|Sub-kapabilitet
+|
+
+|Innhenting av data
+|Kapabilitet
+|
+
+|Få tilgang til API
+|Sub-kapabilitet
+|
+
+|Delegering av rettigheter til databehandler
+|Sub-kapabilitet
+|
+
+|Slå opp data gjennom et API
+|Sub-kapabilitet
+|
+|===
+
+
+image:./media/registrere API.png[alt="Bilde mangler", width=750]
+
+[cols ="1,1,3", options="header"]
+.Elementer i figur for registrering av API
+|===
+|Element
+|Elementtype
+|Beskrivelse
+
+|Inngå avtale om tilgang til data
+|Prosess
+|
+
+|Bruksavatale
+|Kontrakt
+|
+
+|Opprette tilbyder hos levareandør av tokentjeneste
+|Prosess
+|
+
+|Registrere API
+|Prosess
+|
+
+|Tildele tilganger til API
+|Prosess
+|
+
+|Bruksvilkår
+|Forretningsobjekt
+|
+
+|Registreringstjeneste for tilbyder av API
+|Forretningstjeneste
+|
+
+|API-registreringstjeneste for tilbyder
+|Forretningstjeneste
+|
+
+|Token egenskaper
+|Forretningsobjekt
+|
+
+|Tilgangsregistreringstjeneste
+|Forretningstjeneste
+|
+
+|Orgnr. databruker
+|Forretningsobjekt
+|
+
+|===
+
+image:./media/avgi data.png[alt="Bilde mangler", width=400]
+
+[cols ="1,1,3", options="header"]
+.Elementer i figur for å avgi data
+|===
+|Element
+|Elementtype
+|Beskrivelse
+
+|Policytjeneste
+|
+|
+
+|Motta forespørsel om oppslag
+|
+|
+
+|Kontroller tilgang
+|
+|
+
+|Avgi data
+|
+|
+
+|Valideringstjeneste
+|
+|
+
+|===
+
+image:./media/få tilgang til API.png[alt="Bilde mangler", width=750]
+
+
+[cols ="1,1,3", options="header"]
+.Elementer i figur for å få tilgang til API
+|===
+|Element
+|Elementtype
+|Beskrivelse
+
+|Bruksavtale
+|
+|
+
+|Finne/få kjennskap til API
+|
+|
+
+|Inngå avtale om tilgang til data
+|
+|
+
+|Inngå bruksavtale med leverandør av tokentjenester
+|
+|
+
+|Delegere tilgang til leverandør
+|
+|Dette gjøres bare om driften håndteres av en ekstern leverandør og det foreligger en tjenesteavtale mellom konsument og tjenesteleverandør
+
+|Registrer klient med tildelt tilgang
+|
+|
+
+|Leverandør registrerer klient med tildelt tilgang
+|
+|
+
+|API-søk
+|
+|
+
+|Avtaletjeneste
+|
+|
+
+|Registreringstjeneste for API-bruker
+|
+|
+
+|===
+
+image:./media/delegering av rettigheter.png[alt="Bilde mangler", width=350]
+
+[cols ="1,1,3", options="header"]
+.Elementer i figur for delegering av rettigheter til databehandler
+|===
+|Element
+|Elementtype
+|Beskrivelse
+
+|Tjenesteavtale
+|Kontrakt
+|
+
+|Leverandør
+|Rolle
+|
+
+|Inngå avtale med leverandør
+|Prosess
+|
+
+|Registrere delegert tilgang
+|Prosess
+|
+
+|Registreringstjeneste for representasjons-forhold
+|Forretningstjeneste
+|
+
+|===
+
+image:./media/slå opp data.png[alt="Bilde mangler", width=350]
+
+[cols ="1,1,3", options="header"]
+.Elementer i figur for å slå opp data
+|===
+|Element
+|Elementtype
+|Beskrivelse
+
+|Hent teknisk endepunkt ved behov
+|
+|
+
+|Be om tilgangstoken
+|
+|
+
+|Utfør tjenestekall
+|
+|
+
+|Adressetjeneste
+|
+|
+
+|Tokentjeneste
+|
+|
+
+|Representasjonstjeneste
+|
+|
+
+|===
+
+

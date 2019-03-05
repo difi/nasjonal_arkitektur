@@ -42,9 +42,9 @@ Målgruppen for referansearkitekturene er offentlige tjenestetilbydere og deres 
 
 Detaljeringsnivået på beskrivelse av referansearkitekturene vil ikke være på nivå med en implementasjonsguide, men gi veiledning i løsningsdesign og sette rammer for denne. Referansearkitekturene vil forvaltes og utvikles over tid, og vil derfor ha ulikt detaljeringsnivå for de ulike områdene. De overordnede beskrivelsene tas sikte på å være mer stabile, mens de mer løsningsspesifikke anbefalingene kan endres seg i noe større grad.
 
-== Status referansearkitektuerer for informasjonsutveksling
+== Oversikt over referansearkitektuerer for informasjonsutveksling
 
-Referansearkitekturen er delt inn i flere områder som vist i figurene under. I tillegg vil det være en del overgripende temaer bl.a. tilknyttet informasjonssikkerhet.
+Referansearkitekturen er delt inn i fem områder som beskrevet under. I tillegg vil det være en del overgripende temaer bl.a. tilknyttet informasjonssikkerhet.
 
 Hvert av områdene vil støttes av en referansearkitektur og det er en overordnet metode for å identifisere hvilken referansearkitektur som passer til det respektive samhandlingsbehovet.
 
@@ -52,13 +52,11 @@ De tre første områdene omhandler ulike mønstre for deling av data:
 
 image:./media/Referansearkitekturer deling av data.png[alt="Bilde mangler", width=750]
 
-De to neste handler om oppdatering og tilbakemelding på data. Dette er foreløpig et mer umodent område:
 
-image:./media/Referansearkitekturer oppdatering.png[alt="Bilde mangler", width=750]
 
 //sett in figur her
 
-== Beskrivelse av hvert område
+
 
 === Deling av data ved forsendelse
 Dette er deling av informasjon og data initiert av avsender. Det vil normalt være behov og/eller forventning om oppfølging fra mottaker. Eksempler kan være å sende en faktura hvor det forventes at mottaker behandler denne eller en henvisning i helsesektoren hvor det forventes at mottaker tar ansvar for vider oppfølging av pasienten det gjelder. Ved deling av data ved forsendelse må avsender ha visshet om at mottaker kan motta og behandle meldingen/informasjonen som sendes.
@@ -75,10 +73,12 @@ Dette området jobbes det med gjennom prosjektet eOppslag.
 Deling av data initiert av en tilstandsendring i dataene som deles. Databruker leser eller abonnerer på hendelseslister og dette trigger eventuell videre oppfølging. Databruker må vurderer om endringen skal følges opp og lese data på forespørsel. Et eksempel er modernisert folkeregister hvor brukere kan abonnere på endringer og således kun få vite at det har skjedd en endring på en person og dersom dette kan være relevant for brukeren hentes detaljene om endringen som igjen kan sette i gang en handling hos bruker.
 Det er foreløpig ikke startet arbeid med referansearkitektur for hendelsesdrevet deling av data.
 
+De to neste handler om oppdatering og tilbakemelding på data. Dette er foreløpig et mer umodent område:
+
+image:./media/Referansearkitekturer oppdatering.png[alt="Bilde mangler", width=750]
 
 === Oppdatere data
-Deling av data med formål om å oppdatere autoritativ datakilde fra en aktør som ikke er eier eller forvalter av dataene. Oppdatere data kan være å opprette, endre eller å slette data.
+Deling av data med formål om å oppdatere en datakilde fra en aktør som ikke er eier eller forvalter av dataene. Oppdatere data kan være å opprette, endre eller å slette data. Oppdatering 
 
-=====Tilbakemelding på data
-=== Gi tilbakemelding på data
+=== Tilbakemelding på data
 Deling av data med formål om å gi tilbakemelding på f.eks. kvalitet. Tilbakemeldinger vil være metadata relatert til bruk, og ikke endringer i selve datasettet.

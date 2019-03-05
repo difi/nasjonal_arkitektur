@@ -33,6 +33,13 @@ include::../nab_referanse_arkitekturer_samhandlingsmønstre/main.adoc[]
 
 :leveloffset: -1
 
+== Deling av data på forespørsel 
+:leveloffset: +1
+include::deling_forespørsel.adoc[]
+
+
+
+
 ////
 == Informasjonssikkerhet (felles)
 Kommer.
