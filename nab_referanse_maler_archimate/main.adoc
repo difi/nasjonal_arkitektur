@@ -1,10 +1,12 @@
 :lang: no
-:doctitle: Konvensjoner for modlelering med Archimate 
+:doctitle: Konvensjoner for modellering med Archimate 
 :keywords: Archimate
 
 include::../plattform_felles/includes/commonincludes.adoc[]
 
-== Navnestandarder
+:leveloffset: +1
+= Navning
+include::archimate-navning.adoc[]
 
-
-== Viewpoints
+= Attributter
+include::archimate-attributter.adoc[]
