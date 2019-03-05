@@ -1,5 +1,5 @@
 :lang: no
-:doctitle: Archimate navnestandarder
+:doctitle: Archimate modelleringskonvensjoner - attributter
 :keywords: Archimate
 
 include::../plattform_felles/includes/commonincludes.adoc[]
