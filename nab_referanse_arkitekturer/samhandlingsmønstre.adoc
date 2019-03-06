@@ -9,18 +9,83 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 == Generelt om samhandlingsmønstre
 
-Digital samhandling mellom virksomheter kan utføres på et begrenset antall måter sett fra et forretningsståsted. Vi kaller dette samhandlingsmønstre. Samhandlingsmønstre sier ikke noe om hvilken teknologi som skal benyttes, men sier noe om hvilken egenskap samhandlingen skal ha. Det er til nå identifisert 7 forskjellige samhandlingsmønstre, men flere vil bli lagt til når det blir behov for det.
+Digital samhandling mellom virksomheter kan utføres på et begrenset antall måter sett fra et forretningsståsted. Vi kaller dette samhandlingsmønstre. Samhandlingsmønstre sier ikke noe om hvilken teknologi som skal benyttes, men sier noe om hvilken egenskap samhandlingen skal ha. Det er til nå identifisert seks forskjellige samhandlingsmønstre.
 
-image:./media/Mønstre samhandling.png[alt="alt="missing image", width=750]
+//Henrik: Har skrevet inn de seks mønstrene Håkon presenterte i forrige møte
 
-Hvert enkelt samhandlingsmønster beskrives i mer detalj under. I beskrivelsen finner man referanse til tilsvarende samhandlingsmønstre (patterns) som er definert av andre:
+****
+Garantert leveranse av informasjon til annen kjent part. Avsender skal være trygg på at mottager får informasjonen. Mottager behøver ikke informasjonen umiddelbart.
+****
 
-* UMM Transaction patterns (UN/CEFACT's Modeling Methodology - UMM)
-* Enterprise Integration Patterns (EAI) (Gregor Hohpe og Bobby Woolf)
+****
+Forespørsel om informasjon mellom to parter med «ikke umiddelbar» respons (prosess hos en part er avhengig av informasjon fra annen part for å fortsette) 
+****
 
-For hvert samhandlingsmønster pekes det på hvilken link:../nab_referanse_arkitekturer/main.adoc[referansearkitektur] som skal benyttes for samhandlingen.
+****
+Forespørsel om informasjon mellom to parter med «umiddelbar» respons (prosess hos en part er avhengig av informasjon fra annen part for å fortsette) 
+****
+
+****
+Notifikasjon til identifisert part (trigger prosess på tidspunkt mottaker velger)
+****
+
+****
+Notifikasjon til mange
+****
+
+****
+Garantert leveranse av informasjon til annen kjent part. Avsender skal være trygg på at mottager får informasjonen. Mottager behøver informasjonen umiddelbart.
+****
+
+//image:./media/Mønstre samhandling.png[alt="alt="missing image", width=750]
+
+Hvert enkelt samhandlingsmønster beskrives i mer detalj under og for hvert samhandlingsmønster pekes det på hvilken referansearkitektur som skal benyttes for samhandlingen.
 
 == Beskrivelser av samhandlingsmønstre
+
+//Henrik: Har laget en tabell av det Anne Lise beskrev i epost før sist møte
+
+[cols ="1,1,1,1,1,1", options="header"]
+.Oversikt samhandlingsbehov
+|===
+|
+|En kjent kilde
+|
+|Flere kilder
+|
+|Store datamengder
+
+
+|
+|Høy oppetid
+|Lav oppetid
+|Høy oppetid
+|Lav oppetid
+|
+
+|Sende informasjon
+|API-kall
+|Meldingsutveksling
+|API-kall
+|Meldingsutveksling
+|
+
+|Innhente informasjon
+|API-kall
+|Meldingsutveksling, Adressetjeneste
+|API-kall
+|Meldingsutveksling
+|Fildelingstjeneste
+
+|Publisere hendelse
+|API-kall
+|Hendelseliste
+|API-kall
+|Hendelsesliste
+|
+
+
+|===
 
 === Forretningstransaksjon mellom to parter
 

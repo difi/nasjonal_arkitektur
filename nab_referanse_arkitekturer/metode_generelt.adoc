@@ -11,7 +11,7 @@ Under https://www.difi.no/arkitektur finner man https://www.difi.no/fagomrader-o
 
 Metoden som beskrives her er et enkelt hjelpemiddel for å velge referansearkitektur. Den tar utgangspunkt i de fire interoperabilitetsnivåene i EIF for å oppnå ønsket samhandlingsevne på tvers av virksomheter:
 
-image:./media/Samhandlingsevne.png[alt="Samhandlingsevne", width=750]
+image:./media/Samhandlingsevne.png[alt="Bilde mangler", width=750]
  
 Metoden sier noe om hvordan man skal oppnå digital samhandlingsevne og vil underveis peke på de fire interoperabilitetsnivåene. Det understrekes at man må jobbe i parallell med alle nivåene, da det er synergier mellom dem.
 

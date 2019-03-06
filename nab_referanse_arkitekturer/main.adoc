@@ -28,20 +28,24 @@ include::../nab_referanse_arkitekturer/strategi-for-referansearkitekturer.adoc[]
 include::metode.adoc[]
 
 = Brukstilfeller (samhandlingsmønstre)
-include::../nab_referanse_arkitekturer_samhandlingsmønstre/main.adoc[]
+include::../nab_referanse_arkitekturer/samhandlingsmønstre.adoc[]
 
 
-== Deling av data på forespørsel 
+
+= Beskrivelse av referansearkitektur for deling av data på forespørsel 
 :leveloffset: +1
 include::deling_forespørsel.adoc[]
 
 
 
 
-////
-== Informasjonssikkerhet (felles)
+:leveloffset: -1
+= Informasjonssikkerhet (felles)
+include::informasjonssikkerhet.adoc[]
+
 Kommer.
 
+////
 == Spesifikke referansearkitekurer
 
 
