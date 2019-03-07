@@ -24,7 +24,7 @@ include::../nab_referanse_arkitekturer/om-referansearkitekturer.adoc[]
 include::../nab_referanse_arkitekturer/strategi-for-referansearkitekturer.adoc[]
 
 
-= Metode
+= Metode for valg av referansearkitektur
 include::metode.adoc[]
 
 = Brukstilfeller (samhandlingsmønstre)

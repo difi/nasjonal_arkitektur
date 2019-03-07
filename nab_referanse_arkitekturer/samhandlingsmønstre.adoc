@@ -72,14 +72,14 @@ Hvert enkelt samhandlingsmønster beskrives i mer detalj under og for hvert samh
 
 |Innhente informasjon
 |API-kall
-|Meldingsutveksling, Adressetjeneste
-|API-kall
 |Meldingsutveksling
+|API-kall
+|Meldingsutveksling, Adressetjeneste
 |Fildelingstjeneste
 
 |Publisere hendelse
-|API-kall
-|Hendelseliste
+|API-kall, Meldingsutveksling
+|Hendelseliste, Meldingsutveksling
 |API-kall
 |Hendelsesliste
 |
