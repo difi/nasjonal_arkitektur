@@ -8,7 +8,7 @@ image:./media/eOppslagRefArk.png[alt="missing image, eOppslag Referanse arkitekt
  
  
 == Funksjonell beskrivelse
-Mønsteret dekker oppslag i informasjon ("datadeling"), dvs  forespørsel om informasjon mellom to parter, hvor en prosess hos den ene part typisk er avhengig av informasjon fra den andre for å fortsette.
+Mønsteret dekker oppslag i informasjon ("datadeling"), dvs.  forespørsel om informasjon mellom to parter, hvor en prosess hos den ene part typisk er avhengig av informasjon fra den andre for å fortsette.
 
 Roller: 
 
