@@ -2,7 +2,7 @@
 
 // Eriks kommentarer i form av uthevet eller markert tekst, i tillegg til annen tekst 
 
-//:Erik-kommentarer:
+:Erik-kommentarer:
 
 // Eriks forslag til ny eller endret tekst
 :Erik-forslag:

@@ -5,7 +5,6 @@
 include::../plattform_felles/includes/commonincludes.adoc[]
 
 
-
 image:./media/Deling på forespørsel.png[alt="Bilde mangler", width=750]
 
 [cols ="1,1,3", options="header"]

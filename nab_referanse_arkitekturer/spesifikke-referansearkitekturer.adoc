@@ -1,0 +1,21 @@
+:lang: no
+:doctitle: Spesifikke referansearkitekturer
+:keywords: Referansearkitekturer
+
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+
+
+image:./media/Referansearkitekturer.png[alt="missing image (referansearkitekturer"]
+
+
+== eMelding
+
+Se https://difidrift.sharepoint.com/sites/Arkitekturbibliotek/Referansearkitekturer/Hjemmeside.aspx[eMelding] for mer informasjon om referansearkitektur for eMelding.
+
+== eOppslag
+Se link:../nab_referanse_arkitekturer_eoppslag/eOppslag-referansearkitektur.adoc[eOppslag] for mer informasjon om referansearkitektur for eOppslag.
+
+== eNotifikasjon
+
+Det er ikke påbegynt arbeid med referansearkitektur for eNotifikasjon enda.

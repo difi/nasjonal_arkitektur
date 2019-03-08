@@ -1,50 +1,19 @@
 :lang: no
-:doctitle: Metode
+:doctitle: Veiledning til valg av referansearkitekturer 
 :keywords: Norsk, arkitekturbibliotek, offenlig sektor, virksomhetsarkitektur, NIF, samhandlingsarkitektur, rammeverk, GitHub
 
 include::../plattform_felles/includes/commonincludes.adoc[]
 
 
-image:../plattform_felles/media/i-arbeid.png[width=75, height=75]
+== Valg av referansearkitekturer for informasjonsutveksling 
 
+:leveloffset: +2
+= Metode for valg av referansearkitekturer i tverrgående samhandlingsløsninger
 
+include::./metode-eif-forretningsdrevet.adoc[]
 
-== Generelt
-:leveloffset: +1
-include::Generelt.adoc[]
+:leveloffset: -2
 
-:leveloffset: -1
+== Annen veiledning
 
-
-== Steg 1 - Modeller fulldigitaliserte forretningsprosesser med fokus på samhandling
-
-:leveloffset: +1
-include::Steg1.adoc[]
-
-:leveloffset: -1
-== Steg 2 - Identifisere samhandlingsmønstre
-
-:leveloffset: +1
-
-include::Steg2.adoc[]
-
-:leveloffset: -1
-
-
-== Steg 3 - Identifisere referansearkitektur med fokus på samhandling
-
-:leveloffset: +1
-include::Steg3.adoc[]
-
-:leveloffset: -1
-
-
-== Steg 4 - Identifisere løsningsarkitektur
-
-:leveloffset: +1
-include::Steg4.adoc[]
-       
-:leveloffset: -1
-
-
-
+image:../plattform_felles/media/i-arbeid.png[width=75, height=75]I arbeid

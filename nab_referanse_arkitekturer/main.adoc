@@ -16,32 +16,37 @@ endif::[]
 //image:../plattform_felles/media/i-arbeid.png[width=75, height=75]
 
 :leveloffset: +1
-= Om referansearkitekturer
+= Generelt om referansearkitekturer
 
 include::../nab_referanse_arkitekturer/om-referansearkitekturer.adoc[]
 
 = Strategi for arbeidet med referansearkitekturer
 include::../nab_referanse_arkitekturer/strategi-for-referansearkitekturer.adoc[]
 
+= Funksjonsområder for referansearkitekturer (kapabilitetsområder)
+include::../nab_referanse_arkitekturer/kapabilitetsområder.adoc[]
 
-= Metode for valg av referansearkitektur for informasjonsutveksling
-include::metode.adoc[]
+
 
 = Brukstilfeller (samhandlingsmønstre)
-include::../nab_referanse_arkitekturer/samhandlingsmønstre.adoc[]
+include::../nab_referanse_arkitekturer_samhandlingsmønstre/main.adoc[]
+
+= Spesifikke referansearkitekturer
+include::../nab_referanse_arkitekturer/spesifikke-referansearkitekturer.adoc[]
 
 
+= Veiledning til valg av referansearkitekturer
+
+Se . link:../nab_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer[Veiledning til valg av referansearkitekturer]
+
+//include::../nab_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer/main.adoc[]
 
 = Beskrivelse av referansearkitektur for deling av data på forespørsel 
-:leveloffset: +1
 include::deling_forespørsel.adoc[]
 
 
-
-
-:leveloffset: -1
 = Informasjonssikkerhet (felles)
-include::informasjonssikkerhet.adoc[]
+include::../nab_referanse_arkitekturer_informasjonssikkerhet/main.adoc[]
 
 Kommer.
 
