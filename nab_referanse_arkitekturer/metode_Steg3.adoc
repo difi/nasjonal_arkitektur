@@ -18,4 +18,4 @@ Mapping til referansearkitektur for  konkurs og lønnsgaranti vil da se slik ut:
 
 image:./media/Samhandling bostyrer og NAV.png[alt="bad!", width=1100]
 
-Når referansearkitektur er identifisert for hver enkelt samhandling, så blir neste steg å identifisere løsningsarkitektur med tilhørende løsningskomponenter som beskrevet i steg 4.
+Når referansearkitektur er identifisert for hver enkelt samhandling, så blir neste steg å identifisere løsningsarkitektur med tilhørende løsningskomponenter som beskrevet i steg
