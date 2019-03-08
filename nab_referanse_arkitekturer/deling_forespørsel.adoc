@@ -8,8 +8,7 @@ Mønsteret dekker oppslag i informasjon, dvs.  forespørsel om informasjon mello
 
 Beskrivelsen her er avgrenset til det å tilby og konsumere data gjennom APIer som er tilgangsstyrt ved hjelp av fellestjenester som ligger utenfor de samhandlende virksomhetene. 
 
-<<<<<<< HEAD
-=======
+
 I innledningen til referansearkitekturer er det skissert fem ulike kapabilitetsområder og identifisert overordnede kapibiliteter som inngår i de ulike referansearkitekturene. I dette kapittelet detaljeres kapabilitetene tilknyttet eOppslag. Først en modell med mer detaljerte kapabiliteter som siden beskrives i detalj gjennom prosesstegene som skal til for å realisere kapabiliteten og de forretningstjenestene noe av kjerneinformasjonen som benyttes i prosessene.
 
 Modellene viser relasjonene mellom de ulike elementene og elementene er forklart i tabellene under hver modell. Elementer som benyttes flere ganger, f.eks. rollen som tilbyder forklares kun tilknyttet modellen på høyest nivå.
@@ -17,7 +16,6 @@ Modellene viser relasjonene mellom de ulike elementene og elementene er forklart
 === Oversikt deling av data på forespørsel
 Modellen under viser de kapabilitetene en tilbyder og en konsument må ha for å dele data gjennom tilgangsstyrte APIer. 
 
->>>>>>> d29bd25646109580f08f339a39439a66ee14d5e7
 image:./media/Deling på forespørsel.png[alt="Bilde mangler", width=750]
 
 [cols ="1,1,3", options="header"]
@@ -72,6 +70,10 @@ den part som i en egen virksomhetsprosess har behov for informasjon fra en annen
 |Evnen til å slå opp og hente data gjennom et eksternt API.
 
 |===
+
+=== Detaljerte beskrivelser
+
+===== Registrering av sikkert API
 
 Modellen under detaljerer kapabiliteten "Registerering av sikkert API". 
 image:./media/registrere API.png[alt="Bilde mangler", width=750]
@@ -129,7 +131,11 @@ image:./media/registrere API.png[alt="Bilde mangler", width=750]
 
 |===
 
+
+===== Avgi forespurte data
+
 image:./media/avgi data.png[alt="Bilde mangler", width=400]
+
 
 [cols ="1,1,3", options="header"]
 .Elementer i figur for å avgi data
@@ -159,6 +165,9 @@ image:./media/avgi data.png[alt="Bilde mangler", width=400]
 |
 
 |===
+
+
+===== Få tilgang til API
 
 image:./media/få tilgang til API.png[alt="Bilde mangler", width=750]
 
@@ -212,6 +221,9 @@ image:./media/få tilgang til API.png[alt="Bilde mangler", width=750]
 
 |===
 
+
+===== Delegering av rettigheter til databehandler
+
 image:./media/delegering av rettigheter.png[alt="Bilde mangler", width=350]
 
 [cols ="1,1,3", options="header"]
@@ -242,6 +254,9 @@ image:./media/delegering av rettigheter.png[alt="Bilde mangler", width=350]
 |
 
 |===
+
+===== Slå opp data gjennom et API
+
 
 image:./media/slå opp data.png[alt="Bilde mangler", width=350]
 
