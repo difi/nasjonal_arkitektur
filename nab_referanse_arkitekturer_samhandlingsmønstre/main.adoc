@@ -18,7 +18,7 @@ Garantert leveranse av informasjon til annen kjent part. Avsender skal være try
 ****
 
 ****
-Forespørsel om informasjon mellom to parter med «ikke umiddelbar» respons (prosess hos en part er avhengig av informasjon fra annen part for å fortsette) 
+Forespørsel om informasjon mellom to parter med «ikke umiddelbar» respons 
 ****
 
 ****
