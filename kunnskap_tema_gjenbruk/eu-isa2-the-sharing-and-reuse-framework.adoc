@@ -49,5 +49,4 @@ Følgende figur finnes på side 16 i https://joinup.ec.europa.eu/sites/default/f
 image:  :../kunnskap_tema_gjenbruk/media/srf-20-supporting-instruments.png[]
 
 
-
 image:../plattform_felles/media/i-arbeid.png[width=75, height=75] Uferdig innhold
