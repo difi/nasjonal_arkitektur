@@ -24,6 +24,7 @@ image:./media/Kapabilitet.png[alt="Bilde mangler", width=150]
 
 Referansearkitekturene for _informasjonsutveksling_ er gruppert i fem områder som er satt sammen av utvalgte kapabiliteter. Dette er gjort for å dele opp informasjonsutveksling i områder som er håndterbare. De fem områdene er:
 
+//Henrik: Skal vi skrive om til tre med bakgrunn i at vi endrer på dette med modellen under?
 * Deling av data ved forsendelse
 * Deling av data på forespørsel
 * Hendelsesdrevet deling av data

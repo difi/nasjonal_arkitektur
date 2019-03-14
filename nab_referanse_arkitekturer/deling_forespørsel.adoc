@@ -4,14 +4,14 @@
 
 include::../plattform_felles/includes/commonincludes.adoc[]
 === Om deling av data på forspørsel
-Mønsteret dekker oppslag i informasjon, dvs.  forespørsel om informasjon mellom to parter, hvor en prosess hos den ene part typisk er avhengig av informasjon fra den andre for å fortsette.
 
-Beskrivelsen her er avgrenset til det å tilby og konsumere data gjennom APIer som er tilgangsstyrt ved hjelp av fellestjenester som ligger utenfor de samhandlende virksomhetene. 
+Mønsteret dekker oppslag i informasjon, dvs. forespørsel om informasjon mellom to parter, hvor en prosess hos den ene part typisk er avhengig av informasjon fra den andre for å fortsette.
 
+Beskrivelsen her er avgrenset til det å tilby og konsumere data gjennom APIer. Dette skal dekke både sikrede APIer hvor tilgangsstyring løses ved bruk av blant annet fellestjeneste, og åpne APIer som tilbyr åpent tilgjengelige data. En stor del av beskrivelsene tar for seg oppsett og bruk av tjenester tilknyttet tilgangsstyring, men dette er ikke obligatorisk for APIer som tilbyr åpne data.
 
-I innledningen til referansearkitekturer er det skissert fem ulike kapabilitetsområder og identifisert overordnede kapibiliteter som inngår i de ulike referansearkitekturene. I dette kapittelet detaljeres kapabilitetene tilknyttet eOppslag. Først en modell med mer detaljerte kapabiliteter som siden beskrives i detalj gjennom prosesstegene som skal til for å realisere kapabiliteten og de forretningstjenestene noe av kjerneinformasjonen som benyttes i prosessene.
+I innledningen til referansearkitekturer er det skissert [red]**fem ulike kapabilitetsområder** og identifisert overordnede kapabiliteter som inngår i de ulike referansearkitekturene. I dette kapittelet detaljeres kapabilitetene tilknyttet eOppslag. Først er det en modell med mer detaljerte kapabiliteter som siden beskrives i detalj gjennom prosesstegene som skal til for å realisere kapabiliteten. Det vises også til forretningstjenestene og noe av kjerneinformasjonen som benyttes i prosessene.
 
-Modellene viser relasjonene mellom de ulike elementene og elementene er forklart i tabellene under hver modell. Elementer som benyttes flere ganger, f.eks. rollen som tilbyder forklares kun tilknyttet modellen på høyest nivå.
+Modellene viser relasjonene mellom de ulike elementene og elementene er forklart i tabellene under hver modell. Elementer som benyttes flere ganger, f.eks. rollen som tilbyder, forklares kun tilknyttet modellen på høyest nivå.
 
 === Oversikt deling av data på forespørsel
 Modellen under viser de kapabilitetene en tilbyder og en konsument må ha for å dele data gjennom tilgangsstyrte APIer. 
