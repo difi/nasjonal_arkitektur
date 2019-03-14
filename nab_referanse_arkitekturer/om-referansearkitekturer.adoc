@@ -30,7 +30,7 @@ Det finnes ulike typer referansearkitekturer:
 
 * Anvendelsesorienterte, som innen et spesifikt forretningsområde peker på prinsipper og retningslinjer til konkrete løsninger, f.eks. disse referansearkitekturer for informasjonsutveksling.
 
-Referansearkitekturer kan beskrives på ulike abstraksjonsnivåer. Omfangsrike og altomfattende arkitekturer kan være hinder for innovasjon. Hvis ensartet samhandling er viktig, bør kravene som stilles på den anne side være detaljerte nok til å sikre interoperabilitet. Det er viktig å finne en god balanse med tanke på dette.
+Referansearkitekturer kan beskrives på ulike abstraksjonsnivåer. Omfangsrike og altomfattende arkitekturer kan være hinder for innovasjon. Hvis ensartet samhandling er viktig, bør kravene som stilles på den annen side være detaljerte nok til å sikre interoperabilitet. Det er viktig å finne en god balanse med tanke på dette.
 
 Referansearkitektur må ta utgangspunkt i brukerbehov, være basert på erfaring og peke på alt fra gode eksempler til beste praksis og konkrete anbefalinger og standarder.
 
@@ -55,7 +55,8 @@ Sterkere harmonisering og samhandling: Harmoniserer samhandlingen generelt og p�
 == Hvem er referansearkitekturer for?
 
 Målgrupper for referansearkitekturene er offentlige tjenestetilbydere, mottakere og konsumenter av informasjon og data samt deres leverandører. Referansearkitekturene er relevant for, men ikke begrenset til, arkitekter, forretningsutviklere og prosjektledere som jobber med digitalisering av forretningsprosesser som involverer flere virksomheter.
-== omfang av referansearkitekturer for informasjonsutveksling
+
+//== omfang av referansearkitekturer for informasjonsutveksling
 
 == Hvordan beskrives referansearkitekturer?
 
