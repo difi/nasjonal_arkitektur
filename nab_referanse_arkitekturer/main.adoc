@@ -13,7 +13,7 @@ endif::[]
 , som et samarbeid mellom Difi og flere andre offentlige virksomheter. Denne dokumentasjonen er å betrakte som pågående arbeid.
 
 
-//image:../plattform_felles/media/i-arbeid.png[width=75, height=75]
+image:../plattform_felles/media/i-arbeid.png[width=75, height=75, link="http://www.vg.no"]
 
 :leveloffset: +1
 = Generelt om referansearkitekturer

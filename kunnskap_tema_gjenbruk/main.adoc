@@ -1,0 +1,20 @@
+:lang: no
+:doctitle: Gjenbruk av IT-løsninger
+
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+[.lead]
+Gjenbruk av IT-løsninger er viktig for å få til en effektiv utvikling av offentlig sektor. Her pekes det på aktuelle kilder til informasjon om dette temaet. 
+
+////
+////
+
+:leveloffset: +1
+= Generelt
+Fokus her er i første omgang på metadata, dvs. hvordan løsninger bør beskrives for å promotere gjenbruk, og da helst på en enhetlig måte som egner seg for samlet oversikt og sammenlikning.
+//image:../plattform_felles/media/i-arbeid.png[width=75, height=75] I arbeid
+
+= The Sharing and Reuse Framework for IT Solutions (SRF) fra EU/ISA²
+include::eu-isa2-the-sharing-and-reuse-framework.adoc[]
+
+
