@@ -57,7 +57,7 @@ den part som i en egen virksomhetsprosess har behov for informasjon fra en annen
 
 |Få tilgang til API
 |Sub-kapabilitet
-|Evnen til å få tilgang til tilbydte data fra annen aktør gjennom å benytte fellestjenester for tilgangsstyring
+|Evnen til å få tilgang til tilbydte data fra annen aktør. 
 
 
 |Delegering av rettigheter til databehandler
@@ -89,7 +89,7 @@ image:./media/registrere API.png[alt="Bilde mangler", width=750]
 |Prosess
 |
 
-|Bruksavatale
+|Bruksavtale
 |Kontrakt
 |
 
@@ -145,24 +145,24 @@ image:./media/avgi data.png[alt="Bilde mangler", width=400]
 |Beskrivelse
 
 |Policytjeneste
-|
-|
+|Forretningstjeneste
+|Intern tjeneste hos tilbyder for å håndheve tilgangsnivåpolicy ved tilgangsstyring.
 
 |Motta forespørsel om oppslag
-|
+|Forretningsprosess
 |
 
 |Kontroller tilgang
-|
-|
+|Forretningsprosess
+|Prosessen med å kontrollere om konsumenten har rettigheter til å få de forespurte data.
 
 |Avgi data
-|
-|
+|Forretningsprosess
+|Prosessen med å gi svar på forespørselen.
 
-|Valideringstjeneste
-|
-|
+|Verifiseringstjeneste
+|Forretningstjeneste
+|Tjeneste for å verifisere autentiserings- og autorisasjonsdata i mottatt forespørsel.
 
 |===
 
