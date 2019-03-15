@@ -1,0 +1,21 @@
+:lang: no
+:doctitle: Asciidoctor
+
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+[.lead]
+Asciidoctor is a fast, open source text processor and publishing toolchain for converting AsciiDoc content to HTML5, DocBook, PDF, and other formats. 
+
+
+////
+////
+
+== Om Asciidoctor
+Se https://asciidoctor.org/.
+
+
+== Asciidoctor extensions
+https://asciidoctor.org/docs/extensions/
+
+
+image:../plattform_felles/media/i-arbeid.png[width=75, height=75] I arbeid

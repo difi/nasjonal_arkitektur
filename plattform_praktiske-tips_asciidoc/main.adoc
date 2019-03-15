@@ -31,6 +31,15 @@ Her er noen kilder til generell informasjon om Asciidoc:
 * https://asciidoctor.org/docs/asciidoc-writers-guide/[Asciidoc Writers Guide]
 * https://asciidoctor.org/docs/user-manual/[Asciidoctor User Manual]
 
+== Om teknologiene for html-publisering av Asciidoc-dokumenter
+Asciidoctor er det programmet som (per 2018) brukes for å generere html5 for publisering av innholdet på nett. Dette inngår i en "verktøykjede" for publisering som plukker opp endrede kildefiler når disse oppdateres i github.
+
+Se også tips om  
+
+. link:../kunnskap_verktøy_asciidoctor/main.adoc[Mer om Asciidoctor].
+. link:../plattform_praktiske-tips_github/main.adoc[Praktiske tips om bruk av Github].
+
+
 === Om Felles-mappen
 Alle asciidoc-filer inkluderer maler og annet som ligger i en egen felles-mappe. Her finnes også en mappe med felles bilder og multimediafiler. 
 
@@ -43,14 +52,6 @@ Standardmalene inkluderes gjennom følgende include-setning:
     include::../plattform_felles/includes/commonincludes.adoc[]
 
 Her finnes blant annet standardheader.adoc, som tar asciidoc-attrbutter som input og sørger for at det finnes et minimum av metadata, samt at det blir et ensartet utseende av overskrifter, innholdsfortegnelse m.m. 
-== Om teknologiene for html-publisering av Asciidoc-dokumenter
-Asciidoctor er det programmet som (per januar 2019) brukes for å generere html5 for publisering av innholdet på nett. Dette inngår i en "verktøykjede" for publisering som plukker opp endrede kildefiler når disse oppdateres i github.
-
-Se også 
-
-. link:../kunnskap_verktøy_asciidoctor/main.adoc[Mer om Asciidoctor].
-. link:../plattform_praktiske-tips_github/main.adoc[Praktiske tips om bruk av Github].
-
 
 === Om bibliotekets mappe- og filstruktur
 Arkitekturbiblioteket er bygget opp med en struktur som tilsvarer det som er angitt i link:http://pubs.opengroup.org/architecture/togaf9-doc/arch/[TOGAF 9.2] og link:https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/nasjonal-arkitektur/arkitekturrammeverk-samhandling[Norsk arkitekturrammeverk for samhandling]:
@@ -86,6 +87,17 @@ Se også link:../kunnskap_verktøy_asciidoc-fx/main.adoc[mer om AsciidocFX].
 
 
 NOTE: Du står helt fritt til å bruke andre verktøy om du vil. 
+
+== Tips om publisering på web
+Difi benytter per 2018 en løsning som plukker opp endringer i Github repository under https://github.com/difi/nasjonal_arkitektur og publiserer dette på https://doc.difi.no/nasjonal-arkitektur/.
+
+WARNING: For at innhold i mapper som ikke er direkte lenket til eller inkludert som asciidoc-filer skal komme med, må det plasseres en tom fil ved navn *.adocassets* i mappen. Denne filen bør ligge i alle media-mapper.
+
+WARNING: Publiseringsløsningen krever at det ligger en fil ved navn *main.adoc* i alle mapper som skal kunne adresseres fra nettleser (tilsvarer index.html).
+
+
+NOTE: Du kan følge med på publiseringsprosessen på
+https://travis-ci.org/difi/nasjonal_arkitektur, der det også gi feilmeldinger og advarsler i tilknytning til aktuelle filer. Benytt dette aktivt for å sjekke dine publiserte filer for feil!  
 
 
 == Konvensjoner for bruk av Asciidoc
