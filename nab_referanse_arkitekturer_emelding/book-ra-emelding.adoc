@@ -1,0 +1,11 @@
+:lang: no
+:doctitle: Referansearkitektur eMelding 
+:keywords: eMelding
+
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+[.lead]
+eMelding er 
+
+= Introduksjon
+include::../nab_referanse_arkitekturer_emelding/ra-emelding-intro.adoc[]

@@ -19,7 +19,13 @@ endif::[]
 ////
 
 
-[red]**En referansearkitektur er en løsningsmal for hvordan virksomheter utvikler løsninger innenfor et avgrenset område. Beskrivelsene vil normalt ikke være på nivå med en implementasjonsguide, men gi veiledning i løsningsdesign og sette rammer for dette.**
+*En referansearkitektur er en løsningsmal for hvordan virksomheter utvikler arkitekturer og løsninger innenfor et avgrenset område.*
+
+//[red]**Beskrivelsene vil normalt ikke være på nivå med en implementasjonsguide, men gi veiledning i løsningsdesign og sette rammer for dette.**
+
+//US DoD: Reference Architecture is an authoritative source of information about a specific subject area that guides and constrains the instantiations of multiple architectures and solutions
+
+// US DoD: There may be multiple Reference Architectures within a subject area where each represents a different emphasis or viewpoint of that area. For each Reference Architecture, there may be any number of architectures and solutions corresponding to different aspects of the subject area viewpoint. 
 
 
 Det finnes ulike typer referansearkitekturer: 
@@ -34,6 +40,16 @@ Referansearkitekturer kan beskrives på ulike abstraksjonsnivåer. Omfangsrike o
 
 Referansearkitektur må ta utgangspunkt i brukerbehov, være basert på erfaring og peke på alt fra gode eksempler til beste praksis og konkrete anbefalinger og standarder.
 
+
+ Kladd, Erik:
+
+ TOGAF Enterprise Continuum:
+
+image:../kunnskap_standard-togaf/media/togaf-architecture-continuum.png[]
+
+ The Architecture Continuum, as shown in Figure 37-2, can be viewed as a Reference Library classification scheme. As such it illustrates how reference architectures can be organized across a range — from Foundation Architectures, and Industry-Specific Architectures, to an Organization-Specific Architecture.
+
+ Typically, a generic reference architecture provides the architecture team with an outline of their organizationspecific reference architecture that will be customized for a specific organization. For example, a generic reference architecture may identify that there is a need for data models. An example of a reference architecture is the IT4IT Reference Architecture which also defines a common information model for IT management. Another example is the TM Forum eTOM and SID as an organization-specific reference architecture.
 
 == Hvorfor bruke referansearkitekturer?
 

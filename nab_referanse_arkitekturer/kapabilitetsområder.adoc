@@ -61,7 +61,7 @@ Deling av data initiert av databruker. Dette kan være å spørre om data gjenno
 
 Data gjennom en tjeneste/API kan gi mer avanserte tilganger for spørring i datasett med ulike metoder og tilgangsnivåer. Dette vil være måten å dele data nært opp til sanntid for bruk i saksbehandlingsprosesser og liknende når tilgangskal gis etter hvilke rettigheter den enkelte bruker har til dataene. Et eksempel på dette er oppslag i folkeregisteret hvor ulike brukere kan ha ulike tilganger etter hva de har av hjemler og behov. 
 
-Dette området jobbes det med gjennom prosjektet eOppslag.
+Dette området jobbes det med gjennom #prosjektet# eOppslag.
 
 
 === Hendelsesdrevet deling av data
@@ -73,7 +73,7 @@ Det er foreløpig ikke startet arbeid med referansearkitektur for hendelsesdreve
 
 
 === Oppdatere data
-Med oppdatere data menes det å oppdatere en datakilde på tvers av virksomhete eller fra en aktør som ikke er eier eller forvalter av dataene. 
+Med oppdatere data menes det å oppdatere en datakilde på tvers av virksomheter eller fra en aktør som ikke er eier eller forvalter av dataene. 
 
 Oppdatere data kan være å opprette, endre eller å slette data. 
 
