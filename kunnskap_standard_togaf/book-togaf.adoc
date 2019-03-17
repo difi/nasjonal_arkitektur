@@ -1,0 +1,26 @@
+:lang: no
+:doctitle: TOGAF
+:keywords: TOGAF
+
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+[.lead]
+TOGAF®-rammeverket er en åpen standard for virksomhetsarkitektur fra The Open Group. 
+
+
+////
+////
+//image:../plattform_felles/media/i-arbeid.png[width=75, height=75]
+
+
+:leveloffset: +1
+
+= Innledning
+TOGAF 9.2 finnes åpent tilgjengelig i online-versjon på http://pubs.opengroup.org/architecture/togaf9-doc/arch/.
+
+Her omtales utvalgte deler av TOGAF-rammeverket.
+
+
+= Arkitekturkontinuum (en: Enterprise Continuum)
+
+include::arkitektur-kontinuum.adoc[]

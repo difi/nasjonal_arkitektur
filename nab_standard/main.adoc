@@ -1,5 +1,1 @@
-:lang: no
-:doctitle: Standarder
-:keywords: Standarder 
-
-include::../plattform_felles/includes/commonincludes.adoc[]
+include::./book-standarder.adoc[]
