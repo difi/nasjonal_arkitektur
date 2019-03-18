@@ -31,13 +31,15 @@ Forklaring til denne figuren:
 
 Inndeling i _kapabilitetsområder_ tilsvarer det som TOGAF 9.2 kaller _"subject areas"_ eller _segmenter_, og er generelt sett en gruppering av kapabiliteter som en ønsker å adressere samlet.
 
+NOTE: Difi arbeider i 2019 med å ta fram en helhetlig oversikt over kapabilitetsområder i nasjonal arkitektur. Se link:../adoc[egen omtale av kapabilitetsmodellering].
+
 Hvert _kapabilitetsområde_ kan adresseres av en eller flere _referansearkitekturer_. Formålet med å ha flere referansearkitekturer for samme område, kan være å gi ulike visninger for ulike målgrupper eller å bryte opp et komplekst bilde i enklere deler.  
 
 Hver enkelt referansearkitektur kan inneholde både _arkitekturbyggeklosser_ og __løsningsbygeklosser__, ut fra hva som er aktuelt. Helt generiske referansearkitekturer inneholder typisk bare generiske arkitekturbyggeklosser, mens mer løsningsorienterte referansearkitekturer gjerne også angir spesifikke løsningsbygeklosser. Det siste er f.eks. aktuelt for å angi anbefalt eller obligatorisk bruk av nasjonale fellesløsninger.
 
 Begrepet __SAT (Solution Architecture Template)__, her oversatt til __Mal for løsningsarkitektur__, kommer fra arbeidet med en grunnleggende referansearkitektur i EU ved navn __EIRA (European Interoperability reference Architecture)__. En helt spesifikk definisjon av hva som ligger i begrepet SAT, samt veiledning til beskrivelse av slike maler, finnes i dokumenet link:https://joinup.ec.europa.eu/sites/default/files/document/2017-10/sat_design_guidelines_0_0.pdf[Solution Architecture Template (SAT) Design Guidelines].
 
-NOTE: Bruk av EIRA og SAT-maler er inntil videre ikke et krav for referansearkitekturer i Nasjonal arkitektur. Se forøvrig link:../kunnskap_referansearkitektur_eu-eira/book-eira.adoc[egen omtale av EIRA]. 
+NOTE: Bruk av EIRA og SAT-maler er inntil videre ikke et krav for referansearkitekturer i Nasjonal arkitektur. Se forøvrig link:../kunnskap_referansearkitektur_eu-eira/[egen omtale av EIRA]. 
 
 Referansearkitekturer kan beskrives på ulike abstraksjonsnivåer. Omfangsrike og altomfattende arkitekturer kan være hinder for innovasjon. Hvis ensartet samhandling er viktig, bør kravene som stilles på den annen side være detaljerte nok til å sikre interoperabilitet. Det er viktig å finne en god balanse med tanke på dette.
 
@@ -46,7 +48,7 @@ Ulike referansearkitekturer kan også klassifiseres slik TOGAF-rammeverket beskr
 .Klassifisering i grunnleggende, felles (nasjonale), industri- (sektorspesifikke) og organisasjonsspesifikke arkitekturer
 image:../kunnskap_standard_togaf/media/togaf-architecture-continuum.png[width=600]
 
-NOTE: Se også link:../kunnskap_standard_togaf/arkitektur-kontinuum.adoc[egen omtale av TOGAF arkitektur-kontinuum].
+NOTE: Se også link:../kunnskap_standard_togaf/[egen omtale av TOGAF og arkitektur-kontinuum].
 
 
 
