@@ -31,7 +31,7 @@ Forklaring til denne figuren:
 
 Inndeling i _kapabilitetsområder_ tilsvarer det som TOGAF 9.2 kaller _"subject areas"_ eller _segmenter_, og er generelt sett en gruppering av kapabiliteter som en ønsker å adressere samlet.
 
-NOTE: Difi arbeider i 2019 med å ta fram en helhetlig oversikt over kapabilitetsområder i nasjonal arkitektur. Se link:../adoc[egen omtale av kapabilitetsmodellering].
+NOTE: Difi arbeider i 2019 med å ta fram en helhetlig oversikt over kapabilitetsområder i nasjonal arkitektur. Se link:../kunnskap_tema_kapabilitetsmodellering/[egen omtale av kapabilitetsmodellering].
 
 Hvert _kapabilitetsområde_ kan adresseres av en eller flere _referansearkitekturer_. Formålet med å ha flere referansearkitekturer for samme område, kan være å gi ulike visninger for ulike målgrupper eller å bryte opp et komplekst bilde i enklere deler.  
 
