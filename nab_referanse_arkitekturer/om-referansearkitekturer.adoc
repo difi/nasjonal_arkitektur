@@ -19,7 +19,20 @@ endif::[]
 ////
 
 
-*En referansearkitektur er en løsningsmal for hvordan virksomheter utvikler arkitekturer og løsninger innenfor et avgrenset område.*
+*Referansearkitekturer gir maler og veiledning til  utforming av arkitekturer og løsninger innen  avgrensede områder.*
+
+Følgende figur illustrerer begrepsapparatet rundt referansearkitekturer, slik dette  benyttes i tilknytning til arbeidet ned nasjonal arkitektur. Forklaring til denne figuren:
+
+Referanse
+
+
+
+image:../nab_referanse_arkitekturer/media/referansearkitektur-definisjon-i-archimate.png[]
+
+
+
+//*Referansearkitekturer fungerer som maler for hvordan virksomheter utvikler løsningsarkitekturer innenfor et avgrenset område.*
+
 
 //[red]**Beskrivelsene vil normalt ikke være på nivå med en implementasjonsguide, men gi veiledning i løsningsdesign og sette rammer for dette.**
 
