@@ -1,0 +1,146 @@
+:lang: no
+:doctitle: Gjenbruk med EU/ISA² IMAPS
+
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+image::../kunnskap_aktør_eu_imaps/media/imaps-icon.png[width=200]
+
+[.lead]
+The IMAPS (Interoperability Maturity Assessment of a Public Service) is a self-assessment tool that will evaluate and ultimately improve European public service interoperability maturity.
+
+
+////
+////
+
+== Generelt om IMAPS
+
+Hjemmeside for EU/ISA² IMAPS action: https://ec.europa.eu/isa2/solutions/imaps_en.
+
+The IMAPS is designed to help public service owners (i.e. those in charge of key services such as online tax filing, online business registration, online change of address, etc. – no matter at what government level: national, regional, local, international) evaluate, improve and consider all key interoperability aspects of their public service.
+
+== Informasjonselementer i IMAPS  
+
+link:https://joinup.ec.europa.eu/sites/default/files/distribution/access_url/2018-02/402ca761-e487-48e3-8aee-23335200ca42/IMAPS%20v1.1.1%20Questionnaire.pdf[IMAPS Questionnaire (PDF) fra frbruar 2018] inneholder spørsmål innen fir kategorier:
+
+=== Service Context
+. *Contact details*
+
+
+. *Digital public service description*
++
+* Describe the process and underlying activitiesto define the digital public service. #The digital public service always has three phases (1. initiation, 2. processing and 3. delivery of an outcome)#. *Focus on the public decision* that is the outcome of the service. If there is no public decisionand/or outcome, *focus on the benefits* the service provides to the target audience.
++
+* Define the *appearance* of the digital public service. How does the digital public service deliver the outcome towards the end user group? E.g. through a *web portal* or an **app**? The digital public service offers benefits and an outcome towards specified end user groups(e.g. citizens, civil servants, intermediaries).Please note there are situations in which the digitalpublic service does not deliver the outcome directly towards a person but towards other IT systems(**machine-to-machine**).
+
+
+. *Service owner*
+
+. *End user group(s) to which the service is delivered*
+
+. *Administrative level*
++
+Multiple choice, several choices: 
+
+a. Local(e.g. city, municipality)
+b. Regional
+c. National
+d. European
+e. International
+
+
+=== Service Delivery
+
+. *Delivery channels*
++ 
+Multippel choice (one choice):
+
+ a. One digital channel.
+ b. One digital and one traditional channel.
+ c. Multiple digital and traditional channels.
+ d. Multiple digital (including interactive digital collaboration) and traditional channels.
+
+. Pre-filling
+
+. Procedural transparency
+
+. Data privacy
+
+. User feedback
+
+. Accessibility
+
+. Cross border service delivery
+
+. Multilingualism
+
+. Data exchange
++
+To what extent are existing semantic standards and specifications used for data exchange?
+
+. Service Catalogue
++
+Is the digital public serviceincluded in a service catalogue?
+
+. Certification
++
+Has the digital public service defined a certification procedure?
+
+
+=== Service Consumption
+
+. Landscaping Service Consumption
++
+Please select the services which your digital public service has to consume in order to work:
++
+Authentication Service; eSignature Service;  ePayment Service; Messaging Service; Audio-visual Service; Data Transformation Service; Data Validation Service; Machine Translation Service; Data Exchange Service; Business Analytics Service; Business Reporting Service; Forms Management Service;etc... #dvs. alle  EIRA application og infrastructure layer services#)
++
+Secondly: Please name any relevant specific services that are required by your digital public service in order to function.Again: Please include both services that are consumed #from within the administration (internally) and from a third party (externally)#. Please include #both manually and digitally consumed services#.
+
+. Manual or digital consumption of services
++
+How does the digital public service currently consume the services (manually versus digitally)?
+
+. Reusing or producing services
++
+Does the digital public service reuse or self-produce consumed services?
+
+. Subscriptions to update
++
+Does the digital public service subscribe to automatic updates of services(e.g. life events)
+
+
+=== Service Management
+
+. Reuse and sharing
++
+Please provide insight if and how the digital public services shares components and knowledge with the external environment (multiple answers possible)?
+
+. Procurement criteria
++
+Have the digital public service’s components been procured based on standards accessible to all ICT suppliers?
+
+. Service choreography
++
+To what extent is the choreography of the services which are consumed and / or provided automated?
+
+. Business process model
++
+To what extent have the Business Processes of the digital public service been modelled?
+
+. Architectural Framework
++
+Has the digital public service considered an architecture framework in its design (EU, national level, international (open) standard)?
+
+. Specification process
++
+Has the digital public service established an (open) specification process in which administrations, citizens and businesses can participate?
+
+. Concept definitions
++
+To what extent are common/standardised concept definitions and controlled vocabularies (e.g. code lists, thesauri) used?�
+
+. Service Level Agreements (SLAs)
++
+Is the digital public service subject to Service Level Agreements?
+
+

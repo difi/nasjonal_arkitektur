@@ -81,4 +81,4 @@ image:./media/nasjonalt-arkitekturbibliotek.png[width=900]
 Tilsvarende bilde fra TOGAF 9.2:
 image:./media/togaf92-architecture-repository.png[width=900]
 
-    
+        

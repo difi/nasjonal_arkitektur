@@ -1,0 +1,29 @@
+:lang: no
+:doctitle: EU
+:toclevels: 3
+
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+
+[.lead]
+EU ...
+////
+////
+
+
+== Generelt
+EU...
+
+:leveloffset: +1
+
+= EIRA
+include::..//main.adoc[]
+
+= IMAPS
+include::kunnskap_aktør_eu_imaps/main.adoc[]
+
+= Sharing and Reuse Framework (SRF)
+include::../kunnskap_aktør_eu_sharing-and-reuse-framework/main.adoc[]
+
+= TES Cartography (TESCart)
+include::..//kunnskap_aktør_eu_tes-cartography/main.adoc[]

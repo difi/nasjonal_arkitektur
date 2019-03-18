@@ -5,27 +5,20 @@
 include::../plattform_felles/includes/commonincludes.adoc[]
 
 [.lead]
-Det arbeides per 2019 med å ta fram prioriterte nasjonale referansearkitekturer
-ifndef::Erik-forslag[]
-// ta bort følgende to ord - vi bør ikke begrense oss til dette:
-for informasjonsutveksling
-endif::[]
-, som et samarbeid mellom Difi og flere andre offentlige virksomheter. Denne dokumentasjonen er å betrakte som pågående arbeid.
+Det arbeides per 2019 med å ta fram prioriterte nasjonale referansearkitekturer, som et samarbeid mellom Difi og flere andre offentlige virksomheter. Denne dokumentasjonen er å betrakte som pågående arbeid.
 
 
 image:../plattform_felles/media/i-arbeid.png[width=75, height=75, link="http://www.vg.no"]
 
 :leveloffset: +1
 = Generelt om referansearkitekturer
-
 include::../nab_referanse_arkitekturer/om-referansearkitekturer.adoc[]
 
 = Strategi for arbeidet med referansearkitekturer
 include::../nab_referanse_arkitekturer/strategi-for-referansearkitekturer.adoc[]
 
-= Funksjonsområder for referansearkitekturer (kapabilitetsområder)
+= Funksjonsområder for referansearkitekturer (kapabiliteter)
 include::../nab_referanse_arkitekturer/kapabilitetsområder.adoc[]
-
 
 
 = Brukstilfeller (samhandlingsmønstre)
@@ -50,10 +43,6 @@ include::../nab_referanse_arkitekturer_informasjonssikkerhet/main.adoc[]
 
 Kommer.
 
-= Beste praksis eOppslag
-
-Kommer
-
 ////
 == Spesifikke referansearkitekurer
 
@@ -70,4 +59,3 @@ Kommer.
 include::../nab_referanse_arkitekturer_eoppslag/eOppslag-Referansearkitektur.adoc[]
 
 ////
-include::./book-nasjonale-referansearkitekturer.adoc[]

@@ -1,0 +1,10 @@
+:lang: no
+:doctitle: Introduksjon til eMelding referansearkitektur
+:keywords: eMelding
+
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+
+== Hva er eMelding
+
+== Formål
