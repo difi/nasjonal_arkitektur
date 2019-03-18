@@ -50,6 +50,10 @@ include::../nab_referanse_arkitekturer_informasjonssikkerhet/main.adoc[]
 
 Kommer.
 
+= Beste praksis eOppslag
+
+Kommer
+
 ////
 == Spesifikke referansearkitekurer
 

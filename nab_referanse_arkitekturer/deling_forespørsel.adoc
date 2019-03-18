@@ -7,14 +7,24 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 Mønsteret dekker oppslag i informasjon, dvs. forespørsel om informasjon mellom to parter, hvor en prosess hos den ene part typisk er avhengig av informasjon fra den andre for å fortsette.
 
-Beskrivelsen her er avgrenset til det å tilby og konsumere data gjennom APIer. Dette skal dekke både sikrede APIer hvor tilgangsstyring løses ved bruk av blant annet fellestjeneste, og åpne APIer som tilbyr åpent tilgjengelige data. En stor del av beskrivelsene tar for seg oppsett og bruk av tjenester tilknyttet tilgangsstyring, men dette er ikke obligatorisk for APIer som tilbyr åpne data.
+Beskrivelsen her er avgrenset til det å tilby og konsumere data gjennom synkrone kall mot APIer. Dette skal dekke både sikrede APIer hvor tilgangsstyring løses ved bruk av blant annet fellestjenester, og åpne APIer som tilbyr åpent tilgjengelige data. En stor del av beskrivelsene tar for seg oppsett og bruk av tjenester tilknyttet tilgangsstyring, men dette er ikke obligatorisk for APIer som tilbyr åpne data.
 
 I innledningen til referansearkitekturer er det skissert [red]**fem ulike kapabilitetsområder** og identifisert overordnede kapabiliteter som inngår i de ulike referansearkitekturene. I dette kapittelet detaljeres kapabilitetene tilknyttet eOppslag. Først er det en modell med mer detaljerte kapabiliteter som siden beskrives i detalj gjennom prosesstegene som skal til for å realisere kapabiliteten. Det vises også til forretningstjenestene og noe av kjerneinformasjonen som benyttes i prosessene.
 
 Modellene viser relasjonene mellom de ulike elementene og elementene er forklart i tabellene under hver modell. Elementer som benyttes flere ganger, f.eks. rollen som tilbyder, forklares kun tilknyttet modellen på høyest nivå.
 
+[red]**Sett inn forklarende figur**
+
+
+
+
+
 === Oversikt deling av data på forespørsel
-Modellen under viser de kapabilitetene en tilbyder og en konsument må ha for å dele data gjennom tilgangsstyrte APIer. 
+Modellen under viser de kapabilitetene en tilbyder og en konsument må ha for å dele data gjennom tilgangsstyrte APIer.
+
+Tilbyder må kunne tilggjengeliggjøre data og dette er delt i to kapabiliteter hvor den ene, registrering av API går ut på hvordan man registerer og setter opp tilganger. Den andre kapabilitetenm avhi forespurte data er det man gjøre når en konsument gjøre et kall mot det respektive APIet.
+
+Tilsvarende er kapabilitetene tilknyttet konsument delt i to tre kapabiliteter hvor to går inn på oppsett før bruk og den tredje, slå opp data gjennom et API er det man må gjøre hver gang det gjøres et oppslag.
 
 image:./media/Deling på forespørsel.png[alt="Bilde mangler", width=750]
 
@@ -27,16 +37,11 @@ image:./media/Deling på forespørsel.png[alt="Bilde mangler", width=750]
 
 |Tilbyder av data
 |Rolle
-|Den som tilbyr eller tilgjengeliggjør data for andre. Kan ofte være samme aktør som dataforvalter
-
-den part som besitter informasjon som kan deles
-
+|Den part som besitter informasjon som kan deles.
 
 |Konsument (databruker)
 |Rolle
-|Den som bruker data. Konsument kan også benyttes om en som benytter et API uavhengig av formål.
-
-den part som i en egen virksomhetsprosess har behov for informasjon fra en annen part
+|Den part som i en egen virksomhetsprosess har behov for informasjon fra en annen part.
 
 
 |Tilgjengeliggjøring av data
@@ -72,6 +77,16 @@ den part som i en egen virksomhetsprosess har behov for informasjon fra en annen
 |===
 
 === Detaljerte beskrivelser
+I dette kapittelet detaljeres kapabilitetene som inngår i deling av data på forespørsel. Modellen består av tre nivåer. I midten er det spesifisert noen prosessteg som realiserer kapabiliteten. Det vil si at kan du gjennomføre prosesstegene innehar du evnen kapabiliten beskriver.
+
+Nederst i figuren er det beskrevet de fellestjenestene og elementene som støtter prosessene.
+
+Øverst i figurene er det en knytning til hvilken kapabilitet dette er en del av, rollen som utfører prosesstegene og eventuelle andre avhengigheter som må på plass for å kunne gjennomføre prosessene, f.eks. inngå bilaterale avtaler.
+
+De grunnleggende elementene i modellene i kapittelet foklares i denne figuren:
+
+image:./media/forklaring prosess.png[alt="Bilde mangler", width=250]
+
 
 ===== Registrering av sikkert API
 
@@ -87,58 +102,58 @@ image:./media/registrere API.png[alt="Bilde mangler", width=750]
 
 |Inngå avtale om tilgang til data
 |Prosess
-|
+|Prosess for å inngå avtale om tilgang og bruk av data.
 
 |Bruksavtale
 |Kontrakt
-|
+|Avtale eller kontrakt om tilgang til og bruk av data. Dette kan for eksempel være en bilateralt utformet avtale, aksept av generelle bruksvilkår, eller lisens for bruken av åpne data.
 
-|Opprette tilbyder hos levareandør av tokentjeneste
+|Opprette tilbyder hos leverandør av tokentjeneste
 |Prosess
-|
+|Prosess for tilbyder å opprettes som bruker av fellesløsning for tilgangsstyring.
 
 |Registrere API
 |Prosess
-|
+|Prosess for tilbyder å registrere API i nasjonale fellesløsninger så det blir letter tilgjengelig for konsumenter.
 
 |Tildele tilganger til API
 |Prosess
-|
+|Prosess for å tildele tilganger til de virksomheter som har et gyldig behandlingsgrunnlag og som har inngått avtale om tilgang til data.
 
 |Bruksvilkår
 |Forretningsobjekt
-|
+|Bruksvilkår for bruk av fellestjeneste for autentisering og autorisasjon.
 
 |Registreringstjeneste for tilbyder av API
 |Forretningstjeneste
-|
+|Tjeneste for tilbyder å registrere seg som brukersted for felles tokentjeneste for autentisering og autorisasjon.
 
 |API-registreringstjeneste for tilbyder
 |Forretningstjeneste
-|
+|Tjeneste for å registerer de APIene man ønsker å tilby til konsumenter og egenskaper ved disse.
 
 |Token egenskaper
 |Forretningsobjekt
-|
+|Egenskaper  ved token, f.eks. granulariteten på tilganger.
 
 |Tilgangsregistreringstjeneste
 |Forretningstjeneste
-|
+|Tjeneste for å registrere de virksomhetene som skal få tilgang til APIer og hvilket tilgangsnivå de skal ha.
 
 |Orgnr. databruker
 |Forretningsobjekt
-|
+|Organisasjonsnummeret til den som har avtale om å få tilgang til data.
 
 |===
 
 
 ===== Avgi forespurte data
-
+Modellen under detaljerer kapabiliteten "Avgi forespurte data". 
 image:./media/avgi data.png[alt="Bilde mangler", width=400]
 
 
 [cols ="1,1,3", options="header"]
-.Elementer i figur for å avgi data
+.Elementer i figur for å avgi forespurte data
 |===
 |Element
 |Elementtype
@@ -150,7 +165,8 @@ image:./media/avgi data.png[alt="Bilde mangler", width=400]
 
 |Motta forespørsel om oppslag
 |Forretningsprosess
-|
+|Prosess med å motta forespørsler om å utlevere data fra API-konsument.
+
 
 |Kontroller tilgang
 |Forretningsprosess
@@ -168,7 +184,7 @@ image:./media/avgi data.png[alt="Bilde mangler", width=400]
 
 
 ===== Få tilgang til API
-
+Modellen under detaljerer kapabiliteten "Få tilgang til API".
 image:./media/få tilgang til API.png[alt="Bilde mangler", width=750]
 
 
@@ -180,50 +196,46 @@ image:./media/få tilgang til API.png[alt="Bilde mangler", width=750]
 |Beskrivelse
 
 |Bruksavtale
-|
-|
+|Kontrakt
+|Se over
 
 |Finne/få kjennskap til API
-|
-|
+|Forretningsprosess
+|Prosessen med å finne eller få kjennskap til tilgjengelige APIer. Benytter tjeneste for å søke i fellesløsninger.
 
 |Inngå avtale om tilgang til data
-|
-|
+|Forretningsprosess
+|Konsumenten sin porsess med å inngå eventuell avtale med tilbyder om tilgang til data.
 
 |Inngå bruksavtale med leverandør av tokentjenester
-|
-|
-
-|Delegere tilgang til leverandør
-|
-|Dette gjøres bare om driften håndteres av en ekstern leverandør og det foreligger en tjenesteavtale mellom konsument og tjenesteleverandør
+|Forretningsprosess
+|Prosessen med å inngå bruksavtale for å benytte fellesløsning for tilgangstyring når man skal benytte APIer som er sikret ved bruk av fellesløsninger.
 
 |Registrer klient med tildelt tilgang
-|
-|
+|Forretningsprosess
+|Prosess for konsument å registerere den klienten som skal ha tilgang til APIet. Dette forutsetter at tilbyder har gitt konsument tilgang.
 
 |Leverandør registrerer klient med tildelt tilgang
-|
-|
+|Forretningsprosess
+|Prosess for leverandør til konsument å registerere den klienten som skal ha tilgang til APIet. Dette forutsetter at tilbyder har gitt konsument tilgang og at leverandør har blitt delegert rettigheter som databehandler på vegne av konsument.
 
 |API-søk
-|
-|
+|Forretningstjeneste
+|Tjeneste for å søke etter og finne tilgejgnelig APIer. 
 
 |Avtaletjeneste
-|
-|
+|Forretningstjeneste
+|Tjenste for å inngå avtale om bruk av en fellesløsning.
 
 |Registreringstjeneste for API-bruker
-|
-|
+|Forretningstjeneste
+|Tjeneste for å registere brukere av tokentjeneste
 
 |===
 
 
 ===== Delegering av rettigheter til databehandler
-
+Modellen under detaljerer kapabiliteten "Delegering av rettigheter til databehandler".
 image:./media/delegering av rettigheter.png[alt="Bilde mangler", width=350]
 
 [cols ="1,1,3", options="header"]
@@ -235,28 +247,28 @@ image:./media/delegering av rettigheter.png[alt="Bilde mangler", width=350]
 
 |Tjenesteavtale
 |Kontrakt
-|
+|Avtale mellom leverandør og konsument som er grunnlaget for å kunne delegere rettigheter fra konsument til en leverandør
 
 |Leverandør
 |Rolle
-|
+|En part som leverer tjenester eller utfører oppgaver på vegne av en annen part.
 
 |Inngå avtale med leverandør
 |Prosess
-|
+|Prosessen med å inngå en avtale med leverandør. En slik avtale vil normalt være inngått tidligere og uavhengig av om man skal ta i bruk et nytt API.  En tjenesteavtale med leverandør er en forutsetning forutsetning for å kunne delegere en tilgang.
 
 |Registrere delegert tilgang
 |Prosess
-|
+|Prosessen med å delegere tilganger. I tilknytning til eOppslag vil formålet være å gi leverandør tilgang til å representere konsument overfor et API, men registreringen vil potensielt også kunne gjelde for andre områder.
 
 |Registreringstjeneste for representasjons-forhold
 |Forretningstjeneste
-|
+|Tjeneste for å registerer representasjonsforhold. I dette tilfellet delegering av rettigheter til å benytte et API på vegne av konsument.
 
 |===
 
 ===== Slå opp data gjennom et API
-
+Modellen under detaljerer kapabiliteten "Slå opp data gjennom et API".
 
 image:./media/slå opp data.png[alt="Bilde mangler", width=350]
 
@@ -268,28 +280,28 @@ image:./media/slå opp data.png[alt="Bilde mangler", width=350]
 |Beskrivelse
 
 |Hent teknisk endepunkt ved behov
-|
-|
+|Forretningsprosess
+|Prosessen å slå opp den tekniske adressen til et API før spørring mot APIet dersom dette er nødvendig.
 
 |Be om tilgangstoken
-|
-|
+|Forretningsprosess
+|Prosessen med å benytte en tokentjeneste for hente et tilgangstoken som gir tilgang til et API. Dette forutsetter at alt er registert og satt opp riktig mot de aktuelle tjenestene.
 
 |Utfør tjenestekall
-|
-|
+|Forretningsprosess
+|Prosessen med å benytte (gjøre et oppslag mot) et eksternt API
 
 |Adressetjeneste
-|
-|
+|Forretningstjeneste
+|Tjeneste som gir mulighet til å slå opp teknisk endepunkt.
 
 |Tokentjeneste
-|
-|
+|Forretningstjeneste
+|Tjeneste som utsteder tilgangstoken.
 
 |Representasjonstjeneste
-|
-|
+|Forretningstjeneste
+|Tjeneste som gir oversikt over representasjonsforhold. Benyttes av tokentjeneste dersom en leverandør skal få tilgang på vegne av en konsument
 
 |===
 
