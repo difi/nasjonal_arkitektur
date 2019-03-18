@@ -1,0 +1,14 @@
+:lang: no
+:doctitle: EU/ISA² EIRA
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+image:../kunnskap_referansearkitektur_eu-eira/media/eira-logo.jpg[width=200]
+
+[.lead]
+_EIRA_ is...
+
+////
+////
+
+== Generelt
+Kommer.
