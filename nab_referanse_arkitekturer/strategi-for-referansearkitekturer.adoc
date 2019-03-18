@@ -33,3 +33,4 @@ Det er ikke påbegynt arbeid med referansearkitektur for eNotifikasjon enda.
 
 
 NOTE: Mer informasjon om strategien kommer her.
+x|  

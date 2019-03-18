@@ -21,13 +21,35 @@ endif::[]
 
 *Referansearkitekturer gir maler og veiledning til  utforming av arkitekturer og løsninger innen  avgrensede områder.*
 
-Følgende figur illustrerer begrepsapparatet rundt referansearkitekturer, slik dette  benyttes i tilknytning til arbeidet ned nasjonal arkitektur. Forklaring til denne figuren:
+Valg av referansearkitekturer, omfang og detaljeringsgrad bør ta utgangspunkt i brukerbehov, være basert på erfaring og kan peke på alt fra gode eksempler til beste praksis og konkrete anbefalinger.
 
-Referanse
-
-
+Følgende figur illustrerer begrepsapparatet rundt referansearkitekturer, slik dette  benyttes i tilknytning til arbeidet ned nasjonal arkitektur. 
 
 image:../nab_referanse_arkitekturer/media/referansearkitektur-definisjon-i-archimate.png[]
+
+Forklaring til denne figuren:
+
+Inndeling i _kapabilitetsområder_ tilsvarer det som TOGAF 9.2 kaller _"subject areas"_ eller _segmenter_, og er generelt sett en gruppering av kapabiliteter som en ønsker å adressere samlet.
+
+Hvert _kapabilitetsområde_ kan adresseres av en eller flere _referansearkitekturer_. Formålet med å ha flere referansearkitekturer for samme område, kan være å gi ulike visninger for ulike målgrupper eller å bryte opp et komplekst bilde i enklere deler.  
+
+Hver enkelt referansearkitektur kan inneholde både _arkitekturbyggeklosser_ og __løsningsbygeklosser__, ut fra hva som er aktuelt. Helt generiske referansearkitekturer inneholder typisk bare generiske arkitekturbyggeklosser, mens mer løsningsorienterte referansearkitekturer gjerne også angir spesifikke løsningsbygeklosser. Det siste er f.eks. aktuelt for å angi anbefalt eller obligatorisk bruk av nasjonale fellesløsninger.
+
+Begrepet __SAT (Solution Architecture Template)__, her oversatt til __Mal for løsningsarkitektur__, kommer fra arbeidet med en grunnleggende referansearkitektur i EU ved navn __EIRA (European Interoperability reference Architecture)__. En helt spesifikk definisjon av hva som ligger i begrepet SAT, samt veiledning til beskrivelse av slike maler, finnes i dokumenet link:https://joinup.ec.europa.eu/sites/default/files/document/2017-10/sat_design_guidelines_0_0.pdf[Solution Architecture Template (SAT) Design Guidelines].
+
+NOTE: Bruk av EIRA og SAT-maler er inntil videre ikke et krav for referansearkitekturer i Nasjonal arkitektur. Se forøvrig link:../kunnskap_referansearkitektur_eu-eira/book-eira.adoc[egen omtale av EIRA]. 
+
+Referansearkitekturer kan beskrives på ulike abstraksjonsnivåer. Omfangsrike og altomfattende arkitekturer kan være hinder for innovasjon. Hvis ensartet samhandling er viktig, bør kravene som stilles på den annen side være detaljerte nok til å sikre interoperabilitet. Det er viktig å finne en god balanse med tanke på dette.
+
+Ulike referansearkitekturer kan også klassifiseres slik TOGAF-rammeverket beskriver rundt begrepet arkitektur-kontinuum.
+
+.Klassifisering i grunnleggende, felles (nasjonale), industri- (sektorspesifikke) og organisasjonsspesifikke arkitekturer
+image:../kunnskap_standard_togaf/media/togaf-architecture-continuum.png[width=600]
+
+NOTE: Se også link:../kunnskap_standard_togaf/arkitektur-kontinuum.adoc[egen omtale av TOGAF arkitektur-kontinuum].
+
+
+
 
 
 
@@ -40,7 +62,7 @@ image:../nab_referanse_arkitekturer/media/referansearkitektur-definisjon-i-archi
 
 // US DoD: There may be multiple Reference Architectures within a subject area where each represents a different emphasis or viewpoint of that area. For each Reference Architecture, there may be any number of architectures and solutions corresponding to different aspects of the subject area viewpoint. 
 
-
+////
 Det finnes ulike typer referansearkitekturer: 
 
 * Grunnleggende referansearkitekturer, som beskriver generelle krav til for eksempel informasjonssikkerhet.
@@ -49,20 +71,8 @@ Det finnes ulike typer referansearkitekturer:
 
 * Anvendelsesorienterte, som innen et spesifikt forretningsområde peker på prinsipper og retningslinjer til konkrete løsninger, f.eks. disse referansearkitekturer for informasjonsutveksling.
 
-Referansearkitekturer kan beskrives på ulike abstraksjonsnivåer. Omfangsrike og altomfattende arkitekturer kan være hinder for innovasjon. Hvis ensartet samhandling er viktig, bør kravene som stilles på den annen side være detaljerte nok til å sikre interoperabilitet. Det er viktig å finne en god balanse med tanke på dette.
+////
 
-Referansearkitektur må ta utgangspunkt i brukerbehov, være basert på erfaring og peke på alt fra gode eksempler til beste praksis og konkrete anbefalinger og standarder.
-
-
- Kladd, Erik:
-
- TOGAF Enterprise Continuum:
-
-image:../kunnskap_standard-togaf/media/togaf-architecture-continuum.png[]
-
- The Architecture Continuum, as shown in Figure 37-2, can be viewed as a Reference Library classification scheme. As such it illustrates how reference architectures can be organized across a range — from Foundation Architectures, and Industry-Specific Architectures, to an Organization-Specific Architecture.
-
- Typically, a generic reference architecture provides the architecture team with an outline of their organizationspecific reference architecture that will be customized for a specific organization. For example, a generic reference architecture may identify that there is a need for data models. An example of a reference architecture is the IT4IT Reference Architecture which also defines a common information model for IT management. Another example is the TM Forum eTOM and SID as an organization-specific reference architecture.
 
 == Hvorfor bruke referansearkitekturer?
 
