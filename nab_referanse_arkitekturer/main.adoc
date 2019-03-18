@@ -69,5 +69,4 @@ Kommer.
 :leveloffset: +2
 include::../nab_referanse_arkitekturer_eoppslag/eOppslag-Referansearkitektur.adoc[]
 
-////
-include::./book-nasjonale-referansearkitekturer.adoc[]
+//include::./book-nasjonale-referansearkitekturer.adoc[]
