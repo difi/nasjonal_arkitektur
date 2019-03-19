@@ -4,9 +4,24 @@
 
 include::../plattform_felles/includes/commonincludes.adoc[]
 
-Det arbeides med utvalgte referansearkitekturer, basert på prioriterte brukerbehov. 
+== Generelt
+Det vil til enhver tid arbeides med utvalgte referansearkitekturer i Nasjonal arkitektur, basert på prioriterte brukerbehov.
 
-Arbeidet har så langt fokusert på informasjonsutveksling i samhandlingsløsninger, med referansearkitekturer for henholdsvis eMelding, eOppslag og eNotifikasjon. Følgende figur gir en skisse over disse referansearkitekturene:
+Overordnet oversikt over brukerbehov vedlikeholdes i et samlet kapabilitetskart. Dette kartet vil utvikles over tid, etterhvert som en går inn på nye områder.
+
+== Samlet kapabilitetskart
+
+Følgende bilde viser 
+
+
+== Pågående arbeid
+
+Arbeidet har startet med å fokusere på _informasjonsutveksling_ i samhandlingsløsninger som _kapabilitetsområde_, der en særlig har sett på referansearkitekturer for henholdsvis _eMelding_ (asynkron informasjonsforsendelse) og _eOppslag_ (synkront oppslag gjennom API). I tillegg til eMelding og eOppslag, har en også definert eNotifikasjon (hendelsesvarsling) som emn prioritert referansearkitektur innen området _informasjonsutveksling_.
+
+.Skisse over proiriterte referansearkitekturer innen området informasjonsutveksling:
+image:./media/Referansearkitekturer.png[alt="missing image (referansearkitekturer"]
+
+
 
 ////
 
@@ -20,7 +35,7 @@ Følgende figur gir en skisse over de opprinnelige tre forslagene til referansea
 ////
 
 
-image:./media/Referansearkitekturer.png[alt="missing image (referansearkitekturer"]
+//image:./media/Referansearkitekturer.png[alt="missing image (referansearkitekturer"]
 
 
 ////

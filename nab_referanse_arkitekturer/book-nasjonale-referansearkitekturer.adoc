@@ -5,7 +5,7 @@
 include::../plattform_felles/includes/commonincludes.adoc[]
 
 [.lead]
-Det arbeides per 2019 med å ta fram prioriterte nasjonale referansearkitekturer, som et samarbeid mellom Difi og flere andre offentlige virksomheter. Denne dokumentasjonen er å betrakte som pågående arbeid.
+Det arbeideseoppslag per 2019 med å ta fram prioriterte nasjonale referansearkitekturer, som et samarbeid mellom Difi og flere andre offentlige virksomheter. Denne dokumentasjonen er å betrakte som pågående arbeid.
 
 
 image:../plattform_felles/media/i-arbeid.png[width=75, height=75, link="http://www.vg.no"]

@@ -4,7 +4,7 @@
 include::../plattform_felles/includes/commonincludes.adoc[]
 
 [.lead]
-_Kapabilitetsbaser planlegging_ handler om ...
+_Kapabilitetsbasert planlegging_ handler om ...
 
 
 image:../plattform_felles/media/i-arbeid.png[width=75, height=75] Uferdig innhold
@@ -13,6 +13,5 @@ image:../plattform_felles/media/i-arbeid.png[width=75, height=75] Uferdig innhol
 ////
 ////
 
-== Generelt om kapabilitetsbasert planlegging
-
 TBD.
+ 
