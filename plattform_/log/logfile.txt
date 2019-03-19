@@ -1815,3 +1815,4 @@
 20.02.2019 12:12:05: Error: Failed to locate image file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_maler_asciidoc\media\smallnew.png, see file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_maler_asciidoc\artikkelmal-engelsk.adoc
 20.02.2019 12:12:05: Error: Asciidoc link ./media/ missing [ in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_maler_asciidoc\artikkelmal-engelsk.adoc
 20.02.2019 12:12:07: Start SjekkAsciidocInclude()
+18.03.2019 14:35:03: SøkTekstIAlleFiler(kunnskap_tema_kapabiliteter)

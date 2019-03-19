@@ -1,5 +1,5 @@
 :lang: no
-:doctitle: Kapabiliteter
+:doctitle: Kapabilitetsmodellering
 
 include::../plattform_felles/includes/commonincludes.adoc[]
 
