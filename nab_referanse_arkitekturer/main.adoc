@@ -41,9 +41,10 @@ Se . link:../nab_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer
 
 //include::../nab_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer/main.adoc[]
 
-= Beskrivelse av referansearkitektur for deling av data på forespørsel 
+////
+= Beskrivelse av referansearkitektur for eOppslag
 include::deling_forespørsel.adoc[]
-
+////
 
 = Informasjonssikkerhet (felles)
 include::../nab_referanse_arkitekturer_informasjonssikkerhet/main.adoc[]

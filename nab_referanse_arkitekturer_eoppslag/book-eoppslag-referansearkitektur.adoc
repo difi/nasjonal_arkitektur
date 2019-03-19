@@ -1,199 +1,307 @@
 :lang: no
-:doctitle: Referansearkitektur eOppslag 
-:keywords: eOppslag
+:doctitle: Referansearkitektur for eOppslag
+:keywords: Referansearkitekturer
 
 include::../plattform_felles/includes/commonincludes.adoc[]
+=== Om eOppslag
 
-image:./media/eOppslagRefArk.png[alt="missing image, eOppslag Referanse arkitektur"]
- 
- 
-== Funksjonell beskrivelse
-Mønsteret dekker oppslag i informasjon ("datadeling"), dvs.  forespørsel om informasjon mellom to parter, hvor en prosess hos den ene part typisk er avhengig av informasjon fra den andre for å fortsette.
+eOppslag er en delmengde av kapabilitesområdet deling av data på forespørsel. Mønsteret dekker oppslag i informasjon, hvilket vil si forespørsel om informasjon mellom to parter, hvor en prosess hos konsumenten typisk er avhengig av informasjon fra tilbyder for å fortsette.
 
-Roller: 
+Beskrivelsen her er avgrenset til det å tilby og konsumere data gjennom synkrone kall mot APIer. Den dekker både sikrede APIer hvor tilgangsstyring løses ved bruk av blant annet fellestjenester, og åpne APIer som tilbyr åpent tilgjengelige data. En stor del av beskrivelsene tar for seg oppsett og bruk av tjenester tilknyttet tilgangsstyring, men dette er ikke obligatorisk for APIer som tilbyr åpne data.
 
-* *Konsument*: den part som i en egen virksomhetsprosess har behov for informasjon fra en annen part
-* *Tilbyder*: den part som besitter informasjon som kan deles
+I innledningen til referansearkitekturer er det skissert ulike kapabilitetsområder og identifisert overordnede kapabiliteter som inngår i de ulike referansearkitekturene. I dette kapittelet detaljeres kapabilitetene tilknyttet eOppslag.
 
 
-=== Prosessuelle egenskaper 
+=== Struktur på beskrivelsen
+Første modellen i beskrivelsen detaljerer de overordnede kapabilitetene som inngår i eOppslag. Disse kapabilitetene beskrives videre i hver sin modell og detaljeres gjennom prosesstegene som skal til for å realisere kapabiliteten. Det vises også til forretningstjenestene og noe av kjerneinformasjonen som benyttes i prosessene.
 
-* ingen sammenheng mellom forretningsprosesser hos de forskjellige partene.
-* Ingen forretningsmessig tilstandsendring hos tilbyder (kun les).
+Modellene viser relasjonene mellom de ulike elementene og elementene er forklart i tabellene under hver modell. Elementer som benyttes flere ganger, f.eks. rollen som tilbyder, forklares kun tilknyttet modellen på høyest nivå.
 
 
-=== Kvalitetsegenskaper (~ikke funksjonelle krav)
+=== Oversikt eOppslag
+Modellen under viser de kapabilitetene en tilbyder og en konsument må ha for å dele data gjennom tilgangsstyrte APIer.
 
-* Tett kobling i tid ift tidspunkt for behandling hos konsument (kallende part)
-* Ingen kobling ift prosesser hos annen part
+Tilbyder må kunne tilggjengeliggjøre data og dette er delt i to kapabiliteter hvor den ene, "Registrering av API" går ut på hvordan man registerer og setter opp tilganger. Den andre kapabiliteten "Avgi forespurte data" er det man gjøre når en konsument gjøre et kall mot det respektive APIet.
 
+Tilsvarende er det tre detaljerte kapabiliteter tilknyttet konsument. Få tilgang til API" består av prosesser for oppsett tilgang, "Delegering av rettigheter til databehandler" må gjøres dersom konsument benytter seg av en databehandler og "Slå opp data gjennom synkront API" er det konsumenten må gjøre hver gang det gjøres et oppslag.
 
-== Arkitekturbyggeklosser (ABBs)
+image:./media/Deling på forespørsel.png[alt="Bilde mangler", width=750]
 
-For å ivareta kvalitetsegenskaper som løs-kobling, interoperabilitet og sikkerhet er ABBene langt på vei er like på tvers av referansearkitekturene. Dette synliggjør viktigheten av at man har felles komponenter på dette området som kan benyttes uavhengig av samhandlingsmønster.
+[cols ="1,1,3", options="header"]
+.Elementer i figur for deling av data på forespørsel
+|===
+|Element
+|Elementtype
+|Beskrivelse
 
-image:./media/ABBs.jpg[ABBs]
+|Tilbyder av data
+|Rolle
+|Den part som besitter informasjon som kan deles.
 
+|Konsument (databruker)
+|Rolle
+|Den part som i en egen virksomhetsprosess har behov for informasjon fra en annen part.
 
-=== ABBer for løs-kobling, portabilitet og interoperabilitet
-Forretningsmessig  prosesstøtte (Koreografi):
 
-* *Kapabilitetsregister* (Capability Lookup - SMP)
- - Svarer på hvilke prosesser/meldingstyper/dokumenttyper (--> hva er riktig begrep her?) som annen part støtter
+|Tilgjengeliggjøring av data
+|Kapabilitet
+|Evnen til å gjøre data tilgjengelig for aktører utenfor egen virksomhet.
 
-Teknisk: 
+|Registerering av sikkert API
+|Sub-kapabilitet
+|Del av "tilgjengeliggjøreing av data". Evnen til å registrere eget API i fellestjenester så det blir tilgjengelig for andre aktører.
 
-* *Kapabilitetsregister* (Capability Lookup - SMP)
-- Svarer på hvilke meldingsprotokoller og datasett/meldingstyper (-->hvilket begrep skal vi benytte?) som annen part støtter
+|Avgi forespurte data
+|Sub-kapabilitet
+|Del av "tilgjengeliggjøreing av data". Evene til å avgi data på forespørsel gjennom et egnet API. Kan omfatte tilgangsstyring.
 
-* *Adresseringstjeneste* (Dynamic Service Location - SMP)
- - Svarer på hvilke tekniske adresse/endepunkt man skal benytte mot annen part
+|Innhenting av data
+|Kapabilitet
+|Evenen til å hente tilbydte data fra annen aktør.
 
-=== ABBer for Sikkerhet og tillit (trust)
+|Få tilgang til API
+|Sub-kapabilitet
+|Evnen til å få tilgang til tilbydte data fra annen aktør. 
 
-* Konfidensialitet: 
-*Sertifikat-tjeneste* for å kunne kryptere (BCP)
-* Autorisasjon: *Rettighetsregister* 
-* Autorisasjon på tjenestenivå: Verifisering av signatur (ikke visualisert som egen ABB)
-* Dataintegritet: 
-Løses ved å signere melding (ikke visualisert som egen ABB)
 
-=== ABB for transport
-_(HTTP og Internett?)_
+|Delegering av rettigheter til databehandler
+|Sub-kapabilitet
+|Evnen til å delegere rettigheter til databehandler som utfører oppgaver på vegne av behandlingsansvarlig
 
-=== ABB Kapabilitetsregister
 
-*Hensikt og funksjonalitet*
+|Slå opp data gjennom et API
+|Sub-kapabilitet
+|Evnen til å slå opp og hente data gjennom et eksternt API.
 
-* Løs kobling – funksjonelt og teknisk
-* Dynamisk identifisering av meldingstyper/ dokumenttyper og protokoller som annen part støtter i kjøretid – muliggjør digitalisering av prosesser på tvers av virksomheter
+|===
 
-*Referanser / standarder*
+=== Detaljerte beskrivelser
+I dette kapittelet detaljeres kapabilitetene som inngår i deling av data på forespørsel. Modellen består av tre nivåer. I midten er det spesifisert noen prosessteg som realiserer kapabiliteten. Det vil si at kan du gjennomføre prosesstegene innehar du evnen kapabiliten beskriver.
 
-* OASIS SMP:  
-+
-“The information about the participants (what messages they can process, the message protocol that they support, …) is easily discoverable and accessible…”
+Nederst i figuren er det beskrevet de fellestjenestene og elementene som støtter prosessene.
 
-*Eksempler på innhold*
+Øverst i figurene er det en knytning til hvilken kapabilitet dette er en del av, rollen som utfører prosesstegene og eventuelle andre avhengigheter som må på plass for å kunne gjennomføre prosessene, f.eks. inngå bilaterale avtaler.
 
-* Dokumenttyper (meldinger)
-* Protokoll
+De grunnleggende elementene i modellene i kapittelet foklares i denne figuren:
 
-*SBBs*
+image:./media/forklaring prosess.png[alt="Bilde mangler", width=250]
 
-* Elma (PEPPOL)
-* KoFuVi
-* CPP/CPA
-* Integrasjonspunktets «Elma»
-* «Innebygd i AltInn»
 
+===== Registrering av sikkert API
 
-=== ABB Adresseringsregister
-Synonym: DSL - Dynamic Service Location
+Modellen under detaljerer kapabiliteten "Registerering av sikkert API". 
+image:./media/registrere API.png[alt="Bilde mangler", width=750]
 
-*Hensikt og funksjonalitet*
+[cols ="1,1,3", options="header"]
+.Elementer i figur for registrering av API
+|===
+|Element
+|Elementtype
+|Beskrivelse
 
-* Løs kobling - teknisk
-* Dynamisk identifisering av endepunkt til annen part i kjøretid
+|Inngå avtale om tilgang til data
+|Prosess
+|Prosess for å inngå avtale om tilgang og bruk av data.
 
-*Referanser / standarder*
+|Bruksavtale
+|Kontrakt
+|Avtale eller kontrakt om tilgang til og bruk av data. Dette kan for eksempel være en bilateralt utformet avtale, aksept av generelle bruksvilkår, eller lisens for bruken av åpne data.
 
-* OASIS SMP
-+
-“Enables the sender to dynamically discover  the  IP address of the receiver”
+|Opprette tilbyder hos leverandør av tokentjeneste
+|Prosess
+|Prosess for tilbyder å opprettes som bruker av fellesløsning for tilgangsstyring.
 
-*Eksempler på innhold*
+|Registrere API
+|Prosess
+|Prosess for tilbyder å registrere API i nasjonale fellesløsninger så det blir letter tilgjengelig for konsumenter.
 
-* IP address
+|Tildele tilganger til API
+|Prosess
+|Prosess for å tildele tilganger til de virksomheter som har et gyldig behandlingsgrunnlag og som har inngått avtale om tilgang til data.
 
-*Eksempler på SBBs*
+|Bruksvilkår
+|Forretningsobjekt
+|Bruksvilkår for bruk av fellestjeneste for autentisering og autorisasjon.
 
-* Elma (PEPPOL)
-* KoFuVi
-* CPP/CPA
-* Integrasjonspunktets «Elma»
-* «Innebygd i AltInn»
+|Registreringstjeneste for tilbyder av API
+|Forretningstjeneste
+|Tjeneste for tilbyder å registrere seg som brukersted for felles tokentjeneste for autentisering og autorisasjon.
 
+|API-registreringstjeneste for tilbyder
+|Forretningstjeneste
+|Tjeneste for å registerer de APIene man ønsker å tilby til konsumenter og egenskaper ved disse.
 
-=== ABB Sertifikatregister
-Også kjent som: BCP - Business Certificate Provider
+|Token egenskaper
+|Forretningsobjekt
+|Egenskaper  ved token, f.eks. granulariteten på tilganger.
 
-*Hensikt og funksjonalitet*
+|Tilgangsregistreringstjeneste
+|Forretningstjeneste
+|Tjeneste for å registrere de virksomhetene som skal få tilgang til APIer og hvilket tilgangsnivå de skal ha.
 
-* Løs kobling - konfidensialitet
-* Dynamisk identifisering av public key til annen part for en gitt kontekst i kjøretid
-* Muliggjør kryptering av melding
+|Orgnr. databruker
+|Forretningsobjekt
+|Organisasjonsnummeret til den som har avtale om å få tilgang til data.
 
-*Referanser / standarder*
+|===
 
-* BCP 
 
-*Eksempler*
+===== Avgi forespurte data
+Modellen under detaljerer kapabiliteten "Avgi forespurte data". 
+image:./media/avgi data.png[alt="Bilde mangler", width=400]
 
-* Public key del av Virksomhetssertifikat for et gitt formål
 
-*SBBs*
+[cols ="1,1,3", options="header"]
+.Elementer i figur for å avgi forespurte data
+|===
+|Element
+|Elementtype
+|Beskrivelse
 
-* BCP (Difi) 
+|Policytjeneste
+|Forretningstjeneste
+|Intern tjeneste hos tilbyder for å håndheve tilgangsnivåpolicy ved tilgangsstyring.
 
-=== ABB Rettighetsregister
-Også kjent som Autoriserings- og Autorisasjonstjeneste (tilgangskontroll?)
+|Motta forespørsel om oppslag
+|Forretningsprosess
+|Prosess med å motta forespørsler om å utlevere data fra API-konsument.
 
-*Hensikt og funksjonalitet*
 
-* Felles enhetlig autorisering
-* Muliggjør oppslag i rettigheter
+|Kontroller tilgang
+|Forretningsprosess
+|Prosessen med å kontrollere om konsumenten har rettigheter til å få de forespurte data.
 
-*Referanser / standarder*
+|Avgi data
+|Forretningsprosess
+|Prosessen med å gi svar på forespørselen.
 
-* XACML (eXtensible Access Control Markup Language) for Tilgangskontroll / policy-language 
-+
-Brukes for å tilgjengeliggjøre info om autorisasjoner / rettigheter en virksomhet/person (autentisert av kallende part) har knyttet til gitte digitale ressurser.
+|Verifiseringstjeneste
+|Forretningstjeneste
+|Tjeneste for å verifisere autentiserings- og autorisasjonsdata i mottatt forespørsel.
 
-*Eksempler på innhold*
+|===
 
-* Samtykke
-* Hjemmel
 
-*SBBs*
+===== Få tilgang til API
+Modellen under detaljerer kapabiliteten "Få tilgang til API".
+image:./media/få tilgang til API.png[alt="Bilde mangler", width=750]
 
-* AltInn Authorization
-* KoFuVi
-+ 
-Inneholder roller fra master Enhetsregisteret som Altinn Authorization ikke inneholder, samt tilgjengeliggjør autorisasjoner fra Altinn og andre domeneregister for fullmakt/autorisasjon. 
 
-=== ABB Sanntidsoppslag (transport ABB for eOppslag)
+[cols ="1,1,3", options="header"]
+.Elementer i figur for å få tilgang til API
+|===
+|Element
+|Elementtype
+|Beskrivelse
 
-Også kjent som: RPC-stil
+|Bruksavtale
+|Kontrakt
+|Se over
 
-*Hensikt og funksjonalitet*
+|Finne/få kjennskap til API
+|Forretningsprosess
+|Prosessen med å finne eller få kjennskap til tilgjengelige APIer. Benytter tjeneste for å søke i fellesløsninger.
 
-* Sanntidsforespørsel om informasjon fra annen part
-* Ingen forretningsmessig tilstandsendring hos annen part
-* Tilbyder er uavhengig av konsuments prosess
+|Inngå avtale om tilgang til data
+|Forretningsprosess
+|Konsumenten sin porsess med å inngå eventuell avtale med tilbyder om tilgang til data.
 
-*Referanser / standarder*
+|Inngå bruksavtale med leverandør av tokentjenester
+|Forretningsprosess
+|Prosessen med å inngå bruksavtale for å benytte fellesløsning for tilgangstyring når man skal benytte APIer som er sikret ved bruk av fellesløsninger.
 
-* SOAP WS
-* «REST» (HTTP)
-* OASIS Open Data Protocol (OData)
-* AS4
+|Registrer klient med tildelt tilgang
+|Forretningsprosess
+|Prosess for konsument å registerere den klienten som skal ha tilgang til APIet. Dette forutsetter at tilbyder har gitt konsument tilgang.
 
-*SBBs*
+|Leverandør registrerer klient med tildelt tilgang
+|Forretningsprosess
+|Prosess for leverandør til konsument å registerere den klienten som skal ha tilgang til APIet. Dette forutsetter at tilbyder har gitt konsument tilgang og at leverandør har blitt delegert rettigheter som databehandler på vegne av konsument.
 
- * "Rest" over HTTP
- * (evt. WS/SOAP)
- * Hvis mulig som direkte integrajon, ellers ved bruk av en integrasjonsproxy (som f.eks. AltInn Innsynstjeneste/mapper)
+|API-søk
+|Forretningstjeneste
+|Tjeneste for å søke etter og finne tilgejgnelig APIer. 
 
-////
-////
+|Avtaletjeneste
+|Forretningstjeneste
+|Tjenste for å inngå avtale om bruk av en fellesløsning.
 
-== Sikkerhet, eOppslag
+|Registreringstjeneste for API-bruker
+|Forretningstjeneste
+|Tjeneste for å registere brukere av tokentjeneste
 
-. link:../nab_referanse_arkitekturer_eoppslag_sikkerhet/eOppslag_sikkerhetsmodell_overordnet.adoc[Overordnet innføring i sikkerhetsmekanismer for eOppslag]
+|===
 
-. link:../nab_referanse_arkitekturer_eoppslag_sikkerhet/20180629-eoppslag-autorisering-og-delegering.adoc[Modell for autorisering og delegering - eOppslag]
 
+===== Delegering av rettigheter til databehandler
+Modellen under detaljerer kapabiliteten "Delegering av rettigheter til databehandler".
+image:./media/delegering av rettigheter.png[alt="Bilde mangler", width=350]
 
+[cols ="1,1,3", options="header"]
+.Elementer i figur for delegering av rettigheter til databehandler
+|===
+|Element
+|Elementtype
+|Beskrivelse
+
+|Tjenesteavtale
+|Kontrakt
+|Avtale mellom leverandør og konsument som er grunnlaget for å kunne delegere rettigheter fra konsument til en leverandør
+
+|Leverandør
+|Rolle
+|En part som leverer tjenester eller utfører oppgaver på vegne av en annen part.
+
+|Inngå avtale med leverandør
+|Prosess
+|Prosessen med å inngå en avtale med leverandør. En slik avtale vil normalt være inngått tidligere og uavhengig av om man skal ta i bruk et nytt API.  En tjenesteavtale med leverandør er en forutsetning forutsetning for å kunne delegere en tilgang.
+
+|Registrere delegert tilgang
+|Prosess
+|Prosessen med å delegere tilganger. I tilknytning til eOppslag vil formålet være å gi leverandør tilgang til å representere konsument overfor et API, men registreringen vil potensielt også kunne gjelde for andre områder.
+
+|Registreringstjeneste for representasjons-forhold
+|Forretningstjeneste
+|Tjeneste for å registerer representasjonsforhold. I dette tilfellet delegering av rettigheter til å benytte et API på vegne av konsument.
+
+|===
+
+===== Slå opp data gjennom et API
+Modellen under detaljerer kapabiliteten "Slå opp data gjennom et API".
+
+image:./media/slå opp data.png[alt="Bilde mangler", width=350]
+
+[cols ="1,1,3", options="header"]
+.Elementer i figur for å slå opp data
+|===
+|Element
+|Elementtype
+|Beskrivelse
+
+|Hent teknisk endepunkt ved behov
+|Forretningsprosess
+|Prosessen å slå opp den tekniske adressen til et API før spørring mot APIet dersom dette er nødvendig.
+
+|Be om tilgangstoken
+|Forretningsprosess
+|Prosessen med å benytte en tokentjeneste for hente et tilgangstoken som gir tilgang til et API. Dette forutsetter at alt er registert og satt opp riktig mot de aktuelle tjenestene.
+
+|Utfør tjenestekall
+|Forretningsprosess
+|Prosessen med å benytte (gjøre et oppslag mot) et eksternt API
+
+|Adressetjeneste
+|Forretningstjeneste
+|Tjeneste som gir mulighet til å slå opp teknisk endepunkt.
+
+|Tokentjeneste
+|Forretningstjeneste
+|Tjeneste som utsteder tilgangstoken.
+
+|Representasjonstjeneste
+|Forretningstjeneste
+|Tjeneste som gir oversikt over representasjonsforhold. Benyttes av tokentjeneste dersom en leverandør skal få tilgang på vegne av en konsument
+
+|===
 
 
