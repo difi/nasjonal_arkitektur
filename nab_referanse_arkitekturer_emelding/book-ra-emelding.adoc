@@ -5,7 +5,7 @@
 include::../plattform_felles/includes/commonincludes.adoc[]
 
 [.lead]
-eMelding er 
+eMelding er en referansearkitektur for asynkron informasjonsforsendelse
 
-= Introduksjon
+== Introduksjon
 include::../nab_referanse_arkitekturer_emelding/ra-emelding-intro.adoc[]

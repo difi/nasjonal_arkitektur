@@ -1,0 +1,11 @@
+:lang: no
+:doctitle: Referansearkitektur eNotifikasjon
+:keywords: eNotifikasjon
+
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+[.lead]
+eNotifikasjon er en referansearkitektur for asynkron publisering av informasjon.
+
+== Introduksjon
+include::../nab_referanse_arkitekturer_enotifikasjon/ra-enotifikasjon-intro.adoc[]

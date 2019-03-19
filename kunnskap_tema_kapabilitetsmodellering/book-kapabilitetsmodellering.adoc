@@ -1,5 +1,5 @@
 :lang: no
-:doctitle: Kapabilitetsmodellering
+:doctitle: Kapabilitetsbasert modellering, analyse og planlegging
 
 include::../plattform_felles/includes/commonincludes.adoc[]
 
@@ -7,26 +7,56 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 Begrepet _kapabilitet_ benyttes  
 
 
-image:../plattform_felles/media/i-arbeid.png[width=75, height=75] Uferdig innhold
+//image:../plattform_felles/media/i-arbeid.png[width=75, height=75] Uferdig innhold
 
 
 ////
 ////
 
 :leveloffset: +1
-= Generelt om kapabiliteter
+= Generelt
+
+* En kapabilitet er en evne som er forbundet med en aktør i dform av av en organisasjon, en person eller et teknisk system.
+* Kapabiliterer realiseres gjennom organisasjoner, mennesker, prosesser og teknologier, gjerne i kombinasjon.
+* Kapabiliterer sier noe om hva en aktør må kunne gjøre, ikke hvordan.
+* Mens realiseringen av en kapabilitet er gjenstand for endring, kan navn og betydning av selve kapabiliteten holdes fast.
+* En aktørs kapabiliteter utvikles over tid, både med hensyn til om de overhodet innehas og med hensyn til i hvilken grad de innehas (kvalitetskriterier).
+
+NOTE: Kvalitetskriterier for IT-systemer er f.eks. pris, tilgjengelighet, responstid, kompleksitet, samsvar med føringer (lover, prinsipper, standarder, konvensjoner).
+
+
+* Kapabilitetsbasert planlegging er et begrep som handler om å analysere gap mellom kapabiliter som imnehas i nåsituasjonen og ønskede, framtidige situasjoner (veikart og målbilder).
+* Det finnes to "skoler" for navngiving av kapabiliteter. En kan f.eks. si _Datadeling_ (verbalsubstantiv - aktøren må kunne [underline]#_gjøre# Datadeling_) eller _Dele data_ (verb - aktøren må kunne __dele data__). Om en ser dette i lys av felles (nasjonal) arkitektur, blir spørsmålet viktig. For eksempel er det en forskjell på å dele data  og motta delte data, mens begge deler handler om informasjonsutveksling. 
+
+
+
+NOTE: Se  link:TBD.[navnekonvensjoner for nasjonalt arkitekturbibliotek] for mer om navngivning av kapabiliteter.  
+
+//på engelsk gjøres typisk som substantiv-verb, f.eks. Information Management eller Data Sharing.   
+
+
+
+////
+Kapabiliteter er typisk uttrykt med generelle termer og på
+høyt nivå, og krever gjerne en kombinasjon av
+organisasjon, mennesker, prosesser og teknologi for å
+oppnås.
+
 Capabilities represent the current or desired abilities of an organization, realized by its people, processes, information, and technology. They are focused on specific business outcomes, and are used for strategic planning purposes.
 
 Each capability occurs only once in a capability map.
+////
 
 = Kapabiliteter vs. funksjoner
-Business functions describe the work actually done by the organization; they are often explicitly managed, and are more closely aligned to the organization structure. Each capability occurs only once in a capability map, whereas in a functional decomposition of the enterprise the same sub-function can occur multiple times.
+Business functions describe the work actually done by the organization; they are often explicitly managed, and are more closely aligned to the organization structure.
 
+Each capability occurs only once in a capability map, whereas in a functional decomposition of the enterprise the same sub-function can occur multiple times.
+
+= Kapabilitetsbasert analyse
+TBD.
 
 = Kapabilitetsbasert planlegging
 include::kapabilitetsbasert-planlegging.adoc[]
-
-TBD.
 
 = Kilder til kunnskap
 
