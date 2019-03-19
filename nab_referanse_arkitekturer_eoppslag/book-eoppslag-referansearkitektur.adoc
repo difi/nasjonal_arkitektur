@@ -76,21 +76,26 @@ image:./media/Deling på forespørsel.png[alt="Bilde mangler", width=750]
 |===
 
 === Detaljerte beskrivelser
-I dette kapittelet detaljeres kapabilitetene som inngår i deling av data på forespørsel. Modellen består av tre nivåer. I midten er det spesifisert noen prosessteg som realiserer kapabiliteten. Det vil si at kan du gjennomføre prosesstegene innehar du evnen kapabiliten beskriver.
+I dette kapittelet beskrives lapabilitetene som inngår i eOppslag. Modellen består av tre nivåer. 
 
-Nederst i figuren er det beskrevet de fellestjenestene og elementene som støtter prosessene.
+* I midten er det spesifisert noen prosessteg som realiserer kapabiliteten. Det vil si at kan du gjennomføre prosesstegene innehar du evnen kapabiliten beskriver.
 
-Øverst i figurene er det en knytning til hvilken kapabilitet dette er en del av, rollen som utfører prosesstegene og eventuelle andre avhengigheter som må på plass for å kunne gjennomføre prosessene, f.eks. inngå bilaterale avtaler.
+
+* Nederst i figuren er det beskrevet de fellestjenestene og elementene som støtter prosessene.
+
+* Øverst i figurene er det en knytning til hvilken kapabilitet dette er en del av, rollen som utfører prosesstegene og eventuelle andre avhengigheter som må på plass for å kunne gjennomføre prosessene, f.eks. inngå bilaterale avtaler.
 
 De grunnleggende elementene i modellene i kapittelet foklares i denne figuren:
 
 image:./media/forklaring prosess.png[alt="Bilde mangler", width=250]
 
 
-===== Registrering av sikkert API
+===== Registrering av API
 
-Modellen under detaljerer kapabiliteten "Registerering av sikkert API". 
-image:./media/registrere API.png[alt="Bilde mangler", width=750]
+Modellen under detaljerer kapabiliteten "Registerering av sikkert API". Dette er det tilbyder av data må gjennomføre for å gjøre et API synlig og tilgjengelig gjennom fellesløsninger. Registrering av konsumenters rettigheter og tilganger inngå også som et prosessteg. Dersom det er registrering av et åpent API er det kun relevante prossessteg som utføres.
+
+
+image:../nab_referansearkitekturer_eoppslag/media/registrere API.png[alt="Bilde mangler", width=750]
 
 [cols ="1,1,3", options="header"]
 .Elementer i figur for registrering av API
@@ -115,9 +120,9 @@ image:./media/registrere API.png[alt="Bilde mangler", width=750]
 |Prosess
 |Prosess for tilbyder å registrere API i nasjonale fellesløsninger så det blir letter tilgjengelig for konsumenter.
 
-|Tildele tilganger til API
+|Registrere tilganger til API
 |Prosess
-|Prosess for å tildele tilganger til de virksomheter som har et gyldig behandlingsgrunnlag og som har inngått avtale om tilgang til data.
+|Prosess for å registrere tilganger til de virksomheter som har et gyldig behandlingsgrunnlag og som har inngått avtale om tilgang til data.
 
 |Bruksvilkår
 |Forretningsobjekt
