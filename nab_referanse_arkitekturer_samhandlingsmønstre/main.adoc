@@ -131,3 +131,4 @@ image:./media/Forespørsel om informasjon uten umiddelbar respons.png[alt="bad!"
 
 .Figur: Samhandlingsmønste og kvalitetskrav
 image:../nab_referanse_arkitekturer/media/samhandlingsmønstre-og-kvalitetskrav.png[]
+

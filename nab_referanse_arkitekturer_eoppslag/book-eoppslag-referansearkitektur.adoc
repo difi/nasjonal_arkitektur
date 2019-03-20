@@ -25,7 +25,7 @@ Tilbyder må kunne tilggjengeliggjøre data og dette er delt i to kapabiliteter 
 
 Tilsvarende er det tre detaljerte kapabiliteter tilknyttet konsument. Få tilgang til API" består av prosesser for oppsett tilgang, "Delegering av rettigheter til databehandler" må gjøres dersom konsument benytter seg av en databehandler og "Slå opp data gjennom synkront API" er det konsumenten må gjøre hver gang det gjøres et oppslag.
 
-image:./media/Deling på forespørsel.png[alt="Bilde mangler", width=750]
+image:../nab_referanse_arkitekturer/media/Deling på forespørsel.png[alt="Bilde mangler", width=750]
 
 [cols ="1,1,3", options="header"]
 .Elementer i figur for deling av data på forespørsel
@@ -87,7 +87,7 @@ I dette kapittelet beskrives lapabilitetene som inngår i eOppslag. Modellen bes
 
 De grunnleggende elementene i modellene i kapittelet foklares i denne figuren:
 
-image:./media/forklaring prosess.png[alt="Bilde mangler", width=250]
+image:../nab_referanse_arkitekturer/media/forklaring prosess.png[alt="Bilde mangler", width=250]
 
 
 ===== Registrering av API
@@ -95,7 +95,7 @@ image:./media/forklaring prosess.png[alt="Bilde mangler", width=250]
 Modellen under detaljerer kapabiliteten "Registerering av sikkert API". Dette er det tilbyder av data må gjennomføre for å gjøre et API synlig og tilgjengelig gjennom fellesløsninger. Registrering av konsumenters rettigheter og tilganger inngå også som et prosessteg. Dersom det er registrering av et åpent API er det kun relevante prossessteg som utføres.
 
 
-image:../nab_referansearkitekturer_eoppslag/media/registrere API.png[alt="Bilde mangler", width=750]
+image:../nab_referanse_arkitekturer/media/registrere API.png[alt="Bilde mangler", width=750]
 
 [cols ="1,1,3", options="header"]
 .Elementer i figur for registrering av API
@@ -155,7 +155,7 @@ image:../nab_referansearkitekturer_eoppslag/media/registrere API.png[alt="Bilde 
 Modellen under detaljerer kapabiliteten "Avgi forespurte data". Dette er det tilbyder av data må gjøre for å svare på en forespørsel. Prosessen kontrollere tilgang gjøres kun dersom det er enakk om å avgi data gjennom et sikret API.
 
 
-image:./media/avgi data.png[alt="Bilde mangler", width=400]
+image:../nab_referanse_arkitekturer/media/avgi data.png[alt="Bilde mangler", width=400]
 
 
 [cols ="1,1,3", options="header"]
@@ -192,7 +192,7 @@ image:./media/avgi data.png[alt="Bilde mangler", width=400]
 Modellen under detaljerer kapabiliteten "Få tilgang til API". Dette er det en konsument av data må gjøre for å få tilgang til data gjennom et API. Det omfatter å få kjennskap til APIet, inngå avtaler om bruk av data og fellesløsninger, og registrere den teknsike komponenten som skal utføre tjenestekallet. Dersom det er tilgang til et åpent API er det kun relevante prossessteg som utføres.
 
 
-image:./media/få tilgang til API.png[alt="Bilde mangler", width=750]
+image:../nab_referanse_arkitekturer/media/få tilgang til API.png[alt="Bilde mangler", width=750]
 
 
 [cols ="1,1,3", options="header"]
@@ -244,7 +244,7 @@ image:./media/få tilgang til API.png[alt="Bilde mangler", width=750]
 ===== Delegering av rettigheter til databehandler
 Modellen under detaljerer kapabiliteten "Delegering av rettigheter til databehandler". Dette er det en konsument må gjøre for at en leverandør kan identifisere seg med sitt eget virksomhetssertifikat og opptre på vegne av konsumenten som er den som innehar behandlingsgrunnlaget for å innhente data.
 
-image:./media/delegering av rettigheter.png[alt="Bilde mangler", width=350]
+image:../nab_referanse_arkitekturer/media/delegering av rettigheter.png[alt="Bilde mangler", width=350]
 
 [cols ="1,1,3", options="header"]
 .Elementer i figur for delegering av rettigheter til databehandler
@@ -278,7 +278,7 @@ image:./media/delegering av rettigheter.png[alt="Bilde mangler", width=350]
 ===== Slå opp data gjennom et API
 Modellen under detaljerer kapabiliteten "Slå opp data gjennom et API". Dette er det en konsument må gjøre når det utføres et tjenestekall for å innhente data gjennom et API. Dersom det er et åpent API er det kun relevante prossessteg som utføres.
 
-image:./media/slå opp data.png[alt="Bilde mangler", width=350]
+image:../nab_referanse_arkitekturer/media/slå opp data.png[alt="Bilde mangler", width=350]
 
 [cols ="1,1,3", options="header"]
 .Elementer i figur for å slå opp data

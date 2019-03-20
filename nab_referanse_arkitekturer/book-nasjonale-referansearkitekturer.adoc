@@ -47,6 +47,6 @@ include::deling_forespørsel.adoc[]
 = Informasjonssikkerhet (felles)
 include::../nab_referanse_arkitekturer_informasjonssikkerhet/main.adoc[]
 
-image:../plattform_felles/media/i-arbeid.png[width=75, height=75] I arbeid... BØR DETTE KAPITLET TAS UT?
+image:../plattform_felles/media/i-arbeid.png[width=75, height=75] I arbeid - BØR DETTE KAPITLET TAS UT?
 
 
