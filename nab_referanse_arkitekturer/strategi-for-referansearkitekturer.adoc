@@ -2,7 +2,7 @@
 :doctitle: Strategi for arbeidet med referansearkitekturer
 :keywords: Referansearkitekturer
 
-:toclevels: 3
+:toclevels: 4
 
 include::../plattform_felles/includes/commonincludes.adoc[]
 
@@ -33,7 +33,7 @@ image:../nab_referanse_arkitekturer\media/kapabilitetsområder-datautveksling.pn
 === Kapabiliteter innen området datautveksling
 .Figur: Kapabiliteter for deling av data innen underområder av kapabilitetsområdet for Datautveksling
 
-image:../plattform_felles/media/i-arbeid.png[width=75, height=75] [red]#NB! Fiks navn (og objekter) på "områdene", så de stemmer med det foregående.#
+image:../plattform_felles/media/i-arbeid.png[width=75, height=75] [red]#NB! Fiks navn (og objekter) på "områdene", så de stemmer med det foregående. Også vurder flytting til seperat kapittel.#
 image:../nab_referanse_arkitekturer/media/kapabiliteter-datautveksling-overordnet.png[alt="Bilde mangler", width=750]
 
 ==== Deling av data ved forsendelse
@@ -51,7 +51,6 @@ Deling av data initiert av databruker. Dette kan være å spørre om data gjenno
 Data gjennom en tjeneste/API kan gi mer avanserte tilganger for spørring i datasett med ulike metoder og tilgangsnivåer. Dette vil være måten å dele data nært opp til sanntid for bruk i saksbehandlingsprosesser og liknende når tilgangskal gis etter hvilke rettigheter den enkelte bruker har til dataene. Et eksempel på dette er oppslag i folkeregisteret hvor ulike brukere kan ha ulike tilganger etter hva de har av hjemler og behov. 
 
 //Dette området jobbes det med gjennom #prosjektet# eOppslag.
-
 
 ==== Hendelsesdrevet deling av data
 Med hendelsesdrevet deling av data menes det deling som er initiert av en tilstandsendring i dataene som deles. Databruker leser eller abonnerer på hendelseslister og dette trigger eventuell videre oppfølging. Databruker må vurdere om endringen skal følges opp og lese data på forespørsel. 
