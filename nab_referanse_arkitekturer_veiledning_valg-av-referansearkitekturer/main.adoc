@@ -47,6 +47,3 @@ include::./metode-eif-forretningsdrevet.adoc[]
 
 :leveloffset: -2
 
-== Annen veiledning
-
-image:../plattform_felles/media/i-arbeid.png[width=75, height=75]I arbeid

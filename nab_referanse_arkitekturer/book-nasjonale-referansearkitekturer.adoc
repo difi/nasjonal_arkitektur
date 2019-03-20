@@ -19,12 +19,15 @@ include::../nab_referanse_arkitekturer/om-referansearkitekturer.adoc[]
 = Strategi for arbeidet med referansearkitekturer
 include::../nab_referanse_arkitekturer/strategi-for-referansearkitekturer.adoc[]
 
-//= Funksjonsområder for referansearkitekturer (kapabiliteter)
-//include::../nab_referanse_arkitekturer/kapabilitetsområder.adoc[]
+////
+= Funksjonsområder for referansearkitekturer (kapabiliteter)
+include::../nab_referanse_arkitekturer/kapabilitetsområder.adoc[]
+////
 
-
-//= Brukstilfeller (samhandlingsmønstre)
-//include::../nab_referanse_arkitekturer_samhandlingsmønstre/main.adoc[]
+////
+= Brukstilfeller (samhandlingsmønstre)
+include::../nab_referanse_arkitekturer_samhandlingsmønstre/main.adoc[]
+////
 
 = Spesifikke referansearkitekturer
 include::../nab_referanse_arkitekturer/spesifikke-referansearkitekturer.adoc[]
@@ -35,14 +38,15 @@ include::../nab_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer/
 
 //Se . link:../nab_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer[Veiledning til valg av referansearkitekturer]
 
-
+////
 = Beskrivelse av referansearkitektur for deling av data på forespørsel 
 include::deling_forespørsel.adoc[]
+////
 
 
 = Informasjonssikkerhet (felles)
 include::../nab_referanse_arkitekturer_informasjonssikkerhet/main.adoc[]
 
-image:../plattform_felles/media/i-arbeid.png[width=75, height=75] I arbeid
+image:../plattform_felles/media/i-arbeid.png[width=75, height=75] I arbeid... BØR DETTE KAPITLET TAS UT?
 
 
