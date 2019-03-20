@@ -60,7 +60,8 @@ Et eksempel er modernisert folkeregister hvor brukere kan abonnere på endringer
 Det er foreløpig ikke startet arbeid med referansearkitektur for hendelsesdrevet deling av data.
 
 
-== Identifiserte referansearkitekturer innen hvert kapabilitetsområde
+== Identifiserte referansearkitekturer
+
 Følgende figur viser en foreløpig oversikt over aktuelle referansearkitekturer innen respektive kapabilitetsområder.
 
 .Figur: Katalog over referansearkitekturer innen aktuelle kapabilitetsområder i Nasjonal arkitektur (i arbeid)

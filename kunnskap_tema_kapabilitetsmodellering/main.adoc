@@ -1,1 +1,1 @@
-include::book-kapabilitetsmodellering.adoc[]
+include::book-kapabilitetsbasert-modellering-og-analyse.adoc[]

@@ -1,5 +1,5 @@
 :lang: no
-:doctitle: Kapabilitetsbasert modellering, analyse og planlegging
+:doctitle: Kapabilitetsbasert modellering og analyse
 
 include::../plattform_felles/includes/commonincludes.adoc[]
 
@@ -63,3 +63,4 @@ include::kapabilitetsbasert-planlegging.adoc[]
 . link:https://bizzdesign.com/blog/archimate-3-0-capability-mapping/[ArchiMate® 3.0 – Capability Mapping (Bizzdesign blog)]
 . link:https://bizzdesign.com/blog/archimate-3.0-capability-analysis/[ArchiMate® 3.0 – Capability Analysis (Bizzdesign blog)]
 . link:https://bizzdesign.com/blog/archimate-3.0-capability-realization/[ArchiMate® 3.0 – Capability Realization (Bizzdesign blog)]
+. link:https://www.enterprise-architecture.org/docs/business_architecture/business_capability_modelling/[Business Capability Modelling (enterprise-architecture.org)]
