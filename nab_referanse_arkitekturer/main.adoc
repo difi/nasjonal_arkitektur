@@ -1,3 +1,6 @@
+include::./book-nasjonale-referansearkitekturer.adoc[]
+
+////
 :lang: no
 :doctitle: Nasjonale referansearkitekturer
 :keywords: Norsk, arkitekturbibliotek, offenlig sektor, virksomhetsarkitektur, NIF, samhandlingsarkitektur, rammeverk, Referansearkitekturer
@@ -40,12 +43,14 @@ include::../nab_referanse_arkitekturer/spesifikke-referansearkitekturer.adoc[]
 Se . link:../nab_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer[Veiledning til valg av referansearkitekturer]
 
 //include::../nab_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer/main.adoc[]
+////
 
 ////
 = Beskrivelse av referansearkitektur for eOppslag
 include::deling_forespørsel.adoc[]
 ////
 
+////
 = Informasjonssikkerhet (felles)
 include::../nab_referanse_arkitekturer_informasjonssikkerhet/main.adoc[]
 
@@ -54,6 +59,7 @@ Kommer.
 = Beste praksis eOppslag
 
 Kommer
+////
 
 ////
 == Spesifikke referansearkitekurer
@@ -70,4 +76,4 @@ Kommer.
 :leveloffset: +2
 include::../nab_referanse_arkitekturer_eoppslag/eOppslag-Referansearkitektur.adoc[]
 
-//include::./book-nasjonale-referansearkitekturer.adoc[]
+
