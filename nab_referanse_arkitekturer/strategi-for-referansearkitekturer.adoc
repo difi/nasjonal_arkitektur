@@ -33,7 +33,7 @@ image:../nab_referanse_arkitekturer\media/kapabilitetsområder-datautveksling.pn
 === Kapabiliteter innen området datautveksling
 .Figur: Kapabiliteter for deling av data innen underområder av kapabilitetsområdet for Datautveksling
 
-image:../plattform_felles/media/i-arbeid.png[width=75, height=75] [red]#NB! Fiks navn (og objekter) på "områdene", så de stemmer med det foregående. Også vurder flytting til seperat kapittel.#
+image:../plattform_felles/media/i-arbeid.png[width=75, height=75] [red]#NB! Fiks navn på "områdene", så de stemmer med det foregående. Også vurder flytting?#
 image:../nab_referanse_arkitekturer/media/kapabiliteter-datautveksling-overordnet.png[alt="Bilde mangler", width=750]
 
 ==== Deling av data ved forsendelse

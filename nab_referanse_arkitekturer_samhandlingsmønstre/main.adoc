@@ -4,13 +4,18 @@
 
 include::../plattform_felles/includes/commonincludes.adoc[]
 
+image:../plattform_felles/media/i-arbeid.png[width=75, height=75] I arbeid... BØR DETTE KAPITLET TAS UT? Kan det  dekkes gjennom omtale av kapabiliteter og kvalitetskrav?
 
 //image:./media/Samhandlingsevne.png[alt="Samhandlingsevne", width=750]
 
 == Generelt om samhandlingsmønstre
 
-Digital samhandling mellom virksomheter kan utføres på et begrenset antall måter sett fra et forretningsståsted. Vi kaller dette samhandlingsmønstre. Samhandlingsmønstre sier ikke noe om hvilken teknologi som skal benyttes, men sier noe om hvilken egenskap samhandlingen skal ha. Det er til nå identifisert seks forskjellige samhandlingsmønstre.
+Digital samhandling mellom virksomheter kan utføres på et begrenset antall måter sett fra et forretningsståsted. Vi kaller dette samhandlingsmønstre. Samhandlingsmønstre sier ikke noe om hvilken teknologi som skal benyttes, men sier noe om hvilken egenskap samhandlingen skal ha. 
 
+//Det er til nå identifisert seks forskjellige samhandlingsmønstre.
+
+
+== Aktuelle samhandlingsmønstre
 //Henrik: Har skrevet inn de seks mønstrene Håkon presenterte i forrige møte
 
 ****
@@ -37,10 +42,15 @@ Notifikasjon til mange
 Garantert leveranse av informasjon til annen kjent part. Avsender skal være trygg på at mottager får informasjonen. Mottager behøver informasjonen umiddelbart.
 ****
 
+
+//Hvert enkelt samhandlingsmønster beskrives i mer detalj under og for hvert samhandlingsmønster pekes det på hvilken referansearkitektur som skal benyttes for samhandlingen.
+
 //image:./media/Mønstre samhandling.png[alt="alt="missing image", width=750]
 
-Hvert enkelt samhandlingsmønster beskrives i mer detalj under og for hvert samhandlingsmønster pekes det på hvilken referansearkitektur som skal benyttes for samhandlingen.
 
+
+
+////
 == Beskrivelser av samhandlingsmønstre
 
 //Henrik: Har laget en tabell av det Anne Lise beskrev i epost før sist møte
@@ -114,3 +124,10 @@ image:./media/Notifikasjon til mange.png[alt="bad!", width=750]
 === Forespørsel om informasjon – ikke "umiddelbar" respons
 
 image:./media/Forespørsel om informasjon uten umiddelbar respons.png[alt="bad!", width=750]
+////
+
+== Samhandlingsmønste og kvalitetskrav
+
+
+.Figur: Samhandlingsmønste og kvalitetskrav
+image:../nab_referanse_arkitekturer/media/samhandlingsmønstre-og-kvalitetskrav.png[]
