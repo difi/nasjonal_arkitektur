@@ -4,7 +4,7 @@
 include::../plattform_felles/includes/commonincludes.adoc[]
 
 [.lead]
-Begrepet _kapabilitet_ benyttes  
+_Kapabiliteter_ angir hva som må kunne gjøres, ikke hvordan. En gjennomtenkt kapabilitetsoversikt kan holdes fast, mens realisering i prosesser og systemer typisk vil endre seg over tid.
 
 
 //image:../plattform_felles/media/i-arbeid.png[width=75, height=75] Uferdig innhold
@@ -16,7 +16,7 @@ Begrepet _kapabilitet_ benyttes
 :leveloffset: +1
 = Generelt
 
-* En kapabilitet er en evne som er forbundet med en aktør i dform av av en organisasjon, en person eller et teknisk system.
+* En kapabilitet er en evne som er forbundet med en aktør i form av av en organisasjon, en person eller et teknisk system.
 * Kapabiliterer realiseres gjennom organisasjoner, mennesker, prosesser og teknologier, gjerne i kombinasjon.
 * Kapabiliterer sier noe om hva en aktør må kunne gjøre, ikke hvordan.
 * Mens realiseringen av en kapabilitet er gjenstand for endring, kan navn og betydning av selve kapabiliteten holdes fast.

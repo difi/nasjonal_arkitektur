@@ -39,13 +39,13 @@ Hvert av områdene vil støttes av en referansearkitektur og det er en overordne
 De tre første områdene omhandler ulike mønstre for deling av data:
 
 
-image:./media/Referansearkitekturer deling av data.png[alt="Bilde mangler", width=750]
+image:../nab_referanse_arkitekturer/media/Referansearkitekturer deling av data.png[alt="Bilde mangler", width=750]
 
-
+////
 De to neste handler om oppdatering og tilbakemelding på data. Dette er foreløpig et mer umodent område:
 
 image:./media/Referansearkitekturer oppdatering.png[alt="Bilde mangler", width=750]
-
+////
 
 === Deling av data ved forsendelse
 Dette er deling av informasjon og data initiert av avsender. Det vil normalt være behov og/eller forventning om oppfølging fra mottaker. 
@@ -61,7 +61,7 @@ Deling av data initiert av databruker. Dette kan være å spørre om data gjenno
 
 Data gjennom en tjeneste/API kan gi mer avanserte tilganger for spørring i datasett med ulike metoder og tilgangsnivåer. Dette vil være måten å dele data nært opp til sanntid for bruk i saksbehandlingsprosesser og liknende når tilgangskal gis etter hvilke rettigheter den enkelte bruker har til dataene. Et eksempel på dette er oppslag i folkeregisteret hvor ulike brukere kan ha ulike tilganger etter hva de har av hjemler og behov. 
 
-Dette området jobbes det med gjennom #prosjektet# eOppslag.
+//Dette området jobbes det med gjennom #prosjektet# eOppslag.
 
 
 === Hendelsesdrevet deling av data
