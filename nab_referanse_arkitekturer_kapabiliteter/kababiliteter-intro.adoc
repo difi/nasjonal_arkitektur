@@ -1,0 +1,12 @@
+:lang: no
+:doctitle: Introduksjon til eMelding referansearkitektur
+:keywords: eMelding
+
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+
+Meldingsutveksling ved eMelding er karakterisert ved asynkron informasjonsforsendelse (push), og kan sammenlignes med å sende en e-post eller SMS. Mottakeren beslutter selv når og hvordan sin del av forretningsprosessen skal startes. Dette mønsteret egner seg når en virksomhet ikke har kontroll på hvordan eller når en mottaker kommer til å utføre sin del av forretningsprosessen.
+
+Formålet med referansearkitekturen for eMelding er å beskrive hvordan meldingsutveksling bør skje internt i offentlig sektor, samt mellom offentlig sektor og privat sektor, basert på den europeiske byggeklossen CEF eDelivery. Bruk av referansearkitektur vil forenkle utvikling, drift og forvaltning av meldingsutveksling og legge til rette for nye meldingsutvekslingsmønstre.
+
+Referansearkitekturen definerer roller og plasserer ansvar, veileder og stiller krav til arkitektur og standarder som skal benyttes når meldinger utveksles, basert på beste praksis i EU. Den peker også på konkrete løsninger som kan benyttes.

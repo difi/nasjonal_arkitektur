@@ -15,7 +15,8 @@ Se https://asciidoctor.org/.
 
 
 == Asciidoctor extensions
-https://asciidoctor.org/docs/extensions/
+. https://asciidoctor.org/docs/extensions/
 
+. https://github.com/asciidoctor/asciidoctor-extensions-lab/
 
-image:../plattform_felles/media/i-arbeid.png[width=75, height=75] I arbeid
+//image:../plattform_felles/media/i-arbeid.png[width=75, height=75] I arbeid
