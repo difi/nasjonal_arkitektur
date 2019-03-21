@@ -84,7 +84,8 @@ Plattform for utvikling og drift av kommunale applikasjonstjenester som benyttes
 Meldingstjeneste på FIKS-plattformen som formidler avsenders forsendelse via den kanalen mottaker har valgt.
 
 
-. link:../nab_løsningslandskap_sbb_kartverket-matrikkelen/[Matrikkelen]
+//. link:../nab_løsningslandskap_sbb_kartverket-matrikkelen/[Matrikkelen]
+. link:../nab_sbb_kartverket-matrikkelen/[Matrikkelen]
 +
 Nasjonalt grunndataregister for informasjon om eiendom.
 
