@@ -28,8 +28,7 @@ image:../nab_referanse_arkitekturer\media/kapabilitetsområder-datadeling.png[]
 .Figur: Kapabilitetsområder innen datautveksling (i arbeid)
 image:../nab_referanse_arkitekturer\media/kapabilitetsområder-datautveksling.png[]
 
-== Detaljering av kapabiliteter innen aktuelle områder
-
+== Kapabiliteter
 === Kapabiliteter innen området datautveksling
 .Figur: Kapabiliteter for deling av data innen underområder av kapabilitetsområdet for Datautveksling
 
@@ -61,7 +60,7 @@ Det er foreløpig ikke startet arbeid med referansearkitektur for hendelsesdreve
 
 
 == Identifiserte referansearkitekturer
-
+    
 Følgende figur viser en foreløpig oversikt over aktuelle referansearkitekturer innen respektive kapabilitetsområder.
 
 .Figur: Katalog over referansearkitekturer innen aktuelle kapabilitetsområder i Nasjonal arkitektur (i arbeid)
