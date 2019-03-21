@@ -1,1 +1,7 @@
 
+[submodule "nab_sbb_altinn-tilgangsstyring"]
+	path = nab_sbb_altinn-tilgangsstyring
+	url = https://github.com/nasjonal-arkitektur/nab_sbb_altinn-tilgangsstyring
+[submodule "nab_sbb_kartverket-matrikkelen"]
+	path = nab_sbb_kartverket-matrikkelen
+	url = https://github.com/nasjonal-arkitektur/nab_sbb_kartverket-matrikkelen
