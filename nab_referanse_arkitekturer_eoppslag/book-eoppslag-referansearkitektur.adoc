@@ -90,7 +90,7 @@ De grunnleggende elementene i modellene i kapittelet foklares i denne figuren:
 image:../nab_referanse_arkitekturer/media/forklaring prosess.png[alt="Bilde mangler", width=250]
 
 
-==== Registrering av API
+=== Registrering av API
 
 Modellen under detaljerer kapabiliteten "Registerering av sikkert API". Dette er det tilbyder av data må gjennomføre for å gjøre et API synlig og tilgjengelig gjennom fellesløsninger. Registrering av konsumenters rettigheter og tilganger inngå også som et prosessteg. Dersom det er registrering av et åpent API er det kun relevante prossessteg som utføres.
 
@@ -151,7 +151,7 @@ image:../nab_referanse_arkitekturer/media/registrere API.png[alt="Bilde mangler"
 |===
 
 
-==== Avgi forespurte data
+=== Avgi forespurte data
 Modellen under detaljerer kapabiliteten "Avgi forespurte data". Dette er det tilbyder av data må gjøre for å svare på en forespørsel. Prosessen kontrollere tilgang gjøres kun dersom det er enakk om å avgi data gjennom et sikret API.
 
 
@@ -188,7 +188,7 @@ image:../nab_referanse_arkitekturer/media/avgi data.png[alt="Bilde mangler", wid
 |===
 
 
-==== Få tilgang til API
+=== Få tilgang til API
 Modellen under detaljerer kapabiliteten "Få tilgang til API". Dette er det en konsument av data må gjøre for å få tilgang til data gjennom et API. Det omfatter å få kjennskap til APIet, inngå avtaler om bruk av data og fellesløsninger, og registrere den teknsike komponenten som skal utføre tjenestekallet. Dersom det er tilgang til et åpent API er det kun relevante prossessteg som utføres.
 
 
@@ -241,7 +241,7 @@ image:../nab_referanse_arkitekturer/media/få tilgang til API.png[alt="Bilde man
 |===
 
 
-==== Delegering av rettigheter til databehandler
+=== Delegering av rettigheter til databehandler
 Modellen under detaljerer kapabiliteten "Delegering av rettigheter til databehandler". Dette er det en konsument må gjøre for at en leverandør kan identifisere seg med sitt eget virksomhetssertifikat og opptre på vegne av konsumenten som er den som innehar behandlingsgrunnlaget for å innhente data.
 
 image:../nab_referanse_arkitekturer/media/delegering av rettigheter.png[alt="Bilde mangler", width=350]
@@ -275,7 +275,7 @@ image:../nab_referanse_arkitekturer/media/delegering av rettigheter.png[alt="Bil
 
 |===
 
-==== Slå opp data gjennom et API
+=== Slå opp data gjennom et API
 Modellen under detaljerer kapabiliteten "Slå opp data gjennom et API". Dette er det en konsument må gjøre når det utføres et tjenestekall for å innhente data gjennom et API. Dersom det er et åpent API er det kun relevante prossessteg som utføres.
 
 image:../nab_referanse_arkitekturer/media/slå opp data.png[alt="Bilde mangler", width=350]
