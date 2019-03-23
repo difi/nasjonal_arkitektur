@@ -25,7 +25,7 @@ Fokus her er i første omgang på metadata, dvs. hvordan løsninger bør beskriv
 include::gjenbruk-med-eu-srf.adoc[]
 
 = TES Cartography (TESCart)
-include::gjenbruk-med-eu-tes-cartography.adoc[]
+include::../kunnskap_aktør_eu_tes-cartography/main.adoc[]
 
 = IMAPS
 include::../kunnskap_aktør_eu_imaps/main.adoc[]
