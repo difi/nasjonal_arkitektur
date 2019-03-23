@@ -24,3 +24,5 @@ image:../nab_referanse_arkitekturer/media/kvalitetsegenskaper-for-valg-av-refera
 = Samhandlingsmønstre
 include::../nab_referanse_modeller_samhandlingsmønstre/main.adoc[]
 :leveloffset: -1
+
+
