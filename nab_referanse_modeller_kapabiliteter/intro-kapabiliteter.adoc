@@ -1,0 +1,21 @@
+:lang: no
+:doctitle: Introduksjon til kapabilitetskart for nasjonal arkitektur
+:keywords: eMelding
+:toclevels: 3
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+Inndeling i _kapabilitetsområder_ tilsvarer det som TOGAF 9.2 på engelsk kaller _"subject areas"_ eller _segments_. Dette kan ses på som en gruppering av kapabiliteter som en ønsker å adressere samlet, enten gjennom gjennom _referansearkitekturer_ eller mer spesifikke __segmentarkitekturer__.
+
+
+Overordnede kapabilitetsområder brytes ned i mer spesifikke områder, ned til konkrete kapabiliteter på laveste nivå. For hver kapabilitet angis rolle(r)  (mennesker eller systemer) som kapabiliteten gjelder for.
+
+//Dette gir et samlet kapabilitetskart, og kan fungere som en fellesoffentlig taksonomi for kapabiliteter.
+
+
+WARNING: Siden begrepene som benyttes her kan virke fremmedgjørende for noen lesergrupper, bør definisjon av synonyme begreper vurderes. For å unngå sammenblanding med andre begreper som har vært brukt om tilsvarende (slik som f.eks. funksjonsområder), benyttes her inntil videre begrepene _kapabilitetsområder_ og _kapabiliteter_.
+
+
+NOTE: Se også link:../kunnskap_tema_kapabilitetsmodellering/[egen omtale av temaene rundt kapabiliteter og kapabilitetsmodellering].
+
+
+//Hvert _kapabilitetsområde_ kan adresseres av en eller flere _referansearkitekturer_. Formålet med å ha flere referansearkitekturer for samme område, kan være å gi ulike visninger for ulike målgrupper eller å bryte opp et komplekst bilde i enklere deler. 
