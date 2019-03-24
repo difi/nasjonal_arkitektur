@@ -75,7 +75,11 @@ image:../nab_referanse_arkitekturer/media/Deling på forespørsel.png[alt="Bilde
 
 |===
 
-== Detaljerte beskrivelser
+//== Detaljerte 
+beskrivelser 
+
+== Arkitekturmønstre (konseptuelle  beskrivelser, kun arkitekturbyggeklosser)
+
 I dette kapittelet beskrives lapabilitetene som inngår i eOppslag. Modellen består av tre nivåer. 
 
 * I midten er det spesifisert noen prosessteg som realiserer kapabiliteten. Det vil si at kan du gjennomføre prosesstegene innehar du evnen kapabiliten beskriver.
@@ -310,7 +314,9 @@ image:../nab_referanse_arkitekturer/media/slå opp data.png[alt="Bilde mangler",
 |Representasjonstjeneste
 |Forretningstjeneste
 |Tjeneste som gir oversikt over representasjonsforhold. Benyttes av tokentjeneste dersom en leverandør skal få tilgang på vegne av en konsument
-
 |===
+
+== Løsningsmønstre (logiske beskrivelser med arkitekturbyggeklosser og aktuelle løsningsbyggeklosser)
+TBD.
 
 
