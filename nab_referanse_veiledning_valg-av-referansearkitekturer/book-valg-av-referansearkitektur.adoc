@@ -1,0 +1,24 @@
+:lang: no
+:doctitle: Veiledning til valg av referansearkitekturer 
+
+:toclevels: 4
+
+:keywords: Norsk, arkitekturbibliotek, offenlig sektor, virksomhetsarkitektur, NIF, samhandlingsarkitektur, rammeverk, GitHub
+
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+:leveloffset: +1
+
+= Begrepsapparat i tilknytning til valg av referansearkitekturer for datautveksling 
+include::./begrepsapparat.adoc[]
+
+
+= Metode basert på vurdering av kapabiliteter og kvalitetskrav
+include::./metode-kapabiliter-og-kvalitetskrav.adoc[]
+
+
+= Metode for valg av referansearkitekturer i tverrgående samhandlingsløsninger
+
+include::./metode-eif-forretningsdrevet.adoc[]
+
+:leveloffset: -1

@@ -3,7 +3,7 @@
 :keywords: Referansearkitekturer
 
 include::../plattform_felles/includes/commonincludes.adoc[]
-=== Om eOppslag
+== Om eOppslag
 
 eOppslag er en delmengde av kapabilitesområdet deling av data på forespørsel. Mønsteret dekker oppslag i informasjon, hvilket vil si forespørsel om informasjon mellom to parter, hvor en prosess hos konsumenten typisk er avhengig av informasjon fra tilbyder for å fortsette.
 
@@ -12,13 +12,13 @@ Beskrivelsen her er avgrenset til det å tilby og konsumere data gjennom synkron
 I innledningen til referansearkitekturer er det skissert ulike kapabilitetsområder og identifisert overordnede kapabiliteter som inngår i de ulike referansearkitekturene. I dette kapittelet detaljeres kapabilitetene tilknyttet eOppslag.
 
 
-=== Struktur på beskrivelsen
+== Struktur på beskrivelsen
 Første modellen i beskrivelsen detaljerer de overordnede kapabilitetene som inngår i eOppslag. Disse kapabilitetene beskrives videre i hver sin modell og detaljeres gjennom prosesstegene som skal til for å realisere kapabiliteten. Det vises også til forretningstjenestene og noe av kjerneinformasjonen som benyttes i prosessene.
 
 Modellene viser relasjonene mellom de ulike elementene og elementene er forklart i tabellene under hver modell. Elementer som benyttes flere ganger, f.eks. rollen som tilbyder, forklares kun tilknyttet modellen på høyest nivå.
 
 
-=== Oversikt eOppslag
+== Oversikt eOppslag
 Modellen under viser de kapabilitetene en tilbyder og en konsument må ha for å dele data gjennom tilgangsstyrte APIer.
 
 Tilbyder må kunne tilggjengeliggjøre data og dette er delt i to kapabiliteter hvor den ene, "Registrering av API" går ut på hvordan man registerer og setter opp tilganger. Den andre kapabiliteten "Avgi forespurte data" er det man gjøre når en konsument gjøre et kall mot det respektive APIet.
@@ -75,7 +75,11 @@ image:../nab_referanse_arkitekturer/media/Deling på forespørsel.png[alt="Bilde
 
 |===
 
-=== Detaljerte beskrivelser
+//== Detaljerte 
+beskrivelser 
+
+== Arkitekturmønstre (konseptuelle  beskrivelser, kun arkitekturbyggeklosser)
+
 I dette kapittelet beskrives lapabilitetene som inngår i eOppslag. Modellen består av tre nivåer. 
 
 * I midten er det spesifisert noen prosessteg som realiserer kapabiliteten. Det vil si at kan du gjennomføre prosesstegene innehar du evnen kapabiliten beskriver.
@@ -90,7 +94,7 @@ De grunnleggende elementene i modellene i kapittelet foklares i denne figuren:
 image:../nab_referanse_arkitekturer/media/forklaring prosess.png[alt="Bilde mangler", width=250]
 
 
-===== Registrering av API
+=== Registrering av API
 
 Modellen under detaljerer kapabiliteten "Registerering av sikkert API". Dette er det tilbyder av data må gjennomføre for å gjøre et API synlig og tilgjengelig gjennom fellesløsninger. Registrering av konsumenters rettigheter og tilganger inngå også som et prosessteg. Dersom det er registrering av et åpent API er det kun relevante prossessteg som utføres.
 
@@ -151,7 +155,7 @@ image:../nab_referanse_arkitekturer/media/registrere API.png[alt="Bilde mangler"
 |===
 
 
-===== Avgi forespurte data
+=== Avgi forespurte data
 Modellen under detaljerer kapabiliteten "Avgi forespurte data". Dette er det tilbyder av data må gjøre for å svare på en forespørsel. Prosessen kontrollere tilgang gjøres kun dersom det er enakk om å avgi data gjennom et sikret API.
 
 
@@ -188,7 +192,7 @@ image:../nab_referanse_arkitekturer/media/avgi data.png[alt="Bilde mangler", wid
 |===
 
 
-===== Få tilgang til API
+=== Få tilgang til API
 Modellen under detaljerer kapabiliteten "Få tilgang til API". Dette er det en konsument av data må gjøre for å få tilgang til data gjennom et API. Det omfatter å få kjennskap til APIet, inngå avtaler om bruk av data og fellesløsninger, og registrere den teknsike komponenten som skal utføre tjenestekallet. Dersom det er tilgang til et åpent API er det kun relevante prossessteg som utføres.
 
 
@@ -241,7 +245,7 @@ image:../nab_referanse_arkitekturer/media/få tilgang til API.png[alt="Bilde man
 |===
 
 
-===== Delegering av rettigheter til databehandler
+=== Delegering av rettigheter til databehandler
 Modellen under detaljerer kapabiliteten "Delegering av rettigheter til databehandler". Dette er det en konsument må gjøre for at en leverandør kan identifisere seg med sitt eget virksomhetssertifikat og opptre på vegne av konsumenten som er den som innehar behandlingsgrunnlaget for å innhente data.
 
 image:../nab_referanse_arkitekturer/media/delegering av rettigheter.png[alt="Bilde mangler", width=350]
@@ -275,7 +279,7 @@ image:../nab_referanse_arkitekturer/media/delegering av rettigheter.png[alt="Bil
 
 |===
 
-===== Slå opp data gjennom et API
+=== Slå opp data gjennom et API
 Modellen under detaljerer kapabiliteten "Slå opp data gjennom et API". Dette er det en konsument må gjøre når det utføres et tjenestekall for å innhente data gjennom et API. Dersom det er et åpent API er det kun relevante prossessteg som utføres.
 
 image:../nab_referanse_arkitekturer/media/slå opp data.png[alt="Bilde mangler", width=350]
@@ -310,7 +314,9 @@ image:../nab_referanse_arkitekturer/media/slå opp data.png[alt="Bilde mangler",
 |Representasjonstjeneste
 |Forretningstjeneste
 |Tjeneste som gir oversikt over representasjonsforhold. Benyttes av tokentjeneste dersom en leverandør skal få tilgang på vegne av en konsument
-
 |===
+
+== Løsningsmønstre (logiske beskrivelser med arkitekturbyggeklosser og aktuelle løsningsbyggeklosser)
+TBD.
 
 

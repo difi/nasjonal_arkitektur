@@ -4,43 +4,37 @@
 
 include::../plattform_felles/includes/commonincludes.adoc[]
 
-image:../plattform_felles/media/i-arbeid.png[width=75, height=75] I arbeid... BØR DETTE KAPITLET TAS UT? Kan det  dekkes gjennom omtale av kapabiliteter og kvalitetskrav?
+//image:../plattform_felles/media/i-arbeid.png[width=45, height=45] 
 
 //image:./media/Samhandlingsevne.png[alt="Samhandlingsevne", width=750]
 
-== Generelt om samhandlingsmønstre
+//== Generelt om samhandlingsmønstre
 
-Digital samhandling mellom virksomheter kan utføres på et begrenset antall måter sett fra et forretningsståsted. Vi kaller dette samhandlingsmønstre. Samhandlingsmønstre sier ikke noe om hvilken teknologi som skal benyttes, men sier noe om hvilken egenskap samhandlingen skal ha. 
+Digital samhandling mellom virksomheter kan utføres på et begrenset antall måter sett fra et forretningsståsted. Vi kaller dette samhandlingsmønstre. Samhandlingsmønstre sier ikke noe om hvilken teknologi som skal benyttes, men sier noe om hvilke egenskaper samhandlingen skal ha. Kvalitetsegenskaper er dermed innebygd i definisjonen av hvert samhandlingsmønstre.
+
+NOTE: Begrepet _samhandlingsmønster_ tilsvarer begrepet _Business Interaction_; ref. Archimate-standarden. 
+
+Identifiserte samhandlingsmønstre er vist i følgende figur, med angivelse av kvalitetsegenskaper.
+
+//== Samhandlingsmønstre og kvalitetsegenskaper
+
+
+.Figur: Samhandlingsmønstre og kvalitetsegenskaper
+image:../nab_referanse_arkitekturer/media/samhandlingsmønstre-og-kvalitetskrav.png[]
+
+
+Logisk nedbryting av samhandlingsmønstre fra generelle til mer spesifikke er vist nedenfor. 
+
+NOTE: En slik nedbryting kan brukes for å identifisere løsningsmønster ut fra behov.  
+
+.Figur: Samhandlingsmønstre hierarki 
+image:../nab_referanse_arkitekturer/media/samhandlingsmønstre-hierarki.png[]
+
+
 
 //Det er til nå identifisert seks forskjellige samhandlingsmønstre.
 
 
-== Aktuelle samhandlingsmønstre
-//Henrik: Har skrevet inn de seks mønstrene Håkon presenterte i forrige møte
-
-****
-Garantert leveranse av informasjon til annen kjent part. Avsender skal være trygg på at mottager får informasjonen. Mottager behøver ikke informasjonen umiddelbart.
-****
-
-****
-Forespørsel om informasjon mellom to parter med «ikke umiddelbar» respons 
-****
-
-****
-Forespørsel om informasjon mellom to parter med «umiddelbar» respons (prosess hos en part er avhengig av informasjon fra annen part for å fortsette) 
-****
-
-****
-Notifikasjon til identifisert part (trigger prosess på tidspunkt mottaker velger)
-****
-
-****
-Notifikasjon til mange
-****
-
-****
-Garantert leveranse av informasjon til annen kjent part. Avsender skal være trygg på at mottager får informasjonen. Mottager behøver informasjonen umiddelbart.
-****
 
 
 //Hvert enkelt samhandlingsmønster beskrives i mer detalj under og for hvert samhandlingsmønster pekes det på hvilken referansearkitektur som skal benyttes for samhandlingen.
@@ -126,9 +120,5 @@ image:./media/Notifikasjon til mange.png[alt="bad!", width=750]
 image:./media/Forespørsel om informasjon uten umiddelbar respons.png[alt="bad!", width=750]
 ////
 
-== Samhandlingsmønste og kvalitetskrav
 
-
-.Figur: Samhandlingsmønste og kvalitetskrav
-image:../nab_referanse_arkitekturer/media/samhandlingsmønstre-og-kvalitetskrav.png[]
 

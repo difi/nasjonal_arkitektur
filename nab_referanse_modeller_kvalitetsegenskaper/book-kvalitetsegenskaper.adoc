@@ -1,0 +1,7 @@
+:lang: no
+:doctitle: Kvalitetsegenskaper
+:keywords: Kvalitetsegenskaper
+
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+TBD.
