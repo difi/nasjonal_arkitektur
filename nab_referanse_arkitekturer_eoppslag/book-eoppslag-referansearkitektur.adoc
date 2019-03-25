@@ -91,7 +91,7 @@ I dette kapittelet beskrives lapabilitetene som inngår i eOppslag. Modellen bes
 
 De grunnleggende elementene i modellene i kapittelet foklares i denne figuren:
 
-image:../nab_referanse_arkitekturer/media/forklaring prosess.png[alt="Bilde mangler", width=250]
+image:../nab_referanse_arkitekturer/media/Forklaring prosess.png[alt="Bilde mangler", width=250]
 
 
 === Registrering av API
