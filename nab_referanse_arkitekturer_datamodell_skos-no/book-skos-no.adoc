@@ -1,0 +1,8 @@
+:lang: no
+:doctitle: SKOS-NO ontologi
+:keywords: Ontologi
+
+include::../plattform_felles/includes/commonincludes.adoc[]
+== Om SKOS-NO
+
+Referanseimplementasjon i OWL av modellen beskrevet i https://doc.difi.no/data/begrep-skos-ap-no/#_begrep[Forvaltningsstandard for tilgjengeliggjøring av begrepsbeskrivelser basert på SKOS (SKOS-AP-NO-Begrep) - Versjon 1.0].
