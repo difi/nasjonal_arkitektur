@@ -319,4 +319,14 @@ image:../nab_referanse_arkitekturer/media/slå opp data.png[alt="Bilde mangler",
 == Løsningsmønstre (logiske beskrivelser med arkitekturbyggeklosser og aktuelle løsningsbyggeklosser)
 TBD.
 
+image:../nab_referanse_arkitekturer_eoppslag/media/registerer_api_app_lag.png[alt="Bilde mangler", width=500]
+
+image:../nab_referanse_arkitekturer_eoppslag/media/avgi_data_app_lag.png[alt="Bilde mangler", width=500]
+
+image:../nab_referanse_arkitekturer_eoppslag/media/få_tilgang_app_lag.png[alt="Bilde mangler", width=500]
+
+image:../nab_referanse_arkitekturer_eoppslag/media/delegere_rettigheter_app_lag.png[alt="Bilde mangler", width=500]
+
+image:../nab_referanse_arkitekturer_eoppslag/media/slå_opp_app_lag.png[alt="Bilde mangler", width=500]
+
 
