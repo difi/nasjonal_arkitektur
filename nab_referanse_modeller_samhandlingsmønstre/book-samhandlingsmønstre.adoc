@@ -14,13 +14,22 @@ Digital samhandling mellom virksomheter kan utføres på et begrenset antall må
 
 NOTE: Begrepet _samhandlingsmønster_ tilsvarer begrepet _Business Interaction_; ref. Archimate-standarden. 
 
-Identifisert samhandlingsmønstre er vist i følgende figur.
+Identifiserte samhandlingsmønstre er vist i følgende figur, med angivelse av kvalitetsegenskaper.
 
 //== Samhandlingsmønstre og kvalitetsegenskaper
 
 
 .Figur: Samhandlingsmønstre og kvalitetsegenskaper
 image:../nab_referanse_arkitekturer/media/samhandlingsmønstre-og-kvalitetskrav.png[]
+
+
+Logisk nedbryting av samhandlingsmønstre fra generelle til mer spesifikke er vist nedenfor. 
+
+NOTE: En slik nedbryting kan brukes for å identifisere løsningsmønster ut fra behov.  
+
+.Figur: Samhandlingsmønstre hierarki 
+image:../nab_referanse_arkitekturer/media/samhandlingsmønstre-hierarki.png[]
+
 
 
 //Det er til nå identifisert seks forskjellige samhandlingsmønstre.

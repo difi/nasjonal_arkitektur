@@ -28,6 +28,10 @@ image:../nab_referanse_veiledning_valg-av-referansearkitekturer\media/fra-samhan
 
 
 == Beslutningstre
+.Figur: Beslutningstre basert på samhandlingsmønstre
+image:../nab_referanse_veiledning_valg-av-referansearkitekturer/media/samhandlingsmønstre-hierarki-og-sammenheng-med-referansearkitekturer.png[]
+
+
 
 Følgende figur viser et eksempel som ser på kapabilitetsområdet __Deling på forespørsel__ og beslutning om synkront dataoppslag.
 
