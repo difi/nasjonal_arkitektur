@@ -33,6 +33,13 @@ image:../nab_referanse_veiledning_valg-av-referansearkitekturer/media/samhandlin
 
 
 
+
+
+.Figur: Vesi i beslutningstre for samhandlingsmønster dataforsendelse
+image:../nab_referanse_veiledning_valg-av-referansearkitekturer/media/beslutningstre-samhandlingsmønster-dataforsendelse.png[]
+
+
+
 Følgende figur viser et eksempel som ser på kapabilitetsområdet __Deling på forespørsel__ og beslutning om synkront dataoppslag.
 
 .Figur: Eksempel på beslutningstre (bare en vei vist) . 
