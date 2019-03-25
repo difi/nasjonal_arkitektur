@@ -4,8 +4,6 @@
 
 include::../plattform_felles/includes/commonincludes.adoc[]
 == Om SKOS-NO
-asfdsadghgsafdhgsad 
-http://vg.no
 
-link:http://vg.no[vg]
-
+Referanseimplementasjon i OWL av modellen beskrevet i https://doc.difi.no/data/begrep-skos-ap-no/#_begrep[Forvaltningsstandard for tilgjengeliggjøring av begrepsbeskrivelser basert på SKOS (SKOS-AP-NO-Begrep) - Versjon 1.0]
+s
