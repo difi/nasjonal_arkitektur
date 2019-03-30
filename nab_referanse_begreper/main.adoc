@@ -1,9 +1,1 @@
-:lang: no
-:doctitle: Begreper 
-:keywords: Begreper
-include::../plattform_felles/includes/commonincludes.adoc[]
-
-
-. link:../nab_referanse_begreper/arkitekturbegreper.adoc[Virksomhetsarkitektur]
-+
-Begreper innen virksomhetsarkitektur.
+include::book-arkitekturbegreper.adoc[]

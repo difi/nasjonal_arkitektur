@@ -5,21 +5,9 @@
 include::../plattform_felles/includes/commonincludes.adoc[]
 
 == Hva er en referansearkitektur?
-////
-ifdef::Erik-kommentarer[] 
-****
-[white]##Erik-kommentar: Her kunne jeg tenke meg å skrive kapitlet noe om, samt ta med en illustrerende figur. Figuren i Steg 4 under Metode kunne ha passet, bortsett fra at jeg mener den ikke er korrekt. Saken er at referansearkitekturer, i tillegg til å være "løsningsmaler", også skal kunne være for arkitekturer. EIRA er et eksempel på dette. Det er mulig at det er det som er ment i teksten nedenfor om "grunnleggende referansearktekturer? La meg se en gang til på hvordan en kan få TOGAF og EIRA (om SAT) til å henge sammen.
-La meg så komme tilbake med et forslag til justert tekst og figur asap;) ##
-
-[blue]## Henrik svar: Usikker på hvilken figur du mener? Den med ref-ark på toppen og ABBer og SBBer?
-Enig i at referansearkitektuerer også kan være løsningsmaler for arkitektur, men det blir veldig langt unna det som har med disse referansearkitekturene å gjøre.
-Teksten er for øvrig tatt fra eMeldings-strategien ##
-****
-endif::[]
-////
 
 
-*Referansearkitekturer gir maler og veiledning til  utforming av arkitekturer og løsninger innen  avgrensede områder.*
+*Referansearkitekturer gir mønstre og veiledning til  utforming av arkitekturer og løsninger innen avgrensede områder.*
 
 Valg av referansearkitekturer, omfang og detaljeringsgrad bør ta utgangspunkt i brukerbehov, være basert på erfaring og kan peke på alt fra gode eksempler til beste praksis og konkrete anbefalinger.
 
