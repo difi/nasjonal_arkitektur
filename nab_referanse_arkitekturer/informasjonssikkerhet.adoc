@@ -4,5 +4,47 @@
 
 include::../plattform_felles/includes/commonincludes.adoc[]
 
-Sikring av informasjon er sentralt i referansearkitekturene for informasjonsutveksling. Dette omfatter integritet, konfidensialitet og uavviselighet. Informasjon må kunne utveksles uendret mellom aktørene, og uvedkommende må ikke få tilgang til informasjonen. Avsendere og tilbydere må være trygge på at mottakere og konsumenter er riktige og mottakere og konsumenter må være trygge på at avsendere og tilbydere er de vedkommende utgir seg for å være. Informasjonen om transaksjoner må være sporbar i ettertid (uavviselig). Referansearkitekturene
-ivaretar disse behovene.
+Sikring av informasjon er sentralt i referansearkitekturene for informasjonsutveksling. Dette omfatter integritet, konfidensialitet og uavviselighet. Informasjon må kunne utveksles uendret mellom aktørene, og uvedkommende må ikke få tilgang til informasjonen. Avsendere og tilbydere må være trygge på at mottakere og konsumenter er riktige og mottakere og konsumenter må være trygge på at avsendere og tilbydere er de vedkommende utgir seg for å være. Informasjonen om transaksjoner må være sporbar i ettertid (uavviselig). Referansearkitekturene skal ivaretar disse behovene.
+
+
+== Referanser
+Forordning om eID og elektroniske tillitstjenester:
+
+https://www.regjeringen.no/no/sub/eos-notatbasen/notatene/2012/okt/forordning-om-eid-og-elektroniske-tillitstjenester/id2434955/
+
+Trust Services and Electronic Identification (eID):
+
+https://ec.europa.eu/digital-single-market/en/trust-services-and-eid
+
+Forskrift om elektronisk kommunikasjon med og i forvaltningen (eForvaltningsforskriften)
+
+https://lovdata.no/dokument/SF/forskrift/2004-06-25-988
+
+
+== Sikkerhetsarkitektur
+* Sikkerhetsaktører
+* Avtaler, bruksvilkår
+* Sikkerhetspolicy
+* Regelverk
+* Verdier og eiere
+* Sikkerhetsnivåer, nivå for akseptabel risiko
+* Konsekvenser ved sikkerhetsbrudd
+* Feilsøking og etterforskning
+* Avvikshåndtering (beredskap)
+* Tillitskjeder
+* Risiko og sårbarhetsanalyse
+* Klassifisering av informasjon
+
+
+
+== Temaer fra TOGAF
+http://pubs.opengroup.org/architecture/togaf91-doc/arch/chap21.html
+
+* Autentisering
+* Autorisering
+* Sporing (audit)
+* Assurance (evne til å bevise at man er i stand til å opprettholde fastsatt sikkerhetspolicy (nivå)
+* Tilgjengelighet
+* Verdibeskyttelse (asset protection)
+* Administrasjon
+* Risikohåndtering (risk management)
