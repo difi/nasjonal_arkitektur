@@ -15,9 +15,10 @@ Det arbeides per 2019 med å ta fram prioriterte nasjonale referansearkitekturer
 
 :leveloffset: +1
 = Generelt om referansearkitekturer
-include::../nab_referanse_arkitekturer/om-referansearkitekturer.adoc[]
+//include::../nab_referanse_arkitekturer/om-referansearkitekturer.adoc[]
+include::../nab_referanse_begreper/begrep-referansearkitektur.adoc[]
 
-= Strategi for arbeidet med referansearkitekturer
+= Tilnærming til arbeidet med referansearkitekturer
 include::../nab_referanse_arkitekturer/strategi-for-referansearkitekturer.adoc[]
 
 ////

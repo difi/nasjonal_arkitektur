@@ -1,5 +1,5 @@
 :lang: no
-:doctitle: Strategi for arbeidet med referansearkitekturer
+:doctitle: Tilnærming til  arbeidet med referansearkitekturer
 :keywords: Referansearkitekturer
 
 :toclevels: 2

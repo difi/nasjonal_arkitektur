@@ -1,35 +1,28 @@
 :lang: no
-:doctitle: Generelt om referansearkitekturer
+:doctitle: Begrepet referansearkitektur
 :keywords: Referansearkitekturer
 
 include::../plattform_felles/includes/commonincludes.adoc[]
 
 == Hva er en referansearkitektur?
-////
-ifdef::Erik-kommentarer[] 
-****
-[white]##Erik-kommentar: Her kunne jeg tenke meg å skrive kapitlet noe om, samt ta med en illustrerende figur. Figuren i Steg 4 under Metode kunne ha passet, bortsett fra at jeg mener den ikke er korrekt. Saken er at referansearkitekturer, i tillegg til å være "løsningsmaler", også skal kunne være for arkitekturer. EIRA er et eksempel på dette. Det er mulig at det er det som er ment i teksten nedenfor om "grunnleggende referansearktekturer? La meg se en gang til på hvordan en kan få TOGAF og EIRA (om SAT) til å henge sammen.
-La meg så komme tilbake med et forslag til justert tekst og figur asap;) ##
 
-[blue]## Henrik svar: Usikker på hvilken figur du mener? Den med ref-ark på toppen og ABBer og SBBer?
-Enig i at referansearkitektuerer også kan være løsningsmaler for arkitektur, men det blir veldig langt unna det som har med disse referansearkitekturene å gjøre.
-Teksten er for øvrig tatt fra eMeldings-strategien ##
-****
-endif::[]
-////
-
-
-*Referansearkitekturer gir maler og veiledning til  utforming av arkitekturer og løsninger innen  avgrensede områder.*
+*Referansearkitekturer gir mønstre og veiledning til  utforming av arkitekturer og løsninger innen avgrensede områder.*
 
 Valg av referansearkitekturer, omfang og detaljeringsgrad bør ta utgangspunkt i brukerbehov, være basert på erfaring og kan peke på alt fra gode eksempler til beste praksis og konkrete anbefalinger.
 
-Følgende figur illustrerer begrepsapparatet rundt referansearkitekturer, slik dette  benyttes i tilknytning til arbeidet ned nasjonal arkitektur. 
+Følgende figur illustrerer begrepsapparatet rundt referansearkitekturer, slik dette  benyttes i tilknytning til arbeidet med nasjonal arkitektur. 
 
-image:../nab_referanse_arkitekturer/media/referansearkitektur-definisjon-i-archimate.png[]
+//.Figur alt a: Referansearkitekturer - enkel framstilling 
+//image:../nab_referanse_begreper\media/referansearkitektur-definisjon-forenklet.png[]
 
-Forklaring til denne figuren:
+.Figur: Referansearkitekturer - fra kapabiliteter til arkitektur- og løsningsmønstre  
+image:../nab_referanse_begreper\media/referansearkitektur-definisjon-komplett.png[]
 
-Inndeling i _kapabilitetsområder_ tilsvarer det som TOGAF 9.2 kaller _"subject areas"_ eller _segmenter_, og er generelt sett en gruppering av kapabiliteter som en ønsker å adressere samlet.
+
+
+Forklaring til figuren over:
+
+Inndeling i _temaområder_ tilsvarer det som TOGAF 9.2 kaller _"subject areas"_ eller _segmenter_, og er generelt sett en gruppering av kapabiliteter som en ønsker å adressere samlet.
 
 NOTE: Difi arbeider i 2019 med å ta fram en helhetlig oversikt over kapabilitetsområder i nasjonal arkitektur. Se link:../kunnskap_tema_kapabilitetsmodellering/[egen omtale av kapabilitetsmodellering].
 
@@ -37,7 +30,7 @@ Hvert _kapabilitetsområde_ kan adresseres av en eller flere _referansearkitektu
 
 Hver enkelt referansearkitektur kan inneholde både _arkitekturbyggeklosser_ og __løsningsbygeklosser__, ut fra hva som er aktuelt. Helt generiske referansearkitekturer inneholder typisk bare generiske arkitekturbyggeklosser, mens mer løsningsorienterte referansearkitekturer gjerne også angir spesifikke løsningsbygeklosser. Det siste er f.eks. aktuelt for å angi anbefalt eller obligatorisk bruk av nasjonale fellesløsninger.
 
-Begrepet __SAT (Solution Architecture Template)__, her oversatt til __Mal for løsningsarkitektur__, kommer fra arbeidet med en grunnleggende referansearkitektur i EU ved navn __EIRA (European Interoperability reference Architecture)__. En helt spesifikk definisjon av hva som ligger i begrepet SAT, samt veiledning til beskrivelse av slike maler, finnes i dokumenet link:https://joinup.ec.europa.eu/sites/default/files/document/2017-10/sat_design_guidelines_0_0.pdf[Solution Architecture Template (SAT) Design Guidelines].
+NOTE: I tilknytning til __EIRA (European Interoperability reference Architecture)__, benyttes Begrepet __SAT (Solution Architecture Template)__ . En helt spesifikk definisjon av hva som ligger i begrepet SAT, samt veiledning til beskrivelse av slike maler, finnes i dokumenet link:https://joinup.ec.europa.eu/sites/default/files/document/2017-10/sat_design_guidelines_0_0.pdf[Solution Architecture Template (SAT) Design Guidelines]. 
 
 NOTE: Bruk av EIRA og SAT-maler er inntil videre ikke et krav for referansearkitekturer i Nasjonal arkitektur. Se forøvrig link:../kunnskap_referansearkitektur_eu-eira/[egen omtale av EIRA]. 
 
@@ -50,15 +43,6 @@ image:../kunnskap_standard_togaf/media/togaf-architecture-continuum.png[width=60
 
 NOTE: Se også link:../kunnskap_standard_togaf/[egen omtale av TOGAF og arkitektur-kontinuum].
 
-
-
-
-
-
-//*Referansearkitekturer fungerer som maler for hvordan virksomheter utvikler løsningsarkitekturer innenfor et avgrenset område.*
-
-
-//[red]**Beskrivelsene vil normalt ikke være på nivå med en implementasjonsguide, men gi veiledning i løsningsdesign og sette rammer for dette.**
 
 //US DoD: Reference Architecture is an authoritative source of information about a specific subject area that guides and constrains the instantiations of multiple architectures and solutions
 
