@@ -5,9 +5,11 @@
 include::../plattform_felles/includes/commonincludes.adoc[]
 == Om eOppslag
 
+//Henrik: Legge inn (gjenta) beskrivelsen av kapabilitetesområdet "Deling av data på forespørsel" her, eller i dette avsnittet.
+
 eOppslag er en delmengde av kapabilitesområdet deling av data på forespørsel. Mønsteret dekker oppslag i informasjon, hvilket vil si forespørsel om informasjon mellom to parter, hvor en prosess hos konsumenten typisk er avhengig av informasjon fra tilbyder for å fortsette.
 
-Beskrivelsen her er avgrenset til det å tilby og konsumere data gjennom synkrone kall mot APIer. Den dekker både sikrede APIer hvor tilgangsstyring løses ved bruk av blant annet fellestjenester, og åpne APIer som tilbyr åpent tilgjengelige data. En stor del av beskrivelsene tar for seg oppsett og bruk av tjenester tilknyttet tilgangsstyring, men dette er ikke obligatorisk for APIer som tilbyr åpne data.
+eOppslag er avgrenset til det å tilby og konsumere data gjennom synkrone kall mot APIer. Det dekker både sikrede APIer hvor tilgangsstyring løses ved bruk av blant annet fellestjenester, og åpne APIer som tilbyr åpent tilgjengelige data. En stor del av beskrivelsene tar for seg oppsett og bruk av tjenester tilknyttet tilgangsstyring, men dette er ikke obligatorisk for APIer som tilbyr åpne data.
 
 I innledningen til referansearkitekturer er det skissert ulike kapabilitetsområder og identifisert overordnede kapabiliteter som inngår i de ulike referansearkitekturene. I dette kapittelet detaljeres kapabilitetene tilknyttet eOppslag.
 
@@ -75,10 +77,10 @@ image:../nab_referanse_arkitekturer/media/Deling på forespørsel.png[alt="Bilde
 
 |===
 
-//== Detaljerte 
-beskrivelser 
 
-== Arkitekturmønstre (konseptuelle  beskrivelser, kun arkitekturbyggeklosser)
+//== Detaljerte beskrivelser 
+
+== Arkitekturmønstre (konseptuelle beskrivelser, kun arkitekturbyggeklosser)
 
 I dette kapittelet beskrives lapabilitetene som inngår i eOppslag. Modellen består av tre nivåer. 
 
