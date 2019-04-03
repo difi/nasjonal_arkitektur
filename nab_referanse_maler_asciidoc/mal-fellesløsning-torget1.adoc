@@ -1,0 +1,31 @@
+:lang: no
+:doctitle: <Løsningsnavn>
+:keywords: Fellesløsning
+:audience: alle
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+
+
+//:difi_losningstype_Infrastruktur:
+:difi_losningstype_Plattform:
+:difi_losningstype_Registerdata:
+//:difi_losningstype_Sluttbrukertjeneste:
+//:difi_losningstype_Teknisk_tjeneste:
+
+
+== Test av Løsningstype - kun ett valg tillatt
+
+include::./mal-fellesløsning-validate-losningstype4.adoc[]
+
+== Test av løsningstype - multiple valg tillat
+//:difi_losningstype_Programvarekomponent:
+//:difi_losningstype_Infrastruktur:
+//:difi_losningstype_Plattform:
+//:difi_losningstype_Registerdata:
+//:difi_losningstype_Sluttbrukertjeneste:
+//:difi_losningstype_Teknisk_tjeneste:
+include::./mal-fellesløsning-validate-losningstype2.adoc[]
+
+
+
+
