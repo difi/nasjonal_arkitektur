@@ -321,6 +321,10 @@ image:../nab_referanse_arkitekturer/media/slå opp data.png[alt="Bilde mangler",
 == Løsningsmønstre (logiske beskrivelser med arkitekturbyggeklosser og aktuelle løsningsbyggeklosser)
 TBD.
 
+// For å registrere API må man for i de respektive fellestjenestene ha rettigheter til dette på vegne av egen virksomhet. Dette tildeles iht. hvem som har rettigheter i enhetsregisteret og rettighetene må delegeres nedover i organisasjonen til den som skal gjennomføre registreringen. Dette foregår i Altinn.
+
+//Henrik: få inn figur som viser dette?
+
 image:../nab_referanse_arkitekturer_eoppslag/media/registerer_api_app_lag.png[alt="Bilde mangler", width=500]
 
 image:../nab_referanse_arkitekturer_eoppslag/media/avgi_data_app_lag.png[alt="Bilde mangler", width=500]
