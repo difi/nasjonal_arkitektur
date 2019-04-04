@@ -102,7 +102,9 @@ https://travis-ci.org/difi/nasjonal_arkitektur, der det også gi feilmeldinger o
 
 == Konvensjoner for bruk av Asciidoc
 === Generelt
-Difi har etablert noen konvensjoner og maler i tilknytning til arkitekturbiblioteket som er ment å skulle forenkle arbeidet for hver enkelt, samtidig som en får et ensartet utseende og et opplegg for å vedlikeholde metadata, tekster på flere språk, m.m.
+Se https://asciidoctor.org/docs/asciidoc-recommended-practices/ for generelle anbefalinger fra asciidoctor.org.
+
+Difi har i tillegg til dette etablert noen konvensjoner og maler i tilknytning til arkitekturbiblioteket som er ment å skulle forenkle arbeidet for hver enkelt, samtidig som en får et ensartet utseende og et opplegg for å vedlikeholde metadata, tekster på flere språk, m.m.
 
 Det er ønskelig at disse konvensjonene følges. Enkeltstående Asciidoc-artikler eller -bøker som ikke følger konvensjonene, kan likevel inkluderes i biblioteket. 
 
