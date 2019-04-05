@@ -1,0 +1,108 @@
+//== Løsningstype
+
+:v_Losningstype_Programvarekomponent: Programvarekomponent
+:v_Losningstype_Infrastruktur: Infrastruktur
+:v_Losningstype_Plattform: Plattform
+:v_Losningstype_Registerdata: Registerdata
+:v_Losningstype_Sluttbrukertjeneste: Sluttbrukertjeneste
+:v_Losningstype_Teknisk_tjeneste: Teknisk tjeneste
+
+ifdef::Losningstype_Programvarekomponent[]
+ifdef::atLeastOneSelection[]
+:moreThanOneSelection:
+endif::[]
+:atLeastOneSelection:
+endif::[]
+
+ifdef::Losningstype_Infrastruktur[]
+ifdef::atLeastOneSelection[]
+:moreThanOneSelection:
+endif::[]
+:atLeastOneSelection:
+endif::[]
+
+ifdef::Losningstype_Plattform[]
+ifdef::atLeastOneSelection[]
+:moreThanOneSelection:
+endif::[]
+:atLeastOneSelection:
+endif::[]
+
+ifdef::Losningstype_Registerdata[]
+ifdef::atLeastOneSelection[]
+:moreThanOneSelection:
+endif::[]
+:atLeastOneSelection:
+endif::[]
+
+ifdef::Losningstype_Sluttbrukertjeneste[]
+ifdef::atLeastOneSelection[]
+:moreThanOneSelection:
+endif::[]
+:atLeastOneSelection:
+endif::[]
+
+ifdef::Losningstype_Teknisk_tjeneste[]
+ifdef::atLeastOneSelection[]
+:moreThanOneSelection:
+endif::[]
+:atLeastOneSelection:
+endif::[]
+
+ifdef::Losningstype_Annet[]
+//:Losningstype_Annet: Annet ({Losningstype_Annet})
+
+ifeval::["{Losningstype_Annet}" != ""]
+:Losningstype_Annet: Annet ({Losningstype_Annet})
+endif::[]
+
+ifeval::["{Losningstype_Annet}" == ""]
+:Losningstype_Annet: Annet
+endif::[]
+
+
+ifdef::atLeastOneSelection[]
+:moreThanOneSelection:
+endif::[]
+:atLeastOneSelection:
+endif::Losningstype_Annet[]
+
+ifdef::moreThanOneSelection[]
+[red yellow-background]#Feil ved utfylling: Flere løsningstyper er angitt. Kun en løsningstype er tllatt her.#
+endif::[]
+
+
+ifndef::atLeastOneSelection[]
+[red yellow-background]#Feil ved utfylling: Manglende gyldig løsningstype. En eller flere gyldige løsningstyper må angis; dvs. en av følgende: TBD:#
+endif::[]
+
+ifdef::atLeastOneSelection[]
+ifndef::moreThanOneSelection[]
+
+**Løsningstype: **
+ifdef::Losningstype_Programvarekomponent[]
+{v_Losningstype_Programvarekomponent}
+endif::[]
+ifdef::Losningstype_Infrastruktur[]
+{v_Losningstype_Infrastruktur}
+endif::[]
+ifdef::Losningstype_Plattform[]
+{v_Losningstype_Plattform}
+endif::[]
+ifdef::Losningstype_Registerdata[]
+{v_Losningstype_Registerdata}
+endif::[]
+ifdef::Losningstype_Sluttbrukertjeneste[]
+{v_Losningstype_Sluttbrukertjeneste}
+endif::[]
+ifdef::Losningstype_Teknisk_tjeneste[]
+{v_Losningstype_Teknisk_tjeneste}
+endif::[]
+ifdef::Losningstype_Annet[]
+{Losningstype_Annet}
+endif::[]
+endif::moreThanOneSelection[]
+endif::atLeastOneSelection[]
+
+
+

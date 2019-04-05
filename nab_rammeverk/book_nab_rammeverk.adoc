@@ -1,0 +1,64 @@
+:lang: no
+:doctitle: Rammeverk og overordnet informasjon
+:keywords: Norsk, arkitekturbibliotek, offenlig sektor, virksomhetsarkitektur, NIF, samhandlingsarkitektur, rammeverk, GitHub
+//:preamble: 
+
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+[.lead]
+Overordnet informasjon om arbeidet med nasjonal arkitektur
+
+
+== Generelt
+Arbeidet med nasjonal arkitektur i Norge baserer seg på flere metoder og rammeverk, på tvers av flere fagdisipliner.
+
+På nasjonalt nivå omhandles i utgangspunktet "hele bildet", der metoder og arkitekturer for områder som samhandlingsarkitektur, informasjonsforvaltning, dataanalyse, IoT, big data og kunstig intelligens inngår.
+
+
+_Nasjonalt arkitekturrammeverk for samhandling_ (NIF) er det primære rammeverket; se https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/nasjonal-arkitektur/arkitekturrammeverk-samhandling[introduksjon til NIF på Difis hjemmesider].
+
+Kort fortalt: _Nasjonalt arkitekturrammeverk for samhandling_ kan ses på som en tilpasning av TOGAF versjon 9.2, med utgangspunkt i EIF - European Interoperability Framework. Ut fra dette kalles også rammeverket NIF - National Interoperability Framework. Nasjonalt arkitekturrammeverk for samhandling (NIF) fokuserer på arkitekturer som støtter utvikling av sammenhengende og tverrgående tjenester. Under dette hører også metoder og rammeverk for tjenestedesign m.m.
+
+== Om innholdet i Nasjonalt arkitekturbibliotek
+_Nasjonalt arkitekturrammeverk for samhandling_ beskriver innholdet i et arkitekturbibliotek for virksomheter generelt. På nasjonalt nivå gjelder tilsvarende, men virksomheten kan da sier å være "nasjonen som virksomhet". Følgende figur er tilpasset fra Nasjonalt arkitekturrammeverk for samhandling (NIF), og angir mer spesifikt innholdet i det nasjonale arkitekturbiblioteket.
+
+.Figur: Innhold i nasjonalt arkitekturbibliotek.
+image:../nab_rammeverk/media/nasjonalt-arkitekturbibliotek.png[width=900]
+
+Den viste strukturen er med hensikt lagt tett opp til TOGAF-standarden. Selv om dette bildet kan virke komplisert for "ikke-arkitekter", er vurderingen at det gir verdi å holde seg tett opp til et konsistent og veldefinert begrepsapparatet som er kjent av mange gjennom TOGAF. Tilsvarende bilde fra TOGAF 9.2 er vist i figuren nedenfor.
+
+.Figur: TOGAF 9.2 "arkitekturbibliotek"
+image:./nab_rammeverk/media/togaf92-architecture-repository.png[width=900]
+
+
+Videre detaljer om metodikk, veiledninger, dokumentasjonskonvensjoner og metamodeller finnes under under link:../nab_referanse_[referanseinformasjon].
+
+== Grunnleggende konsepter - fra kapabilitet til løsning
+
+.Figur: Referansearkitekturer - fra kapabiliteter til arkitektur- og løsningsmønstre  
+image:../nab_referanse_begreper/media/referansearkitektur-definisjon-komplett.png[]
+
+Forklaring til figuren over:
+
+Inndeling i _temaområder_ tilsvarer det som TOGAF 9.2 kaller _"subject areas"_ eller _segmenter_, og er generelt sett en gruppering av kapabiliteter som en ønsker å adressere samlet.
+
+NOTE: Difi arbeider i 2019 med å ta fram en helhetlig oversikt over kapabilitetsområder i nasjonal arkitektur. Se link:../kunnskap_tema_kapabilitetsmodellering/[egen omtale av kapabilitetsmodellering].
+
+Hvert _kapabilitetsområde_ kan adresseres av en eller flere _referansearkitekturer_. Formålet med å ha flere referansearkitekturer for samme område, kan være å gi ulike visninger for ulike målgrupper eller å bryte opp et komplekst bilde i enklere deler.   
+
+Hver enkelt referansearkitektur kan inneholde både _arkitekturbyggeklosser_ og __løsningsbyggeklosser__, ut fra hva som er aktuelt. Helt generiske referansearkitekturer inneholder typisk bare generiske arkitekturbyggeklosser, mens mer løsningsorienterte referansearkitekturer gjerne også angir spesifikke løsningsbygeklosser. Det siste er f.eks. aktuelt for å angi anbefalt eller obligatorisk bruk av nasjonale fellesløsninger.
+
+NOTE: I tilknytning til __EIRA (European Interoperability reference Architecture)__, benyttes Begrepet __SAT (Solution Architecture Template)__ . En helt spesifikk definisjon av hva som ligger i begrepet SAT, samt veiledning til beskrivelse av slike maler, finnes i dokumenet link:https://joinup.ec.europa.eu/sites/default/files/document/2017-10/sat_design_guidelines_0_0.pdf[Solution Architecture Template (SAT) Design Guidelines]. 
+
+NOTE: Bruk av EIRA og SAT-maler er inntil videre ikke et krav for referansearkitekturer i Nasjonal arkitektur. Se forøvrig link:../kunnskap_referansearkitektur_eu-eira/[egen omtale av EIRA]. 
+
+Referansearkitekturer kan beskrives på ulike abstraksjonsnivåer. Omfangsrike og altomfattende arkitekturer kan være hinder for innovasjon. Hvis ensartet samhandling er viktig, bør kravene som stilles på den annen side være detaljerte nok til å sikre interoperabilitet. Det er viktig å finne en god balanse med tanke på dette.
+
+Ulike referansearkitekturer kan også klassifiseres slik TOGAF-rammeverket beskriver rundt begrepet arkitektur-kontinuum.
+
+.Klassifisering i grunnleggende, felles (nasjonale), industri- (sektorspesifikke) og organisasjonsspesifikke arkitekturer
+image:../kunnskap_standard_togaf/media/togaf-architecture-continuum.png[width=600]
+
+NOTE: Se også link:../kunnskap_standard_togaf/[egen omtale av TOGAF og arkitektur-kontinuum].
+
+image:../plattform_felles/media/i-arbeid.png[width=45, height=45] I arbeid

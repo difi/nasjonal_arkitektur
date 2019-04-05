@@ -1,0 +1,20 @@
+:lang: no
+:doctitle: <Løsningsnavn>
+:keywords: Fellesløsning
+:audience: alle
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+
+== Losningstype
+:valg1: Infrastruktur
+//:valg2: Plattform
+:valg3: Registerdata
+:valg4: Sluttbrukertjeneste
+:valg5: Teknisk tjeneste
+
+
+include::./mal-fellesløsning-validate-losningstype-multiple2.adoc[]
+
+include::./mal-fellesløsning-validate-losningstype-single2.adoc[]
+
+

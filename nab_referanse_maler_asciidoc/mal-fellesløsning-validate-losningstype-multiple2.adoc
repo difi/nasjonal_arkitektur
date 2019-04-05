@@ -1,0 +1,86 @@
+:lang: no
+
+
+//
+// difi_losningstype multiple selection
+//
+
+:difi_losningstype_Infrastruktur: Infrastruktur
+:difi_losningstype_Plattform: Plattform
+:difi_losningstype_Registerdata: Registerdata
+:difi_losningstype_Sluttbrukertjeneste: Sluttbrukertjeneste
+:difi_losningstype_Teknisk_tjeneste: Teknisk tjeneste
+
+
+ifndef::allowOtherValues
+ifeval::["{valg1}" != "{difi_losningstype_Infrastruktur}"]
+[red yellow-background]#Feil løsningstype.# 
+endif::[]
+ifndef::allowOtherValues
+
+
+ifdef::valg1[]
+ifdef::atLeastOneSelection[]
+:moreThanOneSelection:
+endif::[]
+:atLeastOneSelection:
+endif::[]
+
+ifdef::valg2[]
+ifdef::atLeastOneSelection[]
+:moreThanOneSelection:
+endif::[]
+:atLeastOneSelection:
+endif::[]
+
+ifdef::valg3[]
+ifdef::atLeastOneSelection[]
+:moreThanOneSelection:
+endif::[]
+:atLeastOneSelection:
+endif::[]
+
+ifdef::valg4[]
+ifdef::atLeastOneSelection[]
+:moreThanOneSelection:
+endif::[]
+:atLeastOneSelection:
+endif::[]
+
+ifdef::valg5[]
+ifdef::atLeastOneSelection[]
+:moreThanOneSelection:
+endif::[]
+:atLeastOneSelection:
+endif::[]
+
+
+ifndef::atLeastOneSelection[]
+[red yellow-background]#Feil ved utfylling: Manglende løsningstype. En eller flere løsningstyper må angis.#
+endif::[]
+
+ifdef::atLeastOneSelection[]
+**Løsningstyper: **
+ifdef::valg1[]
+{valg1};
+endif::[]
+ifdef::valg2[]
+{valg2};
+endif::[]
+ifdef::valg3[]
+{valg3};
+endif::[]
+ifdef::valg4[]
+{valg4};
+endif::[]
+ifdef::valg5[]
+{valg5};
+endif::[]
+ifdef::valg6[]
+{valg6};
+endif::[]
+
+endif::[]
+
+
+

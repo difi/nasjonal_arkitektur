@@ -2,7 +2,7 @@
 
 
 //
-// difi_losningstype multiple selection
+// difi_losningstype single selection
 //
 
 ifdef::difi_losningstype_Programvarekomponent[]

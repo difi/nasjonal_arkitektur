@@ -1,0 +1,8 @@
+:lang: no
+:doctitle: Modelleringskonvensjoner
+:keywords: Modelleringskonvensjoner
+
+include::../plattform_felles/includes/commonincludes.adoc[]
+== Generelt
+
+TBD.

@@ -1,21 +1,15 @@
-:lang: no
-
+== Målgrupper
 
 //
-// difi_losningstype multiple selection
+// multiple selection
 //
 
-//ifndef::difi_losningstype[]
-//[red yellow-background]#FEIL: Ingen løsningstype2 angitt.#
-//endif::[]
 
-//{counter2:selections:0}
-//{counter2:selections}
-
-ifdef::difi_losningstype_Programvarekomponent[]
+ifdef::malgruppe_Borgere[]
 :Programvarekomponent: Programvarekomponent
 :atLeastOneSelection:
 endif::[]
+
 ifdef::difi_losningstype_Infrastruktur[]
 :Infrastruktur: Infrastruktur
 :atLeastOneSelection:

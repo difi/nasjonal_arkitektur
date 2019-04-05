@@ -78,8 +78,7 @@ Om du ikke har mulighet til å installere programvare på din maskin og ikke vil
 
 Anbefalt her:
 
-* AsciidocFX fungerer godt for editering av innhold på AsciiDoc-format, og støtter dessuten en rekke andre formater, inkl. Markdown. Last ned AsciidocFX fra 
-https://github.com/asciidocfx/AsciidocFX/releases/[] og arbeid lokalt etter å ha klonet Github-biblioteket. 
+* AsciidocFX fungerer godt for editering av innhold på AsciiDoc-format, og støtter dessuten en rekke andre formater, inkl. Markdown. Last ned AsciidocFX_Windows.exe fra https://github.com/asciidocfx/AsciidocFX/releases/[] og kjør denne filen for å insatllere. Arbeid så lokalt etter å ha klonet Github-biblioteket. 
 +
 _Merk: Oppstart av AsciidocFX kan ta litt tid, men fungerer ellers meget raskt. Html forhåndsvisning er umiddelbar og nær opp til det endelige resultatet (som Difi genererer med programmet Asciidoctor). Noen mindre bugs finnes, men programmet er i kontinuerlig utvikling._
 

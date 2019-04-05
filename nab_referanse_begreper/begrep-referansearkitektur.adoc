@@ -12,11 +12,11 @@ Valg av referansearkitekturer, omfang og detaljeringsgrad bør ta utgangspunkt i
 
 Følgende figur illustrerer begrepsapparatet rundt referansearkitekturer, slik dette  benyttes i tilknytning til arbeidet med nasjonal arkitektur. 
 
-//.Figur alt a: Referansearkitekturer - enkel framstilling 
-//image:../nab_referanse_begreper\media/referansearkitektur-definisjon-forenklet.png[]
+.Figur: Referansearkitekturer - enkel framstilling 
+image:../nab_referanse_begreper\media/referansearkitektur-definisjon-forenklet.png[]
 
-.Figur: Referansearkitekturer - fra kapabiliteter til arkitektur- og løsningsmønstre  
-image:../nab_referanse_begreper\media/referansearkitektur-definisjon-komplett.png[]
+//.Figur: Referansearkitekturer - fra kapabiliteter til arkitektur- og løsningsmønstre  
+//image:../nab_referanse_begreper\media/referansearkitektur-definisjon-komplett.png[]
 
 
 
@@ -28,7 +28,7 @@ NOTE: Difi arbeider i 2019 med å ta fram en helhetlig oversikt over kapabilitet
 
 Hvert _kapabilitetsområde_ kan adresseres av en eller flere _referansearkitekturer_. Formålet med å ha flere referansearkitekturer for samme område, kan være å gi ulike visninger for ulike målgrupper eller å bryte opp et komplekst bilde i enklere deler.   
 
-Hver enkelt referansearkitektur kan inneholde både _arkitekturbyggeklosser_ og __løsningsbygeklosser__, ut fra hva som er aktuelt. Helt generiske referansearkitekturer inneholder typisk bare generiske arkitekturbyggeklosser, mens mer løsningsorienterte referansearkitekturer gjerne også angir spesifikke løsningsbygeklosser. Det siste er f.eks. aktuelt for å angi anbefalt eller obligatorisk bruk av nasjonale fellesløsninger.
+Hver enkelt referansearkitektur kan inneholde både _arkitekturbyggeklosser_ og __løsningsbyggeklosser__, ut fra hva som er aktuelt. Helt generiske referansearkitekturer inneholder typisk bare generiske arkitekturbyggeklosser, mens mer løsningsorienterte referansearkitekturer gjerne også angir spesifikke løsningsbygeklosser. Det siste er f.eks. aktuelt for å angi anbefalt eller obligatorisk bruk av nasjonale fellesløsninger.
 
 NOTE: I tilknytning til __EIRA (European Interoperability reference Architecture)__, benyttes Begrepet __SAT (Solution Architecture Template)__ . En helt spesifikk definisjon av hva som ligger i begrepet SAT, samt veiledning til beskrivelse av slike maler, finnes i dokumenet link:https://joinup.ec.europa.eu/sites/default/files/document/2017-10/sat_design_guidelines_0_0.pdf[Solution Architecture Template (SAT) Design Guidelines]. 
 
