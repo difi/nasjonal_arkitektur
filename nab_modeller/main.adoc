@@ -28,6 +28,6 @@ Følgende biblioteker er dessuten tilgjengelige for lesing, samt eventuelt redig
 
 
 == Nedlastbare modellfiler
-TBD.
+Flere nedlastbare modellfiler finnes på 
 
 
