@@ -151,6 +151,7 @@ GitHub Desktop vil kontinuerlig polle og hente ned endringer fra GitHub til valg
 For å publisere endringer med GitHub Desktop, må du først gi en _Description_, så trykke  _Commit to Master_ og til sist trykke _Push to origin_.
 
 
+
 ==== Publisering med TortoiseGit
 TBD.
 
