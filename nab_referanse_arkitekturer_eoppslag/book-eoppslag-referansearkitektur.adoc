@@ -25,7 +25,7 @@ Modellen under viser de kapabilitetene en tilbyder og en konsument må ha for å
 
 Tilbyder må kunne tilggjengeliggjøre data og dette er delt i to kapabiliteter hvor den ene, "Registrering av API" går ut på hvordan man registerer og setter opp tilganger. Den andre kapabiliteten "Avgi forespurte data" er det man gjøre når en konsument gjøre et kall mot det respektive APIet.
 
-Tilsvarende er det tre detaljerte kapabiliteter tilknyttet konsument. Få tilgang til API" består av prosesser for oppsett tilgang, "Delegering av rettigheter til databehandler" må gjøres dersom konsument benytter seg av en databehandler og "Slå opp data gjennom synkront API" er det konsumenten må gjøre hver gang det gjøres et oppslag.
+Tilsvarende er det tre detaljerte kapabiliteter tilknyttet konsument og det å innhente data. "Få tilgang til API" består av prosesser for oppsett av tilgang, "Delegering av rettigheter til databehandler" må gjøres dersom konsument benytter seg av en databehandler og "Slå opp data gjennom synkront API" er det konsumenten må gjøre hver gang det gjøres et oppslag.
 
 image:../nab_referanse_arkitekturer/media/Deling på forespørsel.png[alt="Bilde mangler", width=750]
 
@@ -189,7 +189,7 @@ image:../nab_referanse_arkitekturer/media/avgi data.png[alt="Bilde mangler", wid
 
 |Verifiseringstjeneste
 |Forretningstjeneste
-|Tjeneste for å verifisere autentiserings- og autorisasjonsdata i mottatt forespørsel.
+|Tjeneste for å verifisere gyldigheten av tilgangstokenet. Med et gyldig tilgangstoken skal det ikke være nødvendig å validere grunnlaget eller innholdet i tilgangstokenet siden det er et tillitsforhold mellom partene.
 
 |===
 
@@ -226,11 +226,7 @@ image:../nab_referanse_arkitekturer/media/få tilgang til API.png[alt="Bilde man
 
 |Registrer klient med tildelt tilgang
 |Forretningsprosess
-|Prosess for konsument å registerere (provisjonering av) den klienten som skal ha tilgang til APIet. Dette forutsetter at tilbyder har gitt konsument tilgang.
-
-|Leverandør registrerer klient med tildelt tilgang
-|Forretningsprosess
-|Prosess for leverandør til konsument å registerere (provisjonering av) den klienten som skal ha tilgang til APIet. Dette forutsetter at tilbyder har gitt konsument tilgang og at leverandør har blitt delegert rettigheter som databehandler på vegne av konsument.
+|Prosess for konsument å registerere (provisjonering av) den klienten som skal ha tilgang til APIet. Dette forutsetter at tilbyder har gitt konsument tilgang. Dersom det er en leverandør som har blitt delegert rettigheter som databehandler på vegne av konsument er det leverandøren som registrer sin klient. 
 
 |API-søk
 |Forretningstjeneste
@@ -293,9 +289,9 @@ image:../nab_referanse_arkitekturer/media/slå opp data.png[alt="Bilde mangler",
 |Elementtype
 |Beskrivelse
 
-|Hent teknisk endepunkt ved behov
+|Hent teknisk adresse
 |Forretningsprosess
-|Prosessen å slå opp den tekniske adressen til et API før spørring mot APIet dersom dette er nødvendig.
+|Prosessen å slå opp den tekniske adressen til et API før spørring mot APIet. Gjøres kun dersom det er nødvendig.
 
 |Be om tilgangstoken
 |Forretningsprosess
@@ -320,6 +316,10 @@ image:../nab_referanse_arkitekturer/media/slå opp data.png[alt="Bilde mangler",
 
 == Løsningsmønstre (logiske beskrivelser med arkitekturbyggeklosser og aktuelle løsningsbyggeklosser)
 TBD.
+
+// For å registrere API må man for i de respektive fellestjenestene ha rettigheter til dette på vegne av egen virksomhet. Dette tildeles iht. hvem som har rettigheter i enhetsregisteret og rettighetene må delegeres nedover i organisasjonen til den som skal gjennomføre registreringen. Dette foregår i Altinn.
+
+//Henrik: få inn figur som viser dette?
 
 image:../nab_referanse_arkitekturer_eoppslag/media/registerer_api_app_lag.png[alt="Bilde mangler", width=500]
 
