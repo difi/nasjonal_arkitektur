@@ -49,6 +49,7 @@ Dersom du ikke allerede har en GitHub-bruker, kan dette gjøres https://github.c
 Lag en filmappe som hjemmeområde for å arbeide lokalt med github-filer, eventuelt med en undermappe for biblioteker (repos) fra Difi.
 
 Eksempel 1: _C:\Users\eha\OneDrive - Difi\GitHub_.
+
 Eksempel 2: _C:\Users\eha\GitHub_.
 
 NOTE: Det fungerer å bruke Microsoft Onedrive i kombinasjon med Github. Fordelen med dette er at det blir lett å dele enkeltfiler og mapper med andre. Det fungerer også å bruke filmapper under din Windows-bruker som kun lagres lokalt (kan kanskje gi bedre ytelse og respons i brukergrensesnittet).  
