@@ -1,5 +1,5 @@
 :lang: no
-:doctitle: Archi-scipts
+:doctitle: Archi-scripts
 :keywords: Archi
 
 include::../plattform_felles/includes/commonincludes.adoc[]

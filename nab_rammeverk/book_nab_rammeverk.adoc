@@ -26,10 +26,10 @@ image:../nab_rammeverk/media/nasjonalt-arkitekturbibliotek.png[width=900]
 Den viste strukturen er med hensikt lagt tett opp til TOGAF-standarden. Selv om dette bildet kan virke komplisert for "ikke-arkitekter", er vurderingen at det gir verdi å holde seg tett opp til et konsistent og veldefinert begrepsapparatet som er kjent av mange gjennom TOGAF. Tilsvarende bilde fra TOGAF 9.2 er vist i figuren nedenfor.
 
 .Figur: TOGAF 9.2 "arkitekturbibliotek"
-image:./nab_rammeverk/media/togaf92-architecture-repository.png[width=900]
+image:../nab_rammeverk/media/togaf92-architecture-repository.png[width=900]
 
 
-Videre detaljer om metodikk, veiledninger, dokumentasjonskonvensjoner og metamodeller finnes under under link:../nab_referanse_[referanseinformasjon].
+Videre detaljer om metodikk, veiledninger, dokumentasjonskonvensjoner og metamodeller finnes under under link:../nab_referanse_[referansebibliotek].
 
 I det følgende introduseres noen grunnleggende konsepter for arbeidet med nasjonalarkitektur. Deler av dette følger direkte av gjeldende standarder og rammeverk, men her finnes også presiseringer og vinklinger inn mot det som er spesielt relevant i tilknytning til nasjonalt arkitekturbbliotek.   
 
