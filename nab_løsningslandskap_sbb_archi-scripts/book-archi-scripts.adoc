@@ -6,7 +6,7 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 
 [.lead]
-Archi er et gratis og open-source samarbeidsverktøy som støtter Archimate-standarden for arkitekturdokumentasjon. Difi har utviklet scripts for å lette arbeidet med Archi.        
+Archi er et gratis og open-source samarbeidsverktøy som støtter Archimate-standarden for arkitekturdokumentasjon. Difi har utviklet noen scripts som kan lette arbeidet med Archi.        
 
 image:../plattform_praktiske-tips_archi/media/archi-logo.png[]
  
@@ -19,16 +19,14 @@ NOTE: Scriptene utvikles for å dekke løpende behov i påvente av at tilsvarend
 
 Produktdokumentasjon for jArchi finnes på  https://github.com/archimatetool/archi-scripting-plugin/wiki.
 
-I tillegg  finnes noe dokumentasjon i tilknytning til Difis scipts i det følgende. 
 
+== Installering av jArchi plugin
 
-=== Installering av jArchi plugin
+Kun Patreon-medlemmer får tilgang til nedlasting og installasjon av Archi-s Scripting Plugin. For å bli medlem kreves et mindre, månedlig bidrag (størrelsesorden 50 kr. som minimumsbidrag). Se mer om dette under https://www.archimatetool.com/plugins/.
 
-Kun Patreon-medlemmer får tilgang til nedlasting og installasjon av Archi-s Scripting Plugin. For å bli medlem kreves en mindre, månedlig bidrag. Se mer om dette under https://www.archimatetool.com/plugins/.
+== Installering av aktuelle scripts 
 
-=== Installering av aktuelle scripts 
-
-Når du først har installert jArchi, kan du installere sciptene slik:
+Når du først har installert jArchi, kan du installere scriptene slik:
 
 1. Klon GitHub repo https://github.com/nasjonal-arkitektur/kode-archiscripts til lokalt filområde.
 
@@ -37,7 +35,7 @@ Når du først har installert jArchi, kan du installere sciptene slik:
 .Figur: Eksempel på utfylling av scripting Preferences  
 image:../plattform_praktiske-tips_archi/media/archi-scripting-preferences.png[]
 
-=== Grunnleggende begrepsapparat i jArchi
+== Grunnleggende begrepsapparat i jArchi
 jArchi skiller i utgangspunktet mellom ulike typer objekter:
 
 * Modell (Model): Alle objekter i filen (eller prosjektet) 
@@ -46,7 +44,7 @@ jArchi skiller i utgangspunktet mellom ulike typer objekter:
 * Relasjoner (Relationships): Forekomster av _relasjons-konsepter_ i views.
 * Egenskaper (Properties): Attributter for hvert objekt. Alle objekter har noen standardegenskaper, slik som Name og Documentation. Flere standardegenskaper finnes i Archi som produkt. I tillegg har Difi definert et sett av egne egenskaper.
 
-=== Kjøring av scipts - generelt
+== Kjøring av scipts - generelt
 Typisk framgangsmåte er å gjøre et utvalg av objekter, for deretter å velge og kjøre et script. Noen scripts vil uansett ta utgangspunkt i hele modellen, andre kan operere på utvalgte views, konsepter eller forekomster.
 
 Script-konsollet viser feilmeldinger og annen informasjon som kan være nyttig. I det eksemplet som vises nedenfor, kan listingen av konsepter f.eks. tas inn i Excel gjennom copy&paste i Windows utklippstavle.  
@@ -59,7 +57,7 @@ image:../plattform_praktiske-tips_archi/media/jarchi-scripts.png[]
 //.Figur: Start av script ved å høyreklikke script i Scripts Manager   
 //image:../plattform_praktiske-tips_archi/media/jarchi-script-selection-scripts-manager.png[]
 
-=== Introduksjon til de viktigste jArchi-scriptene (Difi)
+== Introduksjon til de viktigste jArchi-scriptene (Difi)
 Her gis en introduksjon til den mest vesentlige funksjonaliten i  på norsk. Mer utførlig dokumentasjon på engelsk er under utarbeidelse.
 
 . * Grunnleggende funksjonalitet - _selection_*
