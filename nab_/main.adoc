@@ -9,7 +9,7 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 [.lead]
 Nasjonalt arkitekturbibliotek inneholder arkitekturdokumentasjon - modeller, standarder, referansearkitekturer, veiledninger, anbefalinger, tips, maler og annet av  interesse på tvers av offentlig (og privat) sektor i Norge.
 
-Innholdet i dette arkitekturbiblioteket utvikles løpende i en samarbeidsplattform basert på lagring og versjonsstyring av tekst og modeller i Github. Se også link:../plattform_/[mer om selve plattformen og praktiske tips for å komme igang med Github og verktøy for innholdsproduksjon.]
+Innholdet i dette arkitekturbiblioteket utvikles løpende i en samarbeidsplattform basert på lagring og versjonsstyring av tekst og modeller i Github. Se også link:../plattform_praktiske-tips/[mer om selve plattformen og praktiske tips for å komme igang med Github og verktøy for innholdsproduksjon.]
 
 //image:../plattform_felles/media/difilogo.svg[image,width=169,height=66]
 

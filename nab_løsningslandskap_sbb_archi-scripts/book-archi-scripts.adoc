@@ -60,7 +60,7 @@ image:../plattform_praktiske-tips_archi/media/jarchi-scripts.png[]
 == Introduksjon til de viktigste jArchi-scriptene (Difi)
 Her gis en introduksjon til den mest vesentlige funksjonaliten i  på norsk. Mer utførlig dokumentasjon på engelsk er under utarbeidelse.
 
-. * Grunnleggende funksjonalitet - _selection_*
+. *Grunnleggende funksjonalitet - _selection_*
 +
 Archi mangler noe funksjonalitet for å velge objekter. Det er ønskelig å kunne velge konsepter i mapper og undermapper (med støtte for multiple selection), views i mapper og undermapper, konsepter i valgte views, elementer (forekomster av konsepter) i valgte views, spesifikt valgte elementer eller relasjoner i views, spesifikt valgte elementer eller relasjoner i mappestrukturen (Outline), m.m. Dette er grunnleggende funksjonalitet for kjøring av flere av de aktuelle scriptene.
 
