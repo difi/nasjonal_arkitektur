@@ -46,8 +46,32 @@ _Merk: Git gir flere muligheter enn "fork" og "pull request" for å spille inn e
 Dersom du ikke allerede har en GitHub-bruker, kan dette gjøres https://github.com/join?source=header[her].
 
 === Etabler lokal filmappe for kloning av github-filer
+Lag en filmappe som hjemmeområde for å arbeide lokalt med github-filer, eventuelt med en undermappe for biblioteker (repos) fra Difi.
 
-Lag en filmappe som hjemmeområde for å arbeide lokalt med github-filer, eventuelt med en undermappe for biblioteker fra Difi.
+Eksempel 1: _C:\Users\eha\OneDrive - Difi\GitHub_.
+Eksempel 2: _C:\Users\eha\GitHub_.
+
+NOTE: Det fungerer å bruke Microsoft Onedrive i kombinasjon med Github. Fordelen med dette er at det blir lett å dele enkeltfiler og mapper med andre. Det fungerer også å bruke filmapper under din Windows-bruker som kun lagres lokalt (kan kanskje gi bedre ytelse og respons i brukergrensesnittet).  
+
+=== Installer og konfigurer Git for Windows
+Det antas her at du kjører Windows. Last ned og installer Git fra
+https://git-scm.com/download/win.
+
+Her følger en kortfattet videre beskrivelse av på norsk; se eventuelt også Git-s egen dokumentasjon om https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup[Getting Started - First-Time Git Setup].
+
+1. Sjekk at systemvariabelen HOME angir riktig filsti til ditt Git hjemmeområde (se over), eventuelt oppdater så verdien blir riktig.
++
+En måte å sjekke dette på, er fra Windows kommandovindu (skrivebordsprogrammet Ledetekst) gjennom kommandoen _set HOME_.
++
+Systemvariabelen kan legges til og endres gjennom Kontrollpanel, System, Avanserte systeminnstillinger, miljøvariabler. Eksempel: _HOME=C:\Users\eha\OneDrive - Difi\GitHub_.
+
+
+2. Sjekk og oppdater Git-konfigurasjonen med riktig user.name og user.email.
++
+En måte å sjekke på: Åpne et Windows kommandovindu (skrivebordsprogrammet Ledetekst) og kjør følgende to kommandoer: _git config --get user.email_ og _git config --get user.name_. 
++
+En måte å endre på: Åpne et Windows kommandovindu (skrivebordsprogrammet Ledetekst) og kjør følgende to kommandoer: _git config --global user.name "Ditt navn"_ og _git config --global din-epostadresse_. Det kan også gjøres gjennom annen Git programvare, som f.eks. GitHub Desktop (se nedenfor).
+
 
 WARNING: For spesielt interesserte: Om du bruker lange navn og dyp mappestruktur i Windows, kan du få problemer med en begrensning på 260
 karakterer i total lengde på filnavn. I og med Windows 10 kan denne begrensningen oppheves. Se f.eks.
@@ -57,7 +81,7 @@ hvordan dette kan gjøres. +
 Kort fortalt: På Windows 10 Enterprise kan du kjøre gpedit.msc og endre Aktiver lange Win32 baner under
 Datamaskinkonfigurasjon, Administrative maler, System, Filsystem. Du må restarte eller logge av og på for at endringen skal tre i kraft.
 
-=== Installer programvare for git og GitHub 
+=== Installer annen programvare for git og GitHub 
 === Generelt
 Det finnes tre kategorier mennesker:
 
@@ -77,10 +101,6 @@ Anbefalinger for disse kategoriene er:
 GitHub Desktop er en mye brukt og god klient for å klone og oppdatere GitHub-biblioteker.
 
 GitHub Desktop kan lastes ned her: https://desktop.github.com/[].
-
-WARNING: Om GitHub desktop har problemer med å aksessere .gitconfig-filen, er en fix å opprette en systemvariabel HOME til den mappen du har opprettet som hjemmeområde for dine lokale GitHub-filer (bruk Kontrollpanel, System, Avanserte systeminnstillinger, miljøvariabler). +
- +
-Tips: Det er kanskje en god ide å unngå å bruke nettverks-drive (som noen virksomheter bruker som default for Dokumenter)? Bruk  heller en katalog direkte under ditt brukernavn på C:\Users? Se også  https://github.com/desktop/desktop/issues/4119.
 
 
 ==== Alternativ 2: TortoiseGit
@@ -125,8 +145,6 @@ Gitt at du har skriverettigheter, kan du endre eksisterende filer, slette filer 
 
 === Synkronisering og publisering av endringer
 
-image:../plattform_felles/media/i-arbeid.png[width=75, height=75] I arbeid.
-
 ==== Synkronisering og publisering med GitHub Desktop
 GitHub Desktop vil kontinuerlig polle og hente ned endringer fra GitHub til valgt _Current Repository_. Du vil også løpende se hvilke endringer du selv har gjort som foreløpig ikke er synkronisert tli GitHub. 
 
@@ -149,4 +167,4 @@ Git Submodules brukes for prosjektarbeid der en ønsker å tildele skriverettigh
 
 ==== Annet
 
-image:../plattform_felles/media/i-arbeid.png[width=75, height=75]I arbeid
+image:../plattform_felles/media/i-arbeid.png[width=45, height=45]I arbeid

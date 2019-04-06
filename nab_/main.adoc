@@ -78,10 +78,11 @@ Oppbyggingen av arkitekturbiblioteket forøvrig følger i grove trekk strukturen
 
 I tillegg denne inndelingen, finnes en egen mappestruktur for innhold i link:../nab_modeller/[det nasjonale biblioteket for arkitekturmodeller]. 
 
-image:./media/nasjonalt-arkitekturbibliotek.png[width=900]
+
+//image:./media/nasjonalt-arkitekturbibliotek.png[width=900]
 
 
-Tilsvarende bilde fra TOGAF 9.2:
-image:./media/togaf92-architecture-repository.png[width=900]
+//Tilsvarende bilde fra TOGAF 9.2:
+//image:./media/togaf92-architecture-repository.png[width=900]
 
         
