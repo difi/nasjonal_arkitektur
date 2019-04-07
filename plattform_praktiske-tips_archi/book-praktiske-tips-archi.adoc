@@ -1,5 +1,5 @@
 :lang: no
-:doctitle: Praktiske tips om samarbeid med Archi
+:doctitle: Praktiske tips om bruk av Archi
 :keywords: Archi
 
 include::../plattform_felles/includes/commonincludes.adoc[]
@@ -20,13 +20,33 @@ Et felles Archi-repository for arbeidet med nasjonal arkitektur finnes på Githu
 
 Du behøver ikke skriverettigheter til selve Github-biblioteket, siden du får det gjennom bruk av en "collaboration plugin" i Archi.
 
-==  Installer Archi og Collaboration plugin
+== Installer og konfigurer Archi
 
 1. *Last ned og installer Archi*
 +
 Last ned og installer siste versjon av Archi fra https://www.archimatetool.com/download/
 
-2. *Skaff deg en GitHub-bruker*
+2. *Konfigurer "diagram appearance*
++
+Det er generelt ønskelig at de fleste symboler har samme størrelse, Standard symbolstørrelse settes slik at det er plass til 4 linjer med "litt lange ord"; se figur nedenfor. Dette holder for de fleste formål. Det velges videre å bruke _gradienter_ i fargevisningen, fordi dette for mange oppleves som et mer "profesjonelt" uttrykk.
++
+.Figur: Konvensjon for konfigurasjon av symbolstørrelser og fargegradient
+image:../plattform_praktiske-tips_archi\media\preferences-appearance.png[]
++
+.
+  
+3. *Konfigurer foretrukne Archi standardfigurer*
++
+Det er sterkt ønskelig å standardisere på symbolbruken. Archimate-standarden gir valgmuligheter som kan forvirre. Foretrukne standardfigurer konfigureres under menyen Edit | Preferences | Diagram | Default Figures. Benytt da valg som vist i følgende figur.
++
+.Figur: Konvensjon for konfigurasjon av _default figures_ i Archi
+image:../plattform_praktiske-tips_archi/media/preferences-default-figures.png[width=600, height=600]
+
+WARNING: Archi har per januar 2019 begrenset funksjonalitet for dette. En har f.eks, ikke noen alternativer for Actor. En kan heller ikke benytte egne symboler.
+
+== Installer og konfigurer Collaboration plugin
+
+1. *Skaff deg en GitHub-bruker*
 +
 Du trenger en brukerkonto på GitHub. Dersom du ikke allerede har en GitHub-bruker, kan du skaffe deg det https://github.com/join?source=header[her].
 +
@@ -45,14 +65,6 @@ Sett inn ditt git brukernavn (Name) og e-post (Email), og mappe-navnet (Local Re
 +
 image:../plattform_praktiske-tips_archi/media/archi-collaboration-preferences.png[width=600, height=600]
 
-5. *Eventuell videre konfigurering*
-+
-Du kan konfigurere dine foretrukne standardfigurer under menyen Edit, Preferences, f.eks. slik:
-+
-image:../plattform_praktiske-tips_archi/media/preferences-default-figures.png[width=600, height=600]
-
-WARNING: Archi har per januar 2019 begrenset funksjonalitet for dette. En har f.eks, ikke noen alternativer for Actor. En kan heller ikke benytte egne symboler.
-
 == Importer Github-repository
 Velg [underline]#Import Remote Model to Workspace# fra menyen under Collaboration i Archi, og oppgi https://github.com/nasjonal-arkitektur/archi-collab-nasjonal-arkitektur som URL og oppgi ditt git brukernavn og passord.
 
@@ -70,17 +82,15 @@ De endringene du gjør blir ikke synlige for andre før du publiserer endringene
 * Bruk [underline]#Refresh# om du bare vil laste ned endringer som andre har gjort (git pull).
 * [underline]#Publish# gjør både Refresh, Commit og Publish - alt i ett.
 
-_NB: Om flere jobber på de samme modellene samtidig, kan det bli behov for å rydde opp i "merge-operasjoner". Jeg (erikhag1) har opplevd problemer med dette, men er usikker på hvordan det best håndteres. Tips meg om du vet?_
+_NB: Om flere jobber på de samme modellene samtidig, kan det bli behov for litt kompliserte "merge-operasjoner". Om du opplever problemer med dette, er det fint om du melder fra via en _issue_ i GitHub (eller per e-post til nasjonalarkitektur@difi.no).
 
-== jArchi scripts fra Difi
+
+== Tips for å finne og gjenåpne en lukket Archi-modell lokalt
+Collaboration-plugin oppretter en .git undermappe som ikke uten videre er synlig, der det blant annet ligger en #temp.archimate# fil. Det er denne filen som åpnes i Archi når du har importert biblioteket. Nyttig å vite dersom du f.eks. har kommet til å lukke modellen fra workspace i Archi før du har publisert endringene dine. Det er altså bare å åpne denne filen, så kommer den opp i Archi, helt tilsvarende "normale" Archi-filer og med samme innhold som klonet og eventuelt modifisert modell.    
+
+image:../plattform_praktiske-tips_archi/media/hidden-git-files.png[width=300, height=300]
+
+== Archi scripts for effektiv administrasjon og modellering
 Difi har utviklet noen scripts for å effektivisere modellering og administrasjon av arkitekturbibliotek. Disse scriptene er gjort i jArchi med bruk av Archi-s Scripting Plugin, og krever installasjon av Archi-s Scripting Plugin for å kunne kjøres.
 
 Se link:../nab_løsningslandskap_sbb_archi-scripts/[praktiske Archi scripts] for mer informasjon om funksjonalitet og praktisk bruk av disse scriptene.
-
-
-== Andre tips
-* Collaboration-plugin oppretter en .git undermappe som ikke uten videre er synlig, der det blant annet ligger en #temp.archimate# fil. Det er denne filen som åpnes i Archi når du har importert biblioteket. Nyttig å vite dersom du f.eks. har kommet til å lukke modellen fra workspace i Archi før du har publisert endringene dine! Det er altså bare å åpne denne filen, så kommer den opp i Archi, helt tilsvarende "normale" Archi-filer.    
-+ 
-image:../plattform_praktiske-tips_archi/media/hidden-git-files.png[width=300, height=300]
-
-
