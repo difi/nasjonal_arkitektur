@@ -1,1 +1,1 @@
-include::./book_nab_overordnet-metode.adoc[]
+include::book-nab-overordnet-metode.adoc[]

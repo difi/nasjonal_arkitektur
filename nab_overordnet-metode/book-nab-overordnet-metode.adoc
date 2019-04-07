@@ -1,5 +1,5 @@
 :lang: no
-:doctitle: Rammeverk og overordnet informasjon
+:doctitle: Overordnet metode og rammeverk
 :keywords: Norsk, arkitekturbibliotek, offenlig sektor, virksomhetsarkitektur, NIF, samhandlingsarkitektur, rammeverk, GitHub
 //:preamble: 
 
