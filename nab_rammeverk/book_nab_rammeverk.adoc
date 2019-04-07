@@ -41,8 +41,31 @@ Inndeling i _temaområder_ tilsvarer det som http://pubs.opengroup.org/architect
 
 NOTE: Difi arbeider i 2019 med å ta fram en helhetlig oversikt over kapabilitetsområder i nasjonal arkitektur. Se link:../kunnskap_tema_kapabilitetsmodellering/[egen omtale av kapabilitetsmodellering].
 
+.Figur: Temaområder og kapabiliteter  
+image:../nab_rammeverk\media\temaområder-og-kapabiliteter.png[]
+
+
+=== Strategiske arkitekturer, segmentarkitekturer og kapabilitetetsarkitekturer
+
+Dette er vanskelige begreper fra TOGAF-standarden som gjerne brukes ulikt. 
+I sammenheng mednasjonal arkitektur, kan en si at _strategiske arkitekturer_ handler om
+
+Strategic Architecture
+A summary formal description of the enterprise, providing an organizing framework for
+operational and change activity, and an executive-level, long-term view for direction setting.
+
+Segment Architecture
+A detailed, formal description of areas within an enterprise, used at the program or portfolio
+level to organize and align change activity.
+
+Capability Architecture
+A highly detailed description of the architectural approach to realize a particular solution or
+solution aspect.
+
+
+
 === Realisering av kapabiliteter
-Kapa
+TBD.
 
 
 

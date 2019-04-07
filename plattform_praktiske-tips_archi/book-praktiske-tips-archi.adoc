@@ -16,9 +16,18 @@ image:../plattform_praktiske-tips_archi/media/archi-logo.png[]
 ////
 
 == Generelt
+Archi er gratis og i utbredt bruk både i Norge og internasjonalt. Det er derfor inntil videre valgt som samarbeidsplattform for arbeidet med Nasjonal arkitektur. 
+
+Dette betyr ikke at andre verktøy ikke kan brukes. Archi mangler endel funksjonalitet som finnes i mange andre verktøy, så integrajoner på tvers av ulike verktøy er aktuelt.
+
+== Archi repository på GitHub
+
 Et felles Archi-repository for arbeidet med nasjonal arkitektur finnes på Github, her: https://github.com/nasjonal-arkitektur/archi-collab-nasjonal-arkitektur.
 
-Du behøver ikke skriverettigheter til selve Github-biblioteket, siden du får det gjennom bruk av en "collaboration plugin" i Archi.
+Gi beskjed til nasjonalarkitektur@difi.no om du ønsker skriverettigheter til dette biblioteket.
+
+NOTE: I tillegg til dette biblioteket, finnes andre modeller som du kanskjeogså er interessert i. Se  
+
 
 == Installer og konfigurer Archi
 
