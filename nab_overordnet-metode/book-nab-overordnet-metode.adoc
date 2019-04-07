@@ -6,7 +6,7 @@
 include::../plattform_felles/includes/commonincludes.adoc[]
 
 [.lead]
-Overordnet informasjon om arbeidet med nasjonal arkitektur
+Overordnet rammeverk og metode for arbeidet med nasjonal arkitektur
 
 
 == Generelt
@@ -21,20 +21,22 @@ _Nasjonalt arkitekturrammeverk for samhandling_ (NIF) er det primære rammeverke
 _Nasjonalt arkitekturrammeverk for samhandling_ beskriver innholdet i et arkitekturbibliotek for virksomheter generelt. På nasjonalt nivå gjelder tilsvarende, men virksomheten kan da sier å være "nasjonen som virksomhet". Følgende figur er tilpasset fra Nasjonalt arkitekturrammeverk for samhandling (NIF), og angir mer spesifikt innholdet i det nasjonale arkitekturbiblioteket.
 
 .Figur: Innhold i nasjonalt arkitekturbibliotek.
-image:../nab_rammeverk/media/nasjonalt-arkitekturbibliotek.png[width=900]
+image:../nab_overordnet-metode/media/nasjonalt-arkitekturbibliotek.png[width=900]
 
 Den viste strukturen er med hensikt lagt tett opp til TOGAF-standarden. Selv om dette bildet kan virke komplisert for "ikke-arkitekter", er vurderingen at det gir verdi å holde seg tett opp til et konsistent og veldefinert begrepsapparatet som er kjent av mange gjennom TOGAF. Tilsvarende bilde fra TOGAF 9.2 er vist i figuren nedenfor.
 
 .Figur: TOGAF 9.2 "arkitekturbibliotek"
-image:../nab_rammeverk/media/togaf92-architecture-repository.png[width=900]
+image:../nab_overordnet-metode/media/togaf92-architecture-repository.png[width=900]
 
 
-Videre detaljer om metodikk, veiledninger, dokumentasjonskonvensjoner og metamodeller finnes under under link:../nab_referanse_[referansebibliotek].
-
-I det følgende introduseres noen grunnleggende konsepter for arbeidet med nasjonalarkitektur. Deler av dette følger direkte av gjeldende standarder og rammeverk, men her finnes også presiseringer og vinklinger inn mot det som er spesielt relevant i tilknytning til nasjonalt arkitekturbbliotek.   
+Videre detaljer om metodikk, veiledninger, dokumentasjonskonvensjoner og metamodeller finnes under link:../nab_referanse_[referansebibliotek].
 
 
-== Grunnleggende konsepter
+== Grunnleggende konsepter og begrepsapparat
+
+=== Generelt 
+Her introduseres noen grunnleggende konsepter. Selv om mye av dette vil være kjent stoff for "garvede arkitekter", gis det også presiseringer og vinklinger inn mot det som er spesielt relevant i tilknytning til Nasjonalt arkitekturbbliotek.   
+
 
 === Temaområder og kapabiliteter
 Inndeling i _temaområder_ tilsvarer det som http://pubs.opengroup.org/architecture/togaf9-doc/arch/[TOGAF 9.2] kaller _"subject areas"_ eller _segmenter_. Hvert slikt område kan ses på som en gruppering av kapabiliteter som en ønsker å adressere samlet.
@@ -42,7 +44,7 @@ Inndeling i _temaområder_ tilsvarer det som http://pubs.opengroup.org/architect
 NOTE: Difi arbeider i 2019 med å ta fram en helhetlig oversikt over kapabilitetsområder i nasjonal arkitektur. Se link:../kunnskap_tema_kapabilitetsmodellering/[egen omtale av kapabilitetsmodellering].
 
 .Figur: Temaområder og kapabiliteter  
-image:../nab_rammeverk\media\temaområder-og-kapabiliteter.png[]
+image:../nab_overordnet-metode\media\temaområder-og-kapabiliteter.png[]
 
 
 === Strategiske arkitekturer, segmentarkitekturer og kapabilitetetsarkitekturer
@@ -61,12 +63,6 @@ level to organize and align change activity.
 Capability Architecture
 A highly detailed description of the architectural approach to realize a particular solution or
 solution aspect.
-
-
-
-=== Realisering av kapabiliteter
-TBD.
-
 
 
 === Referansearkitekturer, arkitekturer og løsninger

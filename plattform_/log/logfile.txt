@@ -1825,3 +1825,21 @@
 07.04.2019 17:40:42: 3 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_rammeverk\book_nab_rammeverk.adoc
 07.04.2019 17:40:42: Linje: include::./book_nab_rammeverk.adoc[]
 07.04.2019 17:40:42: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_rammeverk\main.adoc
+07.04.2019 18:19:25: SøkTekstIAlleFiler(nab_rammeverk)
+07.04.2019 18:19:25: Linje: . link:../nab_rammeverk/[Rammeverk og overordnet informasjon]
+07.04.2019 18:19:25: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_\book-nasjonalt-arkitekturbibliotek.adoc
+07.04.2019 18:19:26: Linje: image:../nab_rammeverk/media/nasjonalt-arkitekturbibliotek.png[width=900]
+07.04.2019 18:19:26: Linje: image:../nab_rammeverk/media/togaf92-architecture-repository.png[width=900]
+07.04.2019 18:19:26: Linje: image:../nab_rammeverk\media\temaområder-og-kapabiliteter.png[]
+07.04.2019 18:19:26: 3 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_overordnet-metode\book-nab-overordnet-metode.adoc
+07.04.2019 18:19:26: Linje: include::./book_nab_rammeverk.adoc[]
+07.04.2019 18:19:26: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_overordnet-metode\main.adoc
+07.04.2019 18:20:25: ErstattTekstIAlleFiler(nab_rammeverk, nab_overordnet-metode)
+07.04.2019 18:20:25: Linje: . link:../nab_rammeverk/[Rammeverk og overordnet informasjon]
+07.04.2019 18:20:25: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_\book-nasjonalt-arkitekturbibliotek.adoc
+07.04.2019 18:20:26: Linje: image:../nab_rammeverk/media/nasjonalt-arkitekturbibliotek.png[width=900]
+07.04.2019 18:20:26: Linje: image:../nab_rammeverk/media/togaf92-architecture-repository.png[width=900]
+07.04.2019 18:20:26: Linje: image:../nab_rammeverk\media\temaområder-og-kapabiliteter.png[]
+07.04.2019 18:20:26: 3 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_overordnet-metode\book-nab-overordnet-metode.adoc
+07.04.2019 18:20:26: Linje: include::./book_nab_rammeverk.adoc[]
+07.04.2019 18:20:26: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_overordnet-metode\main.adoc

@@ -1,1 +1,0 @@
-include::./book_nab_rammeverk.adoc[]
