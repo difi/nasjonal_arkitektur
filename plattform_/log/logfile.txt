@@ -1816,3 +1816,12 @@
 20.02.2019 12:12:05: Error: Asciidoc link ./media/ missing [ in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_maler_asciidoc\artikkelmal-engelsk.adoc
 20.02.2019 12:12:07: Start SjekkAsciidocInclude()
 18.03.2019 14:35:03: SøkTekstIAlleFiler(kunnskap_tema_kapabiliteter)
+07.04.2019 17:40:40: SøkTekstIAlleFiler(nab_rammeverk)
+07.04.2019 17:40:41: Linje: . link:../nab_rammeverk/[Rammeverk og overordnet informasjon]
+07.04.2019 17:40:41: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_\main.adoc
+07.04.2019 17:40:42: Linje: image:../nab_rammeverk/media/nasjonalt-arkitekturbibliotek.png[width=900]
+07.04.2019 17:40:42: Linje: image:../nab_rammeverk/media/togaf92-architecture-repository.png[width=900]
+07.04.2019 17:40:42: Linje: image:../nab_rammeverk\media\temaområder-og-kapabiliteter.png[]
+07.04.2019 17:40:42: 3 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_rammeverk\book_nab_rammeverk.adoc
+07.04.2019 17:40:42: Linje: include::./book_nab_rammeverk.adoc[]
+07.04.2019 17:40:42: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_rammeverk\main.adoc
