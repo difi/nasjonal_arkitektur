@@ -15,10 +15,12 @@ Dokumentasjonen av det nasjonale arkitekturlandskapet er i tidlig arbeid.
 
 :leveloffset: +1
 
-= Strategiskearkitekturer
+= Strategiske arkitekturer
 
 include::../nab_arkitekturlandskap_strategisk-arkitektur/main.adoc[]
 
 = Segmenarkitekturer
+TBD.
 
 = Kapabilitetsarkitekturer
+TBD.

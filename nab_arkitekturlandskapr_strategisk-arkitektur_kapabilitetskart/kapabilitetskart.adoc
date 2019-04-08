@@ -7,7 +7,7 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 == Nivå 1 kapabilitetsområder (overordnet) 
 
-Følgende figur viser de _overordnede kapabilitetsområdene_ innen Nasjonal arkitektur. 
+Følgende figur viser utvalgte _overordnede kapabilitetsområder_ innen Nasjonal arkitektur. 
 
 .Figur: Kapabilitetsområder innen Nasjonal arkitektur (i arbeid)
 image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media\områder-nasjonal-arkitektur.png[]
@@ -29,8 +29,7 @@ image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media\om
 //.Figur: Kapabiliteter innen området Datautveksling - samlet oversikt 
 //image:../nab_referanse_modeller_kapabiliteter/media/kapabiliteter-datautveksling-overordnet.png[alt="Bilde mangler", width=750]
 
-== Nivå 4 - Kapabiliteter
-=== Datautveksling
+
 ==== Deling av data ved forsendelse
 
 .Figur: Kapabiliteter innen området Deling av data ved forsendelse
