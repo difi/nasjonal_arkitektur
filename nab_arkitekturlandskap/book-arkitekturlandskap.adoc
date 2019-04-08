@@ -10,11 +10,8 @@ Strategiske arkitekturer, segmentarkitekturer og kapabilitetsarkitekturer
 
 
 == Generelt
-Dokumentasjonen av det nasjonale arkitekturlandskapet er i arbeid. Foreløpig innhold:
+Dokumentasjonen av det nasjonale arkitekturlandskapet er i tidlig arbeid. 
 
-. Kapabilitetskart
-. Arkitekturyggeklosser- kataloger
-. Realisering av kapabiliteter
 
 :leveloffset: +1
 
