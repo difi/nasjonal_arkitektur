@@ -5,7 +5,7 @@
 include::../plattform_felles/includes/commonincludes.adoc[]
 
 
-== Nivå 1 kapabilitetsområder (overordnet) 
+== Nivå 1 områder (overordnet) 
 
 Følgende figur viser utvalgte _overordnede kapabilitetsområder_ innen Nasjonal arkitektur. 
 
@@ -13,27 +13,31 @@ Følgende figur viser utvalgte _overordnede kapabilitetsområder_ innen Nasjonal
 image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media\områder-nasjonal-arkitektur.png[]
 
 
-== Nivå 2 kapabilitetsområder
+== Nivå 2 områder
 === Datadeling
 
 
-.Figur: Kapabilitetsområder innen Datadeling
-image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media\områder-datadeling.png[]
+.Figur: Kapabilitetsområder innen Datadeling (utvalg)
+image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media\områder-datadeling.png[alt="Bilde mangler"]
 
-== Nivå 3 kapabilitetsområder
+== Nivå 3 områder og overordnede kapabiliter
 === Datautveksling
-.Figur: Kapabilitetsområder innen Datautveksling
-image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media\områder-datautveksling.png[]
+Området _datautveksling_ er brutt ned i delområder som vist i følgende figur.
+
+.Figur: Områder innen Datautveksling
+image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media\områder-datautveksling.png[alt="Bilde mangler"]
 
 
-//.Figur: Kapabiliteter innen området Datautveksling - samlet oversikt 
-//image:../nab_referanse_modeller_kapabiliteter/media/kapabiliteter-datautveksling-overordnet.png[alt="Bilde mangler", width=750]
+En videre oversikt over de overordnede kapabilitetene innen dette området er vist nedenfor. Her er det også vist hvilke roller som kapabilitetene assosieres med, og sammenhengen mellom kapabilitetene er angitt som informasjonsflyt.
+
+.Figur: Overordnet kapabilitetskart innen området Datautveksling
+image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media\kapabiliteter-datautveksling.png[alt="Bilde mangler"]
 
 
 ==== Deling av data ved forsendelse
 
 .Figur: Kapabiliteter innen området Deling av data ved forsendelse
-image:../nab_referanse_modeller_kapabiliteter/media/kapabiliteter-datautveksling-forsendelse.png[alt="Bilde mangler", width=750]
+image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media/kapabiliteter-datautveksling-forsendelse.png[alt="Bilde mangler", width=750]
 
 Dette er deling av informasjon og data initiert av avsender. Det vil normalt være behov og/eller forventning om oppfølging fra mottaker. 
 
@@ -45,7 +49,7 @@ Deling av data ved forsendelse er foreløpig beskrevet i Nasjonal referansearkit
 
 ==== Deling av data på forespørsel
 .Figur: Kapabiliteter innen området Deling av data på forespørsel
-image:../nab_referanse_modeller_kapabiliteter/media/kapabiliteter-datautveksling-forespørsel.png[alt="Bilde mangler", width=750]
+image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media/kapabiliteter-datautveksling-forespørsel.png[alt="Bilde mangler", width=750]
 
 Deling av data initiert av databruker. Dette kan være å spørre om data gjennom en tjeneste/API eller å lese åpne publiserte data. Ved å lese publiserte data menes for eksempel åpne data på data.norge.no eller datasett som legges fritt tilgjengelig på nettet. Et eksempel på det siste er valutakurser fra Norges bank.
 
@@ -55,7 +59,7 @@ Data gjennom en tjeneste/API kan gi mer avanserte tilganger for spørring i data
 ==== Hendelsesdrevet deling av data
 
 .Figur: Kapabiliteter innen området Hendelsesdrevet deling av data
-image:../nab_referanse_modeller_kapabiliteter/media/kapabiliteter-datautveksling-hendelse.png[alt="Bilde mangler", width=750]
+image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media/kapabiliteter-datautveksling-hendelse.png[alt="Bilde mangler", width=750]
 
 Med hendelsesdrevet deling av data menes det deling som er initiert av en tilstandsendring i dataene som deles. Databruker leser eller abonnerer på hendelseslister og dette trigger eventuell videre oppfølging. Databruker må vurdere om endringen skal følges opp og lese data på forespørsel. 
 
