@@ -13,8 +13,6 @@ Her gis oversikt og lenker til mer informasjon om gjeldende _IT-standarder_ i no
 
 Det skilles inntil videre mellom standarder innen arkitektur og standarder som inngår i Referansekatalogen for IT-standarder (historisk betinget).
 
-Se også 
-
 
 == Referansekatalogen for IT-standarder
 Referansekatalogen for IT-standarder er en oversikt over IT-standarder som er obligatoriske eller anbefalte for offentlig sektor. Katalogen samler tverrsektorielle krav til bruk av IT-standarder på ett sted, og lenker også til sektorspesifikke oversikter, som e-Helses referansekatalog.
