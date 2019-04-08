@@ -1,1 +1,0 @@
-# nasjonal_arkitektur

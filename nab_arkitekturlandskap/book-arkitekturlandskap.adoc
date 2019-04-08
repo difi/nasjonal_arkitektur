@@ -1,0 +1,27 @@
+:lang: no
+:doctitle: Nasjonalt arkitekturlandskap
+:keywords: Norsk, arkitekturbibliotek, offenlig sektor, virksomhetsarkitektur, NIF, samhandlingsarkitektur, rammeverk, GitHub
+:keywords_en: Norwegian, Architecture Repository, Public sector, Enterprise Architecture, NIF, Architecture Interoperability Framework, GitHub,
+:toclevels: 4
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+[.lead]
+Strategiske arkitekturer, segmentarkitekturer og kapabilitetsarkitekturer
+
+
+== Generelt
+Dokumentasjonen av det nasjonale arkitekturlandskapet er i arbeid. Foreløpig innhold:
+
+. Kapabilitetskart
+. Arkitekturyggeklosser- kataloger
+. Realisering av kapabiliteter
+
+:leveloffset: +1
+
+= Strategiskearkitekturer
+
+include::../nab_arkitekturlandskap_strategisk-arkitektur/main.adoc[]
+
+= Segmenarkitekturer
+
+= Kapabilitetsarkitekturer

@@ -1,0 +1,15 @@
+:lang: no
+:doctitle: Strategiske arkitekturer
+:keywords: Norsk, arkitekturbibliotek, offenlig sektor, virksomhetsarkitektur, NIF, samhandlingsarkitektur, rammeverk, GitHub
+:keywords_en: Norwegian, Architecture Repository, Public sector, Enterprise Architecture, NIF, Architecture Interoperability Framework, GitHub,
+:toclevels: 4
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+//[.lead]
+//Strategiske arkitekturer
+
+== Kapabilitetskart
+
+:leveloffset: +1
+include::../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart/main.adoc[]
+:leveloffset: -1

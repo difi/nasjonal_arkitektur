@@ -1,0 +1,20 @@
+:lang: no
+:doctitle: Kapabiliteter og kapabilitetsområder
+:keywords: eMelding
+
+:toclevels: 3
+
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+[.lead]
+Oversikt over aktuelle kapabilitetsområder og kapabiliteter innen Nasjonal arkitektur.
+
+image:../plattform_felles/media/i-arbeid.png[width=45, height=45] Oversikter og nedbryting er under arbeid (vår 2019).
+
+:leveloffset: +1
+= Introduksjon
+include::./intro-kapabiliteter.adoc[]
+
+:leveloffset: -1
+//= Kapabilitetskart
+include::./kapabilitetskart.adoc[]

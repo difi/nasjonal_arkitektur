@@ -1,9 +1,1 @@
-:lang: no
-:doctitle: Arkitekturlandskap
-:keywords: Norsk, arkitekturbibliotek, offenlig sektor, virksomhetsarkitektur, NIF, samhandlingsarkitektur, rammeverk, GitHub
-:keywords_en: Norwegian, Architecture Repository, Public sector, Enterprise Architecture, NIF, Architecture Interoperability Framework, GitHub,
-
-include::../plattform_felles/includes/commonincludes.adoc[]
-
-[.lead]
-Nasjonal arkitekturlandskap...
+include::book-arkitekturlandskap.adoc[]

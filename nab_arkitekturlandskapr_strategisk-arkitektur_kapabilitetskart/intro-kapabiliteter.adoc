@@ -1,0 +1,16 @@
+:lang: no
+:doctitle: Introduksjon til kapabilitetskart for nasjonal arkitektur
+:keywords: eMelding
+:toclevels: 3
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+Inndeling i _temaområder_ tilsvarer det som TOGAF 9.2 på engelsk kaller _"subject areas"_ eller _segments_. Dette kan ses på som en gruppering av kapabiliteter som en ønsker å adressere samlet, enten gjennom gjennom _referansearkitekturer_ eller mer spesifikke __segmentarkitekturer__.
+
+
+Overordnede kapabilitetsområder brytes ned i mer spesifikke områder, ned til konkrete kapabiliteter på laveste nivå. For hver kapabilitet angis aktører eller roller (mennesker eller systemer) som kapabiliteten gjelder for.
+
+
+
+
+
+
