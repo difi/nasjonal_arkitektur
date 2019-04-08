@@ -25,7 +25,8 @@ NOTE: Begrepet _kapabilitetsarkitektur_ benyttes om realiseringen av kapabilitet
 Se eventuelt også link:../kunnskap_tema_kapabilitetsmodellering/[videre bakgrunnsinformasjon om kapabiliteteter, kapabilitetsmodellering,m.v.] i _kunnskapsbiblioteket_.
 
 
-image:../plattform_felles/media/i-arbeid.png[width=45, height=45] Et første kapabilitetskart for nasjonal arkitektur er planlagt vår 2019.
+
+//image:../plattform_felles/media/i-arbeid.png[width=45, height=45] Et første kapabilitetskart for nasjonal arkitektur er planlagt vår 2019.
 
 
 == Kapabilitetetsbasert planlegging for offentlig sektor?
