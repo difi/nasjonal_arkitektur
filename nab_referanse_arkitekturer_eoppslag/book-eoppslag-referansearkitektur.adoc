@@ -320,14 +320,18 @@ TBD.
 // For å registrere API må man for i de respektive fellestjenestene ha rettigheter til dette på vegne av egen virksomhet. Dette tildeles iht. hvem som har rettigheter i enhetsregisteret og rettighetene må delegeres nedover i organisasjonen til den som skal gjennomføre registreringen. Dette foregår i Altinn.
 
 //Henrik: få inn figur som viser dette?
+For å tilby data gjennom et API sikret med fellestjenester kan Maskinporten og API-katalogen benyttes.
+
 
 image:../nab_referanse_arkitekturer_eoppslag/media/registerer_api_app_lag.png[alt="Bilde mangler", width=500]
+
+Når tilbyder får en forspørsel om data som et API-kall og det ligger ved en sikkerhetsbillett beyttes valideringstjenesten til maskinporten for grov tilgangskontroll.
 
 image:../nab_referanse_arkitekturer_eoppslag/media/avgi_data_app_lag.png[alt="Bilde mangler", width=500]
 
 image:../nab_referanse_arkitekturer_eoppslag/media/få_tilgang_app_lag.png[alt="Bilde mangler", width=500]
 
-image:../nab_referanse_arkitekturer_eoppslag/media/delegere_rettigheter_app_lag.png[alt="Bilde mangler", width=500]
+image:../nab_referanse_arkitekturer_eoppslag/media/delegere_rettigheter_app_lag.png[alt="Bilde mangler", width=350]
 
 image:../nab_referanse_arkitekturer_eoppslag/media/slå_opp_app_lag.png[alt="Bilde mangler", width=500]
 
