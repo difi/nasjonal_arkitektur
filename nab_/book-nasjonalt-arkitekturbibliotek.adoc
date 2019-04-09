@@ -24,7 +24,7 @@ Oppbyggingen av arkitekturbiblioteket følger i grove trekk strukturen som angit
 . link:../nab_styring/[Styring og oppfølging]
 
 
-I tillegg denne inndelingen, finnes en egen mappestruktur for innhold i link:../nab_modeller/[det nasjonale biblioteket for arkitekturmodeller]. 
+I tillegg denne inndelingen, finnes en egen mappestruktur for innhold i link:../nab_modellsamling/[det nasjonale biblioteket for arkitekturmodeller]. 
 
 
 //image:./media/nasjonalt-arkitekturbibliotek.png[width=900]

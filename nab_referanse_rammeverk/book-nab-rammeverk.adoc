@@ -1,0 +1,16 @@
+:lang: no
+:doctitle: Rammeverk
+:keywords: samhandlingsarkitektur, rammeverk
+//:preamble: 
+
+:toclevels: 3
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+[.lead]
+Rammeverk...
+
+
+== Generelt
+Her omtales i første omgang EIF...
+
+== EIF
