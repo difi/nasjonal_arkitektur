@@ -19,8 +19,8 @@ image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media\ka
 
 Relatert informasjon:
 
-1. link:../nab_overordnet-metode/grunnleggende-konsepter.adoc[Grunnleggende konsepter]
-2. link:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart/main.adoc[Nedbrytning i områder og kapabiliteter]
+1. link:../nab_overordnet-metode/[Grunnleggende konsepter (under overordnet metode)]
+2. link:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart[Nedbrytning i områder og kapabiliteter]]
 
 
 

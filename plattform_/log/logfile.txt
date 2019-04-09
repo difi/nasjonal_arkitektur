@@ -1843,3 +1843,13 @@
 07.04.2019 18:20:26: 3 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_overordnet-metode\book-nab-overordnet-metode.adoc
 07.04.2019 18:20:26: Linje: include::./book_nab_rammeverk.adoc[]
 07.04.2019 18:20:26: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_overordnet-metode\main.adoc
+09.04.2019 18:59:23: SøkTekstIAlleFiler(Nedbrytning i områder og kapabiliteter)
+09.04.2019 18:59:23: Linje: 2. link:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart[Nedbrytning i områder og kapabiliteter]
+09.04.2019 18:59:23: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer\tilnærming-til-arbeidet-med-referansearkitekturer .adoc
+09.04.2019 18:59:23: Linje: 2. link:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart/main.adoc[Nedbrytning i områder og kapabiliteter]
+09.04.2019 18:59:23: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_veiledning_valg-av-referansearkitekturer\kvalitetsegenskaper-datautveksling.adoc
+09.04.2019 18:59:57: SøkTekstIAlleFiler(Nedbrytning i områder og kapabiliteter)
+09.04.2019 18:59:57: Linje: 2. link:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart[Nedbrytning i områder og kapabiliteter]
+09.04.2019 18:59:57: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer\tilnærming-til-arbeidet-med-referansearkitekturer .adoc
+09.04.2019 18:59:57: Linje: 2. link:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart/main.adoc[Nedbrytning i områder og kapabiliteter]
+09.04.2019 18:59:57: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_veiledning_valg-av-referansearkitekturer\kvalitetsegenskaper-datautveksling.adoc
