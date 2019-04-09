@@ -414,7 +414,7 @@ image:../nab_referanse_arkitekturer_eoppslag/media/få_tilgang_app_lag.png[alt="
 image:../nab_referanse_arkitekturer_eoppslag/media/delegere_rettigheter_app_lag.png[alt="Bilde mangler", width=350]
 
 [cols ="1,1,3", options="header"]
-.Elementer i figur for å få tilgang til API
+.Elementer i figur delegering av rettigheter til leverandør
 |===
 |Element
 |Elementtype
@@ -433,11 +433,61 @@ Når tilbyder får en forspørsel om data som et API-kall og det ligger ved en s
 
 image:../nab_referanse_arkitekturer_eoppslag/media/avgi_data_app_lag.png[alt="Bilde mangler", width=500]
 
+[cols ="1,1,3", options="header"]
+.Elementer i figur avgi forespurte data
+|===
+|Element
+|Elementtype
+|Beskrivelse
+
+|Tilgangstoken
+|
+|
+
+|Tokenvalideringstjeneste
+|
+|
+
+|Maskinporten
+|
+|
+
+|===
+
 ==== Slå opp data gjennom et API
 
 
 
 image:../nab_referanse_arkitekturer_eoppslag/media/slå_opp_app_lag.png[alt="Bilde mangler", width=500]
+
+[cols ="1,1,3", options="header"]
+.Elementer i figur slå opp data gjennom et API
+|===
+|Element
+|Elementtype
+|Beskrivelse
+
+|Virksomhetssertifikat
+|
+|
+
+|Virksomhetsautentisering
+|
+|
+
+|Grov tilgangsstyring
+|
+|
+
+|Maskinporten
+|
+|
+
+|Altinn autorisasjon
+|
+|
+
+|===
 
 ==== Videre detaljering av komponentene
 
