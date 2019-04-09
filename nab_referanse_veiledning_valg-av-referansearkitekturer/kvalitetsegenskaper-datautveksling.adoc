@@ -6,7 +6,7 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 :leveloffset: +1
 == Generelt
-Begrepet _kvalitetsegenskaper_ benyttes i sammenheng med valg av referansearkitekturer, og omfatter "alle" aspekter i EIF-modellen,dvs. juridiske, organisatoriske, semantiske og tekniske, i tillegg til styring og forvaltning.
+Begrepet _kvalitetsegenskaper_ benyttes i sammenheng med valg av referansearkitekturer, og omfatter "alle" aspekter i EIF-modellen, dvs. juridiske, organisatoriske, semantiske og tekniske, i tillegg til styring og forvaltning.
 
 Juridisk: Førende lover og regler
 Organisatorisk: Hvilke parter erinvolvert og hva er behovene?
@@ -36,12 +36,22 @@ Governance
 
 Juridisk
 
-* Dataminimering
 * Lovpålagte krav
+* Dataminimering
+
 	
 Organisatorisk
 
 * Forretningsprosess
+* Responstid
+* Tilgjengelighet/oppetid
+* Leveringstid (hvor lang tid det tar)
+* Leveringssikkerhet (garanti)
+* Antall samhandlingsparter
+* Dynamisk gruppe med samhandlingsparter
+* (Overføring av «stafettpinne»)
+* (Registeroppslag)
+* Pris
 	
 Semantisk
 
@@ -51,38 +61,26 @@ Semantisk
 	
 Teknisk
 
+* Teknologivalg
 * Synkront/asynkront
 
 
-
-Egenskaper og krav knyttet til forretningsprosess
- 
-* Responstid
-* Tilgjengelighet/oppetid
-* Leveringstid (hvor lang tid det tar)
-* Leveringssikkerhet (garanti)
-* Antall samhandlingsparter
-* Dynamisk gruppe med samhandlingsparter
-
-* (Overføring av «stafettpinne»)
-* (Registeroppslag)
- 
 Egenskaper og krav knyttet til informasjonssikkerhet
 
 * Konfidensialitetsbehov
 * Integritet på overføring
 * Tilgjengelighet
-* Langtidsvalidering av integritet og autentisitet
-* Ikke benekt
+* Langtidsvalidering av integritet og autensitet
+* Ikke-benektelse
 * Autentisering av samhandlingsparter
  
  
 Andre vurderingskriterier
 
 * Styring/governance
-* Teknologivalg
+
 * Avtaleforhold
-* Pris
+
 * Kompleksitet
 * Eksisterende infrastruktur
 * Bransjestandarder

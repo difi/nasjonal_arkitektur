@@ -8,8 +8,9 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 [.lead]
 Grunnleggende konsepter for arbeidet med Nasjonalt arkitekturbibliotek
 
+:leveloffset: +1
 
-== Om områder og kapabilitetskart
+= Om områder og kapabilitetskart
 Virksomhetsarkitekturen kan inndeles i _områder_, eller _temaområder_, og videre i kapabiliteter. Dette kan gjøres i flere nivåer, til et hensiktsmessig detaljnivå. Dette er illustrert i følgende figur.
 
 .Figur: Områder og kapabiliteter  
@@ -31,8 +32,6 @@ Se eventuelt også link:../kunnskap_tema_kapabilitetsmodellering/[videre bakgrun
 //image:../plattform_felles/media/i-arbeid.png[width=45, height=45] Et første kapabilitetskart for nasjonal arkitektur er planlagt vår 2019.
 
 
-
-:leveloffset: 1
 = Om referansearkitekturer, løsningsmønstre, arkitekturer og løsninger
 include::../nab_overordnet-metode/konsepter-referansearkitekturer.adoc[]
 

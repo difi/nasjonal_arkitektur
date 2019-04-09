@@ -3,6 +3,7 @@
 :keywords: Norsk, arkitekturbibliotek, offenlig sektor, virksomhetsarkitektur, NIF, samhandlingsarkitektur, rammeverk, GitHub
 //:preamble: 
 
+:toclevels: 3
 include::../plattform_felles/includes/commonincludes.adoc[]
 
 [.lead]
@@ -31,7 +32,8 @@ image:../nab_overordnet-metode/media/togaf92-architecture-repository.png[width=9
 
 Videre detaljer om metodikk, veiledninger, dokumentasjonskonvensjoner og metamodeller finnes under link:../nab_referanse_[referansebibliotek].
 
+
+== Grunnleggende konsepter
 :leveloffset: +1
-= Grunnleggende konsepter
 include::grunnleggende-konsepter.adoc[]
 
