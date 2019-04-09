@@ -8,8 +8,6 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 *Referansearkitekturer gir mønstre og veiledning til  utforming av arkitekturer og løsninger innen avgrensede områder.*
 
-Valg av referansearkitekturer, omfang og detaljeringsgrad bør ta utgangspunkt i brukerbehov, være basert på erfaring og kan peke på alt fra gode eksempler til beste praksis og konkrete anbefalinger.
-
 Følgende figur illustrerer begrepsapparatet rundt referansearkitekturer, slik dette  benyttes i tilknytning til arbeidet med nasjonal arkitektur. 
 
 .Figur: Referansearkitekturer - enkel framstilling 
@@ -24,40 +22,11 @@ Forklaring til figuren over:
 
 Inndeling i _temaområder_ tilsvarer det som TOGAF 9.2 kaller _"subject areas"_ eller _segmenter_, og er generelt sett en gruppering av kapabiliteter som en ønsker å adressere samlet.
 
-NOTE: Difi arbeider i 2019 med å ta fram en helhetlig oversikt over kapabilitetsområder i nasjonal arkitektur. Se link:../kunnskap_tema_kapabilitetsmodellering/[egen omtale av kapabilitetsmodellering].
-
 Hvert _kapabilitetsområde_ kan adresseres av en eller flere _referansearkitekturer_. Formålet med å ha flere referansearkitekturer for samme område, kan være å gi ulike visninger for ulike målgrupper eller å bryte opp et komplekst bilde i enklere deler.   
 
 Hver enkelt referansearkitektur kan inneholde både _arkitekturbyggeklosser_ og __løsningsbyggeklosser__, ut fra hva som er aktuelt. Helt generiske referansearkitekturer inneholder typisk bare generiske arkitekturbyggeklosser, mens mer løsningsorienterte referansearkitekturer gjerne også angir spesifikke løsningsbygeklosser. Det siste er f.eks. aktuelt for å angi anbefalt eller obligatorisk bruk av nasjonale fellesløsninger.
 
-NOTE: I tilknytning til __EIRA (European Interoperability reference Architecture)__, benyttes Begrepet __SAT (Solution Architecture Template)__ . En helt spesifikk definisjon av hva som ligger i begrepet SAT, samt veiledning til beskrivelse av slike maler, finnes i dokumenet link:https://joinup.ec.europa.eu/sites/default/files/document/2017-10/sat_design_guidelines_0_0.pdf[Solution Architecture Template (SAT) Design Guidelines]. 
-
-NOTE: Bruk av EIRA og SAT-maler er inntil videre ikke et krav for referansearkitekturer i Nasjonal arkitektur. Se forøvrig link:../kunnskap_referansearkitektur_eu-eira/[egen omtale av EIRA]. 
-
-Referansearkitekturer kan beskrives på ulike abstraksjonsnivåer. Omfangsrike og altomfattende arkitekturer kan være hinder for innovasjon. Hvis ensartet samhandling er viktig, bør kravene som stilles på den annen side være detaljerte nok til å sikre interoperabilitet. Det er viktig å finne en god balanse med tanke på dette.
-
-Ulike referansearkitekturer kan også klassifiseres slik TOGAF-rammeverket beskriver rundt begrepet arkitektur-kontinuum.
-
-.Klassifisering i grunnleggende, felles (nasjonale), industri- (sektorspesifikke) og organisasjonsspesifikke arkitekturer
-image:../kunnskap_standard_togaf/media/togaf-architecture-continuum.png[width=600]
-
-NOTE: Se også link:../kunnskap_standard_togaf/[egen omtale av TOGAF og arkitektur-kontinuum].
-
-
-//US DoD: Reference Architecture is an authoritative source of information about a specific subject area that guides and constrains the instantiations of multiple architectures and solutions
-
-// US DoD: There may be multiple Reference Architectures within a subject area where each represents a different emphasis or viewpoint of that area. For each Reference Architecture, there may be any number of architectures and solutions corresponding to different aspects of the subject area viewpoint. 
-
-////
-Det finnes ulike typer referansearkitekturer: 
-
-* Grunnleggende referansearkitekturer, som beskriver generelle krav til for eksempel informasjonssikkerhet.
-
-* Tekniske, som beskriver arkitekturen og peker på relevante teknologiske løsninger som skal utvikles og brukes, for eksempel krav til tegnsett når data skal utveksles mellom registre.
-
-* Anvendelsesorienterte, som innen et spesifikt forretningsområde peker på prinsipper og retningslinjer til konkrete løsninger, f.eks. disse referansearkitekturer for informasjonsutveksling.
-
-////
+Ulike referansearkitekturer kan også klassifiseres slik TOGAF-rammeverket beskriver rundt begrepet _arkitektur-kontinuum_.
 
 
 == Hvorfor bruke referansearkitekturer?
@@ -81,14 +50,18 @@ Sterkere harmonisering og samhandling: Harmoniserer samhandlingen generelt og p�
 
 Målgrupper for referansearkitekturene er offentlige tjenestetilbydere, mottakere og konsumenter av informasjon og data samt deres leverandører. Referansearkitekturene er relevant for, men ikke begrenset til, arkitekter, forretningsutviklere og prosjektledere som jobber med digitalisering av forretningsprosesser som involverer flere virksomheter.
 
-//== omfang av referansearkitekturer for informasjonsutveksling
-
 == Hvordan beskrives referansearkitekturer?
 
-Innhold og detaljnivå i beskrivelsen av en referansearkitektur vil kunne variere, avhengig av type, tematisk omfang, målgruppe, m.m. 
+Abstraksjonsnivå, detaljnivå og innhold i beskrivelsen av en referansearkitektur vil kunne variere, avhengig av type, tematisk omfang, målgruppe, m.m. 
 
-Det vil også kunne være ulik grad av modenhet på ulike referansearkitekturer, og detaljnivået vil kunne utvikles over tid. Grunnleggende referansearkitekturer og beskrivelser vil normalt være mer stabile, mens de mer løsningsspesifikke anbefalingene kan endre seg i takt med at landskapet endrer seg og en høster erfaring.
+Omfangsrike og altomfattende arkitekturer kan være til hinder for innovasjon. Hvis ensartet samhandling er viktig, bør kravene som stilles på den annen side være detaljerte nok til å sikre interoperabilitet. Det er viktig å finne en god balanse med tanke på dette.
+
+Det vil også kunne være ulik grad av modenhet på ulike referansearkitekturer.
+Detaljnivået vil derfor gjerne  utvikles over tid. Grunnleggende referansearkitekturer og beskrivelser vil normalt være mer stabile, mens de mer løsningsspesifikke anbefalingene kan endre seg i takt med at landskapet endrer seg og en høster erfaring.
 
 Beskrivelsene vil typisk dekke begreper, prinsipper, standarder og teknologier som gjelder for det aktuelle området. Strategisk informasjon om forretningsmessige mål og gevinstrealisering bør inngå der det er relevant.
 
-NOTE: Difi arbeider med å utvikle felles maler for beskrivelse av referanseearkitekturer, både for tekstlige beskrivelser og arkitekturmodeller (Archimate). 
+NOTE: Difi utvikler og vedlikeholder felles maler for beskrivelse av referanseearkitekturer, både for tekstlige beskrivelser og arkitekturmodeller (Archimate). Se under link:../nab_referanse_maler/[maler].
+. 
+
+

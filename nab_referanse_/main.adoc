@@ -9,5 +9,5 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 . link:../nab_referanse_arkitekturer[Referansearkitekturer og god praksis]
 . link:../nab_referanse_taksonomier[Taksonomier]
 . link:../nab_referanse_modelleringskonvensjoner[Modelleringskonvensjoner og metamodeller]
-. link:../nab_referanse_maler[Maler]
+. link:../nab_referanse_maler[Dokumentasjonsmaler]
 
