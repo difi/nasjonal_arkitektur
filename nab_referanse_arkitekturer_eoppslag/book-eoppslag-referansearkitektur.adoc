@@ -82,24 +82,27 @@ image:../nab_referanse_arkitekturer/media/Deling på forespørsel.png[alt="Bilde
 
 == Arkitekturmønstre (konseptuelle beskrivelser, kun arkitekturbyggeklosser)
 
-I dette kapittelet beskrives lapabilitetene som inngår i eOppslag. Modellen består av tre nivåer. 
+=== Hvordan lese modellene
+
+I dette kapittelet beskrives kapabilitetene som inngår i eOppslag. Dette er gjort tekstlig og ved hjelp av modeller. Modellene består av tre nivåer. 
 
 * I midten er det spesifisert noen prosessteg som realiserer kapabiliteten. Det vil si at kan du gjennomføre prosesstegene innehar du evnen kapabiliten beskriver.
-
 
 * Nederst i figuren er det beskrevet de fellestjenestene og elementene som støtter prosessene.
 
 * Øverst i figurene er det en knytning til hvilken kapabilitet dette er en del av, rollen som utfører prosesstegene og eventuelle andre avhengigheter som må på plass for å kunne gjennomføre prosessene, f.eks. inngå bilaterale avtaler.
 
-De grunnleggende elementene i modellene i kapittelet foklares i denne figuren:
+De grunnleggende elementene i modellene foklares i denne figuren:
 
 image:../nab_referanse_arkitekturer/media/Forklaring prosess.png[alt="Bilde mangler", width=250]
 
+=== Klargjøring for _deling av data på forespørsel_
 
-=== Registrering av API
+Beskrivelse av kapabilitetene som inngår i å klargjøre for deling av data på forespørsel. Dette er prosessene som må til for å registrere og sette opp tilganger både fra tilbyder og konsument sin side. 
 
-Modellen under detaljerer kapabiliteten "Registerering av sikkert API". Dette er det tilbyder av data må gjennomføre for å gjøre et API synlig og tilgjengelig gjennom fellesløsninger. Registrering av konsumenters rettigheter og tilganger inngå også som et prosessteg. Dersom det er registrering av et åpent API er det kun relevante prossessteg som utføres.
+==== Registrering av API
 
+Registrering av API gjøres av tilbyder av data og er det tilbyder må gjennomføre for å gjøre et API synlig og tilgjengelig gjennom fellesløsninger. Registrering av konsumenters rettigheter og tilganger inngå også som et prosessteg. Dersom det er registrering av et åpent API er det kun relevante prossessteg som utføres.
 
 image:../nab_referanse_arkitekturer/media/registrere API.png[alt="Bilde mangler", width=750]
 
@@ -157,49 +160,10 @@ image:../nab_referanse_arkitekturer/media/registrere API.png[alt="Bilde mangler"
 |===
 
 
-=== Avgi forespurte data
-Modellen under detaljerer kapabiliteten "Avgi forespurte data". Dette er det tilbyder av data må gjøre for å svare på en forespørsel. Prosessen kontrollere tilgang gjøres kun dersom det er enakk om å avgi data gjennom et sikret API.
-
-
-image:../nab_referanse_arkitekturer/media/avgi data.png[alt="Bilde mangler", width=400]
-
-
-[cols ="1,1,3", options="header"]
-.Elementer i figur for å avgi forespurte data
-|===
-|Element
-|Elementtype
-|Beskrivelse
-
-|Policytjeneste
-|Forretningstjeneste
-|Intern tjeneste hos tilbyder for å håndheve tilgangsnivåpolicy ved tilgangsstyring.
-
-|Motta forespørsel om oppslag
-|Forretningsprosess
-|Prosess med å motta forespørsler om å utlevere data fra API-konsument.
-
-|Kontroller tilgang
-|Forretningsprosess
-|Prosessen med å kontrollere om konsumenten har rettigheter til å få de forespurte data.
-
-|Avgi data
-|Forretningsprosess
-|Prosessen med å gi svar på forespørselen.
-
-|Verifiseringstjeneste
-|Forretningstjeneste
-|Tjeneste for å verifisere gyldigheten av tilgangstokenet. Med et gyldig tilgangstoken skal det ikke være nødvendig å validere grunnlaget eller innholdet i tilgangstokenet siden det er et tillitsforhold mellom partene.
-
-|===
-
-
-=== Få tilgang til API
-Modellen under detaljerer kapabiliteten "Få tilgang til API". Dette er det en konsument av data må gjøre for å få tilgang til data gjennom et API. Det omfatter å få kjennskap til APIet, inngå avtaler om bruk av data og fellesløsninger, og registrere den teknsike komponenten som skal utføre tjenestekallet. Dersom det er tilgang til et åpent API er det kun relevante prossessteg som utføres.
-
+==== Få tilgang til API
+Få tilgang til API er det en konsument av data må gjøre for å få tilgang til data gjennom et API. Det omfatter å få kjennskap til APIet, inngå avtaler om bruk av data og fellesløsninger, og registrere den teknsike komponenten som skal utføre tjenestekallet. Dersom det er tilgang til et åpent API er det kun relevante prossessteg som utføres.
 
 image:../nab_referanse_arkitekturer/media/få tilgang til API.png[alt="Bilde mangler", width=750]
-
 
 [cols ="1,1,3", options="header"]
 .Elementer i figur for å få tilgang til API
@@ -243,8 +207,8 @@ image:../nab_referanse_arkitekturer/media/få tilgang til API.png[alt="Bilde man
 |===
 
 
-=== Delegering av rettigheter til databehandler
-Modellen under detaljerer kapabiliteten "Delegering av rettigheter til databehandler". Dette er det en konsument må gjøre for at en leverandør kan identifisere seg med sitt eget virksomhetssertifikat og opptre på vegne av konsumenten som er den som innehar behandlingsgrunnlaget for å innhente data.
+==== Delegering av rettigheter til databehandler
+Delegering av rettigheter til databehandler er det en konsument må gjøre for at en leverandør kan identifisere seg med sitt eget virksomhetssertifikat og opptre på vegne av konsumenten som er den som innehar behandlingsgrunnlaget for å innhente data.
 
 image:../nab_referanse_arkitekturer/media/delegering av rettigheter.png[alt="Bilde mangler", width=350]
 
@@ -277,8 +241,13 @@ image:../nab_referanse_arkitekturer/media/delegering av rettigheter.png[alt="Bil
 
 |===
 
-=== Slå opp data gjennom et API
-Modellen under detaljerer kapabiliteten "Slå opp data gjennom et API". Dette er det en konsument må gjøre når det utføres et tjenestekall for å innhente data gjennom et API. Dersom det er et åpent API er det kun relevante prossessteg som utføres.
+=== Operativ deling av data på forespørsel
+
+Her beskrives prosessene som inngår i den faktiske delingen av data på forespørsel. Dette forutsetter at partene har gjennomført de riktige stegene for å klargjøre for deling av data.
+
+
+==== Slå opp data gjennom et API
+Slå opp data gjennom et API er det en konsument må gjøre når det utføres et tjenestekall for å innhente data gjennom et API. Dersom det er et åpent API er det kun relevante prossessteg som utføres.
 
 image:../nab_referanse_arkitekturer/media/slå opp data.png[alt="Bilde mangler", width=350]
 
@@ -314,25 +283,171 @@ image:../nab_referanse_arkitekturer/media/slå opp data.png[alt="Bilde mangler",
 |Tjeneste som gir oversikt over representasjonsforhold. Benyttes av tokentjeneste dersom en leverandør skal få tilgang på vegne av en konsument
 |===
 
+==== Avgi forespurte data
+Avgi forespurte data er det tilbyder av data må gjøre for å svare på en forespørsel. Prosessen kontrollere tilgang gjøres kun dersom det er enakk om å avgi data gjennom et sikret API.
+
+
+image:../nab_referanse_arkitekturer/media/avgi data.png[alt="Bilde mangler", width=400]
+
+
+[cols ="1,1,3", options="header"]
+.Elementer i figur for å avgi forespurte data
+|===
+|Element
+|Elementtype
+|Beskrivelse
+
+|Policytjeneste
+|Forretningstjeneste
+|Intern tjeneste hos tilbyder for å håndheve tilgangsnivåpolicy ved tilgangsstyring.
+
+|Motta forespørsel om oppslag
+|Forretningsprosess
+|Prosess med å motta forespørsler om å utlevere data fra API-konsument.
+
+|Kontroller tilgang
+|Forretningsprosess
+|Prosessen med å kontrollere om konsumenten har rettigheter til å få de forespurte data.
+
+|Avgi data
+|Forretningsprosess
+|Prosessen med å gi svar på forespørselen.
+
+|Verifiseringstjeneste
+|Forretningstjeneste
+|Tjeneste for å verifisere gyldigheten av tilgangstokenet. Med et gyldig tilgangstoken skal det ikke være nødvendig å validere grunnlaget eller innholdet i tilgangstokenet siden det er et tillitsforhold mellom partene.
+
+|===
+
+
+
+
 == Løsningsmønstre (logiske beskrivelser med arkitekturbyggeklosser og aktuelle løsningsbyggeklosser)
-TBD.
+
+=== Oppsett for deling
+
+Beskrivelsen under viser hvordan den generiske arkitekturen i det foregående kapittelet kan realiseres med løsningskomponentene Maskinporten, API-katalogen og Altinn-autorisasjon. Disse fellesløsningene leverer de tjenestene som er beskrevet på forretningsnivå over.
+
+Det er ikke hensikten å låse referansearkitekturen til spesifikke løsninger, da ulike sektorer og aktører kan ha behov som ikke passer med den foreslåtte løsningen. For synkrone tjenestekall basert på REST og med sikring ved hjelp av OAUTH2 tokens, vil det være god støtte i å benytte de foreslåtte løsnigene. 
+
+For enklere lesbarhet er modellene gjort enklest mulig og skal leses i henhold til følgende modell:
+
+image:../nab_referanse_arkitekturer_eoppslag/media/forklaring_app_lag.png[alt="Bilde mangler", width=250]
+
 
 // For å registrere API må man for i de respektive fellestjenestene ha rettigheter til dette på vegne av egen virksomhet. Dette tildeles iht. hvem som har rettigheter i enhetsregisteret og rettighetene må delegeres nedover i organisasjonen til den som skal gjennomføre registreringen. Dette foregår i Altinn.
 
 //Henrik: få inn figur som viser dette?
+
+==== Registrering av API
+
 For å tilby data gjennom et API sikret med fellestjenester kan Maskinporten og API-katalogen benyttes.
 
 
 image:../nab_referanse_arkitekturer_eoppslag/media/registerer_api_app_lag.png[alt="Bilde mangler", width=500]
 
+[cols ="1,1,3", options="header"]
+.Elementer i figur for registrering av API
+|===
+|Element
+|Elementtype
+|Beskrivelse
+
+|Selvbetjeningstjeneste for administrasjon og registering av APIer i Maskinporten
+|Applikasjonstjeneste
+|
+
+|Registereringstjeneste for APIer til API-katalogen
+|Applikasjonstjeneste
+|
+
+|Registrering av tilgang til API-konsumenter
+|Applikasjonstjeneste
+|
+
+|Maskinporten
+|Applikasjonskomponent
+|
+
+|API-katalogen
+|
+|
+
+|===
+
+
+==== Få tilgang til API
+
+image:../nab_referanse_arkitekturer_eoppslag/media/få_tilgang_app_lag.png[alt="Bilde mangler", width=500]
+
+[cols ="1,1,3", options="header"]
+.Elementer i figur for å få tilgang til API
+|===
+|Element
+|Elementtype
+|Beskrivelse
+
+|Tjeneste for søk i API-katalogen
+|Applikasjonstjeneste
+|
+
+|Selvbetjeneingstjeneste for administrasjon i Maskinporten
+|Applikasjonstjeneste
+|
+
+|API-katalogen
+|Applikasjonskomponent
+|
+
+|Leverandør av tokentjeneste for autentisering og autorisasjon
+|Rolle
+|
+
+|Maskinporten
+|Applikasjonskomponent
+|
+
+|===
+
+==== Delegering av rettigheter til databehandler
+
+image:../nab_referanse_arkitekturer_eoppslag/media/delegere_rettigheter_app_lag.png[alt="Bilde mangler", width=350]
+
+[cols ="1,1,3", options="header"]
+.Elementer i figur for å få tilgang til API
+|===
+|Element
+|Elementtype
+|Beskrivelse
+
+|Altinn autorisasjon
+|Applikasjonskomponent
+|
+
+|===
+=== Utveksling av data
+
+==== Avgi forespurte data
+
 Når tilbyder får en forspørsel om data som et API-kall og det ligger ved en sikkerhetsbillett beyttes valideringstjenesten til maskinporten for grov tilgangskontroll.
 
 image:../nab_referanse_arkitekturer_eoppslag/media/avgi_data_app_lag.png[alt="Bilde mangler", width=500]
 
-image:../nab_referanse_arkitekturer_eoppslag/media/få_tilgang_app_lag.png[alt="Bilde mangler", width=500]
+==== Slå opp data gjennom et API
 
-image:../nab_referanse_arkitekturer_eoppslag/media/delegere_rettigheter_app_lag.png[alt="Bilde mangler", width=350]
+
 
 image:../nab_referanse_arkitekturer_eoppslag/media/slå_opp_app_lag.png[alt="Bilde mangler", width=500]
 
+==== Videre detaljering av komponentene
+
+API-katalogen er en del av Felles datakatalog som leveres av Brønnøysundregisterene. REgistreringsprosessen beskrives her:
+
+https://fellesdatakatalog.brreg.no/about-registration
+
+
+Maskinporten:
+
+
+Altinn-autorisasjon:
 
