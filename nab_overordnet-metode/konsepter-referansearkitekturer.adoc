@@ -1,0 +1,37 @@
+:lang: no
+:doctitle: Referansearkitekturer, løsningsmønstre, arkitekturer og løsninger
+:keywords: Referansearkitekturer, løsningsmønstre, arkitekturer, løsninger
+//:preamble: 
+
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+
+== Introduksjon til begrepet _referansearkitekturer_
+
+Referansearkitekturer gir mønstre og veiledning til utforming av arkitekturer og løsninger innen avgrensede områder.
+
+Hvert _område_ kan adresseres av en eller flere _referansearkitekturer_. Formålet med å ha flere referansearkitekturer for samme område, kan være å gi ulike visninger for ulike målgrupper eller å bryte opp et komplekst bilde i enklere deler.   
+
+Referansearkitekturer kan inneholde både _arkitekturbyggeklosser_ og __løsningsbyggeklosser__, ut fra hva som er aktuelt. Helt generiske referansearkitekturer inneholder typisk bare generiske arkitekturbyggeklosser, mens mer løsningsorienterte referansearkitekturer gjerne også angir spesifikke løsningsbygeklosser. Det siste er f.eks. aktuelt for å angi anbefalt eller obligatorisk bruk av nasjonale fellesløsninger.
+
+Dette er illustrert i følgende figur. 
+
+.Figur: Referansearkitektur som hjelpemiddel til realisering av kapabiliteter  
+image:../nab_overordnet-metode/media/referansearkitektur-definisjon-forenklet.png[]
+
+
+== Referansearkitekturer som mønstre for arkitekturer og løsninger
+
+Følgende figur viser sammenhengene rundt referansearkitekturer i mer detalj.
+Her vises også arkitekturmønstre og løsningsmønstre, som hjelpemiddel til å utarbeide mer spesifkke arkitekturer og konkrete løsninger.  
+
+.Figur: Fra kapabiliteter til arkitekturer og løsninger  
+image:../nab_overordnet-metode/media/referansearkitektur-definisjon-komplett.png[]
+
+
+
+
+
+
+
+

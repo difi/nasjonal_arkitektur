@@ -1,0 +1,38 @@
+:lang: no
+:doctitle: Tilnærming til  arbeidet med referansearkitekturer
+:keywords: Referansearkitekturer
+
+:toclevels: 2
+
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+== Generelt
+Det vil til enhver tid arbeides med utvalgte referansearkitekturer i Nasjonal arkitektur, basert på prioriterte brukerbehov.
+
+Oversikt over brukerbehov vedlikeholdes i felles kapabilitetskart innen ulike områder. Kapabilitetskartene vil utvikles over tid, etterhvert som en går inn på nye områder. Tilsvarende vil det utvikles oversikter over referansearkitekurer innen hvert område.
+
+Relatert informasjon:
+
+1. Grunnleggende konsepter rundt kapabilitetskart
+2. link:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart/main.adoc[Nedbrytning i områder og kapabiliteter]
+
+
+
+
+//Se også link:../nab_referanse_modeller_kapabiliteter[videre informasjon om kapabilitetsområder og kapabiliter]. 
+
+//== Prioriterte områder og kapabiliteter 
+//image:../nab_referanse_arkitekturer/media/kapabilitetsområder-nasjonal-arkitektur-nivå-1-3.png[]
+
+//NOTE: Et mer komplett kapabilitestkart er under arbeid. Her er fokus på __datautveksling__ som del av __datadeling__.
+
+== Identifiserte referansearkitekturer
+    
+Følgende figur viser en foreløpig oversikt over aktuelle referansearkitekturer innen respektive områder.
+
+image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _Denne oversikten er i arbeid (vår 2019)_
+
+.Figur: Katalog over referansearkitekturer innen aktuelle områder i Nasjonal arkitektur
+image:../nab_referanse_arkitekturer/media/katalog-referansearkitekturer.png[]
+
+
