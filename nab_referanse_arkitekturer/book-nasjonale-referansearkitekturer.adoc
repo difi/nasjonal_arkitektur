@@ -29,15 +29,16 @@ Det legges vekt på å få fram nyttig veiledning, med alt fra gode eksempler ti
 include::../nab_referanse_begreper/begrep-referansearkitektur.adoc[]
 
 = Tilnærming til arbeidet med referansearkitekturer
-image:../plattform_felles/media/i-arbeid.png[width=45, height=45] #I arbeid (deler av innholdet flyttes)#
-
-include::../nab_referanse_arkitekturer/strategi-for-referansearkitekturer.adoc[]
+include::../nab_referanse_arkitekturer/tilnærming-til-arbeidet-med-referansearkitekturer .adoc[]
 
 ////
 = Funksjonsområder for referansearkitekturer (kapabiliteter)
 include::../nab_referanse_arkitekturer/kapabilitetsområder.adoc[]
 ////
 
+= Grunnleggende referansearkitekturer
+== EIRA -European Interoparability ReferenceArchitecture
+TBD.
 
 
 = Spesifikke referansearkitekturer
