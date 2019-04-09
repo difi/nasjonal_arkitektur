@@ -7,9 +7,12 @@
 include::../plattform_felles/includes/commonincludes.adoc[]
 
 == Generelt
-Det vil til enhver tid arbeides med utvalgte referansearkitekturer i Nasjonal arkitektur, basert på prioriterte brukerbehov.
 
-Oversikt over brukerbehov vedlikeholdes i felles kapabilitetskart innen ulike områder. Kapabilitetskartene vil utvikles over tid, etterhvert som en går inn på nye områder. Tilsvarende vil det utvikles oversikter over referansearkitekurer innen hvert område.
+Prioritering av arbeidet med å ta fram referansearkitekturer på nasjonalt nivå styres av aktuelle behov, slik dette holdes rede på gjennom løpende kontakt med interessenter på tvers av offentlig og privat sektor.
+
+Det legges vekt på å få fram nyttig veiledning, med alt fra gode eksempler til beste praksis og konkrete anbefalinger.
+
+Oversikt over behovene vedlikeholdes i felles kapabilitetskart innen ulike områder. Kapabilitetskartene vil utvikles over tid, etterhvert som en går inn på nye områder. Tilsvarende vil det utvikles oversikter over referansearkitekurer innen hvert område.
 
 Relatert informasjon:
 
