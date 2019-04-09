@@ -9,7 +9,8 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 :leveloffset: +1
 
-//= Begrepsapparat i tilknytning til valg av referansearkitekturer for datautveksling //include::./begrepsapparat.adoc[]
+= Begrepsapparat i tilknytning til valg av referansearkitekturer for datautveksling 
+include::./begrepsapparat.adoc[]
 
 
 //= Metode basert på vurdering av kapabiliteter og kvalitetskrav
