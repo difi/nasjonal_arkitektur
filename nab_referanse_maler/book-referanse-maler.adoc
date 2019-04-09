@@ -1,0 +1,24 @@
+:lang: no
+:doctitle: Dokumentasjonsmaler
+:keywords: Norsk, arkitekturbibliotek, maler
+
+
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+[.lead]
+Maler for dokumentasjon i tekst og modelleringsverktøy
+
+
+== Generelt
+Se også annet innhold om verktøyuavhengige og rent standardbaserte modelleringskonvensjoner.
+
+== Maler for dokumentasjon av referansearkitekturer (asciidoc)
+
+image:../plattform_felles/media/i-arbeid.png[width=45, height=45] I arbeid
+
+NOTE: I tilknytning til __EIRA (European Interoperability reference Architecture)__, benyttes Begrepet __SAT (Solution Architecture Template)__ . En helt spesifikk definisjon av hva som ligger i begrepet SAT, samt veiledning til beskrivelse av slike maler, finnes i dokumentet link:https://joinup.ec.europa.eu/sites/default/files/document/2017-10/sat_design_guidelines_0_0.pdf[Solution Architecture Template (SAT) Design Guidelines]. 
+
+NOTE: Bruk av EIRA og SAT-maler er inntil videre ikke et krav for referansearkitekturer i Nasjonal arkitektur. Se forøvrig link:../kunnskap_referansearkitektur_eu-eira/[egen omtale av EIRA]
+
+== Maler for arkitekturmodellering i verktøyet Archi
+TBD.

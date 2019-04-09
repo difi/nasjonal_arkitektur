@@ -1,0 +1,25 @@
+:lang: no
+:doctitle: Abstraksjonsnivåer
+:keywords: Abstraksjonsnivåer
+//:preamble: 
+
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+//== Abstraksjonsnivåer
+
+Aritekturer og referansearkitekturer kan beskrives på ulike abstraksjonsnivåer. Omfangsrike og altomfattende arkitekturer kan være til hinder for innovasjon. Hvis ensartet samhandling er viktig, bør kravene som stilles på den annen side være detaljerte nok til å sikre interoperabilitet. Det er viktig å finne en god balanse med tanke på dette.
+
+Arkitekturer kan klassifiseres slik TOGAF-rammeverket beskriver det rundt begrepet arkitektur-kontinuum.
+
+.Klassifisering i grunnleggende, felles (nasjonale), industri- (sektorspesifikke) og organisasjonsspesifikke arkitekturer
+image:../kunnskap_standard_togaf/media/togaf-architecture-continuum.png[width=600]
+
+NOTE: Se også link:../kunnskap_standard_togaf/[egen omtale av TOGAF og arkitektur-kontinuum].
+
+//image:../plattform_felles/media/i-arbeid.png[width=45, height=45] I arbeid
+
+
+
+
+
+
