@@ -1,22 +1,31 @@
 :lang: no
-:doctitle: Begrepsapparat i tilknytning til valg av referansearkitekturer for datautveksling 
-:keywords: Norsk, arkitekturbibliotek, offenlig sektor, virksomhetsarkitektur, NIF, samhandlingsarkitektur, rammeverk, GitHub
+:doctitle: Kvalitetsegenskaper for kapabilitetsområdet datautveksling 
+:keywords: Kvalitetsegenskaper, datautveksling
 
 include::../plattform_felles/includes/commonincludes.adoc[]
 
 :leveloffset: +1
-= Primære kapabiliteter for datautveksling
+== Generelt
+Begrepet _kvalitetsegenskaper_ benyttes i sammenheng med valg av referansearkitekturer, og omfatter "alle" aspekter i EIF-modellen,dvs. juridiske, organisatoriske, semantiske og tekniske, i tillegg til styring og forvaltning.
 
-.Figur: Primære kapabiliteter for datautveksling
-image:../nab_referanse_modeller_kapabiliteter/media/kapabiliteter-datautveksling-overordnet.png[].
+Juridisk: Førende lover og regler
+Organisatorisk: Hvilke parter erinvolvert og hva er behovene?
+Semantisk: Informasjonen må kunne tolkes og forstås avinvolverte parter
+Teknisk: Krav til ... og informasjonsikkert.  
+
+
+.Figur: Overordnet kapabilitetskart for området Datautveksling
+image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media\kapabiliteter-datautveksling.png[alt="Bilde mangler"]
 
 Relatert informasjon:
 
-* link:../nab_overordnet-metode/grunnleggende-konsepter.adoc[Grunnleggende konsepter]
+1. link:../nab_overordnet-metode/grunnleggende-konsepter.adoc[Grunnleggende konsepter]
+2. link:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart/main.adoc[Nedbrytning i områder og kapabiliteter]
 
 
 
-= Kvalitetsegenskaper relatert til datautveksling
+== Oversikt over kvalitetsegenskaper relatert til datautveksling
+
 //Følgende figur viser en oversikt over kvalitetsegenskaper som det kan være aktuelt å vurdere ved evaluering av alternative referansearkitekturer for datautveksling.
 
 Vi tar et prosessutgangspunkt, hva er det forretningsmessige behovet?
@@ -24,9 +33,11 @@ Vi tar et prosessutgangspunkt, hva er det forretningsmessige behovet?
 EIF
 
 Governance
+
 Juridisk
 
 * Dataminimering
+* Lovpålagte krav
 	
 Organisatorisk
 

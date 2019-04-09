@@ -6,7 +6,8 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 == Hva er en referansearkitektur?
 
-*Referansearkitekturer gir mønstre og veiledning til  utforming av arkitekturer og løsninger innen avgrensede områder.*
+*Referansearkitekturer gir mønstre og veiledning til utforming av arkitekturer og løsninger innen avgrensede områder av den totale virksomhetsarkitekturen for den virksomheten som betraktes.*
+
 
 Følgende figur illustrerer begrepsapparatet rundt referansearkitekturer, slik dette  benyttes i tilknytning til arbeidet med nasjonal arkitektur. 
 

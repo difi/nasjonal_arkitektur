@@ -1,8 +1,8 @@
 :lang: no
 :doctitle: Nasjonale referansearkitekturer
-:keywords: Norsk, arkitekturbibliotek, offenlig sektor, virksomhetsarkitektur, NIF, samhandlingsarkitektur, rammeverk, Referansearkitekturer
+:keywords: Referansearkitekturer
 
-:toclevels: 2
+:toclevels: 3
 
 
 include::../plattform_felles/includes/commonincludes.adoc[]
@@ -14,35 +14,22 @@ Arbeid med prioriterte nasjonale referansearkitekturer er et pågående samarbei
 :leveloffset: +1
 = Generelt om referansearkitekturer og arbeidet med dette på nasjonalt nivå 
 
-Referansearkitekturer gir mønstre og veiledning til utforming av arkitekturer og løsninger innen avgrensede områder av den totale virksomhetsarkitekturen for den virksomheten som betraktes.
-
-Prioritering av arbeidet med å ta fram referansearkitekturer på nasjonalt nivå styres av aktuelle behov, slik dette holdes rede på gjennom løpende kontakt med interessenter på tvers av offentlig og privat sektor.
-
-Det legges vekt på å få fram 
-Kan peke på alt fra gode eksempler til beste praksis og konkrete anbefalinger.
-
-
-NOTE:  
-
-
-
-Mer om hva som legges 
-
 //image:../plattform_felles/media/i-arbeid.png[width=45, height=45] #I arbeid (deler av innholdet flyttes)#
 
 //include::../nab_referanse_arkitekturer/om-referansearkitekturer.adoc[]
 include::../nab_referanse_begreper/begrep-referansearkitektur.adoc[]
 
 = Tilnærming til arbeidet med referansearkitekturer
-image:../plattform_felles/media/i-arbeid.png[width=45, height=45] #I arbeid (deler av innholdet flyttes)#
-
-include::../nab_referanse_arkitekturer/strategi-for-referansearkitekturer.adoc[]
+include::../nab_referanse_arkitekturer/tilnærming-til-arbeidet-med-referansearkitekturer .adoc[]
 
 ////
 = Funksjonsområder for referansearkitekturer (kapabiliteter)
 include::../nab_referanse_arkitekturer/kapabilitetsområder.adoc[]
 ////
 
+= Grunnleggende referansearkitekturer
+== EIRA -European Interoparability ReferenceArchitecture
+TBD.
 
 
 = Spesifikke referansearkitekturer
