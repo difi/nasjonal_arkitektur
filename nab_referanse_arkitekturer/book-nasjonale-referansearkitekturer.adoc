@@ -52,4 +52,9 @@ include::../nab_referanse_veiledning_valg-av-referansearkitekturer/main.adoc[]
 include::deling_forespørsel.adoc[]
 ////
 
+:leveloffset: +2
+
+= Informasjonssikkerhet
+include::../nab_referanse_arkitekturer/informasjonssikkerhet.adoc[]
+
 
