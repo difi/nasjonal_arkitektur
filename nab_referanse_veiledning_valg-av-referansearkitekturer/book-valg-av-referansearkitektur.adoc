@@ -9,7 +9,21 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 :leveloffset: +1
 
+
+
+
 = Generelt
+
+
+image:../plattform_felles/media/i-arbeid.png[width=45, height=45] I arbeid
+
+Utforming av arkitekturer og løsninger er ingen eksakt vitenskap.Tilsvarende er heller ikke valg av referansearkitekturer nødvendigvis enkelt. Mange faktorer kan spille inn, avhengig av behov, forutsetninger og kontekst.
+
+I det følgende gis først en oversikt over ulike faktorer som det kan være aktuelt å vurdere. Det gis deretter en skisse til en mer metodisk tilnærming, speselt med fokus på å få til samhandlingsevne i tverrgående prosesser, dvs. integrerte tjenesterpå tvers av organisajonsgrenser.
+
+
+NOTE: Dette veiledningsmaterialet vil utvikles over tid.
+
 
 
 //= Begrepsapparat i tilknytning til valg av referansearkitekturer for datautveksling 
@@ -22,17 +36,16 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 //include::./metode-kapabiliter-og-kvalitetskrav.adoc[]
 
 
+= Faktorer å vurdere ved valg av referansearkitekturer innen området _datautveksling_ 
+
+include::./faktorer-datautveksling.adoc[]
+
 :leveloffset!:
 :leveloffset: +1
 
 = Metode for valg av referansearkitekturer i tverrgående samhandlingsløsninger
 
 include::./metode-eif-forretningsdrevet.adoc[]
-
-
-= Faktorer å vurdere ved valg av referansearkitekturer
-
-include::./faktorer-datautveksling.adoc[]
 
 
 :leveloffset: -1
