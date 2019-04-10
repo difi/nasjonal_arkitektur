@@ -17,7 +17,7 @@ Her ses det på offentlig sektor i stort, men det er lite som skiller dette bild
 
 Legg merke til at arkitekturen for realisering av kapabiliteter er svært forenklet framstilti figuren over.
 
-== Om begrepsapparat for arkitekturbeskrivelser 
+== Begrepsapparat for arkitekturbeskrivelser 
 
 En noe mer komplekst bilde er gitt i figuren nedenfor. 
 Her vises noen av de viktigste arkitekturbegrepene og sammenhengene, slik som sammenhengen mellom API og Applikajonstjeneste og forskjellen på logiske datamodeller og fysiske data.  

@@ -12,9 +12,11 @@ Nasjonalt arkitekturbibliotek inneholder arkitekturdokumentasjon - modeller, sta
 Innholdet i dette arkitekturbiblioteket utvikles løpende i en samarbeidsplattform basert på lagring og versjonsstyring av tekst og modeller i Github. Se også link:../plattform_praktiske-tips/[mer om selve plattformen og praktiske tips for å komme igang med Github og verktøy for innholdsproduksjon.]
 
 
-Oppbyggingen av arkitekturbiblioteket følger i grove trekk strukturen som angitt i link:http://pubs.opengroup.org/architecture/togaf9-doc/arch/[TOGAF 9.2] og link:https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/nasjonal-arkitektur/arkitekturrammeverk-samhandling[Norsk arkitekturrammeverk for samhandling]:
+Oppbyggingen av arkitekturbiblioteket følger i grove trekk strukturen som angitt i link:http://pubs.opengroup.org/architecture/togaf9-doc/arch/[TOGAF 9.2] og link:https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/nasjonal-arkitektur/arkitekturrammeverk-samhandling[Norsk arkitekturrammeverk for samhandling].
 
-. link:../nab_overordnet-metode/[Overordnet metode]
+Mappestruktur og lenker til innhold:
+
+. link:../nab_overordnet-metode/[Overordnede rammeverk og metoder]
 . link:../nab_arkitekturlandskap/[Arkitekturlandskap]
 . link:../nab_løsningslandskap/[Løsningslandskap]
 . link:../nab_standard/[Standarder]
