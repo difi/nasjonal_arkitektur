@@ -8,7 +8,7 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 //image:../plattform_felles/media/i-arbeid.png[width=45, height=45]
 
 
-== Generelt om denne metoden for valg av referansearkitekturer
+== Innledning
 
 Metoden som beskrives her tar utgangspunkt i de fire interoperabilitetsnivåene i EIF for å oppnå ønsket samhandlingsevne på tvers av virksomheter:
 
