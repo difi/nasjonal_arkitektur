@@ -1,0 +1,122 @@
+:lang: no
+:doctitle: Faktorer for valg av referansearkitekturer innen datautveksling 
+:keywords: Datautveksling
+
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+//:leveloffset: +1
+
+
+== Faktorer relatert til juridiske forhold
+* *Gjeldende lovpålagte krav*
++
+Eksempel: GDPR med krav til dataminimering,m.m.
+
+
+== Faktorer relatert til organisatorisk samhandlingsevne
+
+* *Type forretningsprosess (arketype)*
++
+Eksempler:  Bileteral prosess mellom to kjente parter (herunder spørring og forhåndsavtalt, periodisk distriusjon); 
+Tverrgående prosess mellom faste parter; Tverrgående prosess mellom dynamiske oppdagete parter 
+
+
+* *Antall samhandlingsparter*
++
+En-til-en, en-til-mange, mange-til-mange, mange-til-en
+
+* *Kjente eller ukjente mottakere*
++ 
+Fast eller dynamisk gruppe med samhandlingsparter
+
+* *Kortlevd eller langlevd prosess*
++
+Relevant for feilhåndtering: Kortlevde prosesser med innebygd transaksjonssikkerhet kan tilbakerulles gjennom geneelle mekanismer,f.eks. slik dette støttes av _rollback_ i relasjonsdatabaser. Langlevde prosesser krever skreddersydde _kompensasjonsaksjoner_.
+
+
+
+== Faktorer relatert til semantisk samhandlingsevne
+
+* *Felles begreper*
+* *Felles datamodeller*
+* 
+	
+== Faktorer relatert til teknisk samhandlingsevne
+
+* *Utvekslingsprotokoller*
++
+** Synkron eller asynkron kommunikasjon
+** Aktuell infrastruktur
+
+* *Leveringstid for meldinger* (kvalitetskrav)
++
+Garantert leveringstid vs. krav til leveringstid
++
+Mål: Mikrosekunder, millisekunder, sekunder,timer,dager
+
+* *Responstid for spørringer* (kvalitetskrav)
++
+Garantert responstid vs. krav til responstid
++
+Mål: Mikrosekunder, millisekunder, sekunder,timer,dager
+
+* *Leveringssikkerhet* (kvalitetskrav)
++ 
+Grad av garantert levering (uten behov for tilbakemelding på _applikasjonslaget_)
++
+Mål: Prosentvis sannsynlighet for vellykket levering og mottak.
+
+== Andre faktorer (tverrgående)
+
+* *Føringer*
++
+** Prinsipper
++
+F.eks.SOA-prinsipper, samhandlingsprinsipper.
+** Standarder
++
+Ref,._Referansekatalogen_, bransjestandarder, mm.
+
+
+
+
+
+* *Kompetanse*
++
+** Kompleksitet
+
+* *Avtaler*
+
+* *Kostnader*
++
+** Pris
+
+
+* *Informasjonssikkerhet*
++
+Herunder:
++
+** Risikoanalyser
++
+** Kvalitetskrav for konfidensialitet, integritet og tilgjengelighet
++
+** Mekanismer for autentisering, autorisasjon, kryptering, ikke-benektelse, mv.
+
+
+
+
+
+
+
+//.Figur: Kvalitetsegenskaper for datautveksling (utvalg)
+
+//image:../nab_referanse_arkitekturer/media/kvalitetsegenskaper-for-valg-av-referansearkitektur-datautveksling.png[]
+
+
+//= Samhandlingsmønstre 
+//include::../nab_referanse_modeller_samhandlingsmønstre/main.adoc[]
+
+
+:leveloffset: -1
+
+
