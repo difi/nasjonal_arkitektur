@@ -36,6 +36,7 @@ TBD.
 include::../nab_referanse_arkitekturer/spesifikke-referansearkitekturer.adoc[]
 
 //== Informasjonssikkerhet (felles)
+
 //include::../nab_referanse_arkitekturer_informasjonssikkerhet/main.adoc[]
 
 :leveloffset: -1

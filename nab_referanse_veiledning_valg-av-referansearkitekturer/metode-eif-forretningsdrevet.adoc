@@ -25,14 +25,14 @@ Metoden er uavhengig av om den ene, begge eller ingen benytter serviceprovidere 
 Metoden er delt inn i fire steg:
 
 . *Modeller fulldigitaliserte forretningsprosesser med fokus på samhandling*
-. *Identifiser samhandlingsmønstre*
+. *Identifisere krav og egenskaper ved samhandlingen*
 . *Identifiser referansearkitektur med fokus på samhandling*
 . *Identifiser løsningsarkitektur*
 
 
 //Digital samhandling mellom virksomheter vil fra et forretningsperspektiv gjøres på et fåtall måter. Dette kaller vi samhandlingsmønstre og er beskrevet under.
 
-I steg 1 vil vi modellere en digital samhandlingsprosess og i steg 2 vil vi se på hvordan vi enkelt kan avdekke hvilke samhandlingsmønstre man har behov for å kunne realisere samhandlingsprosessen. I steg 3 vil vi mappe disse mot referansearkitekturer. Først når man har identifisert samhandlingsmønstre og referansearkitektur, er det riktig å diskutere løsningsarkitektur og hvilke tekniske løsningsalternativer man har for hver enkelt samhandling. Dette ser vi på i steg 4. 
+I steg 1 vil vi modellere en digital samhandlingsprosess og i steg 2 vil vi beskrive hvilke forretningsmessige krav som stilles og hvilke egenskaper det er behov at samhandlingsmønsteret har for å kunne realisere samhandlingsprosessen. I steg 3 vil vi vurdere hvilke referansearkitekturer som bør benyttes for den digitale samhandlingsprosessen. Først når man har identifisert samhandlingsmønstre og referansearkitektur, er det riktig å diskutere løsningsarkitektur og hvilke tekniske løsningsalternativer man har for hver enkelt samhandling. Dette ser vi på i steg 4. 
 
 Sagt på en annen måte, man må forstå og være enige om behovet før man kan diskutere teknologi.
 
@@ -71,26 +71,31 @@ Ved modellering av forretningsprosesser på tvers av virksomheter, skal man tyde
 //Henrik kommentar: Avsnittet under, skal vi peke til "kompetansesenteret" når det gjelder juridisk? Og til noe mer overordnet enn begrepskatalogen når det gjelder semantisk?
 Det er avgjørende at behandlingsgrunnlag (hjemler, samtykke etc.) for deling av informasjon er på plass slik at prosessen kan digitaliseres. Dersom det er behov for endringer i lovverk (juridisk samhandlingsevne), så må dette initieres mot rett lovgivende departement. Dersom det dukker opp nye sentrale begreper, så bør disse løftes inn i begrepskatalogen (semantisk samhandlingsevne). Gjennom å jobbe med digital prosess for samhandling tidlig, så vil man kunne avdekke behov knyttet til samhandlingsevne på de forskjellige interoperabilitetsnivåene.
 
-Forretningsprosessens hovedformål er å identifisere digitale samhandlinger på tvers av virksomheter og ikke vise detaljer på hva som foregår i den enkelte virksomhet. Dette for å ha fokus på den digitale samhandlingen. Her følger noen eksempler på hvordan man kan modellere digital samhandling.
+Forretningsprosessens hovedformål er å identifisere digitale samhandlinger på tvers av virksomheter og ikke vise detaljer på hva som foregår i den enkelte virksomhet. Dette for å ha fokus på den digitale samhandlingen. 
+
+Et eksempler på hvordan man kan modellere digital samhandling er prosessen for samtykkebasert lånesøknad som for eksempel kan modelleres slik:
 
 //Henrik kommentar:er det greit med et så konkret case (som det tekstlig forutsettes at man kjenner) eller skal vi generalisere?
-Prosessen for samtykkebasert lånesøknad kan for eksempel modelleres slik:
+
 
 image:../nab_referanse_veiledning_valg-av-referansearkitekturer/media/Prosess SBL.png[alt="bad!", width=750]
 
+////
 Prosessen for konkurs og lønnsgaranti kan for eksempel modelleres slik:
 
 image:../nab_referanse_veiledning_valg-av-referansearkitekturer/media/Basis prosess lønnsgaranti.png[alt="bad!", width=1100]
+////
 
 Når to parter blir enige om en fulldigitalisert prosess, så har man et godt startpunkt på videre arbeid. Begge parter må kanskje gjøre løft i forhold til digitalisering, noe som ikke alltid er fullt ut mulig. Som regel vil man kunne digitalisere samhandlingen for fremtiden og så kan hver og en virksomhet stegvis dra nytte av dette til å digitalisere interne løsninger. Unntaksvis må man kanskje fire på kravet på hvor langt man vil gå i å digitalisere samhandlingen. I steg 2 vil vi se på hvordan man mapper fra en digital prosess ned på forretningsmønstre. Steg 2 kan med fordel kjøres samtidig som steg 1, men er av pedagogiske grunner dokumentert separat.
 
 
-=== Steg 2 - Identifiser samhandlingsmønstre
+=== Steg 2 - Identifisere krav og egenskaper ved samhandlingen
 
-Som del av modellering av en digital samhandlingsprosess i steg 1, så er det naturlig å identifisere hvilket samhandlingsmønster som gjelder for hver enkelt samhandling.
+Som del av modellering av en digital samhandlingsprosess i steg 1, så er det naturlig å identifisere hvilke behov man har til samhandlingsmønstre og beskrive dette for hver enkelt identifisere samhandling.
 
-Rett samhandlingsmønster identifiseres best gjennom å forstå behovet for hver enkelt samhandling. Det er viktig at begge partene prater gjennom prosessen sammen, slik at man får en felles forståelse av behov og kan enes om mønster.
+Dette gjøres best gjennom å forstå behovet for hver enkelt samhandling. Det er viktig at begge partene prater gjennom prosessen sammen, slik at man får en felles forståelse av behov og kan enes om mønster.
 
+////
 I prosessen for samtykkebasert lånesøknad kan for eksempel da identifisere samhandlingsmønster slik:
 
 image:../nab_referanse_veiledning_valg-av-referansearkitekturer/media/Prosess SBL med angivelse av mønster.png[alt="bad!", width=750]
@@ -98,8 +103,8 @@ image:../nab_referanse_veiledning_valg-av-referansearkitekturer/media/Prosess SB
 I prosessen for konkurs og lønnsgaranti kan vi identifisere flere ulike samhandlingsmønster:
 
 image:../nab_referanse_veiledning_valg-av-referansearkitekturer/media/Prosess med mønster lønnsgaranti.png[alt="bad!", width=1100]
-
-Når samhandlingsmønster er identifisert for hver enkelt samhandling, så blir neste steg å mappe mønster til referansearkitektur i steg 3.
+////
+Når dette er identifisert for hver enkelt samhandling, så blir neste steg å analysere behov og identifisere referansearkitektur.
 
 
 === Steg 3 - Identifiser referansearkitektur med fokus på samhandling
@@ -108,6 +113,7 @@ Når samhandlingsmønstre er identifisert i steg 2, så kan man mappe hvert enke
 
 Har man fått til en god enighet om samhandlingsmønstre, så vil ofte prosessen med å mappe mot referansearkitektur være ganske enkel ved å følge oversikten over hvilken referansearkitektur som anbefales for et bestemt samhandlingsmønster.
 
+////
 Mapping til referansearkitektur for lånesøknad vil da se slik ut:
 
 image:../nab_referanse_veiledning_valg-av-referansearkitekturer/media/Prosess SBL med angivelse av referansearkitektur.png[alt="bad!", width=750]
@@ -115,6 +121,7 @@ image:../nab_referanse_veiledning_valg-av-referansearkitekturer/media/Prosess SB
 Mapping til referansearkitektur for  konkurs og lønnsgaranti vil da se slik ut:
 
 image:../nab_referanse_veiledning_valg-av-referansearkitekturer/media/Samhandling bostyrer og NAV.png[alt="bad!", width=1100]
+////
 
 Når referansearkitektur er identifisert for hver enkelt samhandling, så blir neste steg å identifisere løsningsarkitektur med tilhørende løsningskomponenter som beskrevet i steg 4.
 
