@@ -330,7 +330,7 @@ image:../nab_referanse_arkitekturer/media/avgi data.png[alt="Bilde mangler", wid
 
 Beskrivelsen under viser hvordan den generiske arkitekturen i det foregående kapittelet kan realiseres med løsningskomponentene Maskinporten, API-katalogen og Altinn-autorisasjon. Disse fellesløsningene leverer de tjenestene som er beskrevet på forretningsnivå over.
 
-Det er ikke hensikten å låse referansearkitekturen til spesifikke løsninger, da ulike sektorer og aktører kan ha behov som ikke passer med den foreslåtte løsningen. For synkrone tjenestekall basert på REST og med sikring ved hjelp av OAUTH2 tokens, vil det være god støtte i å benytte de foreslåtte løsnigene. 
+Det er ikke hensikten å låse referansearkitekturen til spesifikke løsninger, da ulike sektorer og aktører kan ha behov som ikke passer med den foreslåtte. For synkrone tjenestekall basert på REST og med tilgangsstyring ved hjelp av OAUTH2-tokens, vil det være god støtte i å benytte de foreslåtte løsningene. 
 
 For enklere lesbarhet er modellene gjort enklest mulig og skal leses i henhold til følgende modell:
 
@@ -372,7 +372,7 @@ image:../nab_referanse_arkitekturer_eoppslag/media/registerer_api_app_lag.png[al
 
 |Maskinporten
 |Applikasjonskomponent
-|
+|Maskinporten tilbyr offentlige etater en enkel måte å sikre sine APIer med virksomhetsautentisering og tilgangstyring.
 
 |API-katalogen
 |
@@ -492,8 +492,8 @@ image:../nab_referanse_arkitekturer_eoppslag/media/avgi_data_app_lag.png[alt="Bi
 |
 
 |Maskinporten
-|
-|
+|Applikasjonskomponent
+|Maskinporten tilbyr offentlige etater en enkel måte å sikre sine APIer med virksomhetsautentisering og tilgangstyring.
 
 |===
 
@@ -507,7 +507,10 @@ https://fellesdatakatalog.brreg.no/about-registration
 
 
 Maskinporten:
+Maskinporten tilbyr offentlige etater en enkel måte å sikre sine APIer med virksomhetsautentisering og tilgangstyring.
 
+https://difi.github.io/idporten-oidc-dokumentasjon/oidc_guide_maskinporten.html
 
 Altinn-autorisasjon:
+https://altinnett.brreg.no/no/Tjenester/Sikkerhet/Autorisasjon/
 
