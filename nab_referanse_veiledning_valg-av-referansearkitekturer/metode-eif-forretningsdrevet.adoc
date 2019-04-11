@@ -86,14 +86,23 @@ Prosessen for konkurs og lønnsgaranti kan for eksempel modelleres slik:
 image:../nab_referanse_veiledning_valg-av-referansearkitekturer/media/Basis prosess lønnsgaranti.png[alt="bad!", width=1100]
 ////
 
-Når to parter blir enige om en fulldigitalisert prosess, så har man et godt startpunkt på videre arbeid. Begge parter må kanskje gjøre løft i forhold til digitalisering, noe som ikke alltid er fullt ut mulig. Som regel vil man kunne digitalisere samhandlingen for fremtiden og så kan hver og en virksomhet stegvis dra nytte av dette til å digitalisere interne løsninger. Unntaksvis må man kanskje fire på kravet på hvor langt man vil gå i å digitalisere samhandlingen. I steg 2 vil vi se på hvordan man mapper fra en digital prosess ned på forretningsmønstre. Steg 2 kan med fordel kjøres samtidig som steg 1, men er av pedagogiske grunner dokumentert separat.
+Når to parter blir enige om en fulldigitalisert prosess, så har man et godt startpunkt på videre arbeid. Begge parter må kanskje gjøre løft i forhold til digitalisering, noe som ikke alltid er fullt ut mulig. Som regel vil man kunne digitalisere samhandlingen for fremtiden og så kan hver og en virksomhet stegvis dra nytte av dette til å digitalisere interne løsninger. Unntaksvis må man kanskje fire på kravet på hvor langt man vil gå i å digitalisere samhandlingen. I steg 2 vil vi se på og identifisere krav og egenskaper til samhandlingen mellom aktørene i den digitale prosessen. Steg 2 kan med fordel kjøres samtidig som steg 1, men er av pedagogiske grunner dokumentert separat.
 
 
 === Steg 2 - Identifisere krav og egenskaper ved samhandlingen
 
-Som del av modellering av en digital samhandlingsprosess i steg 1, så er det naturlig å identifisere hvilke behov man har til samhandlingsmønstre og beskrive dette for hver enkelt identifisere samhandling.
+Som del av modellering av en digital samhandlingsprosess i steg 1, så er det naturlig å identifisere hvilke behov og krav man har til samhandlingsmønstre og beskrive dette for hver enkelt identifisere samhandling.
 
-Dette gjøres best gjennom å forstå behovet for hver enkelt samhandling. Det er viktig at begge partene prater gjennom prosessen sammen, slik at man får en felles forståelse av behov og kan enes om mønster.
+Dette gjøres best gjennom å forstå behovet for hver enkelt samhandling. Det er viktig at begge partene prater gjennom prosessen sammen, slik at man får en felles forståelse av krav og egenskaper. I dette arbeidet kan man bruke faktorene som er beskrevet i kapittel 2 og se til de ulike interoperabilitetslagene, og på denne måten bestemme hvilke egenskaper som er viktig for den respektive samhandlingen og integrasjonen mellom partene.
+
+I eksempelet vårt med samtykkebasert lånesøknad vil det f.eks. være blant annet følgende faktorer:
+
+* mange til en
+* kjente samhandlingsparter
+* forretningsmessig behov for synkron kommunikasjon
+* behov for umiddelbar respons
+
+
 
 ////
 I prosessen for samtykkebasert lånesøknad kan for eksempel da identifisere samhandlingsmønster slik:
@@ -109,9 +118,11 @@ Når dette er identifisert for hver enkelt samhandling, så blir neste steg å a
 
 === Steg 3 - Identifiser referansearkitektur med fokus på samhandling
 
-Når samhandlingsmønstre er identifisert i steg 2, så kan man mappe hvert enkelt samhandlingsmønster mot en  referansearkitektur.
+Når faktorene som spiller inn er identifisert i steg 2, så kan man mappe hver enkelt samhandling mot en  referansearkitektur.
 
-Har man fått til en god enighet om samhandlingsmønstre, så vil ofte prosessen med å mappe mot referansearkitektur være ganske enkel ved å følge oversikten over hvilken referansearkitektur som anbefales for et bestemt samhandlingsmønster.
+Har man fått til en god enighet om faktorene, så vil ofte prosessen med å mappe mot referansearkitektur være ganske enkel. Det er vanskelig å sette opp absolutte regler for hva som egner seg i enhver situasjon, men kriteriene bør gi et godt utgangspunkt for en beslutning.
+
+For eksempelet med lånebasert søknad vil referansearkitekturen for eOppslag være å anbefale.
 
 ////
 Mapping til referansearkitektur for lånesøknad vil da se slik ut:
