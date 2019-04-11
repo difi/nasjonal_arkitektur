@@ -42,12 +42,6 @@ include::../nab_referanse_arkitekturer/spesifikke-referansearkitekturer.adoc[]
 :leveloffset!:
 :leveloffset: +1
 
-= Veiledning til valg av referansearkitekturer
-//image:../plattform_felles/media/i-arbeid.png[width=45, height=45] #I arbeid (opprydding ogomskriving)#
-
-include::../nab_referanse_veiledning_valg-av-referansearkitekturer/main.adoc[]
-
-//Se . link:../nab_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer[Veiledning til valg av referansearkitekturer]
 
 ////
 = Beskrivelse av referansearkitektur for deling av data på forespørsel 
@@ -63,3 +57,9 @@ include::deling_forespørsel.adoc[]
 include::../nab_referanse_arkitekturer/informasjonssikkerhet.adoc[]
 
 
+= Veiledning til valg av referansearkitekturer
+//image:../plattform_felles/media/i-arbeid.png[width=45, height=45] #I arbeid (opprydding ogomskriving)#
+
+include::../nab_referanse_veiledning_valg-av-referansearkitekturer/book-valg-av-referansearkitektur.adoc[]
+
+//Se . link:../nab_referanse_arkitekturer_veiledning_valg-av-referansearkitekturer[Veiledning til valg av referansearkitekturer]

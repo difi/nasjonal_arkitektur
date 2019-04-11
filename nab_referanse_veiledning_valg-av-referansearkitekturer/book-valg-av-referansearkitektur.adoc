@@ -40,8 +40,6 @@ NOTE: Dette veiledningsmaterialet vil utvikles over tid.
 
 include::./faktorer-datautveksling.adoc[]
 
-:leveloffset!:
-:leveloffset: +1
 
 = Metode for valg av referansearkitekturer i tverrgående samhandlingsløsninger
 

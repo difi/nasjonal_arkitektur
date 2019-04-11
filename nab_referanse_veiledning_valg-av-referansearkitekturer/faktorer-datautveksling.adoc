@@ -4,8 +4,6 @@
 
 include::../plattform_felles/includes/commonincludes.adoc[]
 
-//:leveloffset: +1
-
 
 == Faktorer relatert til juridiske forhold
 * *Gjeldende lovpålagte krav*
@@ -116,7 +114,5 @@ Herunder:
 //= Samhandlingsmønstre 
 //include::../nab_referanse_modeller_samhandlingsmønstre/main.adoc[]
 
-
-:leveloffset: -1
 
 
