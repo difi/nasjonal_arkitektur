@@ -15,6 +15,7 @@ include::../nab_referanse_arkitekturer_emelding/ra-emelding-intro.adoc[]
 Detaljert dokumentasjon av eMelding referanseartitektur har vært sendt ut på høring, og har status "forslag". 
 Se link:https://github.com/difi/nasjonal_arkitektur/blob/master/nab_referanse_arkitekturer_emelding/files/[Høringsdokumenter]
 
+
 ////
 
 . link:https://github.com/difi/nasjonal_arkitektur/blob/master/nab_referanse_arkitekturer_emelding/files/H%C3%B8ringsnotat-Strategi-og-referansearkitektur-meldingsutveksling.docx[Høringsnotat]
