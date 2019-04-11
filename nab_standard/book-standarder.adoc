@@ -64,7 +64,7 @@ image:../nab_standard/media/bpmn-logo.png[width=120, link=https://www.omg.org/sp
 
 
 === UML
-image:../nab_standard/media/uml-logo.png[width=120. link=https://www.omg.org/spec/UML/]
+image:../nab_standard/media/uml-logo.png[width=120, link=https://www.omg.org/spec/UML/]
 
 === DMN
 image:../nab_standard/media/dmn-logo.png[width=120, link=https://www.omg.org/dmn/]
