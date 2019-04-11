@@ -27,7 +27,7 @@ En-til-en, en-til-mange, mange-til-mange, mange-til-en
 + 
 Fast eller dynamisk gruppe med samhandlingsparter
 
-* *Kortlevd eller langlevd prosess*
+* *Prosessens levetid*
 +
 Relevant for feilhåndtering: Kortlevde prosesser med innebygd transaksjonssikkerhet kan tilbakerulles gjennom geneelle mekanismer,f.eks. slik dette støttes av _rollback_ i relasjonsdatabaser. Langlevde prosesser krever skreddersydde _kompensasjonsaksjoner_.
 
@@ -35,9 +35,10 @@ Relevant for feilhåndtering: Kortlevde prosesser med innebygd transaksjonssikke
 
 == Faktorer relatert til semantisk samhandlingsevne
 
-* *Felles begreper*
-* *Felles datamodeller*
-* 
+
+* *Begrepsapparat*
+* *Datamodeller*
+* *Utvekslingsformater*
 	
 == Faktorer relatert til teknisk samhandlingsevne
 
