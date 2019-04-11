@@ -39,15 +39,12 @@ include::../nab_referanse_arkitekturer/spesifikke-referansearkitekturer.adoc[]
 
 //include::../nab_referanse_arkitekturer_informasjonssikkerhet/main.adoc[]
 
-:leveloffset!:
-:leveloffset: +1
 
 
 ////
 = Beskrivelse av referansearkitektur for deling av data på forespørsel 
 include::deling_forespørsel.adoc[]
-////
-
+//// 
 
 
 :leveloffset!:
