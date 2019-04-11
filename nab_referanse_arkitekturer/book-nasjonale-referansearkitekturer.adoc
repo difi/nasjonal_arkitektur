@@ -55,7 +55,7 @@ include::../nab_referanse_arkitekturer/informasjonssikkerhet.adoc[]
 
 
 = Veiledning til valg av referansearkitekturer
-//image:../plattform_felles/media/i-arbeid.png[width=45, height=45] #I arbeid (opprydding ogomskriving)#
+//image:../plattform_felles/media/i-arbeid.png[width=45, height=45,link] #I arbeid (opprydding ogomskriving)#
 
 include::../nab_referanse_veiledning_valg-av-referansearkitekturer/book-valg-av-referansearkitektur.adoc[]
 

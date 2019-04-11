@@ -26,7 +26,7 @@ Mappestruktur og lenker til innhold:
 . link:../nab_styring/[Styring og oppfølging]
 
 
-I tillegg denne inndelingen, finnes en egen mappestruktur for innhold i link:../nab_modellsamling/[det nasjonale biblioteket for arkitekturmodeller]. 
+I tillegg denne inndelingen og dokumentsamlingen, finnes en egen mappestruktur og innhold i link:../nab_modellsamling/[det nasjonale biblioteket for arkitekturmodeller]. 
 
 
 //image:./media/nasjonalt-arkitekturbibliotek.png[width=900]

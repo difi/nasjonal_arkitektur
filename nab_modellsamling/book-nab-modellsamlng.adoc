@@ -25,8 +25,8 @@ Publiserte modeller fra _det primære fellesbiblioteket_ kan navigeres via nettl
 
 
 == Nedlastbare modellfiler
-Flere nedlastbare modellfiler finnes under
+Se link:../nab_modeller\modell-samling/[modellesmaling] for mer informasjon om nedlastbare modeller for _det nasjonale biblioteket for arkitekturmodeller_ samt en samling av andre nedlastbare modeller.
 
-nab_modeller\modell-samling\norge
+
 
 
