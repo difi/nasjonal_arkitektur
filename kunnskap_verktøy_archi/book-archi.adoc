@@ -20,7 +20,7 @@ https://www.patreon.com/architool/overview
 . http://archi-contribs.github.io/
 
 
-== Eclipse utvikling
+== Eclipse utvikling 
 
 === Installasjon av Eclipse IDE utviklingsmiljø
 
