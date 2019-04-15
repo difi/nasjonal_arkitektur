@@ -1,0 +1,46 @@
+:lang: no
+:doctitle: Archi
+
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+[.lead]
+Archi er et gratis og open-source verktøy som støtter Archimate-standarden for arkitekturdokumentasjon, og har tillegg som muliggjør samarbeid rundt felles repository på Github.  
+
+////
+////
+
+== Om Archi
+Se https://www.archimatetool.com/
+
+== Patreon member site
+https://www.patreon.com/architool/overview
+
+== Archi plugins
+. https://www.archimatetool.com/plugins/
+. http://archi-contribs.github.io/
+
+
+== Eclipse utvikling
+
+=== Installasjon av Eclipse IDE utviklingsmiljø
+
+Oppskrift:
+
+1. https://github.com/archimatetool/archi/wiki/Setting-up-the-Eclipse-Environment
+2. https://github.com/archimatetool/archi/wiki/Importing-the-Code
+3. https://github.com/archimatetool/archi/wiki/Running-and-Debugging-Archi
+
+
+WARNING: Installasjonsveiledningen mangler info om installering av _Eclipse Target Editor_. Denne behøves for å "Setting up the Target Platform"; ref.  https://github.com/archimatetool/archi/wiki/Running-and-Debugging-Archi
+Tips fra https://www.eclipse.org/forums/index.php/t/1087542/: 
+Use File -> Install New Software, enter or chose the URL for http://download.eclipse.org/releases/oxygen and then search for Plug-in in the text search field to choose "Eclipse plug-in development environment" as the feature you want to install.
+
+=== Rich Client Platform (RCP)
+. http://wiki.eclipse.org/Rich_Client_Platform
+. https://www.vogella.com/tutorials/EclipseRCP/article.html[Eclipse RCP (Rich Client Platform) - Tutorial]
+
+== Github resources
+. https://github.com/archimatetool/arch[Archi sources]
+. https://github.com/archimatetool/archi/wiki/Developer-Documentation[Developer Documentation .- Archi GitHub wiki]
+. https://github.com/archi-contribs
+. https://gist.github.com/smileham/578bbbb88dc0ed5a1403f3b98711ec25[Script: Export to Markdown.ajs]

@@ -99,7 +99,10 @@ Collaboration-plugin oppretter en .git undermappe som ikke uten videre er synlig
 
 image:../plattform_praktiske-tips_archi/media/hidden-git-files.png[width=300, height=300]
 
-== Archi scripts for effektiv administrasjon og modellering
+== Archi scripts fraDifi for støtte til administrasjon og modellering
 Difi har utviklet noen scripts for å effektivisere modellering og administrasjon av arkitekturbibliotek. Disse scriptene er gjort i jArchi med bruk av Archi-s Scripting Plugin, og krever installasjon av Archi-s Scripting Plugin for å kunne kjøres.
 
 Se link:../nab_løsningslandskap_sbb_archi-scripts/[praktiske Archi scripts] for mer informasjon om funksjonalitet og praktisk bruk av disse scriptene.
+
+== Andre plugins til Archi
+Se http://archi-contribs.github.io/

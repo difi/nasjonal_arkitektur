@@ -74,7 +74,6 @@
       <property key="difi:description_en"/>
     </element>
     <element xsi:type="archimate:Capability" name="K1" id="d10b9972-8a3b-492f-a429-65ec12878042">
-      <documentation>K1 Doc</documentation>
       <property key="dct:type" value="archi:capability"/>
     </element>
     <element xsi:type="archimate:Capability" name="K2" id="e9d827e9-c5a4-4518-b9f5-e3cbc20e1aaa">
