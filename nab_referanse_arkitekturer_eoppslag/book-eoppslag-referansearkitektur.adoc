@@ -198,7 +198,7 @@ image:../nab_referanse_arkitekturer/media/få tilgang til API.png[alt="Bilde man
 
 |API-søk
 |Forretningstjeneste
-|Tjeneste for å søke etter og finne tilgejgnelig APIer. 
+|Tjeneste for å søke etter og finne tilgjengelige APIer. 
 
 |Avtaletjeneste
 |Forretningstjeneste
@@ -301,9 +301,9 @@ image:../nab_referanse_arkitekturer/media/avgi data.png[alt="Bilde mangler", wid
 |Elementtype
 |Beskrivelse
 
-|Policytjeneste
+|Intern tilgangskontroll
 |Forretningstjeneste
-|Intern tjeneste hos tilbyder for å håndheve tilgangsnivåpolicy ved tilgangsstyring.
+|Intern tjeneste hos tilbyder for å håndheve tilgangsnivåpolicy ved tilgangskontroll.
 
 |Motta forespørsel om oppslag
 |Forretningsprosess
@@ -317,9 +317,9 @@ image:../nab_referanse_arkitekturer/media/avgi data.png[alt="Bilde mangler", wid
 |Forretningsprosess
 |Prosessen med å gi svar på forespørselen.
 
-|Verifiseringstjeneste
+|Valideringstjeneste
 |Forretningstjeneste
-|Tjeneste for å verifisere gyldigheten av tilgangstokenet. Med et gyldig tilgangstoken skal det ikke være nødvendig å validere grunnlaget eller innholdet i tilgangstokenet siden det er et tillitsforhold mellom partene.
+|Tjeneste for å validere gyldigheten av sikkerhetsbilletten. Med en gyldig sikkerhetsbillett skal det ikke være nødvendig å validere grunnlaget eller innholdet i sikkerhetsbilletten siden det er et tillitsforhold mellom partene.
 
 |===
 
@@ -489,7 +489,7 @@ image:../nab_referanse_arkitekturer_eoppslag/media/avgi_data_app_lag.png[alt="Bi
 
 |Tokenvalideringstjeneste
 |
-|
+|Mer om validering av token står her: https://difi.github.io/idporten-oidc-dokumentasjon/oidc_guide_maskinporten.html
 
 |Maskinporten
 |Applikasjonskomponent
