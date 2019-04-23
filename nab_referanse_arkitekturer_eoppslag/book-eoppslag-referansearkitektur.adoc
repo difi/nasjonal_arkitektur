@@ -15,14 +15,15 @@ I innledningen til referansearkitekturer er det skissert ulike kapabilitetsområ
 
 
 == Struktur på beskrivelsen
-Første modellen i beskrivelsen detaljerer de overordnede kapabilitetene som inngår i eOppslag. Disse kapabilitetene beskrives videre i hver sin modell og detaljeres gjennom prosesstegene som skal til for å realisere kapabiliteten. Det vises også til forretningstjenestene og noe av kjerneinformasjonen som benyttes i prosessene.
+Først gis det en oversikt og beskrivelse av de overordnede kapabilitetene som inngår i eOppslag. Disse kapabilitetene beskrives videre i hver sin modell og detaljeres gjennom prosesstegene som skal til for å realisere kapabiliteten. Det vises også til forretningstjenestene og noe av kjerneinformasjonen som benyttes i prosessene.
 
-Modellene viser relasjonene mellom de ulike elementene og elementene er forklart i tabellene under hver modell. Elementer som benyttes flere ganger, f.eks. rollen som tilbyder, forklares kun tilknyttet modellen på høyest nivå.
+Modellene i beskrivelsene viser relasjonene mellom de ulike elementene og elementene er forklart i tabellene under hver modell. Elementer som benyttes flere ganger, f.eks. rollen som tilbyder, forklares kun tilknyttet modellen på høyest nivå.
 
 Disse modellene er så langt som mulig generiske og beskriver mønstre uten kobling til spesifikke løsninger og vil kunne realiseres på ulike måter. 
 
 I kapittelet med løsningsmønstre vises det derimot til konkrete felleløsninger som gir en beste praksis på hvordan eOppslag implementeres.
 
+De detaljerte beskrivelsene er delt inn i to grupper. Den første er de kapabilitetene som inngår i klargjøring og oppsettet for deling av data og den andre er operativ deling av data. 
 
 == Oversikt eOppslag
 Modellen under viser de kapabilitetene en tilbyder og en konsument må ha for å dele data gjennom tilgangsstyrte APIer.
