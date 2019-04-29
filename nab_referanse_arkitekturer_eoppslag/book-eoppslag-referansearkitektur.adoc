@@ -32,7 +32,7 @@ Tilbyder må kunne tilggjengeliggjøre data og dette er delt i to kapabiliteter 
 
 Tilsvarende er det tre detaljerte kapabiliteter tilknyttet konsument og det å innhente data. "Få tilgang til API" består av prosesser for oppsett av tilgang, "Delegering av rettigheter til databehandler" må gjøres dersom konsument benytter seg av en databehandler og "Slå opp data gjennom synkront API" er det konsumenten må gjøre hver gang det gjøres et oppslag.
 
-image:../nab_referanse_arkitekturer/media/Deling på forespørsel.png[alt="Bilde mangler", width=750]
+image:../nab_referanse_arkitekturer_eoppslag/media/Deling på forespørsel.png[alt="Bilde mangler", width=750]
 
 [cols ="1,1,3", options="header"]
 .Elementer i figur for deling av data på forespørsel
@@ -99,7 +99,7 @@ I dette kapittelet beskrives kapabilitetene som inngår i eOppslag. Dette er gjo
 
 De grunnleggende elementene i modellene foklares i denne figuren:
 
-image:../nab_referanse_arkitekturer/media/Forklaring prosess.png[alt="Bilde mangler", width=250]
+image:../nab_referanse_arkitekturer_eoppslag/media/Forklaring prosess.png[alt="Bilde mangler", width=250]
 
 === Klargjøring for _deling av data på forespørsel_
 
@@ -109,7 +109,7 @@ Beskrivelse av kapabilitetene som inngår i å klargjøre for deling av data på
 
 Registrering av API gjøres av tilbyder av data og er det tilbyder må gjennomføre for å gjøre et API synlig og tilgjengelig gjennom fellesløsninger. Registrering av konsumenters rettigheter og tilganger inngå også som et prosessteg. Dersom det er registrering av et åpent API er det kun relevante prossessteg som utføres.
 
-image:../nab_referanse_arkitekturer/media/registrere API.png[alt="Bilde mangler", width=750]
+image:../nab_referanse_arkitekturer_eoppslag/media/registrere API.png[alt="Bilde mangler", width=750]
 
 [cols ="1,1,3", options="header"]
 .Elementer i figur for registrering av API
@@ -168,7 +168,7 @@ image:../nab_referanse_arkitekturer/media/registrere API.png[alt="Bilde mangler"
 ==== Få tilgang til API
 Få tilgang til API er det en konsument av data må gjøre for å få tilgang til data gjennom et API. Det omfatter å få kjennskap til APIet, inngå avtaler om bruk av data og fellesløsninger, og registrere den teknsike komponenten som skal utføre tjenestekallet. Dersom det er tilgang til et åpent API er det kun relevante prossessteg som utføres.
 
-image:../nab_referanse_arkitekturer/media/få tilgang til API.png[alt="Bilde mangler", width=750]
+image:../nab_referanse_arkitekturer_eoppslag/media/få tilgang til API.png[alt="Bilde mangler", width=750]
 
 [cols ="1,1,3", options="header"]
 .Elementer i figur for å få tilgang til API
@@ -215,7 +215,7 @@ image:../nab_referanse_arkitekturer/media/få tilgang til API.png[alt="Bilde man
 ==== Delegering av rettigheter til databehandler
 Delegering av rettigheter til databehandler er det en konsument må gjøre for at en leverandør kan identifisere seg med sitt eget virksomhetssertifikat og opptre på vegne av konsumenten som er den som innehar behandlingsgrunnlaget for å innhente data.
 
-image:../nab_referanse_arkitekturer/media/delegering av rettigheter.png[alt="Bilde mangler", width=350]
+image:../nab_referanse_arkitekturer_eoppslag/media/delegering av rettigheter.png[alt="Bilde mangler", width=750]
 
 [cols ="1,1,3", options="header"]
 .Elementer i figur for delegering av rettigheter til databehandler
@@ -254,7 +254,7 @@ Her beskrives prosessene som inngår i den faktiske delingen av data på foresp�
 ==== Slå opp data gjennom et API
 Slå opp data gjennom et API er det en konsument må gjøre når det utføres et tjenestekall for å innhente data gjennom et API. Dersom det er et åpent API er det kun relevante prossessteg som utføres.
 
-image:../nab_referanse_arkitekturer/media/slå opp data.png[alt="Bilde mangler", width=350]
+image:../nab_referanse_arkitekturer_eoppslag/media/slå opp data.png[alt="Bilde mangler", width=750]
 
 [cols ="1,1,3", options="header"]
 .Elementer i figur for å slå opp data
@@ -292,7 +292,7 @@ image:../nab_referanse_arkitekturer/media/slå opp data.png[alt="Bilde mangler",
 Avgi forespurte data er det tilbyder av data må gjøre for å svare på en forespørsel. Prosessen kontrollere tilgang gjøres kun dersom det er enakk om å avgi data gjennom et sikret API.
 
 
-image:../nab_referanse_arkitekturer/media/avgi data.png[alt="Bilde mangler", width=400]
+image:../nab_referanse_arkitekturer_eoppslag/media/avgi data.png[alt="Bilde mangler", width=750]
 
 
 [cols ="1,1,3", options="header"]
@@ -345,12 +345,12 @@ image:../nab_referanse_arkitekturer_eoppslag/media/forklaring_app_lag.png[alt="B
 === Klargjøring for _deling avdata på forespørsel_
 
 
-==== Registrering av API
+==== Tilgjengeliggjøre API
 
 For å tilby data gjennom et API sikret med fellestjenester må tilbyder inngå avtale for bruk av Maskinporten og API-katalogen (Felles datakatalog). De respektive APIene og hvem som skal ha hvilke rettighetene til disse må så registreres i løsningene.
 
 
-image:../nab_referanse_arkitekturer_eoppslag/media/registerer_api_app_lag.png[alt="Bilde mangler", width=500]
+image:../nab_referanse_arkitekturer_eoppslag/media/registerer_api_app_lag.png[alt="Bilde mangler", width=750]
 
 [cols ="1,1,3", options="header"]
 .Elementer i figur for registrering av API
@@ -359,25 +359,46 @@ image:../nab_referanse_arkitekturer_eoppslag/media/registerer_api_app_lag.png[al
 |Elementtype
 |Beskrivelse
 
+|Open API Specification
+|Dataobjekt
+|Maskinlesbar beskrivelse av REST APIer. Dette er formatet som benyttes for å registrere et API i felles API-katalog
+
+|Tokenegenskaper
+|Dataobjekt
+|Egenskaper som f.eks. gyldighetstid ved tilgangstoken som er Maskinportens variant av sikkerhetsbillett.
+
+|OAUTH scopes
+|Dataobjekt
+|Et scope kan best beskrives som en ressurs-definisjon og et token er som regel knyttet til ett eller flere scopes. Scopes benyttes til å styre tilganger til APIer og operasjoner og eventuelt hva slags responser man får fra APIet.
+
+|Tilganger konsument
+|Dataobjekt
+|Beskrivelse av de tilgangene, dvs. hvilke scopes en gitt konsument skal ha til et API.
+
+|Registrere Open API Specification
+|Applikasjonstjeneste
+|Tjeneste i API-katalogen for å registrere API. Bruk av tjenesten forutsetter at man har de fått tildelt rettigheter til å gjøre dette på vegne av tilbyders virksomhet.
+
 |Selvbetjeningstjeneste for administrasjon og registering av APIer i Maskinporten
 |Applikasjonstjeneste
-|
+|Tjeneste i API-katalogen for å registrere API. Bruk av tjenesten forutsetter at man har de fått tildelt rettigheter til å gjøre dette på vegne av tilbyders virksomhet.
 
-|Registereringstjeneste for APIer til API-katalogen
+|Selvbetjenesigstjeneste for administrasjon av integrasjoner og APIer
 |Applikasjonstjeneste
-|
+|Tjeneste for gjennom selvbetjening å registrere og vedlikeholde API-definisjoner og scopes i Maskinporten.
 
-|Registrering av tilgang til API-konsumenter
+|Registrering av API-brukere
 |Applikasjonstjeneste
-|
+|Tjeneste for gjennom selvbetjening å registrere og vedlikeholde tilgangene konsumenter skal ha til APIer og scopes.
+
+|API-katalogen
+|Applikasjonskomponent
+|Del av Felles datakatalog som gir mulighet for å søke etter APIer og lese API-spesifikasjoner
+https://fellesdatakatalog.brreg.no/apis
 
 |Maskinporten
 |Applikasjonskomponent
-|Maskinporten tilbyr offentlige etater en enkel måte å sikre sine APIer med virksomhetsautentisering og tilgangstyring.
-
-|API-katalogen
-|
-|
+|Fellesløsning for API-sikring ved bruk av OAUTH2-tokens.
 
 |===
 
@@ -394,25 +415,22 @@ image:../nab_referanse_arkitekturer_eoppslag/media/få_tilgang_app_lag.png[alt="
 |Elementtype
 |Beskrivelse
 
-|Tjeneste for søk i API-katalogen
+|Søk i API-katalogen
 |Applikasjonstjeneste
-|
+|Tjeneste for å søke etter API-er som er registrert i felles API-katalog.
 
 |Selvbetjeneingstjeneste for administrasjon i Maskinporten
 |Applikasjonstjeneste
-|
+|Tjeneste for gjennom selvbetjening å registrere og vedlikeholde API-definisjoner og scopes i Maskinporten.
 
 |API-katalogen
 |Applikasjonskomponent
-|
-
-|Leverandør av tokentjeneste for autentisering og autorisasjon
-|Rolle
-|
+|Del av Felles datakatalog som gir mulighet for å søke etter APIer og lese API-spesifikasjoner
+https://fellesdatakatalog.brreg.no/apis
 
 |Maskinporten
 |Applikasjonskomponent
-|
+|Fellesløsning for API-sikring ved bruk av OAUTH2-tokens.
 
 |===
 
@@ -429,9 +447,13 @@ image:../nab_referanse_arkitekturer_eoppslag/media/delegere_rettigheter_app_lag.
 |Elementtype
 |Beskrivelse
 
+|Registrering av delegerte tilganger
+|Applikasjonstjeneste
+|Tjeneste for å registrere et representasjonsforhold som gir leverandør mulighet til å opptre på vegne av konsument
+
 |Altinn autorisasjon
 |Applikasjonskomponent
-|
+|Autorisasjonskomponenten i Altinn som gir muligheter til å delegere rettigheter til andre organisasjoner eller personer. Rettigheter til bruk av autorisasjonskomponenten baserer seg på registrerte roller i Enhetsregisteret.
 
 |===
 === Utveksling av data
@@ -449,25 +471,38 @@ image:../nab_referanse_arkitekturer_eoppslag/media/slå_opp_app_lag.png[alt="Bil
 |Elementtype
 |Beskrivelse
 
-|Virksomhetssertifikat
-|
-|
+|Oppslag API-adresse
+|Applikasjonstjeneste
+|Oppslag på adresse (server-object) til et API i adressekatalogen.
 
-|Virksomhetsautentisering
-|
-|
+|OAUTH2 tokentjeneste
+|Applikasjonstjeneste
+|Tjeneste som utsteder et OAUTH2-token basert på autentisering med virksomhetssertifikat og tidligere tildelte rettigheter.
 
-|Grov tilgangsstyring
-|
-|
+|Oppslag representasjonsforhold
+|Applikasjonstjeneste
+|Tjeneste som bebyttes av tokentjenesten for å kontrollere om det foreligger et delegert representasjonsforhold fra konsument til leverendør i autorisasjonstjenesten til Altinn.
+
+|API-katalogen
+|Applikasjonskomponent
+|Del av Felles datakatalog som gir mulighet for å søke etter APIer og lese API-spesifikasjoner
+https://fellesdatakatalog.brreg.no/apis
 
 |Maskinporten
-|
-|
+|Applikasjonskomponent
+|Fellesløsning for API-sikring ved bruk av OAUTH2-tokens.
 
 |Altinn autorisasjon
-|
-|
+|Applikasjonskomponent
+|Autorisasjonskomponenten i Altinn som gir muligheter til å delegere rettigheter til andre organisasjoner eller personer. Rettigheter til bruk av autorisasjonskomponenten baserer seg på registrerte roller i Enhetsregisteret.
+
+|Virksomhetssertifikat til konsument
+|Dataobjekt
+|En virksomhets elektroniske ID. Benyttes for å autentisere virksomheten overfor tokentjenesten.
+
+|Tilganger konsument
+|Dataobjekt
+|Oversikt over hvilke API og OAUTH-scopes en virksomhet (representert ved organisasjonsnummer) skal ha tilgang til (utstedt token for).
 
 |===
 
@@ -484,22 +519,19 @@ image:../nab_referanse_arkitekturer_eoppslag/media/avgi_data_app_lag.png[alt="Bi
 |Elementtype
 |Beskrivelse
 
-|Tilgangstoken
-|
-|
-
 |Tokenvalideringstjeneste
-|
-|Mer om validering av token står her: https://difi.github.io/idporten-oidc-dokumentasjon/oidc_guide_maskinporten.html
+|Applikasjonstjeneste
+|Tjeneste som benyttes av tilbyder for å validere og kontrollere autentisiteten til et OAUTH2 token fra Maskinporten.
+
 
 |Maskinporten
 |Applikasjonskomponent
-|Maskinporten tilbyr offentlige etater en enkel måte å sikre sine APIer med virksomhetsautentisering og tilgangstyring.
+|Fellesløsning for API-sikring ved bruk av OAUTH2-tokens.
 
 |===
 
 
-
+////
 ==== Videre detaljering av komponentene
 
 API-katalogen er en del av Felles datakatalog som leveres av Brønnøysundregisterene. REgistreringsprosessen beskrives her:
@@ -514,4 +546,4 @@ https://difi.github.io/idporten-oidc-dokumentasjon/oidc_guide_maskinporten.html
 
 Altinn-autorisasjon:
 https://altinnett.brreg.no/no/Tjenester/Sikkerhet/Autorisasjon/
-
+////
