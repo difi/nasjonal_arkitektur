@@ -132,7 +132,7 @@ image:../nab_referanse_arkitekturer_eoppslag/media/registrere API.png[alt="Bilde
 
 |Registrere API
 |Prosess
-|Prosess for tilbyder å registrere API i nasjonale fellesløsninger så det blir letter tilgjengelig for konsumenter.
+|Prosess for tilbyder å registrere API i nasjonale fellesløsninger så det blir letter tilgjengelig for konsumenter. Forutsetter at konsument har inngått avtale eller godtatt bruksvilkår for bruk av løsningen.
 
 |Inngå avtale om tilgang til data
 |Prosess
@@ -162,7 +162,7 @@ image:../nab_referanse_arkitekturer_eoppslag/media/registrere API.png[alt="Bilde
 
 
 ==== Få tilgang til API
-Få tilgang til API er det en konsument av data må gjøre for å få tilgang til data gjennom et API. Det omfatter å få kjennskap til APIet, inngå avtaler om bruk av data og fellesløsninger, og registrere den teknsike komponenten som skal utføre tjenestekallet. Dersom det er tilgang til et åpent API er det kun relevante prossessteg som utføres.
+Få tilgang til API er det en konsument av data må gjøre for å få tilgang til data gjennom et API. Det omfatter å få kjennskap til APIet, inngå avtale om bruk av data, og registrere den tekniske komponenten som skal utføre tjenestekallet. Dersom det er tilgang til et åpent API er det kun relevante prossessteg som utføres.
 
 image:../nab_referanse_arkitekturer_eoppslag/media/få tilgang til API.png[alt="Bilde mangler", width=750]
 
