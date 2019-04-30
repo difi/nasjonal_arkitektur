@@ -54,7 +54,7 @@ image:../nab_referanse_arkitekturer_eoppslag/media/Deling på forespørsel.png[a
 |Kapabilitet
 |Evnen til å gjøre data tilgjengelig for aktører utenfor egen virksomhet.
 
-|Registerering av sikkert API
+|Tilgjengeliggjøre API
 |Sub-kapabilitet
 |Del av "tilgjengeliggjøreing av data". Evnen til å registrere eget API i fellestjenester så det blir tilgjengelig for andre aktører.
 
@@ -103,11 +103,11 @@ image:../nab_referanse_arkitekturer_eoppslag/media/Forklaring prosess.png[alt="B
 
 === Klargjøring for _deling av data på forespørsel_
 
-Beskrivelse av kapabilitetene som inngår i å klargjøre for deling av data på forespørsel. Dette er prosessene som må til for å registrere APIer, klienter og å sette opp tilganger både fra tilbyder og konsument sin side. 
+Beskrivelse av kapabilitetene som inngår i å klargjøre for deling av data på forespørsel. Dette er prosessene som må til for å tilgjengeliggjøre APIer, klienter og å sette opp tilganger både fra tilbyder og konsument sin side. 
 
-==== Registrering av API
+==== Tilgjengeliggjøre API
 
-Registrering av API gjøres av tilbyder av data og er det tilbyder må gjennomføre for å gjøre et API synlig og tilgjengelig gjennom fellesløsninger. Registrering av konsumenters rettigheter og tilganger inngå også som et prosessteg. Dersom det er registrering av et åpent API er det kun relevante prossessteg som utføres.
+Tilgjengeliggjøring av API gjøres av tilbyder av data og er det tilbyder må gjennomføre for å gjøre et API synlig og tilgjengelig gjennom fellesløsninger. Registrering av konsumenters rettigheter og tilganger inngå også som et prosessteg. Dersom det er registrering av et åpent API er det kun relevante prossessteg som utføres.
 
 image:../nab_referanse_arkitekturer_eoppslag/media/registrere API.png[alt="Bilde mangler", width=750]
 
@@ -118,49 +118,45 @@ image:../nab_referanse_arkitekturer_eoppslag/media/registrere API.png[alt="Bilde
 |Elementtype
 |Beskrivelse
 
-|Inngå avtale om tilgang til data
-|Prosess
-|Prosess for å inngå avtale om tilgang og bruk av data.
+|Tilbyder av data
+|Rolle
+|Den part som besitter informasjon som kan deles.
+
+|Konsument (databruker)
+|Rolle
+|Den part som i en egen virksomhetsprosess har behov for informasjon fra en annen part.
 
 |Bruksavtale
 |Kontrakt
 |Avtale eller kontrakt om tilgang til og bruk av data. Dette kan for eksempel være en bilateralt utformet avtale, aksept av generelle bruksvilkår, eller lisens for bruken av åpne data.
 
-|Opprette tilbyder hos leverandør av tokentjeneste
-|Prosess
-|Prosess for tilbyder å opprettes som bruker av fellesløsning for tilgangsstyring.
-
 |Registrere API
 |Prosess
 |Prosess for tilbyder å registrere API i nasjonale fellesløsninger så det blir letter tilgjengelig for konsumenter.
+
+|Inngå avtale om tilgang til data
+|Prosess
+|Prosess for å inngå avtale om tilgang og bruk av data.
 
 |Registrere tilganger til API
 |Prosess
 |Prosess for å registrere tilganger til de virksomheter som har et gyldig behandlingsgrunnlag og som har inngått avtale om tilgang til data.
 
-|Bruksvilkår
-|Forretningsobjekt
-|Bruksvilkår for bruk av fellestjeneste for autentisering og autorisasjon.
-
-|Registreringstjeneste for tilbyder av API
-|Forretningstjeneste
-|Tjeneste for tilbyder å registrere seg som brukersted for felles tokentjeneste for autentisering og autorisasjon.
-
-|API-registreringstjeneste for tilbyder
+|API-registrering
 |Forretningstjeneste
 |Tjeneste for å registerer de APIene man ønsker å tilby til konsumenter og egenskaper ved disse.
 
-|Token egenskaper
+|Egenskaper ved sikkerhetsbillett for tilgang til API
 |Forretningsobjekt
-|Egenskaper  ved token, f.eks. granulariteten på tilganger.
+|Egenskaper  ved sikkerhetsbillett, f.eks. granulariteten på tilganger.
 
-|Tilgangsregistreringstjeneste
+|Tilgangsregistrering
 |Forretningstjeneste
 |Tjeneste for å registrere de virksomhetene som skal få tilgang til APIer og hvilket tilgangsnivå de skal ha.
 
-|Orgnr. databruker
+|Tilgangsspesifikasjoner konsument
 |Forretningsobjekt
-|Organisasjonsnummeret til den som har avtale om å få tilgang til data.
+|Beskrivelse av de tilganger en konsument skal ha til et spesifikt API.
 
 |===
 
@@ -177,6 +173,14 @@ image:../nab_referanse_arkitekturer_eoppslag/media/få tilgang til API.png[alt="
 |Elementtype
 |Beskrivelse
 
+|Tilbyder av data
+|Rolle
+|Se over
+
+|Konsument (databruker)
+|Rolle
+|Se over
+
 |Bruksavtale
 |Kontrakt
 |Se over
@@ -189,21 +193,16 @@ image:../nab_referanse_arkitekturer_eoppslag/media/få tilgang til API.png[alt="
 |Forretningsprosess
 |Konsumenten sin porsess med å inngå eventuell avtale med tilbyder om tilgang til data.
 
-|Inngå bruksavtale med leverandør av tokentjenester
-|Forretningsprosess
-|Prosessen med å inngå bruksavtale for å benytte fellesløsning for tilgangstyring når man skal benytte APIer som er sikret ved bruk av fellesløsninger.
 
 |Registrer klient med tildelt tilgang
 |Forretningsprosess
-|Prosess for konsument å registerere (provisjonering av) den klienten som skal ha tilgang til APIet. Dette forutsetter at tilbyder har gitt konsument tilgang. Dersom det er en leverandør som har blitt delegert rettigheter som databehandler på vegne av konsument er det leverandøren som registrer sin klient. 
+|Prosess for konsument å registerere (provisjonering av) den klienten som skal ha tilgang til APIet ved bruk av sikkerhetsbillett. Dette forutsetter at konsumenten har avtale om bruk av sikkerhetsbillettjenesten og at tilbyder har gitt konsumenten tilgang. 
+
+Dersom det er en leverandør som har blitt delegert rettigheter som databehandler på vegne av konsument er det leverandøren som registrer sin klient. 
 
 |API-søk
 |Forretningstjeneste
 |Tjeneste for å søke etter og finne tilgjengelige APIer. 
-
-|Avtaletjeneste
-|Forretningstjeneste
-|Tjenste for å inngå avtale om bruk av en fellesløsning.
 
 |Registreringstjeneste for API-bruker
 |Forretningstjeneste
@@ -228,6 +227,10 @@ image:../nab_referanse_arkitekturer_eoppslag/media/delegering av rettigheter.png
 |Kontrakt
 |Avtale mellom leverandør og konsument som er grunnlaget for å kunne delegere rettigheter fra konsument til en leverandør
 
+|Konsument (databruker)
+|Rolle
+|Se over
+
 |Leverandør
 |Rolle
 |En part som leverer tjenester eller utfører oppgaver på vegne av en annen part.
@@ -240,7 +243,7 @@ image:../nab_referanse_arkitekturer_eoppslag/media/delegering av rettigheter.png
 |Prosess
 |Prosessen med å delegere tilganger. I tilknytning til eOppslag vil formålet være å gi leverandør tilgang til å representere konsument overfor et API, men registreringen vil potensielt også kunne gjelde for andre områder.
 
-|Registreringstjeneste for representasjons-forhold
+|Registreringstjeneste for representasjonsforhold
 |Forretningstjeneste
 |Tjeneste for å registerer representasjonsforhold. I dette tilfellet delegering av rettigheter til å benytte et API på vegne av konsument.
 
@@ -263,13 +266,17 @@ image:../nab_referanse_arkitekturer_eoppslag/media/slå opp data.png[alt="Bilde 
 |Elementtype
 |Beskrivelse
 
+|Konsument (databruker)
+|Rolle
+|Se over
+
 |Hent teknisk adresse
 |Forretningsprosess
 |Prosessen å slå opp den tekniske adressen til et API før spørring mot APIet. Gjøres kun dersom det er nødvendig.
 
-|Be om tilgangstoken
+|Hent sikkerhetsbillett
 |Forretningsprosess
-|Prosessen med å benytte en tokentjeneste for hente et tilgangstoken som gir tilgang til et API. Dette forutsetter at alt er registert og satt opp riktig mot de aktuelle tjenestene.
+|Prosessen med å benytte en sikkerhetsbillettjeneste for hente en sikkerhetsbillett som gir tilgang til et API. Dette forutsetter at alt er registert og satt opp riktig mot de aktuelle tjenestene.
 
 |Utfør tjenestekall
 |Forretningsprosess
@@ -279,11 +286,11 @@ image:../nab_referanse_arkitekturer_eoppslag/media/slå opp data.png[alt="Bilde 
 |Forretningstjeneste
 |Tjeneste som gir mulighet til å slå opp teknisk endepunkt.
 
-|Tokentjeneste
+|Utstedelse av sikkerhetsbillett
 |Forretningstjeneste
-|Tjeneste som utsteder tilgangstoken.
+|Tjeneste som utsteder sikkerhetsbilletter.
 
-|Representasjonstjeneste
+|Tjeneste for informasjon om representasjonsforhold
 |Forretningstjeneste
 |Tjeneste som gir oversikt over representasjonsforhold. Benyttes av tokentjeneste dersom en leverandør skal få tilgang på vegne av en konsument
 |===
@@ -302,13 +309,17 @@ image:../nab_referanse_arkitekturer_eoppslag/media/avgi data.png[alt="Bilde mang
 |Elementtype
 |Beskrivelse
 
+|Tilbyder av data
+|Rolle
+|Se over
+
 |Intern tilgangskontroll
 |Forretningstjeneste
 |Intern tjeneste hos tilbyder for å håndheve tilgangsnivåpolicy ved tilgangskontroll.
 
 |Motta forespørsel om oppslag
 |Forretningsprosess
-|Prosess med å motta forespørsler om å utlevere data fra API-konsument.
+|Prosess med å motta forespørsler fra API-konsument om å utlevere data.
 
 |Kontroller tilgang
 |Forretningsprosess
@@ -318,7 +329,7 @@ image:../nab_referanse_arkitekturer_eoppslag/media/avgi data.png[alt="Bilde mang
 |Forretningsprosess
 |Prosessen med å gi svar på forespørselen.
 
-|Valideringstjeneste
+|Validering av sikkerhetsbillett
 |Forretningstjeneste
 |Tjeneste for å validere gyldigheten av sikkerhetsbilletten. Med en gyldig sikkerhetsbillett skal det ikke være nødvendig å validere grunnlaget eller innholdet i sikkerhetsbilletten siden det er et tillitsforhold mellom partene.
 
