@@ -44,3 +44,5 @@ Use File -> Install New Software, enter or chose the URL for http://download.ecl
 . https://github.com/archimatetool/archi/wiki/Developer-Documentation[Developer Documentation .- Archi GitHub wiki]
 . https://github.com/archi-contribs
 . https://gist.github.com/smileham/578bbbb88dc0ed5a1403f3b98711ec25[Script: Export to Markdown.ajs]
+. https://forum.archimatetool.com/index.php?topic=623.0[Enterprise Risk and Security Model and Icons]
+. https://github.com/archi-contribs/specialization-plugin[Changing components icons]
