@@ -11,7 +11,7 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 //Henrik: Legge inn (gjenta) beskrivelsen av kapabilitetesområdet "Deling av data på forespørsel" her, eller i dette avsnittet.
 
-
+ifdef::erik1[]
 [red]#*[underline]##Eriks kommentarer til dette kapitlet:##*#
 
 * [red]#Bytt Ordet "mønsteret" med "referansearkitekturen"!?#
