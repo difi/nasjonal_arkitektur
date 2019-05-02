@@ -26,12 +26,13 @@ ifdef::erik1[]
 
 endif::[]
 
-eOppslag er en delmengde av kapabilitesområdet deling av data på forespørsel. Mønsteret dekker oppslag i informasjon, hvilket vil si forespørsel om informasjon mellom to parter, hvor en prosess hos konsumenten typisk er avhengig av informasjon fra tilbyder for å fortsette.
+eOppslag er en delmengde av kapabilitesområdet deling av data på forespørsel. Referansearkitekturen dekker synkront oppslag i informasjon, hvilket vil si forespørsel om informasjon mellom to parter.
 
-eOppslag er avgrenset til det å tilby og konsumere data gjennom synkrone kall mot APIer. Det dekker både sikrede APIer hvor tilgangsstyring løses ved bruk av blant annet fellestjenester, og åpne APIer som tilbyr åpent tilgjengelige data. En stor del av beskrivelsene tar for seg oppsett og bruk av tjenester tilknyttet tilgangsstyring, men dette er ikke obligatorisk for APIer som tilbyr åpne data.
+Dette gjelder for både sikrede APIer hvor tilgangsstyring løses ved bruk av blant annet fellestjenester, og APIer som tilbyr åpent tilgjengelige data uten tilgangsbegrensninger. En stor del av beskrivelsene tar for seg oppsett og bruk av tjenester tilknyttet tilgangsstyring, men dette er ikke relevant for APIer som tilbyr åpne data.
 
-I innledningen til referansearkitekturer er det skissert ulike kapabilitetsområder og identifisert overordnede kapabiliteter som inngår i de ulike referansearkitekturene. I dette kapittelet detaljeres kapabilitetene tilknyttet eOppslag.
+I beskrivelsen av Nasjonal arkitekturlandskap er det beskrevet ulike kapabilitetsområder og identifisert overordnede kapabiliteter som inngår i de ulike referansearkitekturene. Det står det om her: https://doc.difi.no/nasjonal-arkitektur/nab_arkitekturlandskap/
 
+I dette kapittelet detaljeres kapabilitetene tilknyttet eOppslag.
 
 == Struktur på beskrivelsen
  
@@ -56,19 +57,13 @@ ifdef::erik1[]
 
 endif::[]
 
-Det gis først en overordnet beskrivelse av kapabilitetene som inngår i eOppslag. Disse kapabilitetene beskrives videre i hver sin modell og detaljeres gjennom prosesstegene som skal til for å realisere kapabiliteten. Det vises også til forretningstjenestene og noe av
-kjerneinformasjonen
-som benyttes i prosessene.
-
-
+Det gis først en overordnet beskrivelse av kapabilitetene som inngår i eOppslag. Disse kapabilitetene beskrives videre i hver sin modell og detaljeres gjennom prosesstegene som skal til for å realisere kapabiliteten. Det vises også til forretningstjenestene og noe av den sentrale informasjonen som benyttes i prosessene.
 
 Modellene i beskrivelsene viser relasjonene mellom de ulike elementene og elementene er forklart i tabellene under hver modell. Elementer som benyttes flere ganger, f.eks. rollen som tilbyder, forklares kun tilknyttet modellen på høyest nivå.
 
 Disse modellene er så langt som mulig generiske og beskriver mønstre uten kobling til spesifikke løsninger og vil kunne realiseres på ulike måter. 
 
 I kapitlet med løsningsmønstre vises det derimot til konkrete felleløsninger som gir en beste praksis på hvordan eOppslag implementeres.
-
-De detaljerte beskrivelsene er delt inn i to grupper. Den første er de kapabilitetene som inngår i klargjøring og oppsettet for deling av data og den andre er operativ deling av data. 
 
 == Oversikt eOppslag
 
@@ -89,6 +84,8 @@ Modellen under viser de kapabilitetene en tilbyder og en konsument må ha for å
 Tilbyder må kunne tilgjengeliggjøre data og dette er delt i to kapabiliteter hvor den ene, "Registrering av API" går ut på hvordan man registerer og setter opp tilganger. Den andre kapabiliteten "Avgi forespurte data" er det man gjøre når en konsument gjøre et kall mot det respektive APIet.
 
 Tilsvarende er det tre detaljerte kapabiliteter tilknyttet konsument og det å innhente data. "Få tilgang til API" består av prosesser for oppsett av tilgang, "Delegering av rettigheter til databehandler" må gjøres dersom konsument benytter seg av en databehandler og "Slå opp data gjennom synkront API" er det konsumenten må gjøre hver gang det gjøres et oppslag.
+
+I de detaljerte beskrivelsene i kapitlene under er kapabilitetene delt i to grupper hvor den første er de kapabilitetene som inngår i å klargjøre for deling av data på forespørsel. Det er prosessene som må til for å tilgjengeliggjøre APIer, klienter og å sette opp tilganger både fra tilbyder og konsument sin side. Den andre grupperer de prosessene som inngår i den faktiske delingen av data på forespørsel. 
 
 image:../nab_referanse_arkitekturer_eoppslag/media/Deling på forespørsel.png[alt="Bilde mangler", width=750]
 
@@ -145,7 +142,6 @@ image:../nab_referanse_arkitekturer_eoppslag/media/Deling på forespørsel.png[a
 
 == Arkitekturmønstre (konseptuelle beskrivelser, kun arkitekturbyggeklosser)
 
-=== Hvordan lese modellene
 
 ifdef::erik1[]
 
@@ -171,17 +167,17 @@ ifdef::erik1[]
 
 endif::[]
 
-I dette kapittelet beskrives kapabilitetene som inngår i eOppslag. Dette er gjort tekstlig og ved hjelp av modeller. Modellene består av tre nivåer. 
+I dette kapittelet beskrives kapabilitetene som inngår i eOppslag. De er detaljert ved prosessteg som realiserer kapabiliteten. Det vil si at kan du gjennomføre prosesstegene innehar du evnen kapabiliteten beskriver. Det er også identifisert hvilke generiske fellestjenester det er behov for å ha for å støtte prosesstegene. 
 
-* I midten er det spesifisert noen prosessteg som realiserer kapabiliteten. Det vil si at kan du gjennomføre prosesstegene innehar du evnen kapabiliten beskriver.
+Beskrivelsene er forsøkt å holde helt generisk uten å peke til noen løsning og det vil dermed kunne være flere måter å realisere de ulike elementene på.
 
-* Nederst i figuren er det beskrevet de fellestjenestene og elementene som støtter prosessene.
 
-* Øverst i figurene er det en knytning til hvilken kapabilitet dette er en del av, rollen som utfører prosesstegene og eventuelle andre avhengigheter som må på plass for å kunne gjennomføre prosessene, f.eks. inngå bilaterale avtaler.
+=== Hvordan lese modellene
+Modellene viser hvilke roller som innehar den respektive kapabiliten og er involvert i prosessene. Prosessene realiserer kapabiliteten og tjenester med tilhørende sentrale informasjonselementer støtter opp om prosessene.
 
 De grunnleggende elementene i modellene foklares i denne figuren:
 
-image:../nab_referanse_arkitekturer_eoppslag/media/Forklaring prosess.png[alt="Bilde mangler", width=250]
+image:../nab_referanse_arkitekturer_eoppslag/media/Forklaring prosess.png[alt="Bilde mangler", width=350]
 
 === Klargjøring for _deling av data på forespørsel_
 ifdef::erik1[]
@@ -193,7 +189,6 @@ ifdef::erik1[]
 
 endif::[]
 
-Beskrivelse av kapabilitetene som inngår i å klargjøre for deling av data på forespørsel. Dette er prosessene som må til for å tilgjengeliggjøre APIer, klienter og å sette opp tilganger både fra tilbyder og konsument sin side. 
 
 ==== Tilgjengeliggjøre API
 ifdef::erik1[]
@@ -312,7 +307,7 @@ Dersom det er en leverandør som har blitt delegert rettigheter som databehandle
 ==== Delegering av rettigheter til databehandler
 Delegering av rettigheter til databehandler er det en konsument må gjøre for at en leverandør kan identifisere seg med sitt eget virksomhetssertifikat og opptre på vegne av konsumenten som er den som innehar behandlingsgrunnlaget for å innhente data.
 
-image:../nab_referanse_arkitekturer_eoppslag/media/delegering av rettigheter.png[alt="Bilde mangler", width=750]
+image:../nab_referanse_arkitekturer_eoppslag/media/delegering av rettigheter.png[alt="Bilde mangler", width=500]
 
 [cols ="1,1,3", options="header"]
 .Elementer i figur for delegering av rettigheter til databehandler
@@ -349,13 +344,10 @@ image:../nab_referanse_arkitekturer_eoppslag/media/delegering av rettigheter.png
 
 === Operativ deling av data på forespørsel
 
-Her beskrives prosessene som inngår i den faktiske delingen av data på forespørsel. Dette forutsetter at partene har gjennomført de riktige stegene for å klargjøre for deling av data.
-
-
 ==== Slå opp data gjennom et API
 Slå opp data gjennom et API er det en konsument må gjøre når det utføres et tjenestekall for å innhente data gjennom et API. Dersom det er et åpent API er det kun relevante prossessteg som utføres.
 
-image:../nab_referanse_arkitekturer_eoppslag/media/slå opp data.png[alt="Bilde mangler", width=750]
+image:../nab_referanse_arkitekturer_eoppslag/media/slå opp data.png[alt="Bilde mangler", width=500]
 
 [cols ="1,1,3", options="header"]
 .Elementer i figur for å slå opp data
@@ -397,7 +389,7 @@ image:../nab_referanse_arkitekturer_eoppslag/media/slå opp data.png[alt="Bilde 
 Avgi forespurte data er det tilbyder av data må gjøre for å svare på en forespørsel. Prosessen kontrollere tilgang gjøres kun dersom det er enakk om å avgi data gjennom et sikret API.
 
 
-image:../nab_referanse_arkitekturer_eoppslag/media/avgi data.png[alt="Bilde mangler", width=750]
+image:../nab_referanse_arkitekturer_eoppslag/media/avgi data.png[alt="Bilde mangler", width=500]
 
 
 [cols ="1,1,3", options="header"]
@@ -456,9 +448,13 @@ Beskrivelsen under viser hvordan den generiske arkitekturen i det foregående ka
 
 Det er ikke hensikten å låse referansearkitekturen til spesifikke løsninger, da ulike sektorer og aktører kan ha behov som ikke passer med den foreslåtte. For synkrone tjenestekall basert på REST og med tilgangsstyring ved hjelp av OAUTH2-tokens, vil det være god støtte i å benytte de foreslåtte løsningene. 
 
-For enklere lesbarhet er modellene gjort enklest mulig og skal leses i henhold til følgende modell:
+=== Hvordan lese modellene
 
-image:../nab_referanse_arkitekturer_eoppslag/media/forklaring_app_lag.png[alt="Bilde mangler", width=250]
+For enklere lesbarhet er laget med forretningstjenester utelatt fra modellene og mer løsningsnære applikasjnstjenester er benyttet direkte inn mot forretningsprosessene. Modellene viser dermed hvordan fellesløsninger i form av applikasjonskomponenter støtter de ulike forretningsprosessene gjennom applikasjonstjenester.
+
+De grunnleggende elementene i modellene foklares i denne figuren:
+
+image:../nab_referanse_arkitekturer_eoppslag/media/forklaring_app_lag.png[alt="Bilde mangler", width=350]
 
 
 // For å registrere API må man for i de respektive fellestjenestene ha rettigheter til dette på vegne av egen virksomhet. Dette tildeles iht. hvem som har rettigheter i enhetsregisteret og rettighetene må delegeres nedover i organisasjonen til den som skal gjennomføre registreringen. Dette foregår i Altinn.
@@ -613,7 +609,7 @@ image:../nab_referanse_arkitekturer_eoppslag/media/slå_opp_app_lag.png[alt="Bil
 
 |Oppslag representasjonsforhold
 |Applikasjonstjeneste
-|Tjeneste som bebyttes av tokentjenesten for å kontrollere om det foreligger et delegert representasjonsforhold fra konsument til leverendør i autorisasjonstjenesten til Altinn.
+|Tjeneste som benyttes av tokentjenesten for å kontrollere om det foreligger et delegert representasjonsforhold fra konsument til leverendør i autorisasjonstjenesten til Altinn.
 
 |API-katalogen
 |Applikasjonskomponent
