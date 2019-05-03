@@ -115,3 +115,9 @@ Se link:https://ec.europa.eu/isa2/actions/promoting-sharing-and-reuse-interopera
 
 
 image:../plattform_felles/media/i-arbeid.png[width=75, height=75, alt="Figur mangler: i-arbeid.png?",]
+
+
+== Verktøy
+. link:../kunnskap_verktøy_archi[Archi]
+. link:../kunnskap_verktøy_asciidoctor[Asciidoctor]
+. link:../kunnskap_verktøy_asciidoc-fx[Asciidoc FX]

@@ -51,12 +51,8 @@ Sterkere harmonisering og samhandling: Harmoniserer samhandlingen generelt og p�
 
 Målgrupper for referansearkitekturene er tjenestetilbydere, mottakere og konsumenter av informasjon og data samt deres leverandører. Referansearkitekturene er relevant for, men ikke begrenset til, arkitekter, forretningsutviklere, prosjektledere, utviklere og tech-leads som jobber med digitalisering av forretningsprosesser som involverer flere virksomheter.
 
-=== Hvordan lese referansearkitekturen
-Beskrivelsene av referansearkitektuerer har flere målgrupper og alt vil ikke være like relevant for alle.
-
-For tekniske ressurser vil det mest relevante være de spesifikke referansearkitekturene og da særlig kapitler med løsningsmønstre.
-
-//Henrik: Legge inn en tabell?
+Ikke all informasjon vil være like relevant for alle. 
+For tekniske ressurser vil det mest relevante være de spesifikke referansearkitekturene, og da særlig kapitler med konkrete løsningsmønstre.
 
 == Hvordan beskrives referansearkitekturer?
 
