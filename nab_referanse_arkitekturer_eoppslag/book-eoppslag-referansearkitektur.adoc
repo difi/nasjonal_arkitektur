@@ -10,17 +10,15 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 //Henrik: Legge inn (gjenta) beskrivelsen av kapabilitetesområdet "Deling av data på forespørsel" her, eller i dette avsnittet.
 
+eOppslag er en referansearkitektur som adresserer en delmengde av kapabilitesområdet _deling av data på forespørsel_, nærmere bestemt gjennom synkront API-kall. Referansearkitekturen dekker både klargjøring og operativ datautveksling mellom tilbyder og konsument.
+
+Mer informasjon om kapabilitetskart og nedbrytingen av overordnede temaområder og kapabiliteter finnes under link:../nab_arkitekturlandskap[Nasjonalt arkitekturlandskap]. Her finnes _Deling av data på forespørsel_ som et eget område under området _Datautveklsing_. 
+
+//erik: forsøk å lenke direkte til riktig sted:  <../nab_arkitekturlandskap/book-arkitekturlandskap.adoc#Kapabilitetskart,kapabilitetskart>>.
+
+Dette gjelder for både sikrede API-er hvor tilgangsstyring løses ved bruk av blant annet fellestjenester, og APIer som tilbyr åpent tilgjengelige data uten tilgangsbegrensninger. En stor del av beskrivelsene tar for seg oppsett og bruk av tjenester tilknyttet tilgangsstyring, men dette er ikke relevant for API-er som tilbyr  åpent tilgjengelige data.
 
 
-eOppslag er en delmengde av kapabilitesområdet deling av data på forespørsel. Referansearkitekturen dekker synkront oppslag i informasjon, hvilket vil si forespørsel om informasjon mellom to parter.
-
-Dette gjelder for både sikrede APIer hvor tilgangsstyring løses ved bruk av blant annet fellestjenester, og APIer som tilbyr åpent tilgjengelige data uten tilgangsbegrensninger. En stor del av beskrivelsene tar for seg oppsett og bruk av tjenester tilknyttet tilgangsstyring, men dette er ikke relevant for APIer som tilbyr åpne data.
-
-I beskrivelsen av Nasjonal arkitekturlandskap er det beskrevet ulike kapabilitetsområder og identifisert overordnede kapabiliteter som inngår i de ulike referansearkitekturene; se under <<../nab_arkitekturlandskap/book-arkitekturlandskap.adoc#Kapabilitetskart,kapabilitetskart>>.
-
-//https://doc.difi.no/nasjonal-arkitektur/nab_arkitekturlandskap/
-
-I dette kapittelet detaljeres kapabilitetene tilknyttet eOppslag.
 
 == Struktur på beskrivelsen
  
