@@ -5,25 +5,58 @@
 include::../plattform_felles/includes/commonincludes.adoc[]
 
 
+//:erik1:
 
 == Om eOppslag
 
 //Henrik: Legge inn (gjenta) beskrivelsen av kapabilitetesområdet "Deling av data på forespørsel" her, eller i dette avsnittet.
 
+ifdef::erik1[]
+[red]#*[underline]##Eriks kommentarer til dette kapitlet:##*#
 
+* [red]#Bytt Ordet "mønsteret" med "referansearkitekturen"!?#
+
+* [red]#Det at "en prosess hos konsumenten typisk er avhengig av informasjon fra tilbyder for å fortsette" kommer veldig plutselig på leseren her og bør ikke stå i samme setning som foregående informasjon. (Vi burde hatt en overordnet beskrivelse av hvordan ulike referansearkitekturer adresserer ulike behov i de tverrgående prosessene.)#
+
+* [red]#Endre "Mønsteret dekker oppslag" i første avsnitt til "Referansearkitekturen dekker [underline]#synkront" oppslag". Dette er essensiell informasjon. Merk: Dermed kan første setning i neste avsnitt kuttes.#
+
+* [red]#Bytt ordet "obligatorisk" med "relevant" i andre avsnitt.#
+
+* [red]#Siste avsnitt sier "I innledningen til referansearkitekturer er det skissert ulike kapabilitetsområder", men dette er ikke lengre en riktig henvisning. Se https://doc.difi.no/nasjonal-arkitektur/nab_arkitekturlandskap/#
+
+endif::[]
 
 eOppslag er en delmengde av kapabilitesområdet deling av data på forespørsel. Referansearkitekturen dekker synkront oppslag i informasjon, hvilket vil si forespørsel om informasjon mellom to parter.
 
 Dette gjelder for både sikrede APIer hvor tilgangsstyring løses ved bruk av blant annet fellestjenester, og APIer som tilbyr åpent tilgjengelige data uten tilgangsbegrensninger. En stor del av beskrivelsene tar for seg oppsett og bruk av tjenester tilknyttet tilgangsstyring, men dette er ikke relevant for APIer som tilbyr åpne data.
 
-I beskrivelsen av Nasjonal arkitekturlandskap er det beskrevet ulike kapabilitetsområder og identifisert overordnede kapabiliteter som inngår i de ulike referansearkitekturene; se under <<../nab_arkitekturlandskap/book-arkitekturlandskap.adoc#Kapabilitetskart,kapabilitetskart>>.
-
-//https://doc.difi.no/nasjonal-arkitektur/nab_arkitekturlandskap/
+I beskrivelsen av Nasjonal arkitekturlandskap er det beskrevet ulike kapabilitetsområder og identifisert overordnede kapabiliteter som inngår i de ulike referansearkitekturene; se under https://doc.difi.no/nasjonal-arkitektur/nab_arkitekturlandskap/
 
 I dette kapittelet detaljeres kapabilitetene tilknyttet eOppslag.
 
 == Struktur på beskrivelsen
  
+ 
+ifdef::erik1[]
+
+[red]#*[underline]##Eriks kommentarer til dette kapitlet:##*#
+
+* [red]#Lite av det som står her er spesifikt for eOppslag. så det bør løftes opp og ut til beskrivelse av en dokumentasjonsmal.#
+
+* [red]#Vi bør unngå å blande sammen form og innhold i samme setning.#
+
+* [red]#Om vi skal si at elementene er forklart i en tabell under hver modell (relativt innlysende her), bør vi også si at en alternativt kan klikke seg inn på Archi-modellene og finne beskrivelsene der (ikke fullt så innlysende).#
+
+* [red]#Sitat: "Modellene i beskrivelsene viser relasjonene mellom de ulike elementene". Kommentar: Ja, det er vel det modeller gjør:) Nødvendig å si?#
+
+* [red]#Begrepet "kjerneinformasjon"?# 
+
+*  [red]#Viktig poeng om at det er "to grupper" av beskrivelser, dvs. om oppsett og klargjøring vs. operativ bruk,  men er dette egentlig gjort i praksis? jeg kunne tenkt meg en mer systematisk tilnærming til dette (når vi får tid)#
+
+*  [red]#Dette kapitlet ser jeg ellers i sammenheng med "hvordan lese modellene" (som av en eller annen grunn kun er gjort for "arkitekturmønstre" og ikke "løsningsmønstre")#
+
+endif::[]
+
 Det gis først en overordnet beskrivelse av kapabilitetene som inngår i eOppslag. Disse kapabilitetene beskrives videre i hver sin modell og detaljeres gjennom prosesstegene som skal til for å realisere kapabiliteten. Det vises også til forretningstjenestene og noe av den sentrale informasjonen som benyttes i prosessene.
 
 Modellene i beskrivelsene viser relasjonene mellom de ulike elementene og elementene er forklart i tabellene under hver modell. Elementer som benyttes flere ganger, f.eks. rollen som tilbyder, forklares kun tilknyttet modellen på høyest nivå.
@@ -33,6 +66,18 @@ Disse modellene er så langt som mulig generiske og beskriver mønstre uten kobl
 I kapitlet med løsningsmønstre vises det derimot til konkrete felleløsninger som gir en beste praksis på hvordan eOppslag implementeres.
 
 == Oversikt eOppslag
+
+ifdef::erik1[]
+
+[red]#*[underline]##Eriks kommentarer til dette kapitlet:##*#
+
+* [red]#Senere: Jeg ville her  tatt med relasjoner for å vise hvilke tilbyder-kapabiliteter som henger sammen med hvilke konsument-kapabiliteter. Det er bra for lesbarheten? Det er kanskje også nødvendig informasjon om du vil analysere og rapportere på sammenhengene programmatisk.#
+
+* [red]#Senere: Jeg ville her (gitt valgt kapabilitetsnebryting) brukt _Archimate Grouping_ for å skille klart mellom oppsett vs. operasjon#
+
+* [red]#Spørsmål/refleksjon: Motsats på tilbydersiden til konsumentsidens "delegere rettigheter til databehandler"?#
+
+endif::[]
 
 Modellen under viser de kapabilitetene en tilbyder og en konsument må ha for å dele data gjennom tilgangsstyrte APIer.
 
@@ -98,7 +143,29 @@ image:../nab_referanse_arkitekturer_eoppslag/media/Deling på forespørsel.png[a
 == Arkitekturmønstre (konseptuelle beskrivelser, kun arkitekturbyggeklosser)
 
 
+ifdef::erik1[]
 
+[red]#*[underline]##Eriks kommentarer til dette kapitlet:##*#
+
+* [red]#Dette kapitlet bør (ineste omgang) løftes opp og ut til beskrivelser av modelleringskonvensjoner og dokumentasjonsmaler.#
+
+* [red]#Jeg ville ikke vært så eksplisitt på layout,som f.eks. hva som er i midten, nederst og øverst#
+
+* [red]#Jeg leser "Øverst i figurene er det en knytning til hvilken kapabilitet dette er en del av", men dette mangler i figuren her.#
+
+* [red]#Det er nå direkte feil  å si at "Nederst i figuren er det beskrevet de fellestjenestene og elementene som støtter prosessene."#
+
+* [red]#Relasjonene bør navngis.#
+
+* [red]#"Tjeneste som støtter prosess" bør her hete "[underline]##forretningstjeneste## som ..."#
+
+* [red]#Jeg ser i de påfølgende modellene at det fortsatt er brukt gule bokser på tjenester som helt klart er applikasjonstjenester". Jeg mener at vi skal se se på "konseptuelle applikasjonstjenester" som ABB-er (noe jeg som nevnt vil beskrive separat under modellingskonvensjoner). Det som uansett er viktig her, er at det blir en "smertefri" overgang til de modellene som også tar med seg SBB-ene. Der har vi jo kuttet ut noen av de gule tjenestene fordi de ikke gir noen tilleggsinformasjon. Hvorfor ikke også her? Dvs tillat å gå direkte fra _process_ til _business object_ i denne figuren. Inkluder også "blå tjenester" (med serves og realizes). Et eksempel på det siste er "API-søk", som støtter "Finne/få kjennskap til API".#
+
+* [red]#Jeg foreslår at vi inntil videre konsekvent navngir og beskriver applikasjonstjenester som ABB-er. Forskjellen mellom generiske arkitekturmønstre og mer løsningsnære arkitekturmønstre blir dermed primært at vi bare legger på (logiske) applikasjonskomponenter,slik som f.eks.  ##
+
+* [red]#Layoutdetalj: Symboler og tekst er her veldig små¨ i forhold til andre figurer/modeller. Prøv å få til et mer enhetlig look?#
+
+endif::[]
 
 I dette kapittelet beskrives kapabilitetene som inngår i eOppslag. De er detaljert ved prosessteg som realiserer kapabiliteten. Det vil si at kan du gjennomføre prosesstegene innehar du evnen kapabiliteten beskriver. Det er også identifisert hvilke generiske fellestjenester det er behov for å ha for å støtte prosesstegene. 
 
@@ -113,8 +180,25 @@ De grunnleggende elementene i modellene foklares i denne figuren:
 image:../nab_referanse_arkitekturer_eoppslag/media/Forklaring prosess.png[alt="Bilde mangler", width=350]
 
 === Klargjøring for _deling av data på forespørsel_
+ifdef::erik1[]
+[red]#*[underline]##Eriks kommentarer til følgende avsnitt :##*#
+
+* [red]#Om teksten skal stå, vil jeg ha e noverskrift, som f.eks. "Generelt" eller introduksjon. I (de så langt uskrevne) dokumentasjonskonvensjonene våre, står det at du ikke skal gjemme bort tekst fra innholdsfortegnelsen slik som dette:)#
+
+* [red]#Behøves denne teksten her, egentlig? Burde vi ikke ha forklart dette godt noki overordnede og underliggende kapitler?#
+
+endif::[]
+
 
 ==== Tilgjengeliggjøre API
+ifdef::erik1[]
+[red]#*[underline]##Eriks kommentarer til dette kapitlet:##*#
+
+* [red]#Kutt forretningstjenestene "API-registrering" og "Tilgangsregistrering" som mellomledd til forretningsobjektene - disse forretningstjenestene gir liten eller ingentilleggsinformasjon ift. prosessene.#
+
+* [red]#Vurder å ta inn "de blå" tjenestene som ABB-er her.#
+
+endif::[]
 
 Tilgjengeliggjøring av API gjøres av tilbyder av data og er det tilbyder må gjennomføre for å gjøre et API synlig og tilgjengelig gjennom fellesløsninger. Registrering av konsumenters rettigheter og tilganger inngår også som et prosessteg. Dersom det er registrering av et åpent API, er det kun relevante prossessteg som utføres.
 
@@ -346,6 +430,20 @@ image:../nab_referanse_arkitekturer_eoppslag/media/avgi data.png[alt="Bilde mang
 
 == Løsningsmønstre (logiske beskrivelser med arkitekturbyggeklosser og aktuelle løsningsbyggeklosser)
 
+
+ifdef::erik1[]
+
+[red]#*[underline]##Eriks kommentarer til første del av dette kapitlet:##*#
+
+* [red]#Det mangler en overskrift til første avsnitt. Bør det hete "Hvordan lese modellene", slik som for arkitekturmønstrene?#
+
+* [red]#Om "skal leses i henhold til følgende modell": Nice try:) Her hoppes det over ethvert forsøk på å forklare. Kanskje det er greit, men det er ikke greit at dette er beskrevet på så ulike måter under arkitekturmønstre vs. løsningsmønstre.#
+
+* [red]#Figuren er for liten - vanskelig å lese tekst uten å forstørre. Tilstreb lik størrelse på tekst i alle figurer.#
+
+endif::[]
+
+
 Beskrivelsen under viser hvordan den generiske arkitekturen i det foregående kapittelet kan realiseres med løsningskomponentene Maskinporten, API-katalogen og Altinn-autorisasjon. Disse fellesløsningene leverer de tjenestene som er beskrevet på forretningsnivå over.
 
 Det er ikke hensikten å låse referansearkitekturen til spesifikke løsninger, da ulike sektorer og aktører kan ha behov som ikke passer med den foreslåtte. For synkrone tjenestekall basert på REST og med tilgangsstyring ved hjelp av OAUTH2-tokens, vil det være god støtte i å benytte de foreslåtte løsningene. 
@@ -367,6 +465,15 @@ image:../nab_referanse_arkitekturer_eoppslag/media/forklaring_app_lag.png[alt="B
 
 
 ==== Tilgjengeliggjøre API
+
+ifdef::erik1[]
+
+[red]#*[underline]##Eriks kommentarer til dette kapitlet:##*#
+
+* [red]#Navning og beskrivelser av "de blå tjenestene" er ikke konsistent med tanke på om de er knyttet til en spesifikk SBB-applikasjonskomponent og slik sett er å betrakte som en SBB-tjeneste vs. en (konseptuell) ABB-tjeneste.Jeg foreslår at vi inntil videre konsekvent navngir og beskriver applikasjonstjenester som ABB-er. Forskjellen mellom generiske arkitekturmønstre og mer løsningsnære arkitekturmønstre blir dermed bare at vi bare legger på (logiske) applikasjonskomponenter.#
+
+
+endif::[]
 
 For å tilby data gjennom et API sikret med fellestjenester må tilbyder inngå avtale for bruk av Maskinporten og API-katalogen (Felles datakatalog). De respektive APIene og hvem som skal ha hvilke rettighetene til disse må så registreres i løsningene.
 
