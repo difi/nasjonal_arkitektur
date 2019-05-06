@@ -12,11 +12,13 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 eOppslag er en referansearkitektur som adresserer en delmengde av kapabilitesområdet _deling av data på forespørsel_, nærmere bestemt gjennom synkront API-kall. Referansearkitekturen dekker både klargjøring og operativ datautveksling mellom tilbyder og konsument.
 
-Mer informasjon om kapabilitetskart og nedbrytingen av overordnede temaområder og kapabiliteter finnes under link:../nab_arkitekturlandskap[Nasjonalt arkitekturlandskap]. Her finnes _Deling av data på forespørsel_ som et eget område under området _Datautveklsing_. 
+Mer informasjon om kapabilitetskart og nedbrytingen av overordnede temaområder og kapabiliteter finnes under link:../nab_arkitekturlandskap[Nasjonalt arkitekturlandskap]. Her finnes _Deling av data på forespørsel_ som et eget område under området _Datautveksling_. 
 
 //erik: forsøk å lenke direkte til riktig sted:  <../nab_arkitekturlandskap/book-arkitekturlandskap.adoc#Kapabilitetskart,kapabilitetskart>>.
 
-Dette gjelder for både sikrede API-er hvor tilgangsstyring løses ved bruk av blant annet fellestjenester, og APIer som tilbyr åpent tilgjengelige data uten tilgangsbegrensninger. En stor del av beskrivelsene tar for seg oppsett og bruk av tjenester tilknyttet tilgangsstyring, men dette er ikke relevant for API-er som tilbyr  åpent tilgjengelige data.
+Dette gjelder for både sikrede API-er hvor tilgangsstyring løses ved bruk av blant annet fellestjenester, og APIer som tilbyr åpent tilgjengelige data uten tilgangsbegrensninger. En stor del av beskrivelsene tar for seg oppsett og bruk av tjenester tilknyttet tilgangsstyring, men dette er ikke relevant for API-er som tilbyr åpent tilgjengelige data.
+
+eOppslag som referansearkitektur adresserer generelt hvordan man kan dele data på forespørsel uavhengig av hva slags informasjon det gjelder, om det er strukturerte eller ustrukturerte data, og hva konsumenten skal bruke det til. En tilbyder av data og en konsument av data kan også være innenfor samme virksomhet selv om beskrivelsene i som oftest er skrevet med utgangspunkt i at det er forespørsel om data på tvers av virksomheter vil tilnærmingen også være aktuell å benytte for eksempel internt i egen virksomhet.
 
 
 
@@ -55,9 +57,9 @@ image:../nab_referanse_arkitekturer_eoppslag/media/Deling på forespørsel.png[a
 
 |Konsument (databruker)
 |Rolle
-|Den part som i en egen virksomhetsprosess har behov for informasjon fra en annen part.
-//erik: ikke bare behov for, si heller bare "som bruker"
-//erik: erdet viktig at det er i en egen virksomhetsprosess? VI BØR HA SEPARAT BESKRIVELSE AV hvordan disse referansearkitekturene inngår i samhandlingsprosesser  
+|Den part som bruker informasjon fra en annen part.
+
+//erik: er det viktig at det er i en egen virksomhetsprosess? VI BØR HA SEPARAT BESKRIVELSE AV hvordan disse referansearkitekturene inngår i samhandlingsprosesser  
 
 |Tilgjengeliggjøring av data
 |Kapabilitet
@@ -67,10 +69,9 @@ image:../nab_referanse_arkitekturer_eoppslag/media/Deling på forespørsel.png[a
 // erik: må det være utenfor egen virksomhet? har vi sagt eksplisitt at dette gjelder for denne referansearkitekturen? Skal vi åpne for at det kan være innenfor samme virksomhet, men si noe mer ekplisitt om behovet for avtaler og infosikkerhet? 
 
 |Tilgjengeliggjøre API
-|Sub-kapabilitet
+|Kapabilitet
 |Del av "tilgjengeliggjøreing av data". Evnen til å registrere eget API i fellestjenester så det blir tilgjengelig for andre aktører.
 
-// erik: dropp "sub-"?
 // erik: Evene
 // erik: "registrere eget API fellestjenetser"??
 // erik: hvorfor være eksplisitt om realiseringen av kapabiliteten her?
@@ -80,7 +81,7 @@ image:../nab_referanse_arkitekturer_eoppslag/media/Deling på forespørsel.png[a
 
 
 |Avgi forespurte data
-|Sub-kapabilitet
+|Kapabilitet
 |Del av "tilgjengeliggjøreing av data". Evene til å avgi data på forespørsel gjennom et egnet API. Kan omfatte tilgangsstyring.
 
 //erik: Om det kun dreier seg om å avgi data gjennom API, bør ordet "API" være med i navnet?
@@ -90,21 +91,19 @@ image:../nab_referanse_arkitekturer_eoppslag/media/Deling på forespørsel.png[a
 |Evenen til å hente tilbydte data fra annen aktør.
 
 |Få tilgang til API
-|Sub-kapabilitet
+|Kapabilitet
 |Evnen til å få tilgang til tilbydte data fra annen aktør. 
 
 erik: "evene til å få tilgang" høres rart ut, bare...
 
 |Delegering av rettigheter til databehandler
-|Sub-kapabilitet
+|Kapabilitet
 |Evnen til å delegere rettigheter til databehandler som utfører oppgaver på vegne av behandlingsansvarlig
 
 
 |Slå opp data gjennom et API
-|Sub-kapabilitet
-|Evnen til å slå opp og hente data gjennom et eksternt API.
-
-// erik: må det være eksternt (se også over)?
+|Kapabilitet
+|Evnen til å slå opp og hente data gjennom et API.
 
 |===
 
@@ -112,9 +111,6 @@ erik: "evene til å få tilgang" høres rart ut, bare...
 //== Detaljerte beskrivelser 
 
 == Arkitekturmønstre (konseptuelle beskrivelser, kun arkitekturbyggeklosser)
-
-
-
 
 I dette kapittelet beskrives kapabilitetene som inngår i eOppslag. De er detaljert ved prosessteg som realiserer kapabiliteten. Det vil si at kan du gjennomføre prosesstegene innehar du evnen kapabiliteten beskriver. Det er også identifisert hvilke generiske fellestjenester det er behov for å ha for å støtte prosesstegene. 
 
@@ -148,15 +144,13 @@ image:../nab_referanse_arkitekturer_eoppslag/media/registrere API.png[alt="Bilde
 
 |Tilbyder av data
 |Rolle
-|Den part som besitter informasjon som kan deles.
+|Se over
 
-// erik: er forklart over
 
 |Konsument (databruker)
 |Rolle
-|Den part som i en egen virksomhetsprosess har behov for informasjon fra en annen part.
+|Se over
 
-// erik: er forklart over
 
 
 |Bruksavtale
@@ -169,11 +163,10 @@ image:../nab_referanse_arkitekturer_eoppslag/media/registrere API.png[alt="Bilde
 
 |Registrere API
 |Prosess
-|Prosess for tilbyder å registrere API i nasjonale fellesløsninger så det blir letter tilgjengelig for konsumenter. Forutsetter at konsument har inngått avtale eller godtatt bruksvilkår for bruk av løsningen.
+|Prosess for tilbyder å registrere API i nasjonale fellesløsninger så det blir lettere tilgjengelig for konsumenter. Forutsetter at tilbyder har inngått avtale eller godtatt bruksvilkår for bruk av de nasjonale fellesløsningene.
 
-// erik: "letter" -> "lettere"
-// erik: registerere APIi nasjonale fellesløsninger?
-// erik:dette forutsetter vel ingenting om konsumenten, dvs. droppp siste setning?
+// erik: registerere APIi nasjonale fellesløsninger? Henrik: finne et annet begrep
+// erik:dette forutsetter vel ingenting om konsumenten, dvs. droppp siste setning? Henrik: endret tekst, skulle være tilbyder.
 
 
 |Inngå avtale om tilgang til data
