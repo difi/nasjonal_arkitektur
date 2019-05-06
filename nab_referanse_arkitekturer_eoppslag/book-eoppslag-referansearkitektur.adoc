@@ -12,11 +12,11 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 eOppslag er en referansearkitektur som adresserer en delmengde av kapabilitesområdet _deling av data på forespørsel_, nærmere bestemt gjennom synkront API-kall. Referansearkitekturen dekker både klargjøring og operativ datautveksling mellom tilbyder og konsument.
 
-Mer informasjon om kapabilitetskart og nedbrytingen av overordnede temaområder og kapabiliteter finnes under link:../nab_arkitekturlandskap[Nasjonalt arkitekturlandskap]. Her finnes _Deling av data på forespørsel_ som et eget område under området _Datautveksling_. 
+NOTE: Mer informasjon om kapabilitetskart og nedbrytingen av overordnede temaområder og kapabiliteter finnes under link:../nab_arkitekturlandskap[Nasjonalt arkitekturlandskap]. Her finnes _Deling av data på forespørsel_ som et eget område under området _Datautveksling_. 
 
 //erik: forsøk å lenke direkte til riktig sted:  <../nab_arkitekturlandskap/book-arkitekturlandskap.adoc#Kapabilitetskart,kapabilitetskart>>.
 
-Dette gjelder for både sikrede API-er hvor tilgangsstyring løses ved bruk av blant annet fellestjenester, og APIer som tilbyr åpent tilgjengelige data uten tilgangsbegrensninger. En stor del av beskrivelsene tar for seg oppsett og bruk av tjenester tilknyttet tilgangsstyring, men dette er ikke relevant for API-er som tilbyr åpent tilgjengelige data.
+Dette gjelder for både sikrede API-er hvor tilgangsstyring løses ved bruk av blant annet fellestjenester, og API-er som tilbyr åpent tilgjengelige data uten tilgangsbegrensninger. En stor del av beskrivelsene tar for seg oppsett og bruk av tjenester tilknyttet tilgangsstyring, men dette er ikke relevant for API-er som tilbyr åpent tilgjengelige data.
 
 eOppslag som referansearkitektur adresserer generelt hvordan man kan dele data på forespørsel uavhengig av hva slags informasjon det gjelder, om det er strukturerte eller ustrukturerte data, og hva konsumenten skal bruke det til. En tilbyder av data og en konsument av data kan også være innenfor samme virksomhet selv om beskrivelsene i som oftest er skrevet med utgangspunkt i at det er forespørsel om data på tvers av virksomheter vil tilnærmingen også være aktuell å benytte for eksempel internt i egen virksomhet.
 
@@ -42,9 +42,9 @@ Tilbyder må kunne tilgjengeliggjøre data og dette er delt i to kapabiliteter h
 
 Tilsvarende er det tre detaljerte kapabiliteter tilknyttet konsument og det å innhente data. "Få tilgang til API" består av prosesser for oppsett av tilgang, "Delegering av rettigheter til databehandler" må gjøres dersom konsument benytter seg av en databehandler og "Slå opp data gjennom synkront API" er det konsumenten må gjøre hver gang det gjøres et oppslag.
 
-I de detaljerte beskrivelsene i kapitlene under er kapabilitetene delt i to grupper hvor den første er de kapabilitetene som inngår i å klargjøre for deling av data på forespørsel. Det er prosessene som må til for å tilgjengeliggjøre APIer, klienter og å sette opp tilganger både fra tilbyder og konsument sin side. Den andre grupperer de prosessene som inngår i den faktiske delingen av data på forespørsel. 
+I de detaljerte beskrivelsene i kapitlene under er kapabilitetene delt i to grupper hvor den første er de kapabilitetene som inngår i å klargjøre for deling av data på forespørsel. Det er prosessene som må til for å tilgjengeliggjøre API-er, klienter og å sette opp tilganger både fra tilbyder og konsument sin side. Den andre grupperer de prosessene som inngår i den faktiske delingen av data på forespørsel. 
 
-image:../nab_referanse_arkitekturer_eoppslag/media/Deling på forespørsel.png[alt="Bilde mangler", width=750,link=https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/e7e6c527-26f4-461c-b4dd-651fcbe85c8d/images/4b722aae-1323-46b0-bcac-e730d418b190.png]
+image:../nab_referanse_arkitekturer_eoppslag/media/Deling på forespørsel.png[alt="Bilde mangler", width=750,link=https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/e7e6c527-26f4-461c-b4dd-651fcbe85c8d/views/4b722aae-1323-46b0-bcac-e730d418b190.html]
 
 [cols ="1,1,3", options="header"]
 .Elementer i figur for deling av data på forespørsel
@@ -185,7 +185,7 @@ image:../nab_referanse_arkitekturer_eoppslag/media/registrere API.png[alt="Bilde
 
 |API-registrering
 |Forretningstjeneste
-|Tjeneste for å registerer de APIene man ønsker å tilby til konsumenter og egenskaper ved disse.
+|Tjeneste for å registerer de API-ene man ønsker å tilby til konsumenter og egenskaper ved disse.
 
 |Egenskaper ved sikkerhetsbillett for tilgang til API
 |Forretningsobjekt
@@ -193,7 +193,7 @@ image:../nab_referanse_arkitekturer_eoppslag/media/registrere API.png[alt="Bilde
 
 |Tilgangsregistrering
 |Forretningstjeneste
-|Tjeneste for å registrere de virksomhetene som skal få tilgang til APIer og hvilket tilgangsnivå de skal ha.
+|Tjeneste for å registrere de virksomhetene som skal få tilgang til API-er og hvilket tilgangsnivå de skal ha.
 
 |Tilgangsspesifikasjoner konsument
 |Forretningsobjekt
@@ -203,7 +203,7 @@ image:../nab_referanse_arkitekturer_eoppslag/media/registrere API.png[alt="Bilde
 
 
 ==== Få tilgang til API
-Få tilgang til API er det en konsument av data må gjøre for å få tilgang til data gjennom et API. Det omfatter å få kjennskap til APIet, inngå avtale om bruk av data, og registrere den tekniske komponenten som skal utføre tjenestekallet. Dersom det er tilgang til et åpent API er det kun relevante prossessteg som utføres.
+Få tilgang til API er det en konsument av data må gjøre for å få tilgang til data gjennom et API. Det omfatter å få kjennskap til API-et, inngå avtale om bruk av data, og registrere den tekniske komponenten som skal utføre tjenestekallet. Dersom det er tilgang til et åpent API er det kun relevante prossessteg som utføres.
 
 ////
 erik, forslag til ny tekst :
@@ -235,7 +235,7 @@ image:../nab_referanse_arkitekturer_eoppslag/media/få tilgang til API.png[alt="
 
 |Finne/få kjennskap til API
 |Forretningsprosess
-|Prosessen med å finne eller få kjennskap til tilgjengelige APIer. Benytter tjeneste for å søke i fellesløsninger.
+|Prosessen med å finne eller få kjennskap til tilgjengelige API-er. Benytter tjeneste for å søke i fellesløsninger.
 
 |Inngå avtale om tilgang til data
 |Forretningsprosess
@@ -244,13 +244,13 @@ image:../nab_referanse_arkitekturer_eoppslag/media/få tilgang til API.png[alt="
 
 |Registrer klient med tildelt tilgang
 |Forretningsprosess
-|Prosess for konsument å registerere (provisjonering av) den klienten som skal ha tilgang til APIet ved bruk av sikkerhetsbillett. Dette forutsetter at konsumenten har avtale om bruk av sikkerhetsbillettjenesten og at tilbyder har gitt konsumenten tilgang. 
+|Prosess for konsument å registerere (provisjonering av) den klienten som skal ha tilgang til API-et ved bruk av sikkerhetsbillett. Dette forutsetter at konsumenten har avtale om bruk av sikkerhetsbillettjenesten og at tilbyder har gitt konsumenten tilgang. 
 
 Dersom det er en leverandør som har blitt delegert rettigheter som databehandler på vegne av konsument er det leverandøren som registrer sin klient. 
 
 |API-søk
 |Forretningstjeneste
-|Tjeneste for å søke etter og finne tilgjengelige APIer. 
+|Tjeneste for å søke etter og finne tilgjengelige API-er. 
 
 |Registreringstjeneste for API-bruker
 |Forretningstjeneste
@@ -317,7 +317,7 @@ image:../nab_referanse_arkitekturer_eoppslag/media/slå opp data.png[alt="Bilde 
 
 |Hent teknisk adresse
 |Forretningsprosess
-|Prosessen å slå opp den tekniske adressen til et API før spørring mot APIet. Gjøres kun dersom det er nødvendig.
+|Prosessen å slå opp den tekniske adressen til et API før spørring mot API-et. Gjøres kun dersom det er nødvendig.
 
 |Hent sikkerhetsbillett
 |Forretningsprosess
@@ -409,7 +409,7 @@ image:../nab_referanse_arkitekturer_eoppslag/media/forklaring_app_lag.png[alt="B
 
 ==== Tilgjengeliggjøre API
 
-For å tilby data gjennom et API sikret med fellestjenester må tilbyder inngå avtale for bruk av Maskinporten og API-katalogen (Felles datakatalog). De respektive APIene og hvem som skal ha hvilke rettighetene til disse må så registreres i løsningene.
+For å tilby data gjennom et API sikret med fellestjenester må tilbyder inngå avtale for bruk av Maskinporten og API-katalogen (Felles datakatalog). De respektive API-ene og hvem som skal ha hvilke rettighetene til disse må så registreres i løsningene.
 
 
 image:../nab_referanse_arkitekturer_eoppslag/media/registerer_api_app_lag.png[alt="Bilde mangler", width=750]
@@ -423,7 +423,7 @@ image:../nab_referanse_arkitekturer_eoppslag/media/registerer_api_app_lag.png[al
 
 |Open API Specification
 |Dataobjekt
-|Maskinlesbar beskrivelse av REST APIer. Dette er formatet som benyttes for å registrere et API i felles API-katalog
+|Maskinlesbar beskrivelse av REST API-er. Dette er formatet som benyttes for å registrere et API i felles API-katalog
 
 |Tokenegenskaper
 |Dataobjekt
@@ -431,7 +431,7 @@ image:../nab_referanse_arkitekturer_eoppslag/media/registerer_api_app_lag.png[al
 
 |OAUTH scopes
 |Dataobjekt
-|Et scope kan best beskrives som en ressurs-definisjon og et token er som regel knyttet til ett eller flere scopes. Scopes benyttes til å styre tilganger til APIer og operasjoner og eventuelt hva slags responser man får fra APIet.
+|Et scope kan best beskrives som en ressurs-definisjon og et token er som regel knyttet til ett eller flere scopes. Scopes benyttes til å styre tilganger til API-er og operasjoner og eventuelt hva slags responser man får fra API-et.
 
 |Tilganger konsument
 |Dataobjekt
@@ -441,21 +441,21 @@ image:../nab_referanse_arkitekturer_eoppslag/media/registerer_api_app_lag.png[al
 |Applikasjonstjeneste
 |Tjeneste i API-katalogen for å registrere API. Bruk av tjenesten forutsetter at man har de fått tildelt rettigheter til å gjøre dette på vegne av tilbyders virksomhet.
 
-|Selvbetjeningstjeneste for administrasjon og registering av APIer i Maskinporten
+|Selvbetjeningstjeneste for administrasjon og registering av API-er i Maskinporten
 |Applikasjonstjeneste
 |Tjeneste i API-katalogen for å registrere API. Bruk av tjenesten forutsetter at man har de fått tildelt rettigheter til å gjøre dette på vegne av tilbyders virksomhet.
 
-|Selvbetjenesigstjeneste for administrasjon av integrasjoner og APIer
+|Selvbetjenesigstjeneste for administrasjon av integrasjoner og API-er
 |Applikasjonstjeneste
 |Tjeneste for gjennom selvbetjening å registrere og vedlikeholde API-definisjoner og scopes i Maskinporten.
 
 |Registrering av API-brukere
 |Applikasjonstjeneste
-|Tjeneste for gjennom selvbetjening å registrere og vedlikeholde tilgangene konsumenter skal ha til APIer og scopes.
+|Tjeneste for gjennom selvbetjening å registrere og vedlikeholde tilgangene konsumenter skal ha til API-er og scopes.
 
 |API-katalogen
 |Applikasjonskomponent
-|Del av Felles datakatalog som gir mulighet for å søke etter APIer og lese API-spesifikasjoner
+|Del av Felles datakatalog som gir mulighet for å søke etter API-er og lese API-spesifikasjoner
 https://fellesdatakatalog.brreg.no/apis
 
 |Maskinporten
@@ -487,7 +487,7 @@ image:../nab_referanse_arkitekturer_eoppslag/media/få_tilgang_app_lag.png[alt="
 
 |API-katalogen
 |Applikasjonskomponent
-|Del av Felles datakatalog som gir mulighet for å søke etter APIer og lese API-spesifikasjoner
+|Del av Felles datakatalog som gir mulighet for å søke etter API-er og lese API-spesifikasjoner
 https://fellesdatakatalog.brreg.no/apis
 
 |Maskinporten
@@ -547,7 +547,7 @@ image:../nab_referanse_arkitekturer_eoppslag/media/slå_opp_app_lag.png[alt="Bil
 
 |API-katalogen
 |Applikasjonskomponent
-|Del av Felles datakatalog som gir mulighet for å søke etter APIer og lese API-spesifikasjoner
+|Del av Felles datakatalog som gir mulighet for å søke etter API-er og lese API-spesifikasjoner
 https://fellesdatakatalog.brreg.no/apis
 
 |Maskinporten
@@ -602,7 +602,7 @@ https://fellesdatakatalog.brreg.no/about-registration
 
 
 Maskinporten:
-Maskinporten tilbyr offentlige etater en enkel måte å sikre sine APIer med virksomhetsautentisering og tilgangstyring.
+Maskinporten tilbyr offentlige etater en enkel måte å sikre sine API-er med virksomhetsautentisering og tilgangstyring.
 
 https://difi.github.io/idporten-oidc-dokumentasjon/oidc_guide_maskinporten.html
 
