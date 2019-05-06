@@ -56,34 +56,19 @@ image:../nab_referanse_arkitekturer_eoppslag/media/Deling på forespørsel.png[a
 |Konsument (databruker)
 |Rolle
 |Den part som i en egen virksomhetsprosess har behov for informasjon fra en annen part.
-//erik: ikke bare behov for, si heller bare "som bruker"
-//erik: erdet viktig at det er i en egen virksomhetsprosess? VI BØR HA SEPARAT BESKRIVELSE AV hvordan disse referansearkitekturene inngår i samhandlingsprosesser  
+
 
 |Tilgjengeliggjøring av data
 |Kapabilitet
 |Evnen til å gjøre data tilgjengelig for aktører utenfor egen virksomhet.
 
-//erik: endret navn til "tilgjengeliggjøre data"
-// erik: må det være utenfor egen virksomhet? har vi sagt eksplisitt at dette gjelder for denne referansearkitekturen? Skal vi åpne for at det kan være innenfor samme virksomhet, men si noe mer ekplisitt om behovet for avtaler og infosikkerhet? 
-
 |Tilgjengeliggjøre API
 |Sub-kapabilitet
 |Del av "tilgjengeliggjøreing av data". Evnen til å registrere eget API i fellestjenester så det blir tilgjengelig for andre aktører.
 
-// erik: dropp "sub-"?
-// erik: Evene
-// erik: "registrere eget API fellestjenetser"??
-// erik: hvorfor være eksplisitt om realiseringen av kapabiliteten her?
-
-
-
-
-
 |Avgi forespurte data
 |Sub-kapabilitet
 |Del av "tilgjengeliggjøreing av data". Evene til å avgi data på forespørsel gjennom et egnet API. Kan omfatte tilgangsstyring.
-
-//erik: Om det kun dreier seg om å avgi data gjennom API, bør ordet "API" være med i navnet?
 
 |Innhenting av data
 |Kapabilitet
@@ -93,7 +78,6 @@ image:../nab_referanse_arkitekturer_eoppslag/media/Deling på forespørsel.png[a
 |Sub-kapabilitet
 |Evnen til å få tilgang til tilbydte data fra annen aktør. 
 
-erik: "evene til å få tilgang" høres rart ut, bare...
 
 |Delegering av rettigheter til databehandler
 |Sub-kapabilitet
@@ -103,8 +87,6 @@ erik: "evene til å få tilgang" høres rart ut, bare...
 |Slå opp data gjennom et API
 |Sub-kapabilitet
 |Evnen til å slå opp og hente data gjennom et eksternt API.
-
-// erik: må det være eksternt (se også over)?
 
 |===
 
@@ -126,10 +108,7 @@ Modellene viser hvilke roller som innehar den respektive kapabiliten og er invol
 
 De grunnleggende elementene i modellene foklares i denne figuren:
 
-
 image:../nab_referanse_arkitekturer_eoppslag/media/Forklaring prosess.png[alt="Bilde mangler", width=350]
-
-// erik: her kunnejeg tenkjt meg å skrive noe mer... kan være en/mange osv...
 
 === Klargjøring for _deling av data på forespørsel_
 
@@ -150,31 +129,17 @@ image:../nab_referanse_arkitekturer_eoppslag/media/registrere API.png[alt="Bilde
 |Rolle
 |Den part som besitter informasjon som kan deles.
 
-// erik: er forklart over
-
 |Konsument (databruker)
 |Rolle
 |Den part som i en egen virksomhetsprosess har behov for informasjon fra en annen part.
-
-// erik: er forklart over
-
 
 |Bruksavtale
 |Kontrakt
 |Avtale eller kontrakt om tilgang til og bruk av data. Dette kan for eksempel være en bilateralt utformet avtale, aksept av generelle bruksvilkår, eller lisens for bruken av åpne data.
 
-// erik: grammatikk
-// dropp "eller kontrakt"?
-// dropp "og bruk"???
-
 |Registrere API
 |Prosess
 |Prosess for tilbyder å registrere API i nasjonale fellesløsninger så det blir letter tilgjengelig for konsumenter. Forutsetter at konsument har inngått avtale eller godtatt bruksvilkår for bruk av løsningen.
-
-// erik: "letter" -> "lettere"
-// erik: registerere APIi nasjonale fellesløsninger?
-// erik:dette forutsetter vel ingenting om konsumenten, dvs. droppp siste setning?
-
 
 |Inngå avtale om tilgang til data
 |Prosess
@@ -205,13 +170,6 @@ image:../nab_referanse_arkitekturer_eoppslag/media/registrere API.png[alt="Bilde
 
 ==== Få tilgang til API
 Få tilgang til API er det en konsument av data må gjøre for å få tilgang til data gjennom et API. Det omfatter å få kjennskap til APIet, inngå avtale om bruk av data, og registrere den tekniske komponenten som skal utføre tjenestekallet. Dersom det er tilgang til et åpent API er det kun relevante prossessteg som utføres.
-
-////
-erik, ny tekst (men lurer litt på siste setning:
-
-_Få tilgang til API_ er det en konsument av data må gjøre for å få tilgang til data gjennom et API. Det omfatter å få kjennskap til aktuelt API, inngå avtale om bruk av data, samt å registrere den tekniske komponenten som skal utføre tjenestekallet. Dersom det dreier seg om tilgang til et _åpent tilgjengelig_ API, behøves ikke de viste prossesstegene for å inngå avtale og registrere klient med tildelt tilgang???????????????????????
-////
-
 
 image:../nab_referanse_arkitekturer_eoppslag/media/få tilgang til API.png[alt="Bilde mangler", width=750]
 
@@ -609,16 +567,3 @@ Altinn-autorisasjon:
 https://altinnett.brreg.no/no/Tjenester/Sikkerhet/Autorisasjon/
 ////
 
-
-
-//// 
-erik, annet som jeg kan gjøre: 
-
-1. Få på plass Eriks "gamle" figurer av overordnede beskrivelser i riktig Archi-bibliotek
-2. Fikse symboler og størrelsen på bokser
-3. Fikse navnvs. label
-4. Publisere Archi-html 
-
-
-
-////
