@@ -454,7 +454,7 @@ https://fellesdatakatalog.brreg.no/apis
 |===
 
 ==== Delegering av rettigheter til databehandler
-Dersom konsumenten benytter en leverandør som skal opptre på vegne av seg selv må dette forholdet registereres gjennom Altinn autorisasjon slik at det blir tilgjengelig for Maskinporten å kontrollere representasjonsforholdet.
+Dersom konsumenten benytter en leverandør som skal opptre på konsumentens vegne, må dette forholdet registereres gjennom Altinn autorisasjon slik at det blir tilgjengelig for Maskinporten å kontrollere representasjonsforholdet.
 
 
 image:../nab_referanse_arkitekturer_eoppslag/media/delegere_rettigheter_app_lag.png[alt="Bilde mangler", width=350]
@@ -479,7 +479,7 @@ image:../nab_referanse_arkitekturer_eoppslag/media/delegere_rettigheter_app_lag.
 
 ==== Slå opp data gjennom et API
 
-Når en konsumet skal slå opp data gjennom et API benyttes Maskinporten for å få utstedt en sikkerhetsbillett som legges ved tjenestekallet til tilbyders API.
+Når en konsumet skal slå opp data gjennom et API benyttes Maskinporten for å få utstedt en sikkerhetsbillett som legges ved tjenestekallet til tilbyders API. Maskinporten utsteder sikkerhetsbilletter som OAUTH2-tokens.
 
 image:../nab_referanse_arkitekturer_eoppslag/media/slå_opp_app_lag.png[alt="Bilde mangler", width=500]
 
