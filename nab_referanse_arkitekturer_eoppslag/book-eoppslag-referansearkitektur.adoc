@@ -46,6 +46,7 @@ I de detaljerte beskrivelsene i kapitlene under er kapabilitetene delt i to grup
 
 image:../nab_referanse_arkitekturer_eoppslag/media/Deling på forespørsel.png[alt="Bilde mangler", width=750,link=https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/e7e6c527-26f4-461c-b4dd-651fcbe85c8d/views/4b722aae-1323-46b0-bcac-e730d418b190.html]
 
+
 [cols ="1,1,3", options="header"]
 .Elementer i figur for deling av data på forespørsel
 |===
