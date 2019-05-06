@@ -207,9 +207,9 @@ image:../nab_referanse_arkitekturer_eoppslag/media/registrere API.png[alt="Bilde
 Få tilgang til API er det en konsument av data må gjøre for å få tilgang til data gjennom et API. Det omfatter å få kjennskap til APIet, inngå avtale om bruk av data, og registrere den tekniske komponenten som skal utføre tjenestekallet. Dersom det er tilgang til et åpent API er det kun relevante prossessteg som utføres.
 
 ////
-erik, ny tekst (men lurer litt på siste setning:
+erik, forslag til ny tekst :
 
-_Få tilgang til API_ er det en konsument av data må gjøre for å få tilgang til data gjennom et API. Det omfatter å få kjennskap til aktuelt API, inngå avtale om bruk av data, samt å registrere den tekniske komponenten som skal utføre tjenestekallet. Dersom det dreier seg om tilgang til et _åpent tilgjengelig_ API, behøves ikke de viste prossesstegene for å inngå avtale og registrere klient med tildelt tilgang???????????????????????
+_Få tilgang til API_ er det en konsument av data må gjøre for å få tilgang til data gjennom et API. Det omfatter å få kjennskap til aktuelt API, inngå avtale om bruk av data, samt å registrere den tekniske komponenten som skal utføre tjenestekallet. Dersom det dreier seg om tilgang til et _åpent tilgjengelig_ API, kan enkelte delaktiviteter i prosessene hoppes over.
 ////
 
 
@@ -618,6 +618,9 @@ erik, annet som jeg kan gjøre:
 2. Fikse symboler og størrelsen på bokser
 3. Fikse navnvs. label
 4. Publisere Archi-html 
+
+småtteri  huskelap:
+5. Rett opp fra default height 67 tli 70 i https://doc.difi.no/nasjonal-arkitektur/plattform_praktiske-tips/#_installer_og_konfigurer_archi 
 
 
 
