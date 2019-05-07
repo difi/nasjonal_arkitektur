@@ -1,0 +1,84 @@
+:lang: no
+:doctitle: Deling av data på forespørsel
+:keywords: eOppslag
+//:toclevels: 3
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+
+
+.Figur: Kapabiliteter innen området Deling av data på forespørsel
+image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media/kapabiliteter-datautveksling-forespørsel.png[alt="Bilde mangler", width=750]
+
+Deling av data initiert av databruker. Dette kan være å spørre om data gjennom en tjeneste/API eller å lese åpne publiserte data. Ved å lese publiserte data menes for eksempel åpne data på data.norge.no eller datasett som legges fritt tilgjengelig på nettet. Et eksempel på det siste er valutakurser fra Norges bank.
+
+Data gjennom en tjeneste/API kan gi mer avanserte tilganger for spørring i datasett med ulike metoder og tilgangsnivåer. Dette vil være måten å dele data nært opp til sanntid for bruk i saksbehandlingsprosesser og liknende når tilgangskal gis etter hvilke rettigheter den enkelte bruker har til dataene. Et eksempel på dette er oppslag i folkeregisteret hvor ulike brukere kan ha ulike tilganger etter hva de har av hjemler og behov.
+
+Videre nedbryting av kapabiliteterer innen dette området:
+
+
+image:../nab_referanse_arkitekturer_eoppslag/media/Deling på forespørsel.png[alt="Bilde mangler", width=750,link=https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/e7e6c527-26f4-461c-b4dd-651fcbe85c8d/views/4b722aae-1323-46b0-bcac-e730d418b190.html]
+
+[cols ="1,1,3", options="header"]
+.Elementer i figur for deling av data på forespørsel
+|===
+|Element
+|Elementtype
+|Beskrivelse
+
+|Tilbyder av data
+|Rolle
+Part som har informasjon å dele.
+
+|Konsument (databruker)
+|Rolle
+|Part som bruker informasjon fra en annen part.
+
+|Tilgjengeliggjøre data
+|Kapabilitet
+|Evnen til å gjøre data tilgjengelig for aktører utenfor egen virksomhet.
+
+// erik: endret navn til "tilgjengeliggjøre data"
+// erik: må det være utenfor egen virksomhet? har vi sagt eksplisitt at dette gjelder for denne referansearkitekturen? Skal vi åpne for at det kan være innenfor samme virksomhet, men si noe mer ekplisitt om behovet for avtaler og infosikkerhet? 
+
+|Tilgjengeliggjøre API
+|Kapabilitet
+ifndef::erik2[]
+|Del av "tilgjengeliggjøre data". Evnen til å registrere eget API i fellestjenester så det blir tilgjengelig for andre aktører.
+endif::erik2[]
+ifdef::erik2[]
+|Publisere informasjon om API i kataloger eller søkeløsninger, slik at det blir enkelt å finne fram til for aktuelle konsumenter. Videre inngå bruksavtaler og sette opp tilg
+endif::erik2[]
+
+// erik: "registrere eget API fellestjenester"??
+// erik: hvorfor være eksplisitt om realiseringen av kapabiliteten her?
+
+
+
+
+
+|Avgi forespurte data
+|Kapabilitet
+|Del av "tilgjengeliggjøreing av data". Evne til å avgi data på forespørsel gjennom et egnet API. Kan omfatte tilgangsstyring.
+
+//erik: Om det kun dreier seg om å avgi data gjennom API, bør vel ordet "API" være med i navnet?
+
+|Innhenting av data
+|Kapabilitet
+|Evnen til å hente tilbudte data fra annen aktør.
+
+|Få tilgang til API
+|Kapabilitet
+|Evnen til å få tilgang til tilbudte data fra annen aktør. 
+
+//erik: "evnen til å få tilgang" høres rart ut, bare...
+
+|Delegering av rettigheter til databehandler
+|Kapabilitet
+|Evnen til å delegere rettigheter til databehandler som utfører oppgaver på vegne av behandlingsansvarlig
+
+
+|Slå opp data gjennom et API
+|Kapabilitet
+|Evnen til å slå opp og hente data gjennom et API.
+
+|===

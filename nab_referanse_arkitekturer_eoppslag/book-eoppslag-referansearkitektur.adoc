@@ -22,6 +22,14 @@ Dette gjelder for både sikrede API-er hvor tilgangsstyring løses ved bruk av b
 
 NOTE: Mer informasjon om kapabilitetskart og nedbrytingen av overordnede temaområder og kapabiliteter finnes under link:../nab_arkitekturlandskap[Nasjonalt arkitekturlandskap]. Her finnes _Deling av data på forespørsel_ som et eget område under området _Datautveksling_. 
 
+
+== Om _Deling av data på forespørsel_
+Temaområdet link:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart/[_Deling av data på forespørsel_] finnes separat beskrevet i strukturen under kapabiliteteskart.
+
+:leveloffset: +4
+include::../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart/deling-av-data-på-forspørsel.adoc[]
+:leveloffse!t:
+
 == Struktur på beskrivelsen
  
 Det gis først en overordnet beskrivelse av kapabilitetene som inngår i eOppslag. Disse kapabilitetene beskrives videre i egne modeller som viser realiseringen i verdikjeder og prosesser. Det vises også til forretningstjenestene og noe av den sentrale informasjonen som benyttes i prosessene.
@@ -90,7 +98,7 @@ endif::erik2[]
 |Kapabilitet
 |Del av "tilgjengeliggjøreing av data". Evne til å avgi data på forespørsel gjennom et egnet API. Kan omfatte tilgangsstyring.
 
-//erik: Om det kun dreier seg om å avgi data gjennom API, bør ordet "API" være med i navnet?
+//erik: Om det kun dreier seg om å avgi data gjennom API, bør vel ordet "API" være med i navnet?
 
 |Innhenting av data
 |Kapabilitet
