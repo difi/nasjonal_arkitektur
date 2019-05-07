@@ -13,7 +13,6 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 eOppslag er en referansearkitektur som adresserer en delmengde av kapabilitesområdet link:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart/[_Deling av data på forespørsel_], nærmere bestemt gjennom synkront API-kall. Referansearkitekturen dekker både klargjøring og operativ datautveksling mellom tilbyder og konsument.
 
-
 //:leveloffset: +4
 //include::../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart/deling-av-data-på-forspørsel.adoc[]
 //:leveloffse!t:
@@ -21,40 +20,14 @@ eOppslag er en referansearkitektur som adresserer en delmengde av kapabilitesomr
 
 //erik: forsøk å lenke direkte til riktig sted:  <../nab_arkitekturlandskap/book-arkitekturlandskap.adoc#Kapabilitetskart,kapabilitetskart>>. Henrik: gjør dette i omskriving av de tre første kapitlene
 
-Dette gjelder for både sikrede API-er hvor tilgangsstyring løses ved bruk av blant annet fellestjenester, og API-er som tilbyr åpent tilgjengelige data uten tilgangsbegrensninger. En stor del av beskrivelsene tar for seg oppsett og bruk av tjenester tilknyttet tilgangsstyring, men dette er ikke relevant for API-er som tilbyr åpent tilgjengelige data.
-
-eOppslag som referansearkitektur adresserer generelt hvordan man kan dele data på forespørsel uavhengig av hva slags informasjon det gjelder, om det er strukturerte eller ustrukturerte data, og hva konsumenten skal bruke det til. En tilbyder av data og en konsument av data kan også være innenfor samme virksomhet selv om beskrivelsene som oftest er skrevet med utgangspunkt i at det er forespørsel om data på tvers av virksomheter.
-
-// erik: Vurder å ta inn deler av teksten fra 4.1.2 (om sannstids oppslag... eks. løsning. "Se også akjshdkjsahd omkapabilitetesområdet ,..som eOppslag adressrer ...
-
-NOTE: Mer informasjon om kapabilitetskart og nedbrytingen av overordnede temaområder og kapabiliteter finnes under link:../nab_arkitekturlandskap[Nasjonalt arkitekturlandskap]. Her finnes _Deling av data på forespørsel_ som et eget område under området _Datautveksling_. 
-
-
-== Struktur på beskrivelsen
- 
-Det gis først en overordnet beskrivelse av kapabilitetene som inngår i eOppslag. Disse kapabilitetene beskrives videre i egne modeller som viser realiseringen i verdikjeder og prosesser. Det vises også til forretningstjenestene og noe av den sentrale informasjonen som benyttes i prosessene.
-
-Modellene i beskrivelsene viser relasjonene mellom de ulike elementene, og elementene er forklart i tabellene under hver modell. Elementer som benyttes flere ganger, f.eks. rollen som tilbyder, forklares kun tilknyttet modellen på høyest nivå.
-
-Det skilles mellom generiske arkitekturmønstre og  løsningsmønstre  der 
-
-Modellene beskrives først som generiske arkitekturmønstre uten kobling til spesifikke løsninger. Det gis deretter en mer løsningsnære beskrivelser som inkluderer god praksis for bruk av _nasjonale fellesløsninger_.
-
-NOTE: Det vil også publiseres klikkbare Archimate-modeller under https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/. De aktuele modellene skal kunne nås gjennom hyperlenking fra figurene her.
-
-== Oversikt eOppslag
-
-////
-#Erik-kommentar: Dette kapitlet dreier seg om kapabilitetskartet, ikke eOppslag som sådan. Figur og tekst kan eventuelt inkluderes her, men "master" bør ligge i sammenheng med kapabilitetskartene. Dessuten kan det være et poeng å legge til en figur under kapitlet om _identifiserte_referansearkitekturer_ for å angi en mer eksplisitt kopling fra området _Deling av data på forespørsel_ til eOppslag referansearkitektur. Jeg ville forøvrig her flyttet "de hele" opp til kapitlet over "om eOppslag". Men NB: Kapabiliteten som heter "Slå opp data gjennom synkront API" bør omdøpes til "Slå opp data gjennom API".#
-////
-
-Modellen under viser de kapabilitetene en tilbyder og en konsument må ha for å dele data gjennom tilgangsstyrte API-er.
+Dette gjelder for både sikrede API-er hvor tilgangsstyring løses ved bruk av blant annet fellestjenester, og API-er som tilbyr åpent tilgjengelige data uten tilgangsbegrensninger. 
 
 Tilbyder må kunne tilgjengeliggjøre data og dette er delt i to kapabiliteter hvor den ene, "Registrering av API" går ut på hvordan man registerer og setter opp tilganger. Den andre kapabiliteten "Avgi forespurte data" er det man gjøre når en konsument gjøre et kall mot det respektive API-et.
 
 Tilsvarende er det tre detaljerte kapabiliteter tilknyttet konsument og det å innhente data. "Få tilgang til API" består av prosesser for oppsett av tilgang, "Delegering av rettigheter til databehandler" må gjøres dersom konsument benytter seg av en databehandler og "Slå opp data gjennom synkront API" er det konsumenten må gjøre hver gang det gjøres et oppslag.
 
-I de detaljerte beskrivelsene i kapitlene under er kapabilitetene delt i to grupper hvor den første er de kapabilitetene som inngår i å klargjøre for deling av data på forespørsel. Det er prosessene som må til for å tilgjengeliggjøre API-er, klienter og å sette opp tilganger både fra tilbyder og konsument sin side. Den andre grupperer de prosessene som inngår i den faktiske delingen av data på forespørsel. 
+Modellen under viser de kapabilitetene en tilbyder og en konsument må ha for å dele data gjennom tilgangsstyrte API-er.
+
 
 image:../nab_referanse_arkitekturer_eoppslag/media/Deling på forespørsel.png[alt="Bilde mangler", width=750,link=https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/e7e6c527-26f4-461c-b4dd-651fcbe85c8d/views/4b722aae-1323-46b0-bcac-e730d418b190.html]
 
@@ -102,6 +75,31 @@ image:../nab_referanse_arkitekturer_eoppslag/media/Deling på forespørsel.png[a
 |Evnen til å slå opp og hente data gjennom et API.
 
 |===
+
+eOppslag som referansearkitektur adresserer generelt hvordan man kan dele data på forespørsel uavhengig av hva slags informasjon det gjelder, om det er strukturerte eller ustrukturerte data, og hva konsumenten skal bruke det til. En tilbyder av data og en konsument av data kan også være innenfor samme virksomhet selv om beskrivelsene som oftest er skrevet med utgangspunkt i at det er forespørsel om data på tvers av virksomheter.
+
+// erik: Vurder å ta inn deler av teksten fra 4.1.2 (om sannstids oppslag... eks. løsning. "Se også akjshdkjsahd omkapabilitetesområdet ,..som eOppslag adressrer ...
+
+NOTE: Mer informasjon om kapabilitetskart og nedbrytingen av overordnede temaområder og kapabiliteter finnes under link:../nab_arkitekturlandskap[Nasjonalt arkitekturlandskap]. Her finnes _Deling av data på forespørsel_ som et eget område under området _Datautveksling_. 
+
+
+== Struktur på beskrivelsen
+En stor del av beskrivelsene tar for seg oppsett og bruk av tjenester tilknyttet tilgangsstyring, men dette er ikke relevant for API-er som tilbyr åpent tilgjengelige data.
+
+Det gis først en overordnet beskrivelse av kapabilitetene som inngår i eOppslag. Disse kapabilitetene beskrives videre i egne modeller som viser realiseringen i verdikjeder og prosesser. Det vises også til forretningstjenestene og noe av den sentrale informasjonen som benyttes i prosessene.
+
+Modellene i beskrivelsene viser relasjonene mellom de ulike elementene, og elementene er forklart i tabellene under hver modell. Elementer som benyttes flere ganger, f.eks. rollen som tilbyder, forklares kun tilknyttet modellen på høyest nivå.
+
+Det skilles mellom generiske arkitekturmønstre og  løsningsmønstre. Først beskrives generiske arkitekturmønstre uten kobling til spesifikke løsninger. Det gis deretter en mer løsningsnære beskrivelser som inkluderer god praksis for bruk av _nasjonale fellesløsninger_.
+
+I de detaljerte beskrivelsene er kapabilitetene delt i to grupper hvor den første er de kapabilitetene som inngår i å klargjøre for deling av data på forespørsel. Det er prosessene som må til for å tilgjengeliggjøre API-er, klienter og å sette opp tilganger både fra tilbyder og konsument sin side. Den andre grupperer de prosessene som inngår i den faktiske delingen av data på forespørsel. 
+
+
+NOTE: Det vil også publiseres klikkbare Archimate-modeller under https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/. De aktuele modellene skal kunne nås gjennom hyperlenking fra figurene her.
+
+////
+#Erik-kommentar: Dette kapitlet dreier seg om kapabilitetskartet, ikke eOppslag som sådan. Figur og tekst kan eventuelt inkluderes her, men "master" bør ligge i sammenheng med kapabilitetskartene. Dessuten kan det være et poeng å legge til en figur under kapitlet om _identifiserte_referansearkitekturer_ for å angi en mer eksplisitt kopling fra området _Deling av data på forespørsel_ til eOppslag referansearkitektur. Jeg ville forøvrig her flyttet "de hele" opp til kapitlet over "om eOppslag".#
+////
 
 
 //== Detaljerte beskrivelser 
