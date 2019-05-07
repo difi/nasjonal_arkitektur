@@ -8,6 +8,7 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 == Om eOppslag
 
+
 //Henrik: Legge inn (gjenta) beskrivelsen av kapabilitetesområdet "Deling av data på forespørsel" her, eller i dette avsnittet.
 
 eOppslag er en referansearkitektur som adresserer en delmengde av kapabilitesområdet _deling av data på forespørsel_, nærmere bestemt gjennom synkront API-kall. Referansearkitekturen dekker både klargjøring og operativ datautveksling mellom tilbyder og konsument.
