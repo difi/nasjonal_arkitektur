@@ -85,7 +85,7 @@ image:../nab_referanse_arkitekturer_eoppslag/media/Deling på forespørsel.png[a
 |Kapabilitet
 |Evne til å avgi data på forespørsel gjennom et egnet API. Kan omfatte tilgangsstyring.
 
-|Innhenting av data
+|Innhente data
 |Kapabilitet
 |Evnen til å hente tilbudte data fra annen aktør.
 
