@@ -8,19 +8,19 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 == Om eOppslag
 
+
 //Henrik: Legge inn (gjenta) beskrivelsen av kapabilitetesområdet "Deling av data på forespørsel" her, eller i dette avsnittet.
 
 eOppslag er en referansearkitektur som adresserer en delmengde av kapabilitesområdet _deling av data på forespørsel_, nærmere bestemt gjennom synkront API-kall. Referansearkitekturen dekker både klargjøring og operativ datautveksling mellom tilbyder og konsument.
-
-NOTE: Mer informasjon om kapabilitetskart og nedbrytingen av overordnede temaområder og kapabiliteter finnes under link:../nab_arkitekturlandskap[Nasjonalt arkitekturlandskap]. Her finnes _Deling av data på forespørsel_ som et eget område under området _Datautveksling_. 
 
 //erik: forsøk å lenke direkte til riktig sted:  <../nab_arkitekturlandskap/book-arkitekturlandskap.adoc#Kapabilitetskart,kapabilitetskart>>.
 
 Dette gjelder for både sikrede API-er hvor tilgangsstyring løses ved bruk av blant annet fellestjenester, og API-er som tilbyr åpent tilgjengelige data uten tilgangsbegrensninger. En stor del av beskrivelsene tar for seg oppsett og bruk av tjenester tilknyttet tilgangsstyring, men dette er ikke relevant for API-er som tilbyr åpent tilgjengelige data.
 
-eOppslag som referansearkitektur adresserer generelt hvordan man kan dele data på forespørsel uavhengig av hva slags informasjon det gjelder, om det er strukturerte eller ustrukturerte data, og hva konsumenten skal bruke det til. En tilbyder av data og en konsument av data kan også være innenfor samme virksomhet selv om beskrivelsene i som oftest er skrevet med utgangspunkt i at det er forespørsel om data på tvers av virksomheter vil tilnærmingen også være aktuell å benytte for eksempel internt i egen virksomhet.
 
+// erik: Vurder å ta inn deler av teksten fra 4.1.2 (om sannstids oppslag... eks. løsning. "Se også akjshdkjsahd omkapabilitetesområdet ,..som eOppslag adressrer ...
 
+NOTE: Mer informasjon om kapabilitetskart og nedbrytingen av overordnede temaområder og kapabiliteter finnes under link:../nab_arkitekturlandskap[Nasjonalt arkitekturlandskap]. Her finnes _Deling av data på forespørsel_ som et eget område under området _Datautveksling_. 
 
 == Struktur på beskrivelsen
  
@@ -32,7 +32,7 @@ Det skilles mellom generiske arkitekturmønstre og  løsningsmønstre  der
 
 Modellene beskrives først som generiske arkitekturmønstre uten kobling til spesifikke løsninger. Det gis deretter en mer løsningsnære beskrivelser som inkluderer god praksis for bruk av _nasjonale fellesløsninger_.
 
-NOTE: #Det vil også publiseres# klikkbare Archimate-modeller under https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/. De aktuele modellene skal kunne nås gjennom hyperlenking fra figurene her.
+NOTE: Det vil også publiseres klikkbare Archimate-modeller under https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/. De aktuele modellene skal kunne nås gjennom hyperlenking fra figurene her.
 
 == Oversikt eOppslag
 
@@ -178,7 +178,7 @@ image:../nab_referanse_arkitekturer_eoppslag/media/registrere API.png[alt="Bilde
 // erik:dette forutsetter vel ingenting om konsumenten, dvs. droppp siste setning? Henrik: endret tekst, skulle være tilbyder.
 
 
-|Inngå avtale om tilgang til data
+|Inngå avtale om tilgang til data med konsument
 |Prosess
 |Prosess for å inngå avtale om tilgang og bruk av data.
 
@@ -240,9 +240,9 @@ image:../nab_referanse_arkitekturer_eoppslag/media/få tilgang til API.png[alt="
 |Forretningsprosess
 |Prosessen med å finne eller få kjennskap til tilgjengelige API-er. Benytter tjeneste for å søke i [red yellow-background]*fellesløsninger*.
 
-|Inngå avtale om tilgang til data
+|Inngå avtale om tilgang til data  med tilbyder
 |Forretningsprosess
-|Konsumenten sin porsess med å inngå eventuell avtale med tilbyder om tilgang til data.
+|Konsumenten sin prosess med å inngå eventuell avtale med tilbyder om tilgang til data.
 
 
 |Registrer klient med tildelt tilgang
@@ -342,6 +342,8 @@ image:../nab_referanse_arkitekturer_eoppslag/media/slå opp data.png[alt="Bilde 
 |Forretningstjeneste
 |Tjeneste som gir oversikt over representasjonsforhold. Benyttes av tokentjeneste dersom en leverandør skal få tilgang på vegne av en konsument
 |===
+
+//erik: "Tokentjeneste" renavnes til
 
 ==== Avgi forespurte data
 Avgi forespurte data er det tilbyder av data må gjøre for å svare på en forespørsel. Prosessen kontrollere tilgang gjøres kun dersom det er enakk om å avgi data gjennom et sikret API.
@@ -630,22 +632,26 @@ erik, andre notater:
 
 Bør vi ikke ha noe om logging?
 
-Bør vi ikke peker på Altinn autorisasjonogsåuten at det dreier seg om delegering?
+Bør vi ikke peker på en fellesløsning (burde vært Altinn autorisasjon) også uten at det dreier seg om delegering? Kreveren oppdatering av kapabilitetskartet med en kapabilitete for autirsasjon
 
 
 
-Begrepskapittel?
+Begrepskapittel? Erik!!!!!
 
 + VI BØR HA SEPARAT BESKRIVELSE AV hvordan  referansearkitekturene inngår i samhandlingsprosesser  
 
 
 1. Få på plass Eriks "gamle" figurer av overordnede beskrivelser i riktig Archi-bibliotek (påbegynt)
-2. Fikse symboler og størrelsen på bokser og  "transiente farger"(påbegynt)
-3. Fikse navn vs. label med linebreak osv.
-4. Publisere Archi-html  (gjort)
-5. Legge til lenker fra asciidoc-figurene til de publiserte archi-figurene
 
-6.Fixe opp i diverse layout-grums i modellene
+
+2. Fikse symboler og størrelsen på bokser og  "transiente farger"(påbegynt). OK
+
+3. Fikse navn vs. label med linebreak osv.OK
+
+4. Publisere Archi-html  (gjort) OK
+5. Legge til lenker fra asciidoc-figurene til de publiserte archi-figurene OK
+
+6.Fixe opp i diverse layout-grums i modellene ??????
 
 7. Introduser egne service realization viewpoints per business service der detaljer om input/output og mapping til løsninger vises!!
 
