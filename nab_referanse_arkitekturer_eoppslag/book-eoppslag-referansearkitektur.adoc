@@ -370,6 +370,9 @@ image:../nab_referanse_arkitekturer_eoppslag/media/avgi data.png[alt="Bilde mang
 |Motta forespørsel om oppslag
 |Forretningsprosess
 |Prosess med å motta forespørsler fra API-konsument om å utlevere data.
+//erik: "Prosess med å motta forespørsler"er vel mer en event enn en prosess? Uansett er ordet prosess unødvendig he, Si heller bare Motta forespørsel...
+//erik: "utlevere data" endres til avgi data? 
+
 
 |Kontroller tilgang
 |Forretningsprosess
@@ -382,7 +385,7 @@ image:../nab_referanse_arkitekturer_eoppslag/media/avgi data.png[alt="Bilde mang
 |Validering av sikkerhetsbillett
 |Forretningstjeneste
 |Tjeneste for å validere gyldigheten av sikkerhetsbilletten. Med en gyldig sikkerhetsbillett skal det ikke være nødvendig å validere grunnlaget eller innholdet i sikkerhetsbilletten siden det er et tillitsforhold mellom partene.
-
+//erik: Dette ble litt kryptisk: "siden det er et tillitsforhold mellom partene"
 |===
 
 
@@ -407,13 +410,14 @@ image:../nab_referanse_arkitekturer_eoppslag/media/forklaring_app_lag.png[alt="B
 
 //Henrik: få inn figur som viser dette?
 
-=== Klargjøring for _deling avdata på forespørsel_
+=== Klargjøring for _deling av data på forespørsel_
 
 
 ==== Tilgjengeliggjøre API
 
 For å tilby data gjennom et API sikret med fellestjenester må tilbyder inngå avtale for bruk av Maskinporten og API-katalogen (Felles datakatalog). De respektive API-ene og hvem som skal ha hvilke rettighetene til disse må så registreres i løsningene.
 
+// erik:benutt "Felles API-katalog" somkomponentnavn
 
 image:../nab_referanse_arkitekturer_eoppslag/media/registerer_api_app_lag.png[alt="Bilde mangler", width=750, link=https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/e7e6c527-26f4-461c-b4dd-651fcbe85c8d/views/80c1baa6-55d8-4434-ab14-55e2d0afa827.html]
 
@@ -446,6 +450,7 @@ image:../nab_referanse_arkitekturer_eoppslag/media/registerer_api_app_lag.png[al
 //erik: Endre navn til "Registrere API i API-katalogen", og ta så heller eventuelt med info om at det erOpen API Specification som benyttes.
 |Applikasjonstjeneste
 |Tjeneste i API-katalogen for å registrere API. Bruk av tjenesten forutsetter at man har fått tildelt rettigheter til å gjøre dette på vegne av tilbyders virksomhet.
+//erik: Hvem er "man" her? Det kan vel være tilbyder selv?
 
 |Selvbetjeningstjeneste for administrasjon og registering av API-er i Maskinporten
 |Applikasjonstjeneste
@@ -547,6 +552,8 @@ image:../nab_referanse_arkitekturer_eoppslag/media/slå_opp_app_lag.png[alt="Bil
 |Applikasjonstjeneste
 |Tjeneste som utsteder et OAUTH2-token basert på autentisering med virksomhetssertifikat og tidligere tildelte rettigheter.
 
+erik:"tidligere tildelte rettigheter"?
+
 |Oppslag representasjonsforhold
 |Applikasjonstjeneste
 |Tjeneste som benyttes av tokentjenesten for å kontrollere om det foreligger et delegert representasjonsforhold fra konsument til leverendør i autorisasjonstjenesten til Altinn.
@@ -619,9 +626,15 @@ https://altinnett.brreg.no/no/Tjenester/Sikkerhet/Autorisasjon/
 
 
 //// 
-erik, annet som jeg kan gjøre: 
+erik, andre notater: 
 
-+ Begrepskapittel?
+Bør vi ikke ha noe om logging?
+
+Bør vi ikke peker på Altinn autorisasjonogsåuten at det dreier seg om delegering?
+
+
+
+Begrepskapittel?
 
 + VI BØR HA SEPARAT BESKRIVELSE AV hvordan  referansearkitekturene inngår i samhandlingsprosesser  
 
