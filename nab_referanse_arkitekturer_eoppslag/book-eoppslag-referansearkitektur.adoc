@@ -17,6 +17,7 @@ eOppslag er en referansearkitektur som adresserer en delmengde av kapabilitesomr
 
 Dette gjelder for både sikrede API-er hvor tilgangsstyring løses ved bruk av blant annet fellestjenester, og API-er som tilbyr åpent tilgjengelige data uten tilgangsbegrensninger. En stor del av beskrivelsene tar for seg oppsett og bruk av tjenester tilknyttet tilgangsstyring, men dette er ikke relevant for API-er som tilbyr åpent tilgjengelige data.
 
+eOppslag som referansearkitektur adresserer generelt hvordan man kan dele data på forespørsel uavhengig av hva slags informasjon det gjelder, om det er strukturerte eller ustrukturerte data, og hva konsumenten skal bruke det til. En tilbyder av data og en konsument av data kan også være innenfor samme virksomhet selv om beskrivelsene som oftest er skrevet med utgangspunkt i at det er forespørsel om data på tvers av virksomheter.
 
 // erik: Vurder å ta inn deler av teksten fra 4.1.2 (om sannstids oppslag... eks. løsning. "Se også akjshdkjsahd omkapabilitetesområdet ,..som eOppslag adressrer ...
 
