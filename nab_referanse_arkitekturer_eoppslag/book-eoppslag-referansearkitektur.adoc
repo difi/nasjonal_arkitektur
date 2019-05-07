@@ -440,9 +440,12 @@ image:../nab_referanse_arkitekturer_eoppslag/media/registerer_api_app_lag.png[al
 |Dataobjekt
 |Beskrivelse av de tilgangene, dvs. hvilke scopes en gitt konsument skal ha til et API.
 
+//Erik: Jeg savner noe om Altinn tilgangsstyring!??????????????????? 
+
 |Registrere Open API Specification
+//erik: Endre navn til "Registrere API i API-katalogen", og ta så heller eventuelt med info om at det erOpen API Specification som benyttes.
 |Applikasjonstjeneste
-|Tjeneste i API-katalogen for å registrere API. Bruk av tjenesten forutsetter at man har de fått tildelt rettigheter til å gjøre dette på vegne av tilbyders virksomhet.
+|Tjeneste i API-katalogen for å registrere API. Bruk av tjenesten forutsetter at man har fått tildelt rettigheter til å gjøre dette på vegne av tilbyders virksomhet.
 
 |Selvbetjeningstjeneste for administrasjon og registering av API-er i Maskinporten
 |Applikasjonstjeneste
