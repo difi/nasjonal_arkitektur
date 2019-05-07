@@ -67,7 +67,7 @@ Part som har informasjon å dele.
 |Kapabilitet
 |Evnen til å gjøre data tilgjengelig for aktører utenfor egen virksomhet.
 
-//erik: endret navn til "tilgjengeliggjøre data"
+// erik: endret navn til "tilgjengeliggjøre data"
 // erik: må det være utenfor egen virksomhet? har vi sagt eksplisitt at dette gjelder for denne referansearkitekturen? Skal vi åpne for at det kan være innenfor samme virksomhet, men si noe mer ekplisitt om behovet for avtaler og infosikkerhet? 
 
 |Tilgjengeliggjøre API
