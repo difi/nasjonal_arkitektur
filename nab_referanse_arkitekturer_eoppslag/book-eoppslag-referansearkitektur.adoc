@@ -30,11 +30,13 @@ Modellene i beskrivelsene viser relasjonene mellom de ulike elementene, og eleme
 
 Det skilles mellom generiske arkitekturmønstre og  løsningsmønstre  der 
 
-Modellene beskrives først som generiske arkitekturmønstre uten kobling til spesifikke løsninger. Det gis deretter en mer løsningsnære beskrivelser som inkluderer god praksis for bruk av fellesløsninger.
+Modellene beskrives først som generiske arkitekturmønstre uten kobling til spesifikke løsninger. Det gis deretter en mer løsningsnære beskrivelser som inkluderer god praksis for bruk av _nasjonale fellesløsninger_.
 
 NOTE: #Det vil også publiseres# klikkbare Archimate-modeller under https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/. De aktuele modellene skal kunne nås gjennom hyperlenking fra figurene her.
 
 == Oversikt eOppslag
+
+#Erik-kommentar: Dette kapitlet dreier seg om kapabilitetskartet, ikke eOppslag som sådan. Figur og tekst kan eventuelt inkluderes her, men "master" bør ligge i sammenheng med kapabilitetskartene. Dessuten kan det være et poeng å legge til en figur under kapitlet om _identifiserte_referansearkitekturer_ for å angi en mer eksplisitt kopling fra området _Deling av data på forespørsel_ til eOppslag referansearkitektur. Jeg ville forøvrig her flyttet "de hele" opp til kapitlet over "om eOppslag". Men NB: Kapabiliteten som heter "Slå opp data gjennom synkront API" bør omdøpes til "Slå opp data gjennom API".#
 
 Modellen under viser de kapabilitetene en tilbyder og en konsument må ha for å dele data gjennom tilgangsstyrte API-er.
 
@@ -45,7 +47,6 @@ Tilsvarende er det tre detaljerte kapabiliteter tilknyttet konsument og det å i
 I de detaljerte beskrivelsene i kapitlene under er kapabilitetene delt i to grupper hvor den første er de kapabilitetene som inngår i å klargjøre for deling av data på forespørsel. Det er prosessene som må til for å tilgjengeliggjøre API-er, klienter og å sette opp tilganger både fra tilbyder og konsument sin side. Den andre grupperer de prosessene som inngår i den faktiske delingen av data på forespørsel. 
 
 image:../nab_referanse_arkitekturer_eoppslag/media/Deling på forespørsel.png[alt="Bilde mangler", width=750,link=https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/e7e6c527-26f4-461c-b4dd-651fcbe85c8d/views/4b722aae-1323-46b0-bcac-e730d418b190.html]
-
 
 [cols ="1,1,3", options="header"]
 .Elementer i figur for deling av data på forespørsel
@@ -130,7 +131,7 @@ Modellene viser hvilke roller som innehar den respektive kapabiliten og er invol
 De grunnleggende elementene i modellene foklares i denne figuren:
 
 
-image:../nab_referanse_arkitekturer_eoppslag/media/Forklaring prosess.png[alt="Bilde mangler", width=350]
+image:../nab_referanse_arkitekturer_eoppslag/media/Forklaring prosess.png[alt="Bilde mangler", width=350, link=https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/e7e6c527-26f4-461c-b4dd-651fcbe85c8d/views/65254811-97bc-4c11-b5c2-2fda4c4dc3fe.html]
 
 // erik: her kunne jeg tenkt meg å skrive noe mer... kan være en/mange osv...
 
@@ -138,9 +139,12 @@ image:../nab_referanse_arkitekturer_eoppslag/media/Forklaring prosess.png[alt="B
 
 ==== Tilgjengeliggjøre API
 
-Tilgjengeliggjøring av API gjøres av tilbyder av data og er det tilbyder må gjennomføre for å gjøre et API synlig og tilgjengelig gjennom fellesløsninger. Registrering av konsumenters rettigheter og tilganger inngår også som et prosessteg. Dersom det er registrering av et åpent API, er det kun relevante prossessteg som utføres.
+Tilgjengeliggjøring av API gjøres av tilbyder av data og er det tilbyder må gjennomføre for å gjøre et API synlig og tilgjengelig gjennom [red yellow-background]*fellesløsninger*. Registrering av konsumenters rettigheter og tilganger inngår også som et prosessteg. 
+//erik: Nei, dette er ikke et prosessteg i samme prosess som de andre prosessboksene. Her vises snarere en verdikjede. Kan/bør vi fikse det nå? F.eks.gjennom å gruppere deto siste boksene og angi at det gjøres per konsument?
+Dersom det er registrering av et åpent API, er det kun relevante prossessteg som utføres.
 
-image:../nab_referanse_arkitekturer_eoppslag/media/registrere API.png[alt="Bilde mangler", width=750]
+image:../nab_referanse_arkitekturer_eoppslag/media/registrere API.png[alt="Bilde mangler", width=750, link=https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/e7e6c527-26f4-461c-b4dd-651fcbe85c8d/views/0134474e-0b53-4b7c-b4e2-cf2f2e957616.html]
+
 
 [cols ="1,1,3", options="header"]
 .Elementer i figur for registrering av API
@@ -170,9 +174,9 @@ image:../nab_referanse_arkitekturer_eoppslag/media/registrere API.png[alt="Bilde
 
 |Registrere API
 |Prosess
-|Prosess for tilbyder å registrere API i nasjonale fellesløsninger så det blir lettere tilgjengelig for konsumenter. Forutsetter at tilbyder har inngått avtale eller godtatt bruksvilkår for bruk av de nasjonale fellesløsningene.
+|Prosess for tilbyder å registrere API i nasjonale [red yellow-background]*fellesløsninger* så det blir lettere tilgjengelig for konsumenter. Forutsetter at tilbyder har inngått avtale eller godtatt bruksvilkår for bruk av de nasjonale fellesløsningene.
 
-// erik: registerere APIi nasjonale fellesløsninger? Henrik: finne et annet begrep
+// erik: registerere API i nasjonale fellesløsninger? Henrik: finne et annet begrep
 // erik:dette forutsetter vel ingenting om konsumenten, dvs. droppp siste setning? Henrik: endret tekst, skulle være tilbyder.
 
 
@@ -213,7 +217,7 @@ _Få tilgang til API_ er det en konsument av data må gjøre for å få tilgang 
 ////
 
 
-image:../nab_referanse_arkitekturer_eoppslag/media/få tilgang til API.png[alt="Bilde mangler", width=750]
+image:../nab_referanse_arkitekturer_eoppslag/media/få tilgang til API.png[alt="Bilde mangler", width=750,link=https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/e7e6c527-26f4-461c-b4dd-651fcbe85c8d/views/6c5a004d-da35-4fce-b38d-4b09d1167201.html]
 
 [cols ="1,1,3", options="header"]
 .Elementer i figur for å få tilgang til API
@@ -236,7 +240,7 @@ image:../nab_referanse_arkitekturer_eoppslag/media/få tilgang til API.png[alt="
 
 |Finne/få kjennskap til API
 |Forretningsprosess
-|Prosessen med å finne eller få kjennskap til tilgjengelige API-er. Benytter tjeneste for å søke i fellesløsninger.
+|Prosessen med å finne eller få kjennskap til tilgjengelige API-er. Benytter tjeneste for å søke i [red yellow-background]*fellesløsninger*.
 
 |Inngå avtale om tilgang til data
 |Forretningsprosess
@@ -263,7 +267,7 @@ Dersom det er en leverandør som har blitt delegert rettigheter som databehandle
 ==== Delegering av rettigheter til databehandler
 Delegering av rettigheter til databehandler er det en konsument må gjøre for at en leverandør kan identifisere seg med sitt eget virksomhetssertifikat og opptre på vegne av konsumenten som er den som innehar behandlingsgrunnlaget for å innhente data.
 
-image:../nab_referanse_arkitekturer_eoppslag/media/delegering av rettigheter.png[alt="Bilde mangler", width=500]
+image:../nab_referanse_arkitekturer_eoppslag/media/delegering av rettigheter.png[alt="Bilde mangler", width=500,link=https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/e7e6c527-26f4-461c-b4dd-651fcbe85c8d/views/7ad70658-c174-4da3-95e1-b0628688bcc1.html]
 
 [cols ="1,1,3", options="header"]
 .Elementer i figur for delegering av rettigheter til databehandler
@@ -303,7 +307,7 @@ image:../nab_referanse_arkitekturer_eoppslag/media/delegering av rettigheter.png
 ==== Slå opp data gjennom et API
 Slå opp data gjennom et API er det en konsument må gjøre når det utføres et tjenestekall for å innhente data gjennom et API. Dersom det er et åpent API er det kun relevante prossessteg som utføres.
 
-image:../nab_referanse_arkitekturer_eoppslag/media/slå opp data.png[alt="Bilde mangler", width=500]
+image:../nab_referanse_arkitekturer_eoppslag/media/slå opp data.png[alt="Bilde mangler", width=500, link=https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/e7e6c527-26f4-461c-b4dd-651fcbe85c8d/views/4742dd13-f1fe-4e78-80a8-80929a62efb9.html]
 
 [cols ="1,1,3", options="header"]
 .Elementer i figur for å slå opp data
@@ -345,7 +349,7 @@ image:../nab_referanse_arkitekturer_eoppslag/media/slå opp data.png[alt="Bilde 
 Avgi forespurte data er det tilbyder av data må gjøre for å svare på en forespørsel. Prosessen kontrollere tilgang gjøres kun dersom det er enakk om å avgi data gjennom et sikret API.
 
 
-image:../nab_referanse_arkitekturer_eoppslag/media/avgi data.png[alt="Bilde mangler", width=500]
+image:../nab_referanse_arkitekturer_eoppslag/media/avgi data.png[alt="Bilde mangler", width=500,link=https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/e7e6c527-26f4-461c-b4dd-651fcbe85c8d/views/c993199e-3879-4f72-967d-4339159f6641.html]
 
 
 [cols ="1,1,3", options="header"]
@@ -394,7 +398,7 @@ Det er ikke hensikten å låse referansearkitekturen til spesifikke løsninger, 
 
 === Hvordan lese modellene
 
-For enklere lesbarhet er laget med forretningstjenester utelatt fra modellene og mer løsningsnære applikasjonstjenester er benyttet direkte inn mot forretningsprosessene. Modellene viser dermed hvordan fellesløsninger i form av applikasjonskomponenter støtter de ulike forretningsprosessene gjennom applikasjonstjenester.
+For enklere lesbarhet er laget med forretningstjenester utelatt fra modellene og mer løsningsnære applikasjonstjenester er benyttet direkte inn mot forretningsprosessene. Modellene viser dermed hvordan [red yellow-background]*fellesløsninger* i form av applikasjonskomponenter støtter de ulike forretningsprosessene gjennom applikasjonstjenester.
 
 De grunnleggende elementene i modellene foklares i denne figuren:
 
@@ -467,7 +471,7 @@ https://fellesdatakatalog.brreg.no/apis
 
 
 ==== Få tilgang til API
-For å få tilgang til et API sikret ved hjelp av fellesløsninger må konsumenten inngå avtale for bruk av Maskinporten og registrere den tekniske klienten som skal benytte løsningen.
+For å få tilgang til et API sikret ved hjelp av [red yellow-background]*fellesløsninger* må konsumenten inngå avtale for bruk av Maskinporten og registrere den tekniske klienten som skal benytte løsningen.
 
 image:../nab_referanse_arkitekturer_eoppslag/media/få_tilgang_app_lag.png[alt="Bilde mangler", width=500]
 

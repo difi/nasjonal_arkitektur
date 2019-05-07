@@ -53,7 +53,10 @@ image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media/ka
 
 Deling av data initiert av databruker. Dette kan være å spørre om data gjennom en tjeneste/API eller å lese åpne publiserte data. Ved å lese publiserte data menes for eksempel åpne data på data.norge.no eller datasett som legges fritt tilgjengelig på nettet. Et eksempel på det siste er valutakurser fra Norges bank.
 
-Data gjennom en tjeneste/API kan gi mer avanserte tilganger for spørring i datasett med ulike metoder og tilgangsnivåer. Dette vil være måten å dele data nært opp til sanntid for bruk i saksbehandlingsprosesser og liknende når tilgangskal gis etter hvilke rettigheter den enkelte bruker har til dataene. Et eksempel på dette er oppslag i folkeregisteret hvor ulike brukere kan ha ulike tilganger etter hva de har av hjemler og behov. 
+Data gjennom en tjeneste/API kan gi mer avanserte tilganger for spørring i datasett med ulike metoder og tilgangsnivåer. Dette vil være måten å dele data nært opp til sanntid for bruk i saksbehandlingsprosesser og liknende når tilgangskal gis etter hvilke rettigheter den enkelte bruker har til dataene. Et eksempel på dette er oppslag i folkeregisteret hvor ulike brukere kan ha ulike tilganger etter hva de har av hjemler og behov.
+
+Videre nedbryting 
+
 
 
 ==== Hendelsesdrevet deling av data
@@ -66,3 +69,4 @@ Med hendelsesdrevet deling av data menes det deling som er initiert av en tilsta
 Et eksempel er modernisert folkeregister hvor brukere kan abonnere på endringer og således kun få vite at det har skjedd en endring på en person, og dersom dette kan være relevant for brukeren hentes detaljene om endringen som igjen kan sette i gang en handling hos bruker.
 
 //Det er foreløpig ikke startet arbeid med referansearkitektur for hendelsesdrevet deling av data.
+
