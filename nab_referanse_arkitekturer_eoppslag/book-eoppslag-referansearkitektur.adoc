@@ -19,7 +19,7 @@ eOppslag er en referansearkitektur som adresserer en delmengde av kapabilitesomr
 //:leveloffse!t:
 
 
-//erik: forsøk å lenke direkte til riktig sted:  <../nab_arkitekturlandskap/book-arkitekturlandskap.adoc#Kapabilitetskart,kapabilitetskart>>.
+//erik: forsøk å lenke direkte til riktig sted:  <../nab_arkitekturlandskap/book-arkitekturlandskap.adoc#Kapabilitetskart,kapabilitetskart>>. Henrik: gjør dette i omskriving av de tre første kapitlene
 
 Dette gjelder for både sikrede API-er hvor tilgangsstyring løses ved bruk av blant annet fellestjenester, og API-er som tilbyr åpent tilgjengelige data uten tilgangsbegrensninger. En stor del av beskrivelsene tar for seg oppsett og bruk av tjenester tilknyttet tilgangsstyring, men dette er ikke relevant for API-er som tilbyr åpent tilgjengelige data.
 
@@ -44,7 +44,9 @@ NOTE: Det vil også publiseres klikkbare Archimate-modeller under https://nasjon
 
 == Oversikt eOppslag
 
+////
 #Erik-kommentar: Dette kapitlet dreier seg om kapabilitetskartet, ikke eOppslag som sådan. Figur og tekst kan eventuelt inkluderes her, men "master" bør ligge i sammenheng med kapabilitetskartene. Dessuten kan det være et poeng å legge til en figur under kapitlet om _identifiserte_referansearkitekturer_ for å angi en mer eksplisitt kopling fra området _Deling av data på forespørsel_ til eOppslag referansearkitektur. Jeg ville forøvrig her flyttet "de hele" opp til kapitlet over "om eOppslag". Men NB: Kapabiliteten som heter "Slå opp data gjennom synkront API" bør omdøpes til "Slå opp data gjennom API".#
+////
 
 Modellen under viser de kapabilitetene en tilbyder og en konsument må ha for å dele data gjennom tilgangsstyrte API-er.
 
@@ -65,7 +67,7 @@ image:../nab_referanse_arkitekturer_eoppslag/media/Deling på forespørsel.png[a
 
 |Tilbyder av data
 |Rolle
-Part som har informasjon å dele.
+|Part som har informasjon å dele.
 
 |Konsument (databruker)
 |Rolle
@@ -73,32 +75,15 @@ Part som har informasjon å dele.
 
 |Tilgjengeliggjøre data
 |Kapabilitet
-|Evnen til å gjøre data tilgjengelig for aktører utenfor egen virksomhet.
-
-// erik: endret navn til "tilgjengeliggjøre data"
-// erik: må det være utenfor egen virksomhet? har vi sagt eksplisitt at dette gjelder for denne referansearkitekturen? Skal vi åpne for at det kan være innenfor samme virksomhet, men si noe mer ekplisitt om behovet for avtaler og infosikkerhet? 
+|Evnen til å gjøre data tilgjengelig for konsumenter.
 
 |Tilgjengeliggjøre API
 |Kapabilitet
-ifndef::erik2[]
-|Del av "tilgjengeliggjøre data". Evnen til å registrere eget API i fellestjenester så det blir tilgjengelig for andre aktører.
-endif::erik2[]
-ifdef::erik2[]
-|Publisere informasjon om API i kataloger eller søkeløsninger, slik at det blir enkelt å finne fram til for aktuelle konsumenter. Videre inngå bruksavtaler og sette opp tilg
-endif::erik2[]
+|Publisere informasjon om API i kataloger eller søkeløsninger, slik at det blir enkelt å finne fram til for aktuelle konsumenter. Videre inngå bruksavtaler og sette opp tilganger.
 
-// erik: "registrere eget API fellestjenester"??
-// erik: hvorfor være eksplisitt om realiseringen av kapabiliteten her?
-
-
-
-
-
-|Avgi forespurte data
+|Avgi forespurte data gjennom API
 |Kapabilitet
-|Del av "tilgjengeliggjøreing av data". Evne til å avgi data på forespørsel gjennom et egnet API. Kan omfatte tilgangsstyring.
-
-//erik: Om det kun dreier seg om å avgi data gjennom API, bør vel ordet "API" være med i navnet?
+|Evne til å avgi data på forespørsel gjennom et egnet API. Kan omfatte tilgangsstyring.
 
 |Innhenting av data
 |Kapabilitet
@@ -106,14 +91,11 @@ endif::erik2[]
 
 |Få tilgang til API
 |Kapabilitet
-|Evnen til å få tilgang til tilbudte data fra annen aktør. 
-
-//erik: "evnen til å få tilgang" høres rart ut, bare...
+|Evnen til å skaffe seg tilgang til tilbudte data fra annen aktør. Kan omfatte å finne API-er, inngå nødvendige avtaler og få tilganger.
 
 |Delegering av rettigheter til databehandler
 |Kapabilitet
-|Evnen til å delegere rettigheter til databehandler som utfører oppgaver på vegne av behandlingsansvarlig
-
+|Evnen til å delegere rettigheter til databehandler som utfører oppgaver på vegne av behandlingsansvarlig.
 
 |Slå opp data gjennom et API
 |Kapabilitet
@@ -134,19 +116,22 @@ Beskrivelsene er forsøkt å holde helt generisk uten å peke til noen løsning 
 === Hvordan lese modellene
 Modellene viser hvilke roller som innehar den respektive kapabiliten og er involvert i prosessene. Prosessene realiserer kapabiliteten og tjenester med tilhørende sentrale informasjonselementer støtter opp om prosessene.
 
-De grunnleggende elementene i modellene foklares i denne figuren:
+//Henrik: Erik skriver mer tekst her.
+
+// erik: her kunne jeg tenkt meg å skrive noe mer... kan være en/mange osv...
+
+De grunnleggende elementene i modellene forklares i denne figuren:
 
 
 image:../nab_referanse_arkitekturer_eoppslag/media/Forklaring prosess.png[alt="Bilde mangler", width=350, link=https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/e7e6c527-26f4-461c-b4dd-651fcbe85c8d/views/65254811-97bc-4c11-b5c2-2fda4c4dc3fe.html]
 
-// erik: her kunne jeg tenkt meg å skrive noe mer... kan være en/mange osv...
 
 === Klargjøring for _deling av data på forespørsel_
 
 ==== Tilgjengeliggjøre API
 
-Tilgjengeliggjøring av API gjøres av tilbyder av data og er det tilbyder må gjennomføre for å gjøre et API synlig og tilgjengelig gjennom [red yellow-background]*fellesløsninger*. Registrering av konsumenters rettigheter og tilganger inngår også som et prosessteg. 
-//erik: Nei, dette er ikke et prosessteg i samme prosess som de andre prosessboksene. Her vises snarere en verdikjede. Kan/bør vi fikse det nå? F.eks.gjennom å gruppere deto siste boksene og angi at det gjøres per konsument?
+Tilgjengeliggjøring av API gjøres av tilbyder av data og er det tilbyder må gjennomføre for å gjøre et API synlig og tilgjengelig gjennom kataloger og søkeløsninger. Registrering av konsumenters rettigheter og tilganger inngår også som et prosessteg. 
+
 Dersom det er registrering av et åpent API, er det kun relevante prossessteg som utføres.
 
 image:../nab_referanse_arkitekturer_eoppslag/media/registrere API.png[alt="Bilde mangler", width=750, link=https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/e7e6c527-26f4-461c-b4dd-651fcbe85c8d/views/0134474e-0b53-4b7c-b4e2-cf2f2e957616.html]
@@ -163,28 +148,17 @@ image:../nab_referanse_arkitekturer_eoppslag/media/registrere API.png[alt="Bilde
 |Rolle
 |Se over
 
-
 |Konsument (databruker)
 |Rolle
 |Se over
 
-
-
 |Bruksavtale
 |Kontrakt
-|Avtale eller kontrakt om tilgang til og bruk av data. Dette kan for eksempel være en bilateralt utformet avtale, aksept av generelle bruksvilkår, eller lisens for bruken av åpne data.
-
-// erik: grammatikk
-// dropp "eller kontrakt"?
-// dropp "og bruk"???
+|Avtale om tilgang til og bruk av data. Dette kan for eksempel være en bilateralt utformet avtale, aksept av generelle bruksvilkår, eller lisens for bruk av åpne data.
 
 |Registrere API
 |Prosess
-|Prosess for tilbyder å registrere API i nasjonale [red yellow-background]*fellesløsninger* så det blir lettere tilgjengelig for konsumenter. Forutsetter at tilbyder har inngått avtale eller godtatt bruksvilkår for bruk av de nasjonale fellesløsningene.
-
-// erik: registerere API i nasjonale fellesløsninger? Henrik: finne et annet begrep
-// erik:dette forutsetter vel ingenting om konsumenten, dvs. droppp siste setning? Henrik: endret tekst, skulle være tilbyder.
-
+|Prosess for tilbyder å registrere API i relevante kataloger og søkeløsninger så det blir lettere tilgjengelig for konsumenter. Forutsetter at tilbyder har inngått avtale eller godtatt bruksvilkår for bruk av de løsningene som benyttes.
 
 |Inngå avtale om tilgang til data med konsument
 |Prosess
@@ -214,13 +188,7 @@ image:../nab_referanse_arkitekturer_eoppslag/media/registrere API.png[alt="Bilde
 
 
 ==== Få tilgang til API
-Få tilgang til API er det en konsument av data må gjøre for å få tilgang til data gjennom et API. Det omfatter å få kjennskap til API-et, inngå avtale om bruk av data, og registrere den tekniske komponenten som skal utføre tjenestekallet. Dersom det er tilgang til et åpent API er det kun relevante prossessteg som utføres.
-
-////
-erik, forslag til ny tekst :
-
 _Få tilgang til API_ er det en konsument av data må gjøre for å få tilgang til data gjennom et API. Det omfatter å få kjennskap til aktuelt API, inngå avtale om bruk av data, samt å registrere den tekniske komponenten som skal utføre tjenestekallet. Dersom det dreier seg om tilgang til et _åpent tilgjengelig_ API, kan enkelte delaktiviteter i prosessene hoppes over.
-////
 
 
 image:../nab_referanse_arkitekturer_eoppslag/media/få tilgang til API.png[alt="Bilde mangler", width=750,link=https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/e7e6c527-26f4-461c-b4dd-651fcbe85c8d/views/6c5a004d-da35-4fce-b38d-4b09d1167201.html]
@@ -246,7 +214,7 @@ image:../nab_referanse_arkitekturer_eoppslag/media/få tilgang til API.png[alt="
 
 |Finne/få kjennskap til API
 |Forretningsprosess
-|Prosessen med å finne eller få kjennskap til tilgjengelige API-er. Benytter tjeneste for å søke i [red yellow-background]*fellesløsninger*.
+|Prosessen med å finne eller få kjennskap til tilgjengelige API-er gjennom relevante kataloger og søkeløsninger.
 
 |Inngå avtale om tilgang til data  med tilbyder
 |Forretningsprosess
@@ -336,7 +304,7 @@ image:../nab_referanse_arkitekturer_eoppslag/media/slå opp data.png[alt="Bilde 
 
 |Utfør tjenestekall
 |Forretningsprosess
-|Prosessen med å benytte (gjøre et oppslag mot) et eksternt API
+|Prosessen med å benytte (gjøre et oppslag mot) et eksternt API.
 
 |Adressetjeneste
 |Forretningstjeneste
@@ -344,14 +312,10 @@ image:../nab_referanse_arkitekturer_eoppslag/media/slå opp data.png[alt="Bilde 
 
 |Utstedelse av sikkerhetsbillett
 |Forretningstjeneste
-|Tjeneste som utsteder sikkerhetsbilletter.
+|Tjeneste som utsteder sikkerhetsbilletter. Sikkerhetsbillett utstedes basert på tildelte rettigheter og eventuelle representasjonsforhold.
 
-|Tjeneste for informasjon om representasjonsforhold
-|Forretningstjeneste
-|Tjeneste som gir oversikt over representasjonsforhold. Benyttes av tokentjeneste dersom en leverandør skal få tilgang på vegne av en konsument
 |===
 
-//erik: "Tokentjeneste" renavnes til
 
 ==== Avgi forespurte data
 Avgi forespurte data er det tilbyder av data må gjøre for å svare på en forespørsel. Prosessen kontrollere tilgang gjøres kun dersom det er enakk om å avgi data gjennom et sikret API.
@@ -373,16 +337,11 @@ image:../nab_referanse_arkitekturer_eoppslag/media/avgi data.png[alt="Bilde mang
 
 |Intern tilgangskontroll
 |Forretningstjeneste
-|Intern tjeneste hos tilbyder for å håndheve tilgangsnivåpolicy ved tilgangskontroll.
-
-//erik: tilgangsnivåpolicy????
+|Intern tjeneste hos tilbyder for å gjøre tilgangskontroll basert på virksomhetens egen policy.
 
 |Motta forespørsel om oppslag
 |Forretningsprosess
-|Prosess med å motta forespørsler fra API-konsument om å utlevere data.
-//erik: "Prosess med å motta forespørsler"er vel mer en event enn en prosess? Uansett er ordet prosess unødvendig he, Si heller bare Motta forespørsel...
-//erik: "utlevere data" endres til avgi data? 
-
+|Motta forespørsler fra API-konsument om å avgi data.
 
 |Kontroller tilgang
 |Forretningsprosess
@@ -394,12 +353,9 @@ image:../nab_referanse_arkitekturer_eoppslag/media/avgi data.png[alt="Bilde mang
 
 |Validering av sikkerhetsbillett
 |Forretningstjeneste
-|Tjeneste for å validere gyldigheten av sikkerhetsbilletten. Med en gyldig sikkerhetsbillett skal det ikke være nødvendig å validere grunnlaget eller innholdet i sikkerhetsbilletten siden det er et tillitsforhold mellom partene.
-//erik: Dette ble litt kryptisk: "siden det er et tillitsforhold mellom partene"
+|Tjeneste for å validere gyldigheten av sikkerhetsbilletten. Med en gyldig sikkerhetsbillett skal det ikke være nødvendig å validere grunnlaget eller innholdet i sikkerhetsbilletten. 
+
 |===
-
-
-
 
 == Løsningsmønstre (logiske beskrivelser med arkitekturbyggeklosser og aktuelle løsningsbyggeklosser)
 
@@ -409,7 +365,9 @@ Det er ikke hensikten å låse referansearkitekturen til spesifikke løsninger, 
 
 === Hvordan lese modellene
 
-For enklere lesbarhet er laget med forretningstjenester utelatt fra modellene og mer løsningsnære applikasjonstjenester er benyttet direkte inn mot forretningsprosessene. Modellene viser dermed hvordan [red yellow-background]*fellesløsninger* i form av applikasjonskomponenter støtter de ulike forretningsprosessene gjennom applikasjonstjenester.
+For enklere lesbarhet er laget med forretningstjenester utelatt fra modellene og mer løsningsnære applikasjonstjenester er benyttet direkte inn mot forretningsprosessene. Modellene viser dermed hvordan fellesløsninger i form av applikasjonskomponenter støtter de ulike forretningsprosessene gjennom applikasjonstjenester.
+
+//Henrik: I teksten over mener jeg det er riktig å benytte begrepet fellesløsninger. Er det eventuelt bedre med "aktuelle fellesløsninger" eller noe i den duren?
 
 De grunnleggende elementene i modellene foklares i denne figuren:
 
@@ -425,9 +383,7 @@ image:../nab_referanse_arkitekturer_eoppslag/media/forklaring_app_lag.png[alt="B
 
 ==== Tilgjengeliggjøre API
 
-For å tilby data gjennom et API sikret med fellestjenester må tilbyder inngå avtale for bruk av Maskinporten og API-katalogen (Felles datakatalog). De respektive API-ene og hvem som skal ha hvilke rettighetene til disse må så registreres i løsningene.
-
-// erik:benutt "Felles API-katalog" somkomponentnavn
+For å tilby data gjennom et API sikret med fellestjenester må tilbyder inngå avtale for bruk av Maskinporten og Felles API-katalog. De respektive API-ene og hvem som skal ha hvilke rettighetene til disse må så registreres i løsningene.
 
 image:../nab_referanse_arkitekturer_eoppslag/media/registerer_api_app_lag.png[alt="Bilde mangler", width=750, link=https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/e7e6c527-26f4-461c-b4dd-651fcbe85c8d/views/80c1baa6-55d8-4434-ab14-55e2d0afa827.html]
 
@@ -454,13 +410,9 @@ image:../nab_referanse_arkitekturer_eoppslag/media/registerer_api_app_lag.png[al
 |Dataobjekt
 |Beskrivelse av de tilgangene, dvs. hvilke scopes en gitt konsument skal ha til et API.
 
-//Erik: Jeg savner noe om Altinn tilgangsstyring!??????????????????? 
-
-|Registrere Open API Specification
-//erik: Endre navn til "Registrere API i API-katalogen", og ta så heller eventuelt med info om at det erOpen API Specification som benyttes.
+|Registrere API i API-katalogen
 |Applikasjonstjeneste
-|Tjeneste i API-katalogen for å registrere API. Bruk av tjenesten forutsetter at man har fått tildelt rettigheter til å gjøre dette på vegne av tilbyders virksomhet.
-//erik: Hvem er "man" her? Det kan vel være tilbyder selv?
+|Tjeneste i Felles API-katalogen for å registrere API. Bruk av tjenesten forutsetter at rettigheter til å gjøre dette på vegne av tilbyders virksomhet.
 
 |Selvbetjeningstjeneste for administrasjon og registering av API-er i Maskinporten
 |Applikasjonstjeneste
@@ -558,11 +510,9 @@ image:../nab_referanse_arkitekturer_eoppslag/media/slå_opp_app_lag.png[alt="Bil
 |Applikasjonstjeneste
 |Oppslag på adresse (server-object) til et API i adressekatalogen.
 
-|OAUTH2 tokentjeneste
+|Tokenutstedelse fra Maskinporten
 |Applikasjonstjeneste
-|Tjeneste som utsteder et OAUTH2-token basert på autentisering med virksomhetssertifikat og tidligere tildelte rettigheter.
-
-erik:"tidligere tildelte rettigheter"?
+|Tjeneste som utsteder et OAUTH2-token basert på autentisering med virksomhetssertifikat og tildelte rettigheter.
 
 |Oppslag representasjonsforhold
 |Applikasjonstjeneste
