@@ -11,7 +11,13 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 //Henrik: Legge inn (gjenta) beskrivelsen av kapabilitetesområdet "Deling av data på forespørsel" her, eller i dette avsnittet.
 
-eOppslag er en referansearkitektur som adresserer en delmengde av kapabilitesområdet _deling av data på forespørsel_, nærmere bestemt gjennom synkront API-kall. Referansearkitekturen dekker både klargjøring og operativ datautveksling mellom tilbyder og konsument.
+eOppslag er en referansearkitektur som adresserer en delmengde av kapabilitesområdet link:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart/[_Deling av data på forespørsel_], nærmere bestemt gjennom synkront API-kall. Referansearkitekturen dekker både klargjøring og operativ datautveksling mellom tilbyder og konsument.
+
+
+//:leveloffset: +4
+//include::../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart/deling-av-data-på-forspørsel.adoc[]
+//:leveloffse!t:
+
 
 //erik: forsøk å lenke direkte til riktig sted:  <../nab_arkitekturlandskap/book-arkitekturlandskap.adoc#Kapabilitetskart,kapabilitetskart>>.
 
@@ -23,13 +29,6 @@ eOppslag som referansearkitektur adresserer generelt hvordan man kan dele data p
 
 NOTE: Mer informasjon om kapabilitetskart og nedbrytingen av overordnede temaområder og kapabiliteter finnes under link:../nab_arkitekturlandskap[Nasjonalt arkitekturlandskap]. Her finnes _Deling av data på forespørsel_ som et eget område under området _Datautveksling_. 
 
-
-== Om _Deling av data på forespørsel_
-Temaområdet link:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart/[_Deling av data på forespørsel_] finnes separat beskrevet i strukturen under kapabiliteteskart.
-
-:leveloffset: +4
-include::../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart/deling-av-data-på-forspørsel.adoc[]
-:leveloffse!t:
 
 == Struktur på beskrivelsen
  
