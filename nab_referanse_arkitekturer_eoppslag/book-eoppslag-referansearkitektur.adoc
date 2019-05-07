@@ -394,9 +394,17 @@ image:../nab_referanse_arkitekturer_eoppslag/media/registerer_api_app_lag.png[al
 |Elementtype
 |Beskrivelse
 
+|Registrere API i API-katalogen
+|Applikasjonstjeneste
+|Tjeneste i Felles API-katalogen for å registrere API. Bruk av tjenesten forutsetter at rettigheter til å gjøre dette på vegne av tilbyders virksomhet.
+
 |Open API Specification
 |Dataobjekt
 |Maskinlesbar beskrivelse av REST API-er. Dette er formatet som benyttes for å registrere et API i felles API-katalog
+
+|Selvbetjenesigstjeneste for administrasjon av integrasjoner og API-er
+|Applikasjonstjeneste
+|Tjeneste i API-katalogen for å registrere API. Bruk av tjenesten forutsetter at man har de fått tildelt rettigheter til å gjøre dette på vegne av tilbyders virksomhet.
 
 |Tokenegenskaper
 |Dataobjekt
@@ -406,27 +414,15 @@ image:../nab_referanse_arkitekturer_eoppslag/media/registerer_api_app_lag.png[al
 |Dataobjekt
 |Et scope kan best beskrives som en ressurs-definisjon og et token er som regel knyttet til ett eller flere scopes. Scopes benyttes til å styre tilganger til API-er og operasjoner og eventuelt hva slags responser man får fra API-et.
 
-|Tilganger konsument
-|Dataobjekt
-|Beskrivelse av de tilgangene, dvs. hvilke scopes en gitt konsument skal ha til et API.
-
-|Registrere API i API-katalogen
-|Applikasjonstjeneste
-|Tjeneste i Felles API-katalogen for å registrere API. Bruk av tjenesten forutsetter at rettigheter til å gjøre dette på vegne av tilbyders virksomhet.
-
-|Selvbetjeningstjeneste for administrasjon og registering av API-er i Maskinporten
-|Applikasjonstjeneste
-|Tjeneste i API-katalogen for å registrere API. Bruk av tjenesten forutsetter at man har de fått tildelt rettigheter til å gjøre dette på vegne av tilbyders virksomhet.
-
-|Selvbetjenesigstjeneste for administrasjon av integrasjoner og API-er
-|Applikasjonstjeneste
-|Tjeneste for gjennom selvbetjening å registrere og vedlikeholde API-definisjoner og scopes i Maskinporten.
-
 |Registrering av API-brukere
 |Applikasjonstjeneste
 |Tjeneste for gjennom selvbetjening å registrere og vedlikeholde tilgangene konsumenter skal ha til API-er og scopes.
 
-|API-katalogen
+|Tilganger konsument
+|Dataobjekt
+|Beskrivelse av de tilgangene, dvs. hvilke scopes en gitt konsument skal ha til et API.
+
+|Felles API-katalog
 |Applikasjonskomponent
 |Del av Felles datakatalog som gir mulighet for å søke etter API-er og lese API-spesifikasjoner
 https://fellesdatakatalog.brreg.no/apis
