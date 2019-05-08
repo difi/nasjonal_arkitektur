@@ -344,17 +344,13 @@ image:../nab_referanse_arkitekturer_eoppslag/media/avgi data.png[alt="Bilde mang
 |Rolle
 |Se over
 
-|Intern tilgangskontroll
-|Forretningstjeneste
-|Intern tjeneste hos tilbyder for å gjøre tilgangskontroll basert på virksomhetens egen policy.
-
 |Motta forespørsel om oppslag
 |Forretningsprosess
 |Motta forespørsler fra API-konsument om å avgi data.
 
 |Kontroller tilgang
 |Forretningsprosess
-|Prosessen med å kontrollere om konsumenten har rettigheter til å få de forespurte data.
+|Kontroll og håndheving av konsumentens rettigheter til å få forespurte data.  I tillegg til "validering av sikkerhetsbillet", kan det være behov for kontroll mot virksomhetsinterne policies.
 
 |Avgi data
 |Forretningsprosess
