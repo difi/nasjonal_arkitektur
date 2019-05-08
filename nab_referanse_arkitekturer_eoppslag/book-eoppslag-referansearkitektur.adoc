@@ -15,7 +15,7 @@ eOppslag er en referansearkitektur som adresserer en delmengde av kapabilitesomr
 
 //:leveloffset: +4
 //include::../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart/deling-av-data-på-forspørsel.adoc[]
-//:leveloffse!t:
+//:leveloffset!:
 
 
 //erik: forsøk å lenke direkte til riktig sted:  <../nab_arkitekturlandskap/book-arkitekturlandskap.adoc#Kapabilitetskart,kapabilitetskart>>. Henrik: gjør dette i omskriving av de tre første kapitlene
