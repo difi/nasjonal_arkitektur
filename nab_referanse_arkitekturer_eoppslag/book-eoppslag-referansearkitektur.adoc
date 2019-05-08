@@ -13,6 +13,11 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 eOppslag er en referansearkitektur som adresserer en delmengde av kapabilitesområdet link:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart/[_Deling av data på forespørsel_], nærmere bestemt gjennom synkront API-kall. Referansearkitekturen dekker både klargjøring og operativ datautveksling mellom tilbyder og konsument.
 
+Lenke
+
+<<../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart.adoc/kapabilitetskart#==== Deling av data på forespørsel,Deling av data på forespørsel>>
+
+
 //:leveloffset: +4
 //include::../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart/deling-av-data-på-forspørsel.adoc[]
 //:leveloffset!:
@@ -22,11 +27,11 @@ eOppslag er en referansearkitektur som adresserer en delmengde av kapabilitesomr
 
 Dette gjelder for både sikrede API-er hvor tilgangsstyring løses ved bruk av blant annet fellestjenester, og API-er som tilbyr åpent tilgjengelige data uten tilgangsbegrensninger. 
 
+Modellen under viser de kapabilitetene en tilbyder og en konsument må ha for å dele data gjennom tilgangsstyrte API-er.
+
 Tilbyder må kunne tilgjengeliggjøre data og dette er delt i to kapabiliteter hvor den ene, "Registrering av API" går ut på hvordan man registerer og setter opp tilganger. Den andre kapabiliteten "Avgi forespurte data" er det man gjøre når en konsument gjøre et kall mot det respektive API-et.
 
 Tilsvarende er det tre detaljerte kapabiliteter tilknyttet konsument og det å innhente data. "Få tilgang til API" består av prosesser for oppsett av tilgang, "Delegering av rettigheter til databehandler" må gjøres dersom konsument benytter seg av en databehandler og "Slå opp data gjennom synkront API" er det konsumenten må gjøre hver gang det gjøres et oppslag.
-
-Modellen under viser de kapabilitetene en tilbyder og en konsument må ha for å dele data gjennom tilgangsstyrte API-er.
 
 
 image:../nab_referanse_arkitekturer_eoppslag/media/Deling på forespørsel.png[alt="Bilde mangler", width=750,link=https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/e7e6c527-26f4-461c-b4dd-651fcbe85c8d/views/4b722aae-1323-46b0-bcac-e730d418b190.html]
@@ -433,7 +438,7 @@ https://fellesdatakatalog.brreg.no/apis
 
 
 ==== Få tilgang til API
-For å få tilgang til et API sikret ved hjelp av [red yellow-background]*fellesløsninger* må konsumenten inngå avtale for bruk av Maskinporten og registrere den tekniske klienten som skal benytte løsningen.
+For å få tilgang til et API sikret ved hjelp av nasjonale fellesløsninger må konsumenten inngå avtale for bruk av Maskinporten og registrere den tekniske klienten som skal benytte løsningen.
 
 image:../nab_referanse_arkitekturer_eoppslag/media/få_tilgang_app_lag.png[alt="Bilde mangler", width=500,link=https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/e7e6c527-26f4-461c-b4dd-651fcbe85c8d/views/32191953-d527-4b27-8a58-b8ec5fd93660.html]
 
