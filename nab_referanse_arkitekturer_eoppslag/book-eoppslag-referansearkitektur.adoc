@@ -132,7 +132,7 @@ Modellene viser hvilke roller som innehar den respektive kapabiliten og er invol
 De grunnleggende elementene i modellene forklares i denne figuren:
 
 
-image:../nab_referanse_arkitekturer_eoppslag/media/Forklaring prosess.png[alt="Bilde mangler", width=350, link=https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/e7e6c527-26f4-461c-b4dd-651fcbe85c8d/views/65254811-97bc-4c11-b5c2-2fda4c4dc3fe.html]
+image:../nab_referanse_arkitekturer_eoppslag/media/Forklaring prosess.png[alt="Bilde mangler", width=500, link=https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/e7e6c527-26f4-461c-b4dd-651fcbe85c8d/views/65254811-97bc-4c11-b5c2-2fda4c4dc3fe.html]
 
 
 === Klargjøring for _deling av data på forespørsel_
@@ -157,14 +157,6 @@ image:../nab_referanse_arkitekturer_eoppslag/media/registrere API.png[alt="Bilde
 |Rolle
 |Se over
 
-|Konsument (databruker)
-|Rolle
-|Se over
-
-|Bruksavtale
-|Kontrakt
-|Avtale om tilgang til og bruk av data. Dette kan for eksempel være en bilateralt utformet avtale, aksept av generelle bruksvilkår, eller lisens for bruk av åpne data.
-
 |Registrere API
 |Prosess
 |Prosess for tilbyder å registrere API i relevante kataloger og søkeløsninger så det blir lettere tilgjengelig for konsumenter. Forutsetter at tilbyder har inngått avtale eller godtatt bruksvilkår for bruk av de løsningene som benyttes.
@@ -184,6 +176,10 @@ image:../nab_referanse_arkitekturer_eoppslag/media/registrere API.png[alt="Bilde
 |Egenskaper ved sikkerhetsbillett for tilgang til API
 |Forretningsobjekt
 |Egenskaper  ved sikkerhetsbillett, f.eks. granulariteten på tilganger.
+
+|Bruksavtale mellom konsument og tilbyder av data
+|Kontrakt
+|Avtale om tilgang til og bruk av data. Dette kan for eksempel være en bilateralt utformet avtale, aksept av generelle bruksvilkår, eller lisens for bruk av åpne data.
 
 |Tilgangsregistrering
 |Forretningstjeneste
@@ -209,16 +205,8 @@ image:../nab_referanse_arkitekturer_eoppslag/media/få tilgang til API.png[alt="
 |Elementtype
 |Beskrivelse
 
-|Tilbyder av data
-|Rolle
-|Se over
-
 |Konsument (databruker)
 |Rolle
-|Se over
-
-|Bruksavtale
-|Kontrakt
 |Se over
 
 |Finne/få kjennskap til API
@@ -240,7 +228,11 @@ Dersom det er en leverandør som har blitt delegert rettigheter som databehandle
 |Forretningstjeneste
 |Tjeneste for å søke etter og finne tilgjengelige API-er. 
 
-|Registreringstjeneste for API-bruker
+|Bruksavtale mellom konsument og tilbyder av data
+|Kontrakt
+|Se over
+
+|Registreringstjeneste for API-brukere
 |Forretningstjeneste
 |Tjeneste for å registere brukere av tokentjeneste
 
@@ -259,17 +251,9 @@ image:../nab_referanse_arkitekturer_eoppslag/media/delegering av rettigheter.png
 |Elementtype
 |Beskrivelse
 
-|Tjenesteavtale
-|Kontrakt
-|Avtale mellom leverandør og konsument som er grunnlaget for å kunne delegere rettigheter fra konsument til en leverandør
-
 |Konsument (databruker)
 |Rolle
 |Se over
-
-|Leverandør
-|Rolle
-|En part som leverer tjenester eller utfører oppgaver på vegne av en annen part.
 
 |Inngå avtale med leverandør
 |Prosess
@@ -278,6 +262,10 @@ image:../nab_referanse_arkitekturer_eoppslag/media/delegering av rettigheter.png
 |Registrere delegert tilgang
 |Prosess
 |Prosessen med å delegere tilganger. I tilknytning til eOppslag vil formålet være å gi leverandør tilgang til å representere konsument overfor et API, men registreringen vil potensielt også kunne gjelde for andre områder.
+
+|Tjenesteavtale mellom konsument og leverandør
+|Kontrakt
+|Avtale mellom leverandør og konsument som er grunnlaget for å kunne delegere rettigheter fra konsument til en leverandør
 
 |Registreringstjeneste for representasjonsforhold
 |Forretningstjeneste
@@ -376,7 +364,7 @@ For enklere lesbarhet er laget med forretningstjenester utelatt fra modellene og
 
 De grunnleggende elementene i modellene foklares i denne figuren:
 
-image:../nab_referanse_arkitekturer_eoppslag/media/forklaring_app_lag.png[alt="Bilde mangler", width=350, link=https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/e7e6c527-26f4-461c-b4dd-651fcbe85c8d/views/6a46c6d0-64eb-43d4-97f3-2a94516c2211.html]
+image:../nab_referanse_arkitekturer_eoppslag/media/forklaring_app_lag.png[alt="Bilde mangler", width=500, link=https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/e7e6c527-26f4-461c-b4dd-651fcbe85c8d/views/6a46c6d0-64eb-43d4-97f3-2a94516c2211.html]
 
 
 // For å registrere API må man for i de respektive fellestjenestene ha rettigheter til dette på vegne av egen virksomhet. Dette tildeles iht. hvem som har rettigheter i enhetsregisteret og rettighetene må delegeres nedover i organisasjonen til den som skal gjennomføre registreringen. Dette foregår i Altinn.
@@ -393,7 +381,7 @@ For å tilby data gjennom et API sikret med fellestjenester må tilbyder inngå 
 image:../nab_referanse_arkitekturer_eoppslag/media/registerer_api_app_lag.png[alt="Bilde mangler", width=750, link=https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/e7e6c527-26f4-461c-b4dd-651fcbe85c8d/views/80c1baa6-55d8-4434-ab14-55e2d0afa827.html]
 
 [cols ="1,1,3", options="header"]
-.Elementer i figur for registrering av API
+.Elementer i figur for tilgjengeliggjøre API
 |===
 |Element
 |Elementtype
@@ -442,7 +430,7 @@ https://fellesdatakatalog.brreg.no/apis
 ==== Få tilgang til API
 For å få tilgang til et API sikret ved hjelp av nasjonale fellesløsninger må konsumenten inngå avtale for bruk av Maskinporten og registrere den tekniske klienten som skal benytte løsningen.
 
-image:../nab_referanse_arkitekturer_eoppslag/media/få_tilgang_app_lag.png[alt="Bilde mangler", width=500,link=https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/e7e6c527-26f4-461c-b4dd-651fcbe85c8d/views/32191953-d527-4b27-8a58-b8ec5fd93660.html]
+image:../nab_referanse_arkitekturer_eoppslag/media/få_tilgang_app_lag.png[alt="Bilde mangler", width=750,link=https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/e7e6c527-26f4-461c-b4dd-651fcbe85c8d/views/32191953-d527-4b27-8a58-b8ec5fd93660.html]
 
 [cols ="1,1,3", options="header"]
 .Elementer i figur for å få tilgang til API
@@ -474,7 +462,7 @@ https://fellesdatakatalog.brreg.no/apis
 Dersom konsumenten benytter en leverandør som skal opptre på konsumentens vegne, må dette forholdet registereres gjennom Altinn autorisasjon slik at det blir tilgjengelig for Maskinporten å kontrollere representasjonsforholdet.
 
 
-image:../nab_referanse_arkitekturer_eoppslag/media/delegere_rettigheter_app_lag.png[alt="Bilde mangler", width=350, link=https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/e7e6c527-26f4-461c-b4dd-651fcbe85c8d/views/3d9dcb59-8e6e-4f2d-aee7-c729dea4f53f.html]
+image:../nab_referanse_arkitekturer_eoppslag/media/delegere_rettigheter_app_lag.png[alt="Bilde mangler", width=600, link=https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/e7e6c527-26f4-461c-b4dd-651fcbe85c8d/views/3d9dcb59-8e6e-4f2d-aee7-c729dea4f53f.html]
 
 [cols ="1,1,3", options="header"]
 .Elementer i figur delegering av rettigheter til leverandør
@@ -498,7 +486,7 @@ image:../nab_referanse_arkitekturer_eoppslag/media/delegere_rettigheter_app_lag.
 
 Når en konsumet skal slå opp data gjennom et API benyttes Maskinporten for å få utstedt en sikkerhetsbillett som legges ved tjenestekallet til tilbyders API. Maskinporten utsteder sikkerhetsbilletter som OAUTH2-tokens.
 
-image:../nab_referanse_arkitekturer_eoppslag/media/slå_opp_app_lag.png[alt="Bilde mangler", width=500,link=https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/e7e6c527-26f4-461c-b4dd-651fcbe85c8d/views/8d72be4b-7e31-438d-9990-c2c3f38f551e.html]
+image:../nab_referanse_arkitekturer_eoppslag/media/slå_opp_app_lag.png[alt="Bilde mangler", width=750,link=https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/e7e6c527-26f4-461c-b4dd-651fcbe85c8d/views/8d72be4b-7e31-438d-9990-c2c3f38f551e.html]
 
 [cols ="1,1,3", options="header"]
 .Elementer i figur slå opp data gjennom et API
@@ -519,7 +507,7 @@ image:../nab_referanse_arkitekturer_eoppslag/media/slå_opp_app_lag.png[alt="Bil
 |Applikasjonstjeneste
 |Tjeneste som benyttes av tokentjenesten for å kontrollere om det foreligger et delegert representasjonsforhold fra konsument til leverendør i autorisasjonstjenesten til Altinn.
 
-|API-katalogen
+|Felles API-katalog
 |Applikasjonskomponent
 |Del av Felles datakatalog som gir mulighet for å søke etter API-er og lese API-spesifikasjoner
 https://fellesdatakatalog.brreg.no/apis
@@ -546,7 +534,7 @@ https://fellesdatakatalog.brreg.no/apis
 
 Når tilbyder får en forspørsel om data som et API-kall og det ligger ved en sikkerhetsbillett benyttes valideringstjenesten til maskinporten for grov tilgangskontroll.
 
-image:../nab_referanse_arkitekturer_eoppslag/media/avgi_data_app_lag.png[alt="Bilde mangler", width=500,link=https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/e7e6c527-26f4-461c-b4dd-651fcbe85c8d/views/5a43e372-cf45-491f-a5e9-514d83e1e259.html]
+image:../nab_referanse_arkitekturer_eoppslag/media/avgi_data_app_lag.png[alt="Bilde mangler", width=650,link=https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/e7e6c527-26f4-461c-b4dd-651fcbe85c8d/views/5a43e372-cf45-491f-a5e9-514d83e1e259.html]
 
 [cols ="1,1,3", options="header"]
 .Elementer i figur avgi forespurte data
