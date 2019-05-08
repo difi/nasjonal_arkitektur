@@ -433,7 +433,7 @@ https://fellesdatakatalog.brreg.no/apis
 
 
 ==== Få tilgang til API
-For å få tilgang til et API sikret ved hjelp av [red yellow-background]*fellesløsninger* må konsumenten inngå avtale for bruk av Maskinporten og registrere den tekniske klienten som skal benytte løsningen.
+For å få tilgang til et API sikret ved hjelp av nasjonale fellesløsninger må konsumenten inngå avtale for bruk av Maskinporten og registrere den tekniske klienten som skal benytte løsningen.
 
 image:../nab_referanse_arkitekturer_eoppslag/media/få_tilgang_app_lag.png[alt="Bilde mangler", width=500,link=https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/e7e6c527-26f4-461c-b4dd-651fcbe85c8d/views/32191953-d527-4b27-8a58-b8ec5fd93660.html]
 
