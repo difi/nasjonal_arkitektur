@@ -8,7 +8,7 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 == Om eOppslag
 
-Test lenke: <<../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart#Deling av data på forespørsel, Deling av data på forespørsel>>
+// Test lenke: <<../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart#Deling av data på forespørsel, Deling av data på forespørsel>>
 
 //:leveloffset: +4
 //include::../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart/deling-av-data-på-forspørsel.adoc[]
@@ -20,13 +20,11 @@ Test lenke: <<../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart#
 
 //Henrik: Legge inn (gjenta) beskrivelsen av kapabilitetesområdet "Deling av data på forespørsel" her, eller i dette avsnittet.
 
-eOppslag er en referansearkitektur som adresserer en delmengde av kapabilitetsområdet link:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart/[_Deling av data på forespørsel_], nærmere bestemt synkrone API-kall. Referansearkitekturen dekker både sikrede API-er og API-er som tilbyr åpent tilgjengelige data uten tilgangsbegrensninger. 
+eOppslag er en referansearkitektur som adresserer en delmengde av kapabilitetsområdet link:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart/[_Deling av data på forespørsel_], nærmere bestemt synkrone API-kall. 
 
-Beskrivelsen av referansearkitekturen dekker klargjøring og oppsett, i tillegg til operativ datautveksling mellom tilbyder og konsument. 
-
-
-=== Anvendelsesområde
 eOppslag som referansearkitektur gir ingen begrensninger i forhold til  hva slags informasjon det gjelder, om det er strukturerte eller ustrukturerte data eller hva data skal brukes til. En tilbyder av data og en konsument av data kan også være innenfor samme virksomhet selv om beskrivelsene som oftest er skrevet med utgangspunkt i at det er forespørsel om data på tvers av virksomheter.
+Referansearkitekturen dekker videre både sikrede API-er og API-er som tilbyr åpent tilgjengelige data uten tilgangsbegrensninger. 
+
 
 
 
@@ -40,7 +38,8 @@ NOTE: Det er også publisert klikkbare Archimate-modeller under https://nasjonal
 Det skilles mellom generiske arkitekturmønstre og løsningsmønstre. Først beskrives de generiske arkitekturmønstrene, uten kobling til spesifikke løsninger. Det gis deretter en mer løsningsnære beskrivelser som inkluderer god praksis for bruk av _nasjonale fellesløsninger_.
 
 
-////De detaljerte beskrivelsene er kapabilitetene delt i to grupper, hvor den første er de kapabilitetene som inngår i å klargjøre for deling av data på forespørsel. Det er prosessene som må til for å tilgjengeliggjøre API-er, klienter og å sette opp tilganger både fra tilbyder og konsument sin side. Den andre grupperer de prosessene som inngår i den faktiske delingen av data på forespørsel. 
+//De detaljerte beskrivelsene er kapabilitetene delt i to grupper, hvor den første er de kapabilitetene som inngår i å klargjøre for deling av data på forespørsel. Det er prosessene som må til for å tilgjengeliggjøre API-er, klienter og å sette opp tilganger både fra tilbyder og konsument sin side. Den andre grupperer de prosessene som inngår i den faktiske delingen av data på forespørsel.
+
 
 Merk: Beskrivelsene som omhandler oppsett og bruk av tjenester tilknyttet tilgangsstyring, er ikke relevant for API-er som tilbyr åpent tilgjengelige data.
 
@@ -49,7 +48,7 @@ Merk: Beskrivelsene som omhandler oppsett og bruk av tjenester tilknyttet tilgan
 
 Modellen under viser de kapabilitetene en tilbyder og en konsument må ha for å dele data gjennom tilgangsstyrte API-er.
 
-Tilbyder må kunne tilgjengeliggjøre data og dette er delt i to kapabiliteter hvor den ene, "Registrering av API" går ut på hvordan man registerer og setter opp tilganger. Den andre kapabiliteten "Avgi forespurte data" er det man gjøre når en konsument gjøre et kall mot det respektive API-et.
+Tilbyder må kunne tilgjengeliggjøre data og dette er delt i to kapabiliteter hvor den ene, _Registrering av API_, går ut på hvordan man registerer og setter opp tilganger. Den andre kapabiliteten "Avgi forespurte data" er det man gjøre når en konsument gjøre et kall mot det respektive API-et.
 
 Tilsvarende er det tre detaljerte kapabiliteter tilknyttet konsument og det å innhente data. "Få tilgang til API" består av prosesser for oppsett av tilgang, "Delegering av rettigheter til databehandler" må gjøres dersom konsument benytter seg av en databehandler og "Slå opp data gjennom synkront API" er det konsumenten må gjøre hver gang det gjøres et oppslag.
 
