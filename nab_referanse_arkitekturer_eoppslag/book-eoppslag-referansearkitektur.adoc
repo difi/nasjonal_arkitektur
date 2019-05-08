@@ -8,14 +8,7 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 == Om eOppslag
 
-Test lenke: <<../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart.adoc/kapabilitetskart#Deling av data på forespørsel, Deling av data på forespørsel>>
-
-
-//Henrik: Legge inn (gjenta) beskrivelsen av kapabilitetesområdet "Deling av data på forespørsel" her, eller i dette avsnittet.
-
-eOppslag er en referansearkitektur som adresserer en delmengde av kapabilitesområdet link:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart/[_Deling av data på forespørsel_], nærmere bestemt gjennom synkront API-kall. Referansearkitekturen dekker både klargjøring og operativ datautveksling mellom tilbyder og konsument.
-
-
+Test lenke: <<../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart/kapabilitetskart.adoc/#Deling av data på forespørsel, Deling av data på forespørsel>>
 
 //:leveloffset: +4
 //include::../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart/deling-av-data-på-forspørsel.adoc[]
@@ -24,7 +17,12 @@ eOppslag er en referansearkitektur som adresserer en delmengde av kapabilitesomr
 
 //erik: forsøk å lenke direkte til riktig sted:  <../nab_arkitekturlandskap/book-arkitekturlandskap.adoc#Kapabilitetskart,kapabilitetskart>>. Henrik: gjør dette i omskriving av de tre første kapitlene
 
-Dette gjelder for både sikrede API-er hvor tilgangsstyring løses ved bruk av blant annet fellestjenester, og API-er som tilbyr åpent tilgjengelige data uten tilgangsbegrensninger. 
+
+//Henrik: Legge inn (gjenta) beskrivelsen av kapabilitetesområdet "Deling av data på forespørsel" her, eller i dette avsnittet.
+
+eOppslag er en referansearkitektur som adresserer en delmengde av kapabilitesområdet link:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart/[_Deling av data på forespørsel_], nærmere bestemt synkrone API-kall. Referansearkitekturen dekker både sikrede API-er og API-er som tilbyr åpent tilgjengelige data uten tilgangsbegrensninger. 
+Beskrivelsen av referansearkitekturen dekker klargjøring og oppsett, i tillegg til operativ datautveksling mellom tilbyder og konsument. 
+
 
 Modellen under viser de kapabilitetene en tilbyder og en konsument må ha for å dele data gjennom tilgangsstyrte API-er.
 
