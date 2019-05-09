@@ -17,7 +17,7 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 image:../plattform_felles/media/i-arbeid.png[width=45, height=45] I arbeid
 
-Utforming av arkitekturer og løsninger er ingen eksakt vitenskap.Tilsvarende er heller ikke valg av referansearkitekturer nødvendigvis enkelt. Mange faktorer kan spille inn, avhengig av behov, forutsetninger og kontekst.
+Utforming av arkitekturer og løsninger er ingen eksakt vitenskap. Tilsvarende er heller ikke valg av referansearkitekturer nødvendigvis enkelt. Mange faktorer kan spille inn på valg av referansearkitektur, avhengig av behov, forutsetninger og kontekst.
 
 I det følgende gis først en oversikt over ulike faktorer som det kan være aktuelt å vurdere. Det gis deretter en skisse til en mer metodisk tilnærming, speselt med fokus på å få til samhandlingsevne i tverrgående prosesser, dvs. integrerte tjenesterpå tvers av organisajonsgrenser.
 

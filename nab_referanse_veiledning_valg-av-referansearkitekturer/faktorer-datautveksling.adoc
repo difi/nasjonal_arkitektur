@@ -8,14 +8,14 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 == Faktorer relatert til juridiske forhold
 * *Gjeldende lovpålagte krav*
 +
-Eksempel: GDPR med krav til dataminimering,m.m.
+Eksempel: GDPR med krav til dataminimering mv.
 
 
 == Faktorer relatert til organisatorisk samhandlingsevne
 
 * *Type forretningsprosess (arketype)*
 +
-Eksempler:  Bileteral prosess mellom to kjente parter (herunder spørring og forhåndsavtalt, periodisk distriusjon); 
+Eksempler:  Bilateral prosess mellom to kjente parter (herunder spørring og forhåndsavtalt, periodisk distriusjon); 
 Tverrgående prosess mellom faste parter; Tverrgående prosess mellom dynamiske oppdagete parter 
 
 
@@ -29,7 +29,7 @@ Fast eller dynamisk gruppe med samhandlingsparter
 
 * *Prosessens levetid*
 +
-Relevant for feilhåndtering: Kortlevde prosesser med innebygd transaksjonssikkerhet kan tilbakerulles gjennom geneelle mekanismer,f.eks. slik dette støttes av _rollback_ i relasjonsdatabaser. Langlevde prosesser krever skreddersydde _kompensasjonsaksjoner_.
+Relevant for feilhåndtering: Kortlevde prosesser med innebygd transaksjonssikkerhet kan tilbakerulles gjennom generelle mekanismer,f.eks. slik dette støttes av _rollback_ i relasjonsdatabaser. Langlevde prosesser krever skreddersydde _kompensasjonsaksjoner_.
 
 
 
@@ -57,7 +57,7 @@ Mål: Mikrosekunder, millisekunder, sekunder,timer,dager
 +
 Garantert responstid vs. krav til responstid
 +
-Mål: Mikrosekunder, millisekunder, sekunder,timer,dager
+Mål: Mikrosekunder, millisekunder, sekunder, timer, dager
 
 * *Leveringssikkerhet* (kvalitetskrav)
 + 
@@ -71,10 +71,10 @@ Mål: Prosentvis sannsynlighet for vellykket levering og mottak.
 +
 ** Prinsipper
 +
-F.eks.SOA-prinsipper, samhandlingsprinsipper.
+For eksempel SOA-prinsipper, samhandlingsprinsipper.
 ** Standarder
 +
-Ref,._Referansekatalogen_, bransjestandarder, mm.
+Ref. _Referansekatalogen_, bransjestandarder, mv.
 
 
 
@@ -113,6 +113,7 @@ Herunder:
 
 
 //= Samhandlingsmønstre 
+
 //include::../nab_referanse_modeller_samhandlingsmønstre/main.adoc[]
 
 
