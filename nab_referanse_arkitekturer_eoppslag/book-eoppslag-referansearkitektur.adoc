@@ -311,6 +311,10 @@ image:../nab_referanse_arkitekturer_eoppslag/media/slå opp data.png[alt="Bilde 
 |Forretningstjeneste
 |Tjeneste som utsteder sikkerhetsbilletter. Sikkerhetsbillett utstedes basert på tildelte rettigheter og eventuelle representasjonsforhold.
 
+|Forespørsel om data
+|Forretningsobjekt
+|Forespørsel om data med parametetere i forespørselen, sikkerhetsbillett mv.
+
 |===
 
 
@@ -347,6 +351,10 @@ image:../nab_referanse_arkitekturer_eoppslag/media/avgi data.png[alt="Bilde mang
 |Validering av sikkerhetsbillett
 |Forretningstjeneste
 |Tjeneste for å validere gyldigheten av sikkerhetsbilletten. Med en gyldig sikkerhetsbillett skal det ikke være nødvendig å validere grunnlaget eller innholdet i sikkerhetsbilletten. 
+
+|Svar på forespørsel
+|Forretningsobjekt
+|Informasjonen som avgis til konsument som svar på en forespørsel.
 
 |===
 
