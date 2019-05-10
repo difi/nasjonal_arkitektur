@@ -1,0 +1,45 @@
+:lang: no
+:doctitle: Veiledning til valg av referansearkitekturer 
+
+:toclevels: 4
+
+:keywords: Norsk, arkitekturbibliotek, offenlig sektor, virksomhetsarkitektur, NIF, samhandlingsarkitektur, rammeverk, GitHub
+
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+:leveloffset: +1
+
+
+
+
+= Generelt
+
+
+image:../plattform_felles/media/i-arbeid.png[width=45, height=45] I arbeid
+
+Utforming av arkitekturer og løsninger er ingen eksakt vitenskap. Tilsvarende er heller ikke valg av referansearkitekturer nødvendigvis enkelt. Mange faktorer kan spille inn på valg av referansearkitektur, avhengig av behov, forutsetninger og kontekst.
+
+I det følgende gis først en oversikt over ulike faktorer som det kan være aktuelt å vurdere. Det gis deretter en skisse til en mer metodisk tilnærming, speselt med fokus på å få til samhandlingsevne i tverrgående prosesser, dvs. integrerte tjenesterpå tvers av organisajonsgrenser.
+
+
+//= Begrepsapparat i tilknytning til valg av referansearkitekturer for datautveksling 
+
+//include::./begrepsapparat.adoc[]
+
+
+//= Metode basert på vurdering av kapabiliteter og kvalitetskrav
+
+//include::./metode-kapabiliter-og-kvalitetskrav.adoc[]
+
+
+= Faktorer å vurdere ved valg av referansearkitekturer innen området _datautveksling_ 
+
+include::./faktorer-datautveksling.adoc[]
+
+
+= Metode for valg av referansearkitekturer i tverrgående samhandlingsløsninger
+
+include::./metode-eif-forretningsdrevet.adoc[]
+
+
+:leveloffset: -1
