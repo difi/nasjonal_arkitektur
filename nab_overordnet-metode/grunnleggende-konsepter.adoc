@@ -45,4 +45,7 @@ include::../nab_overordnet-metode/abstraksjonsnivaer.adoc[]
 
 
 = Om kapabilitetetsbasert planlegging for arkitekturstyring i offentlig sektor
+
+image:../plattform_felles/media/i-arbeid.png[width=45, height=45] Foreløpig innhold
+
 include::../nab_overordnet-metode/konsepter-kapabilitetsbasert-arkitekturstyring.adoc[]

@@ -13,11 +13,14 @@ Deling av data initiert av databruker. Dette kan være å spørre om data gjenno
 
 Data gjennom en tjeneste/API kan gi mer avanserte tilganger for spørring i datasett med ulike metoder og tilgangsnivåer. Dette vil være måten å dele data nært opp til sanntid for bruk i saksbehandlingsprosesser og liknende når tilgangskal gis etter hvilke rettigheter den enkelte bruker har til dataene. Et eksempel på dette er oppslag i folkeregisteret hvor ulike brukere kan ha ulike tilganger etter hva de har av hjemler og behov.
 
-Videre nedbryting av kapabiliteterer innen dette området:
+En foreløpig videre nedbryting av kapabiliteterer innen dette området vises her:
 
 
 image:../nab_referanse_arkitekturer_eoppslag/media/Deling på forespørsel.png[alt="Bilde mangler", width=750,link=https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/e7e6c527-26f4-461c-b4dd-651fcbe85c8d/views/4b722aae-1323-46b0-bcac-e730d418b190.html]
 
+NOTE: Denne nedbrytingen er gjort i tilknytning til arbeidet med link:../nab_referanse_arkitekturer_eoppslag/[referansearkitektur for eOppslag] og er videre beskrevt der. Utvidelser til det generelle kapabilitetskartet for _Deling av data på forespørsel_ vil kunne komme.
+
+////
 [cols ="1,1,3", options="header"]
 .Elementer i figur for deling av data på forespørsel
 |===
@@ -82,3 +85,4 @@ endif::erik2[]
 |Evnen til å slå opp og hente data gjennom et API.
 
 |===
+////

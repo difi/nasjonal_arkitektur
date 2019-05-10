@@ -9,7 +9,6 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 [.lead]
 Overordnet rammeverk og metode for arbeidet med nasjonal arkitektur
 
-
 == Generelt
 Arbeidet med nasjonal arkitektur i Norge baserer seg på flere metoder og rammeverk, på tvers av flere fagdisipliner.
 

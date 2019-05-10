@@ -6,6 +6,9 @@
 
 include::../plattform_felles/includes/commonincludes.adoc[]
 
+.
+
+image:../plattform_felles/media/i-arbeid.png[width=45, height=45] Foreløpig innhold
 
 == Overordnede mål
 

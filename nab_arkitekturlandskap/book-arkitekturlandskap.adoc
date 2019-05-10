@@ -19,8 +19,9 @@ Dokumentasjonen av det nasjonale arkitekturlandskapet er i tidlig arbeid.
 
 include::../nab_arkitekturlandskap_strategisk-arkitektur/main.adoc[]
 
-= Segmenarkitekturer
+:leveloffset!:
+== Segmenarkitekturer
 TBD.
 
-= Kapabilitetsarkitekturer
+== Kapabilitetsarkitekturer
 TBD.
