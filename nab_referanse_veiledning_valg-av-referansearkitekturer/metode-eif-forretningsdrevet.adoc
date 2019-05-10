@@ -91,7 +91,7 @@ Når to parter blir enige om en fulldigitalisert prosess, så har man et godt st
 
 === Steg 2 - Identifisere krav og egenskaper ved samhandlingen
 
-Som del av modellering av en digital samhandlingsprosess i steg 1, så er det naturlig å identifisere hvilke behov og krav man har til samhandlingsmønstre og beskrive dette for hver enkelt identifisere samhandling.
+Som del av modellering av en digital samhandlingsprosess i steg 1, så er det naturlig å identifisere hvilke behov og krav man har til samhandlingsmønstre og beskrive dette for hver enkelt identifiserte samhandling.
 
 Dette gjøres best gjennom å forstå behovet for hver enkelt samhandling. Det er viktig at begge partene prater gjennom prosessen sammen, slik at man får en felles forståelse av krav og egenskaper. I dette arbeidet kan man bruke faktorene som er beskrevet i kapittel 2 og se til de ulike interoperabilitetslagene, og på denne måten bestemme hvilke egenskaper som er viktig for den respektive samhandlingen og integrasjonen mellom partene.
 
@@ -139,7 +139,7 @@ Når referansearkitektur er identifisert for hver enkelt samhandling, så blir n
 === Steg 4 - Identifiser løsningsarkitektur
 Når referansearkitektur er identifisert, se steg 3, kan man gå videre å jobbe med løsningsarkitektur.
 
-Fra et arkitekturståsted så består en referansearkitektur av et sett med funksjonelle byggeklosser (ABBer) som representerer funksjonaliteten som kreves for å realisere samhandlingsbehovet. Det vil både kunne være påbudte og valgfrie funksjonelle byggeklosser. Valgfrie byggeklosser benyttes kun der behov og krav til kvalitetsegenskaper tilsier at det kreves. For eksempel vil ikke alle samhandlingsbehov kreve kapabiliteten meldingskryptering for eOppslag.
+Fra et arkitekturståsted så består en referansearkitektur av et sett med funksjonelle byggeklosser (ABBer) som representerer funksjonaliteten som kreves for å realisere samhandlingsbehovet. Det vil både kunne være påbudte og valgfrie funksjonelle byggeklosser. Valgfrie byggeklosser benyttes kun der behov og krav til kvalitetsegenskaper tilsier at det kreves. For eksempel vil ikke alle samhandlingsbehov kreve kapabiliteten konfidensialitetssikring for eOppslag.
 
 Hver av de funksjonelle byggeklossene kan realiseres av en eller flere løsningskomponenter (SBBer). En funksjonell byggekloss kan ha flere mulige løsningskomponenter. Rett løsningskomponent velges basert på behov og kvalitetsegenskapene som kreves, og som best svarer på behov og krav til kvalitetsegenskaper, inkludert behov avdekket som del av risikoanalyse for sikkerhet og personvern. Se følgende konseptuelle figur.
 
