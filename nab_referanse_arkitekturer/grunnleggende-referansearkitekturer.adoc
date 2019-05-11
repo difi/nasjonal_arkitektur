@@ -1,0 +1,14 @@
+:lang: no
+:doctitle: Grunnleggende referansearkitekturer
+:keywords: Referansearkitekturer
+:toclevels: 3
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+:leveloffset: +1
+= EIRA - European Interoparability Reference Architecture
+include::../nab_referanse_arkitekturer_eu_eira/book-ra-eira.adoc[]
+
+
+= TOOPRA - The Once Only Principle Reference Architecture 
+include::../nab_referanse_arkitekturer_eu_toopra/book-ra-toopra.adoc[]
+:leveloffset: -1

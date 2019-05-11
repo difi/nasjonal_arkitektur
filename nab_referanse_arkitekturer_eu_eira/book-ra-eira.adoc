@@ -1,0 +1,11 @@
+:lang: no
+:doctitle: EIRA - European Interoperability Reference Architecture
+:keywords: eNotifikasjon
+
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+[.lead]
+European Interoperability Reference Architecture (EIRA) er en generisk referansearkitektur som  definerer metamodeller med de mest sentrale arkitekturbyggeklossene som behøves for å bygge interoperable systemer i offentlig sektor.
+
+== Introduksjon til EIRA
+include::../nab_referanse_arkitekturer_eu_eira/ra-eira-intro.adoc[]

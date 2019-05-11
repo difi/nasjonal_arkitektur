@@ -12,7 +12,7 @@ Arbeid med prioriterte nasjonale referansearkitekturer er et pågående samarbei
 
 
 :leveloffset: +1
-= Generelt om referansearkitekturer og arbeidet med dette på nasjonalt nivå 
+= Generelt om referansearkitekturer og arbeidet med dette på nasjonalt ASnivå 
 
 //image:../plattform_felles/media/i-arbeid.png[width=45, height=45] #I arbeid (deler av innholdet flyttes)#
 
@@ -28,8 +28,7 @@ include::../nab_referanse_arkitekturer/kapabilitetsområder.adoc[]
 ////
 
 = Grunnleggende referansearkitekturer
-== EIRA -European Interoparability ReferenceArchitecture
-TBD.
+include::../nab_referanse_arkitekturer/grunnleggende-referansearkitekturer.adoc[]
 
 
 = Spesifikke referansearkitekturer
