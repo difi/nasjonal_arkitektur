@@ -24,43 +24,40 @@ eOppslag er en referansearkitektur for oppslag i data gjennom synkrone API-kall.
 
 Referansearkitekturen dekker både sikrede API-er og API-er som tilbyr åpent tilgjengelige data uten tilgangsbegrensninger.
 
-eOppslag som referansearkitektur gir videre ingen begrensninger i forhold til  hva slags informasjon det gjelder, om det er strukturerte eller ustrukturerte data eller hva data skal brukes til. Tilbyder og konsument av data kan være på tvers av virksomheter eller innenfor samme virksomhet.
+eOppslag som referansearkitektur gir ingen begrensninger i forhold til  hva slags informasjon det gjelder, om det er strukturerte eller ustrukturerte data eller hva data skal brukes til. Tilbyder og konsument av data kan være på tvers av virksomheter eller innenfor samme virksomhet.
 
 Eksempler på bruk:
 
 * Innhenting av data fra en annen virksomhet som ledd i en saksbehandingsprosess.
 * Oppslag i dataregister, f.eks. Folkeregisteret.
-* Oppslag av i data innen en virksomhet underveis i en _tverrgående prosess_.
+* Innhenting av data innen en virksomhet underveis i en _tverrgående prosess_.
 
 
-== Struktur på beskrivelsene
-Det gis først en overordnet beskrivelse av kapabilitetene som inngår i eOppslag. Disse kapabilitetene beskrives videre i egne modeller som viser realiseringen i verdikjeder og prosesser. Det vises også til forretningstjenestene og noe av den sentrale informasjonen som benyttes i prosessene.
-
-Modellene i beskrivelsene viser relasjonene mellom de ulike elementene, og elementene er forklart i tabellene under hver modell. Elementer som benyttes flere ganger, f.eks. rollen som tilbyder, forklares kun tilknyttet modellen på høyest nivå.
-
-NOTE: Det er også publisert klikkbare Archimate-modeller under https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/. De aktuelle modellene kan nås gjennom hyperlenking fra figurene her.
-
-Det skilles mellom generiske arkitekturmønstre og løsningsmønstre. Først beskrives de generiske arkitekturmønstrene, uten kobling til spesifikke løsninger. Det gis deretter mer løsningsnære beskrivelser som inkluderer god praksis for bruk av _nasjonale fellesløsninger_.
 
 
-De detaljerte beskrivelsene har separate underkapitler om klargjøring og operativ deling av data.
+== Dokumentstruktur
+Det gis først en overordnet beskrivelse av kapabilitetene som er relevante for eOppslag. Deretter beskrives realiseringen av hver kapabilitet gjennom modeller for rene arkitekturmønstre (uten kobling til spesifikke løsninger) og løsningsmønstre som angir god praksis for bruk av _nasjonale fellesløsninger_).
 
-//å klargjøre for deling av data på forespørsel. Det er prosessene som må til for å tilgjengeliggjøre API-er, klienter og å sette opp tilganger både fra tilbyder og konsument sin side. Den andre grupperer de prosessene som inngår i den faktiske delingen av data på forespørsel.
+De detaljerte beskrivelsene har separate underkapitler om henholdsvis klargjøring og operativ deling av data.
+
+NOTE: Beskrivelsene som omhandler oppsett og bruk av _tilgangsstyring_ er ikke relevante for API-er som tilbyr åpent tilgjengelige data.
+
+Selve beskrivelsene er basert på modeller i henhold til Archimate-standarden.
+
+I den tekstlige beskrivelsen her, er modellene vist som figurer. Hvert modellelement er beskrevet i tabeller for hver figur, eventuelt med henvisning til overordnet eller forutgående figur. Det er også publisert klikkbare Archimate-modeller under https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/. Disse fungerer godt, med bare  noen få ekstra klikk for å komme fram til de aktuelle modellene for eOppslag. De aktuelle modellene kan også nås gjennom hyperlenking fra figurene her, men brukergrensesnittet er da mindre hensiktsmessig (nye vinduer eller faner for hvert klikk).   
 
 
-Merk: Beskrivelsene som omhandler oppsett og bruk av tjenester tilknyttet tilgangsstyring, er ikke relevant for API-er som tilbyr åpent tilgjengelige data.
 
-
-== Kapabilitetskart
+== Kapabilitetskart - relevante kapabiliteter
 Modellen under viser de kapabilitetene en tilbyder og en konsument må ha for å dele data gjennom tilgangsstyrte API-er. Dette er en delmengde av det større området som omhandler _Deling av data på forespørsel_. 
 
 
 image:../nab_referanse_arkitekturer_eoppslag/media/Deling på forespørsel.png[alt="Bilde mangler", width=750,link=https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/e7e6c527-26f4-461c-b4dd-651fcbe85c8d/views/4b722aae-1323-46b0-bcac-e730d418b190.html]
 
-Tilbyder må kunne tilgjengeliggjøre data og dette er delt i to kapabiliteter. _Tilgjengeliggjøre API_ omhandler hvordan man registerer og setter opp tilganger. _Avgi forespurte data_ omhandler den operative delingen av data.
+Tilbyder må kunne tilgjengeliggjøre data og dette er delt i to kapabiliteter. _Tilgjengeliggjøre API_ omhandler hvordan man registerer API og setter opp tilganger. _Avgi forespurte data_ omhandler den operative delingen av data.
 
 
-Tilsvarende er det tre detaljerte kapabiliteter tilknyttet konsument og det å innhente data. _Få tilgang til API_ består av prosesser for oppsett av tilgang, _Delegering av rettigheter til databehandler_ må gjøres dersom konsument benytter seg av en databehandler og _Slå opp data gjennom synkront API_ er det konsumenten må gjøre hver gang det gjøres et oppslag.
+Tilsvarende er det tre detaljerte kapabiliteter tilknyttet konsument og det å innhente data. _Få tilgang til API_ består av prosesser for oppsett av tilgang, _Delegering av rettigheter til databehandler_ må gjøres dersom konsument benytter seg av en databehandler og _Slå opp data gjennom API_ er det konsumenten må gjøre hver gang det gjøres et oppslag.
 
 
 [cols ="1,1,3", options="header"]

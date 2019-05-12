@@ -10,7 +10,7 @@ _Generic Federated OOP Architecture_ (TOOPRA) er en generisk referansearkitektur
 
 image:../nab_referanse_arkitekturer_eu_toopra/media/toop-logo.png[]
 
-== Introduksjon
+== Introduksjon til TOOPRA
 include::./intro-ra-toopra.adoc[]
 
 
