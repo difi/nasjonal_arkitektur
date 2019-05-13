@@ -16,7 +16,7 @@ Nasjonalt arkitekturbibliotek er en plattform for samproduksjon og deling av ark
 include::../plattform_praktiske-tips_github/main.adoc[]
 
 :leveloffset: -1
-== Praktiske tips om redigering med Asciidoc
+== Praktiske tips om redigering med  Asciidoc
 :leveloffset: +1
 include::../plattform_praktiske-tips_asciidoc/main.adoc[]
 

@@ -25,7 +25,7 @@ NOTE: Github ble oppkjøpt av Microsoft i 2018.
 Github kan brukes til å lagre vilkårlige dokumenttyper, men egner seg best til tekstbaserte dokumenter, dvs. dokumenter hvor kildeformatet er rå tekst. Det er dette _git_ ble laget for, og da opprinnelig for versjonsstyring og samarbeid om 
 kode (programvare).
 
-Markupspråk som Markdown og Asciidoc lar deg skrive dokumenter i ren tekst, og egner seg tilsvarende godt for den funksjonaliteten som finnes rundt versjonsstyring i Github. Asciidoc er valgt her, fordi dette er lett å komme i gang med for nye brukere, samtidig som det gir avanserte muligheter for erfarne brukere. Asciidoc som kildeformat foretrekkes framfor f.eks. Microsoft Word, fordi det framstår som mer åpent og "prosesseringsvennlig". Se link:../plattform_praktiske-tips_asciidoc/main.adoc[Praktiske tips on Asciidoc] for mer informasjon.  
+Markupspråk som Markdown og Asciidoc lar deg skrive dokumenter i ren tekst, og egner seg tilsvarende godt for den funksjonaliteten som finnes rundt versjonsstyring i Github. Asciidoc er valgt her, fordi dette er lett å komme i gang med for nye brukere, samtidig som det gir avanserte muligheter for erfarne brukere. Asciidoc som kildeformat foretrekkes framfor f.eks. Microsoft Word, fordi det framstår som mer åpent og "prosesseringsvennlig". Se link:../plattform_praktiske-tips_asciidoc/[Praktiske tips on Asciidoc] for mer informasjon.  
 
 Standard utvekslingsformater for modelleringsspråk som Archimate, BPMN, DMN og UML er også tekstbaserte, og egner seg for versjonsstyring i Github.    
 
