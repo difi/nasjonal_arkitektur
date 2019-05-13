@@ -36,8 +36,8 @@ Asciidoctor er det programmet som (per 2018) brukes for å generere html5 for pu
 
 Se også tips om  
 
-. link:../kunnskap_verktøy_asciidoctor/main.adoc[Mer om Asciidoctor].
-. link:../plattform_praktiske-tips_github/main.adoc[Praktiske tips om bruk av Github].
+. link:../kunnskap_verktøy_asciidoctor/[Mer om Asciidoctor].
+. link:../plattform_praktiske-tips_github/[Praktiske tips om bruk av Github].
 
 
 === Om Felles-mappen
