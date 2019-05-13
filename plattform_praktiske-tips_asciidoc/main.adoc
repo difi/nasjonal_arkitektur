@@ -163,10 +163,8 @@ Følgende Asciidoc...
 
 [red yellow-background]#Erik 2018-08-19: Er denne beskrivelsen god nok#
 
-Det eneste som behøvesfor å fjerne alle Eriks kommentarer fra visningen er å kommentere ut definisjonen av atributten, slik:
+Det eneste som behøvesfor å fjerne alle Eriks kommentarer fra visningen er å kommentere ut definisjonen av attributten (to skråstreker "//" først på linjen, dvs. "//:Eriks-kommentarer:").
 
- [blue]#//:Eriks-kommentarer:#
- 
 
 === Konvensjon for adressering av bildefiler
 Bildefiler inkluderes i asciidoc gjennom et eget [blue]_image-direktiv_ der adresseringen regnes relativt ut fra gjeldende setting av attributten [blue]_imagesdir_. Om denne attributten ikke er satt, eller eventuelt er resatt gjennom direktivet [blue]_:imagesdir!:_, tas mappen som den aktuelle asciidoc-filen ligger i son utgangspunkt.
