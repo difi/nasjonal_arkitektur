@@ -5,11 +5,11 @@
 include::../plattform_felles/includes/commonincludes.adoc[]
 
 
-_Generic Federated OOP Architecture_ er en generisk referansearkitektur fra EU som er tatt fram for å støtte offentlige virksomheter i å realisere "the once only principle" (OOP) på tvers av landegrensene. OOP-arkitekturen kan også benyttes internt i hvert land.
+TOOPRA - The Once Only Principle referencearchitecture - er en generisk referansearkitektur fra EU som er tatt fram for å støtte offentlige virksomheter i å realisere "the once only principle" (OOP) på tvers av landegrensene. OOP-arkitekturen kan også benyttes internt i hvert land.
 
-Andre betgnelser på denne referansearkitekturen er _OOP-arkitekturen_ er TOOPRA 
+Andre betegnelser på denne referansearkitekturen er _Generic Federated OOP Architecture_ eller bare   _OOP-arkitekturen_. 
 
-_OOP-arkitekturen_ samsvarer med EIF og EIRA.Dette er overordnede,  eksisterende rammeverk og referansearktektur.
+_TOOPRA_ samsvarer med EIF og link:../nab_referanse_arkitekturer_eu_eira[EIRA]. Dette er overordnede, eksisterende rammeverk og referansearktektur.
 
 _OOP-arkitekturen_  er beskrevet på samtlige arkitekturlag i TOGAF, dvs. forretning, data. applikasjon og teknologi, med ulike visninger (_views_) med utgangspunkt i TOGAf og Archimate som modelleringsspråk.
 

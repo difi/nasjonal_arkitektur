@@ -161,9 +161,9 @@ Følgende Asciidoc...
 
  vil vise kommentaren slik 
 
-[red yellow-background]#Erik 2018-08-19: Er denne beskrivelsen god nok#
+[red yellow-background]#Erik 2018-08-19: Er denne beskrivelsen god nok?#
 
-Det eneste som behøvesfor å fjerne alle Eriks kommentarer fra visningen er å kommentere ut definisjonen av attributten (to skråstreker "//" først på linjen, dvs. "//:Eriks-kommentarer:").
+Det eneste som behøves for å fjerne alle Eriks kommentarer fra visningen er å kommentere ut definisjonen av attributten (to skråstreker "//" først på linjen, dvs. "//:Eriks-kommentarer:").
 
 
 === Konvensjon for adressering av bildefiler
