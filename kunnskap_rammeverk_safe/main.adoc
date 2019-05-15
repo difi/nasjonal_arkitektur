@@ -1,0 +1,1 @@
+include::book-safe.adoc[]

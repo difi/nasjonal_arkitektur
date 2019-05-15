@@ -1,0 +1,34 @@
+:lang: no
+:doctitle: SAFE on Capabilities, Features & User Stories  
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+image:../kunnskap_rammeverk_safe/media/safe-logo.png[]
+
+//[.lead]
+//_SAFE_ ...
+
+////
+////
+
+== Features vs. Capabilities (vs. User Stories)
+
+Se https://www.scaledagileframework.com/features-and-capabilities/
+
+A Feature is a service that fulfills a stakeholder need. Each feature includes a benefit hypothesis and acceptance criteria, and is sized or split as necessary to be delivered by a single Agile Release Train (ART) in a Program Increment (PI).
+
+A Capability is a higher-level solution behavior that typically spans multiple ARTs. Capabilities are sized and split into multiple features to facilitate their implementation in a single PI.
+
+[red]#Avoid defining features with the ‘user story voice’ format that’s designed to support one user role; features typically provide functionality for multiple user roles.#
+
+
+image:../kunnskap_rammeverk_safe/media/features-in-the-safe-context.png[]
+
+Figure 1 shows that solutions are developed using features. Each reflects a service provided by the system that fulfills some important stakeholder need. They are maintained in the Program Backlog and are sized to fit in a PI so that each delivers new value. Features can originate from either the local context of the ART or they may result from splitting Epics or capabilities. The Program and Solution Kanban systems support the flow of features and capabilities, where they progress through the funnel, analyzing, backlog, implementing, validating, deployment, and release states. This process provides reasoned economic analysis, technical impact, and strategy for incremental implementation. Product Management and System Architect/Engineering own the features and enablers, respectively. Nonfunctional Requirements (NFRs) define system attributes such as security, reliability, performance, maintainability, scalability, and usability. NFRs serve as constraints or restrictions on the design of the system across the different backlogs. Features are prioritized using Weighted Shortest Job First (WSJF) and are planned and reviewed at PI boundaries. They are split into Stories, and are implemented, integrated, tested, and demonstrated as the functionality becomes available.
+
+== Splitting Features and Capabilities 
+Capabilities must be decomposed into features to be implemented. They, in turn, are split into stories consumable by teams within an iteration. SAFe provides ten patterns for splitting work, as described in Leffingwell [1], chapter 6. Workflow steps Business rule variations Major effort Simple/complex Variations in data Data methods Deferring system qualities Operations Use-case scenarios Breaking out a spike Figure 4 illustrates splitting a capability into features.
+
+
+image:../kunnskap_rammeverk_safe/media/a-capability-split-into-features.png[]
+
+            

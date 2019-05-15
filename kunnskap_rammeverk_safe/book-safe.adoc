@@ -1,0 +1,20 @@
+:lang: no
+:doctitle: SAFe - Scaled Agile Framework for lean enterprises
+//:keywords: ...
+
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+image:../kunnskap_rammeverk_safe/media/safe-logo.png[]
+
+[.lead]
+SAFe® for Lean Enterprises is a knowledge base of proven, integrated principles, practices, and competencies for Lean, Agile, and DevOps.
+
+
+
+== Introduksjon til SAFE
+include::../kunnskap_rammeverk_safe/intro-safe.adoc[]
+
+== Features vs. Capabilities (vs. User Stories)
+
+include::../kunnskap_rammeverk_safe/safe-on-capabilities.adoc[]
+
