@@ -7,13 +7,20 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 == Nivå 1 områder (overordnet) 
 
-Følgende figur viser utvalgte _overordnede kapabilitetsområder_ innen Nasjonal arkitektur. 
+Følgende figur viser utvalgte _overordnede kapabilitetsområder_ innen Nasjonal arkitektur for samhandling.
+
+// Henrik: Skal vi lenke til NIFen? Eventuelt noe annet på samhandlingsarkitektur?
+
+Beskrivelser av områder og kapabiliteter er avgrenset til å beskrive områder og kapabiliteter inne deling av data og nært tilknyttede temaer.
 
 .Figur: Kapabilitetsområder innen Nasjonal arkitektur (i arbeid)
 image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media\områder-nasjonal-arkitektur.png[]
 
 
 == Nivå 2 områder
+
+Nivå 2 bryter de overordnede områdene ned i mer detaljerte områder, men fortsatt på et svært overodnet nivå og vil kunne inngå i en overodnet kartlegging. 
+
 === Datadeling
 
 
@@ -21,6 +28,9 @@ image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media\om
 image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media\områder-datadeling.png[alt="Bilde mangler"]
 
 == Nivå 3 områder og overordnede kapabiliter
+
+Nivå 3 bryter nivå 2 områder ytterligere ned i mer detaljerte områder. Dette nivået vil først beskrives i detalj når man går inn og analyserer og jobber med et område. Dette må sees i sammenheng og gjøres i parallell med at man beskriver kapabilitetene som inngår i området. 
+
 === Datautveksling
 Området _datautveksling_ er brutt ned i delområder som vist i følgende figur.
 
