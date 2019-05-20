@@ -12,7 +12,7 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 SAFe® for Lean Enterprises is a knowledge base of proven, integrated principles, practices, and competencies for Lean, Agile, and DevOps.
 
-The Framework is supported by the SAFe Community Platform, Customer Success Team, and an extensive network of 200+ Scaled Agile Partners providing platform, training, consulting, and implementation services in almost every region of the world. And while every business situation is unique, we have found that the SAFe Implementation Roadmap always delivers results. For more on SAFe, please browse the website and subscribe to SAFe updates, where you will be the first to get notification of new developments.
+The Framework is supported by the SAFe Community Platform, Customer Success Team, and an extensive network of 200+ Scaled Agile Partners providing platform, training, consulting, and implementation services in almost every region of the world. And while every business situation is unique, we have found that the SAFe Implementation Roadmap always delivers results. 
 
 
 

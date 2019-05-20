@@ -1,1 +1,1 @@
-include::kunnskapsbibliotek.adoc[]
+include::book_kunnskapsbibliotek.adoc[]
