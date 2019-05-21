@@ -3,6 +3,134 @@
 :keywords: Modelleringskonvensjoner
 
 include::../plattform_felles/includes/commonincludes.adoc[]
-== Generelt
 
-TBD.
+image:../plattform_felles/media/i-arbeid.png[width=45, height=45, alt="Figur: i-arbeid.png?",]Uferdig innhold - første versjon er fremdeles i arbeid
+
+== Generelt
+Konvensjoner for arkitekturmodellering i aktuelle arkitekturspråk, dvs. primært Archimate, BPMN, UML (dessuten planlagt DMN, CMMN).
+
+Dette inngår i et overordnet sett av dokumentasjonskonvensjoner, der også konvesjonell  tekstlig dokumenntasjon inngår.    
+
+== Modelleringsprinsipper
+Her kommer informasjon om styrende prinsipper for modellering.
+
+Foreløpig liste over temaer:
+
+* Kombinasjon av modelleringsspråk
+* Tjenesteorientert arkitektur (SOA)
+* Viewpoints for målgrupper
+* Enhetlig tilnærming på tvers av modelleringsspråk 
+* Klart skille mellom abstraksjonnivåer
+* Visuelle modeller framfor attributter og tekst
+
+
+== Grunnleggende begrepsapparat
+
+=== Generelle begreper relatert til modeller 
+
+Modell 
+Konsept
+Element
+Relasjon
+Visningsmal (Viewpoint)
+Visning (Wiew)
+
+=== Konsepter
+Kapabilitet
+Funksjon
+Prosess
+Aktør
+Rolle
+
+IT-system
+Applikasjon
+Infrastruktur
+Teknologi
+
+Informasjon
+Strukturert informasjon
+Ustrukturert informasjon
+
+Data
+Dokument
+
+Datasett
+Informasonselement
+
+
+== Navnekonvensjoner (norsk)
+=== Generelt
+Som hovedregel følges navnkonvensjonene som er gitt i Archimate-standarden. Her gis unntak, presiseringer  og utdyping.
+
+=== Navning av _kapabiliteter_
+
+* [underline]#*Hovedregel:*# Bruk ord som passer inn i setningsmalen: "Rolle/aktør/system må evne å <kapabilitetsnavn>." Dette vil normalt være _verb i infinitiv form_. 
++
+Eksempel: En datakonsument må evne å _Innhente data_.
+
+* [underline]#*Unntak:*#
+Om det dreier seg om innarbeidede ord som kommuniserer bedre, kan det benyttes ord som passer inn i følgende alternative setningsmal: "Rolle/aktør/system må evne å gjøre <kapabilitetsnavn>". Dette vil normalt være _Verbalsubstantiv_.
++
+Eksempel: "En virksomhet må evne å gjøre _Informasjonsforvaltning_". 
+
+
+TIP: En kan også godt si "En virksomhet må evne å _Forvalte informasjon_". Kommuniserer dette meningen like godt, er det kanskje bedre å bruke? 
+
+NOTE: På engelsk fungerer det bedre   med_Verbalsubstantiv_ enn på norsk. En kan f.eks. godt si _Data reception_ (mens ordet _Datamottaking_ vel ikke finnes på norsk). 
+
+
+=== Navning av _prosesser_ 
+Hovedregel: Bruk verb i imperativ form.
+
+Eksempel: _Innhent data_.
+
+
+
+== Archimate extensions
+=== Attributter
+Kommer her: Datamodell med angivelse av attributter og gyldige verdier for ulike modellelementer, med spesifikasjon av hva som er generisk/felles og hva som er spesielt for visse konsepter.   
+
+=== Konsepter
+==== EIRA Cartograhy
+==== Risikomodellering
+==== Spesialisering av association-relasjoner
+
+
+=== Symboler
+
+
+== Konvensjoner for abstraksjon i Archimate 
+Archimate-standarden gir rom for flere tolkninger og ulik praksis når det gjelder "abstraksjon".
+
+Hvordan modellere konseptuelle,logiske og fysiske begreper.
+
+Hvordan modellerer arkitekturbyggeklosser vs. løsningsbyggeklosser.
+
+== Realisering av kapabiliteter 
+
+== Realisering av forretningstjenester
+
+== Modellering av Web Services i Archimate
+SOAP, REST, micro services,...
+
+== Modellering av helt  eller delvis automatiserte prosesser i Archimate
+
+== Kombinasjon av modelleringsspråk for prosessmodellering
+
+Archimate: Verdikjeder, identifisering av prosesser. Automatisering av prosesser i IT-systemer (applikasjoner og infrastruktur). 
+
+BPMN: Detajerte prosessmodeller
+
+UML: Klassediagrammer for informasjon og data
+
+=== Layout
+Størrelse på symboler
+Alignment
+Nesting
+Visning av relasjonsnavn  
+
+
+== Annet
+...
+
+
