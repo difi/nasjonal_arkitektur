@@ -21,6 +21,52 @@ NOTE: Slik områder tilsvarer det som http://pubs.opengroup.org/architecture/tog
 Med _kapabilitet_ menes en _evne_ som er forbundet med en rolle eller en aktør. Slike aktører kan være organisasjoner, personer eller tekniske systemer.
 Realiseringen av en kapabilitet gjøres igjen typisk gjennom organisasjoner, mennesker, prosesser og teknologier, gjerne i kombinasjon. 
 
+//Henrik: legge inn beskrivelse av kapabilitet her
+Kapabiliteter beskrives hovedsakelig som Archimate-elementer. For å beskrive kapabilitetene har vi definert et sett med attributter som kan inngå i elementene. Dette er synliggjort i figuren under. Kapabiliteter kan også beskrives i tekst eller i tabeller, noe som kan være hensiktsmessig i visse tilfeller, men det tas utgangspunkt i at modellene er de som er styrende. 
+
+Vi har valgt å åpne for både norsk og engelsk beskrivelse av kapabiliteten. Dette for enklere å kunne knytte arbeidet opp mot referanser og modeller fra andre land og særlig EIRA og TOOP referansearkitektur fra EU.
+
+image:../nab_overordnet-metode/media/beskrivelse_kapabilitet.png[]
+
+[cols ="3,3,7,1", options="header"]
+.Attributter i beskrivelsen av en kapabilitet i Arci
+|===
+|Attributt
+|
+|Beskrivelse
+|Kardinalitet
+
+|Type
+|dct:type
+|Type element, for kapabilitet vil dette være av typen capability
+|1
+
+|Navn
+|difi:name
+|Navn på kapabiliteten. Det kan oppgis navn på norsk og engelsk
+|1..*
+|Beskrivelse
+|difi:description
+|Beskrivelse av kapabiliteten, kan være på norsk og engelsk.
+|0..*
+
+|Visningsspråk
+|difi:language
+|Det språket navnet på kapabiliteten skal vises. Default språk er norsk dersom visningsspråk ikke er oppgitt og det er oppgitt flere språk.
+|0..1
+
+|Namespace
+|difi:namespace
+|Attributt for å gi elementet en unik identifikator eller tilhørighet. F.eks. at det er innenfor Difis domene, eller er hentet fra EIRA.
+|0..1
+
+|Label
+|label
+|Attributt for å sette på informasjon som f.eks. viser hvem som har laget det eller hvor det kommer fra. Benyttes friere enn namespace. 
+|0..1
+
+|===
+
 Hvordan realiseringen av kapabiliteter er gjort eller planlegges, finnes i beskrivelser av arkitekturer og løsninger. 
 Det kan også tas fram referansearkitekturersom for å gi veiledning til hvordan realiseringen kan gjøres.
 
