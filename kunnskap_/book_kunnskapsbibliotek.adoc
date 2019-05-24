@@ -95,18 +95,25 @@ Tips om spesielt relevante og interessante bøker for virksomhetsarkitekter og a
 . Estland: Datamodeller
 
 ==== Foundation Architectures
-===== The Open Group: IT4IT
-link:../kunnskap_referansearkitektur-the-opengroup-it4it[The OpenGroup's IT4IT] - en standard referansearkitektur for verdikjedene i utvikling og og forvaltning av IT-tjenester.
+. link:../kunnskap_referansearkitektur-the-opengroup-it4it[The OpenGroup's IT4IT] - en standard referansearkitektur for verdikjedene i utvikling og og forvaltning av IT-tjenester.
 
-===== The Open Group: The TOGAF® Technical Reference Model (TRM)
+. The Open Group: The TOGAF® Technical Reference Model (TRM)
 
-===== The Open Group: Technology Base Reference Models for Open Platform 3.0
+. link:https://1drv.ms/b/s!Ao0VyYhs1XdLhc0J9VFSjTVqOvu_1g[The Open Group Technology Base Reference Models for Open Platform 3.0.pdf]
 
-link:https://1drv.ms/b/s!Ao0VyYhs1XdLhc0J9VFSjTVqOvu_1g[Technology Base Reference Models for Open Platform 3.0.pdf]
+. link:../kunnskap_referansearkitektur_eu-eira[EIRA]
+
+. TOOPRA
+
+. link:../kunnskap_referansearkitektur_iiconsortium-iira[The Industrial Internet of Things Refernce Architecture (IIRA IIoT]
+
 
 ===== Common Systems Architectures
 
-link:http://www.opengroup.org/iot/wp-refarchs/p3.htm[The Open Group: For Internet of Things Reference Architectures]
+
+. link:http://www.opengroup.org/iot/wp-refarchs/p3.htm[The Open Group: For Internet of Things Reference Architectures]
+
+
 
 
 ===== Industry Arhitectures
