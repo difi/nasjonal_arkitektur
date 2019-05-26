@@ -1,100 +1,114 @@
 :lang: no
-:doctitle: Kunnskapsbibliotek
+:doctitle: Kunnskapsbibliotek - eksterne referanser for Nasjonalt arkitekturbibliotek
 :keywords: Kunnskapsbibliotek
 
 :toclevels: 4
 include::../plattform_felles/includes/commonincludes.adoc[]
 
 
-image:../plattform_felles/media/i-arbeid.png[width=45, height=45, alt="Figur mangler: i-arbeid.png?",]Uferdig innhold - første versjon er fremdeles i arbeid
-
-
 
 [.lead]
-Her finnes en samling av diverse grunnlagsinformasjon for felles forståelse og kunnskapsbygging på tvers. Dette kan være lenker og omtale av internasjonale standarder, utvalgte bøker, verktøy, arkitekturrammeverk fra andre land, med videre. Kom gjerne med forslag til innhold. Se link:../plattform_praktiske-tips[praktiske tips] om hvordan.
+Nasjonalt kunnskapsbibliotek inneholder omtaler og lenker til eksterne ressurser for utvalgte temaer. Nasjonalt arkitekturbibliotek vil peke til eller inkludere innhold som finnes her.
+
+image:../plattform_felles/media/i-arbeid.png[width=45, height=45, alt="Figur mangler: i-arbeid.png?",]Eksperimentelt innhold
 
 // NB: Generering av innholdsfortegnelse og lenker må automatiseres
 
 == Generelt om dette kunnskapsbiblioteket 
-Figur som viser sammenhengen mellom temaene, samt forholdet til styrende mål og strategier: [red]#TBD#
+Her finnes en samling av grunnlagsinformasjon i tilknytning til link:../nab_[Nasjonalt arkitekturbibliotek]. Dette kan være lenker og omtale av internasjonale standarder, utvalgte bøker, verktøy, arkitekturrammeverk fra andre land, med videre.
+
+Hensikten er todelt:
+
+a. Felles forståelse og kunnskapsbygging på tvers av rollerog virksomheter.
+b. Primær referansekilde for link:../nab_[Nasjonalt arkitekturbibliotek] - for å strukturere referansene og for å holde størrelsen på selve arkitekturbiblioteket nede.
+
+Kom gjerne med forslag til innhold. Se link:../plattform_praktiske-tips[praktiske tips] om hvordan.
+
+//Figur som viser sammenhengen mellom temaene, samt forholdet til styrende mål og strategier: [red]#TBD#
 
 
 == Strategiske temaer
 
-=== Tverrgående prosesser og tjenesteutvikling
-=== Dataanalyse og kunstig intelligens
-=== Datadeling og informasjonsforvaltning
-=== Samhandling og interoperabilitet
+. Tverrgående prosesser og tjenesteutvikling
++
+* link:https://1drv.ms/b/s!Ao0VyYhs1XdLibASLWqxxcnPMtE6sw[Seamless Service Delivery and the IT4IT Standard.pdf]
 
-=== Utviklingsmetodikk
+. Dataanalyse og kunstig intelligens
+. Datadeling og informasjonsforvaltning
+. Samhandling og interoperabilitet
+. Utviklingsmetodikk
 
-==== Program, portefølje- og prosjektstyring.
+. Program, portefølje- og prosjektstyring.
 
-==== Virksomhetsarkitektur
+. Virksomhetsarkitektur
 
-==== Smidig metodikk
-
-link:../kunnskap_rammeverk_safe[SAFe]
-
-
-==== Tjenestedesign
-
-==== Service Integration and Management (SIAM)
-
-Se link:../kunnskap_metode_siam[Service Integration and Management (SIAM)].
-
-==== Gjenbruk av IT-løsninger
-Se link:../kunnskap_tema_gjenbruk/[Tema Gjenbruk av IT-løsninger].
-
-Se også <<ISA² action: Sharing and reuse of IT solutions>>.
+. Smidig metodikk
++
+* link:../kunnskap_rammeverk_safe[SAFe]
 
 
-==== Digital transformasjon
-link:https://1drv.ms/b/s!Ao0VyYhs1XdLhc0L8fCRiZxkTzjzbA[The Seven Levers of Digital Transformation, An Overview.pdf]
+. Tjenestedesign
 
-==== Anskaffelser
-Inkl. sourcing,  
+. link:../kunnskap_metode_siam[Service Integration and Management (SIAM)].
 
-== Ressurser
+. link:../kunnskap_tema_gjenbruk/[Gjenbruk av IT-løsninger].
+//Se også <<ISA² action: Sharing and reuse of IT solutions>>.
 
-=== _Body of Knowledge_ bøker
+. Digital transformasjon
++
+* link:https://1drv.ms/b/s!Ao0VyYhs1XdLhc0L8fCRiZxkTzjzbA[The Seven Levers of Digital Transformation, An Overview.pdf]
 
-==== Data Management Body of Knowledge (DMBOK2)
-link:../kunnskap_bok-dmbok2[2017: Data Management Body of Knowledge (DMBOK2)] er et omfattende og sterkt verk om data- og informasjonsforvaltning fra DAMA, utarbeidet av mange spesialister over flere år. Se også  link:../kunnskap_bok-navigating-the-labyrinth[Navigating the Labyrinth: An Executive Guide to Data Management (2018)], som er en  forkortet og forenklet framstilling av den større og mer kompliserte DMBOK2. 
+. Anskaffelser
 
-==== The Information Management Body of Knowledge (IMBOK)
-Se http://www.imbok.info/.
+// Inkl. sourcing,  
 
-==== Business Architecture Body of Knowledge (BIZBOK)
+== _Body of Knowledge_ ressurser
 
-==== Business Analysis Body of Knowledge (BABOK)
-Se https://www.iiba.org/standards-and-resources/babok/
+. link:http://pubs.opengroup.org/dpbok/snapshot/[Digital Professional Body of Knowledge (DPBOK)]
++
+Draft (snapshot) Published by The Open Group, January 2019. This Snapshot document represents the interim results of what is intended to become the Digital Practitioner Body of Knowledge™ Standard (also known as the DPBoK™). It is being developed by The Open Group Digital Practitioners Work Group (DPWG).
 
-==== Digital Professional Body of Knowledge (DPBOK)
+- link:http://eitbokwiki.org[Enterprise IT Body of Knowledge (EITBOK)]
+
+. link:http://www2.mitre.org/public/eabok/eabok.html[Enterprise Architecture BOK (EABOK)]
+
+. link:../kunnskap_bok-dmbok2[Data Management Body of Knowledge (DMBOK2)]
++
+DMBOK2 (2017)  er et omfattende verk om data- og informasjonsforvaltning fra DAMA, utarbeidet av mange spesialister over flere år. Se også  link:../kunnskap_bok-navigating-the-labyrinth[Navigating the Labyrinth: An Executive Guide to Data Management (2018)], som er en  forkortet og forenklet framstilling av den større og mer kompliserte DMBOK2. 
+
+. link:http://www.imbok.info[The Information Management Body of Knowledge (IMBOK)]
 
 
-=== Andre bøker 
-Tips om spesielt relevante og interessante bøker for virksomhetsarkitekter og andre roller i arbeidet med nasjonal arkitektur.  
+. Business Architecture Body of Knowledge (BIZBOK)
+
+. link:https://www.iiba.org/standards-and-resources/babok/[Business Analysis Body of Knowledge (BABOK)]
+
+
+. Software Engineering Body of Knowledge (SWEBOK®) 
+
+. Project Management Body of Knowledge (PMBOK)
 
 
 
-=== Arkitekturrammeverk fra andre land
+== Arkitekturrammeverk fra andre land
 
 . link:../kunnskap_arkitekturrammeverk-india[indEA - arkitekturrammeverk fra India]
 
 . Arkitekturrammeverk fra Western Australia
 
 
-=== Referansearkitekturer
+== Referansearkitekturer
 
-==== Referansearkitekturer og referansemodeller fra andre land
+=== Referansearkitekturer og referansemodeller fra andre land
 
 . New Zealand: Taksonomier
 . Danmark: Referansearkitekturer for selvbetjening, saksbehandling, tverrgående tjenester, m.m. 
 
 . Estland: Datamodeller
 
-==== Foundation Architectures
+. India: Rammeverk forreferansearkitekturer; flere interessante (tekniske) referansearkitekturer.  
+
+=== Grunnleggende referansearkitekturer (Foundation Architectures)
 . link:../kunnskap_referansearkitektur-the-opengroup-it4it[The OpenGroup's IT4IT] - en standard referansearkitektur for verdikjedene i utvikling og og forvaltning av IT-tjenester.
 
 . The Open Group: The TOGAF® Technical Reference Model (TRM)
@@ -103,40 +117,39 @@ Tips om spesielt relevante og interessante bøker for virksomhetsarkitekter og a
 
 . link:../kunnskap_referansearkitektur_eu-eira[EIRA]
 
-. TOOPRA
-
-. link:../kunnskap_referansearkitektur_iiconsortium-iira[The Industrial Internet of Things Refernce Architecture (IIRA IIoT]
 
 
-===== Common Systems Architectures
 
+=== Felles referansearkitekturer (Common Systems Architectures)
+
+. link:../kunnskap_referansearkitektur_eu-toopra[TOOPRA]
+
+. link:../kunnskap_referansearkitektur_iiconsortium-iira[The Industrial Internet of Things Refernce Architecture (IIRA IIoT)]
 
 . link:http://www.opengroup.org/iot/wp-refarchs/p3.htm[The Open Group: For Internet of Things Reference Architectures]
 
 
+=== Sektorvise referansearkitekturer (Industry Arhitectures)
 
-
-===== Industry Arhitectures
-
-===== Organization-Specific Architectures
+=== Organisasjonsspesifikke referansearkitekturer (Organization-Specific Architectures)
 
 
 
 == Internasjonale aktører og aktiviteter 
 === EU 
 
-==== Generelt om EU i tilknytning til digitalisering
-===== CEF - Connecting Europe Facility
-https://ec.europa.eu/inea/en/connecting-europe-facility
+==== Programmer og finansiering av av digitaliseringsaktiviteter i EU
 
-===== ISA²-programmet
-https://ec.europa.eu/isa2/isa2_en
+. link:https://ec.europa.eu/inea/en/connecting-europe-facility[CEF - Connecting Europe Facility]
+
+. link:https://ec.europa.eu/isa2/isa2_en[ISA²-programmet]
 
 ==== Digital Single Market
-https://ec.europa.eu/digital-single-market/en/news/digital-single-market-mid-term-review
+link:https://ec.europa.eu/digital-single-market/en[Digital Single Market]
 
-==== ISA² action: Sharing and reuse of IT solutions
-Se link:https://ec.europa.eu/isa2/actions/promoting-sharing-and-reuse-interoperability-solutions_en[hjemmesiden for Promoting sharing and reuse of IT solutions].
+==== ISA² actions
+
+. link:https://ec.europa.eu/isa2/actions/promoting-sharing-and-reuse-interoperability-solutions_en[Hjemmesiden for Promoting sharing and reuse of IT solutions].
 
 
 image:../plattform_felles/media/i-arbeid.png[width=45, height=45, alt="==== ",]
@@ -147,4 +160,7 @@ image:../plattform_felles/media/i-arbeid.png[width=45, height=45, alt="==== ",]
 . link:../kunnskap_verktøy_asciidoctor[Asciidoctor]
 . link:../kunnskap_verktøy_asciidoc-fx[Asciidoc FX]
 
+== Andre ressurser 
+Tips om spesielt relevante og interessante bøker m.m. for virksomhetsarkitekter og andre roller i arbeidet med nasjonal arkitektur. 
 
+TBD.

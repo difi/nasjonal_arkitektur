@@ -27,3 +27,5 @@ include::../kunnskap_aktør_eu_sharing-and-reuse-framework/main.adoc[]
 
 = TES Cartography (TESCart)
 include::..//kunnskap_aktør_eu_tes-cartography/main.adoc[]
+
+:leveloffset!:
