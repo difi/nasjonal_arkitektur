@@ -68,7 +68,7 @@ Kom gjerne med forslag til innhold. Se link:../plattform_praktiske-tips[praktisk
 +
 Draft (snapshot) Published by The Open Group, January 2019. This Snapshot document represents the interim results of what is intended to become the Digital Practitioner Body of Knowledge™ Standard (also known as the DPBoK™). It is being developed by The Open Group Digital Practitioners Work Group (DPWG).
 
-- link:http://eitbokwiki.org[Enterprise IT Body of Knowledge (EITBOK)]
+. link:http://eitbokwiki.org[Enterprise IT Body of Knowledge (EITBOK)]
 
 . link:http://www2.mitre.org/public/eabok/eabok.html[Enterprise Architecture BOK (EABOK)]
 
