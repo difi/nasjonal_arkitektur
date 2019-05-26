@@ -8,7 +8,7 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 
 [.lead]
-Nasjonalt kunnskapsbibliotek inneholder omtaler og lenker til eksterne ressurser for utvalgte temaer. Nasjonalt arkitekturbibliotek vil peke til eller inkludere innhold som finnes her.
+_Nasjonalt kunnskapsbibliotek_ inneholder omtaler og lenker til eksterne ressurser for utvalgte temaer i tilknytning til _Nasjonalt arkitekturbibliotek_ og arbeidet med nasjonal virksomhetsarkitektur i Norge.
 
 image:../plattform_felles/media/i-arbeid.png[width=45, height=45, alt="Figur mangler: i-arbeid.png?",]Eksperimentelt innhold
 
