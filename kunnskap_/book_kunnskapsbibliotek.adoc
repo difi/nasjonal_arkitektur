@@ -29,6 +29,11 @@ Kom gjerne med forslag til innhold. Se link:../plattform_praktiske-tips[praktisk
 
 == Strategiske temaer
 
+. Kompetanseområder
++
+* link:https://www.sfia-online.org/en/framework/sfia-7/documentation/sfia-7-the-complete-reference[Skills Framework for the Information Age (SFIA)]
+
+
 . Tverrgående prosesser og tjenesteutvikling
 +
 * link:https://1drv.ms/b/s!Ao0VyYhs1XdLibASLWqxxcnPMtE6sw[Seamless Service Delivery and the IT4IT Standard.pdf]
@@ -106,7 +111,7 @@ DMBOK2 (2017)  er et omfattende verk om data- og informasjonsforvaltning fra DAM
 
 . Estland: Datamodeller
 
-. India: Rammeverk forreferansearkitekturer; flere interessante (tekniske) referansearkitekturer.  
+. India: Rammeverk for referansearkitekturer; flere interessante referansearkitekturer å vurdere gjenbruk av. 
 
 === Grunnleggende referansearkitekturer (Foundation Architectures)
 . link:../kunnskap_referansearkitektur-the-opengroup-it4it[The OpenGroup's IT4IT] - en standard referansearkitektur for verdikjedene i utvikling og og forvaltning av IT-tjenester.
@@ -131,6 +136,9 @@ DMBOK2 (2017)  er et omfattende verk om data- og informasjonsforvaltning fra DAM
 
 === Sektorvise referansearkitekturer (Industry Arhitectures)
 
+TBD: Vurder omtale av arkitekturer og referansearkitekturer fra eHelse m.m. 
+
+
 === Organisasjonsspesifikke referansearkitekturer (Organization-Specific Architectures)
 
 
@@ -153,6 +161,20 @@ link:https://ec.europa.eu/digital-single-market/en[Digital Single Market]
 
 
 image:../plattform_felles/media/i-arbeid.png[width=45, height=45, alt="==== ",]
+
+
+=== The Open Group
+
+. link:https://1drv.ms/b/s!Ao0VyYhs1XdLhc0K1glp5zs05YksRQ[Service-Oriented Architecture Ontology version 2.0]
+
+
+
+=== W3C
+TBD
+
+=== OASIS
+
+=== OMG
 
 
 == Verktøy
