@@ -1,0 +1,15 @@
+= Images in this folder
+
+NOTE: This file may be used to give information about each image, such as the source origin 
+
+WARNING: An empty .adoassets needs to pe present in the media folder in order for the custom asciidoctor compilation to work and include the images
+
+WARNING: Include the relative path of the book and media folderas shown. This is necessary in order for the asciidoctor inclusion of images across books to work 
+
+== EA as knowledge hub (template example)
+
+image:../nab_referanse_maler_asciidoc-book-basic/media/sample-image.png[]
+
+Source: https://bizzdesign.com/blog/driving-business-outcomes-with-enterprise-architecture-as-a-knowledge-hub/
+
+Online image link: https://bizzdesign.com/wp-content/uploads/2016/07/EA_as_knowledge_hub-1.png

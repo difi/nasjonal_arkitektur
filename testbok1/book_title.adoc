@@ -1,0 +1,20 @@
+:lang: no
+:doctitle: <Boktittel>
+:keywords: mal
+
+:toclevels: 3
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+
+
+[.lead]
+Kort, innledende tekst for denne boken
+
+
+== Introduksjon
+
+include::./intro_booktitle.adoc[]
+
+
+// Further chapters to go here - include files or  write directly here 
+

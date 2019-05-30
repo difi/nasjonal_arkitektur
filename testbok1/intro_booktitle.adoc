@@ -1,0 +1,10 @@
+:lang: no
+:doctitle: Introduksjon til <boktittel>
+:keywords: intro
+
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+Denne boken handler om ...
+
+
+image:../nab_referanse_maler_asciidoc-book-basic/media/sample-image.png[]

@@ -5,7 +5,7 @@
 include::../plattform_felles/includes/commonincludes.adoc[]
 
 [.lead]
-NOTE: Innholdet her er er en del av et eksperimentelt _kunnskapsbibliotek_, etablert av Difi i tilknytning til link:../nab_/[Nasjonalt arkitekturbibliotek]. 
+NOTE: Innholdet her er er en del av et link:../kunnskap_[kunnskapsbibliotek], etablert av Difi i tilknytning til link:../nab_/[Nasjonalt arkitekturbibliotek]. 
 
 
 image:../kunnskap_rammeverk_safe/media/safe-logo.png[]

@@ -114,7 +114,8 @@ DMBOK2 (2017)  er et omfattende verk om data- og informasjonsforvaltning fra DAM
 . India: Rammeverk for referansearkitekturer; flere interessante referansearkitekturer å vurdere gjenbruk av. 
 
 === Grunnleggende referansearkitekturer (Foundation Architectures)
-. link:../kunnskap_referansearkitektur-the-opengroup-it4it[The OpenGroup's IT4IT] - en standard referansearkitektur for verdikjedene i utvikling og og forvaltning av IT-tjenester.
+. link:../kunnskap_referansearkitektur_the-opengroup-it4it[The OpenGroup's IT4IT] - en standard referansearkitektur for verdikjedene i utvikling og og forvaltning av IT-tjenester.
+
 
 . The Open Group: The TOGAF® Technical Reference Model (TRM)
 
@@ -131,7 +132,7 @@ DMBOK2 (2017)  er et omfattende verk om data- og informasjonsforvaltning fra DAM
 
 . link:../kunnskap_referansearkitektur_iiconsortium-iira[The Industrial Internet of Things Refernce Architecture (IIRA IIoT)]
 
-. link:http://www.opengroup.org/iot/wp-refarchs/p3.htm[The Open Group: For Internet of Things Reference Architectures]
+. link:http://www.opengroup.org/iot/wp-refarchs/p3.htm[The Open group: Reference Architectures and Open Group Standards for the Internet of Things – Four Internet of Things Reference Architectures]
 
 
 === Sektorvise referansearkitekturer (Industry Arhitectures)

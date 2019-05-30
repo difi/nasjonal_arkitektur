@@ -1,0 +1,23 @@
+:lang: no
+:doctitle: <Boktittel>
+:keywords: mal
+
+:toclevels: 3
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+[.lead]
+NOTE: Innholdet her er er en del av et link:../kunnskap_[kunnskapsbibliotek], etablert av Difi i tilknytning til link:../nab_/[Nasjonalt arkitekturbibliotek]. 
+
+image:../nab_referanse_maler_asciidoc-book-basic/media/sample-logo.png[]
+
+[.lead]
+Kort, innledende tekst for denne boken
+
+
+== Introduksjon
+
+include::./intro_booktitle.adoc[]
+
+
+// Further chapters to go here - include files or  write directly here 
+
