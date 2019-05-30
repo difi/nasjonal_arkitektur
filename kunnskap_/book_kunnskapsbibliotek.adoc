@@ -21,7 +21,11 @@ Hensikten er todelt:
 a. Felles forståelse og kunnskapsbygging på tvers av roller og virksomheter.
 b. Primær referansekilde for link:../nab_[Nasjonalt arkitekturbibliotek] - for å strukturere referansene og for å holde størrelsen på selve arkitekturbiblioteket nede.
 
+
 Kom gjerne med forslag til innhold. Se link:../plattform_praktiske-tips[praktiske tips] om hvordan.
+
+
+WARNING: Krav til kvalitet og prosedyrer for kvalitetssikring er lavere for innholdet her enn i link:../nab_[Nasjonalt arkitekturbibliotek] eller f.eks. link:wikipedia.com[wikipedia]. Løft gjerne innhold fra dette  biblioteket over til Wikipedia (og oppdater refereanser) om kvaliteten er god nok. 
 
 //Figur som viser sammenhengen mellom temaene, samt forholdet til styrende mål og strategier: [red]#TBD#
 

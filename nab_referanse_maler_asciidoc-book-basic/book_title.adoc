@@ -1,10 +1,10 @@
 :lang: no
 :doctitle: <Boktittel>
+:difi_doctype: Basic Book Template
 :keywords: mal
 
 :toclevels: 3
 include::../plattform_felles/includes/commonincludes.adoc[]
-
 [.lead]
 NOTE: Innholdet her inngår i  link:../kunnskap_[Felles kunnskapsbibliotek]  i tilknytning til link:../nab_/[Nasjonalt arkitekturbibliotek]. 
 

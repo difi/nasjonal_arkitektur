@@ -102,7 +102,7 @@ endif::[]
 // data-uri benyttes for å inkludere images i generert html-fil :data-uri:
 :toc: left
 
-// consider deprecate support for preamble and realy on .lead insteads
+// consider deprecate support for preamble and rely on .lead instead
 ifdef::preamble[]
 {preamble}
 endif::[]
