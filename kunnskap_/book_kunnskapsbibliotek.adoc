@@ -1,7 +1,6 @@
 :lang: no
 :doctitle: Kunnskapsbibliotek - eksterne referanser for Nasjonalt arkitekturbibliotek
 :keywords: Kunnskapsbibliotek
-
 :toclevels: 4
 include::../plattform_felles/includes/commonincludes.adoc[]
 

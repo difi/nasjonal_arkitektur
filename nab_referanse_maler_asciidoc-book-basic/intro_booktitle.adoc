@@ -1,10 +1,44 @@
-:lang: no
-:doctitle: Introduksjon til <boktittel>
-:keywords: intro
+////
+Guide to the below header attributes:
 
+    lang: en; no
+    difi_orig_language: en; no
+    difi_translation_status: -; missing; incomplete; OK 
+    keywords_en: comma separated list of english keywords (no controlled vocabulary); TBD
+    keywords_no: comma separated list of Norwegian keywords (no controlled vocabulary); TBD  
+    
+Note: The _lang_ value maybe overridden by a command line parameter.
+////
+
+:lang: no
+:difi_orig_language: en
+:doctitle_en: Introduction to _<Book Title>_
+:doctitle_no: Introduksjon til _<boktittel>_
+:difi_translation_status: incomplete
+:keywords_en: TBD
+:keywords_no: TBD
+:toclevels: 2
+
+// The above paramets are processed by scripts included by the following statement
 include::../plattform_felles/includes/commonincludes.adoc[]
 
+
+
+ifeval::["{lang}" == "no"]
 Denne boken handler om ...
 
-
+.Figur: Eksempelfigur
 image:../nab_referanse_maler_asciidoc-book-basic/media/sample-image.png[]
+
+
+endif::[]
+
+ifeval::["{lang}" == "en"]
+This book is about how to write basic Asciidoc books...
+
+.Figure: Sample figure
+image:../nab_referanse_maler_asciidoc-book-basic/media/sample-image.png[]
+
+endif::[]
+
+

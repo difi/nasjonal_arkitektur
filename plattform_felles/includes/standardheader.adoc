@@ -143,16 +143,32 @@ ifdef::difi_translation_status[]
 ifeval::["{lang}" == "en"]
 //
 ifeval::["{difi_orig_language}" != "en"]
-WARNING: This document was originally written in another language ({difi_orig_language}).
+
+ifeval::["{difi_translation_status}" != "OK"]
+image:../plattform_felles/media/language.png[width=45]This document was originally written in another language ({difi_orig_language}).
+The English translation is marked as __{difi_translation_status}__
+//WARNING: This document was originally written in another language ({difi_orig_language}).
 The English translation is marked as __{difi_translation_status}__
 .
+endif::[]
 endif::[]
 endif::[]
 //
 
 ifeval::["{lang}" == "no"]
 ifeval::["{difi_orig_language}" != "no"]
-WARNING: Dette dokumentet ble opprinnelig skrevet på et annet språk ({difi_orig_language}). Norsk oversettelse er markert som __{difi_translation_status}__
+
+ifeval::["{difi_translation_status}" != "OK"]
+
+image:../plattform_felles/media/language.png[width=45] Dette dokumentet ble opprinnelig skrevet på et annet språk ({difi_orig_language}). Norsk oversettelse er markert som
+__{difi_translation_status}__
+ifeval::["{difi_translation_status}" == "missing"]
+(__ikke oversatt__)
+endif::[]
+ifeval::["{difi_translation_status}" == "incomplete"]
+(__uferdig__)
+endif::[]
+//WARNING: Dette dokumentet ble opprinnelig skrevet på et annet språk ({difi_orig_language}). Norsk oversettelse er markert som __{difi_translation_status}__
 ifeval::["{difi_translation_status}" == "missing"]
 (__ikke oversatt__)
 endif::[]
@@ -160,6 +176,7 @@ ifeval::["{difi_translation_status}" == "incomplete"]
 (__uferdig__)
 endif::[]
 .
+endif::[]
 endif::[]
 endif::[]
 

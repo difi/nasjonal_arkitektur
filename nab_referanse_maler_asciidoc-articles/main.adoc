@@ -1,1 +1,1 @@
-= Asciidoc-maler
+= Asciidoc artikkelmaler

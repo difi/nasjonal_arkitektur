@@ -2,6 +2,7 @@
 :doctitle: Dokumentasjonsmaler
 :keywords: Norsk, arkitekturbibliotek, maler
 
+:toclevels: 4
 
 include::../plattform_felles/includes/commonincludes.adoc[]
 
@@ -10,15 +11,34 @@ Maler for dokumentasjon i tekst og modelleringsverktøy
 
 
 == Generelt
-Se også annet innhold om verktøyuavhengige og rent standardbaserte modelleringskonvensjoner.
+Dokumentasjonsmaler finnes i form av:
 
-== Maler for dokumentasjon av referansearkitekturer (asciidoc)
+. Verktøyspesifikke viewpoints for modellering i aktuelle modelleringsspråk; slik som f.eks. Archimate-modeller i verktøyet Archi. 
+
+. Dokumentmaler for tekst og multimeda i verktøy som Asciidoc, Google Docs, m.m.
+
+
+NOTE: Se også annet innhold om verktøyuavhengige dokumentasjonskonvensjoner.
+
+
+
+== Maler for dokumentasjon i Asciidoc
+
+
+=== Maler for Asciidoc bøker
+. link:../nab_referanse_maler_asciidoc-book-basic[Basic Asciidoc Book Template]
+
+
+=== Artikkelmaler
+NOTE: Artikler kan opptre som separate artikler med egen innholdsfortegnelse, eller som del av bøker sammen med andre artikler (eller kapitler).
+
+
+==== Maler for dokumentasjon av referansearkitektur i Asciidoc
+
 
 image:../plattform_felles/media/i-arbeid.png[width=45, height=45] I arbeid
 
-NOTE: I tilknytning til __EIRA (European Interoperability reference Architecture)__, benyttes Begrepet __SAT (Solution Architecture Template)__ . En helt spesifikk definisjon av hva som ligger i begrepet SAT, samt veiledning til beskrivelse av slike maler, finnes i dokumentet link:https://joinup.ec.europa.eu/sites/default/files/document/2017-10/sat_design_guidelines_0_0.pdf[Solution Architecture Template (SAT) Design Guidelines]. 
+NOTE: I tilknytning til __EIRA (European Interoperability reference Architecture)__ benyttes Begrepet __SAT (Solution Architecture Template)__ . En helt spesifikk definisjon av hva som ligger i begrepet SAT, samt veiledning til beskrivelse av slike maler, finnes i dokumentet link:https://joinup.ec.europa.eu/sites/default/files/document/2017-10/sat_design_guidelines_0_0.pdf[Solution Architecture Template (SAT) Design Guidelines].  Bruk av EIRA og SAT-maler er inntil videre ikke et krav for referansearkitekturer i Nasjonal arkitektur. Se forøvrig link:../kunnskap_referansearkitektur_eu-eira/[egen omtale av EIRA]
 
-NOTE: Bruk av EIRA og SAT-maler er inntil videre ikke et krav for referansearkitekturer i Nasjonal arkitektur. Se forøvrig link:../kunnskap_referansearkitektur_eu-eira/[egen omtale av EIRA]
-
-== Maler for arkitekturmodellering i verktøyet Archi
+== Archi viewpoints
 TBD.
