@@ -27,10 +27,10 @@ Kom gjerne med forslag til innhold. Se link:../plattform_praktiske-tips[praktisk
 
 .Om krav til kvalitet 
 ****
-Krav til kvalitet og prosedyrer for kvalitetssikring er lavere for innholdet her enn i link:../nab_[Nasjonalt arkitekturbibliotek] eller f.eks. link:wikipedia.com[wikipedia]. Løft gjerne innhold fra dette  biblioteket over til Wikipedia om kvaliteten er god nok (og oppdater referanser). 
+Krav til kvalitet og prosedyrer for kvalitetssikring er lavere for innholdet her enn i link:../nab_[Nasjonalt arkitekturbibliotek] eller f.eks. link:https://www.wikipedia.org/[wikipedia]. Løft gjerne innhold fra dette  biblioteket over til Wikipedia om kvaliteten er god nok (og oppdater referanser). 
 ****
 
-//IMPORTANT: Krav til kvalitet og prosedyrer for kvalitetssikring er lavere for innholdet her enn i link:../nab_[Nasjonalt arkitekturbibliotek] eller f.eks. link:wikipedia.com[wikipedia]. Løft gjerne innhold fra dette  biblioteket over til Wikipedia om kvaliteten er god nok (og oppdater referanser). 
+//IMPORTANT: Krav til kvalitet og prosedyrer for kvalitetssikring er lavere for innholdet her enn i link:../nab_[Nasjonalt arkitekturbibliotek] eller f.eks. link:https://www.wikipedia.org/[wikipedia]. Løft gjerne innhold fra dette  biblioteket over til Wikipedia om kvaliteten er god nok (og oppdater referanser). 
 
 //Figur som viser sammenhengen mellom temaene, samt forholdet til styrende mål og strategier: [red]#TBD#
 
