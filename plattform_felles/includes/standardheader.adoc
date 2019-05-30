@@ -76,7 +76,6 @@ endif::[]
 ifeval::["{lang}" == "en"]
 :toc-title: Contents
 endif::[]
-//:doctype: article
 :icons: font
 //:docinfodir: ../common/meta
 //:docinfo:
@@ -137,6 +136,16 @@ ifeval::["{difi_translation_status}" == "-"]
 :difi_translation_status: missing
 endif::[]
 
+ifdef::difi_doctype[]
+ifeval::["{lang}" == "en"]
+_Document type: {difi_doctype}_
+endif::[]
+ifeval::["{lang}" == "no"]
+_Dokumenttype: {difi_doctype}_
+endif::[]
+
+endif::difi_doc_type[]
+
 
 ifdef::difi_translation_status[]
 //
@@ -145,9 +154,7 @@ ifeval::["{lang}" == "en"]
 ifeval::["{difi_orig_language}" != "en"]
 
 ifeval::["{difi_translation_status}" != "OK"]
-image:../plattform_felles/media/language.png[width=45]This document was originally written in another language ({difi_orig_language}).
-The English translation is marked as __{difi_translation_status}__
-//WARNING: This document was originally written in another language ({difi_orig_language}).
+NOTE: This document was originally written in another language ({difi_orig_language}).
 The English translation is marked as __{difi_translation_status}__
 .
 endif::[]
@@ -160,15 +167,7 @@ ifeval::["{difi_orig_language}" != "no"]
 
 ifeval::["{difi_translation_status}" != "OK"]
 
-image:../plattform_felles/media/language.png[width=45] Dette dokumentet ble opprinnelig skrevet på et annet språk ({difi_orig_language}). Norsk oversettelse er markert som
-__{difi_translation_status}__
-ifeval::["{difi_translation_status}" == "missing"]
-(__ikke oversatt__)
-endif::[]
-ifeval::["{difi_translation_status}" == "incomplete"]
-(__uferdig__)
-endif::[]
-//WARNING: Dette dokumentet ble opprinnelig skrevet på et annet språk ({difi_orig_language}). Norsk oversettelse er markert som __{difi_translation_status}__
+NOTE: Dette dokumentet ble opprinnelig skrevet på et annet språk ({difi_orig_language}). Norsk oversettelse er markert som __{difi_translation_status}__
 ifeval::["{difi_translation_status}" == "missing"]
 (__ikke oversatt__)
 endif::[]
