@@ -7,7 +7,7 @@
 include::../plattform_felles/includes/commonincludes.adoc[]
 
 [.lead]
-Maler for dokumentasjon i tekst og modelleringsverktøy
+Maler for dokumentasjon i form av tekst, multimedia og arkitekturmodeller
 
 
 == Generelt

@@ -9,7 +9,7 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 [.lead]
 _Nasjonalt kunnskapsbibliotek_ inneholder omtaler og lenker til eksterne ressurser for utvalgte temaer i tilknytning til _Nasjonalt arkitekturbibliotek_ og arbeidet med nasjonal virksomhetsarkitektur i Norge.
 
-image:../plattform_felles/media/i-arbeid.png[width=45, height=45, alt="Figur mangler: i-arbeid.png?",]Eksperimentelt innhold
+image:../plattform_felles/media/i-arbeid.png[width=45, height=45, alt="Figur mangler: i-arbeid.png?",]Deler av  innholdet er under arbeid
 
 // NB: Generering av innholdsfortegnelse og lenker må automatiseres
 
@@ -18,7 +18,7 @@ Her finnes en samling av grunnlagsinformasjon i tilknytning til link:../nab_[Nas
 
 Hensikten er todelt:
 
-a. Felles forståelse og kunnskapsbygging på tvers av rollerog virksomheter.
+a. Felles forståelse og kunnskapsbygging på tvers av roller og virksomheter.
 b. Primær referansekilde for link:../nab_[Nasjonalt arkitekturbibliotek] - for å strukturere referansene og for å holde størrelsen på selve arkitekturbiblioteket nede.
 
 Kom gjerne med forslag til innhold. Se link:../plattform_praktiske-tips[praktiske tips] om hvordan.
