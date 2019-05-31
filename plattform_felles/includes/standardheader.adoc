@@ -123,11 +123,13 @@ endif::difi_include_implementation_notes[]
 
 
 //:difi_test_translation_status:
+////
 ifdef::difi_test_translation_status[]
 :lang: en
 :difi_orig_language: no
 :difi_translation_status: incomplete
 endif::difi_test_translation_status[]
+////
 
 ifeval::["{difi_translation_status}" == ""]
 :difi_translation_status: -
@@ -144,7 +146,7 @@ ifeval::["{lang}" == "no"]
 _Dokumenttype: {difi_doctype}_
 endif::[]
 
-endif::difi_doc_type[]
+endif::difi_doctype[]
 
 
 ifdef::difi_translation_status[]
