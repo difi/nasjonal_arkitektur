@@ -1,1 +1,1 @@
-include::asciidoctor.adoc[]
+include::book_asciidoctor.adoc[]

@@ -1,15 +1,19 @@
-
-30.05.2019 12:36:32: RenameDirectories(kunnskap_referansearkitektur-the-opengroup-it4it, kunnskap_referansearkitektur_the-opengroup-it4it)
-30.05.2019 12:37:11: ErstattTekstIAlleFiler(C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_referansearkitektur-the-opengroup-it4it, C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_referansearkitektur_the-opengroup-it4it)
-30.05.2019 12:46:45: RenameDirectories(kunnskap_referansearkitektur_the-opengroup-it4it, kunnskap_referansearkitektur-the-opengroup-it4it)
-30.05.2019 12:46:51: ErstattTekstIAlleFiler(kunnskap_referansearkitektur_the-opengroup-it4it, kunnskap_referansearkitektur-the-opengroup-it4it)
-30.05.2019 12:47:23: RenameDirectories(kunnskap_referansearkitektur-the-opengroup-it4it, kunnskap_referansearkitektur_the-opengroup-it4it)
-30.05.2019 12:47:24: ErstattTekstIAlleFiler(kunnskap_referansearkitektur-the-opengroup-it4it, kunnskap_referansearkitektur_the-opengroup-it4it)
-30.05.2019 12:47:25: Linje: . link:../kunnskap_referansearkitektur-the-opengroup-it4it[The OpenGroup's IT4IT] - en standard referansearkitektur for verdikjedene i utvikling og og forvaltning av IT-tjenester.
-30.05.2019 12:47:25: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_\book_kunnskapsbibliotek.adoc
-30.05.2019 14:46:11: RenameDirectories(nab_referanse_maler_asciidoc, nab_referanse_maler_asciidoc-articles)
-30.05.2019 14:46:13: ErstattTekstIAlleFiler(nab_referanse_maler_asciidoc, nab_referanse_maler_asciidoc-articles)
-30.05.2019 14:47:48: RenameDirectories(nab_referanse_maler_book-asciidoc, nab_referanse_maler_asciidoc-book-basic)
-30.05.2019 14:47:49: ErstattTekstIAlleFiler(nab_referanse_maler_book-asciidoc, nab_referanse_maler_asciidoc-book-basic)
-30.05.2019 15:28:55: MakeNewBook(testbok1)
-30.05.2019 15:29:07: Kopierer C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_maler_asciidoc-book-basic --> C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\testbok1
+﻿
+31.05.2019 12:27:50: SøkTekstIAlleFiler(kunnskapsbibliotek)
+31.05.2019 12:27:50: Linje: _Nasjonalt kunnskapsbibliotek_ inneholder omtaler og lenker til eksterne ressurser for utvalgte temaer i tilknytning til _Nasjonalt arkitekturbibliotek_ og arbeidet med nasjonal virksomhetsarkitektur i Norge.
+31.05.2019 12:27:50: Linje: == Generelt om dette kunnskapsbiblioteket 
+31.05.2019 12:27:50: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_\book_kunnskapsbibliotek.adoc
+31.05.2019 12:27:50: Linje: include::book_kunnskapsbibliotek.adoc[]
+31.05.2019 12:27:50: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_\main.adoc
+31.05.2019 12:27:50: Linje: NOTE: Innholdet her er er en del av et link:../kunnskap_[kunnskapsbibliotek], etablert av Difi i tilknytning til link:../nab_/[Nasjonalt arkitekturbibliotek]. 
+31.05.2019 12:27:50: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_rammeverk_safe\book-safe.adoc
+31.05.2019 12:27:50: Linje: Se også link:../kunnskap_tema_kapabilitetsmodellering/[videre bakgrunnsinformasjon om kapabiliteteter, kapabilitetsmodellering,m.v.] i _kunnskapsbiblioteket_.
+31.05.2019 12:27:50: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_overordnet-metode\grunnleggende-konsepter.adoc
+31.05.2019 12:27:50: Linje: NOTE: Innholdet her inngår i  link:../kunnskap_[Felles kunnskapsbibliotek]  i tilknytning til link:../nab_/[Nasjonalt arkitekturbibliotek]. 
+31.05.2019 12:27:50: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_maler_asciidoc-book-basic\book_title.adoc
+31.05.2019 12:28:03: SøkTekstIAlleFiler(Kunnskapsbibliotek)
+31.05.2019 12:28:03: Linje: :doctitle: Kunnskapsbibliotek - eksterne referanser for Nasjonalt arkitekturbibliotek
+31.05.2019 12:28:03: Linje: :keywords: Kunnskapsbibliotek
+31.05.2019 12:28:03: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_\book_kunnskapsbibliotek.adoc
+31.05.2019 12:28:03: Linje: . link:..\kunnskap_/[Kunnskapsbibliotek]
+31.05.2019 12:28:03: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\plattform_\main.adoc

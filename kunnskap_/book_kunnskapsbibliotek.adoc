@@ -1,19 +1,19 @@
 :lang: no
-:doctitle: Kunnskapsbibliotek - eksterne referanser for Nasjonalt arkitekturbibliotek
-:keywords: Kunnskapsbibliotek
+:doctitle: Felles Arkitekturfaglig Kunnskapsverksted
+:keywords: TBD
 :toclevels: 4
 include::../plattform_felles/includes/commonincludes.adoc[]
 
 
 
 [.lead]
-_Nasjonalt kunnskapsbibliotek_ inneholder omtaler og lenker til eksterne ressurser for utvalgte temaer i tilknytning til _Nasjonalt arkitekturbibliotek_ og arbeidet med nasjonal virksomhetsarkitektur i Norge.
+_Felles Arkitekturfaglig Kunnskapsverksted_ (FAK) er et bibliotek med omtaler og lenker til eksterne ressurser for utvalgte temaer i tilknytning til arbeidet med felles virksomhetsarkitektur innen offentlig sektor i Norge.
 
 image:../plattform_felles/media/i-arbeid.png[width=45, height=45, alt="Figur mangler: i-arbeid.png?",]Deler av  innholdet er under arbeid
 
 // NB: Generering av innholdsfortegnelse og lenker må automatiseres
 
-== Generelt om dette kunnskapsbiblioteket 
+== Generelt om dette biblioteket 
 Her finnes en samling av grunnlagsinformasjon i tilknytning til link:../nab_[Nasjonalt arkitekturbibliotek]. Dette kan være lenker og omtale av internasjonale standarder, utvalgte bøker, verktøy, arkitekturrammeverk fra andre land, med videre.
 
 Hensikten er todelt:
@@ -27,7 +27,7 @@ Kom gjerne med forslag til innhold. Se link:../plattform_praktiske-tips[praktisk
 
 .Om krav til kvalitet 
 ****
-Krav til kvalitet og prosedyrer for kvalitetssikring er lavere for innholdet her enn i f.eks. link:https://www.wikipedia.org/[wikipedia]. Løft gjerne innhold fra dette  biblioteket over til Wikipedia om kvaliteten er god nok (og oppdater referanser). 
+Krav til kvalitet og prosedyrer for kvalitetssikring er lavere for innholdet her enn i f.eks. link:https://www.wikipedia.org/[wikipedia]. Kvalitetssikret innhold i  dette biblioteket kan eventuelt løftes over til Wikipedia eller tilsvarende. 
 ****
 
 //IMPORTANT: Krav til kvalitet og prosedyrer for kvalitetssikring er lavere for innholdet her enn i f.eks. link:https://www.wikipedia.org/[wikipedia]. Løft gjerne innhold fra dette  biblioteket over til Wikipedia om kvaliteten er god nok (og oppdater referanser). 

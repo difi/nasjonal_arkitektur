@@ -171,7 +171,7 @@ Bildefiler inkluderes i asciidoc gjennom et eget [blue]_image-direktiv_ der adre
 
 Når bildefiler inkluderes indirekte ved at det inkluderes asciidoc-filer som igjen inkluderer images, kan adresseringen lett bli feil. En måte å sikre seg mot slike feil på, er å sørge for at den samme (relative) lenken er gyldig i begge tilfeller. Slik teknologien fungerer per 2018 er det nødvendig å adressere bildefiler relativt til en felles "rotmappe".
 
-NOTE:  Med en "flat" mappestruktur blir alle relative lenker til samme fil like uansett utgangspunkt (ett hakk opp og ett ned). Dette er en hovedgrunn til valget av flat mappestruktur for Nasjonal arkitekturplattform.
+NOTE:  Med en "flat" mappestruktur blir alle relative lenker til samme fil like uansett utgangspunkt (ett hakk opp og ett ned). Dette er en hovedgrunn til valget av flat mappestruktur for Nasjonalt arkitekturverksted.
 
 Gjeldende konvensjon er å bestandig adressere bildefiler relativt til felles "rotmappe" gjennom å gå "ett hakk opp og et ned", f.eks. slik:
 

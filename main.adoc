@@ -1,4 +1,4 @@
-Se: link:./plattform_/[Nasjonal arkitekturplattform]
+Se: link:./plattform_/[Nasjonalt arkitekturverksted]
 
 // Does not work, due to different folder levels: include::./plattform_/main.adoc[]
 
