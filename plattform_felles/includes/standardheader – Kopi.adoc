@@ -133,7 +133,6 @@ ifeval::["{difi_translation_status}" == "-"]
 :difi_translation_status: missing
 endif::[]
 
-////
 ifdef::difi_doctype[]
 ifeval::["{lang}" == "en"]
 _Document type: {difi_doctype}_
@@ -142,7 +141,7 @@ ifeval::["{lang}" == "no"]
 _{difi-contenttype-caption}: {difi_doctype}_
 endif::[]
 endif::difi_doctype[]
-////
+
 
 ifdef::difi_translation_status[]
 // English

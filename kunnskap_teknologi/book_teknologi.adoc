@@ -1,7 +1,7 @@
-:lang: no
-:doctitle: <Boktittel>
+:lang: en
+:doctitle: Technologies
 :difi_doctype: Basic Book Template
-:keywords: mal
+:keywords: TBD
 
 :toclevels: 3
 include::../plattform_felles/includes/commonincludes.adoc[]
@@ -14,7 +14,7 @@ image:../nab_referanse_maler_asciidoc-book-basic/media/sample-logo.png[]
 Kort, innledende tekst for denne boken
 
 
-== Introduksjon
+== Introduction
 
 include::./intro_booktitle.adoc[]
 

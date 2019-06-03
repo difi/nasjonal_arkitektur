@@ -11,8 +11,8 @@ Note: The _lang_ value may be overridden by a command line parameter.
 ////
 :lang: no
 :difi_orig_language: no
-:doctitle_en: Introduction
-:doctitle_no: Introduksjon
+:doctitle_en: Introduction to the _inbox_
+:doctitle_no: Introduksjon til _innboksen_
 :difi_translation_status: -
 :keywords_en: TBD
 :keywords_no: TBD
@@ -26,11 +26,18 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 ifeval::["{lang}" == "no"]
 // --------------->
 
-Artikkeltekst ...
+_Innboksen_ brukes for ideinnspill og forslag i tilknytning til arbeidet med nasjonal arkitektur. Innhold herfra løftes eventuelt over til mer formaliserte framstillinger av behov og krav i  arkitekturbiblioteket.
 
-.Figur: Eksempelfigur
-image:../nab_referanse_maler_asciidoc-book-basic/media/sample-image.png[]
-endif::[]
+Innholdsbidrag kan gjerne skrives direkte som artikler i Asciidoc; se under link:../plattform_praktiske-tips[praktiske tips] om hvordan dette kan gjøres. En kan også gi input på andre måter.
+
+
+TIP: Gi gjerne også ideinnspill i form av Archimate-modeller. Slik innspill kan publiseres i link:https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/[Nasjonalt modellbibliotek].
+
+
+TIP: Se også _TBD_ om bruk av _issues_ i Githib og diskjonsgrupper i Slack.
+
+//.Figur: Eksempelfigur
+//image:../inbox/media/sample-image.png[]endif::[]
 
 // <--------------
 endif::[]
@@ -43,11 +50,11 @@ endif::[]
 ifeval::["{lang}" == "en"]
 // --------------->
 
-Article text...
+WARNING: English translation missing 
 
 
-.Figure: Sample figure
-image:../nab_referanse_maler_asciidoc-book-basic/media/sample-image.png[]
+//.Figure: Sample figure
+//image:../inbox/media/sample-image.png[]
 
 // <--------------
 endif::[]

@@ -1,0 +1,1 @@
+include::book-oasis-soa-raf.adoc[]

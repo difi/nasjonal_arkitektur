@@ -17,11 +17,11 @@ Note: The _lang_ value maybe overridden by a command line parameter.
 :difi_translation_status: incomplete
 :keywords_en: TBD
 :keywords_no: TBD
-:difi_doctype: Template
 :toclevels: 2
 
 // The above paramets are processed by scripts included by the following statement
 include::../plattform_felles/includes/commonincludes.adoc[]
+
 
 ifeval::["{lang}" == "no"]
 Denne boken handler om ...

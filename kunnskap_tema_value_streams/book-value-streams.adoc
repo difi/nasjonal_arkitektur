@@ -1,0 +1,17 @@
+:lang: no
+:doctitle: Value Streams
+:toclevels: 3
+
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+
+[.lead]
+Value Streams...
+
+////
+////
+
+
+== Introduction
+.Figure: Value Stream Modeling Relationships
+image:../kunnskap_tema_value_streams\media\value-stream-metamodel.png[value-stream-metamodel]

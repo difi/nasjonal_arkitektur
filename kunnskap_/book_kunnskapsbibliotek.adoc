@@ -1,5 +1,5 @@
 :lang: no
-:doctitle: Felles Arkitekturfaglig Kunnskapsverksted
+:doctitle: Arkitekturfaglig kunnskapsverksted
 :keywords: TBD
 :toclevels: 4
 include::../plattform_felles/includes/commonincludes.adoc[]
@@ -7,7 +7,7 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 
 [.lead]
-_Felles Arkitekturfaglig Kunnskapsverksted_ (FAK) er et bibliotek med omtaler og lenker til eksterne ressurser for utvalgte temaer i tilknytning til arbeidet med felles virksomhetsarkitektur innen offentlig sektor i Norge.
+_Arkitekturfaglig Kunnskapsverksted_ er et bibliotek med omtaler og lenker til eksterne ressurser for utvalgte temaer i tilknytning til arbeidet med felles virksomhetsarkitektur innen offentlig sektor i Norge.
 
 image:../plattform_felles/media/i-arbeid.png[width=45, height=45, alt="Figur mangler: i-arbeid.png?",]Deler av  innholdet er under arbeid
 
@@ -73,6 +73,8 @@ Krav til kvalitet og prosedyrer for kvalitetssikring er lavere for innholdet her
 
 . Anskaffelser
 
+. Teknologier
+
 // Inkl. sourcing,  
 
 == _Body of Knowledge_ ressurser
@@ -125,7 +127,10 @@ DMBOK2 (2017)  er et omfattende verk om data- og informasjonsforvaltning fra DAM
 . link:../kunnskap_referansearkitektur_the-opengroup-it4it[The OpenGroup's IT4IT] - en standard referansearkitektur for verdikjedene i utvikling og og forvaltning av IT-tjenester.
 
 
-. The Open Group: The TOGAF® Technical Reference Model (TRM)
+. The Open Group: The TOGAF® Technical Reference Model (TRM) 
+//Nedlasting: https://publications.opengroup.org/g175
+
+. link:../kunnskap_referansearkitektur_tog-soa-ra/[The Open Group SOA RA] er en omfattende referansearkitektur for SOA, med kapabilitetskart og realisering i arkitekturbyggeklosser. 
 
 . link:https://1drv.ms/b/s!Ao0VyYhs1XdLhc0J9VFSjTVqOvu_1g[The Open Group Technology Base Reference Models for Open Platform 3.0.pdf]
 

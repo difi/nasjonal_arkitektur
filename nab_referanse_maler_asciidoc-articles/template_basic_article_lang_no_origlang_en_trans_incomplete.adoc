@@ -12,47 +12,46 @@ Guide to the below header attributes:
 Note: The _lang_ value maybe overridden by a command line parameter.
 ////
 
-:lang: en
+:lang: no
 :difi_orig_language: en
 :doctitle_en: <Document title>_
 :doctitle_no: _<Dokumenttittel>_
 :difi_translation_status: incomplete
 :keywords_en: TBD
 :keywords_no: TBD
-:difi_doctype: Template Article
+:difi_doctype: article-template
 :toclevels: 2
 
 // The above paramets are processed by scripts included by the following statement
 include::../plattform_felles/includes/commonincludes.adoc[]
 
-ifeval::["{lang}" == "en"]
-ifeval::["{lang}" != "{difi_orig_language}"]
-(language:{difi_orig_language}  )
-endif::[]
-
-ifeval::["{lang}" == "no"]
-ifeval::["{lang}" != "{difi_orig_language}"]
-(language:{difi_orig_language}  )
-endif::[]
-
-
-
-// ENGLISH
-This book is about how to write basic Asciidoc books...
-
-Good luck;)
-
-.Figure: Sample figure
-image:../nab_referanse_maler_asciidoc-book-basic/media/sample-image.png[]
-endif::[]
 
 
 // NORWEGIAN
-Denne boken handler om ...
+// ****************
+ifeval::["{lang}" == "no"]
+
+
+Artikkeltekst ...
 
 .Figur: Eksempelfigur
 image:../nab_referanse_maler_asciidoc-book-basic/media/sample-image.png[]
 endif::[]
 
-ifeval::["{lang}" != "{difi_orig_language}"]
-s(language:{difi_orig_language}  )
+// ****************
+endif::[]
+
+
+
+// ENGLISH
+// ****************
+ifeval::["{lang}" == "en"]
+
+Article text...
+
+
+.Figure: Sample figure
+image:../nab_referanse_maler_asciidoc-book-basic/media/sample-image.png[]
+
+endif::[]
+// ****************
