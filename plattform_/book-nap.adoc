@@ -19,7 +19,7 @@ _Nasjonalt arkitekturverksted_ er en plattform for samproduksjon og deling av ar
  
 . link:../plattform_om-plattformen/[Om plattformen]
 +
-Informasjon om plattformen for Nasjonalt arkitekturverksted, inkl. praktiske tips for å komme i gang.
+Praktiske tips og informasjon om plattformen for _Nasjonalt arkitekturverksted_.
 
 
 . link:../nab_/[Nasjonalt arkitekturbibliotek]
@@ -30,7 +30,7 @@ Rammeverk, standarder, veiledere, føringer, felles behov, felles løsninger, fe
 +
 Bibliotek med omtaler og lenker til eksterne ressurser for utvalgte temaer i tilknytning til arbeidet med nasjonal arkitektur.
 
-. link:../innboks/[Innboks]
+. link:../inbox/[Innboks]
 +
 Ideinnspill og forslag i tilknytning til arbeidet med nasjonal arkitektur.  
 //i forkant av mer formalisert framstilling av behov og krav i  arkitekturbiblioteket.
