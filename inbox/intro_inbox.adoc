@@ -28,10 +28,12 @@ ifeval::["{lang}" == "no"]
 
 _Innboksen_ brukes for ideinnspill og forslag i tilknytning til arbeidet med nasjonal arkitektur. Innhold herfra løftes eventuelt over til mer formaliserte framstillinger av behov og krav i  arkitekturbiblioteket.
 
-Innholdsbidrag kan gjerne skrives direkte som artikler i Asciidoc; se under link:../plattform_praktiske-tips[praktiske tips] om hvordan dette kan gjøres. En kan også gi input på andre måter.
 
+Terskelen skal være lav for å spille inn ideer og forslag. Det er derfor ikke strenge krav til 
 
-TIP: Gi gjerne også ideinnspill i form av Archimate-modeller. Slik innspill kan publiseres i link:https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/[Nasjonalt modellbibliotek].
+Innholdsbidrag kan gjerne skrives direkte som artikler i Asciidoc; se under link:../plattform_praktiske-tips[praktiske tips] om hvordan dette kan gjøres. En kan også gi input på andre måter,f.eks. per e-post.
+
+TIP: Gi gjerne også ideinnspill i form av Archimate-modeller. Slike innspill kan publiseres i link:https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/[Nasjonalt modellbibliotek].
 
 
 TIP: Se også _TBD_ om bruk av _issues_ i Githib og diskjonsgrupper i Slack.

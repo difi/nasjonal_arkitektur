@@ -33,8 +33,24 @@ ifeval::["{lang}" == "no"]
 [.lead]
 Ideinnspill og forslag i tilknytning til arbeidet med nasjonal arkitektur.  
 
-//== Introduksjon
+== Introduksjon
 include::./intro_inbox.adoc[]
+
+== Forslag til referansearkitekturer
+
+=== Referansearkitektur for deling av hendelser og datastrømmer
+
+====
+Innspill 2019-06-04 fra Håkon Jendal, NAV:
+
+Jeg tror at tiden er inne for å jobbe med referansearkitektur for deling av hendelser og datastrømmer. For at arbeidet med Analyse og anvendelse skal lykkes er de avhengig av å ha en referansearkitektur å lene seg på.n
+
+Tenker at man har et fantastisk utgangspunkt i denne artikkel: https://martinfowler.com/articles/data-monolith-to-mesh.html. Artikkelen peker langt på vi hvordan en referansearkitektur for deling av hendelser og datastrømmer bør se ut. Jeg håper dere har mulighet for å jobbe konkret med dette fremover.
+====
+
+Oppfølgingslogg:
+
+. 2019-06-04, Difi: Notert. Beste oppfølgingsmåte bør vurderes (kan f.eks. gjøres som case i tilknytning til arbeidet med metodikk for referansearkitekturer).
 
 
 // ****************
