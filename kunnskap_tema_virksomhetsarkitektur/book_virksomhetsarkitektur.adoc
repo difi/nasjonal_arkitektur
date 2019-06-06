@@ -1,0 +1,77 @@
+////
+Guide to the below header attributes:
+
+    lang: en; no
+    difi_orig_language: en; no
+    difi_translation_status: -; missing; incomplete; OK 
+    keywords_en: comma separated list of english keywords (no controlled vocabulary); TBD
+    keywords_no: comma separated list of Norwegian keywords (no controlled vocabulary); TBD  
+    
+Note: The _lang_ value may be overridden by a command line parameter.
+////
+
+:lang: en
+:difi_orig_language: en
+:doctitle_en: Enterprise Achitecture 
+:doctitle_no: Virksomhetsarkitektur
+:difi_translation_status: -
+:keywords_en: TBD
+:keywords_no: TBD
+:toclevels: 2
+:difi_doctype: Basic Book
+
+// The above parameters are processed by scripts included by the following statement
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+image:./kunnskap_tema_virksomhetsarkitektur/media/sample-logo.png[]
+
+// ****************
+// NORWEGIAN
+// ****************
+ifeval::["{lang}" == "no"]
+
+[.lead]
+Kort, innledende tekst for denne boken
+
+
+== Introduksjon
+include::./intro_virksomhetsarkitektur.adoc[]
+
+== Kapittel 2 
+// Inkluder kapittel-filer eller skriv direkte her 
+
+// ****************
+endif::[]
+// ****************
+
+
+
+// ****************
+// ENGLISH
+ifeval::["{lang}" == "en"]
+// ****************
+
+[.lead]
+Preamble goes here...
+
+== Introduction
+include::./intro_virksomhetsarkitektur.adoc[]
+
+== Service-Orienteted-Architecture
+In summary:
+
+the Norwegain 
+
+
+Quote from _the Interoperability Framework for e-Governance (IFEG)_ of IndEA (India):
+
+Many governments are moving toward adopting a service-oriented approach for their activities. This aligns with the fast growing solution architecture – namely, Service Oriented Architecture (SOA) – often adopted when implementing ICT solution. Service-Oriented Architecture (SOA) can be defined as a system design of loosely coupled and reusable software components called “services”; these services can be recombined into different solutions and scenarios, as determined by the e-Governance requirements. SOA has been identified as a best mechanism to enable the roll out of interoperable e-Governance services with appropriate access control (like Policy Based Access Control) that can be used among wide varying platforms with heterogeneous technology environments.
+
+Adoption of a service as the unit of interaction for a department with citizens and other departments, provide an effective approach that promotes loose coupling among the various stakeholders. Such a loose coupling is needed in a multi-tier administrative set-up as in India. At the same time, service is an appropriate and powerful unit for reuse and Interoperability between systems. It breaks down processes and applications into discrete parts – called services –, and then develops solutions for these parts which can then be used and shared widely. A service orientation defines the needs and outcomes of the department in terms of services, independent of the technology that implements them.
+
+With respect to the administrative aspect of the approach, one can use services provided by different vendors, and integrate them suitably to realise what one is looking for. Therefore, it is recommended that all departments and agencies adopt a service based approach to their functioning, clearly defining the services they offer to other stakeholders. This would also include the assumptions under which the service will be offered, and the inputs required for delivering the service. This would enable a public agency to handle changes in input sources or the manner of collection of the inputs, seamlessly, since the service framework can be defined independent of these issues. This is the essence of the service model.
+
+
+// ****************
+endif::[]
+// ****************

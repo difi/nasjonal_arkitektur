@@ -2,3 +2,7 @@
 03.06.2019 23:30:54: SøkTekstIAlleFiler(nab_referanse_maler_asciidoc-articles)
 04.06.2019 01:09:30: MakeNewBook(inbox)
 04.06.2019 01:09:33: Kopierer C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_maler_asciidoc-book-basic --> C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\inbox
+04.06.2019 19:35:29: MakeNewBook(kunnskap_tema_arkitekturmodellering)
+04.06.2019 19:35:34: Kopierer C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_maler_asciidoc-book-basic --> C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_tema_arkitekturmodellering
+05.06.2019 08:55:51: MakeNewBook(kunnskap_tema_virksomhetsarkitektur)
+05.06.2019 08:55:54: Kopierer C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_maler_asciidoc-book-basic --> C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_tema_virksomhetsarkitektur

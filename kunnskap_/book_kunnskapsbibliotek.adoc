@@ -37,6 +37,8 @@ Krav til kvalitet og prosedyrer for kvalitetssikring er lavere for innholdet her
 
 == Strategiske temaer
 
+
+
 . Kompetanseområder
 +
 * link:https://www.sfia-online.org/en/framework/sfia-7/documentation/sfia-7-the-complete-reference[Skills Framework for the Information Age (SFIA)]
@@ -54,6 +56,10 @@ Krav til kvalitet og prosedyrer for kvalitetssikring er lavere for innholdet her
 . Program, portefølje- og prosjektstyring.
 
 . Virksomhetsarkitektur
+
+. Arkitekturmodellering - begrepsapparat,standarder, konvensjoner  
+
+. Informasjonsforvaltning
 
 . Smidig metodikk
 +

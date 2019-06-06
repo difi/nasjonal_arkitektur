@@ -30,7 +30,6 @@ Rammeverk, standarder, veiledere, føringer, felles behov, felles løsninger, fe
 +
 Bibliotek med omtaler og lenker til eksterne ressurser for utvalgte temaer i tilknytning til arbeidet med nasjonal arkitektur.
 
-. link:../inbox/[Innboks]
+. link:../inbox/[Innboks for ideer og forslag]
 +
 Ideinnspill og forslag i tilknytning til arbeidet med nasjonal arkitektur.  
-//i forkant av mer formalisert framstilling av behov og krav i  arkitekturbiblioteket.

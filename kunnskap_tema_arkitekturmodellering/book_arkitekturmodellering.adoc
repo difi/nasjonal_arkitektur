@@ -1,0 +1,91 @@
+////
+Guide to the below header attributes:
+
+    lang: en; no
+    difi_orig_language: en; no
+    difi_translation_status: -; missing; incomplete; OK 
+    keywords_en: comma separated list of english keywords (no controlled vocabulary); TBD
+    keywords_no: comma separated list of Norwegian keywords (no controlled vocabulary); TBD  
+    
+Note: The _lang_ value may be overridden by a command line parameter.
+////
+
+:lang: no
+:difi_orig_language: no
+:doctitle_en: Architecture modelling
+:doctitle_no: Arkitekturmodellering
+:difi_translation_status: -
+:keywords_en: TBD
+:keywords_no: TBD
+:toclevels: 2
+:difi_doctype: Basic Book Template
+
+// The above parameters are processed by scripts included by the following statement
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+// Erik, TODO: Move subjectpath up and  generate mediapath
+:subjectpath: ../kunnskap_tema_arkitekturmodellering
+:mediapath: {subjectpath}/media
+
+//.Figur: Eksempelfigur
+image:{mediapath}/modeling-logo.png[width=100]
+
+// ****************
+// NORWEGIAN
+// ****************
+ifeval::["{lang}" == "no"]
+
+[.lead]
+Kort, innledende tekst for denne boken
+
+
+== Introduksjon
+include::./intro_arkitekturmodellering.adoc[]
+
+== Begrepsapparat - forretningsarkitektur
+
+
+Need
+Skill
+Competency
+Capability
+Capacity
+
+
+=== Ability vs. capability vs. capacity osv.
+Ref. https://grammarist.com/usage/ability-capability-capacity/:
+
+ Ability, capability, and capacity are synonyms in many of their uses. All are frequently used to refer to one’s power to perform an action. For example, one might have the ability, capability, or capacity to read two books in a week. But capacity—which is extended figuratively in the senses it shares with the other verbs—has special uses it doesn’t share with the others. It tends to relate to volumes and quantities; for example, in the sentence, “The vehicle’s fuel capacity is 120 gallons,” capacity refers to the measure of the vehicle’s ability to hold and is not interchangeable with the other two verbs. “The vehicle’s fuel ability” would not sound right.
+
+ Another distinction commonly drawn between ability and capacity holds that, in humans and animals, capacities are inborn, while abilities are learned. For instance, a child might be born with the capacity to become a chef, but the ability to cook must be learned
+
+ Capability, meanwhile, often refers to extremes of ability. For instance, if you say you have the ability to write well, I might ask whether you have the capability to write a 10-page essay by tomorrow. Also, capabilities tend to be either-or propositions, while ability tends to come in degrees. For example, I might say that while I have the ability to write, I don’t have the capability to write a novel. But as with most of the other distinctions between these words, the lines are blurry, and the words are interchangeable despite the general usage patterns
+
+
+// ****************
+endif::[]
+// ****************
+
+
+
+// ****************
+// ENGLISH
+ifeval::["{lang}" == "en"]
+// ****************
+
+[.lead]
+Preamble goes here...
+
+== Introduction
+include::./intro_arkitekturmodellering.adoc[]
+
+== Chapter 2 
+// Further chapters to go here - include files or  write directly here 
+
+
+.Figure: Sample figure
+image:../nab_referanse_maler_asciidoc-book-basic/media/sample-image.png[]
+
+// ****************
+endif::[]
+// ****************
