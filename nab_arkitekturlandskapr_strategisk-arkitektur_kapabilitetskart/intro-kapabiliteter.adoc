@@ -14,3 +14,16 @@ Overordnede kapabilitetsområder brytes ned i mer spesifikke områder, ned til k
 
 
 
+Inndelingen er ment å gi en klassifisering for kapabiliteter. De øverste nivåene er stabile over tid når det gjelder området deling av data. Vokabularet for kapabilitetene vil derimot utvikles over tid.
+
+Det er hovedsakelig to ulike viewpoints hvor det vil være relevant å gi oversikt over kapabiliteter.
+
+* Det første er som del i kapabilitetskartlegging etter kategori. Deretter gir man oversikter over enkeltdeler av en klassifisering.
+
+* Den andre er oversikter over kapabiliteter knyttet til et prosjekt eller en løsning, hvor man kobler eller grupperer kapabilitetene etter aktøren eller rollen som er knyttet til kapabiliteten. 
+
+I tillegg er det tverrgående områder («cross-cutting layers») som vil inngå i realiseringen av øvrige kapabilitetsområder. Det er avhengigheter mellom områdene.  
+
+Formålet er å kunne jobbe effektivt med referansearkitekturer for deling av data.
+
+Det er behov for et kapabilitetskart for bl.a. å se referansearkitekturer i sammenheng, kunne vite hvor en jobber i det store bildet, og for å unngå dobbeltarbeid og at lignende løsning blir laget flere ganger i forvaltningen. 

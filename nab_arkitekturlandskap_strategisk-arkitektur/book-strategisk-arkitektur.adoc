@@ -9,7 +9,7 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 //Strategiske arkitekturer
 
 == Rollekart
-<Her må det stå en beskrivende tekst>
+
 
 :leveloffset: +1
 include::../nab_arkitekturlandskap_roller/roller.adoc[]

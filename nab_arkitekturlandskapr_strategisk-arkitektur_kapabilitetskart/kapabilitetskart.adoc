@@ -23,15 +23,22 @@ Nivå 2 bryter de overordnede områdene ned i mer detaljerte områder, men forts
 
 === Datadeling
 
+////
 Et view på oppdeling er med utgangspunkt i pågående arbeid med refereansearkitekturer og andre tiltak.
 
 .Figur: Kapabilitetsområder innen Datadeling (utvalg)
 image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media\områder-datadeling.png[alt="Bilde mangler"]
+////
 
-Det er også utarbeidet en oversikt og inndeling av kapabilitetsområder basert på The Open Group SOA reference architecture.
+Det er utarbeidet en oversikt og inndeling av kapabilitetsområde Datadeling basert på The Open Group SOA reference architecture. Her er det gjort et utvalg av aktuelle områder og kapabiliteter basert på en større oversikt.
 
-.Figur: Utvalgte kapabilitetsområder The Open Group SOA reference architectureinnen Datadeling
+//lenke til alle "layers"
+
+
+.Figur: Kapabilitetsområder for Datadeling
 image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media\SOA_RA_Kapabilitetsområder.png[alt="Bilde mangler"]
+
+De overordnede lagene i kapabilitetsinndelingen fra figuren over kan kobles til EIF som vist i figuren under. Det er ikke et en-til-en forhold og det kan være kapabiliteter innen alle områder som adresserer hvert av EIF-lagene, men figuren illustrerer hvor hovedtyngden av kapabilitetene innenfor hvert område befinner seg.
 
 .Figur: Kapabilitetsområder koblet til EIF
 image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media\EIF_og_SOA_RA.png[alt="Bilde mangler"]
