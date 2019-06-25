@@ -1,0 +1,9 @@
+:lang: no
+:doctitle: Rollekart for området Datadeling
+:keywords: eMelding
+:toclevels: 3
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+.Figur: Roller innen området Datadeling
+image:../nab_arkitekturlandskap_roller/media/roller.png[alt="Bilde mangler", width=750]
+
