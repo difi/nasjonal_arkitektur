@@ -10,7 +10,7 @@ Strategiske arkitekturer, segmentarkitekturer og kapabilitetsarkitekturer
 
 
 == Generelt
-
+ 
 
 image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _Dokumentasjonen av det nasjonale arkitekturlandskapet er påbegynt våren 2019.
 
