@@ -6,7 +6,7 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 
 
-image:./media/Referansearkitekturer.png[alt="missing image (referansearkitekturer"]
+//image:./media/Referansearkitekturer.png[alt="missing image (referansearkitekturer"]
 
 :leveloffset: +1
 
