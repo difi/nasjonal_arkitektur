@@ -15,8 +15,6 @@ Rollene er basert hovedsakelig på kilder fra:
 * Begreper fra Datatilsynet
 
 
-
-
 .Figur: Roller innen området Datadeling
 image:../nab_arkitekturlandskap_roller/media/roller.png[alt="Bilde mangler", width=750]
 
