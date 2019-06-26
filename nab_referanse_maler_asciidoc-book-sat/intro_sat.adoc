@@ -36,8 +36,6 @@ NOTE: Guideline: This template is based on the link:https://joinup.ec.europa.eu/
 endif::include_guidelines[]
 
 
-
-
 .Figure: Sample figure
 image::../nab_referanse_maler_asciidoc-book-basic/media/sample-image.png[]
 

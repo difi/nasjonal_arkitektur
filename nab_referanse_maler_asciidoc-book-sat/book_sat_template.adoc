@@ -38,8 +38,15 @@ Preamble goes here...
 == Introduction
 include::./intro_sat.adoc[]
 
-== Chapter 2 
-// Further chapters to go here - include files or  write directly here 
+== Viewpoints
+=== Capability map
+=== ...
+=== High-level view
+=== Legal View
+=== Organisational View
+=== Semantic View
+=== Technical view –application
+=== Technical view –infrastructure
 
 
 .Figure: Sample figure
@@ -61,8 +68,6 @@ Kort, innledende tekst for denne boken
 == Introduksjon
 include::./intro_booktitle.adoc[]
 
-== Kapittel 2 
-// Inkluder kapittel-filer eller skriv direkte her 
 
 // ****************
 endif::[]
