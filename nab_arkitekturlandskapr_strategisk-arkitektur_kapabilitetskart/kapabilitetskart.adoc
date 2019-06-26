@@ -9,7 +9,7 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 Følgende figur viser utvalgte _overordnede kapabilitetsområder_ innen Nasjonal arkitektur for samhandling.
 
-// Henrik: Skal vi lenke til NIFen? Eventuelt noe annet på samhandlingsarkitektur?
+//Henrik: Skal vi lenke til NIFen? Eventuelt noe annet på samhandlingsarkitektur?
 
 Beskrivelser av områder og kapabiliteter er avgrenset til å beskrive områder og kapabiliteter inne deling av data og nært tilknyttede temaer.
 
@@ -23,9 +23,25 @@ Nivå 2 bryter de overordnede områdene ned i mer detaljerte områder, men forts
 
 === Datadeling
 
+////
+Et view på oppdeling er med utgangspunkt i pågående arbeid med refereansearkitekturer og andre tiltak.
 
 .Figur: Kapabilitetsområder innen Datadeling (utvalg)
 image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media\områder-datadeling.png[alt="Bilde mangler"]
+////
+
+Det er utarbeidet en oversikt og inndeling av kapabilitetsområde Datadeling basert på The Open Group SOA reference architecture. Her er det gjort et utvalg av aktuelle områder og kapabiliteter basert på en større oversikt.
+
+//lenke til alle "layers"
+
+
+.Figur: Kapabilitetsområder for Datadeling
+image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media\SOA_RA_Kapabilitetsområder.png[alt="Bilde mangler"]
+
+De overordnede lagene i kapabilitetsinndelingen fra figuren over kan kobles til EIF som vist i figuren under. Det er ikke et en-til-en forhold og det kan være kapabiliteter innen alle områder som adresserer hvert av EIF-lagene, men figuren illustrerer hvor hovedtyngden av kapabilitetene innenfor hvert område befinner seg.
+
+.Figur: Kapabilitetsområder koblet til EIF
+image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media\EIF_og_SOA_RA.png[alt="Bilde mangler"]
 
 == Nivå 3 områder og overordnede kapabiliter
 

@@ -8,6 +8,13 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 //[.lead]
 //Strategiske arkitekturer
 
+== Rollekart
+
+
+:leveloffset: +1
+include::../nab_arkitekturlandskap_roller/roller.adoc[]
+:leveloffset: -1
+
 == Kapabilitetskart
 
 :leveloffset: +1
