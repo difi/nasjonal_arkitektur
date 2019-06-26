@@ -10,3 +10,4 @@ Meldingsutveksling ved eMelding er karakterisert ved asynkron informasjonsforsen
 Formålet med referansearkitekturen for eMelding er å beskrive hvordan meldingsutveksling bør skje internt i offentlig sektor, samt mellom offentlig sektor og privat sektor, basert på den europeiske byggeklossen CEF eDelivery. 
 
 Referansearkitekturen er  basert på beste praksis i EU. Den definerer roller og ansvar, og  veileder og stiller krav til arkitektur og standarder som skal benyttes når meldinger utveksles. Det pekes også på konkrete løsninger som kan benyttes.
+
