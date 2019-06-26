@@ -1,0 +1,73 @@
+////
+Guide to the below header attributes:
+
+    lang: en; no
+    difi_orig_language: en; no
+    difi_translation_status: -; missing; incomplete; OK 
+    keywords_en: comma separated list of english keywords (no controlled vocabulary); TBD
+    keywords_no: comma separated list of Norwegian keywords (no controlled vocabulary); TBD  
+    
+Note: The _lang_ value may be overridden by a command line parameter.
+////
+
+:lang: en
+:difi_orig_language: en
+:doctitle_en: Reference Architecture Template
+:doctitle_no: Norsk dokumenttittel
+:difi_translation_status: -
+:keywords_en: TBD
+:keywords_no: TBD
+:toclevels: 2
+:difi_doctype: Basic Book Template
+
+// The above parameters are processed by scripts included by the following statement
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+image:../nab_referanse_maler_asciidoc-book-basic/media/sample-logo.png[]
+
+
+
+// ****************
+// ENGLISH
+ifeval::["{lang}" == "en"]
+// ****************
+
+[.lead]
+Preamble goes here...
+
+== Introduction
+include::./intro_sat.adoc[]
+
+== Chapter 2 
+// Further chapters to go here - include files or  write directly here 
+
+
+.Figure: Sample figure
+image:../nab_referanse_maler_asciidoc-book-basic/media/sample-image.png[]
+
+// ****************
+endif::[]
+// ****************
+
+// ****************
+// NORWEGIAN
+// ****************
+ifeval::["{lang}" == "no"]
+
+[.lead]
+Kort, innledende tekst for denne boken
+
+
+== Introduksjon
+include::./intro_booktitle.adoc[]
+
+== Kapittel 2 
+// Inkluder kapittel-filer eller skriv direkte her 
+
+// ****************
+endif::[]
+// ****************
+
+
+
+

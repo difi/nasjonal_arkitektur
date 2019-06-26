@@ -68,11 +68,6 @@ image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _Denne oversik
 image:../nab_referanse_arkitekturer/media/katalog-referansearkitekturer.png[]
 
 
-
-
-
-
-
 include::../nab_referanse_arkitekturer/spesifikke-referansearkitekturer.adoc[]
 
 //== Informasjonssikkerhet (felles)
