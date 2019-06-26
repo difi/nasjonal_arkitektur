@@ -12,7 +12,7 @@ Strategiske arkitekturer, segmentarkitekturer og kapabilitetsarkitekturer
 == Generelt
  
 
-image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _Dokumentasjonen av det nasjonale arkitekturlandskapet er påbegynt våren 2019.
+image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _Dokumentasjonen av det nasjonale arkitekturlandskapet er påbegynt våren 2019._
 
 
 Den totale virksomhetsarkitekturen inndeles og brytes med i områder, eller temaområder, og videre i kapabiliteter. Dette gjøres i flere nivåer, til et hensiktsmessig detaljnivå.
@@ -30,10 +30,13 @@ roadmaps at a program or portfolio level._
 development of effective architecture roadmaps realizing capability increments._
 
 
+
+
 Se også:
 
 * link:../nab_overordnet-metode[Grunnleggende konsepter for Nasjonalt arkitekturbibliotek].
 * <<link:../nab_overordnet-metode/book-nab-overordnet-metode.adoc#_om_områder_og_kapabilitetskart,Om temaområder og kapabilitetskart>>
+* <<link:../nab_referanse_arkitekturer/grunnleggende-referansearkitekturer.adoc#Strategiske betraktninger om 
 
 
 :leveloffset: +1
@@ -46,7 +49,8 @@ include::../nab_arkitekturlandskap_strategisk-arkitektur/main.adoc[]
 
 === Temaområde Informasjonsforvaltning
 
-Det tas inntil videre her utgangspunkt i nedbrytning av området _Data Management_ slik dette gjøres i DAMA DMBOK2 (der det kalles _kompetanseområder_). 
+Det tas [underline]#inntil videre# her utgangspunkt i nedbrytning av området _Data Management_ slik dette gjøres i DAMA DMBOK2.
+
 
 .Overordnet kapabilitetskart for området Informasjonsforvaltning (DMBOK2)
 image::../nab_arkitekturlandskap_strategisk-arkitektur\media\data-management-ref-dmbok2.png[]
@@ -57,9 +61,11 @@ I DMBOK2 finnes en videre nedbrytning for hvert område. Følgende figur viser d
 image::../nab_arkitekturlandskap_strategisk-arkitektur\media\dmbok2-data-integration-and-interoperability.png[]
 
 
-Området *Data sharing between applications and across organizations* er her en del av det større området _Data Integration and Interoperability_ og tilsvarer det som Difi ellers definerer som temaområde Datadeling. Denne figuren viser også hvilke andre områder som _Data Integration and Interoperability_ er avhengig av.
+Området *Data sharing between applications and across organizations* opptrer her som en del av det større området _Data Integration and Interoperability_ og tilsvarer det som Difi ellers definerer som temaområde Datadeling. Denne figuren viser også hvilke andre områder som _Data Integration and Interoperability_ er avhengig av.
 
-Vi betrakter ut fra dette <<datadeling,temaområdet Datadeling>> som en del av et større bilde som handler om informasjonforvaltning, både internt i hver enkelt virksomhet og på tvers av virksomheter. 
+Vi betrakter ut fra dette <<datadeling,temaområdet Datadeling>> som en del av et større bilde som handler om informasjonforvaltning, både internt i hver enkelt virksomhet og på tvers av virksomheter.
+
+NOTE: _Difi har planlagt videre arbeid med rammeverk for informasjonsforvaltning med oppstart i 2020._
 
 [#datadeling]
 === Temaområde Datadeling

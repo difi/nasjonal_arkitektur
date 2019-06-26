@@ -7,20 +7,18 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 
 
-== Delområder innen temaområdet Datadeling 
+== Delområder innen Datadeling
 
 image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _Denne nedbrytingen er under arbeid våren 2019._
 
-Følgende figur viser en foreløpig nedbryting av temaområdet Datadeling.
+Følgende figur viser en foreløpig nedbryting av temaområdet Datadeling, slik dette tidligere er gjort i tilknytning til arbeid med aktuelle referansearkitekturer våren 2019..  
 
 .Foreløpig inndeling av temaområdet Datadeling i delområder
 image::../nab_arkitekturlandskap_segmentarkitektur_datadeling\media\kapabilitetsområder-datadeling.png[alt="Bilde mangler"]
 
 NOTE: Se også informasjon om status og videre arbeid med denne nebrytingen #"annet sted"#. 
 
-
-
-== Datautveksling
+=== Delområde Datautveksling
 Området _datautveksling_ er brutt ned i delområder som vist i følgende figur.
 
 .Områder innen Datautveksling
@@ -33,7 +31,7 @@ En videre oversikt over (overordnede) kapabiliteter innen dette området er vist
 image::../nab_arkitekturlandskap_strategisk-arkitektur\media\kapabiliteter-datautveksling.png[alt="Bilde mangler"]
 ////
 
-=== Deling av data ved forsendelse
+==== Deling av data ved forsendelse
 Dette er deling av informasjon og data initiert av avsender. Det vil normalt være behov og/eller forventning om oppfølging fra mottaker. Eksempler kan være å sende en faktura hvor det forventes at mottaker behandler denne, eller en henvisning i helsesektoren hvor det forventes at mottaker tar ansvar for videre oppfølging av pasienten det gjelder. 
 
 Ved deling av data ved forsendelse må avsender ha visshet om at mottaker kan motta og behandle meldingen/informasjonen som sendes.
@@ -46,7 +44,7 @@ NOTE: Deling av data ved forsendelse er beskrevet i Nasjonal referansearkitektur
 
 
 
-=== Deling av data på forespørsel
+==== Deling av data på forespørsel
 //:leveloffset: +4
 //include::../nab_arkitekturlandskap_segmentarkitektur_datadeling/deling-av-data-på-forspørsel.adoc[]
 //:leveloffset!:
@@ -62,7 +60,7 @@ Oppslag av data gjennom API kan gi mer avanserte muligheter for spørring i data
 
 NOTE: En  videre nedbryting av kapabiliteterer spesielt for innhenting av data ved oppslag mot API er gjort i tilnytning til link:../nab_referanse_arkitekturer_eoppslag/[referansearkitektur for eOppslag] og er videre beskrevt der.
     
-=== Hendelsesdrevet deling av data
+==== Hendelsesdrevet deling av data
 Med hendelsesdrevet deling av data menes det deling som er initiert av en tilstandsendring i dataene som deles. Databruker leser eller abonnerer på hendelseslister og dette trigger eventuell videre oppfølging. Databruker må vurdere om endringen skal følges opp og lese data på forespørsel. 
 
 Et eksempel er modernisert folkeregister hvor brukere kan abonnere på endringer og således kun få vite at det har skjedd en endring på en person, og dersom dette kan være relevant for brukeren hentes detaljene om endringen som igjen kan sette i gang en handling hos bruker.
@@ -74,3 +72,18 @@ image::../nab_arkitekturlandskap_segmentarkitektur_datadeling/media/kapabilitete
 
 //Det er foreløpig ikke startet arbeid med referansearkitektur for hendelsesdrevet deling av data.
 
+
+== Alternativt utkast til kapabilitetskart for Datadeling basert på The Open Group SOA RA
+
+Behovet for et mer detaljert bilde enn det som så langt er gitt, er til utredning (våren 2019). Som ledd i dette har en sett på kapabilitetskart i The Open Group SOA RA.
+
+Følgende figur presenterer et utvalg av temaområdene i det totale kapbilitetskartet i The Open Group SOA RA som anses spesielt relevant:
+
+
+.Utvalgte temaområder fra The Open Group-s SOA RA
+image::../nab_arkitekturlandskap_segmentarkitektur_datadeling/media/SOA_RA_Kapabilitetsområder.png[]
+
+#Videre detaljer# om dette finnes...
+
+* The OpenGroup...
+* Egen Archi-modellpublisert her:....

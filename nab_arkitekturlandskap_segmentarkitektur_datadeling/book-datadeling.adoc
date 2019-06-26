@@ -12,7 +12,10 @@ Datadeling er et prioritert område innen nasjonal arkitektur.
 == Generelt
 En foreløpig nedbryting i temaområder og kapabilitetsområder ble gjort våren 2019 i tilknytning til arbeid med de første referansearkitekturene innen Datadeling, dvs. eMelding og eOppslag.
 
-Difi har etter dette arbeidet med å få på plass et mer komplett bilde. Det er da tatt en strategisk beslutning om at en skal ta utgangspunkt i the European Interoperability Referencearchitecture (EIRA) og gjenbruke arkitekturbyggeklosser fra EIRA. En har samtidig sett på andre kilder, slik som DAMA DMBOK2 for Informasjonsforvaltning og the Open Group SOA RA, der Datadeling inngår i en større sammenheng. Konklusjonen er inntil videre at en vil søke en samordnet innsats 
+Difi arbeider etter dette med å få på plass et mer komplett bilde. Dette er inntil videre bare delvis dokumentert her. 
+
+Se også: Erik!!
+
 
 :leveloffset: +1
 = Kapabilitetskart for Datadeling

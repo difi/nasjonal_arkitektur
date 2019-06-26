@@ -19,11 +19,20 @@ Nasjonale referansearkitekturer identifiseres ut fra en link:../nab_arkitekturla
 
 Det legges vekt på å få fram nyttig veiledning, med alt fra gode eksempler til beste praksis og konkrete anbefalinger. 
 
-Prioritering av arbeidet gjøres i samarbeid med interessenter på tvers av offentlig og privat sektor.
+Prioritering av arbeidet og utarbeidelsen av referansearkitekturer gjøres i samarbeid med aktører på tvers av offentlig og privat sektor nasjonalt og internasjonalt. 
 
-Det tas utgangspunkt i utvalgte, grunnleggende referansearkitekturer fra EU og standardiseringsorganisasjoner som The Open Group.
+Arbeidet med nasjonale referansearkitekturer i Norge baseres i størst mulig grad på føringer fra EU, internasjonale standarder og gjenbruk av god praksis fra andre land og etablerte kunnskapsverk.
 
-Utarbeidelsen av referansearkitekturer gjøres i samarbeid med aktører på tvers av offentlig og privat sektor nasjonalt. Det er også etablert samarbeid internasjonalt, organisert gjennom EU. 
+Det finnes ingen enkeltstående _fasit_ å henvise til. Blant et antall eksterne kilder, er det her gjort et utvalg av de mest relevante og "beste" kildene i dagens landskap.
+
+Strategiske vurderinger:
+
+* Av hensyn til internasjonalt samarbeid i EU-området, er det gitt at vi (Norge) må støtte oppunder European Interoperability Reference Architecture (EIRA) og videre arbeid med dette som en grunnleggende referansearkitektur. I dagens situasjon behøves likevel utvidelser til EIRA for å gi tilstrekkelig grad av detalj til våre nasjonale referansearkitekturer.
+
+* I praksis er det ikke trivielt å kombinere ulike referansearkitekturer, rammeverk og liknende. Selv om det kan la seg gjøre som en engangsøvelse, vil det bli en håpløs oppgave å vedlikeholde over tid. 
+
+* Vår tilnærming er derfor å søke samarbeid internasjonalt og støtte fra sentralt hold i EU for å utarbeide felles referansearkitekturer basert på EIRA, samtidig som vi i mellomtiden fortsetter et selvstendig arbeid for å dekke våre prioriterte behov (med en "MVP-tilnærming" - Minimal Viable Product). Vi er i gang med begge deler.
+
 
 
 NOTE: _I videre arbeid med referansearkitekturer vil engelsk språk prioriteres foran norsk, av hensyn til internasjonalt samarbeid. I en overgangsperiode vil det finnes en blanding. På sikt ønskes  dokumentasjonen tilgjengelig på begge språk (norsk og engelsk)._
@@ -47,18 +56,14 @@ Relatert informasjon:
 include::../nab_referanse_arkitekturer/kapabilitetsområder.adoc[]
 ////
 
-= Grunnleggende referansearkitekturer
+= Grunnleggende referansearkitekturer og andre utvalgte eksterne referanser
+
 include::../nab_referanse_arkitekturer/grunnleggende-referansearkitekturer.adoc[]
 
 
 = Nasjonale referansearkitekturer
 
-
-
-
-
 == Identifiserte referansearkitekturer
-
 
 Følgende figur viser en foreløpig oversikt over aktuelle referansearkitekturer innen respektive områder.
 
