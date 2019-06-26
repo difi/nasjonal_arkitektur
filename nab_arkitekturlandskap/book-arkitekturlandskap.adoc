@@ -39,26 +39,22 @@ Se også:
 :leveloffset: +1
 
 = Strategiske arkitekturer
-
-TIP: Flytt kapabilitetskart for _segment-nivå_ til segmentarkitekturer (eks. kapabilitetskart for området Datadeling).
-//TIP: Move the segment level capabiliyt maps to the respective segments (subject areas).
-
 include::../nab_arkitekturlandskap_strategisk-arkitektur/main.adoc[]
 
 :leveloffset!:
 == Segmentarkitekturer
 
 === Temaområde Informasjonsforvaltning
-==== Kapabilitetskart for temaområde Informasjonsforvaltning
-Det tas her utgangspunkt i nedbrytning av området _Data Management_ slik dette gjøres i DAMA DMBOK2 (der det kalles _kompetanseområder_). 
+
+Det tas inntil videre her utgangspunkt i nedbrytning av området _Data Management_ slik dette gjøres i DAMA DMBOK2 (der det kalles _kompetanseområder_). 
 
 .Overordnet kapabilitetskart for området Informasjonsforvaltning (DMBOK2)
-image::../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media\data-management-ref-dmbok2.png[]
+image::../nab_arkitekturlandskap_strategisk-arkitektur\media\data-management-ref-dmbok2.png[]
 
 I DMBOK2 finnes en videre nedbrytning for hvert område. Følgende figur viser dette for området Data Integration and Interoperability.
 
 .Figur: DMBOK2 Data Integration and Interoperability
-image::../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media\dmbok2-data-integration-and-interoperability.png[]
+image::../nab_arkitekturlandskap_strategisk-arkitektur\media\dmbok2-data-integration-and-interoperability.png[]
 
 
 Området *Data sharing between applications and across organizations* er her en del av det større området _Data Integration and Interoperability_ og tilsvarer det som Difi ellers definerer som temaområde Datadeling. Denne figuren viser også hvilke andre områder som _Data Integration and Interoperability_ er avhengig av.
@@ -67,17 +63,9 @@ Vi betrakter ut fra dette <<datadeling,temaområdet Datadeling>> som en del av e
 
 [#datadeling]
 === Temaområde Datadeling
-
-==== Kapabilitetskart for temaområde Datadeling
-_Se over (skal flyttes hit)._s
-
-==== Roller innen temaområde datadeling
-:leveloffset: +1
-include::../nab_arkitekturlandskap_roller/roller.adoc[]
-:leveloffset: -1
-
-==== Arkitekturbyggeklosser innen temaområde Datadeling
-TBD 
+:leveloffset: +2
+include::../nab_arkitekturlandskap_segmentarkitektur_datadeling/main.adoc[]
+:leveloffset!:
 
 
 

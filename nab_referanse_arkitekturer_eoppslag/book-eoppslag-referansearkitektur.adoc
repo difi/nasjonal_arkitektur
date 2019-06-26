@@ -8,10 +8,10 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 == Om eOppslag
 
-// Test lenke: <<../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart#Deling av data på forespørsel, Deling av data på forespørsel>>
+// Test lenke: <<../nab_arkitekturlandskap_strategisk-arkitektur_kapabilitetskart#Deling av data på forespørsel, Deling av data på forespørsel>>
 
 //:leveloffset: +4
-//include::../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart/deling-av-data-på-forspørsel.adoc[]
+//include::../nab_arkitekturlandskap_strategisk-arkitektur_kapabilitetskart/deling-av-data-på-forspørsel.adoc[]
 //:leveloffset!:
 
 

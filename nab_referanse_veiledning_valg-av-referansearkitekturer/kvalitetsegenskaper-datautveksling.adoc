@@ -15,12 +15,12 @@ Teknisk: Krav til ... og informasjonsikkert.
 
 
 //.Figur: Overordnet kapabilitetskart for området Datautveksling
-//image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media\kapabiliteter-datautveksling.png[alt="Bilde mangler"]
+//image:../nab_arkitekturlandskap_strategisk-arkitektur_kapabilitetskart\media\kapabiliteter-datautveksling.png[alt="Bilde mangler"]
 
 Relatert informasjon:
 
 1. link:../nab_overordnet-metode/[Grunnleggende konsepter (under overordnet metode)]
-2. link:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart[Nedbrytning i områder og kapabiliteter]]
+2. link:../nab_arkitekturlandskap_strategisk-arkitektur_kapabilitetskart[Nedbrytning i områder og kapabiliteter]]
 
 
 

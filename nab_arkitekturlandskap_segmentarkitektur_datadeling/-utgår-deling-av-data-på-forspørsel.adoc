@@ -1,0 +1,18 @@
+:lang: no
+:doctitle: Deling av data på forespørsel
+:keywords: eOppslag
+//:toclevels: 3
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+
+Dette kan være å spørre om data gjennom et API eller å lese åpne, publiserte data. Ved å lese publiserte data menes for eksempel åpne data på data.norge.no eller datasett som legges fritt tilgjengelig på nettet. Et eksempel på det siste er valutakurser fra Norges bank.
+
+.Kapabiliteter innen området Deling av data på forespørsel
+image::../nab_arkitekturlandskap_segmentarkitektur_datadeling/media/kapabiliteter-datautveksling-forespørsel.png[alt="Bilde mangler", width=750]
+
+
+Oppslag av data gjennom API kan gi mer avanserte muligheter for spørring i datasett med ulike metoder og tilgangsnivåer. Dette vil være måten å dele data nært opp til sanntid for bruk i saksbehandlingsprosesser og liknende når tilgang skal gis etter hvilke rettigheter den enkelte bruker har til dataene. Et eksempel på dette er oppslag i folkeregisteret hvor ulike brukere kan ha ulike tilganger etter hva de har av hjemler og behov.
+
+
+NOTE: En  videre nedbryting av kapabiliteterer spesielt for innhenting av data ved oppslag mot API er gjort i tilnytning til link:../nab_referanse_arkitekturer_eoppslag/[referansearkitektur for eOppslag] og er videre beskrevt der.
+

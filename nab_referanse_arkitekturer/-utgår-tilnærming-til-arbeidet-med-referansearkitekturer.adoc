@@ -17,7 +17,7 @@ Oversikt over behovene vedlikeholdes i felles kapabilitetskart innen ulike områ
 Relatert informasjon:
 
 1. link:../nab_overordnet-metode/[Grunnleggende konsepter (under overordnet metode)]
-2. link:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart[Nedbrytning i områder og kapabiliteter]
+2. link:../nab_arkitekturlandskap_strategisk-arkitektur_kapabilitetskart[Nedbrytning i områder og kapabiliteter]
 
 
 

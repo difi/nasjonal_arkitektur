@@ -9,8 +9,8 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 //Strategiske arkitekturer
 
 
-== Kapabilitetskart
+==  Overordnede temaområder innen Nasjonal arkitektur
 
 :leveloffset: +1
-include::../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart/main.adoc[]
+include::./strategisk-kapabilitetskart.adoc[]
 :leveloffset: -1

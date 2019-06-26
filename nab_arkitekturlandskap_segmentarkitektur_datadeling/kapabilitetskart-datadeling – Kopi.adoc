@@ -1,33 +1,17 @@
 :lang: no
-:doctitle: Kapabilitetskart for nasjonal arkitektur
+:doctitle: Kapabilitetskart for temaområdet Datadeling
 :keywords: eMelding
 :toclevels: 3
 include::../plattform_felles/includes/commonincludes.adoc[]
 
 
-== Nivå 1 områder (overordnet) 
 
-Følgende figur viser utvalgte _overordnede kapabilitetsområder_ innen Nasjonal arkitektur for samhandling.
-
-//Henrik: Skal vi lenke til NIFen? Eventuelt noe annet på samhandlingsarkitektur?
-
-Beskrivelser av områder og kapabiliteter er avgrenset til å beskrive områder og kapabiliteter inne deling av data og nært tilknyttede temaer.
-
-.Figur: Kapabilitetsområder innen Nasjonal arkitektur (i arbeid)
-image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media\områder-nasjonal-arkitektur.png[]
-
-
-== Nivå 2 områder
-
-Nivå 2 bryter de overordnede områdene ned i mer detaljerte områder, men fortsatt på et svært overodnet nivå og vil kunne inngå i en overodnet kartlegging. 
-
-=== Datadeling
 
 ////
 Et view på oppdeling er med utgangspunkt i pågående arbeid med refereansearkitekturer og andre tiltak.
 
 .Figur: Kapabilitetsområder innen Datadeling (utvalg)
-image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media\områder-datadeling.png[alt="Bilde mangler"]
+image:../nab_arkitekturlandskap_strategisk-arkitektur\media\områder-datadeling.png[alt="Bilde mangler"]
 ////
 
 Det er utarbeidet en oversikt og inndeling av kapabilitetsområde Datadeling basert på The Open Group SOA reference architecture. Her er det gjort et utvalg av aktuelle områder og kapabiliteter basert på en større oversikt.
@@ -36,12 +20,12 @@ Det er utarbeidet en oversikt og inndeling av kapabilitetsområde Datadeling bas
 
 
 .Figur: Kapabilitetsområder for Datadeling
-image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media\SOA_RA_Kapabilitetsområder.png[alt="Bilde mangler"]
+image:../nab_arkitekturlandskap_strategisk-arkitektur\media\SOA_RA_Kapabilitetsområder.png[alt="Bilde mangler"]
 
 De overordnede lagene i kapabilitetsinndelingen fra figuren over kan kobles til EIF som vist i figuren under. Det er ikke et en-til-en forhold og det kan være kapabiliteter innen alle områder som adresserer hvert av EIF-lagene, men figuren illustrerer hvor hovedtyngden av kapabilitetene innenfor hvert område befinner seg.
 
 .Figur: Kapabilitetsområder koblet til EIF
-image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media\EIF_og_SOA_RA.png[alt="Bilde mangler" width=600]
+image:../nab_arkitekturlandskap_strategisk-arkitektur\media\EIF_og_SOA_RA.png[alt="Bilde mangler" width=600]
 
 == Nivå 3 områder og overordnede kapabiliter
 
@@ -51,19 +35,19 @@ Nivå 3 bryter nivå 2 områder ytterligere ned i mer detaljerte områder. Dette
 Området _datautveksling_ er brutt ned i delområder som vist i følgende figur.
 
 .Figur: Områder innen Datautveksling
-image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media\områder-datautveksling.png[alt="Bilde mangler"]
+image:../nab_arkitekturlandskap_strategisk-arkitektur\media\områder-datautveksling.png[alt="Bilde mangler"]
 
 
 En videre oversikt over de overordnede kapabilitetene innen dette området er vist nedenfor. Her er det også vist hvilke roller som kapabilitetene assosieres med, og sammenhengen mellom kapabilitetene er angitt som informasjonsflyt.
 
 .Figur: Overordnet kapabilitetskart innen området Datautveksling
-image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media\kapabiliteter-datautveksling.png[alt="Bilde mangler"]
+image:../nab_arkitekturlandskap_strategisk-arkitektur\media\kapabiliteter-datautveksling.png[alt="Bilde mangler"]
 
 
 ==== Deling av data ved forsendelse
 
 .Figur: Kapabiliteter innen området Deling av data ved forsendelse
-image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media/kapabiliteter-datautveksling-forsendelse.png[alt="Bilde mangler", width=750]
+image:../nab_arkitekturlandskap_strategisk-arkitektur\media/kapabiliteter-datautveksling-forsendelse.png[alt="Bilde mangler", width=750]
 
 Dette er deling av informasjon og data initiert av avsender. Det vil normalt være behov og/eller forventning om oppfølging fra mottaker. 
 
@@ -77,16 +61,15 @@ Deling av data ved forsendelse er foreløpig beskrevet i Nasjonal referansearkit
 
 ==== Deling av data på forespørsel
 :leveloffset: +4
-include::../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart/deling-av-data-på-forspørsel.adoc[]
-:leveloffse!t:
+include::../nab_arkitekturlandskap_segmentarkitektur_datadeling/deling-av-data-på-forspørsel.adoc[]
+:leveloffset!:
 
 
-
-
+    
 ==== Hendelsesdrevet deling av data
 
 .Figur: Kapabiliteter innen området Hendelsesdrevet deling av data
-image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media/kapabiliteter-datautveksling-hendelse.png[alt="Bilde mangler", width=750]
+image:../nab_arkitekturlandskap_strategisk-arkitektur/|media/kapabiliteter-datautveksling-hendelse.png[alt="Bilde mangler", width=750]
 
 Med hendelsesdrevet deling av data menes det deling som er initiert av en tilstandsendring i dataene som deles. Databruker leser eller abonnerer på hendelseslister og dette trigger eventuell videre oppfølging. Databruker må vurdere om endringen skal følges opp og lese data på forespørsel. 
 

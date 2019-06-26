@@ -6,3 +6,67 @@
 04.06.2019 19:35:34: Kopierer C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_maler_asciidoc-book-basic --> C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_tema_arkitekturmodellering
 05.06.2019 08:55:51: MakeNewBook(kunnskap_tema_virksomhetsarkitektur)
 05.06.2019 08:55:54: Kopierer C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_maler_asciidoc-book-basic --> C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_tema_virksomhetsarkitektur
+26.06.2019 16:43:49: SøkTekstIAlleFiler(arkitekturlandskapr)
+26.06.2019 16:43:50: Linje: image::../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media\data-management-ref-dmbok2.png[]
+26.06.2019 16:43:50: Linje: image::../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media\dmbok2-data-integration-and-interoperability.png[]
+26.06.2019 16:43:50: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_arkitekturlandskap\book-arkitekturlandskap.adoc
+26.06.2019 16:43:50: Linje: image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media/kapabiliteter-datautveksling-forespørsel.png[alt="Bilde mangler", width=750]
+26.06.2019 16:43:50: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_arkitekturlandskap_segmentarkitektur_datadeling\deling-av-data-på-forspørsel.adoc
+26.06.2019 16:43:50: Linje: image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media\områder-nasjonal-arkitektur.png[]
+26.06.2019 16:43:50: Linje: image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media\områder-datadeling.png[alt="Bilde mangler"]
+26.06.2019 16:43:50: Linje: image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media\SOA_RA_Kapabilitetsområder.png[alt="Bilde mangler"]
+26.06.2019 16:43:50: Linje: image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media\EIF_og_SOA_RA.png[alt="Bilde mangler" width=600]
+26.06.2019 16:43:50: Linje: image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media\områder-datautveksling.png[alt="Bilde mangler"]
+26.06.2019 16:43:50: Linje: image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media\kapabiliteter-datautveksling.png[alt="Bilde mangler"]
+26.06.2019 16:43:50: Linje: image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media/kapabiliteter-datautveksling-forsendelse.png[alt="Bilde mangler", width=750]
+26.06.2019 16:43:50: Linje: include::../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart/deling-av-data-på-forspørsel.adoc[]
+26.06.2019 16:43:50: Linje: image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media/kapabiliteter-datautveksling-hendelse.png[alt="Bilde mangler", width=750]
+26.06.2019 16:43:50: 9 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_arkitekturlandskap_segmentarkitektur_datadeling\kapabilitetskart.adoc
+26.06.2019 16:43:50: Linje: include::../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart/main.adoc[]
+26.06.2019 16:43:50: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_arkitekturlandskap_strategisk-arkitektur\book-strategisk-arkitektur.adoc
+26.06.2019 16:43:50: Linje: image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media/kapabiliteter-datautveksling-forespørsel.png[alt="Bilde mangler", width=750]
+26.06.2019 16:43:50: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_arkitekturlandskap_strategisk-arkitektur_kapabilitetskart\deling-av-data-på-forspørsel.adoc
+26.06.2019 16:43:50: Linje: image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media\områder-nasjonal-arkitektur.png[]
+26.06.2019 16:43:50: Linje: image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media\områder-datadeling.png[alt="Bilde mangler"]
+26.06.2019 16:43:50: Linje: image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media\SOA_RA_Kapabilitetsområder.png[alt="Bilde mangler"]
+26.06.2019 16:43:50: Linje: image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media\EIF_og_SOA_RA.png[alt="Bilde mangler" width=600]
+26.06.2019 16:43:50: Linje: image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media\områder-datautveksling.png[alt="Bilde mangler"]
+26.06.2019 16:43:50: Linje: image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media\kapabiliteter-datautveksling.png[alt="Bilde mangler"]
+26.06.2019 16:43:50: Linje: image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media/kapabiliteter-datautveksling-forsendelse.png[alt="Bilde mangler", width=750]
+26.06.2019 16:43:50: Linje: include::../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart/deling-av-data-på-forspørsel.adoc[]
+26.06.2019 16:43:50: Linje: image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media/kapabiliteter-datautveksling-hendelse.png[alt="Bilde mangler", width=750]
+26.06.2019 16:43:50: 9 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_arkitekturlandskap_strategisk-arkitektur_kapabilitetskart\kapabilitetskart.adoc
+26.06.2019 16:43:50: Linje: 2. link:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart[Nedbrytning i områder og kapabiliteter]
+26.06.2019 16:43:50: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer\-utgår-tilnærming-til-arbeidet-med-referansearkitekturer.adoc
+26.06.2019 16:43:50: Linje: Nasjonale referansearkitekturer identifiseres ut fra en link:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart[nedbrytning av nasjonal arkitektur i temaområder og kapabiliteter]. Både kapabilitetskart og prioriterte referansearkitekurer innen hvert område vil utvikles over tid, etterhvert som en går inn på nye områder. 
+26.06.2019 16:43:50: Linje: 2. link:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart[Nedbrytning i områder og kapabiliteter]
+26.06.2019 16:43:50: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer\book-nasjonale-referansearkitekturer.adoc
+26.06.2019 16:43:50: Linje: // Test lenke: <<../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart#Deling av data på forespørsel, Deling av data på forespørsel>>
+26.06.2019 16:43:50: Linje: //include::../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart/deling-av-data-på-forspørsel.adoc[]
+26.06.2019 16:43:50: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_eoppslag\book-eoppslag-referansearkitektur.adoc
+26.06.2019 16:43:51: Linje: //image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media\kapabiliteter-datautveksling.png[alt="Bilde mangler"]
+26.06.2019 16:43:51: Linje: 2. link:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart[Nedbrytning i områder og kapabiliteter]]
+26.06.2019 16:43:51: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_veiledning_valg-av-referansearkitekturer\kvalitetsegenskaper-datautveksling.adoc
+26.06.2019 16:54:27: ErstattTekstIAlleFiler(nab_arkitekturlandskapr_, nab_arkitekturlandskap_)
+26.06.2019 16:54:27: Linje: image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media\områder-nasjonal-arkitektur.png[]
+26.06.2019 16:54:27: Linje: image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media\områder-datadeling.png[alt="Bilde mangler"]
+26.06.2019 16:54:27: Linje: image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media\SOA_RA_Kapabilitetsområder.png[alt="Bilde mangler"]
+26.06.2019 16:54:27: Linje: image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media\EIF_og_SOA_RA.png[alt="Bilde mangler" width=600]
+26.06.2019 16:54:27: Linje: image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media\områder-datautveksling.png[alt="Bilde mangler"]
+26.06.2019 16:54:27: Linje: image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media\kapabiliteter-datautveksling.png[alt="Bilde mangler"]
+26.06.2019 16:54:27: Linje: image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media/kapabiliteter-datautveksling-forsendelse.png[alt="Bilde mangler", width=750]
+26.06.2019 16:54:27: Linje: include::../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart/deling-av-data-på-forspørsel.adoc[]
+26.06.2019 16:54:27: Linje: image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media/kapabiliteter-datautveksling-hendelse.png[alt="Bilde mangler", width=750]
+26.06.2019 16:54:27: 9 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_arkitekturlandskap_strategisk-arkitektur_kapabilitetskart\kapabilitetskart.adoc
+26.06.2019 16:54:27: Linje: 2. link:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart[Nedbrytning i områder og kapabiliteter]
+26.06.2019 16:54:27: 1 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer\-utgår-tilnærming-til-arbeidet-med-referansearkitekturer.adoc
+26.06.2019 16:54:27: Linje: Nasjonale referansearkitekturer identifiseres ut fra en link:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart[nedbrytning av nasjonal arkitektur i temaområder og kapabiliteter]. Både kapabilitetskart og prioriterte referansearkitekurer innen hvert område vil utvikles over tid, etterhvert som en går inn på nye områder. 
+26.06.2019 16:54:27: Linje: 2. link:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart[Nedbrytning i områder og kapabiliteter]
+26.06.2019 16:54:27: 2 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer\book-nasjonale-referansearkitekturer.adoc
+26.06.2019 16:54:28: Linje: // Test lenke: <<../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart#Deling av data på forespørsel, Deling av data på forespørsel>>
+26.06.2019 16:54:28: Linje: //include::../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart/deling-av-data-på-forspørsel.adoc[]
+26.06.2019 16:54:28: 2 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_eoppslag\book-eoppslag-referansearkitektur.adoc
+26.06.2019 16:54:28: Linje: //image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media\kapabiliteter-datautveksling.png[alt="Bilde mangler"]
+26.06.2019 16:54:28: Linje: 2. link:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart[Nedbrytning i områder og kapabiliteter]]
+26.06.2019 16:54:28: 2 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_veiledning_valg-av-referansearkitekturer\kvalitetsegenskaper-datautveksling.adoc
+26.06.2019 16:54:38: SøkTekstIAlleFiler(arkitekturlandskapr)

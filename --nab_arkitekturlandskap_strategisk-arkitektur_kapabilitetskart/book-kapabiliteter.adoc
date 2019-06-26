@@ -15,6 +15,9 @@ image:../plattform_felles/media/i-arbeid.png[width=45, height=45] Oversikter og 
 = Introduksjon
 include::./intro-kapabiliteter.adoc[]
 
+
+
+= Overordnede temaområder
+include::./strategisk-kapabilitetskart.adoc[]
+
 :leveloffset: -1
-//= Kapabilitetskart
-include::./kapabilitetskart.adoc[]
