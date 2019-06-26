@@ -26,6 +26,9 @@ Det tas utgangspunkt i utvalgte, grunnleggende referansearkitekturer fra EU og s
 Utarbeidelsen av referansearkitekturer gjøres i samarbeid med aktører på tvers av offentlig og privat sektor nasjonalt. Det er også etablert samarbeid internasjonalt, organisert gjennom EU. 
 
 
+NOTE: _I videre arbeid med referansearkitekturer vil engelsk språk prioriteres foran norsk, av hensyn til internasjonalt samarbeid. I en overgangsperiode vil det finnes en blanding. På sikt ønskes  dokumentasjonen tilgjengelig på begge språk (norsk og engelsk)._
+
+
 Relatert informasjon:
 
 1. link:../nab_overordnet-metode/[Overordnet metode]
