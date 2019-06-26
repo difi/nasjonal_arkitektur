@@ -36,7 +36,7 @@ NOTE: Se  link:TBD.[navnekonvensjoner for nasjonalt arkitekturbibliotek] for mer
 
 
 
-= Kapabilitetskart
+= Om kapabilitetskart
 
 Utvalgte sitater fra https://blog.protiviti.com/2018/07/02/blueprint-change-capability-reference-architecture-can-help-map-road-organizational-transformation-part-1-2/:
 
