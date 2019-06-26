@@ -6,9 +6,16 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 :leveloffset: +1
 = EIRA - European Interoparability Reference Architecture
-include::../kunnskap_referansearkitektur_eu-eira/book-ra-eira.adoc[]
+include::../kunnskap_referansearkitektur_eu-eira/ra-eira-intro.adoc[]
 
 
-= TOOPRA - The Once Only Principle Reference Architecture 
-include::../kunnskap_referansearkitektur_eu-toopra/book-ra-toopra.adoc[]
+= TOOPRA - The Once Only Principle Reference Architecture (EU)
+include::../kunnskap_referansearkitektur_eu-toopra/intro-ra-toopra.adoc[]
+
+= The Open Group SOA RA
+include::../kunnskap_referansearkitektur_tog-soa-ra/intro-tog-soa-ra.adoc[]
+
+//= OASIS SOA RAF
+//include::../kunnskap_referansearkitektur_oasis-soa-raf/intro-tog-soa-ra.adoc[]
+
 :leveloffset: -1

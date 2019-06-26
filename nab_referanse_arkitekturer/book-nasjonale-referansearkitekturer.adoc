@@ -1,5 +1,5 @@
 :lang: no
-:doctitle: Nasjonale referansearkitekturer
+:doctitle: Referansearkitekturer
 :keywords: Referansearkitekturer
 
 :toclevels: 3
@@ -14,24 +14,60 @@ Arbeid med prioriterte nasjonale referansearkitekturer er et pågående samarbei
 :leveloffset: +1
 = Generelt om referansearkitekturer og arbeidet med dette på nasjonalt nivå 
 
+Nasjonale referansearkitekturer identifiseres ut fra en link:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart[nedbrytning av nasjonal arkitektur i temaområder og kapabiliteter]. Både kapabilitetskart og prioriterte referansearkitekurer innen hvert område vil utvikles over tid, etterhvert som en går inn på nye områder. 
+
+
+Det legges vekt på å få fram nyttig veiledning, med alt fra gode eksempler til beste praksis og konkrete anbefalinger. 
+
+Prioritering av arbeidet gjøres i samarbeid med interessenter på tvers av offentlig og privat sektor.
+
+Det tas utgangspunkt i utvalgte, grunnleggende referansearkitekturer fra EU og standardiseringsorganisasjoner som The Open Group.
+
+Utarbeidelsen av referansearkitekturer gjøres i samarbeid med aktører på tvers av offentlig og privat sektor nasjonalt. Det er også etablert samarbeid internasjonalt, organisert gjennom EU. 
+
+
+NOTE: _I videre arbeid med referansearkitekturer vil engelsk språk prioriteres foran norsk, av hensyn til internasjonalt samarbeid. I en overgangsperiode vil det finnes en blanding. På sikt ønskes  dokumentasjonen tilgjengelig på begge språk (norsk og engelsk)._
+
+
+Relatert informasjon:
+
+1. link:../nab_overordnet-metode/[Overordnet metode]
+2. link:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart[Nedbrytning i områder og kapabiliteter]
+
 //image:../plattform_felles/media/i-arbeid.png[width=45, height=45] #I arbeid (deler av innholdet flyttes)#
 
 //include::../nab_referanse_arkitekturer/om-referansearkitekturer.adoc[]
-include::../nab_referanse_begreper/begrep-referansearkitektur.adoc[]
 
-= Tilnærming til arbeidet med referansearkitekturer
-include::../nab_referanse_arkitekturer/tilnærming-til-arbeidet-med-referansearkitekturer .adoc[]
+
+//= Tilnærming til arbeidet med referansearkitekturer
+//include::../nab_referanse_arkitekturer/tilnærming-til-arbeidet-med-referansearkitekturer .adoc[]
 
 ////
 = Funksjonsområder for referansearkitekturer (kapabiliteter)
 include::../nab_referanse_arkitekturer/kapabilitetsområder.adoc[]
 ////
 
-= Grunnleggende referansearkitekturer  nasjonale referansearkitekturer
+= Grunnleggende referansearkitekturer
 include::../nab_referanse_arkitekturer/grunnleggende-referansearkitekturer.adoc[]
 
 
 = Nasjonale referansearkitekturer
+
+
+
+
+
+== Identifiserte referansearkitekturer
+
+
+Følgende figur viser en foreløpig oversikt over aktuelle referansearkitekturer innen respektive områder.
+
+image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _Denne oversikten er i arbeid (vår 2019)_
+
+.Figur: Katalog over referansearkitekturer innen aktuelle områder i Nasjonal arkitektur
+image:../nab_referanse_arkitekturer/media/katalog-referansearkitekturer.png[]
+
+
 include::../nab_referanse_arkitekturer/spesifikke-referansearkitekturer.adoc[]
 
 //== Informasjonssikkerhet (felles)

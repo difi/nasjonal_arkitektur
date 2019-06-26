@@ -17,8 +17,8 @@ _Kapabiliteter_ angir hva som må kunne gjøres, ikke hvordan. En gjennomtenkt k
 = Generelt
 
 * En kapabilitet er en evne som er forbundet med en aktør i form av av en organisasjon, en person eller et teknisk system.
-* Kapabiliterer realiseres gjennom organisasjoner, mennesker, prosesser og teknologier, gjerne i kombinasjon.
-* Kapabiliterer sier noe om hva en aktør må kunne gjøre, ikke hvordan.
+* Kapabiliteter realiseres gjennom organisasjoner, mennesker, prosesser og teknologier, gjerne i kombinasjon.
+* Kapabiliteter sier noe om hva en aktør må kunne gjøre, ikke hvordan.
 * Mens realiseringen av en kapabilitet er gjenstand for endring, kan navn og betydning av selve kapabiliteten holdes fast.
 * En aktørs kapabiliteter utvikles over tid, både med hensyn til om de overhodet innehas og med hensyn til i hvilken grad de innehas (kvalitetskriterier).
 
@@ -36,27 +36,43 @@ NOTE: Se  link:TBD.[navnekonvensjoner for nasjonalt arkitekturbibliotek] for mer
 
 
 
-////
-Kapabiliteter er typisk uttrykt med generelle termer og på
-høyt nivå, og krever gjerne en kombinasjon av
-organisasjon, mennesker, prosesser og teknologi for å
-oppnås.
+= Om kapabilitetskart
 
+Utvalgte sitater fra https://blog.protiviti.com/2018/07/02/blueprint-change-capability-reference-architecture-can-help-map-road-organizational-transformation-part-1-2/:
+
+A capability reference architecture is a map of the organization’s capabilities. The architecture is meant to depict all organizational capabilities, at a granularity that is meaningful and necessary for the organization to function.
+
+*Why Design a Capability Reference Architecture?*
+
+A capability reference architecture, in and of itself, is a powerful tool to align everyone’s understanding of how the company functions. But, that isn’t the only benefit. The value becomes apparent when an organization performs an assessment on each of its identified capabilities to evaluate how well they fit the needs – and in the case of a transformation initiative, the future needs – of the organization.
+
+Creating a capability map enables an organization to evaluate its capabilities for strategic alignment, as well as assess the relative maturity of each capability in an effort to achieve a clearer current-state view and identify the gaps that might exist relative to a target state. When combined, the steps, described below, can be used to outline an architectural road map for the organization to follow to its desired capabilities state.
+
+
+
+
+
+
+
+
+
+////
 Capabilities represent the current or desired abilities of an organization, realized by its people, processes, information, and technology. They are focused on specific business outcomes, and are used for strategic planning purposes.
 
 Each capability occurs only once in a capability map.
 ////
+
 
 = Kapabiliteter vs. funksjoner
 Business functions describe the work actually done by the organization; they are often explicitly managed, and are more closely aligned to the organization structure.
 
 Each capability occurs only once in a capability map, whereas in a functional decomposition of the enterprise the same sub-function can occur multiple times.
 
-= Kapabilitetsbasert analyse
+
+= Kapabilitetsbasert analyse og planlegging
 TBD.
 
-= Kapabilitetsbasert planlegging
-include::kapabilitetsbasert-planlegging.adoc[]
+
 
 = Kilder til kunnskap
 

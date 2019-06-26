@@ -204,19 +204,42 @@ difi:sbb-lifecycle:: Current lifecycle of solution.
 
 === SBB-attributter (Torget)
 
-Målgruppe:: 
+Målgruppe:: Meaning: TBD
 +
 * Valid values: Obligatorisk for statlige virksomheter; Anbefalt for statlige virksomheter; Anbefalt for kommunal sektor; Tilgjengelig for private virksomheter 
     
-Sluttbrukere eller Innhold (dersom det er et register):: 
+Sluttbrukere:: Meaning: TBD
++ 
+* Applicability: Løsninger
++
+* Valid values: Innbyggere; 
+Ansatte i statlige virksomheter; 
+Ansatte i kommunal sektor; Ansatte i private virksomheter; Maskiner/Systemer 
 
-Juridiske forutsetninger for bruk::
+Innhold:: Meaning: TBD
++
+* Applicability: Datakilder
 
-Planlagte endringer::
+Juridiske forutsetninger for bruk:: Meaning: TBD
 
-Betaling:: 
+Planlagte endringer::Meaning: TBD
 
-Forvalter::
+Betaling:: Meaning: TBD
+
+Forvalter:: Meaning: TBD
+
+Lenke juridisk
+Planlagte endringer
+Lenke utviklingsplaner
+Betaling
+Lenke betaling
+Forvalter
+Sitatet
+Lenke les mer
+Lenke kom i gang
+Brukes sammen med
+Url på Torget (prod)
+
 
 === Konseptspesifikke attributter
 TBD.

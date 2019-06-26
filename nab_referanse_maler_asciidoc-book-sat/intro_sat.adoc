@@ -1,0 +1,64 @@
+////
+Guide to the below header attributes:
+
+    lang: en; no
+    difi_orig_language: en; no
+    difi_translation_status: -; missing; incomplete; OK 
+    keywords_en: comma separated list of english keywords (no controlled vocabulary); TBD
+    keywords_no: comma separated list of Norwegian keywords (no controlled vocabulary); TBD  
+    
+Note: The _lang_ value may be overridden by a command line parameter.
+////
+:lang: en
+:difi_orig_language: en
+:doctitle_en: Introduction
+:doctitle_no: Introduksjon
+:difi_translation_status: -
+:keywords_en: TBD
+:keywords_no: TBD
+:difi_doctype: template-introduction
+
+// The above parameters are processed by scripts included by the following statement
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+// The following statement can be commented out in order to hide Instructions  
+:include_guidelines:
+
+
+// ===============
+// ENGLISH
+ifeval::["{lang}" == "en"]
+// --------------->
+
+ifdef::include_guidelines[]
+
+NOTE: Guideline: This template is based on the link:https://joinup.ec.europa.eu/sites/default/files/document/2017-10/sat_design_guidelines_0_0.pdf[Solution Architecture Template (SAT) Design Guidelines] as provided by EU in relation to the Europeean Interoperability Reference Architecture (EIRA). Guidelines are given direcly in the template through notes like this, and has been adapted to the concepts and methods of the Norwegian National Architecture Library. Additional viewpoints and attributes have been defined. Among the most important extensions are chapters and viewpoints related to capability mapping. The guidelines should be hidden upon completion of the Reference Architecture or Architecture Pattern in question. 
+endif::include_guidelines[]
+
+
+.Figure: Sample figure
+image::../nab_referanse_maler_asciidoc-book-basic/media/sample-image.png[]
+
+
+
+// <--------------
+endif::[]
+// ===============
+
+
+// ===============
+// NORWEGIAN
+ifeval::["{lang}" == "no"]
+// --------------->
+
+Artikkeltekst ...
+
+.Figur: Eksempelfigur
+image:../nab_referanse_maler_asciidoc-book-basic/media/sample-image.png[]
+endif::[]
+
+// <--------------
+endif::[]
+// ===============
+
+

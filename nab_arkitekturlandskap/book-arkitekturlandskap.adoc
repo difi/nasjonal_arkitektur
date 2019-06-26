@@ -10,18 +10,76 @@ Strategiske arkitekturer, segmentarkitekturer og kapabilitetsarkitekturer
 
 
 == Generelt
-Dokumentasjonen av det nasjonale arkitekturlandskapet er i tidlig arbeid. 
+
+
+image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _Dokumentasjonen av det nasjonale arkitekturlandskapet er påbegynt våren 2019.
+
+
+Den totale virksomhetsarkitekturen inndeles og brytes med i områder, eller temaområder, og videre i kapabiliteter. Dette gjøres i flere nivåer, til et hensiktsmessig detaljnivå.
+
+En grov inndeling i detaljnivåer gjøres i henhold tli TOGAF, der det skilles mellom følgende; ref. link:http://pubs.opengroup.org/architecture/togaf9-doc/m/chap19.html[TOGAF 9.2 chapter 19.2]: 
+
+1. _**Strategic Architecture** provides an organizing framework for operational and change
+activity and allows for direction setting at an executive level._
+
+2. _**Segment Architecture** provides an organizing framework for operational and change
+activity and allows for direction setting and the development of effective architecture
+roadmaps at a program or portfolio level._
+
+3. _**Capability Architecture** provides an organizing framework for change activity and the
+development of effective architecture roadmaps realizing capability increments._
+
+
+Se også:
+
+* link:../nab_overordnet-metode[Grunnleggende konsepter for Nasjonalt arkitekturbibliotek].
+* <<link:../nab_overordnet-metode/book-nab-overordnet-metode.adoc#_om_områder_og_kapabilitetskart,Om temaområder og kapabilitetskart>>
 
 
 :leveloffset: +1
 
 = Strategiske arkitekturer
 
+TIP: Flytt kapabilitetskart for _segment-nivå_ til segmentarkitekturer (eks. kapabilitetskart for området Datadeling).
+//TIP: Move the segment level capabiliyt maps to the respective segments (subject areas).
+
 include::../nab_arkitekturlandskap_strategisk-arkitektur/main.adoc[]
 
 :leveloffset!:
-== Segmenarkitekturer
-TBD.
+== Segmentarkitekturer
+
+=== Temaområde Informasjonsforvaltning
+==== Kapabilitetskart for temaområde Informasjonsforvaltning
+Det tas her utgangspunkt i nedbrytning av området _Data Management_ slik dette gjøres i DAMA DMBOK2 (der det kalles _kompetanseområder_). 
+
+.Overordnet kapabilitetskart for området Informasjonsforvaltning (DMBOK2)
+image::../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media\data-management-ref-dmbok2.png[]
+
+I DMBOK2 finnes en videre nedbrytning for hvert område. Følgende figur viser dette for området Data Integration and Interoperability.
+
+.Figur: DMBOK2 Data Integration and Interoperability
+image::../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media\dmbok2-data-integration-and-interoperability.png[]
+
+
+Området *Data sharing between applications and across organizations* er her en del av det større området _Data Integration and Interoperability_ og tilsvarer det som Difi ellers definerer som temaområde Datadeling. Denne figuren viser også hvilke andre områder som _Data Integration and Interoperability_ er avhengig av.
+
+Vi betrakter ut fra dette <<datadeling,temaområdet Datadeling>> som en del av et større bilde som handler om informasjonforvaltning, både internt i hver enkelt virksomhet og på tvers av virksomheter. 
+
+[#datadeling]
+=== Temaområde Datadeling
+
+==== Kapabilitetskart for temaområde Datadeling
+_Se over (skal flyttes hit)._s
+
+==== Roller innen temaområde datadeling
+:leveloffset: +1
+include::../nab_arkitekturlandskap_roller/roller.adoc[]
+:leveloffset: -1
+
+==== Arkitekturbyggeklosser innen temaområde Datadeling
+TBD 
+
+
 
 == Kapabilitetsarkitekturer
 TBD.

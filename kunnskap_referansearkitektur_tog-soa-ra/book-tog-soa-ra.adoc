@@ -13,7 +13,9 @@ The SOA RA gives guidelines and options for making architectural, design, and im
 
 == Introduction to SOA RA
 
-The link:http://www.opengroup.org/soa/source-book/soa_refarch/index.htm[SOA RA] is part of the link:http://www.opengroup.org/soa/source-book/intro/index.htm[SOA Source Book],published by the Open Group.
+include::../kunnskap_referansearkitektur_tog-soa-ra/intro-tog-soa-ra.adoc[]
+
+
 
 //== Service-Oriented Architecture Ontology
 

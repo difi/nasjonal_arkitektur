@@ -41,7 +41,7 @@ image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media\SO
 De overordnede lagene i kapabilitetsinndelingen fra figuren over kan kobles til EIF som vist i figuren under. Det er ikke et en-til-en forhold og det kan være kapabiliteter innen alle områder som adresserer hvert av EIF-lagene, men figuren illustrerer hvor hovedtyngden av kapabilitetene innenfor hvert område befinner seg.
 
 .Figur: Kapabilitetsområder koblet til EIF
-image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media\EIF_og_SOA_RA.png[alt="Bilde mangler"]
+image:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart\media\EIF_og_SOA_RA.png[alt="Bilde mangler" width=600]
 
 == Nivå 3 områder og overordnede kapabiliter
 

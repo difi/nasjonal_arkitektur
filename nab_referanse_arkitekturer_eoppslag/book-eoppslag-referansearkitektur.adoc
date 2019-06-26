@@ -54,10 +54,17 @@ Modellen under viser de kapabilitetene en tilbyder og en konsument må ha for å
 
 image:../nab_referanse_arkitekturer_eoppslag/media/Deling på forespørsel.png[alt="Bilde mangler", width=750,link=https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/e7e6c527-26f4-461c-b4dd-651fcbe85c8d/views/4b722aae-1323-46b0-bcac-e730d418b190.html]
 
-Tilbyder må kunne tilgjengeliggjøre data og dette er delt i to kapabiliteter. _Tilgjengeliggjøre API_ omhandler hvordan man registerer API og setter opp tilganger. _Avgi forespurte data_ omhandler den operative delingen av data.
+Tilbyder må kunne tilgjengeliggjøre data og dette er delt i to kapabiliteter:
+
+* _Tilgjengeliggjøre API_ omhandler hvordan man registerer API og setter opp tilganger. 
+* _Avgi forespurte data_ omhandler den operative delingen av data.
 
 
-Tilsvarende er det tre detaljerte kapabiliteter tilknyttet konsument og det å innhente data. _Få tilgang til API_ består av prosesser for oppsett av tilgang, _Delegering av rettigheter til databehandler_ må gjøres dersom konsument benytter seg av en databehandler og _Slå opp data gjennom API_ er det konsumenten må gjøre hver gang det gjøres et oppslag.
+Tilsvarende er det tre detaljerte kapabiliteter tilknyttet konsument og det å innhente data: 
+
+* _Få tilgang til API_ består av prosesser for oppsett av tilgang.
+* _Delegering av rettigheter til databehandler_ må gjøres dersom konsument benytter seg av en databehandler.
+* _Slå opp data gjennom API_ er det konsumenten må gjøre hver gang det gjøres et oppslag.
 
 
 [cols ="1,1,3", options="header"]
