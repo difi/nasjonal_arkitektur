@@ -1,13 +1,13 @@
 :lang: no
-:doctitle: Kapabiliteter og kapabilitetsområder
-:keywords: eMelding
+:doctitle: Temaområder og kapabiliteter
+:keywords: TBD
 
 :toclevels: 3
 
 include::../plattform_felles/includes/commonincludes.adoc[]
 
 [.lead]
-Oversikt over aktuelle kapabilitetsområder og kapabiliteter innen Nasjonal arkitektur.
+Oversikt over aktuelle temaområder og kapabiliteter innen Nasjonal arkitektur.
 
 image:../plattform_felles/media/i-arbeid.png[width=45, height=45] Oversikter og nedbryting er under arbeid (vår 2019).
 
