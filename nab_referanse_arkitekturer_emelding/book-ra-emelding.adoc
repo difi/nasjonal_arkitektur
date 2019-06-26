@@ -11,9 +11,10 @@ eMelding er en referansearkitektur for asynkron informasjonsforsendelse
 include::../nab_referanse_arkitekturer_emelding/ra-emelding-intro.adoc[]
 
 
-== Dokumentasjon fra høring om eMelding 2018
-Detaljert dokumentasjon av eMelding referanseartitektur har vært sendt ut på høring, og har status "forslag". 
-Se link:https://github.com/difi/nasjonal_arkitektur/blob/master/nab_referanse_arkitekturer_emelding/files/[Høringsdokumenter]
+== Videre informasjon om eMelding
+
+Videre informasjonog og dokumentasjon om eMelding finnes under https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/nasjonal-arkitektur-old/referansearkitektur-meldingsutveksling-emelding.
+
 
 
 ////
