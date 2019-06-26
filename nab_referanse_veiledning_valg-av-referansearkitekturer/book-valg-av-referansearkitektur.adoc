@@ -12,6 +12,8 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 image:../plattform_felles/media/i-arbeid.png[width=45, height=45] Foreløpig innhold
 
+ Kapittelet er et foreløpig utkast til veiledning i valg av refereansearkitetkur og kan fortsatt være gjenstand for store endringer. 
+
 = Generelt
 
 I det følgende gis først en oversikt over ulike faktorer som det kan være aktuelt å vurdere. Det gis deretter en skisse til en mer metodisk tilnærming, speselt med fokus på å få til samhandlingsevne i tverrgående prosesser, dvs. integrerte tjenesterpå tvers av organisajonsgrenser.

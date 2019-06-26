@@ -6,6 +6,8 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 image:../plattform_felles/media/i-arbeid.png[width=45, height=45] Foreløpig innhold
 
+ Kapittelet om informasjonssikkerhet er et foreløpig utkast til temaer for et informasjonssikkerhetskapittel og litt om hva det kan inneholde.
+
 == Overordnede mål
 Sikring av informasjon er sentralt i referansearkitekturene for informasjonsutveksling. Dette omfatter integritet, konfidensialitet og uavviselighet. Informasjon må kunne utveksles uendret mellom aktørene, og uvedkommende må ikke få tilgang til informasjonen. Avsendere og tilbydere må være trygge på at mottakere og konsumenter er riktige og mottakere og konsumenter må være trygge på at avsendere og tilbydere er de vedkommende utgir seg for å være. Informasjonen om transaksjoner må være sporbar i ettertid (uavviselig). Referansearkitekturene skal ivaretar disse behovene.
 
@@ -35,13 +37,13 @@ Sikkerhetsarkitekturen for eOppslag er laget med tanke på å nå følgende over
 * Autorisasjon og autorisering
 
 == Risiko og sårbarhetsanalyse
-* Tillitskjeder – Bør vi skrive noe om dette? Jf. side 3
+* Tillitskjeder – Bør vi skrive noe om dette?
 * Klassifisering av informasjon – Samme som verdier og sikkerhetsnivåer?
 * https://internkontroll-infosikkerhet.difi.no/
 
 == Restrisiko
 
-== Standardisert autentiseringsmekanisme (gås gjennom)
+== Standardisert autentiseringsmekanisme 
 
 Autentisering i denne sammenheng innebærer at en klient autentiseres som den virksomheten den representerer, identifisert med organisasjonsnummer. Arkitekturen tar ikke høyde for å skille mellom ulike klienter internt i samme virksomhet, det er forventet at virksomheten selv håndterer styring av hvilke klienter som får kalle hvilke tjenester gjennom sin egen integrasjonsarkitektur og sikkerhetsarkitektur. Det er utenfor rammen av denne referansearkitekturen å gi føringer for hvordan dette skal løses.
 
@@ -59,7 +61,7 @@ Bruk av token på denne måten oppfyller også de tekniske føringene:
 * Bruk av proxy/gateway-løsninger innebærer at TLS-forbindelsen termineres i en gateway og en ny forbindelse settes opp for videre kommunikasjon. Autentiseringsmekanismer knyttet til TLS-forbindelsen blir dermed ikke videreformidlet inn mot bakenforliggende tjenester, men må kontrolleres av gateway-en. Løsningen som foreslås her innebærer i stedet at autentiseringsmekanismen legges i en http-header og kan videreformidles gjennom gateway/proxy inn til tjenesten som kalles.
 * Gjennom å implementere token-tjenesten med standard OAuth2- og JWT-mekanismer finnes det hyllevare for å ta imot, verifisere og konvertere slike tokens.
 
-== Delegering av myndighet (gås gjennom)
+== Delegering av myndighet 
 
 Dette er nyttig i mange situasjoner og en felles løsning for dette på tvers av offentlig sektor vil kunne gi stor gevinst, for eksempel i situasjoner som:
 
