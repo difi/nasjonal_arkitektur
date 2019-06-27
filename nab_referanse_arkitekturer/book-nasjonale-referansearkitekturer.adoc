@@ -31,7 +31,7 @@ Relatert informasjon:
 
 //1. link:../nab_overordnet-metode[Overordnet metode]
 
-1. <<../nab_overordnet-metode#_grunnleggende_konsepter, Mer bakgrunnsinformasjon om referansearkitekturer>>
+1. <<../nab_overordnet-metode/book-nab-overordnet-metode.adoc#_grunnleggende_konsepter,Mer bakgrunnsinformasjon om referansearkitekturer>>
 2. link:../nab_arkitekturlandskap[Arkitekturlandskap]
 
 //image:../plattform_felles/media/i-arbeid.png[width=45, height=45] #I arbeid (deler av innholdet flyttes)#
