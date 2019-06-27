@@ -31,8 +31,7 @@ ifeval::["{lang}" == "en"]
 // --------------->
 
 ifdef::include_guidelines[]
-
-NOTE: Guideline: This template is based on the link:https://joinup.ec.europa.eu/sites/default/files/document/2017-10/sat_design_guidelines_0_0.pdf[Solution Architecture Template (SAT) Design Guidelines] as provided by EU in relation to the Europeean Interoperability Reference Architecture (EIRA). Guidelines are given direcly in the template through notes like this, and has been adapted to the concepts and methods of the Norwegian National Architecture Library. Additional viewpoints and attributes have been defined. Among the most important extensions are chapters and viewpoints related to capability mapping. The guidelines should be hidden upon completion of the Reference Architecture or Architecture Pattern in question. 
+NOTE: Guideline: Write a brief introduction here.
 endif::include_guidelines[]
 
 
