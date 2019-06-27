@@ -2,7 +2,7 @@
 :doctitle: Nasjonalt arkitekturlandskap
 :keywords: Norsk, arkitekturbibliotek, offenlig sektor, virksomhetsarkitektur, NIF, samhandlingsarkitektur, rammeverk, GitHub
 :keywords_en: Norwegian, Architecture Repository, Public sector, Enterprise Architecture, NIF, Architecture Interoperability Framework, GitHub,
-:toclevels: 4
+:toclevels: 3
 include::../plattform_felles/includes/commonincludes.adoc[]
 
 [.lead]
@@ -69,10 +69,9 @@ NOTE: _Difi har planlagt videre arbeid med rammeverk for informasjonsforvaltning
 
 [#datadeling]
 === Temaområde Datadeling
-:leveloffset: +2
+:leveloffset: +1
 include::../nab_arkitekturlandskap_segmentarkitektur_datadeling/main.adoc[]
 :leveloffset!:
-
 
 
 == Kapabilitetsarkitekturer

@@ -1,13 +1,13 @@
 :lang: no
 :doctitle: Temaområdet Datadeling
 :keywords: eMelding
-:toclevels: 3
+:toclevels: 5
 include::../plattform_felles/includes/commonincludes.adoc[]
 
 
 
 
-== Delområder innen Datadeling
+== Kapabilitetskart for Datadeling
 
 image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _Denne nedbrytingen er under arbeid våren 2019._
 
@@ -16,7 +16,6 @@ Følgende figur viser en foreløpig nedbryting av temaområdet Datadeling, slik 
 .Foreløpig inndeling av temaområdet Datadeling i delområder
 image::../nab_arkitekturlandskap_segmentarkitektur_datadeling\media\kapabilitetsområder-datadeling.png[alt="Bilde mangler"]
 
-NOTE: Se også informasjon om status og videre arbeid med denne nebrytingen #"annet sted"#. 
 
 === Delområde Datautveksling
 Området _datautveksling_ er brutt ned i delområder som vist i følgende figur.
@@ -83,7 +82,10 @@ Følgende figur presenterer et utvalg av temaområdene i det totale kapbilitetsk
 .Utvalgte temaområder fra The Open Group-s SOA RA
 image::../nab_arkitekturlandskap_segmentarkitektur_datadeling/media/SOA_RA_Kapabilitetsområder.png[]
 
-#Videre detaljer# om dette finnes...
+For videre nedbryting og detaljer om dette kartet, se
 
-* The OpenGroup...
-* Egen Archi-modellpublisert her:....
+* The Open Group SOA RA
+* #Publiserte Archi-modeller for The Open Group SOA RA (Difi)#
+
+== Mapping til EIRA
+#Mapping til EIRA kommer her.#
