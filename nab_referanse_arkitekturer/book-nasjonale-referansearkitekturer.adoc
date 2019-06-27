@@ -14,7 +14,7 @@ Arbeid med prioriterte nasjonale referansearkitekturer er et pågående samarbei
 :leveloffset: +1
 = Generelt om referansearkitekturer og arbeidet med dette på nasjonalt nivå 
 
-Nasjonale referansearkitekturer identifiseres ut fra en link:../nab_arkitekturlandskap_strategisk-arkitektur_kapabilitetskart[nedbrytning av nasjonal arkitektur i temaområder og kapabiliteter]. Både kapabilitetskart og prioriterte referansearkitekurer innen hvert område vil utvikles over tid, etterhvert som en går inn på nye områder. 
+Nasjonale referansearkitekturer identifiseres ut fra en link:../nab_arkitekturlandskap[nedbrytning av nasjonal arkitektur i temaområder og kapabiliteter i arkitekturlandskapet]. Både kapabilitetskart og prioriterte referansearkitekurer innen hvert område vil utvikles over tid, etterhvert som en går inn på nye områder. 
 
 
 Det legges vekt på å få fram nyttig veiledning, med alt fra gode eksempler til beste praksis og konkrete anbefalinger. 
