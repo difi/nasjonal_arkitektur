@@ -14,15 +14,10 @@ En foreløpig nedbryting i temaområder og kapabilitetsområder ble gjort våren
 
 Difi arbeider etter dette med å få på plass et mer komplett bilde. Dette er inntil videre bare delvis dokumentert her. 
 
-Se også: Erik!!
-
 
 :leveloffset: +1
 = Kapabilitetskart for Datadeling
 include::./kapabilitetskart-datadeling.adoc[]
-
-= Rollekart for Datadeling
-include::./roller-datadeling.adoc[]
 
 = Arkitekturbyggeklosser for Datadeling
 TBD 

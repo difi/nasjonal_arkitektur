@@ -5,6 +5,9 @@
 include::../plattform_felles/includes/commonincludes.adoc[]
 
 
+== Rollekart for Datadeling
+include::./roller-datadeling.adoc[]
+
 
 
 == Kapabilitetskart for Datadeling
@@ -15,7 +18,6 @@ Følgende figur viser en foreløpig nedbryting av temaområdet Datadeling, slik 
 
 .Foreløpig inndeling av temaområdet Datadeling i delområder
 image::../nab_arkitekturlandskap_segmentarkitektur_datadeling\media\kapabilitetsområder-datadeling.png[alt="Bilde mangler"]
-
 
 === Delområde Datautveksling
 Området _datautveksling_ er brutt ned i delområder som vist i følgende figur.
