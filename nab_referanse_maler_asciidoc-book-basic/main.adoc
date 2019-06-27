@@ -1,1 +1,1 @@
-include::book_title.adoc[]
+include::book_template.adoc[]

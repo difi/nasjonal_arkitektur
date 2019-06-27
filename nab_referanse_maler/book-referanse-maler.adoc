@@ -26,7 +26,7 @@ NOTE: Se også annet innhold om verktøyuavhengige dokumentasjonskonvensjoner.
 
 
 === Bokmaler
-. link:../nab_referanse_maler_asciidoc-book-basic[Basic Asciidoc Book Template]
+. link:../nab_referanse_maler_asciidoc-book-basic/[Basic Asciidoc Book Template]
 
 
 === Artikkelmaler
