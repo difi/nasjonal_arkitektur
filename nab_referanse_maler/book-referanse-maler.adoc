@@ -32,6 +32,8 @@ NOTE: Se også annet innhold om verktøyuavhengige dokumentasjonskonvensjoner.
 === Artikkelmaler
 NOTE: Artikler kan opptre som separate artikler med egen innholdsfortegnelse, eller som del av bøker sammen med andre artikler (eller kapitler).
 
+. link:../nab_referanse_maler_asciidoc-articles/template_basic_article.adoc[Basic article]
+
 
 === Maler for dokumentasjon av referansearkitektur i Asciidoc
 
