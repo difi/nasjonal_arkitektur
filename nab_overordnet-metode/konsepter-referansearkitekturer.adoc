@@ -5,22 +5,9 @@
 
 include::../plattform_felles/includes/commonincludes.adoc[]
 
+== Hva er en referansearkitektur?
+Kort fortalt,kan en si at referansearkitekturer gir mønstre og veiledning til utforming av arkitekturer og løsninger innen avgrensede områder.
 
-== Introduksjon til begrepet _referansearkitektur_
-
-Det finnes flere definisjoner av begrepet _referansearkitektur_, og det finnes fleremer eller mindre overlappende begreper. Her gjøres presiseringer som gjelder for Nasjonalt arkitekturbibliotek i Norge. Det redegjøres også for sammehenger med andre begreper og annen praksis. 
-
-
-Referansearkitekturer gir mønstre og veiledning til utforming av arkitekturer og løsninger innen avgrensede områder.
-
-Hvert _område_ kan adresseres av en eller flere _referansearkitekturer_. Formålet med å ha flere referansearkitekturer for samme område, kan være å gi ulike visninger for ulike målgrupper eller å bryte opp et komplekst bilde i enklere deler.   
-
-Referansearkitekturer kan inneholde både _arkitekturbyggeklosser_ og __løsningsbyggeklosser__, ut fra hva som er aktuelt. Helt generiske referansearkitekturer inneholder typisk bare generiske arkitekturbyggeklosser, mens mer løsningsorienterte referansearkitekturer gjerne også angir spesifikke løsningsbygeklosser. Det siste er f.eks. aktuelt for å angi anbefalt eller obligatorisk bruk av nasjonale fellesløsninger.
-
-Dette er illustrert i følgende figur. 
-
-.Figur: Referansearkitektur som hjelpemiddel til realisering av kapabiliteter  
-image::../nab_overordnet-metode/media/referansearkitektur-definisjon-forenklet.png[]
 
 == Hvorfor bruke referansearkitekturer?
 
@@ -59,15 +46,34 @@ Beskrivelsene vil typisk dekke begreper, prinsipper, standarder og teknologier s
 
 NOTE: Difi utvikler og vedlikeholder felles maler for beskrivelse av referanseearkitekturer, både for tekstlige beskrivelser og arkitekturmodeller (Archimate). Se under link:../nab_referanse_maler/[maler].
 
+== Tilnærming tli arbeidet med referansearkitekturer i Norge
+Nasjonale referansearkitekturer identifiseres ut fra en link:../nab_arkitekturlandskap[nedbrytning av nasjonal arkitektur i temaområder og kapabiliteter i arkitekturlandskapet]. Både kapabilitetskart og prioriterte referansearkitekurer innen hvert område vil utvikles over tid, etterhvert som en går inn på nye områder. 
 
 
-== Referansearkitekturer som mønstre for arkitekturer og løsninger
+Det legges vekt på å få fram nyttig veiledning, med alt fra gode eksempler til beste praksis og konkrete anbefalinger. 
 
-Følgende figur viser sammenhengene rundt referansearkitekturer i mer detalj.
-Her vises også arkitekturmønstre og løsningsmønstre, som hjelpemiddel til å utarbeide mer spesifkke arkitekturer og konkrete løsninger.  
+Prioritering av arbeidet og utarbeidelsen av referansearkitekturer gjøres i samarbeid med aktører på tvers av offentlig og privat sektor nasjonalt og internasjonalt. 
 
-.Figur: Fra kapabiliteter til arkitekturer og løsninger  
-image::../nab_overordnet-metode/media/referansearkitektur-definisjon-komplett.png[]
+Arbeidet med nasjonale referansearkitekturer i Norge baseres i størst mulig grad på føringer fra EU, internasjonale standarder og gjenbruk av god praksis fra andre land og etablerte kunnskapsverk.
+
+Det finnes ingen enkeltstående _fasit_ å henvise til. Blant et antall eksterne kilder, er det her gjort et utvalg av de mest relevante og "beste" kildene i dagens landskap.
+
+Strategiske vurderinger:
+
+* Av hensyn til internasjonalt samarbeid i EU-området, er det gitt at vi (Norge) må støtte oppunder European Interoperability Reference Architecture (EIRA) og videre arbeid med dette som en grunnleggende referansearkitektur. I dagens situasjon behøves likevel utvidelser til EIRA for å gi tilstrekkelig grad av detalj til våre nasjonale referansearkitekturer.
+
+* I praksis er det ikke trivielt å kombinere ulike referansearkitekturer, rammeverk og liknende. Selv om det kan la seg gjøre som en engangsøvelse, vil det bli en håpløs oppgave å vedlikeholde over tid. 
+
+* Vår tilnærming er derfor å søke samarbeid internasjonalt og støtte fra sentralt hold i EU for å utarbeide felles referansearkitekturer basert på EIRA, samtidig som vi i mellomtiden fortsetter et selvstendig arbeid for å dekke våre prioriterte behov (med en "MVP-tilnærming" - Minimal Viable Product). Vi er i gang med begge deler.
+
+
+
+NOTE: _I videre arbeid med referansearkitekturer vil engelsk språk prioriteres foran norsk, av hensyn til internasjonalt samarbeid. I en overgangsperiode vil det finnes en blanding. På sikt ønskes  dokumentasjonen tilgjengelig på begge språk (norsk og engelsk)._
+
+
+Relatert informasjon:
+
+1. link:../nab_arkitekturlandskap[Arkitekturlandskap]
 
 
 == Forholdet til andre begreper og praksiser
@@ -83,6 +89,31 @@ I Danmark benyttes begrepet referansearkitektur om relativt store områder, som 
 Hvor stor eller liten en referansemodell framstår kommer dermed an på behov og sammenheng. Det er f.eks. laget en referansearkitektur for eOppslag som fungerer som et selvstendig løsningsmønster. Dette løsningsmønsteret kan i neste omgang tas inn som en del av en større referansearkitektur for f.eks. _sømløse tjenester_. 
 
 
+== Mer utdypende om begrepet _referansearkitektur_
+
+Det finnes flere definisjoner av begrepet _referansearkitektur_, og det finnes fleremer eller mindre overlappende begreper. Her gjøres presiseringer som gjelder for Nasjonalt arkitekturbibliotek i Norge. Det redegjøres også for sammehenger med andre begreper og annen praksis. 
+
+
+Referansearkitekturer gir mønstre og veiledning til utforming av arkitekturer og løsninger innen avgrensede områder.
+
+Hvert _område_ kan adresseres av en eller flere _referansearkitekturer_. Formålet med å ha flere referansearkitekturer for samme område, kan være å gi ulike visninger for ulike målgrupper eller å bryte opp et komplekst bilde i enklere deler.   
+
+Referansearkitekturer kan inneholde både _arkitekturbyggeklosser_ og __løsningsbyggeklosser__, ut fra hva som er aktuelt. Helt generiske referansearkitekturer inneholder typisk bare generiske arkitekturbyggeklosser, mens mer løsningsorienterte referansearkitekturer gjerne også angir spesifikke løsningsbygeklosser. Det siste er f.eks. aktuelt for å angi anbefalt eller obligatorisk bruk av nasjonale fellesløsninger.
+
+Dette er illustrert i følgende figur.
+
+.Figur: Referansearkitektur som hjelpemiddel til realisering av kapabiliteter  
+image::../nab_overordnet-metode/media/referansearkitektur-definisjon-forenklet.png[]
+
+
+
+Følgende figur viser sammenhengene rundt referansearkitekturer i mer detalj.
+Her vises også hvordan arkitekturmønstre og løsningsmønstre er ulike typer referansearkitekturer, som hjelpemidler til å utarbeide mer spesifkke arkitekturer og konkrete løsninger.  
+
+.Figur: Fra kapabiliteter til arkitekturer og løsninger  
+image::../nab_overordnet-metode/media/referansearkitektur-definisjon-komplett.png[]
+
+
 == Forholdet til utbredte begreper blant løsningsarkitekter og utviklere
 For at utviklere og løsningsarkitekter skal kunne forstå modeller og begreper... #SKRIVING PÅGÅR#...  
 
@@ -90,3 +121,5 @@ For at utviklere og løsningsarkitekter skal kunne forstå modeller og begreper.
 
 == Forholdet til utbredt begrepsapparat hos "forretningssiden" og digital transformasjon  
 #SKRIVING PÅGÅR#
+
+

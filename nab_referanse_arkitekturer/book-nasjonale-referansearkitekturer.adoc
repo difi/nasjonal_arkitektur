@@ -12,7 +12,9 @@ Arbeid med prioriterte nasjonale referansearkitekturer er et pågående samarbei
 
 
 :leveloffset: +1
-= Generelt om referansearkitekturer og arbeidet med dette på nasjonalt nivå 
+= Generelt om referansearkitekturer
+
+Referansearkitekturer gir mønstre og veiledning til utforming av arkitekturer og løsninger innen avgrensede områder.
 
 Nasjonale referansearkitekturer identifiseres ut fra en link:../nab_arkitekturlandskap[nedbrytning av nasjonal arkitektur i temaområder og kapabiliteter i arkitekturlandskapet]. Både kapabilitetskart og prioriterte referansearkitekurer innen hvert område vil utvikles over tid, etterhvert som en går inn på nye områder. 
 
@@ -21,26 +23,15 @@ Det legges vekt på å få fram nyttig veiledning, med alt fra gode eksempler ti
 
 Prioritering av arbeidet og utarbeidelsen av referansearkitekturer gjøres i samarbeid med aktører på tvers av offentlig og privat sektor nasjonalt og internasjonalt. 
 
-Arbeidet med nasjonale referansearkitekturer i Norge baseres i størst mulig grad på føringer fra EU, internasjonale standarder og gjenbruk av god praksis fra andre land og etablerte kunnskapsverk.
-
-Det finnes ingen enkeltstående _fasit_ å henvise til. Blant et antall eksterne kilder, er det her gjort et utvalg av de mest relevante og "beste" kildene i dagens landskap.
-
-Strategiske vurderinger:
-
-* Av hensyn til internasjonalt samarbeid i EU-området, er det gitt at vi (Norge) må støtte oppunder European Interoperability Reference Architecture (EIRA) og videre arbeid med dette som en grunnleggende referansearkitektur. I dagens situasjon behøves likevel utvidelser til EIRA for å gi tilstrekkelig grad av detalj til våre nasjonale referansearkitekturer.
-
-* I praksis er det ikke trivielt å kombinere ulike referansearkitekturer, rammeverk og liknende. Selv om det kan la seg gjøre som en engangsøvelse, vil det bli en håpløs oppgave å vedlikeholde over tid. 
-
-* Vår tilnærming er derfor å søke samarbeid internasjonalt og støtte fra sentralt hold i EU for å utarbeide felles referansearkitekturer basert på EIRA, samtidig som vi i mellomtiden fortsetter et selvstendig arbeid for å dekke våre prioriterte behov (med en "MVP-tilnærming" - Minimal Viable Product). Vi er i gang med begge deler.
-
-
 
 NOTE: _I videre arbeid med referansearkitekturer vil engelsk språk prioriteres foran norsk, av hensyn til internasjonalt samarbeid. I en overgangsperiode vil det finnes en blanding. På sikt ønskes  dokumentasjonen tilgjengelig på begge språk (norsk og engelsk)._
 
 
 Relatert informasjon:
 
-1. link:../nab_overordnet-metode/[Overordnet metode]
+//1. link:../nab_overordnet-metode[Overordnet metode]
+
+1. <<../nab_overordnet-metode#_grunnleggende_konsepter, Mer bakgrunnsinformasjon om referansearkitekturer>>
 2. link:../nab_arkitekturlandskap[Arkitekturlandskap]
 
 //image:../plattform_felles/media/i-arbeid.png[width=45, height=45] #I arbeid (deler av innholdet flyttes)#
