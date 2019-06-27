@@ -8,7 +8,7 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 == Introduksjon til begrepet _referansearkitektur_
 
-Det finnes flere definisjoner av begrepet _referansearkitektur_, og det finnes fleremer eller mindre overlappende begreper. Her gjøres presiseringer som gjelder forNasjonalt arkitekturbibliotek i Norge. Det redegjøres også for sammehenger med andre begreper og annen praksis. 
+Det finnes flere definisjoner av begrepet _referansearkitektur_, og det finnes fleremer eller mindre overlappende begreper. Her gjøres presiseringer som gjelder for Nasjonalt arkitekturbibliotek i Norge. Det redegjøres også for sammehenger med andre begreper og annen praksis. 
 
 
 Referansearkitekturer gir mønstre og veiledning til utforming av arkitekturer og løsninger innen avgrensede områder.
@@ -35,18 +35,20 @@ image::../nab_overordnet-metode/media/referansearkitektur-definisjon-komplett.pn
 == Forholdet til andre begreper og praksiser
 TOGAF skiller mellom referansearkitekturer, referansemodeller og arkitekturmønstre (Architecture Patterns).
 
-EU og EIRA benytter begrepet _Solution Architceture Template_ med følgende betydning: A Solution Architecture Template (SAT) is a specification extending the EIRA©providing support to solution architects in a specific solution domainin the form of a template that can be used to design related solutions.
+EU og EIRA benytter begrepet _Solution Architceture Template_ med følgende betydning: _A Solution Architecture Template (SAT) is a specification extending the EIRA©providing support to solution architects in a specific solution domainin the form of a template that can be used to design related solutions._
+
+I det norske rammeverket (dette), skilles det mellom rene arkitekturmønstre (bare arkitekturbyggeklosser) og løsningsmønstre (også løsningsbyggeklosser, slik som fellesløsnnger),men begge deler betraktes som referansearkitekturer. Forskjellen på referansearkitekturer og referansemodellerer som forskjellen på arkitektur og modell; se forøvrig #TBD#.
 
 
-== Hvor stor er en referansearkitektur?
-I Danmark benyttes begrepet referansearkitektur om relativt store områder, som det så gis "løsningsmønstre" for.
+I Danmark benyttes begrepet referansearkitektur om relativt store områder, som typisk innholder flere "løsningsmønstre", det hele i relativt store dokumenter (pdf). I det norske rammeverket (dette), er det lagt opp til større grad av fleksibilitet og dynamikk. Referansearkitekturer i form av arkitekturmønstre eller løsningsmønstre kan være store eller små og finnes på ulike nivåer. Det gjøres en nedbryting i områder, der hvert område kan adresseres av en eller flere referansearkitekturer, som eventuelt kan inkludere eller referere til andre. Det gjøres løpende oppdatering og web-publisering av aktuelle deler, med lagring og versjons kontroll på Gighub for både tekstbasert dokumentasjon og arkitekturmodeller. Det er også et poeng at bruken av asciidoc som kildeformat gjør det enkelt å sette sammen oggjenbruke samme innhold i ulike "bøker". 
 
-I det norske rammeverket (dette), kan referansearkitekturer finnes på ulike nivåer. Det gjøres en nedbryting i områder, der hvert område kan adresseres av en eller flere referansearkitekturer, som eventuelt kan inkludere .... TEKST I ARBEID ...
-
+Hvor stor eller liten en referansemodell framstår kommer dermed an på behov og sammenheng. Det er f.eks. laget en referansearkitektur for eOppslag som fungerer som et selvstendig løsningsmønster. Dette løsningsmønsteret kan i neste omgang tas inn som en del av en større referansearkitektur for f.eks. _sømløse tjenester_. 
 
 
-
-
+== Forholdet til utbredte begreper blant løsningsarkitekter og utviklere
+For at utviklere og løsningsarkitekter skal kunne forstå modeller og begreper... #SKRIVING PÅGÅR#...  
 
 
 
+== Forholdet til utbredt begrepsapparat hos "forretningssiden" og digital transformasjon  
+#SKRIVING PÅGÅR#
