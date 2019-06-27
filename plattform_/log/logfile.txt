@@ -70,3 +70,93 @@
 26.06.2019 16:54:28: Linje: 2. link:../nab_arkitekturlandskapr_strategisk-arkitektur_kapabilitetskart[Nedbrytning i områder og kapabiliteter]]
 26.06.2019 16:54:28: 2 replacements in file C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_veiledning_valg-av-referansearkitekturer\kvalitetsegenskaper-datautveksling.adoc
 26.06.2019 16:54:38: SøkTekstIAlleFiler(arkitekturlandskapr)
+27.06.2019 09:43:24: SøkTekstIAlleFiler(hvem)
+27.06.2019 09:43:25: Linje: Se link:./kildefiler/los-hva-hvem-hvordan.pptx[Los: Hva-hvem-hvordan.pptx]
+27.06.2019 09:43:25: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_taksonomier_LOS\main.adoc
+27.06.2019 09:43:25: Linje: :doctitle: Klassifikasjonssystemer - hvem, hva, hvorfor
+27.06.2019 09:43:25: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\kunnskap_taksonomier_research\klassifikasjonssystemer-research.adoc
+27.06.2019 09:43:25: Linje: [blue]#<Relevant tilgjengelig informasjon om bruk og utbredelse - hvem bruker hva hvor mye, f.eks. statistikk med antall virksomheter eller personer og f.eks. antall tjenestekall eller transaksjoner. Eventuelt trendanalyse.>#
+27.06.2019 09:43:25: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_altinn-samhandlings-og-integrasjonsplattform\main.adoc
+27.06.2019 09:43:25: Linje: Altinn Tilgangsstyring (tidligere Altinn Autorisasjon), betegner et sett tjenester og funksjoner knyttet til å styre hvem som kan bruke en digital tjeneste. 
+27.06.2019 09:43:25: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_altinn-tilgangsstyring\main.adoc
+27.06.2019 09:43:25: Linje: [blue]#<Relevant tilgjengelig informasjon om bruk og utbredelse - hvem bruker hva hvor mye, f.eks. statistikk med antall virksomheter eller personer og f.eks. antall tjenestekall eller transaksjoner. Eventuelt trendanalyse.>#
+27.06.2019 09:43:25: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_altinn-tjenesteplattform\main.adoc
+27.06.2019 09:43:25: Linje: [blue]#<Relevant tilgjengelig informasjon om bruk og utbredelse - hvem bruker hva hvor mye, f.eks. statistikk med antall virksomheter eller personer og f.eks. antall tjenestekall eller transaksjoner. Eventuelt trendanalyse.>#
+27.06.2019 09:43:25: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_brreg-digital-kontaktinformasjon-og-fullmakter-for-virksomheter\main.adoc
+27.06.2019 09:43:25: Linje: [blue]#<Relevant tilgjengelig informasjon om bruk og utbredelse - hvem bruker hva hvor mye, f.eks. statistikk med antall virksomheter eller personer og f.eks. antall tjenestekall eller transaksjoner. Eventuelt trendanalyse.>#
+27.06.2019 09:43:25: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_brreg-digital-post-til-virksomheter\main.adoc
+27.06.2019 09:43:25: Linje: [blue]#<Relevant tilgjengelig informasjon om bruk og utbredelse - hvem bruker hva hvor mye, f.eks. statistikk med antall virksomheter eller personer og f.eks. antall tjenestekall eller transaksjoner. Eventuelt trendanalyse.>#
+27.06.2019 09:43:25: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_brreg-enhetsregisteret\main.adoc
+27.06.2019 09:43:25: Linje: [blue]#<Relevant tilgjengelig informasjon om bruk og utbredelse - hvem bruker hva hvor mye, f.eks. statistikk med antall virksomheter eller personer og f.eks. antall tjenestekall eller transaksjoner. Eventuelt trendanalyse.>#
+27.06.2019 09:43:25: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_brreg-felles-datakatalog\main.adoc
+27.06.2019 09:43:25: Linje: [blue]#<Relevant tilgjengelig informasjon om bruk og utbredelse - hvem bruker hva hvor mye, f.eks. statistikk med antall virksomheter eller personer og f.eks. antall tjenestekall eller transaksjoner. Eventuelt trendanalyse.>#
+27.06.2019 09:43:25: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_difi-digital-post-til-innbyggere\main.adoc
+27.06.2019 09:43:25: Linje: [blue]#<Relevant tilgjengelig informasjon om bruk og utbredelse - hvem bruker hva hvor mye, f.eks. statistikk med antall virksomheter eller personer og f.eks. antall tjenestekall eller transaksjoner. Eventuelt trendanalyse.>#
+27.06.2019 09:43:25: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_difi-eformidling\main.adoc
+27.06.2019 09:43:25: Linje: [blue]#<Relevant tilgjengelig informasjon om bruk og utbredelse - hvem bruker hva hvor mye, f.eks. statistikk med antall virksomheter eller personer og f.eks. antall tjenestekall eller transaksjoner. Eventuelt trendanalyse.>#
+27.06.2019 09:43:25: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_difi-einnsyn\main.adoc
+27.06.2019 09:43:25: Linje: [blue]#<Relevant tilgjengelig informasjon om bruk og utbredelse - hvem bruker hva hvor mye, f.eks. statistikk med antall virksomheter eller personer og f.eks. antall tjenestekall eller transaksjoner. Eventuelt trendanalyse.>#
+27.06.2019 09:43:25: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_difi-esignering\main.adoc
+27.06.2019 09:43:25: Linje: [blue]#<Relevant tilgjengelig informasjon om bruk og utbredelse - hvem bruker hva hvor mye, f.eks. statistikk med antall virksomheter eller personer og f.eks. antall tjenestekall eller transaksjoner. Eventuelt trendanalyse.>#
+27.06.2019 09:43:25: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_difi-idporten\main.adoc
+27.06.2019 09:43:25: Linje: [blue]#<Relevant tilgjengelig informasjon om bruk og utbredelse - hvem bruker hva hvor mye, f.eks. statistikk med antall virksomheter eller personer og f.eks. antall tjenestekall eller transaksjoner. Eventuelt trendanalyse.>#
+27.06.2019 09:43:25: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_difi-kontakt-og-reservasjonsregisteret​-for-innbyggere\main.adoc
+27.06.2019 09:43:25: Linje: [blue]#<Relevant tilgjengelig informasjon om bruk og utbredelse - hvem bruker hva hvor mye, f.eks. statistikk med antall virksomheter eller personer og f.eks. antall tjenestekall eller transaksjoner. Eventuelt trendanalyse.>#
+27.06.2019 09:43:25: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_kartverket-geonorge\main.adoc
+27.06.2019 09:43:25: Linje: [blue]#<Relevant tilgjengelig informasjon om bruk og utbredelse - hvem bruker hva hvor mye, f.eks. statistikk med antall virksomheter eller personer og f.eks. antall tjenestekall eller transaksjoner. Eventuelt trendanalyse.>#
+27.06.2019 09:43:25: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_kartverket-matrikkelen\main – Kopi.adoc
+27.06.2019 09:43:25: Linje: [blue]#<Relevant tilgjengelig informasjon om bruk og utbredelse - hvem bruker hva hvor mye, f.eks. statistikk med antall virksomheter eller personer og f.eks. antall tjenestekall eller transaksjoner. Eventuelt trendanalyse.>#
+27.06.2019 09:43:25: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_kartverket-matrikkelen\main.adoc
+27.06.2019 09:43:25: Linje: [blue]#<Relevant tilgjengelig informasjon om bruk og utbredelse - hvem bruker hva hvor mye, f.eks. statistikk med antall virksomheter eller personer og f.eks. antall tjenestekall eller transaksjoner. Eventuelt trendanalyse.>#
+27.06.2019 09:43:25: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_ks-fiks-tjenesteplattform\main.adoc
+27.06.2019 09:43:25: Linje: [blue]#<Relevant tilgjengelig informasjon om bruk og utbredelse - hvem bruker hva hvor mye, f.eks. statistikk med antall virksomheter eller personer og f.eks. antall tjenestekall eller transaksjoner. Eventuelt trendanalyse.>#
+27.06.2019 09:43:25: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_ks-svarut\main.adoc
+27.06.2019 09:43:25: Linje: [blue]#<Relevant tilgjengelig informasjon om bruk og utbredelse - hvem bruker hva hvor mye, f.eks. statistikk med antall virksomheter eller personer og f.eks. antall tjenestekall eller transaksjoner. Eventuelt trendanalyse.>#
+27.06.2019 09:43:25: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_løsningslandskap_sbb_skattetaten-folkeregisteret\main.adoc
+27.06.2019 09:43:25: Linje:     Arkitekturmandatet svarer på forhold knyttet til hvorfor, hvordan, hvem, hva og når. Dokumentet skal sikre god etterlevelse av beslutningene, etablere klare mål og fokusere på riktige virkemidler.
+27.06.2019 09:43:25: Linje:     Her gis en oversikt over arkitekturressurser, interessenter, roller, aktører og organisasjonsledd involvert. Det må beskrives hva som skal besluttes av hvem og når det skal rapporteres i organisasjonen.
+27.06.2019 09:43:25: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_organisering\main.adoc
+27.06.2019 09:43:25: Linje: * Tilgangsstyringen i tjenesten er uavhengig av hvem som er leverandøren, det er kun konsumenten som er relevant
+27.06.2019 09:43:25: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer\informasjonssikkerhet.adoc
+27.06.2019 09:43:25: Linje: // For å registrere API må man for i de respektive fellestjenestene ha rettigheter til dette på vegne av egen virksomhet. Dette tildeles iht. hvem som har rettigheter i enhetsregisteret og rettighetene må delegeres nedover i organisasjonen til den som skal gjennomføre registreringen. Dette foregår i Altinn.
+27.06.2019 09:43:25: Linje: For å tilby data gjennom et API sikret med fellestjenester må tilbyder inngå avtale for bruk av Maskinporten og API-katalogen (Felles datakatalog). De respektive APIene og hvem som skal ha hvilke rettighetene til disse må så registreres i løsningene.
+27.06.2019 09:43:25: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_eoppslag\backup-før-forenkling-book-eoppslag-referansearkitektur.adoc
+27.06.2019 09:43:25: Linje: // For å registrere API må man for i de respektive fellestjenestene ha rettigheter til dette på vegne av egen virksomhet. Dette tildeles iht. hvem som har rettigheter i enhetsregisteret og rettighetene må delegeres nedover i organisasjonen til den som skal gjennomføre registreringen. Dette foregår i Altinn.
+27.06.2019 09:43:25: Linje: For å tilby data gjennom et API sikret med fellestjenester må tilbyder inngå avtale for bruk av Maskinporten og API-katalogen (Felles datakatalog). De respektive APIene og hvem som skal ha hvilke rettighetene til disse må så registreres i løsningene.
+27.06.2019 09:43:25: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_eoppslag\book-eoppslag-referansearkitektur – Kopi.adoc
+27.06.2019 09:43:25: Linje: // For å registrere API må man for i de respektive fellestjenestene ha rettigheter til dette på vegne av egen virksomhet. Dette tildeles iht. hvem som har rettigheter i enhetsregisteret og rettighetene må delegeres nedover i organisasjonen til den som skal gjennomføre registreringen. Dette foregår i Altinn.
+27.06.2019 09:43:25: Linje: For å tilby data gjennom et API sikret med fellestjenester må tilbyder inngå avtale for bruk av Maskinporten og Felles API-katalog. De respektive API-ene og hvem som skal ha hvilke rettighetene til disse må så registreres i løsningene.
+27.06.2019 09:43:25: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_eoppslag\book-eoppslag-referansearkitektur.adoc
+27.06.2019 09:43:25: Linje: // For å registrere API må man for i de respektive fellestjenestene ha rettigheter til dette på vegne av egen virksomhet. Dette tildeles iht. hvem som har rettigheter i enhetsregisteret og rettighetene må delegeres nedover i organisasjonen til den som skal gjennomføre registreringen. Dette foregår i Altinn.
+27.06.2019 09:43:25: Linje: For å tilby data gjennom et API sikret med fellestjenester må tilbyder inngå avtale for bruk av Maskinporten og API-katalogen (Felles datakatalog). De respektive APIene og hvem som skal ha hvilke rettighetene til disse må så registreres i løsningene.
+27.06.2019 09:43:25: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_eoppslag\erik1-kommentarer-book-eoppslag-referansearkitektur.adoc
+27.06.2019 09:43:25: Linje: // For å registrere API må man for i de respektive fellestjenestene ha rettigheter til dette på vegne av egen virksomhet. Dette tildeles iht. hvem som har rettigheter i enhetsregisteret og rettighetene må delegeres nedover i organisasjonen til den som skal gjennomføre registreringen. Dette foregår i Altinn.
+27.06.2019 09:43:25: Linje: For å tilby data gjennom et API sikret med fellestjenester må tilbyder inngå avtale for bruk av Maskinporten og API-katalogen (Felles datakatalog). De respektive APIene og hvem som skal ha hvilke rettighetene til disse må så registreres i løsningene.
+27.06.2019 09:43:25: 2 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_eoppslag\slettes-book-eoppslag-referansearkitektur – Kopi.adoc
+27.06.2019 09:43:25: Linje: •	Ressursserver trenger vite hvem konsumenten (C) er
+27.06.2019 09:43:25: Linje: •	Kodeverk for A, knyttet sammen med organisasjonsnummer for hvem som får lov å forvalte hvilke A
+27.06.2019 09:43:25: Linje: Merk at dette gjelder bare hvem som har myndighet til å ta hvilke beslutninger, ikke hvor dette lagres, vedlikeholdes eller håndheves. Merk også at det kan være mer finkornede regler for tilgangsstyring internt i serveren enn hva som fremkommer i tabellen
+27.06.2019 09:43:25: 3 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_eoppslag_sikkerhet\20180629-eoppslag-autorisering-og-delegering.adoc
+27.06.2019 09:43:25: Linje: * Tilgangsstyringen i tjenesten er uavhengig av hvem som er leverandøren, det er kun konsumenten som er relevant
+27.06.2019 09:43:25: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer_eoppslag_sikkerhet\eOppslag_sikkerhetsmodell_overordnet.adoc
+27.06.2019 09:43:26: Linje: |Attributt for å sette på informasjon som f.eks. viser hvem som har laget det eller hvor det kommer fra. Benyttes friere enn namespace. 
+27.06.2019 09:43:26: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_modelleringskonvensjoner\book-modelleringskonvensjoner – Kopi.adoc
+27.06.2019 09:45:37: SøkTekstIAlleFiler(hvem er referansearkitekturer for)
+27.06.2019 09:46:04: SøkTekstIAlleFiler(hvem err referansearkitekturer for)
+27.06.2019 09:46:31: SøkTekstIAlleFiler(Hvem er referansearkitekturer for?)
+27.06.2019 09:46:31: Linje: == Hvem er referansearkitekturer for?
+27.06.2019 09:46:31: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer\-utgår-om-referansearkitekturer.adoc
+27.06.2019 09:46:31: Linje: == Hvem er referansearkitekturer for?
+27.06.2019 09:46:31: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_begreper\begrep-referansearkitektur – Kopi.adoc
+27.06.2019 09:46:31: Linje: == Hvem er referansearkitekturer for?
+27.06.2019 09:46:31: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_begreper\begrep-referansearkitektur.adoc
+27.06.2019 09:47:00: SøkTekstIAlleFiler(Hvem er referansearkitekturer for?)
+27.06.2019 09:47:01: Linje: == Hvem er referansearkitekturer for?
+27.06.2019 09:47:01: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer\-utgår-om-referansearkitekturer.adoc
+27.06.2019 09:47:01: Linje: == Hvem er referansearkitekturer for?
+27.06.2019 09:47:01: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_begreper\begrep-referansearkitektur – Kopi.adoc
+27.06.2019 09:47:01: Linje: == Hvem er referansearkitekturer for?
+27.06.2019 09:47:01: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_begreper\begrep-referansearkitektur.adoc
+27.06.2019 09:47:42: SøkTekstIAlleFiler(begrep-referansearkitektur.adoc)
+27.06.2019 09:47:42: Linje: include::./begrep-referansearkitektur.adoc[]
+27.06.2019 09:47:42: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_begreper\book-arkitekturbegreper.adoc

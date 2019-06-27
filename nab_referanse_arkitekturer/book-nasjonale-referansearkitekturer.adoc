@@ -56,10 +56,6 @@ Relatert informasjon:
 include::../nab_referanse_arkitekturer/kapabilitetsområder.adoc[]
 ////
 
-= Grunnleggende referansearkitekturer og andre utvalgte eksterne referanser
-
-include::../nab_referanse_arkitekturer/grunnleggende-referansearkitekturer.adoc[]
-
 
 = Nasjonale referansearkitekturer
 
@@ -88,6 +84,12 @@ include::deling_forespørsel.adoc[]
 
 
 :leveloffset!:
+
+= Grunnleggende referansearkitekturer og andre utvalgte eksterne referanser
+
+include::../nab_referanse_arkitekturer/grunnleggende-referansearkitekturer.adoc[]
+
+
 :leveloffset: +1
 
 = Informasjonssikkerhet
