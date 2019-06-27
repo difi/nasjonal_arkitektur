@@ -27,7 +27,10 @@ Prioritering av arbeidet og utarbeidelsen av referansearkitekturer gjøres i sam
 Relatert informasjon:
 //1. <<../nab_overordnet-metode/book-nab-overordnet-metode.adoc#_grunnleggende_konsepter,Mer bakgrunnsinformasjon om referansearkitekturer>>
 
-1. link:../nab_overordnet-metode[Overordnet metode, bakgrunnsinformasjon]
+//1. link:../nab_overordnet-metode[Overordnet metode, bakgrunnsinformasjon]
+
+1. link:../nab_overordnet-metode/grunnleggende-konsepter.adoc[Overordnet metode, bakgrunnsinformasjon]
+
 2. link:../nab_arkitekturlandskap[Arkitekturlandskap, temaområder og kapabiliteter]
 
 //image:../plattform_felles/media/i-arbeid.png[width=45, height=45] #I arbeid (deler av innholdet flyttes)#
