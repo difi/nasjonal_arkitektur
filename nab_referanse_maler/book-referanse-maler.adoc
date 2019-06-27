@@ -20,7 +20,7 @@ Dokumentasjonsmaler finnes i form av:
 
 NOTE: Se også annet innhold om verktøyuavhengige dokumentasjonskonvensjoner.
 
-
+ 
 
 == Maler for dokumentasjon i Asciidoc
 
