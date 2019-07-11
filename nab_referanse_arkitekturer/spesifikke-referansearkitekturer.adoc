@@ -20,4 +20,8 @@ include::../nab_referanse_arkitekturer_emelding/book-ra-emelding.adoc[]
 = eNotifikasjon
 include::../nab_referanse_arkitekturer_enotifikasjon/book-ra-enotifikasjon.adoc[]
 
+//= Tverrgående temaer
+
+//include::../nab_referanse_arkitekturer_tverrgående_tema/book-tverrgående-tema.adoc[]
+
 :leveloffset: -1

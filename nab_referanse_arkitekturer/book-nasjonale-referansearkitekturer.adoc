@@ -39,7 +39,7 @@ Relatert informasjon:
 
 
 //= Tilnærming til arbeidet med referansearkitekturer
-//include::../nab_referanse_arkitekturer/tilnærming-til-arbeidet-med-referansearkitekturer .adoc[]
+//include::../nab_referanse_arkitekturer/tilnærming-til-arbeidet-med-referansearkitekturer.adoc[]
 
 ////
 = Funksjonsområder for referansearkitekturer (kapabiliteter)
