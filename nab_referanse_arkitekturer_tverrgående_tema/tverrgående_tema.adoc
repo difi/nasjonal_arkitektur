@@ -16,7 +16,7 @@ Capability lookup deles inn i registrering og oppslag
 
 <figur for registrering og oppslag koblet til roller>
 
-Selve informasjonen og områdene inne capability lookup er hensiktsmessig å dele inn etter EIF-lagene.
+Selve informasjonen og områdene innen capability lookup er hensiktsmessig å dele inn etter EIF-lagene.
 
 * Legal Capability
 ** What are the legal restrictions on the specific digital interoperability
@@ -24,14 +24,14 @@ Selve informasjonen og områdene inne capability lookup er hensiktsmessig å del
 ** What Digitalized Business choreographies can the receiver participate in.
 What is the Business role of the receiver
 * Semantic Capability and Feature
-** What is the sematincs and formats of the information transfered in a Business transaction
+** What is the semantics and formats of the information transfered in a Business transaction
 of a the Business Choreography
 * Technical Capability and Features
 ** What are the options and How should the Service be accessed, when it comes to Security,
 Evidence, Trust, Protocols
 Where is the Service to be found (Location)
 
-Med dette perspektivet på capability lookup vil temaet ikke realiseres av en komponent, men være distribuert utover flere komponeneter og ogsåkunne være domenespesifikke.
+Med dette perspektivet på capability lookup vil temaet ikke realiseres av en komponent, men være distribuert utover flere komponeneter og også kunne være domenespesifikke.
 
 === Tillitstjenester
 The eDelivery Trust is what holds an eDelivery community together. A PKI serves as the "ticket" for the a participants belonging to a

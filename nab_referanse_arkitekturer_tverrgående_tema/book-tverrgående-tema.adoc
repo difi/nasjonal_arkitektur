@@ -34,6 +34,11 @@ Where is the Service to be found (Location)
 Med dette perspektivet på capability lookup vil temaet ikke realiseres av en komponent, men være distribuert utover flere komponeneter og ogsåkunne være domenespesifikke.
 
 === Tillitstjenester
+////
+<Se til kapabiliteter på Quality of service layer, Security management>
+>
+////
+
 The eDelivery Trust is what holds an eDelivery community together. A PKI serves as the "ticket" for the a participants belonging to a
 specific eDelivery. When sending a message to another participant in the eDelivery community, the PKI must accompany the message
 as proof that this message was from a participant in the eDelivery community. 
