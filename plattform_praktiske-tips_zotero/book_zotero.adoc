@@ -1,0 +1,76 @@
+////
+Guide to the below header attributes:
+
+    lang: en; no
+    difi_orig_language: en; no
+    difi_translation_status: -; missing; incomplete; OK 
+    keywords_en: comma separated list of english keywords (no controlled vocabulary); TBD
+    keywords_no: comma separated list of Norwegian keywords (no controlled vocabulary); TBD  
+    
+Note: The _lang_ value may be overridden by a command line parameter.
+////
+
+:lang: en
+:difi_orig_language: en
+:doctitle_en: Practical tips for using Zotero as a shared  research library 
+:doctitle_no: Norsk dokumenttittel
+:difi_translation_status: -
+:keywords_en: TBD
+:keywords_no: TBD
+:toclevels: 2
+:difi_doctype: Basic Book Template
+
+// The above parameters are processed by scripts included by the following statement
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+image:../plattform_praktiske-tips_zotero\media/zotero-logo.png[width=150]
+
+
+
+// ****************
+// ENGLISH
+ifeval::["{lang}" == "en"]
+// ****************
+
+[.lead]
+Zotero is a free, open source, easy-to-use tool to help you collect, organize, cite and share research.
+
+== Introduction
+include::./intro_zotero.adoc[]
+
+== Getting started 
+
+. Installation: ...
+
+. ...
+
+
+. Norwegian getting started (UiO): https://www.ub.uio.no/skrive-publisere/referere/zotero/
+
+
+
+// ****************
+endif::[]
+// ****************
+
+
+
+// ****************
+// NORWEGIAN
+// ****************
+ifeval::["{lang}" == "no"]
+
+[.lead]
+Kort, innledende tekst for denne boken
+
+
+== Introduksjon
+include::./intro_zotero.adoc[]
+
+== Kapittel 2 
+// Inkluder kapittel-filer eller skriv direkte her 
+
+// ****************
+endif::[]
+// ****************
+
