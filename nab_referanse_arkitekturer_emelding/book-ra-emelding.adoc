@@ -10,10 +10,27 @@ eMelding er en referansearkitektur for asynkron informasjonsforsendelse
 == Introduksjon
 include::../nab_referanse_arkitekturer_emelding/ra-emelding-intro.adoc[]
 
+== Kapabilitetskart - relevante kapabiliteter
+
+image:../nab_referanse_arkitekturer_emelding/media/Deling av data ved forsendelse.png[alt="Bilde mangler", width=750]
+
+
+
+
+
+== Arkitekturmønstre (konsptuelle beskrivelser, kun arkitekturbyggeklosser)
+
+//image:../nab_referanse_arkitekturer_emelding/media/Deling av data ved forsendelse.png[alt="Bilde mangler", width=750]
+
+//image:../nab_referanse_arkitekturer_emelding/media/Deling av data ved forsendelse.png[alt="Bilde mangler", width=750]
+
+//image:../nab_referanse_arkitekturer_emelding/media/Deling av data ved forsendelse.png[alt="Bilde mangler", width=750]
+
+//image:../nab_referanse_arkitekturer_emelding/media/Deling av data ved forsendelse.png[alt="Bilde mangler", width=750]
 
 == Videre informasjon om eMelding
 
-Videre informasjonog og dokumentasjon om eMelding finnes under https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/nasjonal-arkitektur-old/referansearkitektur-meldingsutveksling-emelding.
+Videre informasjon og og dokumentasjon om eMelding finnes under https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/nasjonal-arkitektur-old/referansearkitektur-meldingsutveksling-emelding.
 
 
 
