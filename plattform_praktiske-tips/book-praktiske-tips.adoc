@@ -11,20 +11,21 @@ Nasjonalt arkitekturbibliotek er en plattform for samproduksjon og deling av ark
 ////
 
 
-== Praktiske tips om fildeling på GitHub
 :leveloffset: +1
+= Praktiske tips om fildeling på GitHub
 include::../plattform_praktiske-tips_github/main.adoc[]
 
-:leveloffset: -1
-== Praktiske tips om redigering med  Asciidoc
-:leveloffset: +1
+= Praktiske tips om redigering med  Asciidoc
 include::../plattform_praktiske-tips_asciidoc/main.adoc[]
 
 
-:leveloffset: -1
-== Praktiske tips om samarbeid med Archi
-:leveloffset: +1
+= Praktiske tips om samarbeid med Archi
 include::../plattform_praktiske-tips_archi/main.adoc[]
 
+= Praktiske tips om bruk av Zotero som felles referansebibliotek
+include::../plattform_praktiske-tips_zotero/main.adoc[]
+
+
+:leveloffset!:
 
 
