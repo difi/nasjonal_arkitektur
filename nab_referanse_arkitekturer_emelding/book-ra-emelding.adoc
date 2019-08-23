@@ -20,13 +20,18 @@ image:../nab_referanse_arkitekturer_emelding/media/Deling av data ved forsendels
 
 == Arkitekturmønstre (konseptuelle beskrivelser, kun arkitekturbyggeklosser)
 
-//image:../nab_referanse_arkitekturer_emelding/media/Deling av data ved forsendelse.png[alt="Bilde mangler", width=750]
+==== Slå opp adresse og kapabiliteter
+image:../nab_referanse_arkitekturer_emelding/media/Slå opp adresse.png[alt="Bilde mangler", width=500]
 
-//image:../nab_referanse_arkitekturer_emelding/media/Deling av data ved forsendelse.png[alt="Bilde mangler", width=750]
+==== Sende melding
+image:../nab_referanse_arkitekturer_emelding/media/Sende melding.png[alt="Bilde mangler", width=750]
 
-//image:../nab_referanse_arkitekturer_emelding/media/Deling av data ved forsendelse.png[alt="Bilde mangler", width=750]
+==== Registrere adresse og kapabiliteter
+image:../nab_referanse_arkitekturer_emelding/media/Registrere adresse.png[alt="Bilde mangler", width=600]
 
-//image:../nab_referanse_arkitekturer_emelding/media/Deling av data ved forsendelse.png[alt="Bilde mangler", width=750]
+==== Motta melding
+image:../nab_referanse_arkitekturer_emelding/media/Motta melding.png[alt="Bilde mangler", width=600]
+
 
 == Videre informasjon om eMelding
 
