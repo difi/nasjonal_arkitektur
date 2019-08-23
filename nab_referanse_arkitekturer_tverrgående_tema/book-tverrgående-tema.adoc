@@ -4,36 +4,20 @@
 
 include::../plattform_felles/includes/commonincludes.adoc[]
 
-[.lead]
-Tverrgående temaer er en samling av ABBer som kommer til anvendelse i de spesifikke referansearkitekturene.
+Tverrgående temaer er en samling av kapabiliteter som kommer til anvendelse i de spesifikke referansearkitekturene. Dette er kapabiliteter som på generisk nivå er like uavhengig av samhandlingsmønster eller rolle.
 
-== Introduksjon
-
+Temaene vi tar for oss er oppsummert i figuren under:
 
 
-=== Capability lookup
-Capability lookup deles inn i registrering og oppslag
+image:../nab_referanse_arkitekturer_tverrgående_tema/media/fellestema.png[width=500]
 
-<figur for registrering og oppslag koblet til roller>
+=== Tilgangsstyring
 
-Selve informasjonen og områdene inne capability lookup er hensiktsmessig å dele inn etter EIF-lagene.
-
-* Legal Capability
-** What are the legal restrictions on the specific digital interoperability
-* Organisational Capability
-** What Digitalized Business choreographies can the receiver participate in.
-What is the Business role of the receiver
-* Semantic Capability and Feature
-** What is the sematincs and formats of the information transfered in a Business transaction
-of a the Business Choreography
-* Technical Capability and Features
-** What are the options and How should the Service be accessed, when it comes to Security,
-Evidence, Trust, Protocols
-Where is the Service to be found (Location)
-
-Med dette perspektivet på capability lookup vil temaet ikke realiseres av en komponent, men være distribuert utover flere komponeneter og ogsåkunne være domenespesifikke.
 
 === Tillitstjenester
+Med tillitstjenester mener vi kapabiliteter, tjenester og funksjoner som gir mulighet for å etablere tillit mellom aktører innen digital samhandling. Dette omfatter bl.a.  integritetssikring, digitale signatur og tidsstempling.
+
+==== Tillitstjenester
 ////
 <Se til kapabiliteter på Quality of service layer, Security management>
 >
@@ -90,5 +74,59 @@ ii) the creation, verification and validation of certificates for website authen
 iii) the preservation of electronic signatures, seals or certificates related to those services.
 
 
+=== Behandlingsgrunnlag
 
-=== Representasjonsforhold
+////
+Vi ser på korleis relasjonar mellom data og lovverk  skal løysast i Felles datakatalog/DCAT og her er det fleire "eigenskapar" ein har behov for å gje uttrykk for: 
+-	Behandlingsgrunnlag (dcatno:legalBasisForProcessing)
+-	Utleveringshjemmel (dcatno:legalBasisForAccess)
+-	Skjermingshjemmel (dcatno:legalBasisForRestriction)
+
+
+Nerdeksempel finn du her: 
+https://github.com/difi/dcat-ap-no/issues/27
+////
+
+=== Eksponere grensesnitt
+==== Capability lookup
+Capability lookup deles inn i registrering og oppslag
+
+<figur for registrering og oppslag koblet til roller>
+
+Selve informasjonen og områdene inne capability lookup er hensiktsmessig å dele inn etter EIF-lagene.
+
+* Legal Capability
+** What are the legal restrictions on the specific digital interoperability
+* Organisational Capability
+** What Digitalized Business choreographies can the receiver participate in.
+What is the Business role of the receiver
+* Semantic Capability and Feature
+** What is the sematincs and formats of the information transfered in a Business transaction
+of a the Business Choreography
+* Technical Capability and Features
+** What are the options and How should the Service be accessed, when it comes to Security,
+Evidence, Trust, Protocols
+Where is the Service to be found (Location)
+
+Med dette perspektivet på capability lookup vil temaet ikke realiseres av en komponent, men være distribuert utover flere komponeneter og ogsåkunne være domenespesifikke.
+
+=== Logging
+// transaksjonslogg - noe mer?
+
+=== Avtalehåndtering
+
+
+=== Delegering av rettigheter
+
+==== Representasjonsforhold
+
+=== Kildesporing
+// Data linage, proveniens
+
+=== Test
+// usikker på om denne passer inn her
+
+
+
+
+

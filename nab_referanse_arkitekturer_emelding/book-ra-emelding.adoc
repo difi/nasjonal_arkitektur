@@ -18,7 +18,7 @@ image:../nab_referanse_arkitekturer_emelding/media/Deling av data ved forsendels
 
 
 
-== Arkitekturmønstre (konsptuelle beskrivelser, kun arkitekturbyggeklosser)
+== Arkitekturmønstre (konseptuelle beskrivelser, kun arkitekturbyggeklosser)
 
 //image:../nab_referanse_arkitekturer_emelding/media/Deling av data ved forsendelse.png[alt="Bilde mangler", width=750]
 

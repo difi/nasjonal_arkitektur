@@ -10,7 +10,6 @@ Tverrgående temaer er en samling av ABBer som kommer til anvendelse i de spesif
 == Introduksjon
 
 
-
 === Capability lookup
 Capability lookup deles inn i registrering og oppslag
 
