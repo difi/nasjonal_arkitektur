@@ -1,0 +1,105 @@
+
+
+[cols ="1,1,3", options="header"]
+.Requirements for Norwegian eDelivery
+|===
+|ID
+|Requirement
+|Description
+
+|Gen-Leg01
+|Must follow the Norwegian
+Interoperability principles and
+the EIF principles
+|Norwegian Interoperability Principles (Norske
+Samhandlings Prinsipper) (Link)
+European Interoperability Framework
+Principles https://ec.europa.eu/isa2/eif_en
+
+|Gen-Leg02
+|Should follow the eIDAS regulations
+|https://ec.europa.eu/digital-singlemarket/en/policies/trust-services-and-eidentification
+
+|eDel-Leg01
+|Must follow the set of principles set in the Norwegian eDelivery Strategy (Strategi for Norsk meldingsutveksling)
+|Norwegian Strategy on eDelivery (Norsk strategi for meldingsutveksling) (Link)
+
+|InfEx-Org01
+|Must be easy accessible by Participants
+|This requirement can be restated as "u se of Internet and Internet technologies" at the Technical level.
+
+|eDel-Org01
+|Must encapsulate a eDelivery community.
+|That only participants cleared for the community is able to
+send and receive event notifications and eDocuments.
+With eDEL-Org01, this requires other measures than
+physical division of communities e.g. by use of certificates.
+|eDel-
+Org02
+|An eDelivery community must
+share one interoperability
+agreement
+|The Interoperability agreement defines the eDelivery
+community, those participants signing the agreement are
+members of the community.
+Avoiding bilateral interoperability agreements.
+|eDEL-Org03
+|Must be possible to participate
+in mulitiple eDelivery
+communities with own
+interoperability agreements.
+|A participant can be part of several interoperability
+agreements e.g. eProcurement, eHealth, through a virtual
+segmentaion of the eDelivery Infrastructure.
+
+|eDELOrg04
+|Transmission of Event
+notifications and eDocuments
+should be reliable.
+|An Event notifications and eDocuments is delivered to the
+receiver once and only once.
+Level of reliability must be adressed in the Interoperability
+agreement.
+For additional reliability see ABB-eIDAS_Regulation
+|eDELOrg05
+|Transmission of Event
+notifications and eDocuments
+should be Secret.
+|In some cases Secrecy is not a requirement, whereas in
+other cases Secrecy is a "must" requirement.
+Level of Secrecy must be adressed in the Interoperability
+agreement.
+For additional Secrecy see ABB-eIDAS_Regulation
+|eDELOrg06
+|Transmission of Event
+notifications and eDocuments
+should have Authenticity of
+sender.
+|In some cases Autheticity is not a strong requirement,
+belonging to the eDelivery community is enough, whereas
+in other cases Authenticity is a "must" requirement.
+Level of Authenticity must be adressed in the
+Interoperability agreement.
+For additional Authenticity see ABB-eIDAS_Regulation
+|eDELOrg07
+|Transmission of Event
+notifications and eDocuments
+should be be with Integrity.
+|In some cases eDocuments will be transformed e.g. from
+one format to another, whereas in other cases Integrity is a
+"must" requirement.
+Level of Integrity and possibilities for transformation must
+be adressed in the Interoperability agreement .
+For additional Integrity see ABB-eIDAS_Regulation
+
+|
+|
+|
+
+|
+|
+|
+
+|
+|
+|

@@ -10,9 +10,6 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 :leveloffset: +1
 
-= Tverrgående temaer
-
-include::../nab_referanse_arkitekturer_tverrgående_tema/book-tverrgående-tema.adoc[]
 
 = eOppslag
 

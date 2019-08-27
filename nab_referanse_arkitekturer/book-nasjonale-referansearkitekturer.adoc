@@ -37,9 +37,10 @@ Relatert informasjon:
 
 //include::../nab_referanse_arkitekturer/om-referansearkitekturer.adoc[]
 
-
-//= Tilnærming til arbeidet med referansearkitekturer
-//include::../nab_referanse_arkitekturer/tilnærming-til-arbeidet-med-referansearkitekturer.adoc[]
+////
+= Tilnærming til arbeidet med referansearkitekturer
+include::../nab_referanse_arkitekturer/tilnærming-til-arbeidet-med-referansearkitekturer.adoc[]
+////
 
 ////
 = Funksjonsområder for referansearkitekturer (kapabiliteter)
@@ -58,6 +59,14 @@ image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _Denne oversik
 .Figur: Katalog over referansearkitekturer innen aktuelle områder i Nasjonal arkitektur
 image:../nab_referanse_arkitekturer/media/katalog-referansearkitekturer.png[]
 
+= Generisk datautveksling
+include::../nab_referanse_arkitekturer/generisk_datautveksling.adoc[]
+
+= Tverrgående temaer innen datautveksling
+
+include::../nab_referanse_arkitekturer_tverrgående_tema/book-tverrgående-tema.adoc[]
+
+= Spesifikke referansearkitekturer 
 
 include::../nab_referanse_arkitekturer/spesifikke-referansearkitekturer.adoc[]
 
