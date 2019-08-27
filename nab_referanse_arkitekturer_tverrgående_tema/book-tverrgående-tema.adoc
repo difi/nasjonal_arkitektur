@@ -9,7 +9,7 @@ Tverrgående temaer er en samling av kapabiliteter som kommer til anvendelse i d
 Temaene vi tar for oss er oppsummert i figuren under:
 
 
-image:../nab_referanse_arkitekturer_tverrgående_tema/media/fellestema.png[width=500]
+image:../nab_referanse_arkitekturer_tverrgående_tema/media/fellestema.png[alt="Bilde mangler", width=500]
 
 === Tilgangsstyring
 
