@@ -124,7 +124,7 @@ Med dette perspektivet på capability lookup vil temaet ikke realiseres av en ko
 // Data linage, proveniens
 
 === Test
-// usikker på om denne passer inn her
+// usikker på om denne passer inn her...
 
 
 
