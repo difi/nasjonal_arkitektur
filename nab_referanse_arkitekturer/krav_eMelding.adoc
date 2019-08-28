@@ -1,6 +1,4 @@
-
-
-[cols ="1,1,3", options="header"]
+[cols ="1,3,3", options="header"]
 .Requirements for Norwegian eDelivery
 |===
 |ID
@@ -92,14 +90,93 @@ Level of Integrity and possibilities for transformation must
 be adressed in the Interoperability agreement .
 For additional Integrity see ABB-eIDAS_Regulation
 
-|
-|
-|
+|eDELOrg08
+|Transmission of Event
+notifications and eDocuments
+can be Non-reputable.
+|Non-repudiation is the creation of a digital Notification
+and eDocument original e.g. neither parties can
+dispute the sending and reception incl. the content.
+In some cases Non-repudiation is not a requirement, trust
+in the eDelivery community and the receiver is
+enough, whereas in other cases, with high importance
+Business Processes, Non-repudiation is a "must"
+requirement.
+Use of Non-repudiation must be adressed in the
+Interoperability agreement .
+For Non-repudiation see ABB-eIDAS_Regulation
 
-|
-|
-|
+|eDEL-Org09
+|eDelivery must be flexible –
+allow and handle participants
+with different Business
+Process interoperability maturity.
+|Difference between participants in what business
+processes are digitalized and what parts of a business
+process is digitized.
 
-|
-|
-|
+|eDEL-Org10
+|eDelivery must be flexible – allow and handle Business
+processes and eDocuments with
+different requirements.
+|Valid Business Processes, Notifications and eDocuments must be adressed in the Interoperability
+agreement .
+See eDEL-Org04, eDEL-Org05, eDEL-Org06, eDEL-Org07,
+eDEL-Org08
+
+|eDEL-Org11
+|eDelivery must be scalable –
+number of participants
+|An eDelivery community must be able to scale i.e. inherent
+in the architecture is possibilities to make solutions that
+doesn't put up barriers for scalability
+
+|eDEL-Org12
+|eDelivery must be scalable –
+number of transactions
+|An eDelivery community must be able to scale i.e. inherent
+in the architecture is possibilities to make solutions that
+doesn't put up barriers for scalability
+
+|eDel-Sem01
+|Must be possible to send
+multiple eDocuments with an
+Event Notification.
+|An Event notification can be followed by multiple
+eDocuments, that are relevant to initiate (and fullfill) a
+Business Process on the receiving side.
+
+|eDel-Sem02
+|Must be eDocument agnostic. 
+|Any type of Documents are supported e.g. XML, pdf, Doc.
+
+|eDel-Sem03
+|Must be able to exchange
+eDocuments at a size < 2GB
+|Current technical constraint.
+Se prinsip for at data anvendes fra Deres plasering.
+
+|eDel-Tec01
+|Must be based on Open
+standards with high traction.
+|Building the technical eDelivery (Meldingsformidling) on
+Open standards that are
+
+|eDel-Tec02
+|Must have flexible Change
+Management
+|Possibility to change Building Blocks or versions in an easy
+and flexible way e.g. «long» phase-in and phase-out of
+technologies.
+
+|eDel-Tec013
+|Must accomodate competition
+on solutions and service
+provision
+|Building the technical eDelivery (Meldingsformidling)
+architecture on Open standards that are widely used
+(traction)
+Building the technical eDelivery
+(Meldingsformidling) architecture such that it offers a wide
+variaty of choices of participating e.g. directly or through
+service providers (cloud based).

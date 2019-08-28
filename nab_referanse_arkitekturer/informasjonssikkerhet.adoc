@@ -17,6 +17,10 @@ Sikkerhetsarkitekturen for eOppslag er laget med tanke på å nå følgende over
 * Standardisert mekanisme for autentisering av klienter for å få teknisk konsolidering på tvers av offentlig sektor og mulighet til gjenbruk av komponenter
 * Standardisert mekanisme for delegering av myndighet, hvor en virksomhet kaller tjenester på vegne av en annen virksomhet
 
+== Krav fra eIDAS
+include::../nab_referanse_arkitekturer/krav_eIDAS.adoc[]
+
+
 == Omfang og avgrensning
 * "A henter data hos B"
 * Hva er de viktigste truslene?

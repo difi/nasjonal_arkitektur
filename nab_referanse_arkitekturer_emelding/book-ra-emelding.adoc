@@ -10,6 +10,11 @@ eMelding er en referansearkitektur for asynkron informasjonsforsendelse
 == Introduksjon
 include::../nab_referanse_arkitekturer_emelding/ra-emelding-intro.adoc[]
 
+////
+=== Krav til eMelding
+include::../nab_referanse_arkitekturer_emelding/krav_eMelding.adoc[]
+////
+
 == Kapabilitetskart - relevante kapabiliteter
 
 image:../nab_referanse_arkitekturer_emelding/media/Deling av data ved forsendelse.png[alt="Bilde mangler", width=750]

@@ -1,0 +1,167 @@
+[cols ="1,3,3", options="header"]
+.Requirements derived from the eIDAS regulations
+|===
+|ID
+|Requirement
+|Description
+
+|InfEx-Leg01
+|Message intergrity: Messages should be secured
+against any modification during transmission.
+|The sending and receiving of data is secured
+by an advanced electronic signature or an
+advanced electronic seal of a qualified trust
+service provider in such a manner as to
+preclude the possibility of the data being
+changed undetectably.
+Artikkel 3 (36), 19, 24,44
+
+|InfEx-Leg02
+|Message Confidentiality: Messages should be
+encrypted during transmission.
+|Artikkel 5,19,24
+
+|InfEx-Leg03
+|Sender authenticity: The identity of the sender
+should be verified. Ensure with a high level of
+confidence the identification of the sender.
+|Artikkel 24, 44
+
+|InfEx-Leg04
+|Recipient authenticity: Recipient / addressee
+Identity should be verified before the delivery of
+the message.
+|Ensure the identification of the addressee
+before the delivery of the data.
+Artikkel 24, 44
+
+|InfEx-Leg05
+|Non repudiation: The date and time of sending
+and receiving a message should be indicated via a
+qualified electronic timestamp.
+|The date and time of sending, receiving and
+any change of data are indicated by a
+qualified electronic time stamp. Artikkel 44
+
+|InfEx-Leg06
+|Non repudiation: Sender and receiver of the
+message should be provided with evidence of
+message recipient and deliver.
+|Provides evidence relating to the handling
+of the transmitted data, including proof of
+sending and receiving the data. Artikkel 3
+
+|InfEx-Leg07
+|Thrusted providers: Qualified and non-qualified
+trust service providers shall take appropriate
+technical and organisational measures to manage
+the risks posed to the security of the trust services
+they provide.
+|Having regard to the latest technological
+developments, those measures shall ensure
+that the level of security is commensurate to
+the degree of risk. In particular, measures
+shall be taken to prevent and minimise the
+impact of security incidents and inform
+stakeholders of the adverse effects of any
+such incidents. Artikkel 19
+
+|InfEx-Leg08
+|Qualified and non-qualified trust service providers
+shall, without undue delay but in any event within
+24 hours after having become aware of it, notify
+the supervisory body and, where applicable, other
+relevant bodies, such as the competent national
+body for information security or the data
+protection authority, of any breach of security or
+loss of integrity that has a significant impact on the
+trust service provided or on the personal data
+maintained therein.
+|Artikkel 19
+
+|InfEx-Leg09
+|Where the breach of security or loss of integrity is
+likely to adversely affect a natural or legal person
+to whom the trusted service has been provided,
+the trust service provider shall also notify the
+natural or legal person of the breach of security or
+loss of integrity without undue delay.
+|Artikkel 19
+
+|InfEx-Leg10
+|Where appropriate, in particular if a breach of
+security or loss of integrity concerns two or more
+Member States, the notified supervisory body shall
+inform the supervisory bodies in other Member
+States concerned and ENISA.
+|Artikkel 19
+
+|InfEx-Leg11
+|The notified supervisory body shall inform the
+public or require the trust service provider to do
+so, where it determines that disclosure of the
+breach of security or loss of integrity is in the
+public interest.
+|Artikkel 19
+
+|InfEx-Leg12
+|Thrusted providers: The supervisory body shall
+provide ENISA once a year with a summary of
+notifications of breach of security and loss of
+integrity received from trust service providers.
+|Artikkel 19
+
+|InfEx-Leg13
+|Trust service providers: They are provided by one
+or more qualified trust service provider(s).
+|Artikkel 44
+
+|InfEx-Leg14
+|Integrity: Any change of the data needed for the
+purpose of sending or receiving the data is clearly
+indicated to the sender and addressee of the data.
+|Artikkel 44
+
+|InfEx-Leg15
+|Non-repudiation: Data sent and received using an 
+electronic registered delivery service shall not be
+denied legal effect and admissibility as evidence in
+legal proceedings solely on the grounds that it is in
+an electronic form or that it does not meet the
+requirements of the qualified electronic registered
+delivery service.
+|Artikkel 43
+
+|InfEx-Leg16
+|Integrity: Data sent and received using a qualified
+electronic registered delivery service shall enjoy
+the presumption of the integrity of the data, the
+sending of that data by the identified sender, its
+receipt by the identified addressee and the
+accuracy of the date and time of sending and
+receipt indicated by the qualified electronic
+registered delivery service.
+|Artikkel 43
+
+|InfEx-Leg17
+|Legal effect: An electronic document shall not be
+denied legal effect and admissibility as evidence in
+legal proceedings solely on the grounds that it is in
+electronic form.
+|Artikkel 46
+
+|InfEx-Leg18
+|Data processing and protection: Processing of
+personal data shall be carried out in accordance
+with Directive 95/46/EC
+|Artikkel 5
+
+|InfEx-Leg19
+|Data processing and protection: Without prejudice
+to the legal effect given to pseudonyms under
+national law, the use of pseudonyms in electronic
+transactions shall not be prohibited.
+|Artikkel 5
+|===
+
+
