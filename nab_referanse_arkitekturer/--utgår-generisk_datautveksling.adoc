@@ -1,0 +1,69 @@
+:lang: no
+:doctitle: Referansearkitektur for datautveksling
+:keywords: Referansearkitektur
+:toclevels: 3
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+== Introduksjon
+=== Generelt
+Datautveksling er en delmengde av det større området Datadeling.
+
+=== Avgrensing
+Referansearkitekturer og mønstre for datautveksling dekker selve utvekslingen av data og dokumenter. 
+
+Bruken av data i forretningsprosesser og dataanalyse dekkes i utangspunktet ikke, med mindre det er relevant for måten datautvekslingen gjøres på. I forbindelse med datavirtualisering, er det f.eks. mulig å gjøre dataanalyse der dataene ligger, og så innhente analyseresultater i stedet for rådata.
+
+Begrepet data dekker i denne sammenhengen også dokumenter og bevis. Se under "Hva er data" for nærmere presisering av disse begrepene.
+
+Det finnes en rekke temaer og forutsetninger for at datautveksling skal fungere. Noen av disse temaene er store og dekkes ikke generelt her. Informasjonsforvaltning, identitettsforvaltning, informasjonssikkerhet og tillitstjenester er eksempler på temaer som ikke generelt dekkes. Det er likevel elementer innen disse temaene som er spesielt relevante og derfor omhandles spesielt, enten som tverrgående temaer under generiske mønstre eller i tilknytning til mer spesifikke løsningsmønstre.
+
+En introduksjon til aktuelle temaer er gitt under kap. x. Nærmere informasjon om utvalgte temaer oppdateres fortløpende.
+
+Datautveksling er en delmengde av det større området Datadeling.
+
+== Hva er data?
+include::../nab_referanse_arkitekturer_datautveksling/hva-er-data.adoc[]
+
+
+== Overgripende modell for datautveksling
+
+== Forretningmessig kontekst
+
+== Brukstilfeller
+
+== Introduksjon til tverrgående temaer
+
+=== Logging
+
+
+=== Tidsstempling
+
+=== Fellesskapsforvaltning
+
+=== Informasjonssikkerhet
+
+=== Identitetsforvaltning
+
+=== Tilgangsstyring
+
+=== Tillitstjenester
+
+=== Informasjonsforvaltning
+
+=== Avtalehåndtering
+
+=== Lover og regler
+
+=== Semantikk
+
+=== Feilhåndteroimg
+rollback.kompenasasjoner
+
+=== Transaksjonsstøtte
+
+=== Protokoller og formater
+
+
+
+= Mer om utvalgte temaer
+//include::../nab_referanse_arkitekturer_tverrgående_tema/book-tverrgående-tema.adoc[]

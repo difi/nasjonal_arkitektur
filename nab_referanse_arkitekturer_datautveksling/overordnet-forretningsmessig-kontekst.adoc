@@ -1,0 +1,10 @@
+:lang: no
+:doctitle: Overordet forretningsmessig kontekst
+:keywords: 
+
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+Helt overdnet kan en si at fungerende datautveksling er en forutsetning for sømløse sluttbrukertjenester for personer og virksomheter, gjennom støtte for tverrgående prosesser og dataanalyse.
+
+.Overordet forretningsmessig kontekst
+image::../nab_referanse_arkitekturer_datautveksling/media/Overordet forretningsmessig kontekst.png[alt=Overordet forretningsmessig kontekst image]

@@ -1,5 +1,0 @@
-:lang: no
-:doctitle: Generisk datautveksling
-:keywords: Referansearkitekturer
-:toclevels: 3
-include::../plattform_felles/includes/commonincludes.adoc[]
