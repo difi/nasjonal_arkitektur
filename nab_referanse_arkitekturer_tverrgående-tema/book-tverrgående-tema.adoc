@@ -5,12 +5,11 @@
 include::../plattform_felles/includes/commonincludes.adoc[]
 
 
-== Tverrgående temaer innen datautveklsing
 Tverrgående temaer adresseres her i form av generiske kapabiliteter, dvs. kapabiliterer som er relevante i flere av de spesfikke referansearkitekturene.
 
 Figuren....
 
-.Tverrgåede kapabiliteter
+.Tverrgående kapabiliteter
 image::../nab_referanse_arkitekturer_tverrgående-tema/media/Tverrgåede kapabiliteter.png[alt=Tverrgåede kapabiliteter image]
 
 [cols ="1,1,3", options="header"]
@@ -174,132 +173,3 @@ Legal admissibility refers to whether a court of law would accept a a digital fi
 
 |===
 
-////
-Tverrgående temaer er en samling av kapabiliteter som kommer til anvendelse i de spesifikke referansearkitekturene. Dette er kapabiliteter som på generisk nivå er like uavhengig av samhandlingsmønster eller rolle.
-
-Temaene vi tar for oss er oppsummert i figuren under:
-
-
-image:../nab_referanse_arkitekturer_tverrgående_tema/media/fellestema.png[alt="Bilde mangler", width=500]
-
-=== Tilgangsstyring
-
-
-=== Tillitstjenester
-Med tillitstjenester mener vi kapabiliteter, tjenester og funksjoner som gir mulighet for å etablere tillit mellom aktører innen digital samhandling. Dette omfatter bl.a.  integritetssikring, digitale signatur og tidsstempling.
-
-==== Tillitstjenester
-////
-<Se til kapabiliteter på Quality of service layer, Security management>
->
-////
-
-The eDelivery Trust is what holds an eDelivery community together. A PKI serves as the "ticket" for the a participants belonging to a
-specific eDelivery. When sending a message to another participant in the eDelivery community, the PKI must accompany the message
-as proof that this message was from a participant in the eDelivery community. 
-
-This Trust Establishment Model is based on using a single PKI issuing Certificate for all members of a Trust Domain (TD). The PKI may
-be a hierarchical one, having different sub CAs for different types of Trust Services Providers (TSPs) allocated to the Trust Domain. 
-
-__
-
-eDelivery Trust defines the overall Trust circle between Sending Enterprise and Receiving
-Enterprise. It also specifies how the implementation of a virtual eDelivery community.
-
-The Certificate of the Virtual Community Trust (ABB-eDelivery_Trust) is added to the Message and a Message
-Exchange (ABB-Message_Exchange) with a Receiver is performed.
-As a Receiver the receives the Message through the Message Exchange (ABB-Message_Exchange) and
-the Certificate of the Virtual Community Trust (ABB-eDelivery_Trust) is verified.
-
-Access point
-
-5. Adds the Virtual Community Trust (ABB-eDelivery_Trust) to the eDocument 
-2. Verifies the Virtual Community Trust (ABB-eDelivery_Trust) to the eDocument
-
-
-==== Specification
-The eDelivery Trust is created through a PKI infrastructure, where the PKI validation service, that is a specialization of the EIRA 2.0
-Building Block "e-Signature Verification and Validation Service" implemented as a PKI validation component, that is a specialization of
-"Trust Service Provisioning Component" in the Technical Infrastructure layer:
-
-<modell?>
-
-eDelivery definition (specialization of the EIRA 2.0 definition) of:
-
-===== e-Signature Verification and Validation Service
-Shares the functionality of the verification of documents that are signed electronically.
-An ‘electronic signature’ means data in electronic form which is attached to or logically associated with other data in electronic form
-and which is used by the signatory to sign.
-‘validation’ means the process of verifying and confirming that an electronic signature or a seal is valid.
-Based on eIDAS - REGULATION (EU) No 910/2014 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 23 July 2014 on
-electronic identification and trust services for electronic transactions in the internal market and repealing Directive 1999/93/EC.
-http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.L_.2014.257.01.0073.01.ENG
-
-===== Trust Service Provisioning Component
-Implements the functionalities encapsulating the trust services functionalities.
-A ‘trust service’ means an electronic service normally provided for remuneration which consists of these functionalities:
-
-i) the creation, verification, and validation of electronic signatures, electronic seals or electronic time stamps, electronic registered
-delivery services and certificates related to those services, or
-ii) the creation, verification and validation of certificates for website authentication; or
-iii) the preservation of electronic signatures, seals or certificates related to those services.
-
-
-=== Behandlingsgrunnlag
-
-////
-Vi ser på korleis relasjonar mellom data og lovverk  skal løysast i Felles datakatalog/DCAT og her er det fleire "eigenskapar" ein har behov for å gje uttrykk for: 
--	Behandlingsgrunnlag (dcatno:legalBasisForProcessing)
--	Utleveringshjemmel (dcatno:legalBasisForAccess)
--	Skjermingshjemmel (dcatno:legalBasisForRestriction)
-
-
-Nerdeksempel finn du her: 
-https://github.com/difi/dcat-ap-no/issues/27
-////
-
-=== Eksponere grensesnitt
-==== Capability lookup
-Capability lookup deles inn i registrering og oppslag
-
-<figur for registrering og oppslag koblet til roller>
-
-Selve informasjonen og områdene inne capability lookup er hensiktsmessig å dele inn etter EIF-lagene.
-
-* Legal Capability
-** What are the legal restrictions on the specific digital interoperability
-* Organisational Capability
-** What Digitalized Business choreographies can the receiver participate in.
-What is the Business role of the receiver
-* Semantic Capability and Feature
-** What is the sematincs and formats of the information transfered in a Business transaction
-of a the Business Choreography
-* Technical Capability and Features
-** What are the options and How should the Service be accessed, when it comes to Security,
-Evidence, Trust, Protocols
-Where is the Service to be found (Location)
-
-Med dette perspektivet på capability lookup vil temaet ikke realiseres av en komponent, men være distribuert utover flere komponeneter og ogsåkunne være domenespesifikke.
-
-=== Logging
-// transaksjonslogg - noe mer?
-
-=== Avtalehåndtering
-
-
-=== Delegering av rettigheter
-
-==== Representasjonsforhold
-
-=== Kildesporing
-// Data linage, proveniens
-
-=== Test
-// usikker på om denne passer inn her...
-
-
-
-
-
-
-////
