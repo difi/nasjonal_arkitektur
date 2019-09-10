@@ -121,6 +121,7 @@ image:../nab_referanse_arkitekturer_emelding/media/klargjore_eMelding.png[alt="B
 ==== Sende melding
 image:../nab_referanse_arkitekturer_emelding/media/Sende melding.png[alt="Bilde mangler", width=750]
 
+image:../nab_referanse_arkitekturer_emelding/media/klargjore_eMelding.png[alt="Bilde mangler", width=750]
 
 [cols ="1,1,3", options="header"]
 .Elementer i view for Sende melding
