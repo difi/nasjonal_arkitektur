@@ -6,7 +6,7 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 == Introduksjon
 === Generelt
-Referansearkitekturer for datautveksling omfatter genersike arkitekturmønstre som beskriver tverrgående temaer, samt mer løsningsspesifikke mønstre.
+Referansearkitekturer for datautveksling omfatter generiske arkitekturmønstre som beskriver tverrgående temaer, samt mer løsningsspesifikke mønstre.
 
 === Avgrensing
 Referansearkitekturer og mønstre for datautveksling dekker i hovedsak selve utvekslingen av data og dokumenter. 
@@ -15,7 +15,7 @@ Bruken av data i forretningsprosesser og dataanalyse dekkes i utangspunktet ikke
 
 Begrepet data dekker i denne sammenhengen også dokumenter og bevis. Se under "Hva er data" for nærmere presisering av disse begrepene.
 
-Det finnes en rekke temaer og forutsetninger for at datautveksling skal fungere. Noen av disse temaene er store og dekkes ikke generelt her. Informasjonsforvaltning, identitettsforvaltning, informasjonssikkerhet og tillitstjenester er eksempler på temaer som ikke generelt dekkes. Det er likevel elementer innen disse temaene som er spesielt relevante og derfor omhandles spesielt, enten som tverrgående temaer under generiske mønstre eller i tilknytning til mer spesifikke løsningsmønstre.
+Det finnes en rekke temaer og forutsetninger for at datautveksling skal fungere. Noen av disse temaene er store og dekkes ikke generelt som del av denne referansearkitekturen, slik som informasjonsforvaltning, datakvalitet og identitettsforvaltning . Det er likevel elementer innen disse temaene som er spesielt relevante og derfor omghandles, enten som tverrgående temaer under generiske mønstre eller i tilknytning til mer spesifikke løsningsmønstre.
 
 En introduksjon til aktuelle temaer er gitt under kap. x. Nærmere informasjon om utvalgte temaer oppdateres fortløpende.
 
@@ -29,7 +29,7 @@ include::../nab_referanse_arkitekturer_datautveksling/overordnet-forretningsmess
 //TBD.
 
 == Brukstilfeller
-include::../nab_referanse_arkitekturer_datautveksling/brukstilfeller.adoc[]
+include::../book-tverrgående-tema.adoc[]
 
 
 == Overgripende modell for datautveksling
@@ -46,7 +46,8 @@ include::../nab_referanse_arkitekturer_datautveksling/generisk-prosess-for-opera
 TBD. (Ta inn referanser til nasjonale pribsipper; under revidering. Husk TOOP!)
 
 == Introduksjon til tverrgående temaer
-
+include::../nab_referanse_arkitekturer_tverrgående-tema/book-tverrgående-tema.adoc[]
+////
 Foreløpg liste over temaer:
 
 Merk: Dette er i arbeid. Beskrives som kapabiliteter.
@@ -79,4 +80,4 @@ Merk: Dette er i arbeid. Beskrives som kapabiliteter.
 
 * Protokoller og formater
 
-
+////

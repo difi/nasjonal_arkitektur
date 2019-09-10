@@ -14,7 +14,7 @@ Iflg. https://en.wikipedia.org/wiki/Data: Data and information or knowledge are 
 
 Iflg. https://no.wikipedia.org/wiki/Data: Data er det materielle (eller fysiske) grunnlaget for å tilføre mennesker informasjon. Data er dermed det materielle grunnlaget for å overføre informasjon og kunnskap mellom mennesker ved kommunikasjon. Data kan registreres, lagres, behandles og flyttes av menneskeskapte innretninger som kalles datasystemer.
 
-NOTE: Archimate-standarden skiller mellom konseptuelle data (Business Object), logiske data (Data Object)  og fysiske data  (Artifact). Et slikt skille kan være nyttig.
+NOTE: Vi benytter Archimate-standarden for grafiske modeller. Archimate skiller, i likhet med en rekke andre standarder og rammeverk, mellom konseptuelle data (Business Object), logiske data (Data Object)  og fysiske data  (Artifact). Et slikt skille kan være nyttig.   
 
 I tilknytning til nasjonale referansearkitekturer for datautveksling benyttes begrepet _data_ heller enn _informasjon_, så langt det gir mening. Det skilles likevel mellom data og informasjon i visse sammenhenger. Det gir f.eks. mening å si _informasjonssikkerhet_, mens en snakker om _sikring av data_ for å oppnå _informasjonssikkerhet_.
 
