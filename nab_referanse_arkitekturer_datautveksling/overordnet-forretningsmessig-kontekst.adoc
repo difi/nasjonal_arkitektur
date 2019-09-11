@@ -1,10 +1,25 @@
 :lang: no
-:doctitle: Overordet forretningsmessig kontekst
+:doctitle: Forretningsmessig kontekst for datautvekslng
 :keywords: 
 
 include::../plattform_felles/includes/commonincludes.adoc[]
 
-Helt overdnet kan en si at fungerende datautveksling er en forutsetning for sømløse sluttbrukertjenester for personer og virksomheter, gjennom støtte for tverrgående prosesser og dataanalyse.
+Godt fungerende datautveksling er en forutsetning for å nå målene i Regjeringens Digitaliseringsstrategi om sammenhengende tjenester og dataanalyse. Figuren under illusterer dette. Det overordnede målet er sammenhengende tjenester for personer og virksomheter. Datautveksling handler om å forsyne forretningsprosesser 
+
+gi og innhente data på tvers av konsumenterog tilbydere
+
+
+Datautveksling handler om å gi og innhente data på tvers av konsumenterog tilbydere
+
+
+til forretningsprosesser og å forsyne dataanalyse med nødvendig datagrunnlag 
+
+ 
+
+
+eksternt inngår i gjennomføringen av forrtenings  
+
+handler om å forutsetning for sømløse sluttbrukertjenester for personer og virksomheter, gjennom støtte for tverrgående prosesser og dataanalyse.
 
 .Overordet forretningsmessig kontekst
 image::../nab_referanse_arkitekturer_datautveksling/media/Overordet forretningsmessig kontekst.png[alt=Overordet forretningsmessig kontekst image]

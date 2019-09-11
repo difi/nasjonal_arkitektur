@@ -55,12 +55,13 @@ image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _Denne oversik
 .Figur: Katalog over referansearkitekturer innen aktuelle områder i Nasjonal arkitektur
 image:../nab_referanse_arkitekturer/media/katalog-referansearkitekturer.png[]
 
-= Referansearkitekturer for Datautveksling
+= Spesifikke referansearkitekturer
+
+== Generisk referansearkitektur for Datautveksling
+:leveloffset: +1
 include::../nab_referanse_arkitekturer_datautveksling/book-ra-datautveksling.adoc[]
 
-
-
-= Spesifikke referansearkitekturer 
+:leveloffset: -1
 
 include::../nab_referanse_arkitekturer/spesifikke-referansearkitekturer.adoc[]
 
