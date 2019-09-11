@@ -37,8 +37,7 @@ Data kan finnes med større eller mindre grad av struktur, og det er en flytende
 
 Data kan samles i _datasett_. Dette kan f.eks. være dokumenter i et arkiv eller tabeller i en database.
 
-Det er den fysiske forekomsten av data i ulike systemer som vi må sikre og ha oversikt over, enten det dreier seg om data som er lagret over tid eller data som finnes midlertidig mellom systemer i en datautveksling. Begrepet _datadistrubusjon_ tilsvarer begrepet _distribution_ i DCAT-standarden.  
-
+Det er den fysiske forekomsten av data i ulike systemer som vi må sikre og ha oversikt over, enten det dreier seg om data som er lagret over tid eller data som finnes midlertidig mellom systemer i en datautveksling. Begrepet _datadistrubusjon_ tilsvarer begrepet https://www.w3.org/TR/vocab-dcat/#Class:_Distribution[_distribution_] i DCAT-standarden.  
 
 
 === Avgrensing
