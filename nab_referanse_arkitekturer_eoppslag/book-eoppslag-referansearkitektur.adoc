@@ -462,7 +462,7 @@ image:../nab_referanse_arkitekturer_eoppslag/media/avgi data.png[alt="Bilde mang
 
 | Tilbyder
 | business-role
-| 
+| Den som tilbyr data.
 
 | Svar på forespørsel
 | business-object
@@ -475,39 +475,20 @@ image:../nab_referanse_arkitekturer_eoppslag/media/avgi data.png[alt="Bilde mang
 | Avgi forespurte data gjennom API
 | business-process
 | Prosessen med å avgi data på forespørsel gjennom et egnet API.
+
+| Motta  forespørsel om oppslag
+| business-process
+| Motta forespørsler fra API-konsument om å avgi data.
+
+| Kontroller tilgang
+| business-process
+| Kontroll og håndheving av konsumentens rettigheter til å få forespurte data.  I tillegg til "validering av sikkerhetsbillet", kan det være behov for kontroll mot virksomhetsinterne policies.
+
+| Avgi data
+| business-process
+| Prosessen med å gi svar på forespørselen.
 |===
-[cols ="1,1,3", options="header"]
-.Elementer i figur for å avgi forespurte data
-|===
-|Element
-|Elementtype
-|Beskrivelse
 
-|Tilbyder av data
-|Rolle
-|Se over
-
-|Motta forespørsel om oppslag
-|Forretningsprosess
-|Motta forespørsler fra API-konsument om å avgi data.
-
-|Kontroller tilgang
-|Forretningsprosess
-|Kontroll og håndheving av konsumentens rettigheter til å få forespurte data.  I tillegg til "validering av sikkerhetsbillet", kan det være behov for kontroll mot virksomhetsinterne policies.
-
-|Avgi data
-|Forretningsprosess
-|Prosessen med å gi svar på forespørselen.
-
-|Validering av sikkerhetsbillett
-|Forretningstjeneste
-|Tjeneste for å validere gyldigheten av sikkerhetsbilletten. Med en gyldig sikkerhetsbillett skal det ikke være nødvendig å validere grunnlaget eller innholdet i sikkerhetsbilletten. 
-
-|Svar på forespørsel
-|Forretningsobjekt
-|Informasjonen som avgis til konsument som svar på en forespørsel.
-
-|===
 
 == Løsningsmønstre (logiske beskrivelser med arkitekturbyggeklosser og aktuelle løsningsbyggeklosser)
 
