@@ -188,52 +188,6 @@ image:../nab_referanse_arkitekturer_eoppslag/media/registrere API.png[alt="Bilde
 | Prosessen med å tilby data gjennom et API til aktører utenfor egen virksomhet.
 |===
 
-[cols ="1,1,3", options="header"]
-.Elementer i figur for registrering av API
-|===
-|Element
-|Elementtype
-|Beskrivelse
-
-|Tilbyder av data
-|Rolle
-|Se over
-
-|Registrere API
-|Prosess
-|Prosess for tilbyder å registrere API i relevante kataloger og søkeløsninger så det blir lettere tilgjengelig for konsumenter. Forutsetter at tilbyder har inngått avtale eller godtatt bruksvilkår for bruk av de løsningene som benyttes.
-
-|Inngå avtale om tilgang til data med konsument
-|Prosess
-|Prosess for å inngå avtale om tilgang og bruk av data.
-
-|Registrere tilganger til API
-|Prosess
-|Prosess for å registrere tilganger til de virksomheter som har et gyldig behandlingsgrunnlag og som har inngått avtale om tilgang til data.
-
-|API-registrering
-|Forretningstjeneste
-|Tjeneste for å registerer de API-ene man ønsker å tilby til konsumenter og egenskaper ved disse.
-
-|Egenskaper ved sikkerhetsbillett for tilgang til API
-|Forretningsobjekt
-|Egenskaper  ved sikkerhetsbillett, f.eks. granulariteten på tilganger.
-
-|Bruksavtale mellom konsument og tilbyder av data
-|Kontrakt
-|Avtale om tilgang til og bruk av data. Dette kan for eksempel være en bilateralt utformet avtale, aksept av generelle bruksvilkår, eller lisens for bruk av åpne data.
-
-|Tilgangsregistrering
-|Forretningstjeneste
-|Tjeneste for å registrere de virksomhetene som skal få tilgang til API-er og hvilket tilgangsnivå de skal ha.
-
-|Tilgangsspesifikasjoner konsument
-|Forretningsobjekt
-|Beskrivelse av de tilganger en konsument skal ha til et spesifikt API.
-
-|===
-
-
 ==== Få tilgang til API
 _Få tilgang til API_ er det en konsument av data må gjøre for å få tilgang til data gjennom et API. Det omfatter å få kjennskap til aktuelt API, inngå avtale om bruk av data, samt å registrere den tekniske komponenten som skal utføre tjenestekallet. Dersom det dreier seg om tilgang til et _åpent tilgjengelig_ API, kan enkelte delaktiviteter i prosessene hoppes over.
 
@@ -270,47 +224,6 @@ image:../nab_referanse_arkitekturer_eoppslag/media/få tilgang til API.png[alt="
 | Prosessen med å skaffe seg tilgang til tilbudte data fra annen aktør. Omfatte å finne API-er, inngå nødvendige avtaler og få tilganger.
 |===
 
-[cols ="1,1,3", options="header"]
-.Elementer i figur for å få tilgang til API
-|===
-|Element
-|Elementtype
-|Beskrivelse
-
-|Konsument (databruker)
-|Rolle
-|Se over
-
-|Finne/få kjennskap til API
-|Forretningsprosess
-|Prosessen med å finne eller få kjennskap til tilgjengelige API-er gjennom relevante kataloger og søkeløsninger.
-
-|Inngå avtale om tilgang til data  med tilbyder
-|Forretningsprosess
-|Konsumenten sin prosess med å inngå eventuell avtale med tilbyder om tilgang til data.
-
-
-|Registrer klient med tildelt tilgang
-|Forretningsprosess
-|Prosess for konsument å registerere (provisjonering av) den klienten som skal ha tilgang til API-et ved bruk av sikkerhetsbillett. Dette forutsetter at konsumenten har avtale om bruk av sikkerhetsbillettjenesten og at tilbyder har gitt konsumenten tilgang. 
-
-Dersom det er en leverandør som har blitt delegert rettigheter som databehandler på vegne av konsument er det leverandøren som registrer sin klient. 
-
-|API-søk
-|Forretningstjeneste
-|Tjeneste for å søke etter og finne tilgjengelige API-er. 
-
-|Bruksavtale mellom konsument og tilbyder av data
-|Kontrakt
-|Se over
-
-|Registreringstjeneste for API-brukere
-|Forretningstjeneste
-|Tjeneste for å registere brukere av tokentjeneste
-
-|===
-
-
 ==== Delegering av rettigheter til databehandler
 Delegering av rettigheter til databehandler er det en konsument må gjøre for at en leverandør kan identifisere seg med sitt eget virksomhetssertifikat og opptre på vegne av konsumenten som er den som innehar behandlingsgrunnlaget for å innhente data.
 
@@ -340,35 +253,6 @@ image:../nab_referanse_arkitekturer_eoppslag/media/delegering av rettigheter.png
 | Delegering av rettigheter til databehandler (leverandør)
 | business-process
 | Prosessen med å delegere rettigheter til databehandler/leverandør.
-|===
-
-[cols ="1,1,3", options="header"]
-.Elementer i figur for delegering av rettigheter til databehandler
-|===
-|Element
-|Elementtype
-|Beskrivelse
-
-|Konsument (databruker)
-|Rolle
-|Se over
-
-|Inngå avtale med leverandør
-|Prosess
-|Prosessen med å inngå en avtale med leverandør. En slik avtale vil normalt være inngått tidligere og uavhengig av om man skal ta i bruk et nytt API.  En tjenesteavtale med leverandør er en forutsetning forutsetning for å kunne delegere en tilgang.
-
-|Registrere delegert tilgang
-|Prosess
-|Prosessen med å delegere tilganger. I tilknytning til eOppslag vil formålet være å gi leverandør tilgang til å representere konsument overfor et API, men registreringen vil potensielt også kunne gjelde for andre områder.
-
-|Tjenesteavtale mellom konsument og leverandør
-|Kontrakt
-|Avtale mellom leverandør og konsument som er grunnlaget for å kunne delegere rettigheter fra konsument til en leverandør
-
-|Registreringstjeneste for representasjonsforhold
-|Forretningstjeneste
-|Tjeneste for å registerer representasjonsforhold. I dette tilfellet delegering av rettigheter til å benytte et API på vegne av konsument.
-
 |===
 
 === Operativ deling av data på forespørsel
@@ -407,43 +291,6 @@ image:../nab_referanse_arkitekturer_eoppslag/media/slå opp data.png[alt="Bilde 
 | business-process
 | Prosessen med lå opp og hente data gjennom et API.
 |===
-[cols ="1,1,3", options="header"]
-.Elementer i figur for å slå opp data
-|===
-|Element
-|Elementtype
-|Beskrivelse
-
-|Konsument (databruker)
-|Rolle
-|Se over
-
-|Hent teknisk adresse
-|Forretningsprosess
-|Prosessen å slå opp den tekniske adressen til et API før spørring mot API-et. Gjøres kun dersom det er nødvendig.
-
-|Hent sikkerhetsbillett
-|Forretningsprosess
-|Prosessen med å benytte en sikkerhetsbillettjeneste for hente en sikkerhetsbillett som gir tilgang til et API. Dette forutsetter at alt er registert og satt opp riktig mot de aktuelle tjenestene.
-
-|Utfør tjenestekall
-|Forretningsprosess
-|Prosessen med å benytte (gjøre et oppslag mot) et eksternt API.
-
-|Adressetjeneste
-|Forretningstjeneste
-|Tjeneste som gir mulighet til å slå opp teknisk endepunkt.
-
-|Utstedelse av sikkerhetsbillett
-|Forretningstjeneste
-|Tjeneste som utsteder sikkerhetsbilletter. Sikkerhetsbillett utstedes basert på tildelte rettigheter og eventuelle representasjonsforhold.
-
-|Forespørsel om data
-|Forretningsobjekt
-|Forespørsel om data med parametetere i forespørselen, sikkerhetsbillett mv.
-
-|===
-
 
 ==== Avgi forespurte data
 Avgi forespurte data er det tilbyder av data må gjøre for å svare på en forespørsel. Prosessen kontrollere tilgang gjøres kun dersom det er enakk om å avgi data gjennom et sikret API.
