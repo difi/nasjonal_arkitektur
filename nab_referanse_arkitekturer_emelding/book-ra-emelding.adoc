@@ -138,208 +138,53 @@ Sertifikater må forvaltes og fornyes etter gjeldende regler for å være gyldig
 image:../nab_referanse_arkitekturer_emelding/media/Sende melding.png[alt="Bilde mangler", width=750]
 
 
-
 [cols ="1,1,3", options="header"]
 .Elementer i view for Sende melding
 |===
 
 | Avsender 
 | business-role
-| den som sender et brev, en pakke, en e-post, en elektronisk melding, en SMS eller lignende
+| Den som sender et brev, en pakke, en e-post, en elektronisk melding, en SMS eller lignende.
 
 | Mottakeradresse
 | business-object
-| 
+| Teknsik adresse for hvor meldinger skal sendes. Dette kan være adressen til inet
 
 | Forretningsmelding
 | business-object
-| 
+| Meldingsinnholdet eller informasjonen som skal sendes til ekstern part. 
 
 | Forsendelse
 | business-object
-| 
+| Den pakken som sendes til mottaker. Inkluderer forretningsmelding, metadata, adresse etc.
 
 | Avsendersertifikat
 | business-object
-| 
+| Offentlig nøkkel for bruk til kryptering og validering.
 
 | Mottakersertifikat
 | business-object
-| 
+| Offentlig nøkkel for bruk til kryptering og validering.
 
 | Sende eMelding
 | business-process
 | Prosessen med å sende en eMelding til en mottaker ved hjelp av fellestjenester.
 
-| Data Exchange Service
-| application-service
-| DESCRIPTION:
-Shares the functionality that enables the secure exchange of messages, records, forms and other kinds of data between different ICT systems. This includes data routing, except endpoint discovery. 
-
-Based on EIFv2
-http://ec.europa.eu/isa/documents/isa_annex_ii_eif_en.pdf   
-
-INTEROPERABILITY SALIENCY:
-The Data Exchange Service ABB  is salient for technical interoperability because it provides secure and trustworthy data exchange between different ICT systems as stated in the EIF: "Define a common security and privacy framework and establish processes for public services to ensure secure and trustworthy data exchange between public administrations and in interactions with citizens and businesses."
-
-EXAMPLES:
-The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB):
-XMLGate
-XMLGate is a Web service application used to validate an XML instance against a well-defined schema. The XML flow is submitted either via a PDF form or by uploading the XML file.
-https://webgate.ec.europa.eu/sanco-xmlgate/Login.jsp;jsessionid=2MPn_N5Wg9Dar4_W2-yVL_Xg-VlW3kn47PLVbNise9X5Kycx1yLI!-25226473 
-
-
 | Kapabilitetsoppslag
 | application-service
-| 
+| Tjeneste for å slå opp kapabilitetene til en samhandlingspart
 
 | Adresseoppslag
 | application-service
-| 
+| Tjeneste for å slå opp adressen til en mottaker.
 
 | CEF SML
 | application-component
-| 
+| Service Metadata Locator
 
 | Sending av data
 | capability
 | Evnene til å sende data til en mottaker.
-
-| Data Transformation Service
-| application-service
-| DESCRIPTION:
-Shares the functionality of conversion of one data format to another. 
-
-Source: ISA2 – EIA Action
-
-INTEROPERABILITY SALIENCY:
-The Data Transformation Service ABB  is salient for technical interoperability  because it provides the functionalities to transform internal data structures to common and agreed interoperable formats as stated in the EIF recommendation n° 41: "Establish procedures and processes to integrate the opening of data in your common business processes, working routines, and in the development of new information systems."
-
-EXAMPLES:
-The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB):
-
-Eurostat transformation service
-The transformation service allows datasets to be converted from one file format to another, optionally performing additional tasks, such as mapping and transcoding. 
-The service is operational but is currently only available for internal consumption within Eurostat. However, the source code of both web service and software component is available in the SDMX webspace:
-http://ec.europa.eu/eurostat/web/sdmx-infospace/validation-transformation/transformation-services 
-
-
-| e-Seal Creation Service
-| application-service
-| DESCRIPTION:
-Shares the functionality of signing data in electronic forms on behalf of a legal person. 
-An ‘electronic seal' means data in electronic form, which is attached to or logically associated with other data in electronic form to ensure the latter’s origin and integrity. The ‘creator of a seal’ is a legal person who creates an electronic seal.
-
-Based on eIDAS - REGULATION (EU) No 910/2014 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 23 July 2014 on electronic identification and trust services for electronic transactions in the internal market and repealing Directive 1999/93/EC.
-http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.L_.2014.257.01.0073.01.ENG
-
-INTEROPERABILITY SALIENCY:
-The e-Seal Creation Service ABB  is salient for technical interoperability because it provides 
-the functionalities required for e-seal creation service.
-   
-EXAMPLES:
-The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB):
-
-CEF eSignature DSS
-DSS (Digital Signature Services) is an open-source software library for electronic signature creation and validation. DSS supports the creation and verification of interoperable and secure electronic signatures in line with European legislation. In particular, DSS aims to follow the eIDAS Regulation and related standards closely.
-DSS can be re-used in an IT solution for electronic signatures to ensure that signatures are created and verified in line with European legislation and standards. DSS allows re-use in a variety of different ways: in an applet, in a stand-alone application or in a server application. DSS can also be used as a reference implementation for IT solutions which do not directly re-use it.
-CEF eSignature's DSS open-source library delivers the following benefits to its users:
-•	Open-source software under LGPL 2.1, a non-viral open source license;
-•	Interoperability of the e-signatures;
-•	Supports both e-signatures and e-seals;
-•	Validation of countersignatures and multiple signatures;
-•	Alignment with the eIDAS Regulation and related standards;
-•	Supports EU standards on:
-o	Signature formats and packaging methods;
-o	Signature validation procedures;
-•	Validation relying on Member States' trusted lists:
-o	Status of trust service providers/trust service, compensation of information, path validation.
-https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eSignaturefile:///C:/Users/bocquilp/Downloads/DSS(ServiceOfferingDescription)%20(v0.03)%20(5).pdf 
-
-
-| e-Timestamp Creation Service
-| application-service
-| DESCRIPTION:
-Shares the functionality of the verification of timestamps used for establishing evidence that a give piece of data existed at a given point in time.
-An ‘electronic time stamp’ means data in electronic form which binds other data in electronic form to a particular time establishing evidence that the latter data existed at that time.
-
-Based on eIDAS - REGULATION (EU) No 910/2014 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 23 July 2014 on electronic identification and trust services for electronic transactions in the internal market and repealing Directive 1999/93/EC.
-http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.L_.2014.257.01.0073.01.ENG 
-
-Syn. eTS Creation Service
-
-INTEROPERABILITY SALIENCY:
-The e-Timestamp Creation Service ABB  is salient for technical interoperability because it provides 
-the functionalities required for e-Timestamp creation service.
-
-EXAMPLES:
-The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB):
-DigiStamp eTimeStamp®
-DigiStamp eTimeStamp® protects the intellectual property in any computer file:
-•	Use Desktop and Web applications for on-demand protection
-•	Plug the Timestamp Authority into the automated systems
-Plug-in rigorous implementation of US & EU standards:
-•	Secure, reliable, RFC 3161 timestamp cloud service
-•	Archiving and Hash Chaining keyless security
-•	Elliptic Curve Upgrade
-Implementation of the Internet Engineering Task Force's RFC 3161 means DigiStamp timestamps are understood by data validation systems the world over:
-•	Implementation of ANSI X9.95 further increases the compatibility of our timestamps.
-•	Compliance with IETF RFC 3628 gives credence to the trustworthiness of our Time Stamp Authorities.
-•	Conformance to IETF RFC 3126 makes our timestamps usable for long-term, legally binding agreements.
-https://www.digistamp.com/ 
-
-freeTSA.org offers free NTP and DNSCRYPT services
-freeTSA.org provides a free Time Stamp Authority. Adding a trusted timestamp to code or to an electronic signature provides a digital seal of data integrity and a trusted date and time of when the transaction took place.
-Trusted timestamping is the process of securely keeping track of the creation and modification times of a document. Security here means that no one - not even the owner of the document - should be able to change it once it has been recorded provided that the timestamper's integrity is never compromised. FreeTSA trusted timestamping Software as a Service (SaaS) provides an easy method to apply RFC 3161 trusted timestamps to time-sensitive transactions through independently verified and auditable date and UTC (Coordinated Universal Time) sources.
-https://www.freetsa.org/index_en.php 
-
-
-| Audit Service
-| application-service
-| DESCRIPTION:
-Shares the audit functionality of providing support for the principle of accountability, which is holding users of a system accountable for their actions within the system, and detection of policy violations. The audit policy defines the elements of an information system which need to be traced, for example to assure traceability of actions: what, how, when, where and with what.
-
-Based on The Open Group
-http://www.opengroup.org/security/das/xdas_int.htm  
-
-INTEROPERABILITY SALIENCY:
-The Audit Service ABB  is salient for technical interoperability because it defines the elements of an information system which need to be traced, for example to assure traceability of user actions as stated in the EIF: "Public administrations should ensure that a 'data access and authorisation plan’ which determines who has access to what data and under what conditions, to ensure privacy. Unauthorised access and security breaches should be monitored and appropriate actions should be taken to prevent any recurrence of breaches" 
-
-EXAMPLES:
-The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB):
-
-OpenIAM audit service
-OpenIAM Auditing Service ensures that detailed information about events and activities associated with identities or resources are logged into a centralized repository and be tracked. It offers the following features:
-
-•	Sign-on, Sign-off
-•	User: create, update, delete or disable accounts
-•	Role: create, update, delete or disable accounts
-•	Resource: create, update, delete or disable accounts
-•	Password changes, resets, challenge response questions changes
-•	Synchronization events
-•	Reconciliation events
-
-Several reporting templates are provided for a BIRT report writer for use in an Eclipse designer. Organizations can also generate their own reports in BIRT with SQL.
-https://www.openiam.com/products/identity-manager/features/audit-compliance/ 
-
-
-| Metadata Management Service
-| application-service
-| DESCRIPTION:
-Shares the functionalities for the i) creation, ii) storage, iii) categorisation and iv) retrieval of metadata.
-
-Based on DAMA
-http://www.dama.org/ 
-
-INTEROPERABILITY SALIENCY:
-The Metadata management Service ABB  is salient for interoperability  because it provides and shares the functionalities to manage metadata. EIF recommends to prioritise it: "Put in place an information management strategy at the highest possible level to avoid fragmentation and duplication. Management of metadata, master data and reference data should be prioritised".
-
-EXAMPLES:
-The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB):
-Eurostat SDMX repository
-The Euro SDMX Registry is Eurostat’s implementation of an SDMX registry to facilitate the exchange of statistical data and metadata by serving as a metadata repository. It stores the SDMX artefacts needed for the parties to access and interpret the content of the exchanged statistical data and metadata sets.
-http://ec.europa.eu/eurostat/web/sdmx-infospace/sdmx-it-tools/sdmx-registry 
-
 
 | Difi BCP?
 | application-component
@@ -347,11 +192,63 @@ http://ec.europa.eu/eurostat/web/sdmx-infospace/sdmx-it-tools/sdmx-registry
 
 | Sertifikatoppslag
 | application-service
-| 
+| Tjeneste for å hente krypteringssertifkat til mottaker.
 
 | ELMA
 | application-component
-| 
+| Elektronisk mottakeradresseregister
+
+| Datakonvertering
+| application-service
+| Tjeneste for å konverte (transformere) data og meldinger til andre formater.
+
+| Metadatahåndtering
+| application-service
+| Tjenester knyttet til å skape og håndtere metadata.
+
+| Datautvekslings-tjeneste
+| application-service
+| Tjeneste for utveksling av data. Samme som data exchange service. Benyttes av avsender og mottaker for transport av meldinger.
+
+| Tidsstempling
+| application-service
+| Tjeneste for å tidsstemple elektroniske meldinger
+
+| Signeringstjeneste
+| application-service
+| Tjeneste for å signere en elektronisk melding. For eMelding er det signatur i form av elektronisk segl som er mest relevant.
+
+| Sporingstjeneste
+| application-service
+| Tjeneste for sporing (audit) av meldinger.
+
+| Sette sammen informasjonspakke
+| business-process
+| Prosess for å sette sammen informasjonspakken som skal sendes til mottaker.
+
+| Kontrollere mottakers kapabiliteter
+| business-process
+| Prosess for å slå opp og kontrollere mottakers evner til samhandling innenfor fellesskapet.
+
+| Tilpasse til meldingsformat
+| business-process
+| Prosess for å tilpasse informasjonspakken til mottakers kapabiliteter og fellesskapets standarder.
+
+| Sikre forsendelse
+| business-process
+| Prosess med å sikre forsendelsen. Inkluderer konfidensialitets- og integritetssikring der dette er nødvendig. Normalt gjøres dette ved hjelp av kryptografi og sertifikater.
+
+| Adressere forsendelse
+| business-process
+| Prosess med å adressere forsendelsen. Dette kan være til mottaker direkte eller til dennes representant eller aksesspunkt,
+
+| Sende melding
+| business-process
+| Prosessen med å sende melding til mottaker.
+
+| Klargjøre forsendelse
+| business-process
+| Prosessen med å klargjøre forsendelsen som er det som sendes til mottaker.
 |===
 
 ==== Motta melding
