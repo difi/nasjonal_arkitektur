@@ -56,17 +56,58 @@ image:../nab_referanse_arkitekturer_eoppslag/media/Deling på forespørsel.png[a
 
 Tilbyder må kunne tilgjengeliggjøre data og dette er delt i to kapabiliteter:
 
-* _Tilgjengeliggjøre API_ omhandler hvordan man registerer API og setter opp tilganger. 
-* _Avgi forespurte data_ omhandler den operative delingen av data.
+* _Tilgjengeliggjøre data_ omhandler hvordan man registerer API og setter opp tilganger. 
+* _Avgi data_ omhandler den operative delingen av data fra tilbyder.
 
 
-Tilsvarende er det tre detaljerte kapabiliteter tilknyttet konsument og det å innhente data: 
+Tilsvarende er det to detaljerte kapabiliteter tilknyttet konsument og det å innhente data: 
 
-* _Få tilgang til API_ består av prosesser for oppsett av tilgang.
-* _Delegering av rettigheter til databehandler_ må gjøres dersom konsument benytter seg av en databehandler.
-* _Slå opp data gjennom API_ er det konsumenten må gjøre hver gang det gjøres et oppslag.
+* _Få tilgang til data_ består av prosesser for oppsett av tilgang.
+* _Innhente data_ er det konsumenten må gjøre hver gang det gjøres et oppslag.
+
+I tillegg kan begge parter ha kapabiliteten:
+
+* _Delegering av rettigheter til databehandler_ må gjøres dersom en av partene benytter seg av en databehandler.
 
 
+[cols ="1,1,3", options="header"]
+.Elementer i view for Deling av data på forespørsel
+
+|===
+
+| Deling av data på forespørsel - eOppslag
+| grouping
+| 
+
+| Konsument
+| business-role
+| Den som konsumerer data.
+
+| Tilbyder
+| business-role
+| En aktør som tilbyr data til eksterne parter, enten på vegne av andre, som forvalter av data eller som dataansvarlig.
+
+| Innhente data
+| capability
+| Evnen til å innhente data fra en annen aktør.
+
+| Avgi data
+| capability
+| Evne til å avgi data på forespørsel. Kan omfatte tilgangsstyring.
+
+| Få tilgang til data (konsument)
+| capability
+| Evnen til å skaffe seg tilgang til tilbudte data fra annen aktør. 
+
+| Tilgjengeliggjøre data
+| capability
+| Evnen til å gjøre data tilgjengelig for aktører utenfor egen virksomhet.
+
+| Delegering av rettigheter til databehandler
+| capability
+| Evnen til å delegere rettigheter til databehandler som utfører oppgaver på vegne av behandlingsansvarlig.
+|===
+////
 [cols ="1,1,3", options="header"]
 .Elementer i figur for deling av data på forespørsel
 |===
@@ -111,7 +152,7 @@ Tilsvarende er det tre detaljerte kapabiliteter tilknyttet konsument og det å i
 |Evnen til å slå opp og hente data gjennom et API.
 
 |===
-
+////
 
 // erik: Vurder å ta inn deler av teksten fra 4.1.2 (om sannstids oppslag... eks. løsning. "Se også akjshdkjsahd omkapabilitetesområdet ,..som eOppslag adressrer ...
 
