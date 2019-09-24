@@ -74,6 +74,9 @@ I tillegg kan begge parter ha kapabiliteten:
 .Elementer i view for Deling av data på forespørsel
 
 |===
+|Element
+|Elementtype
+|Beskrivelse
 
 | Deling av data på forespørsel - eOppslag
 | grouping
@@ -195,6 +198,9 @@ image:../nab_referanse_arkitekturer_eoppslag/media/registrere API.png[alt="Bilde
 [cols ="1,1,3", options="header"]
 .Elementer i view for Tilgjengeliggjøre data
 |===
+|Element
+|Elementtype
+|Beskrivelse
 
 | Bruksavtale
 | contract
@@ -239,6 +245,9 @@ image:../nab_referanse_arkitekturer_eoppslag/media/få tilgang til API.png[alt="
 [cols ="1,1,3", options="header"]
 .Elementer i view for Få tilgang til data
 |===
+|Element
+|Elementtype
+|Beskrivelse
 
 | Få tilgang til data
 | capability
@@ -274,6 +283,9 @@ image:../nab_referanse_arkitekturer_eoppslag/media/delegering av rettigheter.png
 [cols ="1,1,3", options="header"]
 .Elementer i view for Delegere rettigheter til databehandler
 |===
+|Element
+|Elementtype
+|Beskrivelse
 
 | Delegering av rettigheter til databehandler
 | capability
@@ -307,6 +319,9 @@ image:../nab_referanse_arkitekturer_eoppslag/media/slå opp data.png[alt="Bilde 
 [cols ="1,1,3", options="header"]
 .Elementer i view for Innhente data
 |===
+|Element
+|Elementtype
+|Beskrivelse
 
 | Innhente data
 | capability
@@ -343,6 +358,9 @@ image:../nab_referanse_arkitekturer_eoppslag/media/avgi data.png[alt="Bilde mang
 [cols ="1,1,3", options="header"]
 .Elementer i view for Avgi data
 |===
+|Element
+|Elementtype
+|Beskrivelse
 
 | Avgi data
 | capability
@@ -412,6 +430,9 @@ image:../nab_referanse_arkitekturer_eoppslag/media/registerer_api_app_lag.png[al
 [cols ="1,1,3", options="header"]
 .Elementer i view for Tilgjengeliggjøre data løsningsmønster
 |===
+|Element
+|Elementtype
+|Beskrivelse
 
 | Registrere Open API specification¨
 | application-service
@@ -488,6 +509,9 @@ image:../nab_referanse_arkitekturer_eoppslag/media/få_tilgang_app_lag.png[alt="
 [cols ="1,1,3", options="header"]
 .Elementer i view for Få tilgang til data - løsningsmønster
 |===
+|Element
+|Elementtype
+|Beskrivelse
 
 | Maskinporten
 | application-component
@@ -546,6 +570,9 @@ image:../nab_referanse_arkitekturer_eoppslag/media/delegere_rettigheter_app_lag.
 [cols ="1,1,3", options="header"]
 .Elementer i view for Delegere rettigheter til databehandler - løsningsmønster
 |===
+|Element
+|Elementtype
+|Beskrivelse
 
 | Tjenesteavtale
 | contract
@@ -592,6 +619,9 @@ image:../nab_referanse_arkitekturer_eoppslag/media/slå_opp_app_lag.png[alt="Bil
 [cols ="1,1,3", options="header"]
 .Elementer i view for Innhente data - løsningsmønster
 |===
+|Element
+|Elementtype
+|Beskrivelse
 
 | Virksomhetssertifikat
 | data-object
@@ -665,6 +695,9 @@ image:../nab_referanse_arkitekturer_eoppslag/media/avgi_data_app_lag.png[alt="Bi
 [cols ="1,1,3", options="header"]
 .Elementer i view for Avgi data - løsningsmønster
 |===
+|Element
+|Elementtype
+|Beskrivelse
 
 | Maskinporten
 | application-component

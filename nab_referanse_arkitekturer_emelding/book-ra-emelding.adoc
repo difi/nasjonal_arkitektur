@@ -9,10 +9,10 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 == Introduksjon
 include::../nab_referanse_arkitekturer_emelding/ra-emelding-intro.adoc[]
 
-
+////
 === Krav til eMelding
 include::../nab_referanse_arkitekturer_emelding/krav_eMelding.adoc[]
-
+////
 
 == Kapabilitetskart - relevante kapabiliteter
 
@@ -23,6 +23,9 @@ image:../nab_referanse_arkitekturer_emelding/media/Deling av data ved forsendels
 [cols ="1,1,3", options="header"]
 .Elementer i view for Kapabiliteter eMelding
 |===
+|Element
+|Elementtype
+|Beskrivelse
 
 | Deling av data ved forsendelse - eMelding
 | grouping
@@ -51,6 +54,9 @@ image:../nab_referanse_arkitekturer_emelding/media/Klargjore_eMelding.png[alt="B
 [cols ="1,1,3", options="header"]
 .Elementer i view for Klargjøre for forsendelse
 |===
+|Element
+|Elementtype
+|Beskrivelse
 
 | Klargjøre for deling av data ved forsendelse
 | capability
@@ -141,6 +147,9 @@ image:../nab_referanse_arkitekturer_emelding/media/Sende melding.png[alt="Bilde 
 [cols ="1,1,3", options="header"]
 .Elementer i view for Sende melding
 |===
+|Element
+|Elementtype
+|Beskrivelse
 
 | Avsender 
 | business-role
@@ -258,6 +267,9 @@ image:../nab_referanse_arkitekturer_emelding/media/Motta melding.png[alt="Bilde 
 [cols ="1,1,3", options="header"]
 .Elementer i view for Motta melding
 |===
+|Element
+|Elementtype
+|Beskrivelse
 
 | Motta melding
 | capability
