@@ -9,3 +9,42 @@ eNotifikasjon er en referansearkitektur for asynkron publisering av informasjon.
 
 == Introduksjon
 include::../nab_referanse_arkitekturer_enotifikasjon/ra-enotifikasjon-intro.adoc[]
+
+////
+== Om eNotifikasjon
+eNotifikasjon er en delmengde av hendelsesdrevet deling av data. Mønsteret forutsetter de samme kapabilitetene som eOppslag for oppsett og utveksling av data. Hendelseslister gjøres tilgjengelig som APIer på samme måte som andre oppslag og benytter tilsvarende mekanismer for tilgangsstyring. Det som derimot kommer i tillegg er kapabilitetene for å generere og tilby notifikasjon fra tilbyder og å innhente og håndtere notifikasjoner for konsument. 
+
+image:../nab_referanse_arkitekturer_enotifikasjon/media/eNotifikasjon kapabiliteter kort.png[alt="Bilde mangler", width=750]
+
+
+
+image:../nab_referanse_arkitekturer_enotifikasjon/media/Kapabiliteter eNotifikasjon.png[alt="Bilde mangler", width=500]
+
+
+
+== Krav og  prinsipper for eNotifikasjon
+Hendelsesbasert deling av data 
+
+* Hendelser er uforanderlige (immutable)
+* En hendelse representeres ved en notifisering
+* Hendelseslister må pagineres og kunne traverseres 
+* Det benyttes et pull-mønster for utveksling av hendelser
+* Skille mellom events og commands ved produksjon av hendelser
+
+
+== Vokabular/begreper
+* Hendelsestype
+* Topics
+* Segmentere
+* Avgrensning i "populasjon"? Kan det løses med å forkaste og ikke lagre noen spor.
+* Hendelseslisten i DSF inneholder så lite, men nok til at de som er interessert kan forkaste og hente inn.
+
+
+Begreper:
+
+* Hendelser = Den faktiske hendelsen  som faktisk er en hendelse.
+* Datastrøm = komplettheten rundt en hendelse.
+* Notifikasjon = det som utveksles/legges på kø om en hendelse
+* Tynne og tykke hendelser
+
+////
