@@ -48,7 +48,7 @@ image:../nab_referanse_arkitekturer_emelding/media/Deling av data ved forsendels
 ==== Klargjøre for eMelding
 Modellen under detaljerer hvordan en samhandlingsaktør, som i dette tilfellet normalt vil være en avsender eller mottaker, blir klar for å sende data som en melding. Dette gjøres ved å melde inn i et fellesskap og registrere nødvendige data i registre som er tilgjengelig for de andre samhandlingsaktørene i fellesskapet. Det vil kunne være forskjeller på hva som er nødvendig å gjøre avhengig av om samhandlingsaktøren er en sender eller mottaker, men i mange tilfeller vil man innha begge roller i fellesskapet.
 
-image:../nab_referanse_arkitekturer_emelding/media/Klargjore_eMelding.png[alt="Bilde mangler", width=750]
+image:../nab_referanse_arkitekturer_emelding/media/ABB_klargjøre.png[alt="Bilde mangler", width=750]
 
 
 [cols ="1,1,3", options="header"]
@@ -141,7 +141,7 @@ Sertifikater må forvaltes og fornyes etter gjeldende regler for å være gyldig
 === Operativ deling av data ved forsendelse
 
 ==== Sende melding
-image:../nab_referanse_arkitekturer_emelding/media/Sende melding.png[alt="Bilde mangler", width=750]
+image:../nab_referanse_arkitekturer_emelding/media/ABB_sende.png[alt="Bilde mangler", width=750]
 
 
 [cols ="1,1,3", options="header"]
@@ -261,7 +261,7 @@ image:../nab_referanse_arkitekturer_emelding/media/Sende melding.png[alt="Bilde 
 |===
 
 ==== Motta melding
-image:../nab_referanse_arkitekturer_emelding/media/Motta melding.png[alt="Bilde mangler", width=600]
+image:../nab_referanse_arkitekturer_emelding/media/ABB_motta.png[alt="Bilde mangler", width=600]
 
 
 [cols ="1,1,3", options="header"]
@@ -312,6 +312,29 @@ image:../nab_referanse_arkitekturer_emelding/media/Motta melding.png[alt="Bilde 
 | Tjenester knyttet til å skape og håndtere metadata.
 |===
 
+== Løsningsmønstre
+
+=== Klargjøre for deling av data ved forsendelse
+
+==== Klargjøre for eMelding
+image:../nab_referanse_arkitekturer_emelding/media/SBB_klargjøre.png[alt="Bilde mangler", width=600]
+
+=== Operativ deling av data ved forsendelse
+
+==== Sende melding
+image:../nab_referanse_arkitekturer_emelding/media/SBB_sende.png[alt="Bilde mangler", width=750]
+
+==== Motta melding
+image:../nab_referanse_arkitekturer_emelding/media/SBB_motta.png[alt="Bilde mangler", width=600]
+
+////
+==== Firehjørnersmodellen
+Meldingsutveksling slik det er spesifisert i PEPPOL infrastrukturen benytter en firehjørnersmodell. Medldinger utveksles mellom aksesspunkter
+
+Arkitekturen for eMelding er bygget opp som en 4-hjørners modell, med avsenders IT-system (C1), avsenders forsendelseskomponent (aksesspunkt - C2), mottakers mottakelseskomponent (aksesspunkt - C3) og mottakers IT-system (C4).
+
+image:../nab_referanse_arkitekturer_emelding/media/figur_aksesspunkt.png[alt="Bilde mangler", width=600]
+////
 
 == Videre informasjon om eMelding
 
