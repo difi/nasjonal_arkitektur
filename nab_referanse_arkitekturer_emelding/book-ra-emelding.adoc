@@ -327,14 +327,14 @@ image:../nab_referanse_arkitekturer_emelding/media/SBB_sende.png[alt="Bilde mang
 ==== Motta melding
 image:../nab_referanse_arkitekturer_emelding/media/SBB_motta.png[alt="Bilde mangler", width=600]
 
-////
+
 ==== Firehjørnersmodellen
 Meldingsutveksling slik det er spesifisert i PEPPOL infrastrukturen benytter en firehjørnersmodell. Medldinger utveksles mellom aksesspunkter
 
 Arkitekturen for eMelding er bygget opp som en 4-hjørners modell, med avsenders IT-system (C1), avsenders forsendelseskomponent (aksesspunkt - C2), mottakers mottakelseskomponent (aksesspunkt - C3) og mottakers IT-system (C4).
 
 image:../nab_referanse_arkitekturer_emelding/media/figur_aksesspunkt.png[alt="Bilde mangler", width=600]
-////
+
 
 == Videre informasjon om eMelding
 
