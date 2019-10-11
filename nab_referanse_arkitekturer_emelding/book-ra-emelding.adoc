@@ -53,7 +53,11 @@ image:../nab_referanse_arkitekturer_emelding/media/ABB_klargjøre.png[alt="Bilde
 
 [cols ="1,1,3", options="header"]
 .Elementer i view for Klargjøre for forsendelse
+
+[cols ="1,1,3", options="header"]
+.Elementer i view for Klargjøre for forsendelse
 |===
+
 |Element
 |Elementtype
 |Beskrivelse
@@ -63,7 +67,7 @@ image:../nab_referanse_arkitekturer_emelding/media/ABB_klargjøre.png[alt="Bilde
 | Evne til å klargjøre for meldingsutveksling med eksterne parter.
 
 | Samhandlingsaktør
-| business-role
+| business-actor
 | Den som inngår i en samhandlingsprosess og samhandler med en annen samhandlingsaktør. Kan være en tilbyder, konsument, avsender, mottaker, leverandør etc.
 
 | Klargjøre for eMelding
@@ -74,7 +78,7 @@ image:../nab_referanse_arkitekturer_emelding/media/ABB_klargjøre.png[alt="Bilde
 | business-object
 | Spesifikasjoner for hvordan man samhandler i et fellesskap. Dette kan være meldingsformater, krav til tekniske komponenter etc.
 
-| Samhandlingsavtale
+| Samhandlingsavtale for fellesskap
 | contract
 | Avtale som regulerer forhold tilknyttet samhandlingen i et fellesskap for eMelding.
 
@@ -84,21 +88,208 @@ image:../nab_referanse_arkitekturer_emelding/media/ABB_klargjøre.png[alt="Bilde
 
 | Avsendersertifikat
 | business-object
-| Offentlig nøkkel for bruk til kryptering og validering.
+| Offentlig nøkkel benyttes for kryptering og validering av signatur.
+
+Privat nøkkel benyttes til dekryptering og signering av meldinger.
 
 | Mottakersertifikat
 | business-object
-| Offentlig nøkkel for bruk til kryptering og validering.
+| Offentlig nøkkel benyttes for kryptering og validering av signatur.
+
+Privat nøkkel benyttes til dekryptering og signering av meldinger.
 
 | Kapabilitetsbeskrivelse
 | business-object
 | Strukturert beskrivelse av evner og kapabiliteter relevante for samhandling i fellesskapet
 
+| Sertifikatregisterering
+| application-service
+| Tjeneste for å registrere serifikater i felles katalogtjeneste.
+
+| Adresseregistrering
+| application-service
+| Tjeneste for å registrere adresse for å sende melding til mottaker.
+
+| Kapabilitetsregistrering
+| application-service
+| Tjeneste for å registrere kapabiliteter
+|===
+
+=== Operativ deling av data ved forsendelse
+
+==== Sende melding
+image:../nab_referanse_arkitekturer_emelding/media/ABB_sende.png[alt="Bilde mangler", width=750]
+
+
+[cols ="1,1,3", options="header"]
+.Elementer i view for Sende melding
+|===
+
+|Element
+|Elementtype
+|Beskrivelse
+
+| Avsender 
+| business-role
+| Den som sender et brev, en pakke, en e-post, en elektronisk melding, en SMS eller lignende.
+
+| Mottakeradresse
+| business-object
+| Teknsik adresse for hvor meldinger skal sendes. Dette kan være adressen til inet
+
+| Forsendelse
+| business-object
+| Den pakken som sendes til mottaker. Inkluderer forretningsmelding, metadata, adresse etc.
+
+| Avsendersertifikat
+| business-object
+| Offentlig nøkkel benyttes for kryptering og validering av signatur.
+
+Privat nøkkel benyttes til dekryptering og signering av meldinger.
+
+| Mottakersertifikat
+| business-object
+| Offentlig nøkkel benyttes for kryptering og validering av signatur.
+
+Privat nøkkel benyttes til dekryptering og signering av meldinger.
+
+| Sende eMelding
+| business-process
+| Prosessen med å sende en eMelding til en mottaker ved hjelp av fellestjenester.
+
+| Kapabilitetsoppslag
+| application-service
+| Tjeneste for å slå opp kapabilitetene til en samhandlingspart
+
+| Adresseoppslag
+| application-service
+| Tjeneste for å slå opp adressen til en mottaker.
+
+| Sending av data
+| capability
+| Evnene til å sende data til en mottaker.
+
+| Sertifikatoppslag
+| application-service
+| Tjeneste for å hente krypteringssertifkat til mottaker.
+
+| Datautvekslings-tjeneste
+| application-service
+| Tjeneste for utveksling av data. Samme som data exchange service. Benyttes av avsender og mottaker for transport av meldinger.
+
+| Signeringstjeneste
+| application-service
+| Tjeneste for å signere en elektronisk melding. For eMelding er det signatur i form av elektronisk segl som er mest relevant.
+
+| Sporingstjeneste
+| application-service
+| Tjeneste for sporing (audit) av meldinger.
+
+| Forretningsmelding SBB
+| business-object
+| Meldingsinnholdet eller informasjonen som skal sendes til ekstern part. 
+
+| Datatransformasjon
+| application-service
+| Tjeneste for  transformere data og meldinger til andre formater.
+|===
+
+
+
+
+==== Motta melding
+image:../nab_referanse_arkitekturer_emelding/media/ABB_motta.png[alt="Bilde mangler", width=600]
+
+
+[cols ="1,1,3", options="header"]
+.Elementer i view for Motta melding
+|===
+
+|Element
+|Elementtype
+|Beskrivelse
+
+| Motta melding
+| capability
+| Evnen til å motta, validere og kvittere for mottatte meldinger.
+
+| Mottaker
+| business-role
+| Den som mottar en melding.
+
+| Forsendelse
+| business-object
+| Den pakken som sendes til mottaker. Inkluderer forretningsmelding, metadata, adresse etc.
+
+| Motta eMelding
+| business-process
+| Prosessen med å motta melding. Består av flere sub-prosesser.
+
+Etter mottak må mottaker følge opp og håndtere innholdet i meldingen.
+
+| Datautvekslings-tjeneste
+| application-service
+| Tjeneste for utveksling av data. Samme som data exchange service. Benyttes av avsender og mottaker for transport av meldinger.
+
+| Sporingstjeneste
+| application-service
+| Tjeneste for sporing (audit) av meldinger.
+
+| Signaturvaliderings-tjeneste
+| application-service
+| Tjeneste for å validere og verifisere elektronsike signaturer. I forbindelse med eMelding er det kontroll av elektronisk segl som er mest relevant.
+
+| Datavaliderings-tjeneste
+| application-service
+| Tjeneste for å validere meldinger mot format og forventet innhold.
+
+| Mottakersertifikat
+| business-object
+| Offentlig nøkkel benyttes for kryptering og validering av signatur.
+
+Privat nøkkel benyttes til dekryptering og signering av meldinger.
+
+| Avsendersertifikat
+| business-object
+| Offentlig nøkkel benyttes for kryptering og validering av signatur.
+
+Privat nøkkel benyttes til dekryptering og signering av meldinger.
+|===
+
+
+== Løsningsmønstre
+
+=== Klargjøre for deling av data ved forsendelse
+
+==== Klargjøre for eMelding
+image:../nab_referanse_arkitekturer_emelding/media/SBB_klargjøre.png[alt="Bilde mangler", width=600]
+
+
+[cols ="1,1,3", options="header"]
+.Elementer i view for Klargjøre for forsendelse
+|===
+
+|Element
+|Elementtype
+|Beskrivelse
+
+| Klargjøre for deling av data ved forsendelse
+| capability
+| Evne til å klargjøre for meldingsutveksling med eksterne parter.
+
+| Samhandlingsaktør
+| business-actor
+| Den som inngår i en samhandlingsprosess og samhandler med en annen samhandlingsaktør. Kan være en tilbyder, konsument, avsender, mottaker, leverandør etc.
+
+| Klargjøre for eMelding
+| business-process
+| Prosessen med å klargjøre for eMelding ved å akseptere felles avtaler og tilgjengeliggjøre nødvendig informasjon til andre samhandlingsaktører.
+
 | CEF SML
 | application-component
 | Service Metadata Locator
 
-| Difi BCP?
+| BCP
 | application-component
 | Business Certificate Publisher
 
@@ -118,35 +309,23 @@ image:../nab_referanse_arkitekturer_emelding/media/ABB_klargjøre.png[alt="Bilde
 | application-component
 | Elektronisk mottakeradresseregister
 
-| Innmelding i fellesskap
-| business-process
-| Akseptere vilkår for og innrette seg etter reglene og forpliktelsene som gjelder i et fellesskap (community) gjennom å f.eks. signere en avtale eller kontrakt. Dette kan omfatte merkantile forhold.
+| BCL
+| application-component
+| Business Certificate Locater
 
-| Registrere kapabiliteter
-| business-process
-| Registering av kapabiliteter vil si å tilgjengeligjøre for avsendere og konsumenter hvilke meldinger og formater man kan motta og hvilke ressurser og tjenester man tilbyr.
-
-| Registrere adresser
-| business-process
-| Med adresse menes nødvendig informasjon for å få tilgang til tjenester fra tilbyder eller for å sende melding til mottaker av meldinger. 
-
-| Registrere sertifikater
-| business-process
-| Tilgjengeliggjøre for samhandlende parter sertifikater for bruk ved forsendelser. Dette kan være generelle eller domenespesifikke sertifikater. Eventuelt spesifikt for enkelet forretningsområder. 
-
-Sertifikater må forvaltes og fornyes etter gjeldende regler for å være gyldige og egnet for bruk. 
 |===
 
 
 === Operativ deling av data ved forsendelse
 
 ==== Sende melding
-image:../nab_referanse_arkitekturer_emelding/media/ABB_sende.png[alt="Bilde mangler", width=750]
+image:../nab_referanse_arkitekturer_emelding/media/SBB_sende.png[alt="Bilde mangler", width=750]
 
 
 [cols ="1,1,3", options="header"]
 .Elementer i view for Sende melding
 |===
+
 |Element
 |Elementtype
 |Beskrivelse
@@ -154,26 +333,6 @@ image:../nab_referanse_arkitekturer_emelding/media/ABB_sende.png[alt="Bilde mang
 | Avsender 
 | business-role
 | Den som sender et brev, en pakke, en e-post, en elektronisk melding, en SMS eller lignende.
-
-| Mottakeradresse
-| business-object
-| Teknsik adresse for hvor meldinger skal sendes. Dette kan være adressen til inet
-
-| Forretningsmelding
-| business-object
-| Meldingsinnholdet eller informasjonen som skal sendes til ekstern part. 
-
-| Forsendelse
-| business-object
-| Den pakken som sendes til mottaker. Inkluderer forretningsmelding, metadata, adresse etc.
-
-| Avsendersertifikat
-| business-object
-| Offentlig nøkkel for bruk til kryptering og validering.
-
-| Mottakersertifikat
-| business-object
-| Offentlig nøkkel for bruk til kryptering og validering.
 
 | Sende eMelding
 | business-process
@@ -187,41 +346,17 @@ image:../nab_referanse_arkitekturer_emelding/media/ABB_sende.png[alt="Bilde mang
 | application-service
 | Tjeneste for å slå opp adressen til en mottaker.
 
-| CEF SML
-| application-component
-| Service Metadata Locator
-
 | Sending av data
 | capability
 | Evnene til å sende data til en mottaker.
-
-| Difi BCP?
-| application-component
-| Business Certificate Publisher
 
 | Sertifikatoppslag
 | application-service
 | Tjeneste for å hente krypteringssertifkat til mottaker.
 
-| ELMA
-| application-component
-| Elektronisk mottakeradresseregister
-
-| Datakonvertering
-| application-service
-| Tjeneste for å konverte (transformere) data og meldinger til andre formater.
-
-| Metadatahåndtering
-| application-service
-| Tjenester knyttet til å skape og håndtere metadata.
-
 | Datautvekslings-tjeneste
 | application-service
 | Tjeneste for utveksling av data. Samme som data exchange service. Benyttes av avsender og mottaker for transport av meldinger.
-
-| Tidsstempling
-| application-service
-| Tjeneste for å tidsstemple elektroniske meldinger
 
 | Signeringstjeneste
 | application-service
@@ -231,42 +366,38 @@ image:../nab_referanse_arkitekturer_emelding/media/ABB_sende.png[alt="Bilde mang
 | application-service
 | Tjeneste for sporing (audit) av meldinger.
 
-| Sette sammen informasjonspakke
-| business-process
-| Prosess for å sette sammen informasjonspakken som skal sendes til mottaker.
+| Datatransformasjon
+| application-service
+| Tjeneste for  transformere data og meldinger til andre formater.
 
-| Kontrollere mottakers kapabiliteter
-| business-process
-| Prosess for å slå opp og kontrollere mottakers evner til samhandling innenfor fellesskapet.
+| CEF SML
+| application-component
+| Service Metadata Locator
 
-| Tilpasse til meldingsformat
-| business-process
-| Prosess for å tilpasse informasjonspakken til mottakers kapabiliteter og fellesskapets standarder.
+| BCP
+| application-component
+| Business Certificate Publisher
 
-| Sikre forsendelse
-| business-process
-| Prosess med å sikre forsendelsen. Inkluderer konfidensialitets- og integritetssikring der dette er nødvendig. Normalt gjøres dette ved hjelp av kryptografi og sertifikater.
+| ELMA
+| application-component
+| Elektronisk mottakeradresseregister
 
-| Adressere forsendelse
-| business-process
-| Prosess med å adressere forsendelsen. Dette kan være til mottaker direkte eller til dennes representant eller aksesspunkt,
+| BCL
+| application-component
+| Business Certificate Locater
 
-| Sende melding
-| business-process
-| Prosessen med å sende melding til mottaker.
 
-| Klargjøre forsendelse
-| business-process
-| Prosessen med å klargjøre forsendelsen som er det som sendes til mottaker.
+| PEPPOL
+| application-service
+| 
 |===
-
 ==== Motta melding
-image:../nab_referanse_arkitekturer_emelding/media/ABB_motta.png[alt="Bilde mangler", width=600]
-
+image:../nab_referanse_arkitekturer_emelding/media/SBB_motta.png[alt="Bilde mangler", width=600]
 
 [cols ="1,1,3", options="header"]
 .Elementer i view for Motta melding
 |===
+
 |Element
 |Elementtype
 |Beskrivelse
@@ -279,13 +410,11 @@ image:../nab_referanse_arkitekturer_emelding/media/ABB_motta.png[alt="Bilde mang
 | business-role
 | Den som mottar en melding.
 
-| Forsendelse
-| business-object
-| Den pakken som sendes til mottaker. Inkluderer forretningsmelding, metadata, adresse etc.
-
 | Motta eMelding
 | business-process
-| 
+| Prosessen med å motta melding. Består av flere sub-prosesser.
+
+Etter mottak må mottaker følge opp og håndtere innholdet i meldingen.
 
 | Datautvekslings-tjeneste
 | application-service
@@ -303,38 +432,57 @@ image:../nab_referanse_arkitekturer_emelding/media/ABB_motta.png[alt="Bilde mang
 | application-service
 | Tjeneste for å validere meldinger mot format og forventet innhold.
 
-| Datakonvertering
+| PEPPOL
 | application-service
-| Tjeneste for å konverte (transformere) data og meldinger til andre formater.
-
-| Metadatahåndtering
-| application-service
-| Tjenester knyttet til å skape og håndtere metadata.
+| 
 |===
-
-== Løsningsmønstre
-
-=== Klargjøre for deling av data ved forsendelse
-
-==== Klargjøre for eMelding
-image:../nab_referanse_arkitekturer_emelding/media/SBB_klargjøre.png[alt="Bilde mangler", width=600]
-
-=== Operativ deling av data ved forsendelse
-
-==== Sende melding
-image:../nab_referanse_arkitekturer_emelding/media/SBB_sende.png[alt="Bilde mangler", width=750]
-
-==== Motta melding
-image:../nab_referanse_arkitekturer_emelding/media/SBB_motta.png[alt="Bilde mangler", width=600]
-
-
 ==== Firehjørnersmodellen
-Meldingsutveksling slik det er spesifisert i PEPPOL infrastrukturen benytter en firehjørnersmodell. Medldinger utveksles mellom aksesspunkter
-
-Arkitekturen for eMelding er bygget opp som en 4-hjørners modell, med avsenders IT-system (C1), avsenders forsendelseskomponent (aksesspunkt - C2), mottakers mottakelseskomponent (aksesspunkt - C3) og mottakers IT-system (C4).
+eMelding slik det er spesifisert i PEPPOL-infrastrukturen benytter en 4-hjørnersmodell hvor meldinger utveksles mellom aksesspunkter.
 
 image:../nab_referanse_arkitekturer_emelding/media/figur_aksesspunkt.png[alt="Bilde mangler", width=600]
 
+4-hjørnersmodellen er basert på en distribuert modell som tillater kommunikasjon mellom samhandlingsaktører uten behov for bilaterale avtaler ved at man baserer seg på innmelding i et fellesskap.
+
+4-hjørnersmodellen med adresse- og kapabilitetsoppslag sikrer fleksibilitet og skalerbarhet hvor
+
+*Hjørne 1* representerer back-end systemet (som ligger innenfor avsenders juridiske ansvar) som sender melding til et annet back-end system (hjørne 4)
+
+*Hjørne 2* (aksesspunkt for avsender) Samhandler med hjørne 1 og slår opp mottakers adresse og kapabiliteter. Aksesspunktet har evnen til å sende på en sikker og pålitelig måte til et annet aksesspunkt.
+
+*Hjørne 3* (aksesspunkt for mottaker) Mottakers aksesspunkt har teknisk evne til å motta meldinger på en sikker og pålitelig måte og samhandle med hjørne 4.
+
+*Hjørne 4* representerer back-end systemet til mottaker
+
+I 4-hjørnersmodellen blir hvert aksesspunkt en node i et tillitsfelleskap.
+
+////
+Technical eDelivery architecture is based on a distributed model, allowing
+communication (one Back-end system to send eDocument(s) to another Back-end
+system) between participants without the need to set up bilateral agreements and
+technical channels. 
+
+For Flexibility and Scalability the Architecture is based on a 4 Corner model with
+Location- and Capability LookUp: 
+Figure 3: Four Corner Model with Location- and Capability LookUp
+
+*Corner 1* represents a Back-end system (within the legal responsibility of the sending
+organization), that needs to send eDocument(s) to another Back-end system  (Corner 4).
+This is done by interacting with
+
+*Corner 2* (Sending Access Point). The adress and the receiving capabilities (legal,
+organisational, semantic and technical) of the receiver is established through the
+Location LookUp and the Capability LookUp. With the technical capability to send the
+event notification and related eDocuments(s) in a reliable and secure  way to the correct
+receiving 
+
+*Corner 3* (Receiving Access Point). The Receiving Access Point has technical capability to
+receive the eDocuments(s) in a reliable and secure  way and interact with
+
+*Corner 4*, the receiving Back-end system (within the legal responsibility of the receiving
+organization) to deliver the eDocuments.
+In this 4-Corner Store-and-Forward model, every eDelivery Access Point becomes a node
+in a trusted interoperabilty community
+////
 
 == Videre informasjon om eMelding
 
