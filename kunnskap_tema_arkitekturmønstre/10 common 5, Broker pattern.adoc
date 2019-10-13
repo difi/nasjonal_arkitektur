@@ -1,0 +1,65 @@
+////
+Guide to the below header attributes:
+
+    lang: en; no
+    difi_orig_language: en; no
+    difi_translation_status: -; missing; incomplete; OK 
+    keywords_en: comma separated list of english keywords (no controlled vocabulary); TBD
+    keywords_no: comma separated list of Norwegian keywords (no controlled vocabulary); TBD
+    difi_doctype
+    difi_alt_language
+    
+Note: The _lang_ value maybe overridden by a command line parameter.
+////
+
+:lang: en
+:difi_orig_language: en
+:doctitle_en: Broker pattern
+:doctitle_no: Norsk dokumenttittel
+:difi_translation_status: incomplete
+:keywords_en: TBD
+:keywords_no: TBD
+:difi_doctype: Template Article
+:toclevels: 2
+
+// The above parameters are processed by scripts included by the following statement
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+
+// ENGLISH
+// ****************
+ifeval::["{lang}" == "en"]
+
+Source: https://towardsdatascience.com/10-common-software-architectural-patterns-in-a-nutshell-a0b47a1e9013
+
+This pattern is used to structure distributed systems with decoupled components. These components can interact with each other by remote service invocations. A broker component is responsible for the coordination of communication among components.
+
+Servers publish their capabilities (services and characteristics) to a broker. Clients request a service from the broker, and the broker then redirects the client to a suitable service from its registry.
+
+Usage
+
+    * Message broker software such as Apache ActiveMQ, Apache Kafka, RabbitMQ and JBoss Messaging.
+
+
+.Broker pattern
+image::../kunnskap_tema_arkitekturmønstre\media/10, Broker pattern.png[]
+
+
+endif::[]
+// ****************
+
+// NORWEGIAN
+// ****************
+ifeval::["{lang}" == "no"]
+
+Artikkeltekst ...
+
+.Eksempelfigur
+image:../nab_referanse_maler_asciidoc-book-basic/media/sample-image.png[]
+endif::[]
+
+// ****************
+endif::[]
+
+
+    

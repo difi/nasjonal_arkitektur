@@ -1,0 +1,62 @@
+////
+Guide to the below header attributes:
+
+    lang: en; no
+    difi_orig_language: en; no
+    difi_translation_status: -; missing; incomplete; OK 
+    keywords_en: comma separated list of english keywords (no controlled vocabulary); TBD
+    keywords_no: comma separated list of Norwegian keywords (no controlled vocabulary); TBD
+    difi_doctype
+    difi_alt_language
+    
+Note: The _lang_ value maybe overridden by a command line parameter.
+////
+
+:lang: en
+:difi_orig_language: en
+:doctitle_en: Bi-directional sync
+:doctitle_no: Norsk dokumenttittel
+:difi_translation_status: incomplete
+:keywords_en: TBD
+:keywords_no: TBD
+:difi_doctype: Template Article
+:toclevels: 2
+
+// The above parameters are processed by scripts included by the following statement
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+
+// ENGLISH
+// ****************
+ifeval::["{lang}" == "en"]
+
+Source: https://www.mulesoft.com/resources/esb/top-five-data-integration-patterns
+
+The bi-directional sync data integration pattern is the act of combining two datasets in two different systems so that they behave as one, while respecting their need to exist as different datasets. This type of integration need comes from having different tools or different systems for accomplishing different functions on the same dataset. For example, you may have a system for taking and managing orders and a different system for customer support. You may find that these two systems are best of breed and it is important to use them rather than a suite which supports both functions and has a shared database. Using bi-directional sync to share the dataset will enable you to use both systems while maintaining a consistent real-time view of the data in both systems.
+
+*Why is it valuable?*
+
+Bi-directional sync can be both an enabler and a savior depending on the circumstances that justify its need. If you have two or more independent and isolated representations of the same reality, you can use bi-directional sync to optimize your processes, have the data representations be much closer to reality in both systems and reduce the compound cost of having to manually address the inconsistencies, lack of data or the impact to your business from letting the inconsistencies exist. On the other hand, you can use bi-directional sync to take you from a suite of products that work well together but may not be the best at their own individual function, to a suite that you hand pick and integrate together using an enterprise integration platform like our Anypoint Platform.
+
+*When is it useful?*
+
+The need, or demand, for a bi-directional sync integration application is synonymous with wanting object representations of reality to be comprehensive and consistent. For example, if you want a single view of your customer, you can solve that manually by giving everyone access to all the systems that have a representation of the notion of a customer. But a more elegant and efficient solution to the same problem is to list out which fields need to be visible for that customer object in which systems and which systems are the owners. Most enterprise systems have a way to extend objects such that you can modify the customer object data structure to include those fields. Then you can create integration applications either as point to point applications (using a common integration platform) if it’s a simple solution, or a more advanced routing system like a pub/sub or queue routing model if there are multiple systems at play. For example, a salesperson should know the status of a delivery, but they don’t need to know at which warehouse the delivery is. Similarly, the delivery person needs to know the name of the customer that the delivery is for without needing to know how much the customer paid for it. Bi-directional synchronization allows both of those people to have a real-time view of the same customer within the perspective hey care about.
+
+endif::[]
+// ****************
+
+// NORWEGIAN
+// ****************
+ifeval::["{lang}" == "no"]
+
+Artikkeltekst ...
+
+.Eksempelfigur
+image:../nab_referanse_maler_asciidoc-book-basic/media/sample-image.png[]
+endif::[]
+
+// ****************
+endif::[]
+
+
+    
