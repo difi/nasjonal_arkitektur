@@ -455,6 +455,58 @@ image:../nab_referanse_arkitekturer_emelding/media/figur_aksesspunkt.png[alt="Bi
 
 I 4-hjørnersmodellen blir hvert aksesspunkt en node i et tillitsfelleskap.
 
+==== Backend-integrasjon
+
+This ABB relates to the eDelivery 4-corner model and adresses the
+Communication/Integration of Corner1-Corner2/Corner3-Corner4.
+
+The 4-corner model creates a very flexible architecture, where the enterprises can make
+their own decisiones on how to integrate the external Business Process Choreography
+component into their own IT-architecture orientation.
+From the backend perspective there is 4 ways of integration of Corner1-
+Corner2/Corner3-Corner4
+
+===== Tightly Coupling
+Back-end system and Access Point is tighly
+coupled i.e. The Back-end system has integrated
+the Access Point into the Back-end system. One
+Access Point handles the eDelivery of one Backend
+System.
+
+===== Semi-Tightly Coupling
+Back-end system and Access Point is semi-tighly
+coupled i.e. The Back-end system and the Access
+Point is internally loosely coupled, but part of the
+same internal IT-Architecture and IT-Infrastructure
+or the Access Point is an Internal Cloud solution.
+One Access Point can handle the eDelivery of
+several Back-end Systems.
+
+===== Loose Coupling Coupling
+The Back-end system and the Access Point is
+loosely coupled and not part of the same internal IT-Architecture and IT-Infrastructure. One Access
+Point can handle the eDelivery of many Back-end
+Systems from many Enterprises. This model
+accomodate the use of Service-/Cloud providers,
+where the interaction between the Back-end
+system and the Cloud is determined by the
+Architecture and Infrastructure of the
+Service/Cloud provider.
+
+===== Loose Coupling (Citizen)
+The Citizen can send and receive eDocuments
+through the use of Service-/Cloud providers,
+where the interaction between the Citizen and the
+Service-/Cloud provider is determined by the
+setup of the architecture and infrastructure of the
+Service/Cloud provider.
+
+In the case of Loose Coupling, there's special issues related to Corner1/Corner4
+when dealing with Non-repudiation, since this is End-to-End. Corner1 must pack
+and encrypt the original message and only Corner4 can reply with an encrypted
+message. Corner 2 and Corner 3 is not allowed to repack, delete or add to the
+message, only act as a routing mechanism.
+
 ////
 Technical eDelivery architecture is based on a distributed model, allowing
 communication (one Back-end system to send eDocument(s) to another Back-end
