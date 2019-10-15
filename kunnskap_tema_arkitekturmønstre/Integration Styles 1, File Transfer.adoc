@@ -1,0 +1,62 @@
+////
+Guide to the below header attributes:
+
+    lang: en; no
+    difi_orig_language: en; no
+    difi_translation_status: -; missing; incomplete; OK 
+    keywords_en: comma separated list of english keywords (no controlled vocabulary); TBD
+    keywords_no: comma separated list of Norwegian keywords (no controlled vocabulary); TBD
+    difi_doctype
+    difi_alt_language
+    
+Note: The _lang_ value maybe overridden by a command line parameter.
+////
+
+:lang: en
+:difi_orig_language: en
+:doctitle_en: File transfer
+:doctitle_no: Norsk dokumenttittel
+:difi_translation_status: incomplete
+:keywords_en: TBD
+:keywords_no: TBD
+:difi_doctype: Template Article
+:toclevels: 2
+
+// The above parameters are processed by scripts included by the following statement
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+
+// ENGLISH
+// ****************
+ifeval::["{lang}" == "en"]
+
+https://www.enterpriseintegrationpatterns.com/patterns/messaging/FileTransferIntegration.html
+
+An enterprise has multiple applications that are being built independently, with different languages and platforms.
+
+*How can I integrate multiple applications so that they work together and can exchange information?*
+
+image::../kunnskap_tema_arkitekturmønstre\media/FileTransferIntegration.gif[]
+
+*Have each application produce files containing information that other applications need to consume. Integrators take the responsibility of transforming files into different formats. Produce the files at regular intervals according to the nature of the business.*
+
+An important decision with files is what format to use. Very rarely will the output of one application be exactly what's needed for another, so you'll have to do a fair bit of processing of files along the way. Not just do all the applications that use a file have to read it, you also have to be able to use processing tools on it. As a result, standard file formats have grown up over time. Mainframe systems commonly use data feeds based on the file system formats of COBOL. Unix systems use text based files. The modern fashion is to use XML. An industry of readers, writers, and transformation tools has built up around each of these formats.
+
+endif::[]
+// ****************
+
+// NORWEGIAN
+// ****************
+ifeval::["{lang}" == "no"]
+
+Artikkeltekst ...
+
+.Eksempelfigur
+image:../nab_referanse_maler_asciidoc-book-basic/media/sample-image.png[]
+endif::[]
+
+// ****************
+endif::[]
+
+
+    

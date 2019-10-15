@@ -1,0 +1,62 @@
+////
+Guide to the below header attributes:
+
+    lang: en; no
+    difi_orig_language: en; no
+    difi_translation_status: -; missing; incomplete; OK 
+    keywords_en: comma separated list of english keywords (no controlled vocabulary); TBD
+    keywords_no: comma separated list of Norwegian keywords (no controlled vocabulary); TBD
+    difi_doctype
+    difi_alt_language
+    
+Note: The _lang_ value maybe overridden by a command line parameter.
+////
+
+:lang: en
+:difi_orig_language: en
+:doctitle_en: Correlation
+:doctitle_no: Norsk dokumenttittel
+:difi_translation_status: incomplete
+:keywords_en: TBD
+:keywords_no: TBD
+:difi_doctype: Template Article
+:toclevels: 2
+
+// The above parameters are processed by scripts included by the following statement
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+
+// ENGLISH
+// ****************
+ifeval::["{lang}" == "en"]
+
+Source: https://www.mulesoft.com/resources/esb/top-five-data-integration-patterns
+
+The correlation data integration pattern is a design that identifies the intersection of two data sets and does a bi-directional synchronization of that scoped dataset only if that item occurs in both systems naturally. This is similar to how the bi-directional pattern synchronizes the union of the scoped dataset, correlation synchronizes the intersection. In the case of the correlation pattern, those items that reside in both systems may have been manually created in each of those systems, like two sales representatives entering same contact in both CRM systems. Or they may have been brought in as part of a different integration. The correlation pattern will not care where those objects came from; it will agnostically synchronize them as long as they are found in both systems. 
+
+*Why is it valuable?*
+
+The correlation data integration pattern is useful in the case where you have two groups or systems that want to share data only if they both have a record representing the same item/person in reality. For example, a hospital group has two hospitals in the same city. You might like to share data between the two hospitals so if a patient uses either hospital, you will have a up to date record of what treatment they received at both locations. To accomplish an integration like this, you may decide to create two broadcast pattern integrations, one from Hospital A to Hospital B, and one from Hospital B to Hospital A. This will ensure that the data is synchronized; however you now have two integration applications to manage. To alleviate the need to manage two applications, you can just use the bi-directional synchronization pattern between Hospital A and B. But to increase efficiency, you might like the synchronization to not bring the records of patients of Hospital B if those patients have no association with Hospital A and to bring it in real time as soon as the patient’s record is created. The correlation pattern is valuable because it only bi-directionally synchronizes the objects on a “Need to know” basis rather than always moving the full scope of the dataset in both directions.
+
+*When is it useful?*
+
+The correlation data integration pattern is most useful when having the extra data is more costly than beneficial because it allows you to scope out the “unnecessary” data. For example, if you are a university, part of a larger university system, and you are looking to generate reports across your students. You probably don’t want a bunch of students in those reports that never attended your university. But you may want to include the units that those students completed at other universities in your university system. Here, the correlation pattern would save you a lot of effort either on the integration or the report generation side because it would allow you to synchronize only the information for the students that attended both universities.
+
+endif::[]
+// ****************
+
+// NORWEGIAN
+// ****************
+ifeval::["{lang}" == "no"]
+
+Artikkeltekst ...
+
+.Eksempelfigur
+image:../nab_referanse_maler_asciidoc-book-basic/media/sample-image.png[]
+endif::[]
+
+// ****************
+endif::[]
+
+
+    

@@ -1,0 +1,64 @@
+////
+Guide to the below header attributes:
+
+    lang: en; no
+    difi_orig_language: en; no
+    difi_translation_status: -; missing; incomplete; OK 
+    keywords_en: comma separated list of english keywords (no controlled vocabulary); TBD
+    keywords_no: comma separated list of Norwegian keywords (no controlled vocabulary); TBD
+    difi_doctype
+    difi_alt_language
+    
+Note: The _lang_ value maybe overridden by a command line parameter.
+////
+
+:lang: en
+:difi_orig_language: en
+:doctitle_en: Messaging patterns
+:doctitle_no: Norsk dokumenttittel
+:difi_translation_status: incomplete
+:keywords_en: TBD
+:keywords_no: TBD
+:difi_doctype: Template Article
+:toclevels: 2
+
+// The above parameters are processed by scripts included by the following statement
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+
+// ENGLISH
+// ****************
+ifeval::["{lang}" == "en"]
+
+Source: https://www.enterpriseintegrationpatterns.com/patterns/messaging/index.html
+
+This pattern is used for designing a component that interprets programs written in a dedicated language. It mainly specifies how to evaluate lines of programs, known as sentences or expressions written in a particular language. The basic idea is to have a class for each symbol of the language.
+
+Usage
+
+    * Database query languages such as SQL.
+    * Languages used to describe communication protocols.
+
+
+.Interpreter pattern
+image::../kunnskap_tema_arkitekturmønstre\media/10, Interpreter pattern.png[]
+
+
+endif::[]
+// ****************
+
+// NORWEGIAN
+// ****************
+ifeval::["{lang}" == "no"]
+
+Artikkeltekst ...
+
+.Eksempelfigur
+image:../nab_referanse_maler_asciidoc-book-basic/media/sample-image.png[]
+endif::[]
+
+// ****************
+endif::[]
+
+
+    
