@@ -15,15 +15,15 @@ Grunnleggende konsepter for arbeidet med Nasjonalt arkitekturbibliotek
 Virksomhetsarkitekturen kan inndeles i _områder_, eller _temaområder_, og videre i kapabiliteter. Dette kan gjøres i flere nivåer, til et hensiktsmessig detaljnivå. Dette er illustrert i følgende figur.
 
 .Figur: Områder og kapabiliteter  
-image:../nab_overordnet-metode/media/områder-og-kapabiliteter.png[]
+image:../nab_overordnet-metode/media/Nedbryting i områder og kapabiliteter (konsept).png[]
 
-NOTE: Slik områder tilsvarer det som http://pubs.opengroup.org/architecture/togaf9-doc/arch/[TOGAF 9.2] kaller _"subject areas"_ eller _segmenter_. Begrepet _segmentarkitektur_ springer ut fra dette, og handler om å angripe et område i virksomheten med arkitektur og planlegging. Begrepet _kapabilitetsarkitektur_ benyttes tilsvarende om realiseringen av kapabiliteter. 
+NOTE: Slike temaområder tilsvarer det som http://pubs.opengroup.org/architecture/togaf9-doc/arch/[TOGAF 9.2] kaller _"subject areas"_ eller _segmenter_. Begrepet _segmentarkitektur_ springer ut fra dette, og handler om å angripe et område i virksomheten med arkitektur og planlegging. Begrepet _kapabilitetsarkitektur_ benyttes tilsvarende om realiseringen av kapabiliteter. 
 
 Med _kapabilitet_ menes en _evne_ som er forbundet med en rolle eller en aktør. Slike aktører kan være organisasjoner, personer eller tekniske systemer.
 Realiseringen av en kapabilitet gjøres igjen typisk gjennom organisasjoner, mennesker, prosesser og teknologier, gjerne i kombinasjon. 
 
 
-Se også link:../kunnskap_tema_kapabilitetsmodellering/[videre bakgrunnsinformasjon om kapabiliteteter, kapabilitetsmodellering,m.v.] i _kunnskapsbiblioteket_.
+Se også link:../kunnskap_tema_kapabilitetsmodellering/[videre bakgrunnsinformasjon om kapabiliteteter, kapabilitetsmodellering,m.v.] i _kunnskapsverkstedet_.
 
 
 

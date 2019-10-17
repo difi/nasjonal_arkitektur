@@ -1,5 +1,5 @@
 :lang: no
-:doctitle: Referansearkitekturer, løsningsmønstre, arkitekturer og løsninger
+:doctitle: Referansearkitekturer, mønstre, arkitekturer og løsninger
 :keywords: Referansearkitekturer, løsningsmønstre, arkitekturer, løsninger
 //:preamble: 
 

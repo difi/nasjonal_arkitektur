@@ -40,7 +40,7 @@ This is a collection of architecture patterns...
 
 == Integration Styles
 === Remote Procedure Invocation
-Ref. https://dzone.com/articles/introduction-to-integration-patterns
+Source: https://dzone.com/articles/introduction-to-integration-patterns
 
 
 Remote procedure invocation (RPI) is a pioneer in the integration space and was the go-to manner to implement an API in the early days of computing.In this approach, a provider will allow an external process to make requests into a closed application. The external caller has the specifications to make the request and an expectation on what the response will be, but all the logic takes place using a black-box approach. In this case, RPI is the mechanism used to perform some action against the target system.
@@ -50,13 +50,15 @@ Consider an application which handles financial transactions. Prior to the popul
 The developer would write a program to gather the required information, then connect to the application using RPI. The results of the RPI/API requests were packaged in a response and that information was processed by the calling application.
 
 === Shared Database
-Ref. https://www.mulesoft.com/resources/esb/top-five-data-integration-patterns
+Source: https://dzone.com/articles/introduction-to-integration-patterns
 
 The shared database integration style leverages a database for the connectivity between two or more applications. As a result, each application would maintain a connection to a shared database containing the information that will be integrated.
 
 As an example, use of an INSERT statement to a staging table in the database could trigger a stored procedure which would perform business logic — ultimately updating attributes elsewhere in the database for other applications utilizing that same shared database integration.
 
 === Messaging
+
+Source: https://dzone.com/articles/introduction-to-integration-patterns
 
 The messaging integration style started to gain momentum with service-oriented architecture (SOA) implementations — leveraging an enterprise service bus (ESB) as the foundation for the message itself.
 

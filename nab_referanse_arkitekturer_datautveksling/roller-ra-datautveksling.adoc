@@ -1,0 +1,80 @@
+:lang: no
+:doctitle: Roller invovert i datautveksling
+:keywords: 
+:toclevels: 3
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+
+Se figuren under.
+
+
+== Samhandlingsaktører
+
+.Samhandlingsaktører
+image::../nab_referanse_arkitekturer_datautveksling/media/Samhandlingsaktører.png[alt=Samhandlingsaktører image]
+
+[cols ="1,3", options="header"]
+.Elementer i view for Samhandlingsaktører
+|===
+
+| Element
+| Beskrivelse
+
+| Mellomledd
+| 
+
+| Samhandlingsaktør
+| Den som inngår i en samhandlingsprosess og samhandler med en annen samhandlingsaktør. Kan være en tilbyder, konsument, avsender, mottaker, leverandør etc.
+
+| Tjenesteformidler
+| 
+
+| Avsender 
+| Den som sender et brev, en pakke, en e-post, en elektronisk melding, en SMS eller lignende.
+
+| Representant
+| 
+
+| Konsument
+| Den som konsumerer data.
+
+| Leverandør
+| 
+
+| Mottaker
+| Den som mottar en melding.
+
+| Tilbyder
+| En aktør som tilbyr data til eksterne parter, enten på vegne av andre, som forvalter av data eller som dataansvarlig.
+
+| Databehandler
+| Se https://www.datatilsynet.no/rettigheter-og-plikter/virksomhetenes-plikter/databehandleravtale/behandlingsansvarlig-og-databehandler/
+
+|===
+
+== Tiltrodde tredjeparter
+
+.Tiltrodde tredjeparter
+image::../nab_referanse_arkitekturer_datautveksling/media/Tiltrodde tredjeparter.png[alt=Tiltrodde tredjeparter image]
+
+[cols ="1,3", options="header"]
+.Elementer i view for Tiltrodde tredjeparter
+|===
+
+| Element
+| Beskrivelse
+
+| Identitetsleverandør
+| 
+
+| Avtaleforvalter
+| Felleskapsforvalter
+
+| Tiltrodd tredjepart
+| 
+
+| Sertifikatutsteder
+| 
+
+|===
+
