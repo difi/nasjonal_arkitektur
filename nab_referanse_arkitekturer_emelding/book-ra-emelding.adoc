@@ -19,7 +19,6 @@ include::../nab_referanse_arkitekturer_emelding/krav_eMelding.adoc[]
 image:../nab_referanse_arkitekturer_emelding/media/Deling av data ved forsendelse.png[alt="Bilde mangler", width=750]
 
 
-
 [cols ="1,1,3", options="header"]
 .Elementer i view for Kapabiliteter eMelding
 |===
