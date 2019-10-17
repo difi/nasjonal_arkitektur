@@ -5,16 +5,17 @@
 include::../plattform_felles/includes/commonincludes.adoc[]
 
 == Hva menes med datautveksling?
-I sammenheng med nasjonale referansearkitekturer for datautveksling omfatter begrepet datautveksling alle former for dataflyt mellom tilbydere og konsumenter, enten det er internt i en virksomhet, mellom virksomheter eller mellom virksomheter og personer.
+I sammenheng med nasjonale referansearkitekturer for datautveksling omfatter begrepet datautveksling alle former for dataflyt mellom tilbydere og konsumenter, enten det er internt i en virksomhet, mellom virksomheter eller mellom virksomheter og personer. Begrepet omfatter også  
 
-Referansearkitekturene dekker både den operative datautvekslingen og det som skal til rundt klargjøring og forvaltning.
+== Forretningsmessig kontekst
+Godt fungerende datautveksling inngår som et viktig element i for å nå målene i regjeringens digitaliseringsstrategi. Et overordnet mål er sammenhengende tjenester for personer og virksomheter. Datautveksling handler om å forsyne forretningsprosesser og dataanalyse med nødvendig datagrunnlag. Figuren under illustrerer dette.  
 
+.Datautveksling i kontekst
+image::../nab_referanse_arkitekturer_datautveksling/media/Forretningsmessig kontekst for datautveksling.png[alt=Datautveksling i kontekst image]
 
+== Hva er _data_ for datautveksling?
 
-== Hva menes med data i relasjon til datautveksling?
-
-Se figuren under.
-
+Se figuren nedenfor.
 
 // .Hva er data - overordnet konsept
 // image::../nab_referanse_arkitekturer_datautveksling/media/Hva er data - overordnet konsept.png[alt=Hva er data - overordnet konsept image]
@@ -42,21 +43,15 @@ NOTE: Data kan finnes med større eller mindre grad av struktur, og det er en fl
 
 NOTE: Det finnes ulik praksis for bruk av begrepet _dokument_. 
 
-== Forretningsmessig kontekst
-Godt fungerende datautveksling er en forutsetning for å nå målene i regjeringens digitaliseringsstrategi. Et overordnet mål er sammenhengende tjenester for personer og virksomheter. Datautveksling handler om å forsyne forretningsprosesser og dataanalyse med nødvendig datagrunnlag. Figuren under illustrerer dette.  
+== Omfang og avgrensing
 
-.Datautveksling i kontekst
-image::../nab_referanse_arkitekturer_datautveksling/media/Forretningsmessig kontekst for datautveksling.png[alt=Datautveksling i kontekst image]
+Referansearkitekturene beskriver realisering av kapabiliteter, både for den operative datautvekslingen og for det som skal til rundt klargjøring og forvaltning på tvers av tilbydere, konsumenter og mellomledd. 
 
-
-== Avgrensing
-Referansearkitekturer og mønstre for datautveksling dekker i hovedsak det som er relevant for selve utvekslingen av data og dokumenter. Dette gjelder både den operative datautvekslingen og det som skal til rundt klargjøring og forvaltning.
- 
-Bruken av data i forretningsprosesser og dataanalyse dekkes i utangspunktet ikke, med mindre det er relevant for måten datautvekslingen gjøres på. I forbindelse med datavirtualisering, er det f.eks. mulig å gjøre dataanalyse der dataene ligger, og så innhente analyseresultater i stedet for rådata.
-
-Det finnes en rekke tilstøtende temaer. Noen av disse temaene er store og dekkes ikke generelt som del av denne referansearkitekturen, slik som f.eks. datakvalitet og   informasjonssikkerhet. 
-
-En introduksjon til aktuelle temaer er gitt under #kap. x#. Nærmere informasjon om utvalgte temaer er også gitt i #kap. y#.
+Det finnes en rekke tilstøtende og tverrgående temaer. Utvalgte slike temaer adresseres i kontekst, men noen av temaene er for store til å dekkes fullt ut her. 
 
 
+Følgende figur gir en oversikt over kapabiliteter og temaer som adresseres i referansearkitektur for datautveksling. Videre nedbryting og forklaring gis i #...#
+
+.Overordnede kapabilitetskart for datautveksling
+image::../nab_referanse_arkitekturer_datautveksling\media\Overordnede kapabilitetskart for datautveksling, med mellomledd.png[alt="Overordnede kapabilitetskart for datautveksling, med mellomledd"]
 
