@@ -23,7 +23,12 @@ image::../nab_arkitekturlandskap_segmentarkitektur_datadeling\media\kapabilitets
 Området _datautveksling_ er brutt ned i delområder som vist i følgende figur.
 
 .Områder innen Datautveksling
-image::../nab_arkitekturlandskap_segmentarkitektur_datadeling\media\områder-datautveksling.png[alt="Bilde mangler"]
+
+//image::../nab_arkitekturlandskap_segmentarkitektur_datadeling\media\områder-datautveksling.png[alt="Bilde mangler"]
+
+image::../nab_arkitekturlandskap_segmentarkitektur_datadeling\media\Kapabilitetsområder, datautveksling.png[alt="BKapabilitetsområder, datautveksling"]
+
+
 
 ////
 En videre oversikt over (overordnede) kapabiliteter innen dette området er vist nedenfor. Her er det også vist hvilke roller som kapabilitetene assosieres med, og sammenhengen mellom kapabilitetene er angitt som informasjonsflyt.

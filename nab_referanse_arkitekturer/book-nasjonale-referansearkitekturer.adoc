@@ -5,6 +5,7 @@
 :toclevels: 3
 
 
+
 include::../plattform_felles/includes/commonincludes.adoc[]
 
 [.lead]
@@ -55,15 +56,13 @@ image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _Denne oversik
 .Figur: Katalog over referansearkitekturer innen aktuelle områder i Nasjonal arkitektur
 image:../nab_referanse_arkitekturer/media/katalog-referansearkitekturer.png[]
 
-= Spesifikke referansearkitekturer
 
-== Generisk referansearkitektur for Datautveksling
-:leveloffset: +1
+= Referansearkitekturer for Datautveksling
 include::../nab_referanse_arkitekturer_datautveksling/book-ra-datautveksling.adoc[]
 
-:leveloffset: -1
+//:leveloffset: -1
 
-include::../nab_referanse_arkitekturer/spesifikke-referansearkitekturer.adoc[]
+//include::../nab_referanse_arkitekturer/spesifikke-referansearkitekturer.adoc[]
 
 //== Informasjonssikkerhet (felles)
 
