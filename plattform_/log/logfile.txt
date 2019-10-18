@@ -160,3 +160,11 @@
 27.06.2019 09:47:42: SøkTekstIAlleFiler(begrep-referansearkitektur.adoc)
 27.06.2019 09:47:42: Linje: include::./begrep-referansearkitektur.adoc[]
 27.06.2019 09:47:42: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_begreper\book-arkitekturbegreper.adoc
+18.10.2019 13:11:19: SøkTekstIAlleFiler(kapabilitetskart-datadeling.adoc)
+18.10.2019 13:11:20: Linje: include::./kapabilitetskart-datadeling.adoc[]
+18.10.2019 13:11:20: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_arkitekturlandskap_segmentarkitektur_datadeling\book-datadeling.adoc
+18.10.2019 16:04:14: SøkTekstIAlleFiler(dmbok2-data-integration-and-interoperability.png)
+18.10.2019 16:04:15: Linje: image::../nab_arkitekturlandskap_strategisk-arkitektur\media\dmbok2-data-integration-and-interoperability.png[]
+18.10.2019 16:04:15: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_arkitekturlandskap\book-arkitekturlandskap.adoc
+18.10.2019 16:04:15: Linje: image::../nab_arkitekturlandskap_strategisk-arkitektur\media\dmbok2-data-integration-and-interoperability.png[]
+18.10.2019 16:04:15: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer\grunnleggende-referansearkitekturer.adoc

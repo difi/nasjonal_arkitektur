@@ -1,0 +1,9 @@
+:lang: no
+:doctitle: Temaområde informasjonsforvaltning
+:keywords:
+:toclevels: 4
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+//[.lead]
+//Informasjonsforvaltning
+

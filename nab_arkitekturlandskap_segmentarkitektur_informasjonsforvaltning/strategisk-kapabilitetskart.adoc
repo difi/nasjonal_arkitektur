@@ -6,7 +6,7 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 
 
-Følgende figur viser (et utvalg av) _overordnede temaområder_ innen Nasjonal arkitektur.
+Følgende figur viser (et utvakg av) _overordnede temaområder_ innen Nasjonal arkitektur.
 
 
 .Kapabilitetsområder innen Nasjonal arkitektur (i arbeid)

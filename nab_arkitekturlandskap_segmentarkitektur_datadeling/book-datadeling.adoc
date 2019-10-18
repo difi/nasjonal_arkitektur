@@ -10,14 +10,21 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 Datadeling er et prioritert område innen nasjonal arkitektur. 
 
 == Generelt
-En foreløpig nedbryting i temaområder og kapabilitetsområder ble gjort våren 2019 i tilknytning til arbeid med de første referansearkitekturene innen Datadeling, dvs. eMelding og eOppslag.
 
-Difi arbeider etter dette med å få på plass et mer komplett bilde. Dette er inntil videre bare delvis dokumentert her. 
+Godt fungerende datadeling inngår som et viktig element i for å nå målene i regjeringens digitaliseringsstrategi. Et overordnet mål er sammenhengende tjenester for personer og virksomheter. Datadeling handler om å forsyne forretningsprosesser og dataanalyse med nødvendig datagrunnlag. Figuren under illustrerer dette.  
+
+.Forretningsmessig kontekst for datadeling
+image::../nab_arkitekturlandskap_segmentarkitektur_datadeling/media/Forretningsmessig kontekst for datadeling.png[alt=Forretningsmessig kontekst for datadeling image]
 
 
 :leveloffset: +1
-= Kapabilitetskart for Datadeling
-include::./kapabilitetskart-datadeling.adoc[]
+
+
+= Fokusområder innen Datadeling
+include::./temaområde-datadeling.adoc[]
+
+= Rollekart for Datadeling
+include::./roller-datadeling.adoc[]
 
 = Arkitekturbyggeklosser for Datadeling
 TBD 

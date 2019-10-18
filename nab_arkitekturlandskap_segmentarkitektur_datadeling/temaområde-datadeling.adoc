@@ -1,23 +1,20 @@
 :lang: no
-:doctitle: Temaområdet Datadeling
+:doctitle: Temaområde datadeling
 :keywords: eMelding
 :toclevels: 5
 include::../plattform_felles/includes/commonincludes.adoc[]
 
 
-== Rollekart for Datadeling
-include::./roller-datadeling.adoc[]
-
-
-
-== Kapabilitetskart for Datadeling
-
-image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _Denne nedbrytingen er under arbeid våren 2019._
+//image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _Denne nedbrytingen er under arbeid våren 2019._
 
 Følgende figur viser en foreløpig nedbryting av temaområdet Datadeling, slik dette tidligere er gjort i tilknytning til arbeid med aktuelle referansearkitekturer våren 2019..  
 
-.Foreløpig inndeling av temaområdet Datadeling i delområder
-image::../nab_arkitekturlandskap_segmentarkitektur_datadeling\media\kapabilitetsområder-datadeling.png[alt="Bilde mangler"]
+//.Foreløpig inndeling av temaområdet Datadeling i delområder
+//image::../nab_arkitekturlandskap_segmentarkitektur_datadeling\media\kapabilitetsområder-datadeling.png[alt="Bilde mangler"]
+
+
+.Temaområde deling av data
+image::../nab_arkitekturlandskap_segmentarkitektur_datadeling/media/Temaområde deling av data.png[alt=Temaområde deling av data image]
 
 === Delområde Datautveksling
 Området _datautveksling_ er brutt ned i delområder som vist i følgende figur.

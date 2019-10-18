@@ -9,8 +9,23 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 //Strategiske arkitekturer
 
 
-==  Overordnede temaområder innen Nasjonal arkitektur
+== Overordnet kapabilitetskart for offentlig sektor
 
-:leveloffset: +1
-include::./strategisk-kapabilitetskart.adoc[]
-:leveloffset: -1
+Det presenteres her et foreløpig kapabilitetskart for offentlig sektor basert på arbeid med tilsvarende i link:https://www.businessarchitectureguild.org/[Business Architecture Guild]. Dette kan inntil videre ses på som et eksperiment og en  indikasjon på hva en ønsker å få på plass som et overbygg for videre nedbryting i områder og kapabiliteter.
+
+NOTE: Det finnes kapabilitetskart med nedbryting i flere nivåer fra link:https://www.businessarchitectureguild.org/[Business Architecture Guild], både generisk og sektorvis. Disse finnes omtalt i BIZBOK® Guide v8.0, og finnes link:https://www.businessarchitectureguild.org/store/ListProducts.aspx?catid=677483[her].
+
+//image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _Dette kapabilitetskartet er i tidlig arbeid._
+
+.Overordnet kapabilitetskart for offentlig sektor
+image::../nab_arkitekturlandskap_strategisk-arkitektur/media/Kapabilitetskart for offentlig sektor, nivå 1.png[alt=Overordnet kapabilitetskart for offentlig sektor image]
+
+
+== Prioriterte temaområder innen Nasjonal arkitektur
+
+
+Følgende figur viser (et utvalg av) _overordnede temaområder_ innen Nasjonal arkitektur.
+
+
+.Kapabilitetsområder innen Nasjonal arkitektur (i arbeid)
+image::../nab_arkitekturlandskap_strategisk-arkitektur\media\områder-nasjonal-arkitektur.png[]

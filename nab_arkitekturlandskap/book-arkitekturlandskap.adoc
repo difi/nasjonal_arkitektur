@@ -57,8 +57,8 @@ image::../nab_arkitekturlandskap_strategisk-arkitektur\media\data-management-ref
 
 I DMBOK2 finnes en videre nedbrytning for hvert område. Følgende figur viser dette for området Data Integration and Interoperability.
 
-.Figur: DMBOK2 Data Integration and Interoperability
-image::../nab_arkitekturlandskap_strategisk-arkitektur\media\dmbok2-data-integration-and-interoperability.png[]
+
+
 
 
 Området *Data sharing between applications and across organizations* opptrer her som en del av det større området _Data Integration and Interoperability_ og tilsvarer det som Difi ellers definerer som temaområde Datadeling. Denne figuren viser også hvilke andre områder som _Data Integration and Interoperability_ er avhengig av.
