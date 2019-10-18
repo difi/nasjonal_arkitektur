@@ -552,6 +552,7 @@ Videre informasjon og og dokumentasjon om eMelding finnes under https://www.difi
 
 ////
 
+////
 I SAT eDelivery deles tjenesten opp i fem kapabiliteter som er:
 
 * Backend integration
@@ -648,4 +649,4 @@ organization) to deliver the eDocuments.
 In this 4-Corner Store-and-Forward model, every eDelivery Access Point becomes a node
 in a trusted interoperabilty community
 
-
+////
