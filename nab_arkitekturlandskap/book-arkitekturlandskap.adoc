@@ -36,7 +36,7 @@ Se også:
 
 * link:../nab_overordnet-metode[Grunnleggende konsepter for Nasjonalt arkitekturbibliotek].
 
-* <<../nab_overordnet-metode/grunnleggende-konsepter.adoc#_om_områder_og_kapabilitetskart,Om temaområder og kapabilitetskart>>
+* <<../nab_overordnet-metode/#_om_områder_og_kapabilitetskart,Om temaområder og kapabilitetskart>>
 
 //* <<../nab_referanse_arkitekturer/grunnleggende-referansearkitekturer.adoc#Strategiske betraktninger om >>
 
