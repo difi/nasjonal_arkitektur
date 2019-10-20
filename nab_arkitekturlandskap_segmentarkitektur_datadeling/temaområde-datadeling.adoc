@@ -4,35 +4,46 @@
 :toclevels: 5
 include::../plattform_felles/includes/commonincludes.adoc[]
 
+== Overordnede områder innen _deling av data_
 
-//image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _Denne nedbrytingen er under arbeid våren 2019._
+//Nedbryting av området _Data Integration and Interoperability_ i DMBOK2 er vist i figuren nedenfor. Her er det også vist sammenhengen med andre områder.
+
+
+// .DMBOK2 Data Integration and Interoperability
+//image::../nab_arkitekturlandskap_segmentarkitektur_informasjonsforvaltning/media/DMBOK2 Data Integration and Interoperability.png[alt=DMBOK2 Data Integration and Interoperability image]
+
+
+// image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _Denne nedbrytingen er under arbeid våren 2019._
 
 Følgende figur viser en foreløpig nedbryting av temaområdet Datadeling, slik dette tidligere er gjort i tilknytning til arbeid med aktuelle referansearkitekturer våren 2019..  
 
 //.Foreløpig inndeling av temaområdet Datadeling i delområder
 //image::../nab_arkitekturlandskap_segmentarkitektur_datadeling\media\kapabilitetsområder-datadeling.png[alt="Bilde mangler"]
 
+.Tverrgående temaer innen datadeling
+image::../nab_arkitekturlandskap_segmentarkitektur_datadeling/media/Tverrgående temaer innen datadeling.png[alt=Tverrgående temaer innen datadeling image]
 
-.Temaområde deling av data
-image::../nab_arkitekturlandskap_segmentarkitektur_datadeling/media/Temaområde deling av data.png[alt=Temaområde deling av data image]
+//.Temaområde deling av data
+//image::../nab_arkitekturlandskap_segmentarkitektur_datadeling/media/Temaområde deling av data.png[alt=Temaområde deling av data image]
 
-=== Delområde Datautveksling
+== Delområde Datautveksling
+
+=== Kapabilitetskart for datautveksling
 Området _datautveksling_ er brutt ned i delområder som vist i følgende figur.
 
 .Områder innen Datautveksling
 
-//image::../nab_arkitekturlandskap_segmentarkitektur_datadeling\media\områder-datautveksling.png[alt="Bilde mangler"]
-
 image::../nab_arkitekturlandskap_segmentarkitektur_datadeling\media\Kapabilitetsområder, datautveksling.png[alt="BKapabilitetsområder, datautveksling"]
 
+Hvert av disse områdene er adressert gjennom referansearkitekturer... #lenke#....
+
+=== Tverrgående temaer innen datautveklsing
+.Tverrgående temaer innen datautveksling
+image::../nab_arkitekturlandskap_segmentarkitektur_datadeling/media/Tverrgående temaer innen datautveksling.png[alt=Tverrgående temaer innen datautveksling image]
 
 
 ////
-En videre oversikt over (overordnede) kapabiliteter innen dette området er vist nedenfor. Her er det også vist hvilke roller som kapabilitetene assosieres med, og sammenhengen mellom kapabilitetene er angitt som informasjonsflyt.
 
-.Overordnet kapabilitetskart innen området Datautveksling
-image::../nab_arkitekturlandskap_strategisk-arkitektur\media\kapabiliteter-datautveksling.png[alt="Bilde mangler"]
-////
 
 ==== Deling av data ved forsendelse
 Dette er deling av informasjon og data initiert av avsender. Det vil normalt være behov og/eller forventning om oppfølging fra mottaker. Eksempler kan være å sende en faktura hvor det forventes at mottaker behandler denne, eller en henvisning i helsesektoren hvor det forventes at mottaker tar ansvar for videre oppfølging av pasienten det gjelder. 
@@ -93,3 +104,5 @@ For videre nedbryting og detaljer om dette kartet, se
 
 == Mapping til EIRA
 #Mapping til EIRA kommer her.#
+
+////

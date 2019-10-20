@@ -46,33 +46,9 @@ Se også:
 = Strategiske arkitekturer
 include::../nab_arkitekturlandskap_strategisk-arkitektur/main.adoc[]
 
-:leveloffset!:
-== Segmentarkitekturer
+= Segmentarkitekturer
+include::../nab_arkitekturlandskap_segmentarkitektur/main.adoc[]
 
-=== Informasjonsforvaltning
-
-Det tas [underline]#inntil videre# her utgangspunkt i nedbrytning av området _Data Management_ slik dette gjøres i DAMA DMBOK2.
-
-
-.Overordnet kapabilitetskart for området Informasjonsforvaltning (DMBOK2)
-image::../nab_arkitekturlandskap_strategisk-arkitektur\media\data-management-ref-dmbok2.png[]
-
-I DMBOK2 finnes en videre nedbrytning for hvert område. Følgende figur viser dette for området Data Integration and Interoperability.
-
-
-
-
-
-Området *Data sharing between applications and across organizations* opptrer her som en del av det større området _Data Integration and Interoperability_ og tilsvarer det som Difi ellers definerer som temaområde Datadeling. Denne figuren viser også hvilke andre områder som _Data Integration and Interoperability_ er avhengig av.
-
-Vi betrakter ut fra dette <<datadeling,temaområdet Datadeling>> som en del av et større bilde som handler om informasjonforvaltning, både internt i hver enkelt virksomhet og på tvers av virksomheter.
-
-NOTE: _Difi har planlagt videre arbeid med rammeverk for informasjonsforvaltning med oppstart i 2020._
-
-[#datadeling]
-=== Temaområde Datadeling
-:leveloffset: +1
-include::../nab_arkitekturlandskap_segmentarkitektur_datadeling/main.adoc[]
 :leveloffset!:
 
 

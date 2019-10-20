@@ -168,3 +168,6 @@
 18.10.2019 16:04:15: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_arkitekturlandskap\book-arkitekturlandskap.adoc
 18.10.2019 16:04:15: Linje: image::../nab_arkitekturlandskap_strategisk-arkitektur\media\dmbok2-data-integration-and-interoperability.png[]
 18.10.2019 16:04:15: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\nab_referanse_arkitekturer\grunnleggende-referansearkitekturer.adoc
+20.10.2019 13:35:33: SøkTekstIAlleFiler(strategisk-kapabilitetskart.adoc)
+20.10.2019 13:35:33: Linje: include::./strategisk-kapabilitetskart.adoc[]
+20.10.2019 13:35:33: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\--nab_arkitekturlandskap_strategisk-arkitektur_kapabilitetskart\book-kapabiliteter.adoc

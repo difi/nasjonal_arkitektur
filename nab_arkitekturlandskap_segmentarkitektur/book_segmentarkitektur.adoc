@@ -36,8 +36,30 @@ TOGAF: _Segment Architecture provides an organizing framework for operational an
 == Introduksjon
 include::./intro_segmentarkitektur.adoc[]
 
-== Kapittel 2 
-// Inkluder kapittel-filer eller skriv direkte her 
+:leveloffset: +1
+
+= Informasjonsforvaltning - datadeling, datalagring og informasjonssikkerhet
+
+include::../nab_arkitekturlandskap_segmentarkitektur_informasjonsforvaltning/book-informasjonsforvaltning.adoc[]
+
+
+
+= Saksbehandling og tverrgående prosesser
+
+= Intiativstyring og samordning
+
+
+
+= Eiendelsforvaltning -  fellesløsninger
+
+= Anskaffelser, utvikling og forvaltning av produkter og tjenester 
+
+= Utvikling og forvaltning av lover og regler
+
+= Dataanalyse og kunstig intelligens
+
+= Kompetansestyring
+
 
 // ****************
 endif::[]
