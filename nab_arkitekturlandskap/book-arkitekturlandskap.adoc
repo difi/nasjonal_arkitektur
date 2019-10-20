@@ -47,7 +47,7 @@ include::../nab_arkitekturlandskap_strategisk-arkitektur/main.adoc[]
 :leveloffset!:
 == Segmentarkitekturer
 
-=== Temaområde Informasjonsforvaltning
+=== Informasjonsforvaltning
 
 Det tas [underline]#inntil videre# her utgangspunkt i nedbrytning av området _Data Management_ slik dette gjøres i DAMA DMBOK2.
 
