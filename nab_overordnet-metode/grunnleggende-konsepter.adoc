@@ -10,7 +10,7 @@ Grunnleggende konsepter for arbeidet med Nasjonalt arkitekturbibliotek
 
 :leveloffset: +1
 
-
+[#om_områder_og_kapabilitetskart]
 = Om områder og kapabilitetskart
 Virksomhetsarkitekturen kan inndeles i _områder_, eller _temaområder_, og videre i kapabiliteter. Dette kan gjøres i flere nivåer, til et hensiktsmessig detaljnivå. Dette er illustrert i følgende figur.
 
