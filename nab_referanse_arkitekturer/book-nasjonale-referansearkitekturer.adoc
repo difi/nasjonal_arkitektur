@@ -51,8 +51,8 @@ Nasjonale referansearkitekturer identifiseres ut fra en link:../nab_arkitekturla
 
 Følgende figur viser en foreløpig oversikt over aktuelle referansearkitekturer innen respektive områder.
 
-image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _Denne oversikten er i arbeid (høst 2019)_
-
+~image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _Denne oversikten er i arbeid (høst 2019)_
+~
 .Figur: Katalog over referansearkitekturer innen aktuelle områder i Nasjonal arkitektur
 image:../nab_referanse_arkitekturer/media/katalog-referansearkitekturer.png[]
 
