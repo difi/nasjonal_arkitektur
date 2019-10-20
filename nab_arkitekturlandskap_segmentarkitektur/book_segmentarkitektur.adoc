@@ -17,7 +17,7 @@ Note: The _lang_ value may be overridden by a command line parameter.
 :difi_translation_status: -
 :keywords_en: TBD
 :keywords_no: TBD
-:toclevels: 2
+:toclevels: 3
 :difi_doctype: Basic Book Template
 
 // The above parameters are processed by scripts included by the following statement
@@ -42,23 +42,27 @@ include::./intro_segmentarkitektur.adoc[]
 
 include::../nab_arkitekturlandskap_segmentarkitektur_informasjonsforvaltning/book-informasjonsforvaltning.adoc[]
 
+== Intiativstyring og samordning
+include::../nab_arkitekturlandskap_segmentarkitektur/kapabilitetsbasert-arkitekturstyring.adoc[]
+
+== Saksbehandling og tverrgående prosesser
+TBD.
 
 
-= Saksbehandling og tverrgående prosesser
+== Eiendelsforvaltning - fellesløsninger
+TBD.
 
-= Intiativstyring og samordning
+== Anskaffelser, utvikling og forvaltning av produkter og tjenester 
+TBD.
 
+== Utvikling og forvaltning av lover og regler
+TBD.
 
+== Dataanalyse og kunstig intelligens
+TBD.
 
-= Eiendelsforvaltning -  fellesløsninger
-
-= Anskaffelser, utvikling og forvaltning av produkter og tjenester 
-
-= Utvikling og forvaltning av lover og regler
-
-= Dataanalyse og kunstig intelligens
-
-= Kompetansestyring
+== Kompetansestyring
+TBD.
 
 
 // ****************

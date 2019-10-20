@@ -42,21 +42,24 @@ NOTE: Områdene er her navngitt ut fra tilsvarende områder i _Overordnet kapabi
 .Fokusområder innen nasjonal arkitektur (overordnet)
 image::../nab_arkitekturlandskap_strategisk-arkitektur/media/Fokusområder innen nasjonal arkitektur (overordnet).png[alt=Fokusområder innen nasjonal arkitektur (overordnet) image]
 
-=== Saksbehandling og tverrgående prosesser
+Disse områdene adresseres under felles overskrift link:../nab_arkitekturlandskap_segmentarkitektur[segmentarkitekturer].
 
-=== Intiativstyring og samordning
+////
 
-=== Informasjonsforvaltning - datadeling, datalagring og informasjonssikkerhet
+* Intiativstyring og samordning
 
+* Informasjonsforvaltning - datadeling, datalagring og informasjonssikkerhet
 
+* Eiendelsforvaltning -  fellesløsninger
 
-=== Eiendelsforvaltning -  fellesløsninger
+* Saksbehandling og tverrgående prosesser
 
-=== Anskaffelser, utvikling og forvaltning av produkter og tjenester 
+* Anskaffelser, utvikling og forvaltning av produkter og tjenester 
 
-=== Utvikling og forvaltning av lover og regler
+* Utvikling og forvaltning av lover og regler
 
-=== Dataanalyse og kunstig intelligens
+* Dataanalyse og kunstig intelligens
 
-=== Kompetansestyring
+* Kompetansestyring
 
+////
