@@ -49,12 +49,12 @@ include::../nab_referanse_arkitekturer/kapabilitetsområder.adoc[]
 == Om nasjonale referansearkitekturer
 Nasjonale referansearkitekturer identifiseres ut fra en link:../nab_arkitekturlandskap[nedbrytning av nasjonal arkitektur i temaområder og kapabiliteter i arkitekturlandskapet]. Både kapabilitetskart og prioriterte referansearkitekurer innen hvert område vil utvikles over tid, etterhvert som en går inn på nye områder. 
 
-Følgende figur viser en foreløpig oversikt over aktuelle referansearkitekturer innen respektive områder.
+Følgende figur viser en  oversikt over områder og referansearkitekturer som så langt dekkes.
 
-~image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _Denne oversikten er i arbeid (høst 2019)_
-~
-.Figur: Katalog over referansearkitekturer innen aktuelle områder i Nasjonal arkitektur
-image:../nab_referanse_arkitekturer/media/katalog-referansearkitekturer.png[]
+image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _Denne oversikten er i arbeid (høst 2019)_
+
+.Aktuelle områder og referansearkitekturer
+image::../nab_referanse_arkitekturer/media/katalog-referansearkitekturer.png[]
 
 
 = Referansearkitekturer for Datautveksling

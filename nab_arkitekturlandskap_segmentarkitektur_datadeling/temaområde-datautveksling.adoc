@@ -1,35 +1,58 @@
 :lang: no
-:doctitle: Temaområdet Datautveksling
+:doctitle: Temaområde datautveksling
 :keywords: 
 :toclevels: 3
 include::../plattform_felles/includes/commonincludes.adoc[]
 
 
-== Kapabilitetskart og tverrgående temaer for datautveksling
+== Overordnet oversikt  
 
-//.Foreløpig inndeling av temaområdet Datadeling i delområder
-//image::../nab_arkitekturlandskap_segmentarkitektur_datadeling\media\kapabilitetsområder-datadeling.png[alt="Bilde mangler"]
+Datautveksling kan brytes ned i et sett av isolerte områder og kapabiliteter. På øverste nivå skilles det mellom:
+
+* Deling av data på forespørsel: Innhenting av data ved forespørsel til en eller flere datakilder.
+
+* Deling av data ved forsendelse: Forsendelse av data fra en avsender til en eller flere kjente mottakere.
+
+* Deling av data ved publisering: Publisering av data eller hendelser med løs kopling mellom avsendere og mottakere.  
+
+Dette er illustrert i følgende figur.
+
+.Kapabilitetsområder, datautveksling
+image::../nab_arkitekturlandskap_segmentarkitektur_datadeling/media/Kapabilitetsområder, datautveksling.png[alt=Kapabilitetsområder, datautveksling image]
+
+Videre nedbryting i detaljerte kapabiliteter og mønstre gjøres i tilknytning til beskrivelsene av referansearkitekturer for datautveksling.
+
+Her følger en overordnet oversikt over overordnede kapabiliteter og tverrgående temaer som sorterer under området datautveksling. 
+
+NOTE: Noen av de temaene som nevnes her er også aktuelle i andre sammenhenger, og beskrives ved behov i ulike kontekster.   
 
 
-.Deling av data, fokusområder
-image::../nab_arkitekturlandskap_segmentarkitektur_datadeling/media/Deling av data, fokusområder.png[alt=Deling av data, fokusområder image]
 
-=== Delområde Datautveksling
-Området _datautveksling_ er brutt ned i delområder som vist i følgende figur.
-
-.Områder innen Datautveksling
-
-//image::../nab_arkitekturlandskap_segmentarkitektur_datadeling\media\områder-datautveksling.png[alt="Bilde mangler"]
-
-image::../nab_arkitekturlandskap_segmentarkitektur_datadeling\media\Kapabilitetsområder, datautveksling.png[alt="BKapabilitetsområder, datautveksling"]
+.Datautveksling - overordnet oversikt over kapabiliteter og temaer
+image::../nab_arkitekturlandskap_segmentarkitektur_datadeling/media/Datautveksling - overordnet oversikt over kapabiliteter og temaer.png[alt=Datautveksling - overordnet oversikt over kapabiliteter og temaer image]
 
 
+== Referansearkitekturer (arkitektur- og løsningsmønstre)
 
-////
-En videre oversikt over (overordnede) kapabiliteter innen dette området er vist nedenfor. Her er det også vist hvilke roller som kapabilitetene assosieres med, og sammenhengen mellom kapabilitetene er angitt som informasjonsflyt.
+Se #ref#
 
-.Overordnet kapabilitetskart innen området Datautveksling
-image::../nab_arkitekturlandskap_strategisk-arkitektur\media\kapabiliteter-datautveksling.png[alt="Bilde mangler"]
+
+== Tverrgående temaer
+
+=== Standardisering og spesifikasjoner
+TBD.
+
+=== Avtaleforvaltning
+TBD.
+
+=== Roller og ansvar
+TBD.
+
+=== Informasjonssikkerhet, tillit og personvern
+TBD.
+
+=== Feilhåndtering
+TBD.
 ////
 
 ==== Deling av data ved forsendelse
@@ -73,7 +96,13 @@ image::../nab_arkitekturlandskap_segmentarkitektur_datadeling/media/kapabilitete
 
 //Det er foreløpig ikke startet arbeid med referansearkitektur for hendelsesdrevet deling av data.
 
+////
 
+
+
+
+
+////
 == Alternativt utkast til kapabilitetskart for Datadeling basert på The Open Group SOA RA
 
 Behovet for et mer detaljert bilde enn det som så langt er gitt, er til utredning (våren 2019). Som ledd i dette har en sett på kapabilitetskart i The Open Group SOA RA.
@@ -89,5 +118,12 @@ For videre nedbryting og detaljer om dette kartet, se
 * The Open Group SOA RA
 * #Publiserte Archi-modeller for The Open Group SOA RA (Difi)#
 
+
+////
+
+
+////
+
 == Mapping til EIRA
 #Mapping til EIRA kommer her.#
+////
