@@ -34,10 +34,10 @@ image::../nab_arkitekturlandskap_segmentarkitektur_datadeling/media/Datautveksli
 
 == Referansearkitekturer (arkitektur- og løsningsmønstre)
 
-Se #ref#
+Se link:../nab_referanse_arkitekturer_datautveksling[Referansearkitekturer for datautveksling]
 
 
-== Tverrgående temaer
+== Tverrgående temaer innen datautveksling
 
 === Standardisering og spesifikasjoner
 TBD.
