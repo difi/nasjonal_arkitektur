@@ -720,6 +720,7 @@ Eksempler på rettigheter kan komme av samtykker fra person eller virksomhet, el
 | Datautvekslings-tjeneste
 | Tjeneste for utveksling av data. Benyttes av avsender/tilbyder og mottaker/konsument for transport av data.
 
+|===
 
 
 ////
