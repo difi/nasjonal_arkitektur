@@ -46,7 +46,7 @@ include::./temaområde-datautveksling.adoc[]
 
 = Informasjonssikkerhet, tillit og personvern
 
-Kapabilitetskart for temaområdet Informasjonssikkerhet, tillit og personvern...
+Kapabilitetskart for temaområdet Informasjonssikkerhet, tillit og personvern:
 
 .Informasjonssikkerhet, tillit og personvern
 image::../nab_arkitekturlandskap_segmentarkitektur_datadeling/media/Informasjonssikkerhet, tillit og personvern.png[alt=Informasjonssikkerhet, tillit og personvern image]
