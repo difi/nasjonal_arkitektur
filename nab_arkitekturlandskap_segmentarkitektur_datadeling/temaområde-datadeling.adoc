@@ -15,7 +15,7 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 // image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _Denne nedbrytingen er under arbeid våren 2019._
 
-Følgende figur viser en foreløpig nedbryting av temaområdet Datadeling, slik dette tidligere er gjort i tilknytning til arbeid med aktuelle referansearkitekturer våren 2019..  
+Følgende figur viser en foreløpig nedbryting av temaområdet Datadeling, slik dette tidligere er gjort i tilknytning til arbeid med aktuelle referansearkitekturer våren 2019.  
 
 //.Foreløpig inndeling av temaområdet Datadeling i delområder
 //image::../nab_arkitekturlandskap_segmentarkitektur_datadeling\media\kapabilitetsområder-datadeling.png[alt="Bilde mangler"]

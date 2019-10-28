@@ -51,10 +51,10 @@ Nasjonale referansearkitekturer identifiseres ut fra en link:../nab_arkitekturla
 
 Følgende figur viser en  oversikt over områder og referansearkitekturer som så langt dekkes.
 
-image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _Denne oversikten er i arbeid (høst 2019)_
+//image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _Denne oversikten er i arbeid (høst 2019)_
 
-.Aktuelle områder og referansearkitekturer
-image::../nab_referanse_arkitekturer/media/katalog-referansearkitekturer.png[]
+.Aktuelle referansearkitekturer
+image::../nab_referanse_arkitekturer/media/Aktuelle referansearkitekturer.png[alt=Aktuelle referansearkitekturer image]
 
 
 = Referansearkitekturer for Datautveksling
