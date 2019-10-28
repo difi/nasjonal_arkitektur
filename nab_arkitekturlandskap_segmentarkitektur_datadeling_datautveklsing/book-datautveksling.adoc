@@ -28,9 +28,8 @@ NOTE: Noen av de temaene som nevnes her er også aktuelle i andre sammenhenger, 
 
 
 
-.Datautveksling - overordnet oversikt over kapabiliteter og temaer
-image::../nab_arkitekturlandskap_segmentarkitektur_datadeling/media/Datautveksling - overordnet oversikt over kapabiliteter og temaer.png[alt=Datautveksling - overordnet oversikt over kapabiliteter og temaer image]
-
+.Datautveksling - overordnet oversikt over kapabiliteter og temaer 
+image::../nab_arkitekturlandskap_segmentarkitektur_datadeling_datautveklsing/media/Datautveksling - overordnet oversikt over kapabiliteter og temaer .png[alt=Datautveksling - overordnet oversikt over kapabiliteter og temaer  image]
 
 == Referansearkitekturer (arkitektur- og løsningsmønstre)
 
@@ -39,19 +38,26 @@ Se link:../nab_referanse_arkitekturer_datautveksling[Referansearkitekturer for d
 
 == Tverrgående temaer innen datautveksling
 
-. Standardisering og spesifikasjoner
+Merk: Disse temaene er også adressert under det større området _Datadeling_. Her omtales det som gjelder spesielt for _Datutveksling_.
 
-. Avtaleforvaltning
-Se link:../nab_arkitekturlandskap_segmentarkitektur_datadeling_avtaleforvaltning/[Avtaleforvaltning]
+=== Roller involvert i datautveksling
 
-. Roller og ansvar innovert i datautveksling
+=== Feilhåndtering: TBD.
 
+=== Informasjonssikkerhet, tillit og personvern
+Se 
 
-. Informasjonssikkerhet, tillit og personvern
-
-
-. Feilhåndtering
+=== Standardisering og spesifikasjoner
 TBD.
+
+=== Roller og ansvar innovert i datautveksling
+
+Se  link:../nab_arkitekturlandskap_segmentarkitektur_datadeling_avtaleforvaltning/[Avtaleforvaltning]
+
+* Standardisering og spesifikasjoner
+TBD.
+
+
 
 ////
 

@@ -37,10 +37,9 @@ Den viste strukturen er med hensikt lagt tett opp til TOGAF-standarden. Selv om 
 .TOGAF 9.2 "arkitekturbibliotek"
 image::../nab_overordnet-metode/media/togaf92-architecture-repository.png[width=900]
 
-== Arkitekturprinsipper
-_Under revisjon 2019._
-
 == Grunnleggende konsepter
 :leveloffset: +1
 include::grunnleggende-konsepter.adoc[]
 
+== Arkitekturprinsipper
+_Under revisjon 2019._

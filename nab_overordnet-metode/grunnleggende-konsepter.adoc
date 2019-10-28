@@ -29,15 +29,30 @@ Se også link:../kunnskap_tema_kapabilitetsmodellering/[videre bakgrunnsinformas
 
 //image:../plattform_felles/media/i-arbeid.png[width=45, height=45] Et første kapabilitetskart for nasjonal arkitektur er planlagt vår 2019.
 
-
-= Om referansearkitekturer, løsningsmønstre, arkitekturer og løsninger
-include::../nab_overordnet-metode/konsepter-referansearkitekturer.adoc[]
-
 = Om abstraksjonsnivåer for arkitekturer og referansearkitekturer
 
 include::../nab_overordnet-metode/abstraksjonsnivaer.adoc[]
 
 //image:../plattform_felles/media/i-arbeid.png[width=45, height=45] I arbeid
+
+= Begrepsapparat
+== Generelt
+
+Det tas utgangspunkt i utbredt begrepsapparat for virksomhetsarkitektur og de mest aktuelle rammeverkene og standardene, herunder TOGAF og Archimate. 
+#SKRIVING PÅGÅR#
+
+== Om forholdet til utbredt begrepsapparat hos "forretningssiden" og digital transformasjon  
+#SKRIVING PÅGÅR#
+
+== Om forholdet til utbredte begreper blant løsningsarkitekter og utviklere
+
+For at utviklere og løsningsarkitekter skal kunne forstå modeller og begreper... #SKRIVING PÅGÅR#...  
+
+
+
+= Om referansearkitekturer, løsningsmønstre, arkitekturer og løsninger
+include::../nab_overordnet-metode-om-referansearkitekturer/book-om-referansearkitekturer.adoc[]
+
 
 
 

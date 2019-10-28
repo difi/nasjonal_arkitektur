@@ -11,6 +11,8 @@ Datadeling er et prioritert område innen nasjonal arkitektur.
 
 == Generelt
 
+=== Datadeling for et formål - sammenhengende tjenester
+
 Godt fungerende datadeling inngår som et viktig element i for å nå målene i regjeringens digitaliseringsstrategi. Et overordnet mål er sammenhengende tjenester for personer og virksomheter. Datadeling handler om å forsyne forretningsprosesser og dataanalyse med nødvendig datagrunnlag. Figuren under illustrerer dette.  
 
 //.Forretningsmessig kontekst for datadeling
@@ -19,31 +21,32 @@ Godt fungerende datadeling inngår som et viktig element i for å nå målene i 
 .Datadeling i kontekst med sammenhengende tjenester
 image::../nab_arkitekturlandskap_segmentarkitektur_datadeling/media/Datadeling i kontekst med sammenhengende tjenester.png[alt=Datadeling i kontekst med sammenhengende tjenester image]
 
+=== Omfang og avgrensing
+    
+==== Områder ref. DMBOK 
+DMBOK (Data Management Book Of Knowledge) er en anerkjent og mye brukt kilde til kunnskap om dataforvaltning (eller _informasjonsforvaltning_). 
 
+Nedbryting av området _Datadeling og integrasjon_ er vist i figuren nedenfor, her med utgangspunkt i områder som omtales i #DMBOK2#.
+
+Legg merke til at det finnes  avhengigheter til en rekke andre områder. _Datadeling og integrasjon_ omfatter i utgangspunktet ikke f.eks. området _datasikkerhet_, men forutsetter at dette er på plass. 
+
+.Datadeling og integrasjon (DMBOK2)
+image::../nab_arkitekturlandskap_segmentarkitektur_datadeling/media/Datadeling og integrasjon (DMBOK2).png[alt=Datadeling og integrasjon (DMBOK2) image]
+
+==== Pragmatisk tilnærming
+Difi kjører for tiden (2019) et prosjekt ved navn Deling av data, der en starter med å se på noen utvalgte områder. 
+
+En foreløpig oversikt over prioriterte temaer er vist her:
+
+
+.Prioriterte temaer innen datadeling (2019)
+image::../nab_arkitekturlandskap_segmentarkitektur_datadeling/media/Prioriterte temaer innen datadeling (2019).png[alt=Prioriterte temaer innen datadeling (2019) image]
+
+Hvert av disse områdene adresseres i separate avsnitt nedenfor.
+
+NOTE: Beskrivelsene bygges ut og oppdateres  i tilknytning til løpende prosjektarbeid.
 
 :leveloffset: +1
-
-= Temaområder innen _deling av data_
-
-//Nedbryting av området _Data Integration and Interoperability_ i DMBOK2 er vist i figuren nedenfor. Her er det også vist sammenhengen med andre områder.
-
-
-// .DMBOK2 Data Integration and Interoperability
-//image::../nab_arkitekturlandskap_segmentarkitektur_informasjonsforvaltning/media/DMBOK2 Data Integration and Interoperability.png[alt=DMBOK2 Data Integration and Interoperability image]
-
-
-// image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _Denne nedbrytingen er under arbeid våren 2019._
-
-Følgende figur viser en foreløpig nedbryting av temaområdet Datadeling, slik dette tidligere er gjort i tilknytning til arbeid med aktuelle referansearkitekturer våren 2019..  
-
-//.Foreløpig inndeling av temaområdet Datadeling i delområder
-//image::../nab_arkitekturlandskap_segmentarkitektur_datadeling\media\kapabilitetsområder-datadeling.png[alt="Bilde mangler"]
-
-.Temaer innen datadeling
-image::../nab_arkitekturlandskap_segmentarkitektur_datadeling/media/Tverrgående temaer innen datadeling.png[alt=Tverrgående temaer innen datadeling image]
-
-//.Temaområde deling av data
-//image::../nab_arkitekturlandskap_segmentarkitektur_datadeling/media/Temaområde deling av data.png[alt=Temaområde deling av data image]
 
 = Datautveksling
 include::./temaområde-datautveksling.adoc[]
@@ -71,7 +74,9 @@ TBD.
 TBD.
 
 = Avtaleforvaltning
-TBD.
+//Se link:../nab_arkitekturlandskap_segmentarkitektur_datadeling_avtaleforvaltning/[Avtaleforvaltning]
+
+include::../nab_arkitekturlandskap_segmentarkitektur_datadeling_avtaleforvaltning/book-avtaleforvaltning.adoc[]
 
 = Oppdagelse, søk og gjenfinning
 TBD.

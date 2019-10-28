@@ -1,5 +1,5 @@
 :lang: no
-:doctitle: Referansearkitekturer, mønstre, arkitekturer og løsninger
+:doctitle: Om referansearkitekturer, mønstre, arkitekturer og løsninger
 :keywords: Referansearkitekturer, løsningsmønstre, arkitekturer, løsninger
 //:preamble: 
 
@@ -46,7 +46,7 @@ Beskrivelsene vil typisk dekke begreper, prinsipper, standarder og teknologier s
 
 NOTE: Difi utvikler og vedlikeholder felles maler for beskrivelse av referanseearkitekturer, både for tekstlige beskrivelser og arkitekturmodeller (Archimate). Se under link:../nab_referanse_maler/[maler].
 
-== Tilnærming tli arbeidet med referansearkitekturer i Norge
+== Tilnærming til arbeidet med referansearkitekturer i Norge
 Nasjonale referansearkitekturer identifiseres ut fra en link:../nab_arkitekturlandskap[nedbrytning av nasjonal arkitektur i temaområder og kapabiliteter i arkitekturlandskapet]. Både kapabilitetskart og prioriterte referansearkitekurer innen hvert område vil utvikles over tid, etterhvert som en går inn på nye områder. 
 
 
@@ -86,7 +86,7 @@ I det norske rammeverket (dette), skilles det mellom rene arkitekturmønstre (ba
 
 I Danmark benyttes begrepet referansearkitektur om relativt store områder, som typisk innholder flere "løsningsmønstre", det hele i relativt store dokumenter (pdf). I det norske rammeverket (dette), er det lagt opp til større grad av fleksibilitet og dynamikk. Referansearkitekturer i form av arkitekturmønstre eller løsningsmønstre kan være store eller små og finnes på ulike nivåer. Det gjøres en nedbryting i områder, der hvert område kan adresseres av en eller flere referansearkitekturer, som eventuelt kan inkludere eller referere til andre. Det gjøres løpende oppdatering og web-publisering av aktuelle deler, med lagring og versjons kontroll på Gighub for både tekstbasert dokumentasjon og arkitekturmodeller. Det er også et poeng at bruken av asciidoc som kildeformat gjør det enkelt å sette sammen oggjenbruke samme innhold i ulike "bøker". 
 
-Hvor stor eller liten en referansemodell framstår kommer dermed an på behov og sammenheng. Det er f.eks. laget en referansearkitektur for eOppslag som fungerer som et selvstendig løsningsmønster. Dette løsningsmønsteret kan i neste omgang tas inn som en del av en større referansearkitektur for f.eks. _sømløse tjenester_. 
+Hvor stor eller liten en referansemodell framstår kommer dermed an på behov og sammenheng. Det er f.eks. laget en referansearkitektur for eOppslag som fungerer som et selvstendig løsningsmønster. Dette løsningsmønsteret kan i neste omgang tas inn som en del av en større referansearkitektur for f.eks. _sammenhengende tjenester_. 
 
 
 == Mer utdypende om begrepet _referansearkitektur_
@@ -114,12 +114,6 @@ Her vises også hvordan arkitekturmønstre og løsningsmønstre er ulike typer r
 image::../nab_overordnet-metode/media/referansearkitektur-definisjon-komplett.png[]
 
 
-== Forholdet til utbredte begreper blant løsningsarkitekter og utviklere
-For at utviklere og løsningsarkitekter skal kunne forstå modeller og begreper... #SKRIVING PÅGÅR#...  
 
-
-
-== Forholdet til utbredt begrepsapparat hos "forretningssiden" og digital transformasjon  
-#SKRIVING PÅGÅR#
 
 
