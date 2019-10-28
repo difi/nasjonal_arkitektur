@@ -1,0 +1,16 @@
+:lang: no
+:doctitle: Forespørsel-svar arkitekturmønstre 
+:keywords: TBD
+:toclevels: 3
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+:leveloffset: +1
+= Introduksjon
+
+Formål:
+
+= Generisk mønster
+TBD.
+
+= eOppslag
+include:

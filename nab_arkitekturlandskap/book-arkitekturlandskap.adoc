@@ -46,7 +46,7 @@ Se også:
 = Strategiske arkitekturer
 include::../nab_arkitekturlandskap_strategisk-arkitektur/main.adoc[]
 
-= Segmentarkitekturer
+= Segmentarkitekturer (temaområder)
 include::../nab_arkitekturlandskap_segmentarkitektur/main.adoc[]
 
 :leveloffset!:

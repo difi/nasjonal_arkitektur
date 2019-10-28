@@ -23,12 +23,13 @@ TBD.
 == Tildelingsbrev (DIFI)
 TBD.
 
-== Andre overordnende føringer
-image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _Til vurdering_
 
 == Norskje lover og regler
 TBD
 
 == EU-forordninger
 TBD
+
+== Andre overordnede føringer
+image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _Til vurdering_
 

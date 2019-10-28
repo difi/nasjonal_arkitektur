@@ -42,10 +42,12 @@ Merk: Disse temaene er også adressert under det større området _Datadeling_. 
 
 === Roller involvert i datautveksling
 
+
+
 === Feilhåndtering: TBD.
 
 === Informasjonssikkerhet, tillit og personvern
-Se 
+Se ...
 
 === Standardisering og spesifikasjoner
 TBD.
