@@ -361,7 +361,7 @@ image:../nab_referanse_arkitekturer_eoppslag/media/ABB_Avgi.png[alt="Bilde mangl
 
 
 [cols ="1,3", options="header"]
-.Elementer i view for Avgi data (copy)
+.Elementer i view for Avgi data
 |===
 
 | Element
@@ -438,7 +438,14 @@ image:../nab_referanse_arkitekturer_eoppslag/media/forklaring_app_lag.png[alt="B
 
 //Henrik: få inn figur som viser dette?
 
+
 === Klargjøring for _deling av data på forespørsel_
+
+==== Informasjon som inngår i klargjøring av forespørsel
+
+Figuren under viser hvilken informasjons som må registreres i de ulike komponentene som del av klargjøringen av å forespørre data fra et API.
+
+image:../nab_referanse_arkitekturer_eoppslag/media/Dataobjekter eOppslag.png[alt="Bilde mangler", width=500, link=https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/e7e6c527-26f4-461c-b4dd-651fcbe85c8d/views/6a46c6d0-64eb-43d4-97f3-2a94516c2211.html]
 
 
 ==== Tilgjengeliggjøre data
