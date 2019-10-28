@@ -86,3 +86,4 @@ image:../nab_referanse_maler_asciidoc-book-basic/media/sample-image.png[]
 // ****************
 endif::[]
 // ****************
+x|

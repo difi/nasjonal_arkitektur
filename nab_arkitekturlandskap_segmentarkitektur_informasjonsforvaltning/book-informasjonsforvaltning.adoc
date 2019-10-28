@@ -17,11 +17,11 @@ image::../nab_arkitekturlandskap_segmentarkitektur_informasjonsforvaltning/media
 I DMBOK2 finnes en videre nedbrytning for hvert område. 
 
 
-Nedbryting av området _Data Integration and Interoperability_ i DMBOK2 er vist i figuren nedenfor. Her er det også vist sammenhengen med andre områder.
+Nedbryting av området _Datadeling_ (oversatt fra _Data Integration and Interoperability_ i DMBOK2) er vist i figuren nedenfor. Her er det også angitt at det er sammenhenger med andre områder.
 
 
-.DMBOK2 Data Integration and Interoperability
-image::../nab_arkitekturlandskap_segmentarkitektur_informasjonsforvaltning/media/DMBOK2 Data Integration and Interoperability.png[alt=DMBOK2 Data Integration and Interoperability image]
+.Datadeling (DMBOK2)
+image::../nab_arkitekturlandskap_segmentarkitektur_informasjonsforvaltning/media/Datadeling (DMBOK2).png[alt=Datadeling (DMBOK2) image]
 
 
 

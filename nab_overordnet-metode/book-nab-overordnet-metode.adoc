@@ -14,6 +14,10 @@ Arbeidet med nasjonal arkitektur i Norge baserer seg på flere metoder og rammev
 
 På nasjonalt nivå omhandles i utgangspunktet "hele bildet", der metoder og arkitekturer for områder som samhandlingsarkitektur, informasjonsforvaltning, dataanalyse, IoT, big data og kunstig intelligens inngår.
 
+I dette bildet er samhandlingsarkitektur det viktigste. Den nasjonale arkitekturen har som hovedoppgave å bidra til samhandling på tvers. Dette gjøres dels gjennom arkitekturer og fellesløsninger på nasjonalt nivå, og dels gjennom veiledning til virksomhetene i form av rammeverk, prinsipper, kataloger, referansearkitekturer m.m. Den interne virksomhetsarkitekturen til enkeltvirksomheter eller sektorer inngår ikke.
+
+
+
 == Nasjonalt arkitekturrammeverk for samhandling (NIF)
 
 _Nasjonalt arkitekturrammeverk for samhandling_ (NIF) er det primære rammeverket; se https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/nasjonal-arkitektur/arkitekturrammeverk-samhandling[introduksjon til NIF på Difis hjemmesider]. 
@@ -21,7 +25,7 @@ _Nasjonalt arkitekturrammeverk for samhandling_ (NIF) er det primære rammeverke
 Kort fortalt: _Nasjonalt arkitekturrammeverk for samhandling_ kan ses på som en tilpasning av TOGAF versjon 9.2, med utgangspunkt i EIF - European Interoperability Framework. Ut fra dette kalles også rammeverket NIF - National Interoperability Framework. Nasjonalt arkitekturrammeverk for samhandling (NIF) fokuserer på arkitekturer som støtter utvikling av sammenhengende og integrerte tjenester. Under dette hører også metoder og rammeverk for tjenestedesign m.m.
 
 .Fokus for nasjonalt arkitekturrammeverk for samhandling (NIF)
-image::../nab_overordnet-metode/media/NIF.png[]
+image::../nab_overordnet-metode/media/NIF.png[width=500]
 
 _Nasjonalt arkitekturrammeverk for samhandling_ beskriver innholdet i et arkitekturbibliotek for virksomheter generelt. På nasjonalt nivå gjelder tilsvarende, men virksomheten kan da sier å være "nasjonen som virksomhet". Følgende figur er tilpasset fra Nasjonalt arkitekturrammeverk for samhandling (NIF), og angir mer spesifikt innholdet i det nasjonale arkitekturbiblioteket.
 
@@ -33,7 +37,8 @@ Den viste strukturen er med hensikt lagt tett opp til TOGAF-standarden. Selv om 
 .TOGAF 9.2 "arkitekturbibliotek"
 image::../nab_overordnet-metode/media/togaf92-architecture-repository.png[width=900]
 
-
+== Arkitekturprinsipper
+_Under revisjon 2019._
 
 == Grunnleggende konsepter
 :leveloffset: +1

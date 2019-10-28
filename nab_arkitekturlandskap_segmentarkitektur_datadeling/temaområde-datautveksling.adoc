@@ -43,7 +43,7 @@ Se link:../nab_referanse_arkitekturer_datautveksling[Referansearkitekturer for d
 TBD.
 
 === Avtaleforvaltning
-TBD.
+TBD
 
 === Roller og ansvar
 TBD.
@@ -53,6 +53,7 @@ TBD.
 
 === Feilhåndtering
 TBD.
+
 ////
 
 ==== Deling av data ved forsendelse
