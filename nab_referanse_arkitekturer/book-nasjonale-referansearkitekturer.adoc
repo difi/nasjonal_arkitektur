@@ -1,6 +1,6 @@
 :lang: no
-:doctitle: Referansearkitekturer
-:keywords: Referansearkitekturer
+:doctitle: Nasjonale  referansearkitekturer
+:keywords: TBD
 
 :toclevels: 3
 
@@ -27,7 +27,14 @@ Prioritering av arbeidet og utarbeidelsen av referansearkitekturer gjøres i sam
 Relatert informasjon:
 //1. <<../nab_overordnet-metode/book-nab-overordnet-metode.adoc#_grunnleggende_konsepter,Mer bakgrunnsinformasjon om referansearkitekturer>>
 
-. link: 
+////
+== Grunnleggende referansearkitekturer og andre utvalgte eksterne referanser
+:leveloffset: +1
+
+include::../nab_referanse_arkitekturer/grunnleggende-referansearkitekturer.adoc[]
+////
+
+. link:../nab_referanse_arkitekturer/grunnleggende-referansearkitekturer.adoc[Grunnleggende referansearkitekturer]
 
 . link:../nab_overordnet-metode[Overordnet metode, bakgrunnsinformasjon]
 
@@ -79,13 +86,7 @@ include::deling_forespørsel.adoc[]
 
 
 :leveloffset!:
-
-== Grunnleggende referansearkitekturer og andre utvalgte eksterne referanser
 :leveloffset: +1
-
-include::../nab_referanse_arkitekturer/grunnleggende-referansearkitekturer.adoc[]
-
-
 = Mer om utvalgte temaer
 //include::../nab_referanse_arkitekturer_tverrgående_tema/book-tverrgående-tema.adoc[]
 

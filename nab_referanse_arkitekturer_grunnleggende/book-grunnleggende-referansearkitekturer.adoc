@@ -1,0 +1,67 @@
+:lang: no
+:doctitle: Grunnleggende referansearkitekturer
+:keywords: Referansearkitekturer
+:toclevels: 3
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+
+:leveloffset: +1
+
+= Introduksjon
+Her gis en oversikt over aktuelle _grunnleggende referansearkitekturer_. Disse anses som særlig relevante som grunnlag for  med nasjonale referansearkitekturer.
+
+
+Det legges spesiell vekt på referansearkitekturer fra EU. Her finnes per 2019:
+
+* European Interoperability Reference Architecture (EIRA) 
+* The Once Only Principle referencearchitecture (TOOPRA)
+
+I tillegg pekes det her til grunnleggende referansearkitekturer og kunnskapsgrunnlag fra The Open Group, OASIS, m.fl.
+
+
+= EIRA - European Interoparability Reference Architecture
+include::../kunnskap_referansearkitektur_eu-eira/ra-eira-intro.adoc[]
+
+
+= TOOPRA - The Once Only Principle Reference Architecture (EU)
+include::../kunnskap_referansearkitektur_eu-toopra/intro-ra-toopra.adoc[]
+
+= OASIS SOA RAF
+link:http://docs.oasis-open.org/soa-rm/soa-ra/v1.0/cs01/soa-ra-v1.0-cs01.pdf[Reference Architecture Foundation for Service Oriented Architecture Version 1.0] fra 2012 gir definerer roller i et sammenhengende, tjenesteorientert økosystem.
+
+
+= The Open Group SOA RA
+include::../kunnskap_referansearkitektur_tog-soa-ra/intro-tog-soa-ra.adoc[]
+
+//= OASIS SOA RAF
+//include::../kunnskap_referansearkitektur_oasis-soa-raf/intro-tog-soa-ra.adoc[]
+
+= DMA DMBOK2 - Data Management Book of Knowledge
+
+Data Management Body of Knowledge (2nd Edition) fra DAMA er et omfattende verk om data- og informasjonsforvaltning, Utgitt 2017-07-10.
+
+
+This is an an accessible, authoritative reference book written by leading thinkers in the field and extensively reviewed by DAMA members, DMBOK2 brings together materials that comprehensively describe the challenges of data management and how to meet them by:
+
+* Defining a set of guiding principles for data management and describing how these principles can be applied within data management functional areas.
+
+* Providing a functional framework for the implementation of enterprise data management, including widely adopted practices, methods and techniques, functions, roles, deliverables and metrics.
+
+* Establishing a common vocabulary for data management concepts and serving as the basis for best practices for data management professionals
+
+
+
+
+DAMA DMBOK2 tar utgansgpunkt i følgende temaoråder (eller _kummskapsområder_): 
+
+.Temaområder innen området Informasjonsforvaltning (DMBOK2)
+image::../nab_arkitekturlandskap_strategisk-arkitektur\media\data-management-ref-dmbok2.png[]
+
+I DMBOK2 finnes en videre nedbrytning for hvert område. Følgende figur viser dette for området Data Integration and Interoperability.
+
+.Figur: DMBOK2 Data Integration and Interoperability
+image::../nab_arkitekturlandskap_strategisk-arkitektur\media\dmbok2-data-integration-and-interoperability.png[]
+
+
+:leveloffset: -1
+

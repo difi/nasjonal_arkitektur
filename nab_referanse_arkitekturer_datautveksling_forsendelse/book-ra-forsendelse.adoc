@@ -10,6 +10,7 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 = Generisk mønster for dataforsendelse
 
+== Kapabilitetskart
 .Kapabiliteter for deling av data ved forsendelse
 image::../nab_referanse_arkitekturer_datautveksling_forsendelse/media/Kapabiliteter for deling av data ved forsendelse.png[alt=Kapabiliteter for deling av data ved forsendelse image]
 
@@ -19,10 +20,7 @@ image::../nab_referanse_arkitekturer_datautveksling_forsendelse/media/Generisk d
 
 = Generisk mønster for meldingsforsendelse
 
-== Kapabilitetskart
 
-.Generisk meldingsforsendelse
-image::../nab_referanse_arkitekturer_datautveksling_forsendelse/media/Generisk meldingsforsendelse.png[alt=Generisk meldingsforsendelse image]
 
 = Firehjørnersmodellen for meldingsforsendelse
 Tekst...
