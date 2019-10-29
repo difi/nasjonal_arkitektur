@@ -1,0 +1,39 @@
+:lang: no
+:doctitle: Forsendelse arkitekturmønstre 
+:keywords: TBD
+:toclevels: 3
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+:leveloffset: +1
+= Introduksjon
+
+
+= Generisk mønster for dataforsendelse
+
+.Kapabiliteter for deling av data ved forsendelse
+image::../nab_referanse_arkitekturer_datautveksling_forsendelse/media/Kapabiliteter for deling av data ved forsendelse.png[alt=Kapabiliteter for deling av data ved forsendelse image]
+
+.Generisk dataforsendelse - operativt
+image::../nab_referanse_arkitekturer_datautveksling_forsendelse/media/Generisk dataforsendelse - operativt.png[alt=Generisk dataforsendelse - operativt image]
+
+
+= Generisk mønster for meldingsforsendelse
+
+== Kapabiitetskart
+
+.Generisk meldingsforsendelse
+image::../nab_referanse_arkitekturer_datautveksling_forsendelse/media/Generisk meldingsforsendelse.png[alt=Generisk meldingsforsendelse image]
+
+= Firehjørnersmodellen for meldingsforsendelse
+Tekst...
+
+.Firehjørnersmodellen - operativt
+image::../nab_referanse_arkitekturer_datautveksling_forsendelse/media/Firehjørnersmodellen - operativt.png[alt=Firehjørnersmodellen - operativt image]
+
+Tekst...
+
+.Firehjørnersmodellen - forvaltningsmessig
+image::../nab_referanse_arkitekturer_datautveksling_forsendelse/media/Firehjørnersmodellen - forvaltningsmessig.png[alt=Firehjørnersmodellen - forvaltningsmessig image]
+
+= eMelding
+include::../nab_referanse_arkitekturer_emelding/book-ra-emelding.adoc[]

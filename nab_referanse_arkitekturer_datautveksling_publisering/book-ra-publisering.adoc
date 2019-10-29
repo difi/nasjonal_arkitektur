@@ -1,0 +1,8 @@
+:lang: no
+:doctitle: Publisering arkitekturmønstre 
+:keywords: TBD
+:toclevels: 3
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+:leveloffset: +1
+= Introduksjon

@@ -1,0 +1,7 @@
+:lang: no
+:doctitle: Generisk forsendelse
+:keywords: TBD
+:toclevels: 3
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+== Operativt
