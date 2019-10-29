@@ -5,4 +5,13 @@
 include::../plattform_felles/includes/commonincludes.adoc[]
 
 :leveloffset: +1
+
+image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _I arbeid (høst 2019)_
+
 = Introduksjon
+Publisering.... en til mange... ukjente mottakere...
+
+NB: Skift navn til eStrømming?
+
+= eNotifikasjon
+include::../nab_referanse_arkitekturer_enotifikasjon/book-ra-enotifikasjon.adoc[]
