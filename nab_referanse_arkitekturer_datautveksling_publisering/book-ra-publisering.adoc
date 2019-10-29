@@ -13,5 +13,13 @@ Publisering.... en til mange... ukjente mottakere...
 
 NB: Skift navn til eStrømming?
 
-= eNotifikasjon
+
+strømming generelt
+
+iot
+
+kafka/strømming av hendelser
+
+
+= ePublisering
 include::../nab_referanse_arkitekturer_enotifikasjon/book-ra-enotifikasjon.adoc[]

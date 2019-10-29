@@ -20,6 +20,8 @@ image::../nab_referanse_arkitekturer_datautveksling_forsendelse/media/Generisk d
 
 = Generisk mønster for meldingsforsendelse
 
+.Generisk meldingsforsendelse
+image::../nab_referanse_arkitekturer_datautveksling_forsendelse/media/Generisk meldingsforsendelse.png[alt=Generisk meldingsforsendelse image]
 
 
 = Firehjørnersmodellen for meldingsforsendelse
