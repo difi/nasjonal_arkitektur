@@ -29,6 +29,13 @@ image::../nab_arkitekturlandskap_segmentarkitektur_informasjonsforvaltning/media
 
 :leveloffset: +1
 [#datadeling]
-= Datadeling
-include::../nab_arkitekturlandskap_segmentarkitektur_datadeling/main.adoc[]
+= Temaområde datadeling
+Datadeling
+link:../nab_arkitekturlandskap_segmentarkitektur_datadeling[datadeling]
+
+//include::../nab_arkitekturlandskap_segmentarkitektur_datadeling/main.adoc[]
 :leveloffset!:
+
+= Andre områder innen informasjonsforvaltning
+Andre områder innen informasjonsforvaltning dekkes inntil videre under link:../nab_arkitekturlandskap_segmentarkitektur_datadeling[datadeling].
+ 

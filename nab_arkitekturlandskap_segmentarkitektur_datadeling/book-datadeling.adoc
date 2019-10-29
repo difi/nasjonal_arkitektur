@@ -22,21 +22,26 @@ Godt fungerende datadeling inngår som et viktig element i for å nå målene i 
 image::../nab_arkitekturlandskap_segmentarkitektur_datadeling/media/Datadeling i kontekst med sammenhengende tjenester.png[alt=Datadeling i kontekst med sammenhengende tjenester image]
 
 === Omfang og avgrensing
-    
-==== Områder ref. DMBOK 
-DMBOK (Data Management Book Of Knowledge) er en anerkjent og mye brukt kilde til kunnskap om dataforvaltning (eller _informasjonsforvaltning_). 
+Området datadeling kan ses som del av link:../nab_arkitekturlandskap_segmentarkitektur_informasjonsforvaltning[informasjonsforvaltning] som et større område.
 
-Nedbryting av området _Datadeling og integrasjon_ er vist i figuren nedenfor, her med utgangspunkt i områder som omtales i link:../kunnskap_bok-dmbok2[DMBOK2)].
+image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _I arbeid (høst 2019)_
 
-Legg merke til at det finnes  avhengigheter til en rekke andre områder. _Datadeling og integrasjon_ omfatter i utgangspunktet ikke f.eks. området _datasikkerhet_, men forutsetter at dette er på plass. 
+En foreløpig nedbryting av området _Datadeling_ er vist i figuren nedenfor, her med utgangspunkt i områder som omtales i link:../kunnskap_bok-dmbok2[Data Management Book Of Knowledge (DMBOK2)], også omtalt under temaområdet link:../nab_arkitekturlandskap_segmentarkitektur_informasjonsforvaltning[informasjonsforvaltning]. Dette er en anerkjent og mye brukt kilde til kunnskap om _informasjonsforvaltning_. 
+
+NOTE: Overskriften _Datadeling og integrasjon_ er en norsk oversettelse fra link:../kunnskap_bok-dmbok2[DMBOK2], og benyttes her synomymt med _datadeling_ (i mangel av andre definisjoner). 
+
+
 
 .Datadeling og integrasjon (DMBOK2)
 image::../nab_arkitekturlandskap_segmentarkitektur_datadeling/media/Datadeling og integrasjon (DMBOK2).png[alt=Datadeling og integrasjon (DMBOK2) image]
 
-==== Pragmatisk tilnærming
-Difi kjører for tiden (2019) et prosjekt ved navn Deling av data, der en starter med å se på noen utvalgte områder. 
+Legg merke til at det finnes  avhengigheter til en rekke andre områder. _Datadeling og integrasjon_ omfatter her i utgangspunktet ikke f.eks. området _datasikkerhet_, men forutsetter at dette er på plass.
 
-En foreløpig oversikt over prioriterte temaer er vist her:
+Det mangler foreløpig (2019) noe på at "alt" annet er på plass. Difi kjører for tiden (2019) et prosjekt ved navn Deling av data, der en starter med å se på noen utvalgte områder. 
+
+Som en pragmatisk tilnærming, gis her et forslag til temaområder innen datadeling som ikke ser like nøye på avgrensingen opp mot informasjonsforvaltning forøvrig. Dette er temaer som uansett på dekkes.
+
+Foreløpig oversikt over prioriterte temaområder inen datadeling:
 
 
 .Prioriterte temaer innen datadeling (2019)
