@@ -19,7 +19,7 @@ image::../nab_referanse_arkitekturer_datautveksling_forsendelse/media/Generisk d
 
 = Generisk mønster for meldingsforsendelse
 
-== Kapabiitetskart
+== Kapabilitetskart
 
 .Generisk meldingsforsendelse
 image::../nab_referanse_arkitekturer_datautveksling_forsendelse/media/Generisk meldingsforsendelse.png[alt=Generisk meldingsforsendelse image]

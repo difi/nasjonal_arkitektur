@@ -1,7 +1,0 @@
-:lang: no
-:doctitle: Introduksjon til referansearkitekturer for datautveksling
-:keywords: datautveksling
-
-include::../plattform_felles/includes/commonincludes.adoc[]
-
-Intro kommer her

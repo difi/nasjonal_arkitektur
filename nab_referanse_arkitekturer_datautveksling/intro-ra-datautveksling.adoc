@@ -9,11 +9,11 @@ I sammenheng med nasjonale referansearkitekturer for datautveksling omfatter beg
 
 == Hva er _data_ for _datautveksling_?
 
-Det finnes ulike definisjoner av data i forhold til informasjon. I utbredte modelleringsstandarder skilles det også mellom forretningsobjekter og dataobjekter - og det kan videre skilles mellom informasjon og begreper som kunnskap og visdom. Dette kan være forvirrende for mange (også arkitekter).  
+Det finnes ulike definisjoner av data i forhold til informasjon. 
 
-I tilknytning til nasjonale referansearkitekturer for datautveksling er ikke alle disse distinksjonene relevante. Så langt det gir mening,   benyttes begrepet _data_ heller enn _informasjon_.
+//I utbredte modelleringsstandarder skilles det også mellom forretningsobjekter og dataobjekter - og det kan videre skilles mellom informasjon og begreper som kunnskap og visdom. Dette kan være forvirrende for mange (også arkitekter).  
 
-Helt enkelt er det likevel ikke.
+I tilknytning til nasjonale referansearkitekturer for datautveksling er ikke alle distinksjonene nødvendigvis relevante. Så langt det gir mening,   benyttes begrepet _data_ heller enn _informasjon_.
 
 Figuren nedenfor introduserer noen  begreper som anses som nyttige og nødvendige i sammenheng med aktuelle  referansearkitekturer for datautveksling.
 
