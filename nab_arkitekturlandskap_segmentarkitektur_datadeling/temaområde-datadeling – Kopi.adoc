@@ -1,5 +1,5 @@
 :lang: no
-:doctitle: Temaområde datadeling
+:doctitle: Temaområde datautveksling
 :keywords: eMelding
 :toclevels: 5
 include::../plattform_felles/includes/commonincludes.adoc[]

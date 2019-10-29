@@ -8,21 +8,21 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 //Informasjonsforvaltning
 
 == Overordnede områder innen informasjonsforvaltning
-Det tas [underline]#inntil videre# her utgangspunkt i nedbrytning av området _Data Management_ slik dette gjøres i DAMA DMBOK2.
+Det tas [underline]#inntil videre# her utgangspunkt i nedbrytning av området _Data Management_ slik dette gjøres i link:../kunnskap_bok-dmbok2[Data Management Body of Knowledge (DMBOK2)].
 
 
 .Områder innen informasjonsforvaltning (DMBOK)
 image::../nab_arkitekturlandskap_segmentarkitektur_informasjonsforvaltning/media/Områder innen informasjonsforvaltning (DMBOK).png[alt=Områder innen informasjonsforvaltning (DMBOK) image]
 
-I DMBOK2 finnes en videre nedbrytning for hvert område. 
+I link:../kunnskap_bok-dmbok2[DMBOK2)] finnes en videre nedbrytning for hvert område. 
 
-
+////
 Nedbryting av området _Datadeling_ (oversatt fra _Data Integration and Interoperability_ i DMBOK2) er vist i figuren nedenfor. Her er det også angitt at det er sammenhenger med andre områder.
 
 
 .Datadeling (DMBOK2)
 image::../nab_arkitekturlandskap_segmentarkitektur_informasjonsforvaltning/media/Datadeling (DMBOK2).png[alt=Datadeling (DMBOK2) image]
-
+////
 
 
 //Vi betrakter ut fra dette <<datadeling,temaområdet Datadeling>> som en del av et større bilde som handler om informasjonforvaltning, både internt i hver enkelt virksomhet og på tvers av virksomheter.

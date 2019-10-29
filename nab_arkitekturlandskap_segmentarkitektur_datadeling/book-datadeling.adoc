@@ -26,7 +26,7 @@ image::../nab_arkitekturlandskap_segmentarkitektur_datadeling/media/Datadeling i
 ==== Områder ref. DMBOK 
 DMBOK (Data Management Book Of Knowledge) er en anerkjent og mye brukt kilde til kunnskap om dataforvaltning (eller _informasjonsforvaltning_). 
 
-Nedbryting av området _Datadeling og integrasjon_ er vist i figuren nedenfor, her med utgangspunkt i områder som omtales i #DMBOK2#.
+Nedbryting av området _Datadeling og integrasjon_ er vist i figuren nedenfor, her med utgangspunkt i områder som omtales i link:../kunnskap_bok-dmbok2[DMBOK2)].
 
 Legg merke til at det finnes  avhengigheter til en rekke andre områder. _Datadeling og integrasjon_ omfatter i utgangspunktet ikke f.eks. området _datasikkerhet_, men forutsetter at dette er på plass. 
 
@@ -49,6 +49,7 @@ NOTE: Beskrivelsene bygges ut og oppdateres  i tilknytning til løpende prosjekt
 :leveloffset: +1
 
 = Datautveksling
+
 include::./temaområde-datautveksling.adoc[]
 
 = Informasjonssikkerhet, tillit og personvern
