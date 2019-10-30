@@ -55,7 +55,9 @@ include::../nab_referanse_arkitekturer/kapabilitetsområder.adoc[]
 
 //include::../nab_referanse_arkitekturer_datautveksling/book-ra-datautveksling.adoc[]
 
-Lenker til de aktuelle... 
+Lenker til aktuelle referansearkitekturer og mønstre:
+
+
 
 link:../nab_referanse_arkitekturer_datautveksling/[Referansearkitekturer for datautveksling]
 
