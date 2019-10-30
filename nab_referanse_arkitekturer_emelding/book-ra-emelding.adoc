@@ -16,28 +16,34 @@ include::../nab_referanse_arkitekturer_emelding/krav_eMelding.adoc[]
 
 == Kapabilitetskart - relevante kapabiliteter
 
-image:../nab_referanse_arkitekturer_emelding/media/Deling av data ved forsendelse.png[alt="Bilde mangler", width=750]
+
+image:../nab_referanse_arkitekturer_emelding/media/kapabiliteter_forsendelse.png[alt="Bilde mangler", width=750]
 
 
-[cols ="1,1,3", options="header"]
+[cols ="1,3", options="header"]
 .Elementer i view for Kapabiliteter eMelding
 |===
-|Element
-|Elementtype
-|Beskrivelse
 
-| Deling av data ved forsendelse - eMelding
-| grouping
-| 
+| Element
+| Beskrivelse
+
+| Sending av data
+| Evnen til å sende data til en mottaker.
+
+| Mottak av data
+| Evnene til å motta en melding eller forsendelse fra en avsender.
+
+| Klargjøre for deling av data ved forsendelse
+| Evne til å klargjøre for meldingsutveksling med eksterne parter.
 
 | Mottaker
-| business-role
-| Aktør som mottar melding
+| Den som mottar en melding.
 
 | Avsender 
-| business-role
-| den som sender et brev, en pakke, en e-post, en elektronisk melding, en SMS eller lignende
+| Den som sender et brev, en pakke, en e-post, en elektronisk melding, en SMS eller lignende.
+
 |===
+
 
 
 == Arkitekturmønstre (konseptuelle beskrivelser, kun arkitekturbyggeklosser)
@@ -50,69 +56,69 @@ Modellen under detaljerer hvordan en samhandlingsaktør, som i dette tilfellet n
 image:../nab_referanse_arkitekturer_emelding/media/ABB_klargjøre.png[alt="Bilde mangler", width=750]
 
 
-[cols ="1,1,3", options="header"]
-.Elementer i view for Klargjøre for forsendelse
-
-[cols ="1,1,3", options="header"]
-.Elementer i view for Klargjøre for forsendelse
+[cols ="1,3", options="header"]
+.Elementer i view for Klargjør for forsendelse ABB
 |===
 
-|Element
-|Elementtype
-|Beskrivelse
+| Element
+| Beskrivelse
 
 | Klargjøre for deling av data ved forsendelse
-| capability
 | Evne til å klargjøre for meldingsutveksling med eksterne parter.
 
 | Samhandlingsaktør
-| business-actor
 | Den som inngår i en samhandlingsprosess og samhandler med en annen samhandlingsaktør. Kan være en tilbyder, konsument, avsender, mottaker, leverandør etc.
 
-| Klargjøre for eMelding
-| business-process
+| Klargjøre for melding
 | Prosessen med å klargjøre for eMelding ved å akseptere felles avtaler og tilgjengeliggjøre nødvendig informasjon til andre samhandlingsaktører.
 
+| Foreta innmelding i fellesskap
+| Akseptere vilkår for og innrette seg etter reglene og forpliktelsene som gjelder i et fellesskap (community) gjennom å f.eks. signere en avtale eller kontrakt. Dette kan omfatte merkantile forhold.
+
+| Registrer kapabiliteter
+| Registering av kapabiliteter vil si å tilgjengeligjøre for avsendere og konsumenter hvilke meldinger og formater man kan motta og hvilke ressurser og tjenester man tilbyr.
+
+| Registrer adresser
+| Med adresse menes nødvendig informasjon for å få tilgang til tjenester fra tilbyder eller for å sende melding til mottaker av meldinger. 
+
+| Registrer sertifikater
+| Tilgjengeliggjøre for samhandlende parter sertifikater for bruk ved forsendelser. Dette kan være generelle eller domenespesifikke sertifikater. Eventuelt spesifikt for enkelet forretningsområder. 
+
+Sertifikater må forvaltes og fornyes etter gjeldende regler for å være gyldige og egnet for bruk. 
+
 | Interoperability specification
-| business-object
 | Spesifikasjoner for hvordan man samhandler i et fellesskap. Dette kan være meldingsformater, krav til tekniske komponenter etc.
 
 | Samhandlingsavtale for fellesskap
-| contract
 | Avtale som regulerer forhold tilknyttet samhandlingen i et fellesskap for eMelding.
 
 | Mottakeradresse
-| business-object
 | Teknsik adresse for hvor meldinger skal sendes. Dette kan være adressen til inet
 
 | Avsendersertifikat
-| business-object
 | Offentlig nøkkel benyttes for kryptering og validering av signatur.
 
 Privat nøkkel benyttes til dekryptering og signering av meldinger.
 
 | Mottakersertifikat
-| business-object
 | Offentlig nøkkel benyttes for kryptering og validering av signatur.
 
 Privat nøkkel benyttes til dekryptering og signering av meldinger.
 
 | Kapabilitetsbeskrivelse
-| business-object
 | Strukturert beskrivelse av evner og kapabiliteter relevante for samhandling i fellesskapet
 
 | Sertifikatregisterering
-| application-service
 | Tjeneste for å registrere serifikater i felles katalogtjeneste.
 
 | Adresseregistrering
-| application-service
 | Tjeneste for å registrere adresse for å sende melding til mottaker.
 
 | Kapabilitetsregistrering
-| application-service
 | Tjeneste for å registrere kapabiliteter
+
 |===
+
 
 === Operativ deling av data ved forsendelse
 
@@ -120,78 +126,82 @@ Privat nøkkel benyttes til dekryptering og signering av meldinger.
 image:../nab_referanse_arkitekturer_emelding/media/ABB_sende.png[alt="Bilde mangler", width=750]
 
 
-[cols ="1,1,3", options="header"]
-.Elementer i view for Sende melding
+[cols ="1,3", options="header"]
+.Elementer i view for Send melding ABB
 |===
 
-|Element
-|Elementtype
-|Beskrivelse
+| Element
+| Beskrivelse
 
 | Avsender 
-| business-role
 | Den som sender et brev, en pakke, en e-post, en elektronisk melding, en SMS eller lignende.
 
 | Mottakeradresse
-| business-object
 | Teknsik adresse for hvor meldinger skal sendes. Dette kan være adressen til inet
 
 | Forsendelse
-| business-object
 | Den pakken som sendes til mottaker. Inkluderer forretningsmelding, metadata, adresse etc.
 
 | Avsendersertifikat
-| business-object
 | Offentlig nøkkel benyttes for kryptering og validering av signatur.
 
 Privat nøkkel benyttes til dekryptering og signering av meldinger.
 
 | Mottakersertifikat
-| business-object
 | Offentlig nøkkel benyttes for kryptering og validering av signatur.
 
 Privat nøkkel benyttes til dekryptering og signering av meldinger.
 
-| Sende eMelding
-| business-process
+| Send melding
 | Prosessen med å sende en eMelding til en mottaker ved hjelp av fellestjenester.
 
+| Kontroller mottakers kapabiliteter
+| Prosess for å slå opp og kontrollere mottakers evner til samhandling innenfor fellesskapet.
+
+| Eksepeder melding
+| Prosessen med å sende melding til mottaker.
+
+| Formater melding
+| Prosess for å tilpasse informasjonspakken til mottakers kapabiliteter og fellesskapets standarder.
+
+| Krypter melding
+| Prosess med å sikre forsendelsen. Inkluderer konfidensialitets- og integritetssikring der dette er nødvendig. Normalt gjøres dette ved hjelp av kryptografi og sertifikater.
+
+| Adresser forsendelse
+| Prosess med å adressere forsendelsen. Dette kan være til mottaker direkte eller til dennes representant eller aksesspunkt,
+
+| Signer forsendelse
+| Prosessen med å signere meldingen som sendes til mottaker. Til dette benyttes eget sertifikats private nøkkel.
+
 | Kapabilitetsoppslag
-| application-service
 | Tjeneste for å slå opp kapabilitetene til en samhandlingspart
 
 | Adresseoppslag
-| application-service
 | Tjeneste for å slå opp adressen til en mottaker.
 
 | Sending av data
-| capability
-| Evnene til å sende data til en mottaker.
+| Evnen til å sende data til en mottaker.
 
 | Sertifikatoppslag
-| application-service
 | Tjeneste for å hente krypteringssertifkat til mottaker.
 
 | Datautvekslings-tjeneste
-| application-service
 | Tjeneste for utveksling av data. Samme som data exchange service. Benyttes av avsender og mottaker for transport av meldinger.
 
 | Signeringstjeneste
-| application-service
 | Tjeneste for å signere en elektronisk melding. For eMelding er det signatur i form av elektronisk segl som er mest relevant.
 
 | Sporingstjeneste
-| application-service
 | Tjeneste for sporing (audit) av meldinger.
 
-| Forretningsmelding SBB
-| business-object
+| Meldingsinnhold
 | Meldingsinnholdet eller informasjonen som skal sendes til ekstern part. 
 
 | Datatransformasjon
-| application-service
 | Tjeneste for  transformere data og meldinger til andre formater.
+
 |===
+
 
 
 
@@ -199,61 +209,63 @@ Privat nøkkel benyttes til dekryptering og signering av meldinger.
 ==== Motta melding
 image:../nab_referanse_arkitekturer_emelding/media/ABB_motta.png[alt="Bilde mangler", width=600]
 
-
-[cols ="1,1,3", options="header"]
-.Elementer i view for Motta melding
+[cols ="1,3", options="header"]
+.Elementer i view for Motta melding ABB
 |===
 
-|Element
-|Elementtype
-|Beskrivelse
+| Element
+| Beskrivelse
 
 | Motta melding
-| capability
 | Evnen til å motta, validere og kvittere for mottatte meldinger.
 
 | Mottaker
-| business-role
 | Den som mottar en melding.
 
 | Forsendelse
-| business-object
 | Den pakken som sendes til mottaker. Inkluderer forretningsmelding, metadata, adresse etc.
 
-| Motta eMelding
-| business-process
-| Prosessen med å motta melding. Består av flere sub-prosesser.
+| Motta melding
+| Prosessen med å motta melding. Består av flere delprosesser.
 
 Etter mottak må mottaker følge opp og håndtere innholdet i meldingen.
 
+| Valider forsendelse
+| Prosessen med å kontrollere om innholdet i en forsendelse er i henhold til avtale og avtalte formater.
+
+| Motta forsendelse
+| Prosessen med å motta en melding fra avsender
+
+| Kontroller forsendelse
+| Prosessen med å kontrollere om forsendelsen er autentisk og fra en legitim avsender.
+
+| Dekrypter melding
+| Prosessen med å dekryptere mottatt melding. 
+
 | Datautvekslings-tjeneste
-| application-service
 | Tjeneste for utveksling av data. Samme som data exchange service. Benyttes av avsender og mottaker for transport av meldinger.
 
 | Sporingstjeneste
-| application-service
 | Tjeneste for sporing (audit) av meldinger.
 
 | Signaturvaliderings-tjeneste
-| application-service
 | Tjeneste for å validere og verifisere elektronsike signaturer. I forbindelse med eMelding er det kontroll av elektronisk segl som er mest relevant.
 
 | Datavaliderings-tjeneste
-| application-service
 | Tjeneste for å validere meldinger mot format og forventet innhold.
 
 | Mottakersertifikat
-| business-object
 | Offentlig nøkkel benyttes for kryptering og validering av signatur.
 
 Privat nøkkel benyttes til dekryptering og signering av meldinger.
 
 | Avsendersertifikat
-| business-object
 | Offentlig nøkkel benyttes for kryptering og validering av signatur.
 
 Privat nøkkel benyttes til dekryptering og signering av meldinger.
+
 |===
+
 
 
 == Løsningsmønstre
@@ -264,55 +276,61 @@ Privat nøkkel benyttes til dekryptering og signering av meldinger.
 image:../nab_referanse_arkitekturer_emelding/media/SBB_klargjøre.png[alt="Bilde mangler", width=600]
 
 
-[cols ="1,1,3", options="header"]
-.Elementer i view for Klargjøre for forsendelse
+[cols ="1,3", options="header"]
+.Elementer i view for Klargjør for forsendelse SBB
 |===
 
-|Element
-|Elementtype
-|Beskrivelse
+| Element
+| Beskrivelse
 
 | Klargjøre for deling av data ved forsendelse
-| capability
 | Evne til å klargjøre for meldingsutveksling med eksterne parter.
 
 | Samhandlingsaktør
-| business-actor
 | Den som inngår i en samhandlingsprosess og samhandler med en annen samhandlingsaktør. Kan være en tilbyder, konsument, avsender, mottaker, leverandør etc.
 
-| Klargjøre for eMelding
-| business-process
+| Klargjøre for melding
 | Prosessen med å klargjøre for eMelding ved å akseptere felles avtaler og tilgjengeliggjøre nødvendig informasjon til andre samhandlingsaktører.
 
+| Foreta innmelding i fellesskap
+| Akseptere vilkår for og innrette seg etter reglene og forpliktelsene som gjelder i et fellesskap (community) gjennom å f.eks. signere en avtale eller kontrakt. Dette kan omfatte merkantile forhold.
+
+| Registrer kapabiliteter
+| Registering av kapabiliteter vil si å tilgjengeligjøre for avsendere og konsumenter hvilke meldinger og formater man kan motta og hvilke ressurser og tjenester man tilbyr.
+
+| Registrer adresser
+| Med adresse menes nødvendig informasjon for å få tilgang til tjenester fra tilbyder eller for å sende melding til mottaker av meldinger. 
+
+| Registrer sertifikater
+| Tilgjengeliggjøre for samhandlende parter sertifikater for bruk ved forsendelser. Dette kan være generelle eller domenespesifikke sertifikater. Eventuelt spesifikt for enkelet forretningsområder. 
+
+Sertifikater må forvaltes og fornyes etter gjeldende regler for å være gyldige og egnet for bruk. 
+
 | CEF SML
-| application-component
 | Service Metadata Locator
 
 | BCP
-| application-component
 | Business Certificate Publisher
 
 | Sertifikatregisterering
-| application-service
 | Tjeneste for å registrere serifikater i felles katalogtjeneste.
 
 | Adresseregistrering
-| application-service
 | Tjeneste for å registrere adresse for å sende melding til mottaker.
 
 | Kapabilitetsregistrering
-| application-service
 | Tjeneste for å registrere kapabiliteter
 
 | ELMA
-| application-component
 | Elektronisk mottakeradresseregister
 
 | BCL
-| application-component
 | Business Certificate Locater
 
+
 |===
+
+
 
 
 === Operativ deling av data ved forsendelse
@@ -321,120 +339,132 @@ image:../nab_referanse_arkitekturer_emelding/media/SBB_klargjøre.png[alt="Bilde
 image:../nab_referanse_arkitekturer_emelding/media/SBB_sende.png[alt="Bilde mangler", width=750]
 
 
-[cols ="1,1,3", options="header"]
-.Elementer i view for Sende melding
+[cols ="1,3", options="header"]
+.Elementer i view for Send melding SBB
 |===
 
-|Element
-|Elementtype
-|Beskrivelse
+| Element
+| Beskrivelse
 
 | Avsender 
-| business-role
 | Den som sender et brev, en pakke, en e-post, en elektronisk melding, en SMS eller lignende.
 
-| Sende eMelding
-| business-process
+| Send melding
 | Prosessen med å sende en eMelding til en mottaker ved hjelp av fellestjenester.
 
+| Kontroller mottakers kapabiliteter
+| Prosess for å slå opp og kontrollere mottakers evner til samhandling innenfor fellesskapet.
+
+| Eksepeder melding
+| Prosessen med å sende melding til mottaker.
+
+| Formater melding
+| Prosess for å tilpasse informasjonspakken til mottakers kapabiliteter og fellesskapets standarder.
+
+| Krypter melding
+| Prosess med å sikre forsendelsen. Inkluderer konfidensialitets- og integritetssikring der dette er nødvendig. Normalt gjøres dette ved hjelp av kryptografi og sertifikater.
+
+| Adresser forsendelse
+| Prosess med å adressere forsendelsen. Dette kan være til mottaker direkte eller til dennes representant eller aksesspunkt,
+
+| Signer forsendelse
+| Prosessen med å signere meldingen som sendes til mottaker. Til dette benyttes eget sertifikats private nøkkel.
+
 | Kapabilitetsoppslag
-| application-service
 | Tjeneste for å slå opp kapabilitetene til en samhandlingspart
 
 | Adresseoppslag
-| application-service
 | Tjeneste for å slå opp adressen til en mottaker.
 
 | Sending av data
-| capability
-| Evnene til å sende data til en mottaker.
+| Evnen til å sende data til en mottaker.
 
 | Sertifikatoppslag
-| application-service
 | Tjeneste for å hente krypteringssertifkat til mottaker.
 
 | Datautvekslings-tjeneste
-| application-service
 | Tjeneste for utveksling av data. Samme som data exchange service. Benyttes av avsender og mottaker for transport av meldinger.
 
 | Signeringstjeneste
-| application-service
 | Tjeneste for å signere en elektronisk melding. For eMelding er det signatur i form av elektronisk segl som er mest relevant.
 
 | Sporingstjeneste
-| application-service
 | Tjeneste for sporing (audit) av meldinger.
 
 | Datatransformasjon
-| application-service
 | Tjeneste for  transformere data og meldinger til andre formater.
 
 | CEF SML
-| application-component
 | Service Metadata Locator
 
 | BCP
-| application-component
 | Business Certificate Publisher
 
 | ELMA
-| application-component
 | Elektronisk mottakeradresseregister
 
 | BCL
-| application-component
 | Business Certificate Locater
 
 
 | PEPPOL
-| application-service
 | 
+
 |===
+
 ==== Motta melding
 image:../nab_referanse_arkitekturer_emelding/media/SBB_motta.png[alt="Bilde mangler", width=600]
 
-[cols ="1,1,3", options="header"]
-.Elementer i view for Motta melding
+
+[cols ="1,3", options="header"]
+.Elementer i view for Motta melding SBB
 |===
 
-|Element
-|Elementtype
-|Beskrivelse
+| Element
+| Beskrivelse
 
 | Motta melding
-| capability
 | Evnen til å motta, validere og kvittere for mottatte meldinger.
 
 | Mottaker
-| business-role
 | Den som mottar en melding.
 
-| Motta eMelding
-| business-process
-| Prosessen med å motta melding. Består av flere sub-prosesser.
+| Motta melding
+| Prosessen med å motta melding. Består av flere delprosesser.
 
 Etter mottak må mottaker følge opp og håndtere innholdet i meldingen.
 
+| Valider forsendelse
+| Prosessen med å kontrollere om innholdet i en forsendelse er i henhold til avtale og avtalte formater.
+
+| Motta forsendelse
+| Prosessen med å motta en melding fra avsender
+
+| Kontroller forsendelse
+| Prosessen med å kontrollere om forsendelsen er autentisk og fra en legitim avsender.
+
+| Dekrypter melding
+| Prosessen med å dekryptere mottatt melding. 
+
 | Datautvekslings-tjeneste
-| application-service
 | Tjeneste for utveksling av data. Samme som data exchange service. Benyttes av avsender og mottaker for transport av meldinger.
 
 | Sporingstjeneste
-| application-service
 | Tjeneste for sporing (audit) av meldinger.
 
 | Signaturvaliderings-tjeneste
-| application-service
 | Tjeneste for å validere og verifisere elektronsike signaturer. I forbindelse med eMelding er det kontroll av elektronisk segl som er mest relevant.
 
 | Datavaliderings-tjeneste
-| application-service
 | Tjeneste for å validere meldinger mot format og forventet innhold.
 
 | PEPPOL
-| application-service
 | 
+
 |===
+
+
+
 ==== Firehjørnersmodellen
 eMelding slik det er spesifisert i PEPPOL-infrastrukturen benytter en 4-hjørnersmodell hvor meldinger utveksles mellom aksesspunkter.
 

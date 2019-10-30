@@ -33,7 +33,7 @@ Eksempler på bruk:
 * Innhenting av data innen en virksomhet underveis i en _tverrgående prosess_.
 
 
-
+// Henrik: flytte dette opp et nivå til å gjelde alle mønstrene.
 
 == Dokumentstruktur
 Det gis først en overordnet beskrivelse av kapabilitetene som er relevante for eOppslag. Deretter beskrives realiseringen av hver kapabilitet gjennom modeller for rene arkitekturmønstre (uten kobling til spesifikke løsninger) og løsningsmønstre som angir god praksis for bruk av _nasjonale fellesløsninger_).
@@ -100,52 +100,6 @@ I tillegg kan begge parter ha kapabiliteten:
 
 |===
 
-////
-[cols ="1,1,3", options="header"]
-.Elementer i figur for deling av data på forespørsel
-|===
-|Element
-|Elementtype
-|Beskrivelse
-
-|Tilbyder av data
-|Rolle
-|Part som har informasjon å dele.
-
-|Konsument (databruker)
-|Rolle
-|Part som bruker informasjon fra en annen part.
-
-|Tilgjengeliggjøre data
-|Kapabilitet
-|Evnen til å gjøre data tilgjengelig for konsumenter.
-
-|Tilgjengeliggjøre API
-|Kapabilitet
-|Publisere informasjon om API i kataloger eller søkeløsninger, slik at det blir enkelt å finne fram til for aktuelle konsumenter. Videre inngå bruksavtaler og sette opp tilganger.
-
-|Avgi forespurte data gjennom API
-|Kapabilitet
-|Evne til å avgi data på forespørsel gjennom et egnet API. Kan omfatte tilgangsstyring.
-
-|Innhente data
-|Kapabilitet
-|Evnen til å hente tilbudte data fra annen aktør.
-
-|Få tilgang til API
-|Kapabilitet
-|Evnen til å skaffe seg tilgang til tilbudte data fra annen aktør. Kan omfatte å finne API-er, inngå nødvendige avtaler og få tilganger.
-
-|Delegering av rettigheter til databehandler
-|Kapabilitet
-|Evnen til å delegere rettigheter til databehandler som utfører oppgaver på vegne av behandlingsansvarlig.
-
-|Slå opp data gjennom et API
-|Kapabilitet
-|Evnen til å slå opp og hente data gjennom et API.
-
-|===
-////
 
 // erik: Vurder å ta inn deler av teksten fra 4.1.2 (om sannstids oppslag... eks. løsning. "Se også akjshdkjsahd omkapabilitetesområdet ,..som eOppslag adressrer ...
 
