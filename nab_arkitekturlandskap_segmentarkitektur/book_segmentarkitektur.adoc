@@ -33,37 +33,36 @@ ifeval::["{lang}" == "no"]
 [.lead]
 TOGAF: _Segment Architecture provides an organizing framework for operational and change activity and allows for direction setting and the development of effective architecture roadmaps at a program or portfolio level._
 
-== Introduksjon
+:leveloffset: +1
+= Introduksjon
 include::./intro_segmentarkitektur.adoc[]
 
-:leveloffset: +1
 
-= Informasjonsforvaltning - datadeling, datalagring og informasjonssikkerhet
+
+= Informasjonsforvaltning
 
 include::../nab_arkitekturlandskap_segmentarkitektur_informasjonsforvaltning/book-informasjonsforvaltning.adoc[]
 
-:leveloffset!:
-:leveloffset: +1
-== Intiativstyring og samordning
+= Intiativstyring og samordning
 include::../nab_arkitekturlandskap_segmentarkitektur/kapabilitetsbasert-arkitekturstyring.adoc[]
 
-== Saksbehandling og tverrgående prosesser
+= Saksbehandling og tverrgående prosesser
 TBD.
 
 
-== Eiendelsforvaltning - fellesløsninger
+= Eiendelsforvaltning - fellesløsninger
 TBD.
 
-== Anskaffelser, utvikling og forvaltning av produkter og tjenester 
+= Anskaffelser, utvikling og forvaltning av produkter og tjenester 
 TBD.
 
-== Utvikling og forvaltning av lover og regler
+= Utvikling og forvaltning av lover og regler
 TBD.
 
-== Dataanalyse og kunstig intelligens
+= Dataanalyse og kunstig intelligens
 TBD.
 
-== Kompetansestyring
+= Kompetansestyring
 TBD.
 
 

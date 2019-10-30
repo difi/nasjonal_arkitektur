@@ -25,7 +25,9 @@ Det legges vekt på å få fram nyttig veiledning, med alt fra gode eksempler ti
 
 Nasjonale referansearkitekturer identifiseres ut fra en link:../nab_arkitekturlandskap[nedbrytning av nasjonal arkitektur i temaområder og kapabiliteter i arkitekturlandskapet]. Både kapabilitetskart og prioriterte referansearkitekurer innen hvert område vil utvikles over tid, etterhvert som en går inn på nye områder. 
 
-Relatert informasjon:
+Se også:
+
+. link:../nab_overordnet-metode-om-referansearkitekturer/[Om referansearkitekturer]
 
 . link:../nab_overordnet-metode[Overordnet metode, bakgrunnsinformasjon]
 
@@ -50,8 +52,10 @@ include::../nab_referanse_arkitekturer/kapabilitetsområder.adoc[]
 ////
 
 
-= Aktuelle referansearkitekturer
+
 //include::../nab_referanse_arkitekturer_datautveksling/book-ra-datautveksling.adoc[]
+
+Lenker til de aktuelle... 
 
 link:../nab_referanse_arkitekturer_datautveksling/[Referansearkitekturer for datautveksling]
 

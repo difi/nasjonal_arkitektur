@@ -29,14 +29,11 @@ En grov inndeling i detaljnivåer gjøres i henhold til link:https://www.difi.no
 
 3. _**Kapabilitetsarkitekturer**: Beskriver detaljert hvilken arkitekturtilnærming en virksomhet kan ha for å realisere en løsning på en utfordring._
 
-//1. _**Strategic Architecture** provides an organizing framework for operational and change
-activity and allows for direction setting at an executive level._
+//1. _**Strategic Architecture** provides an organizing framework for operational and change activity and allows for direction setting at an executive level._
 
-//2. _**Segment Architecture** provides an organizing framework for operational and change activity and allows for direction setting and the development of effective architecture
-roadmaps at a program or portfolio level._
+//2. _**Segment Architecture** provides an organizing framework for operational and change activity and allows for direction setting and the development of effective architecture roadmaps at a program or portfolio level._
 
-//3. _**Capability Architecture** provides an organizing framework for change activity and the
-development of effective architecture roadmaps realizing capability increments._
+//3. _**Capability Architecture** provides an organizing framework for change activity and the development of effective architecture roadmaps realizing capability increments._
 
 
 

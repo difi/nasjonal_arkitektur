@@ -21,7 +21,7 @@ Det presenteres her et foreløpig kapabilitetskart for offentlig sektor basert p
 
 Et slikt kapabilitetskart kan fungere på tvers av alle forvaltningsnivåer og sektorer, og bidra til samordnet innsats.
 
-NOTE: Det finnes kapabilitetskart med nedbryting i flere nivåer link:https://www.businessarchitectureguild.org/[Business Architecture Guild], både generisk og sektorvis. Disse finnes omtalt i BIZBOK® Guide v8.0, og er tilgjengelige link:https://www.businessarchitectureguild.org/store/ListProducts.aspx?catid=677483[her]. Videre anvendelse av disse og andre referansemodeller vurderes fortløpende (høst 2019).
+NOTE: Det finnes kapabilitetskart med nedbryting i flere nivåer fra link:https://www.businessarchitectureguild.org/[Business Architecture Guild], både generisk og sektorvis. Disse finnes omtalt i BIZBOK® Guide v8.0, og er tilgjengelige link:https://www.businessarchitectureguild.org/store/ListProducts.aspx?catid=677483[her]. Videre anvendelse av disse og andre referansemodeller vurderes fortløpende (høst 2019).
 
 Legg merke til at en her opererer med et "rendyrket" konsept for hva som regnes som kapabiliteter i forhold til prosesser eller tjenester. Det finnes f.eks. en (på øverste nivå) generisk kapabilitet for _saksbehandling_ som er relevant på tvers av "alle" typer saker. På denne måten legges grunnen for å utforme felles løsninger og rasjonalisere utvalget av IT-løsninger som gjør mye det samme.       
 
