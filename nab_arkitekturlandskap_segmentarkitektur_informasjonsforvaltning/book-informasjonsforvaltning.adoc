@@ -29,12 +29,12 @@ Legg merke til at det finnes  avhengigheter til en rekke andre områder. _Datade
 
 :leveloffset: +1
 [#datadeling]
-= Temaområde datadeling
-Datadeling
+= Datadeling
+Se 
 link:../nab_arkitekturlandskap_segmentarkitektur_datadeling[datadeling]
 
 //include::../nab_arkitekturlandskap_segmentarkitektur_datadeling/main.adoc[]
-:leveloffset!:
+
 
 = Andre områder innen informasjonsforvaltning
 Andre områder innen informasjonsforvaltning dekkes inntil videre under link:../nab_arkitekturlandskap_segmentarkitektur_datadeling[datadeling].

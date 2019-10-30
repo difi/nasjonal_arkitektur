@@ -24,7 +24,7 @@ image::../nab_arkitekturlandskap_segmentarkitektur_datadeling_roller/media/Overo
 
 
 == Samhandlingsaktører
-    
+        
 .Samhandlingsaktører
 image::../nab_arkitekturlandskap_segmentarkitektur_datadeling_roller/media/Samhandlingsaktører.png[alt=Samhandlingsaktører image]
 
