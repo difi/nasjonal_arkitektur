@@ -470,6 +470,7 @@ eMelding slik det er spesifisert i PEPPOL-infrastrukturen benytter en 4-hjørner
 
 image:../nab_referanse_arkitekturer_emelding/media/figur_aksesspunkt.png[alt="Bilde mangler", width=600]
 
+
 4-hjørnersmodellen er basert på en distribuert modell som tillater kommunikasjon mellom samhandlingsaktører uten behov for bilaterale avtaler ved at man baserer seg på innmelding i et fellesskap.
 
 4-hjørnersmodellen med adresse- og kapabilitetsoppslag sikrer fleksibilitet og skalerbarhet hvor
