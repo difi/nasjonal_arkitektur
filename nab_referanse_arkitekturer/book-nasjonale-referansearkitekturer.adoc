@@ -33,7 +33,7 @@ Se også:
 
 . link:../nab_arkitekturlandskap[Arkitekturlandskap, temaområder og kapabiliteter]
 
-. link:../nab_referanse_arkitekturer_grunnleggende/book-grunnleggende-referansearkitekturer.adoc[Grunnleggende referansearkitekturer]
+. link:../nab_referanse_arkitekturer_grunnleggende/[Grunnleggende referansearkitekturer]
 
 = Aktuelle referansearkitekturer
 Følgende figur viser en  oversikt over områder og referansearkitekturer som så langt dekkes.
@@ -77,6 +77,9 @@ include::deling_forespørsel.adoc[]
 :leveloffset!:
 :leveloffset: +1
 = Tverrgående temaer
+
+Se 
+
 //include::../nab_referanse_arkitekturer_tverrgående_tema/book-tverrgående-tema.adoc[]
 
 ////
