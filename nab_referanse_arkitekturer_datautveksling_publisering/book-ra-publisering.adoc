@@ -22,4 +22,4 @@ kafka/strømming av hendelser
 
 
 = ePublisering
-include::../nab_referanse_arkitekturer_enotifikasjon/book-ra-enotifikasjon.adoc[]
+include::../nab_referanse_arkitekturer_epublisering/book-ra-epublisering.adoc[]

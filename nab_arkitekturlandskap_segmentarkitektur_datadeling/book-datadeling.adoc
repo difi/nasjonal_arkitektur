@@ -57,7 +57,6 @@ NOTE: Beskrivelsene bygges ut og oppdateres  i tilknytning til løpende prosjekt
 :leveloffset: +1
 
 = Datautveksling
-
 include::../nab_arkitekturlandskap_segmentarkitektur_datadeling_datautveklsing\book-datautveksling.adoc[]
 
 = Informasjonssikkerhet, tillit og personvern
@@ -68,10 +67,20 @@ Kapabilitetskart for temaområdet Informasjonssikkerhet, tillit og personvern:
 image::../nab_arkitekturlandskap_segmentarkitektur_datadeling/media/Informasjonssikkerhet, tillit og personvern.png[alt=Informasjonssikkerhet, tillit og personvern image]
 
 = Roller og ansvar
-include::./roller-datadeling.adoc[]
+
+//include::./roller-datadeling.adoc[]
+
+:leveloffset: +1
+= Roller involvert i datautveksling
+include::../nab_referanse_arkitekturer_datautveksling/roller-ra-datautveksling.adoc[]
+
+Se også link:../nab_arkitekturlandskap_segmentarkitektur_datadeling_avtaleforvaltning/[avtaleforvaltning].
+
+:leveloffset: -1
+
 
 = Orden i eget hus
-TBD.
+Se link:https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/nasjonal-arkitektur/informasjonsforvaltning/veileder-orden-i-eget-hus[Veileder for orden i eget hus] fra Difi.
 
 = Juridisk interoperabilitet
 TBD.
@@ -98,6 +107,8 @@ TBD.
 
 = Feilhåndtering
 TBD.
+
+NOTE: Se også om feilhåndtering i tilknytning til respektive utvekslingsmønstre under link:../nab_referanse_arkitekturer_datautveksling[referansearkitekturer for datautveksling].
 
 = Datalagring
 TBD.
@@ -134,4 +145,4 @@ include::./temaområde-datadeling.adoc[]
 include::./roller-datadeling.adoc[]
 ////
 
-:leveloffset: -1
+:leveloffset: -1    

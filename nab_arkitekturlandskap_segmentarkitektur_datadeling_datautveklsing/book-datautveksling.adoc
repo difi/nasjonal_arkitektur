@@ -4,8 +4,8 @@
 :toclevels: 3
 include::../plattform_felles/includes/commonincludes.adoc[]
 
-
-== Overordnet oversikt  
+:leveloffset: +1
+= Overordnet oversikt  
 
 Datautveksling kan brytes ned i et sett av isolerte områder og kapabiliteter. På øverste nivå skilles det mellom:
 
@@ -20,24 +20,66 @@ Dette er illustrert i følgende figur.
 .Kapabilitetsområder, datautveksling
 image::../nab_arkitekturlandskap_segmentarkitektur_datadeling/media/Kapabilitetsområder, datautveksling.png[alt=Kapabilitetsområder, datautveksling image]
 
-Videre nedbryting i detaljerte kapabiliteter og mønstre gjøres i tilknytning til beskrivelsene av referansearkitekturer for datautveksling.
+Det skille videre mellom operative og forvaltningsmessige kapabiliteter, dvs. selve datautvekslingen og det som går på tilrettelegging og vedlikehold.
 
-Her følger en overordnet oversikt over overordnede kapabiliteter og tverrgående temaer som sorterer under området datautveksling. 
+Følgende figur viser en oversiktover de viktigste temaene og kapabilitetene.
 
-NOTE: Noen av de temaene som nevnes her er også aktuelle i andre sammenhenger, og beskrives ved behov i ulike kontekster.   
+//Videre nedbryting i detaljerte kapabiliteter og mønstre gjøres i tilknytning til beskrivelsene av referansearkitekturer for datautveksling.
+
+// Her følger en overordnet oversikt over overordnede kapabiliteter og tverrgående temaer som sorterer under området datautveksling. 
+
+//NOTE: Noen av de temaene som nevnes her er også aktuelle i andre sammenhenger, og beskrives ved behov i ulike kontekster.   
 
 
 
 .Datautveksling - overordnet oversikt over kapabiliteter og temaer 
 image::../nab_arkitekturlandskap_segmentarkitektur_datadeling_datautveklsing/media/Datautveksling - overordnet oversikt over kapabiliteter og temaer .png[alt=Datautveksling - overordnet oversikt over kapabiliteter og temaer  image]
 
-== Referansearkitekturer (arkitektur- og løsningsmønstre)
+////
+= Brukstilfeller
+== Generelt
+== Deling av data på forespørsel
+Innhenting av data ved forespørsel til en eller flere datakilder.
+== Deling av data ved forsendelse
+Forsendelse av data fra en avsender til en eller flere kjente mottakere.
+
+== Deling av data ved publisering
+Publisering av data eller hendelser med løs kopling mellom avsendere og mottakere. 
+////
+
+= Referansearkitekturer for datautveksling
 
 Se link:../nab_referanse_arkitekturer_datautveksling[Referansearkitekturer for datautveksling]
 
 
-== Tverrgående temaer innen datautveksling
+= Tverrgående temaområder innen datautveksling
 
+NOTE: Se også tverrgående temaer under det større området link:../nab_arkitekturlandskap_segmentarkitektur_datadeling[datadeling].
+
+:leveloffset: +1
+
+= Roller involvert i datautveksling
+include::../nab_referanse_arkitekturer_datautveksling/roller-ra-datautveksling.adoc[]
+
+= Avtaleforvaltning
+
+Se link:../nab_arkitekturlandskap_segmentarkitektur_datadeling_avtaleforvaltning/[Avtaleforvaltning]
+
+= Informasjonssikkerhet, tillit og personvern
+Se link:../nab_arkitekturlandskap_segmentarkitektur_datadeling_datasikkerhet[Informasjonssikkerhet, tillit og personvern]
+
+:leveloffset: -1
+
+
+//Her finnes blant annet informasjon om: 
+
+//* Roller involvert i datautveksling
+//* Avtaleforvaltning
+//* Informasjonssikkerhet, tillit og personvern
+//* Standardisering og spesifikasjoner
+//* Feilhåndtering
+
+////
 Merk: Disse temaene er også adressert under det større området _Datadeling_. Her omtales det som gjelder spesielt for _Datautveksling_.
 
 === Roller involvert i datautveksling
@@ -52,12 +94,16 @@ Se ...
 === Standardisering og spesifikasjoner
 TBD.
 
-=== Roller og ansvar innovert i datautveksling
+=== Avtaleforvaltning
 
 Se  link:../nab_arkitekturlandskap_segmentarkitektur_datadeling_avtaleforvaltning/[Avtaleforvaltning]
 
 * Standardisering og spesifikasjoner
 TBD.
+
+////
+
+
 
 
 

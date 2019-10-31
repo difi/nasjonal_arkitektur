@@ -30,8 +30,8 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 // ****************
 ifeval::["{lang}" == "no"]
 
-[.lead]
-TOGAF: _Segment Architecture provides an organizing framework for operational and change activity and allows for direction setting and the development of effective architecture roadmaps at a program or portfolio level._
+// [.lead]
+// TOGAF: _Segment Architecture provides an organizing framework for operational and change activity and allows for direction setting and the development of effective architecture roadmaps at a program or portfolio level._
 
 :leveloffset: +1
 = Introduksjon
