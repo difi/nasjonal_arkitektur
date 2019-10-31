@@ -20,22 +20,27 @@ I link:../kunnskap_bok-dmbok2[DMBOK2)] finnes en videre nedbrytning for hvert om
 Nedbryting av området _Datadeling og integrasjon_ (oversatt fra _Data Integration and Interoperability_ i DMBOK2) er vist i figuren nedenfor. 
 
 
-.Datadeling (DMBOK2)
-image::../nab_arkitekturlandskap_segmentarkitektur_informasjonsforvaltning/media/Datadeling (DMBOK2).png[alt=Datadeling (DMBOK2) image]
+.Datadeling og integrasjon (DMBOK2)
+image::../nab_arkitekturlandskap_segmentarkitektur_datadeling/media/Datadeling og integrasjon (DMBOK2).png[alt=Datadeling og integrasjon (DMBOK2) image]
 
 Legg merke til at det finnes  avhengigheter til en rekke andre områder. _Datadeling og integrasjon_ omfatter her i utgangspunktet ikke f.eks. området _datasikkerhet_, men forutsetter at dette er på plass.
 
 //Vi betrakter ut fra dette <<datadeling,temaområdet Datadeling>> som en del av et større bilde som handler om informasjonforvaltning, både internt i hver enkelt virksomhet og på tvers av virksomheter.
 
-:leveloffset: +1
+
 [#datadeling]
-= Datadeling
-Se 
-link:../nab_arkitekturlandskap_segmentarkitektur_datadeling[datadeling]
+== Datadeling og integrasjon
+Dette er et prioritert område for pågående arbeid (2019). Det finnes foreløpig ikke en streng sammenheng med områdene i DMBOK, men temaområdet dekkes under   
+link:../nab_arkitekturlandskap_segmentarkitektur_datadeling[datadeling] i dette arkitekturbiblioteket.
 
 //include::../nab_arkitekturlandskap_segmentarkitektur_datadeling/main.adoc[]
 
 
-= Andre områder innen informasjonsforvaltning
-Andre områder innen informasjonsforvaltning dekkes inntil videre under link:../nab_arkitekturlandskap_segmentarkitektur_datadeling[datadeling].
+== Andre områder innen informasjonsforvaltning
+Det er inntil videre ikke på plass en streng nedbryting av området _informasjonsforvaltning_. Deler av det totale området dekkes pt. av følgende ressurser:
+
+. Området link:../nab_arkitekturlandskap_segmentarkitektur_datadeling[_datadeling_] i nasjonalt arkitekturbibliotek dekker flere av områdene i DMBOK.
+. https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/nasjonal-arkitektur/informasjonsforvaltning/veiledere-innen-informasjonsforvaltning[Veiledere innen informasjonsforvaltning fra Difi]
+
+
  

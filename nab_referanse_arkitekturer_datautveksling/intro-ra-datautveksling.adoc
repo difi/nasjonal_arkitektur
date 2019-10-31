@@ -24,7 +24,7 @@ Figuren nedenfor introduserer noen  begreper som anses som nyttige og nødvendig
 .Hva er data - grunnleggende konsepter ifm. datautveksling
 image::../nab_referanse_arkitekturer_datautveksling/media/Hva er data for datautveksling.png[alt=Hva er data for datautveksling]
 
-Forskjellen på _Forretningsobjekt_ og _Dataobjekt_ er subtil, men er tatt med fordi vi benytter et modelleringsapparat som gjør det nødvendig å skille. Detaljer rundt dette gis ikke her. Spesielt interesserte kan finne mer om temaet under #[underline]##Modelleringskonvensjoner##.#
+At det gjøres en forskjell på _Forretningsobjekt_ og _Dataobjekt_ følger av aktuelle modlleringsstandarder, men kan ses som mindre viktig her. Spesielt interesserte kan finne mer om temaet under #[underline]##Modelleringskonvensjoner##.#
 
 Data kan samles i _datasett_, som beskrives i form av metadata og datamodeller. 
 

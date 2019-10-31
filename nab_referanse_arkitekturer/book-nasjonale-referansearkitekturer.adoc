@@ -25,39 +25,26 @@ Det legges vekt på å få fram nyttig veiledning, med alt fra gode eksempler ti
 
 Nasjonale referansearkitekturer identifiseres ut fra en link:../nab_arkitekturlandskap[nedbrytning av nasjonal arkitektur i temaområder og kapabiliteter i arkitekturlandskapet]. Både kapabilitetskart og prioriterte referansearkitekurer innen hvert område vil utvikles over tid, etterhvert som en går inn på nye områder. 
 
-Følgende figur viser en  oversikt over områder og referansearkitekturer som så langt dekkes.
+Se også:
 
-//image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _Denne oversikten er i arbeid (høst 2019)_
-
-.Aktuelle referansearkitekturer
-image::../nab_referanse_arkitekturer/media/Aktuelle referansearkitekturer.png[alt=Aktuelle referansearkitekturer image]
-
-NOTE: Referansearkitekturer er også aktuelt for flere andre temaområder, slik som f.eks. identitetsforvaltning og sammenhengende tjenester. 
-
-Relatert informasjon:
-//1. <<../nab_overordnet-metode/book-nab-overordnet-metode.adoc#_grunnleggende_konsepter,Mer bakgrunnsinformasjon om referansearkitekturer>>
-
-////
-== Grunnleggende referansearkitekturer og andre utvalgte eksterne referanser
-:leveloffset: +1
-
-include::../nab_referanse_arkitekturer/grunnleggende-referansearkitekturer.adoc[]
-////
-
-. link:../nab_referanse_arkitekturer/grunnleggende-referansearkitekturer.adoc[Grunnleggende referansearkitekturer]
+. link:../nab_overordnet-metode-om-referansearkitekturer/[Om referansearkitekturer]
 
 . link:../nab_overordnet-metode[Overordnet metode, bakgrunnsinformasjon]
 
 . link:../nab_arkitekturlandskap[Arkitekturlandskap, temaområder og kapabiliteter]
 
-//1. link:../nab_overordnet-metode/grunnleggende-konsepter.adoc[Overordnet metode, bakgrunnsinformasjon]
+. link:../nab_referanse_arkitekturer_grunnleggende/[Grunnleggende referansearkitekturer]
 
-//include::../nab_referanse_arkitekturer/om-referansearkitekturer.adoc[]
+= Aktuelle referansearkitekturer
+Følgende figur viser en  oversikt over områder og referansearkitekturer som så langt dekkes.
 
-////
-= Tilnærming til arbeidet med referansearkitekturer
-include::../nab_referanse_arkitekturer/tilnærming-til-arbeidet-med-referansearkitekturer.adoc[]
-////
+// image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _Denne oversikten er i arbeid (høst 2019)_
+
+.Aktuelle referansearkitekturer
+image::../nab_referanse_arkitekturer/media/Aktuelle referansearkitekturer.png[alt=Aktuelle referansearkitekturer image]
+
+NOTE: Referansearkitekturer er også aktuelt for flere andre temaområder innen nasjonalarkitektur. Planer for dette er under utarbeidelse (høst 2019).
+
 
 ////
 = Funksjonsområder for referansearkitekturer (kapabiliteter)
@@ -66,14 +53,19 @@ include::../nab_referanse_arkitekturer/kapabilitetsområder.adoc[]
 
 
 
+//include::../nab_referanse_arkitekturer_datautveksling/book-ra-datautveksling.adoc[]
+
+Lenker til aktuelle referansearkitekturer og mønstre:
 
 
-= Referansearkitekturer for Datautveksling
-include::../nab_referanse_arkitekturer_datautveksling/book-ra-datautveksling.adoc[]
+1. link:../nab_referanse_arkitekturer_datautveksling/[Referansearkitekturer for datautveksling], herunder
 
-//:leveloffset: -1
+a. link:../nab_referanse_arkitekturer_eoppslag/[eOppslag]
 
-//include::../nab_referanse_arkitekturer/spesifikke-referansearkitekturer.adoc[]
+b. link:../nab_referanse_arkitekturer_emelding[eMelding]
+
+c. link:../nab_referanse_arkitekturer_epublisering[ePublisering]
+
 
 //== Informasjonssikkerhet (felles)
 
@@ -90,6 +82,9 @@ include::deling_forespørsel.adoc[]
 :leveloffset!:
 :leveloffset: +1
 = Tverrgående temaer
+
+Se 
+
 //include::../nab_referanse_arkitekturer_tverrgående_tema/book-tverrgående-tema.adoc[]
 
 ////
