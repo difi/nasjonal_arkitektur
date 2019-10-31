@@ -58,8 +58,13 @@ include::../nab_referanse_arkitekturer/kapabilitetsområder.adoc[]
 Lenker til aktuelle referansearkitekturer og mønstre:
 
 
+1. link:../nab_referanse_arkitekturer_datautveksling/[Referansearkitekturer for datautveksling], herunder
 
-link:../nab_referanse_arkitekturer_datautveksling/[Referansearkitekturer for datautveksling]
+a. link:../nab_referanse_arkitekturer_eoppslag/[eOppslag]
+
+b. link:../nab_referanse_arkitekturer_emelding[eMelding]
+
+c. link:../nab_referanse_arkitekturer_epublisering[ePublisering]
 
 
 //== Informasjonssikkerhet (felles)
