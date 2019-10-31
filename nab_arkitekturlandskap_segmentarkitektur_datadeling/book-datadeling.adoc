@@ -58,6 +58,8 @@ NOTE: Beskrivelsene bygges ut og oppdateres  i tilknytning til løpende prosjekt
 
 = Datautveksling
 
+//#Problem med include nedenfor?# Se link:../nab_arkitekturlandskap_segmentarkitektur_datadeling_datautveklsing\[temaområde datautveksling].
+
 include::../nab_arkitekturlandskap_segmentarkitektur_datadeling_datautveklsing/book-datautveksling.adoc[]
 
 
