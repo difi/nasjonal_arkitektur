@@ -57,7 +57,9 @@ NOTE: Beskrivelsene bygges ut og oppdateres  i tilknytning til løpende prosjekt
 :leveloffset: +1
 
 = Datautveksling
-include::../nab_arkitekturlandskap_segmentarkitektur_datadeling_datautveklsing\book-datautveksling.adoc[]
+
+include::../nab_arkitekturlandskap_segmentarkitektur_datadeling_datautveklsing/book-datautveksling.adoc[]
+
 
 = Informasjonssikkerhet, tillit og personvern
 
