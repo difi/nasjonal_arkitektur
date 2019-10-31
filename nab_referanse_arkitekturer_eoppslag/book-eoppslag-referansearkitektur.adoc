@@ -28,9 +28,9 @@ eOppslag som referansearkitektur gir ingen begrensninger i forhold til  hva slag
 
 Eksempler på bruk:
 
-* Innhenting av data fra en annen virksomhet som ledd i en saksbehandingsprosess.
-* Oppslag i dataregister, f.eks. Folkeregisteret.
-* Innhenting av data innen en virksomhet underveis i en _tverrgående prosess_.
+* Oppslag i et felles dataregister, f.eks. Folkeregisteret.
+* Oppslag av data hos en annen virksomhet .
+* Oppslag av data i egen virksomhet.
 
 
 // Henrik: flytte dette opp et nivå til å gjelde alle mønstrene.

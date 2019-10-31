@@ -6,13 +6,12 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 :leveloffset: +1
 = Introduksjon
+
+== Generelt
 Referansearkitekturer for datautveksling adresserer temaområdet datautveksling i form av arkitektur- og løsningsmønstre. Se  link:../nab_arkitekturlandskap_segmentarkitektur_datadeling_datautveklsing\[temaområde datautveksling] om omfang, tverrgående temaer og annen informasjon som angår dette området.
 
 // include::../nab_referanse_arkitekturer_datautveksling/intro-ra-datautveksling.adoc[]
 
-
-
-link:../kunnskap_tema_arkitekturmønstre[]
 
 //== Overordnet forretningmessig kontekst
 //include::../nab_referanse_arkitekturer_datautveksling/overordnet-forretningsmessig-kontekst.adoc[]
@@ -20,8 +19,45 @@ link:../kunnskap_tema_arkitekturmønstre[]
 //== Strategi
 //TBD.
 
-//== Brukstilfeller
+== Omfang og avgrensing
 //include::../nab_referanse_arkitekturer_datautveksling/brukstilfeller.adoc[]
+
+Omfanget for referansarkitekturer innen datautveksling er i utgangspunktet stort. Foreliggende referansearkitekturer kan ses som start på dette, der en har valgt å fokusere på følgende grunnleggende behov:
+
+* Enkeltvise oppslag i enkeltstående datakilder ved forepørsel-svar. eOppslag dekker dette.
+
+* Enkeltvise overføringer av data fra en avsender til en bestemt mottaker. Dette adresseres av eMelding.
+
+* Publisering av data om enkeltvise hendelser til et ukjent antall ukjente mottakere. ePublisering dekker dette.
+
+
+Videre behov, som foreløpig ikke dekkes, omfatter blant annet:
+
+* Spørringer på tvers av flere datakilder.
+
+* Abonnement på periodisk eller hendelsesbasert oppdatering om endringer eller status. 
+
+* Enkeltvise overføringer av data til flere gitte mottakere.
+
+* Strømming av data om hendelser til et et ukjent antall ukjente mottakere.
+
+* Strømming av tilstandsdata til et et ukjent antall ukjente mottakere.
+
+* Koreografi og orkestrering av meldingsutveksling
+
+* Korrelering av meldinger i prosesser
+
+
+== Brukstilfeller
+
+image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _I arbeid._
+
+#@Erik:Fiks dette...#
+
+* Tverrgående prosess
+* Dataanalyse
+
+ Spesielt om notifikasjon....
 
 
 
@@ -50,15 +86,12 @@ include::../nab_referanse_arkitekturer_datautveksling/generisk-prosess-for-opera
 //NOTE: Prinsipper for datautveksling vil bygge på felles  nasjonale arkitekturprinsipper, som er under revidering høsten 2019.
 
 
-= Arkitekturmønstre
+= Arkitekturmønstre for datautveksling
 
 :leveloffset: +1
 
-Generelt ommønstre
 
 = Mønstre for forepørsel-svar
-:leveloffset: +1
-= Brukstilfeller
 
 
 = eOppslag
