@@ -6,10 +6,13 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 :leveloffset: +1
 = Introduksjon
-Se link:../nab_arkitekturlandskap_segmentarkitektur_datadeling_datautveklsing\[temaområde datautveksling].
+Referansearkitekturer for datautveksling adresserer temaområdet datautveksling i form av arkitektur- og løsningsmønstre. Se  link:../nab_arkitekturlandskap_segmentarkitektur_datadeling_datautveklsing\[temaområde datautveksling] om omfang, tverrgående temaer og annen informasjon som angår dette området.
 
 // include::../nab_referanse_arkitekturer_datautveksling/intro-ra-datautveksling.adoc[]
 
+
+
+link:../kunnskap_tema_arkitekturmønstre[]
 
 //== Overordnet forretningmessig kontekst
 //include::../nab_referanse_arkitekturer_datautveksling/overordnet-forretningsmessig-kontekst.adoc[]
@@ -51,8 +54,13 @@ include::../nab_referanse_arkitekturer_datautveksling/generisk-prosess-for-opera
 
 :leveloffset: +1
 
+Generelt ommønstre
+
 = Mønstre for forepørsel-svar
 :leveloffset: +1
+= Brukstilfeller
+
+
 = eOppslag
 include::../nab_referanse_arkitekturer_eoppslag/book-eoppslag-referansearkitektur.adoc[]
 

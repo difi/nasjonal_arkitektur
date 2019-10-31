@@ -24,18 +24,26 @@ Note: The _lang_ value may be overridden by a command line parameter.
 include::../plattform_felles/includes/commonincludes.adoc[]
 
 
-[.lead]
-Architecture Patterns...
+// [.lead]
+// Architecture Patterns...
 
 ////
 ////
 
+image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _In work (early stage, 2019)._
 
 == Introduction
 //.Figure: Value Stream Modeling Relationships
 //image:../kunnskap_tema_value_streams\media\value-stream-metamodel.png[value-stream-metamodel]
 
-This is a collection of architecture patterns... 
+This is a collection of architecture patterns, and references to information about architecture patterns, to serve as common reference for work with reference architectures and patterns among peers
+
+There are numerous such sources, ranging from ad hoc blogs to extensive books. There are also different types of patterns,such as e.g. software architecture patterns, data exchange patterns or messaging patterns.
+
+It is out of scope here to write a new text book og provide a complete and consistent framework. 
+
+The focus is on the most common and the most relevant patterns with regard to data exchange and integration.
+
 
 
 == Integration Styles
