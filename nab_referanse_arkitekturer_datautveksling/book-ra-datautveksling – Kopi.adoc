@@ -6,9 +6,7 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 :leveloffset: +1
 = Introduksjon
-Se link:../nab_arkitekturlandskap_segmentarkitektur_datadeling_datautveklsing\[temaområde datautveksling].
-
-// include::../nab_referanse_arkitekturer_datautveksling/intro-ra-datautveksling.adoc[]
+include::../nab_referanse_arkitekturer_datautveksling/intro-ra-datautveksling.adoc[]
 
 
 //== Overordnet forretningmessig kontekst
@@ -44,7 +42,7 @@ include::../nab_referanse_arkitekturer_datautveksling/generisk-prosess-for-opera
 //= Aktuelle arkitekturprinsipper
 // TBD. 
 
-//NOTE: Prinsipper for datautveksling vil bygge på felles  nasjonale arkitekturprinsipper, som er under revidering høsten 2019.
+NOTE: Prinsipper for datautveksling vil bygge på felles  nasjonale arkitekturprinsipper, som er under revidering høsten 2019.
 
 
 = Arkitekturmønstre

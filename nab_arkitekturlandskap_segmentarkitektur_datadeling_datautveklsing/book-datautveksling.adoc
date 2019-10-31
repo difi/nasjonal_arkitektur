@@ -5,7 +5,51 @@
 include::../plattform_felles/includes/commonincludes.adoc[]
 
 :leveloffset: +1
-= Overordnet oversikt  
+
+= Introduksjon
+== Hva menes med datautveksling?
+I sammenheng med nasjonale referansearkitekturer for datautveksling omfatter begrepet datautveksling alle former for dataflyt mellom tilbydere og konsumenter, enten det er internt i en virksomhet, mellom virksomheter eller mellom virksomheter og personer. Begrepet omfatter også  
+
+== Hva er _data_ for _datautveksling_?
+
+Det finnes ulike definisjoner av data i forhold til informasjon. 
+
+//I utbredte modelleringsstandarder skilles det også mellom forretningsobjekter og dataobjekter - og det kan videre skilles mellom informasjon og begreper som kunnskap og visdom. Dette kan være forvirrende for mange (også arkitekter).  
+
+I tilknytning til _datautveksling_ er ikke alle distinksjonene nødvendigvis relevante. Så langt det gir mening,   benyttes begrepet _data_ heller enn _informasjon_.
+
+Figuren nedenfor introduserer noen  begreper som anses som nyttige og nødvendige i sammenheng med aktuelle  referansearkitekturer for datautveksling.
+
+// .Hva er data - overordnet konsept
+// image::../nab_referanse_arkitekturer_datautveksling/media/Hva er data - overordnet konsept.png[alt=Hva er data - overordnet konsept image]
+
+
+.Hva er data - grunnleggende konsepter ifm. datautveksling
+image::../nab_referanse_arkitekturer_datautveksling/media/Hva er data for datautveksling.png[alt=Hva er data for datautveksling]
+
+At det gjøres en forskjell på _Forretningsobjekt_ og _Dataobjekt_ følger av aktuelle modlleringsstandarder, men kan ses som mindre viktig her. Spesielt interesserte kan finne mer om temaet under #[underline]##Modelleringskonvensjoner##.#
+
+Data kan samles i _datasett_, som beskrives i form av metadata og datamodeller. 
+
+Data og datasett er å oppfatte som "logiske" definisjoner, uten binding til  representasjon, teknisk løsning eller fysiske forekomster.
+
+Innholdet i datasett ("selve dataene") kan redegjøres for i form av tidsstemplede _øyeblikksbilder_ eller ved  _endringslogger_ ut fra gitte øyeblikksbilder.
+
+Begrepet _datadistrubusjon_ tilsvarer begrepet https://www.w3.org/TR/vocab-dcat/#Class:_Distribution[_distribution_] i DCAT-standarden. Dette kan f.eks. være dokumenter i et dokumentarkiv eller tabeller i en database.
+
+Det er den fysiske forekomsten av data i ulike systemer som må sikres, enten det dreier seg om data som er lagret over tid (data at rest) eller data som finnes midlertidig mellom systemer i en datautveksling (data in motion).
+
+Datautveksling kan skje gjennom felles datalager, men vil uansett omfatte en form for meldingsutveksling (synkront eller asynkront).
+
+Det skilles videre mellom autoritative datasett (masterdata) og avledete data (slavedata). 
+
+NOTE: Det er vanlig å skille mellom mellom data, informasjon og kunnskap. Det gir f.eks. mening å si _informasjonssikkerhet_, mens en snakker om _sikring av data_ for å oppnå _informasjonssikkerhet_. En skiller også gjerne mellom konseptuelle, logiske og fysiske data.
+
+NOTE: Data kan finnes med større eller mindre grad av struktur, og det er en flytende overgang mellom ustrukturerte, semistrukturerte og strukturerte data. Med nyere teknologier innen maskinlæring kan en også tolke og gi struktur og mening til data som en tidligere har definert som ustrukturerte.
+
+NOTE: Det finnes ulik praksis for bruk av begrepet _dokument_. Dette begrepet brukes derfor ikke her, dvs. i sammenheng med referansearkitekturer for datautveksling.  
+
+== Omfang og avgrensing
 
 Datautveksling kan brytes ned i et sett av isolerte områder og kapabiliteter. På øverste nivå skilles det mellom:
 
@@ -53,32 +97,36 @@ Publisering av data eller hendelser med løs kopling mellom avsendere og mottake
 Se link:../nab_referanse_arkitekturer_datautveksling[Referansearkitekturer for datautveksling]
 
 
+
 = Tverrgående temaområder innen datautveksling
 
 NOTE: Se også tverrgående temaer under det større området link:../nab_arkitekturlandskap_segmentarkitektur_datadeling[datadeling].
 
 :leveloffset: +1
 
+= Aktuelle arkitekturprinsipper
+
+NOTE: Prinsipper for datautveksling vil bygge på felles  nasjonale arkitekturprinsipper, som er under revidering høsten 2019
+
+
 = Roller involvert i datautveksling
 include::../nab_referanse_arkitekturer_datautveksling/roller-ra-datautveksling.adoc[]
 
-= Avtaleforvaltning
+= Avtaleforvaltning for datautveksling
+include::../nab_arkitekturlandskap_segmentarkitektur_datadeling_avtaleforvaltning/book-avtaleforvaltning.adoc[]
 
-Se link:../nab_arkitekturlandskap_segmentarkitektur_datadeling_avtaleforvaltning/[Avtaleforvaltning]
+//Se link:../nab_arkitekturlandskap_segmentarkitektur_datadeling_avtaleforvaltning/[Avtaleforvaltning]
 
-= Informasjonssikkerhet, tillit og personvern
-Se link:../nab_arkitekturlandskap_segmentarkitektur_datadeling_datasikkerhet[Informasjonssikkerhet, tillit og personvern]
+= Informasjonssikkerhet
+
+// Se link:../nab_arkitekturlandskap_segmentarkitektur_datadeling_datasikkerhet[Informasjonssikkerhet, tillit og personvern]
+
+include::../nab_arkitekturlandskap_segmentarkitektur_datadeling_datasikkerhet/book-datasikkerhet-tillit-personvern.adoc[]
+
 
 :leveloffset: -1
 
 
-//Her finnes blant annet informasjon om: 
-
-//* Roller involvert i datautveksling
-//* Avtaleforvaltning
-//* Informasjonssikkerhet, tillit og personvern
-//* Standardisering og spesifikasjoner
-//* Feilhåndtering
 
 ////
 Merk: Disse temaene er også adressert under det større området _Datadeling_. Her omtales det som gjelder spesielt for _Datautveksling_.
