@@ -16,7 +16,7 @@ include::../nab_referanse_arkitekturer_enotifikasjon/ra-enotifikasjon-intro.adoc
 == Om eNotifikasjon
 eNotifikasjon er en delmengde av hendelsesdrevet deling av data. Mønsteret forutsetter de samme kapabilitetene som eOppslag for oppsett og utveksling av data. Hendelseslister gjøres tilgjengelig som APIer på samme måte som andre oppslag og benytter tilsvarende mekanismer for tilgangsstyring. Det som derimot kommer i tillegg er kapabilitetene for å generere og tilby notifikasjon fra tilbyder og å innhente og håndtere notifikasjoner for konsument. 
 
-image:../nab_referanse_arkitekturer_enotifikasjon/media/eNotifikasjon kapabiliteter kort.png[alt="Bilde mangler", width=750]
+image:../nab_referanse_arkitekturer_epublisering/media/eNotifikasjon kapabiliteter kort.png[alt="Bilde mangler", width=750]
 
 
 [cols ="1,3", options="header"]
@@ -45,7 +45,7 @@ image:../nab_referanse_arkitekturer_enotifikasjon/media/eNotifikasjon kapabilite
 //image:../nab_referanse_arkitekturer_enotifikasjon/media/Kapabiliteter eNotifikasjon.png[alt="Bilde mangler", width=750]
 
 
-image:../nab_referanse_arkitekturer_enotifikasjon/media/ABB_Generere.png[alt="Bilde mangler", width=600]
+image:../nab_referanse_arkitekturer_epublisering/media/ABB_Generere.png[alt="Bilde mangler", width=600]
 
 
 [cols ="1,3", options="header"]
@@ -76,7 +76,7 @@ image:../nab_referanse_arkitekturer_enotifikasjon/media/ABB_Generere.png[alt="Bi
 |===
 
 
-image:../nab_referanse_arkitekturer_enotifikasjon/media/ABB_Innhente.png[alt="Bilde mangler", width=750]
+image:../nab_referanse_arkitekturer_epublisering/media/ABB_Innhente.png[alt="Bilde mangler", width=750]
 
 [cols ="1,3", options="header"]
 .Elementer i view for Innhente notifikasjoner
