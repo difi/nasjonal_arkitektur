@@ -46,8 +46,9 @@ Forsendelse av data fra en avsender til en eller flere kjente mottakere.
 == Deling av data ved publisering
 Publisering av data eller hendelser med løs kopling mellom avsendere og mottakere. 
 ////
-
+    
 = Referansearkitekturer for datautveksling
+
 
 Se link:../nab_referanse_arkitekturer_datautveksling[Referansearkitekturer for datautveksling]
 
