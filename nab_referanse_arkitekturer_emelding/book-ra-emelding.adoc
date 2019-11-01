@@ -599,6 +599,7 @@ in a trusted interoperabilty community
 === Felles avtaleforvaltning
 Illustrasjon:
 
+
 .Firehjørnersmodellen - forvaltningsmessig
 image::../nab_referanse_arkitekturer_datautveksling_forsendelse/media/Firehjørnersmodellen - forvaltningsmessig.png[alt=Firehjørnersmodellen - forvaltningsmessig image]
 
