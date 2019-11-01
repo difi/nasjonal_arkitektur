@@ -6,7 +6,9 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 :leveloffset: +1
 = Introduksjon
-Se link:../nab_arkitekturlandskap_segmentarkitektur_datadeling_datautveklsing\[temaområde datautveksling].
+
+== Generelt
+Referansearkitekturer for datautveksling adresserer temaområdet datautveksling i form av arkitektur- og løsningsmønstre. Se  link:../nab_arkitekturlandskap_segmentarkitektur_datadeling_datautveklsing\[temaområde datautveksling] om omfang, tverrgående temaer og annen informasjon som angår dette området.
 
 // include::../nab_referanse_arkitekturer_datautveksling/intro-ra-datautveksling.adoc[]
 
@@ -17,10 +19,43 @@ Se link:../nab_arkitekturlandskap_segmentarkitektur_datadeling_datautveklsing\[t
 //== Strategi
 //TBD.
 
-//== Brukstilfeller
+== Omfang og avgrensing
 //include::../nab_referanse_arkitekturer_datautveksling/brukstilfeller.adoc[]
 
+Omfanget for referansarkitekturer innen datautveksling er i utgangspunktet stort. Foreliggende referansearkitekturer kan ses som start på dette, der en har valgt å fokusere på følgende grunnleggende behov:
 
+* Enkeltvise oppslag i enkeltstående datakilder ved forepørsel-svar. eOppslag dekker dette.
+
+* Enkeltvise overføringer av data fra en avsender til en bestemt mottaker. Dette adresseres av eMelding.
+
+* Publisering av data om enkeltvise hendelser til et ukjent antall ukjente mottakere. ePublisering dekker dette.
+
+
+Disse mønstrene er ment som verktøy for å oppnå interoperabilitet og samhandling. 
+
+
+Videre behov og muligheter, som eventuelt vil dekkes etterhvert, omfatter blant annet:
+
+* Spørringer på tvers av flere datakilder.
+
+* Abonnement på periodisk eller hendelsesbasert oppdatering om endringer eller status. 
+
+* Enkeltvise overføringer av data til flere gitte mottakere.
+
+* Strømming av data om hendelser til et et ukjent antall ukjente mottakere.
+
+* Strømming av tilstandsdata til et et ukjent antall ukjente mottakere.
+
+* Koreografi og orkestrering av meldingsutveksling, med støtte for korrelering av meldinger i prosesser
+
+
+
+
+== Leseveiledning
+
+Løsningsarkitekter som vil gå rett på løsningsmønstre som omfatter beskrivelse av aktuelle fellesløsninger, kan...
+
+image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _I arbeid._
 
 ////
 
@@ -47,12 +82,14 @@ include::../nab_referanse_arkitekturer_datautveksling/generisk-prosess-for-opera
 //NOTE: Prinsipper for datautveksling vil bygge på felles  nasjonale arkitekturprinsipper, som er under revidering høsten 2019.
 
 
-= Arkitekturmønstre
+= Arkitekturmønstre for datautveksling
 
 :leveloffset: +1
+
 
 = Mønstre for forepørsel-svar
-:leveloffset: +1
+
+
 = eOppslag
 include::../nab_referanse_arkitekturer_eoppslag/book-eoppslag-referansearkitektur.adoc[]
 

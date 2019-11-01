@@ -14,16 +14,14 @@ Arbeid med prioriterte nasjonale referansearkitekturer er et pågående samarbei
 
 :leveloffset: +1
 = Introduksjon
-Referansearkitekturer gir mønstre og veiledning til utforming av arkitekturer og løsninger innen avgrensede områder.
+Referansearkitekturer gir mønstre og veiledning til utforming av arkitekturer og løsninger innen avgrensede områder. De nasjonale referansearkitekturer adresserer  link:../nab_arkitekturlandskap[temaområder og kapabiliteter i det nasjonale arkitekturlandskapet]. Både kapabilitetskart og referansearkitekurer vil utvikles over tid, etterhvert som en går inn på nye områder.
+
+De nasjonale referansearkitekturene bygger på link:../nab_referanse_arkitekturer/grunnleggende-referansearkitekturer.adoc[Grunnleggende referansearkitekturer] fra EU og amdre kilder, men er tilpasset norske aktører og fellesløsninger. Det gis også referanser til andre kilder. Det finnes mye stoff om arkitekturmønstre i litteraturen, men det dette kan være en jungel å finne fram i, med ulik forståelse av samme begreper eller samme navn på ulike mønstre.
 
 
-De nasjonale referansearkitekturene bygger på link:../nab_referanse_arkitekturer/grunnleggende-referansearkitekturer.adoc[Grunnleggende referansearkitekturer] fra EU og amdre kilder, men er tilpasset norske aktører og fellesløsninger.
+Prioritering av arbeidet og utarbeidelsen av referansearkitekturer gjøres i samarbeid med aktører på tvers av offentlig og privat sektor nasjonalt og internasjonalt. Det legges vekt på å få fram nyttig veiledning, med alt fra gode eksempler til beste praksis og konkrete anbefalinger. 
 
-Prioritering av arbeidet og utarbeidelsen av referansearkitekturer gjøres i samarbeid med aktører på tvers av offentlig og privat sektor nasjonalt og internasjonalt. 
 
-Det legges vekt på å få fram nyttig veiledning, med alt fra gode eksempler til beste praksis og konkrete anbefalinger. 
-
-Nasjonale referansearkitekturer identifiseres ut fra en link:../nab_arkitekturlandskap[nedbrytning av nasjonal arkitektur i temaområder og kapabiliteter i arkitekturlandskapet]. Både kapabilitetskart og prioriterte referansearkitekurer innen hvert område vil utvikles over tid, etterhvert som en går inn på nye områder. 
 
 Se også:
 
@@ -34,6 +32,8 @@ Se også:
 . link:../nab_arkitekturlandskap[Arkitekturlandskap, temaområder og kapabiliteter]
 
 . link:../nab_referanse_arkitekturer_grunnleggende/[Grunnleggende referansearkitekturer]
+ 
+. link:../kunnskap_tema_arkitekturmønstre[Kunnskapsgrunnlag (_kunnskapsverkstedet_)]
 
 = Aktuelle referansearkitekturer
 Følgende figur viser en  oversikt over områder og referansearkitekturer som så langt dekkes.
@@ -81,9 +81,7 @@ include::deling_forespørsel.adoc[]
 
 :leveloffset!:
 :leveloffset: +1
-= Tverrgående temaer
 
-Se 
 
 //include::../nab_referanse_arkitekturer_tverrgående_tema/book-tverrgående-tema.adoc[]
 
