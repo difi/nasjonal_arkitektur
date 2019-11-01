@@ -22,16 +22,14 @@ Referansearkitekturer for datautveksling adresserer temaområdet datautveksling 
 == Omfang og avgrensing
 //include::../nab_referanse_arkitekturer_datautveksling/brukstilfeller.adoc[]
 
-Omfanget for referansarkitekturer innen datautveksling er i utgangspunktet stort. Foreliggende referansearkitekturer kan ses som start på dette, der en har valgt å fokusere på følgende grunnleggende behov:
+Omfanget for referansarkitekturer innen datautveksling er i utgangspunktet stort. Foreliggende referansearkitekturer adresserer 
+følgende grunnleggende behov:
 
 * Enkeltvise oppslag i enkeltstående datakilder ved forepørsel-svar. eOppslag dekker dette.
 
 * Enkeltvise overføringer av data fra en avsender til en bestemt mottaker. Dette adresseres av eMelding.
 
 * Publisering av data om enkeltvise hendelser til et ukjent antall ukjente mottakere. ePublisering dekker dette.
-
-
-Disse mønstrene er ment som verktøy for å oppnå interoperabilitet og samhandling. 
 
 
 Videre behov og muligheter, som eventuelt vil dekkes etterhvert, omfatter blant annet:
@@ -46,14 +44,17 @@ Videre behov og muligheter, som eventuelt vil dekkes etterhvert, omfatter blant 
 
 * Strømming av tilstandsdata til et et ukjent antall ukjente mottakere.
 
-* Koreografi og orkestrering av meldingsutveksling, med støtte for korrelering av meldinger i prosesser
-
+* Standardisert støtte for korrelering av meldinger i tverrgående prosesser.
 
 
 
 == Leseveiledning
 
-Løsningsarkitekter som vil gå rett på løsningsmønstre som omfatter beskrivelse av aktuelle fellesløsninger, kan...
+Det skilles mellom konseptuelle arkitekturbeskrivelser og mer løsningsnære beskrivelser som gir merkonkret veiledning, f.eks. ved å angi bruk av nasjonale felleskomponenter.
+
+De generiske og konseptuelle beskrivelsene kommer først, og kan etterfølges av alternative, mer spesifikk arkitektur- eller løsningsmønstre. 
+
+Løsningsarkitekter som er ute etter praktiske tips, kan velge å gå rett på de mest konkrete beskrivelsene.
 
 image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _I arbeid._
 

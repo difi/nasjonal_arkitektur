@@ -2,7 +2,7 @@
 :doctitle: Temaområde Datadeling 
 :keywords: TBD
 
-:toclevels: 3
+:toclevels: 2
 
 include::../plattform_felles/includes/commonincludes.adoc[]
 
@@ -62,6 +62,7 @@ NOTE: Beskrivelsene bygges ut og oppdateres  i tilknytning til løpende prosjekt
 
 include::../nab_arkitekturlandskap_segmentarkitektur_datadeling_datautveklsing/book-datautveksling.adoc[]
 
+:leveloffset: -1
 
 = Informasjonssikkerhet, tillit og personvern
 
