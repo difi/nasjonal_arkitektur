@@ -1,0 +1,86 @@
+From 626c925f476396dc859f83ab40f187d34a7547e5 Mon Sep 17 00:00:00 2001
+From: erikhag1 <erik.hagen@difi.no>
+Date: Fri, 1 Nov 2019 14:36:59 +0100
+Subject: [PATCH] .
+
+---
+ .../book-ra-emelding.adoc                     | 26 ++++++++++++++-----
+ 1 file changed, 19 insertions(+), 7 deletions(-)
+
+diff --git a/nab_referanse_arkitekturer_emelding/book-ra-emelding.adoc b/nab_referanse_arkitekturer_emelding/book-ra-emelding.adoc
+index 8421942..352c1ef 100644
+--- a/nab_referanse_arkitekturer_emelding/book-ra-emelding.adoc
++++ b/nab_referanse_arkitekturer_emelding/book-ra-emelding.adoc
+@@ -467,11 +467,15 @@ Etter mottak må mottaker følge opp og håndtere innholdet i meldingen.
+ 
+ 
+ 
+-==== Firehjørnersmodellen
+-eMelding slik det er spesifisert i PEPPOL-infrastrukturen benytter en 4-hjørnersmodell hvor meldinger utveksles mellom aksesspunkter.
++== "Firehjørnersmodellen"
++=== Konsept (operativt)
+ 
+-image:../nab_referanse_arkitekturer_emelding/media/figur_aksesspunkt.png[alt="Bilde mangler", width=600]
++eMelding benytter en 4-hjørnersmodell hvor meldinger utveksles mellom aksesspunkter, slik dette er spesifisert i PEPPOL-infrastrukturen
+ 
++// image:../nab_referanse_arkitekturer_emelding/media/figur_aksesspunkt.png[alt="Bilde mangler", width=600]
++
++.Firehjørnersmodellen - operativt
++image::../nab_referanse_arkitekturer_datautveksling_forsendelse/media/Firehjørnersmodellen - operativt.png[alt=Firehjørnersmodellen - operativt image]
+ 
+ 4-hjørnersmodellen er basert på en distribuert modell som tillater kommunikasjon mellom samhandlingsaktører uten behov for bilaterale avtaler ved at man baserer seg på innmelding i et fellesskap.
+ 
+@@ -487,7 +491,7 @@ image:../nab_referanse_arkitekturer_emelding/media/figur_aksesspunkt.png[alt="Bi
+ 
+ I 4-hjørnersmodellen blir hvert aksesspunkt en node i et tillitsfelleskap.
+ 
+-==== Backend-integrasjon
++=== Backend-integrasjon
+ I 4 hjørners modellen er det fleksibilitet gjennom hvordan man velger å integrere aksesspunktet med egen IT-arkitektur og IT-infrastruktur. Sett fra avsenderapplikasjonen er det tre måter å integrere hjørne 1/hjørne 2 og hjørne 3/hjørne 4.
+ 
+ ////
+@@ -510,7 +514,7 @@ Access Point handles the eDelivery of one Backend
+ System.
+ //// 
+ 
+-===== Tett kobling
++==== Tett kobling
+ Avsender applikasjon og aksesspunkt er tett koblet ved at avsender applikasjonen har integrert funksjonaliteten til aksesspunktet. Det blir dermed et en til en forhold mellom aksesspunkt og avsender applikasjonen.
+ 
+ ////
+@@ -524,7 +528,7 @@ One Access Point can handle the eDelivery of
+ several Back-end Systems.
+ ////
+ 
+-===== Semi-tett kobling
++==== Semi-tett kobling
+ Avsender applikasjonen og aksesspunkt er semi-tett koblet ved at back-end og aksesspunkt er løst koblet internt, men del av det samme interne IT-arkitekturen og IT-infrastrukturen. Et aksesspunkt kan håndtere flere avsender applikasjoner.
+ 
+ ////
+@@ -540,7 +544,7 @@ Architecture and Infrastructure of the
+ Service/Cloud provider.
+ ////
+ 
+-===== Løs kobling
++==== Løs kobling
+ Avsender applikasjonen og aksesspunkt er løst koblet og ikke en del av samme interne IT-arkitektur og IT-infrastruktur. Ett aksesspunkt kan håndtere meldingsutveksling for mange avsender applikasjoner fra flere virksomheter.
+ 
+ ////
+@@ -591,6 +595,14 @@ In this 4-Corner Store-and-Forward model, every eDelivery Access Point becomes a
+ in a trusted interoperabilty community
+ ////
+ 
++
++=== Felles avtaleforvaltning
++Illustrasjon:
++
++.Firehjørnersmodellen - forvaltningsmessig
++image::../nab_referanse_arkitekturer_datautveksling_forsendelse/media/Firehjørnersmodellen - forvaltningsmessig.png[alt=Firehjørnersmodellen - forvaltningsmessig image]
++
++
+ == Videre informasjon om eMelding
+ 
+ Videre informasjon og og dokumentasjon om eMelding finnes under https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/nasjonal-arkitektur-old/referansearkitektur-meldingsutveksling-emelding.
+-- 
+2.21.0.windows.1
+

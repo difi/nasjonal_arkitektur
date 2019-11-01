@@ -60,11 +60,18 @@ Lenker til aktuelle referansearkitekturer og mønstre:
 
 1. link:../nab_referanse_arkitekturer_datautveksling/[Referansearkitekturer for datautveksling], herunder
 
-a. link:../nab_referanse_arkitekturer_eoppslag/[eOppslag]
+a. link:../nab_referanse_arkitekturer_datautveksling_forespørsel-svar[Deling av data på forespørsel]
 
-b. link:../nab_referanse_arkitekturer_emelding[eMelding]
 
-c. link:../nab_referanse_arkitekturer_epublisering[ePublisering]
+* link:../nab_referanse_arkitekturer_eoppslag/[eOppslag]
+
+b. link:../nab_referanse_arkitekturer_datautveksling_forsendelse[Deling av data ved forsendelse]
+
+* link:../nab_referanse_arkitekturer_emelding[eMelding]
+
+c. link:../nab_referanse_arkitekturer_datautveksling_publisering[Deling av data ved publisering]
+
+* link:../nab_referanse_arkitekturer_epublisering[ePublisering]
 
 
 //== Informasjonssikkerhet (felles)
