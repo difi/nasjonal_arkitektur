@@ -28,18 +28,48 @@ image::../nab_referanse_arkitekturer_datautveksling_forsendelse/media/Generisk d
 ////
 
 
+= Kapabilitetskart for deling av data ved forsendelse
+
+image:../nab_referanse_arkitekturer_emelding/media/kapabiliteter_forsendelse.png[alt="Bilde mangler", width=750]
+
+
+[cols ="1,3", options="header"]
+.Elementer i view for Kapabiliteter eMelding
+|===
+
+| Element
+| Beskrivelse
+
+| Sending av data
+| Evnen til å sende data til en mottaker.
+
+| Mottak av data
+| Evnene til å motta en melding eller forsendelse fra en avsender.
+
+| Klargjøre for deling av data ved forsendelse
+| Evne til å klargjøre for meldingsutveksling med eksterne parter.
+
+| Mottaker
+| Den som mottar en melding.
+
+| Avsender 
+| Den som sender et brev, en pakke, en e-post, en elektronisk melding, en SMS eller lignende.
+
+|===
+
 = Generisk mønster for meldingsforsendelse
 
-
-.Kapabiliteter for deling av data ved forsendelse
-image::../nab_referanse_arkitekturer_datautveksling_forsendelse/media/Kapabiliteter for deling av data ved forsendelse.png[alt=Kapabiliteter for deling av data ved forsendelse image]
+I sin enkleste form handler dette om realisering av informasjonsflyt nellom avsender og mottaker som dataflyt mellom kommunikasjonsløsningene på hver side, i form av meldingsflyt gjennom underliggende infrastruktur for meldingssutveksling. Dette er illustrert i følgende figur.  
 
 .Generisk meldingsforsendelse
 image::../nab_referanse_arkitekturer_datautveksling_forsendelse/media/Generisk meldingsforsendelse.png[alt=Generisk meldingsforsendelse image]
 
+Det finnes flere mer detaljerte mønstre som bygger på dette.
 
-= Firehjørnersmodellen for meldingsforsendelse
-Tekst...
+
+////
+Firehjørnersmodellen for meldingsforsendelse
+
 
 .Firehjørnersmodellen - operativt
 image::../nab_referanse_arkitekturer_datautveksling_forsendelse/media/Firehjørnersmodellen - operativt.png[alt=Firehjørnersmodellen - operativt image]
@@ -48,6 +78,7 @@ Tekst...
 
 .Firehjørnersmodellen - forvaltningsmessig
 image::../nab_referanse_arkitekturer_datautveksling_forsendelse/media/Firehjørnersmodellen - forvaltningsmessig.png[alt=Firehjørnersmodellen - forvaltningsmessig image]
+////
 
 = eMelding
 include::../nab_referanse_arkitekturer_emelding/book-ra-emelding.adoc[]

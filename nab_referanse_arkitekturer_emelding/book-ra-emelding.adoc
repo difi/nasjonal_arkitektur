@@ -14,6 +14,8 @@ include::../nab_referanse_arkitekturer_emelding/ra-emelding-intro.adoc[]
 include::../nab_referanse_arkitekturer_emelding/krav_eMelding.adoc[]
 ////
 
+
+////
 == Kapabilitetskart - relevante kapabiliteter
 
 
@@ -43,7 +45,7 @@ image:../nab_referanse_arkitekturer_emelding/media/kapabiliteter_forsendelse.png
 | Den som sender et brev, en pakke, en e-post, en elektronisk melding, en SMS eller lignende.
 
 |===
-
+////
 
 
 == Arkitekturmønstre (konseptuelle beskrivelser, kun arkitekturbyggeklosser)
