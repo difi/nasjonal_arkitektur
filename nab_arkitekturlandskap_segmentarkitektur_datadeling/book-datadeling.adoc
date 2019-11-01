@@ -66,16 +66,20 @@ include::../nab_arkitekturlandskap_segmentarkitektur_datadeling_datautveklsing/b
 
 = Informasjonssikkerhet, tillit og personvern
 
+Se under link:../nab_arkitekturlandskap_segmentarkitektur_datadeling_datasikkerhet[informasjonssikkerhet for datautveksling].
+
+////
 Kapabilitetskart for temaområdet Informasjonssikkerhet, tillit og personvern:
 
 .Informasjonssikkerhet, tillit og personvern
 image::../nab_arkitekturlandskap_segmentarkitektur_datadeling/media/Informasjonssikkerhet, tillit og personvern.png[alt=Informasjonssikkerhet, tillit og personvern image]
+////
 
 = Roller og ansvar for datadeling
 
 //include::./roller-datadeling.adoc[]
 
-Se link::../nab_referanse_arkitekturer_datautveksling/[roller involvert i datautveksling].
+Se link:../nab_referanse_arkitekturer_datautveksling/[roller involvert i datautveksling].
 
 Se også link:../nab_arkitekturlandskap_segmentarkitektur_datadeling_avtaleforvaltning/[avtaleforvaltning].
 
