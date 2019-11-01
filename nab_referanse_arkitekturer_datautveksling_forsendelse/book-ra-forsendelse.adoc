@@ -6,19 +6,33 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 :leveloffset: +1
 = Introduksjon
+Området _Deling av data ved forsendelse_ omfatter i hovedsak meldingsforsendelse.
 
+Eksempler på bruk er:
 
+* melding om hendelser og data mellom to kjente parter i tverrgående forretningsprosesser, f.eks. saksbehandlingsprosesser.
+
+* melding om  hendelser og data til datalagringsløsninger
+
+* melding om hendelser og data  til mellomliggende løsninger for dataformidling
+
+////
 = Generisk mønster for dataforsendelse
 
-== Kapabilitetskart
+
 .Kapabiliteter for deling av data ved forsendelse
 image::../nab_referanse_arkitekturer_datautveksling_forsendelse/media/Kapabiliteter for deling av data ved forsendelse.png[alt=Kapabiliteter for deling av data ved forsendelse image]
 
 .Generisk dataforsendelse - operativt
 image::../nab_referanse_arkitekturer_datautveksling_forsendelse/media/Generisk dataforsendelse - operativt.png[alt=Generisk dataforsendelse - operativt image]
+////
 
 
 = Generisk mønster for meldingsforsendelse
+
+
+.Kapabiliteter for deling av data ved forsendelse
+image::../nab_referanse_arkitekturer_datautveksling_forsendelse/media/Kapabiliteter for deling av data ved forsendelse.png[alt=Kapabiliteter for deling av data ved forsendelse image]
 
 .Generisk meldingsforsendelse
 image::../nab_referanse_arkitekturer_datautveksling_forsendelse/media/Generisk meldingsforsendelse.png[alt=Generisk meldingsforsendelse image]

@@ -29,22 +29,20 @@ følgende grunnleggende behov:
 
 * Enkeltvise overføringer av data fra en avsender til en bestemt mottaker. Dette adresseres av eMelding.
 
-* Publisering av data om enkeltvise hendelser til et ukjent antall ukjente mottakere. ePublisering dekker dette.
+* Publisering av data om hendelser til et ukjent antall ukjente mottakere. ePublisering dekker dette.
 
 
 Videre behov og muligheter, som eventuelt vil dekkes etterhvert, omfatter blant annet:
 
 * Spørringer på tvers av flere datakilder.
 
+* Standardisert støtte for korrelering av meldinger i tverrgående prosesser.
+
 * Abonnement på periodisk eller hendelsesbasert oppdatering om endringer eller status. 
 
-* Enkeltvise overføringer av data til flere gitte mottakere.
+* Mer detaljerte mønstre for strømming av data og hendelser til et ukjent antall ukjente mottakere.
 
-* Strømming av data om hendelser til et et ukjent antall ukjente mottakere.
-
-* Strømming av tilstandsdata til et et ukjent antall ukjente mottakere.
-
-* Standardisert støtte for korrelering av meldinger i tverrgående prosesser.
+* Mønstre for publisering av data gjennom felles datalager. 
 
 
 
@@ -56,7 +54,7 @@ De generiske og konseptuelle beskrivelsene kommer først, og kan etterfølges av
 
 Løsningsarkitekter som er ute etter praktiske tips, kan velge å gå rett på de mest konkrete beskrivelsene.
 
-image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _I arbeid._
+//image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _I arbeid._
 
 ////
 
