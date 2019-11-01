@@ -31,7 +31,10 @@ Omfanget for referansarkitekturer innen datautveksling er i utgangspunktet stort
 * Publisering av data om enkeltvise hendelser til et ukjent antall ukjente mottakere. ePublisering dekker dette.
 
 
-Videre behov, som foreløpig ikke dekkes, omfatter blant annet:
+Disse mønstrene er ment som verktøy for å oppnå interoperabilitet og samhandling. 
+
+
+Videre behov og muligheter, som eventuelt vil dekkes etterhvert, omfatter blant annet:
 
 * Spørringer på tvers av flere datakilder.
 
@@ -43,23 +46,16 @@ Videre behov, som foreløpig ikke dekkes, omfatter blant annet:
 
 * Strømming av tilstandsdata til et et ukjent antall ukjente mottakere.
 
-* Koreografi og orkestrering av meldingsutveksling
-
-* Korrelering av meldinger i prosesser
+* Koreografi og orkestrering av meldingsutveksling, med støtte for korrelering av meldinger i prosesser
 
 
-== Brukstilfeller
+
+
+== Leseveiledning
+
+Løsningsarkitekter som vil gå rett på løsningsmønstre som omfatter beskrivelse av aktuelle fellesløsninger, kan...
 
 image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _I arbeid._
-
-#@Erik:Fiks dette...#
-
-* Tverrgående prosess
-* Dataanalyse
-
- Spesielt om notifikasjon....
-
-
 
 ////
 
