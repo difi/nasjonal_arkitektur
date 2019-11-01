@@ -62,8 +62,9 @@ En annen type representant er databehandler i betydningen representant for behan
 
 == Tiltrodde tredjeparter
 
+
 .Tiltrodde tredjeparter
-image::../nab_referanse_arkitekturer_datautveksling/media/Tiltrodde tredjeparter.png[alt=Tiltrodde tredjeparter image]
+image::../nab_arkitekturlandskap_segmentarkitektur_datadeling_roller/media/Tiltrodde tredjeparter.png[alt=Tiltrodde tredjeparter image]
 
 [cols ="1,3", options="header"]
 .Elementer i view for Tiltrodde tredjeparter
@@ -73,16 +74,16 @@ image::../nab_referanse_arkitekturer_datautveksling/media/Tiltrodde tredjeparter
 | Beskrivelse
 
 | Identitetsleverandør
-| 
+| F.eks. ID-porten.
+
+| Tiltrodd tredjepart (TTP)
+| Samlebetegnelse på aktører som yter en eller flere sikkerhetstjenester, og som to, for hverandre ukjente, kommuniserende parter har tiltro til. TTP-ens rolle er å øke tiltroen til at meldinger og transaksjoner overføres til den tilsiktede mottaker til rett sted og på en korrekt måte. I tilfelle tvister skal det finnes metoder for å generere bevis.
 
 | Avtaleforvalter
-| Felleskapsforvalter
-
-| Tiltrodd tredjepart
-| 
+| En separat avtaleforvalter vedlikeholder samhandlingsspesifikasjoner på vegne av samhandlingsaktørene og oppretter samhandlingsavtaler som et mellomledd mellom aktørene. Dette reduserer det totale antallet samhandlingsavtaler vesentlig, og kan gi større fleksibilitet når det gjelder mulige  samhandlingsparter.
 
 | Sertifikatutsteder
-| 
+| Utsteder av SSL-sertifkat eller tilsvarende. Eksempel: Buypass.
 
 |===
 
