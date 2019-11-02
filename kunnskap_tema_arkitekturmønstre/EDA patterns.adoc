@@ -35,7 +35,10 @@ ifeval::["{lang}" == "en"]
 
 See link:../kunnskap_tema_arkitekturparadigmer[Arkitekturparadigmer]
 
-or rather <<../kunnskap_tema_arkitekturparadigmer/event-driven-architecture.adoc#event-driven,Event-Driven>>
+or rather 
+<<../kunnskap_tema_arkitekturparadigmer/event-driven-architecture.adoc#event-driven,Event-Driven>>
+
+<<../kunnskap_tema_arkitekturparadigmer#event-driven,Event-Driven>>
 
 
 = Pattern: 

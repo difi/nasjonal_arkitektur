@@ -78,10 +78,12 @@ When completed, the financial system may place a new message on the bus, which c
 
 
 
-== EDA patterns
+== Patterns for Event-Driven Architecture (EDA)
 :leveloffset: +1
+
 include::EDA patterns.adoc[]
-:leveloffset: -1
+
+:leveloffset!:
 
 
 == Top 5 Data integration patterns, ref. Mulesoft
