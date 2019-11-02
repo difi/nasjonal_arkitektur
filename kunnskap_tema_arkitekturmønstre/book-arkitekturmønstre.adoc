@@ -77,6 +77,13 @@ On the financial system side, the message being placed on the bus triggers and e
 When completed, the financial system may place a new message on the bus, which could be consumed by the original system. In this case, it might be related to unique transaction information to append to the original request for auditor validation purposes.
 
 
+
+== EDA patterns
+:leveloffset: +1
+include::EDA patterns.adoc[]
+:leveloffset: -1
+
+
 == Top 5 Data integration patterns, ref. Mulesoft
 
 === Migration (Mulesoft)
