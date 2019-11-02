@@ -166,9 +166,12 @@ NOTE: Det skilles her mellom begrepene _referansearkitur_ og _arkitekturmønster
 
 
 . link:../kunnskap_tema_arkitekturmønstre[Utbredte patterns]
-. link:../kunnskap_tema_arkitekturmønstre[Utbredte patterns]
 
-kunnskap_arkitekturparadigme
+== Arkitekturparadigmer
+. link:../kunnskap_arkitekturparadigme[Arkitekturparadigmer]
+
+<<../kunnskap_tema_arkitekturparadigmer/event-driven-architecture.adoc#intro,Event-Driven Architecture>>
+
 kunnskap_arkitekturparadigme_soa
 kunnskap_arkitekturparadigme_eda
 kunnskap_arkitekturparadigme_microservices

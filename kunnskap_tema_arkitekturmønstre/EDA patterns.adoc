@@ -35,7 +35,7 @@ ifeval::["{lang}" == "en"]
 
 See link:../kunnskap_tema_arkitekturparadigmer[Arkitekturparadigmer]
 
-or rather <<../kunnskap_tema_arkitekturparadigmer/book-event-driven-architecture.adoc#event-driven,Event-Driven>>
+or rather <<../kunnskap_tema_arkitekturparadigmer/event-driven-architecture.adoc#event-driven,Event-Driven>>
 
 
 = Pattern: 
@@ -66,7 +66,7 @@ image:../nab_referanse_maler_asciidoc-book-basic/media/sample-image.png[]
 endif::[]
 
 // ****************
-endif::[]
+// endif::[]
 
 
     
