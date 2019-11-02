@@ -35,25 +35,25 @@ ifeval::["{lang}" == "en"]
 
 See link:../kunnskap_tema_arkitekturparadigmer[Arkitekturparadigmer]
 
-or rather 
 <<../kunnskap_tema_arkitekturparadigmer/event-driven-architecture.adoc#event-driven,Event-Driven>>
 
-<<../kunnskap_tema_arkitekturparadigmer#event-driven,Event-Driven>>
 
-
-= Pattern: 
-
-. link:https://martinfowler.com/articles/201701-event-driven.html[2017 blog article by MartinFowler: What do you mean by “Event-Driven”? ]
-
-
-. https://medium.com/@hugo.oliveira.rocha/what-they-dont-tell-you-about-event-sourcing-6afc23c69e9a[What they don’t tell you about event sourcing]
-
+= Pattern:Event Sourcing
 
 . https://martinfowler.com/eaaDev/EventSourcing.html[Event Sourcing (architecure pattern)]
 +
 Capture all changes to an application state as a sequence of events.
 
+
+Also see: 
+. link:https://martinfowler.com/articles/201701-event-driven.html[2017 blog article by MartinFowler: What do you mean by “Event-Driven”? ]
+
+. https://medium.com/@hugo.oliveira.rocha/what-they-dont-tell-you-about-event-sourcing-6afc23c69e9a[What they don’t tell you about event sourcing]
+
+= Pattern: CQRS
 https://martinfowler.com/bliki/CQRS.html
+http://udidahan.com/2009/12/09/clarified-cqrs/
+
 
 endif::[]
 // ****************

@@ -168,10 +168,10 @@ NOTE: Det skilles her mellom begrepene _referansearkitur_ og _arkitekturmønster
 . link:../kunnskap_tema_arkitekturmønstre[Utbredte patterns]
 
 == Arkitekturparadigmer
-. link:../kunnskap_arkitekturparadigmer[Arkitekturparadigmer]
-. link:../kunnskap_arkitekturparadigmer[Arkitekturparadigmer]
 
-link:../kunnskap_tema_arkitekturparadigmer/event-driven-architecture.adoc[Event-Driven Architecture]
+include::../kunnskap_arkitekturparadigmer/main.adoc[]
+//. link:../kunnskap_arkitekturparadigmer[Arkitekturparadigmer]
+
 
 <<../kunnskap_tema_arkitekturparadigmer/event-driven-architecture.adoc#intro,Event-Driven Architecture, Intro>>
 

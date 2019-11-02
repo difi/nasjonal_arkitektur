@@ -1,1 +1,1 @@
-include::book-arkitekturparadigmer.adoc[]
+include::book-architecture-paradigms.adoc[]
