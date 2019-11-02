@@ -14,9 +14,9 @@ Note: The _lang_ value maybe overridden by a command line parameter.
 
 :lang: en
 :difi_orig_language: en
-:doctitle_en: Layered pattern
+:doctitle_en: Patterns for Event-Driven Architecture (EDA)
 :doctitle_no: Norsk dokumenttittel
-:difi_translation_status: incomplete
+:difi_translation_status: -
 :keywords_en: TBD
 :keywords_no: TBD
 :difi_doctype: Template Article
@@ -30,26 +30,27 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 // ****************
 ifeval::["{lang}" == "en"]
 
-Source: https://towardsdatascience.com/10-common-software-architectural-patterns-in-a-nutshell-a0b47a1e9013
+:leveloffset: +1
+= Introduction - what do you mean by Event-Driven?
 
-This pattern can be used to structure programs that can be decomposed into groups of subtasks, each of which is at a particular level of abstraction. Each layer provides services to the next higher layer.
+See link:../kunnskap_tema_arkitekturparadigmer[Arkitekturparadigmer]
 
-The most commonly found 4 layers of a general information system are as follows.
-
-    Presentation layer (also known as UI layer)
-    Application layer (also known as service layer)
-    Business logic layer (also known as domain layer)
-    Data access layer (also known as persistence layer)
-
-Usage:
-
-    * General desktop applications.
-    * E commerce web applications.
+or rather <<../kunnskap_tema_arkitekturparadigmer/book-event-driven-architecture.adoc#event-driven,Event-Driven>>
 
 
-.Layered pattern
-image::../kunnskap_tema_arkitekturmønstre\media/10, Layered pattern.png[]
+= Pattern: 
 
+. link:https://martinfowler.com/articles/201701-event-driven.html[2017 blog article by MartinFowler: What do you mean by “Event-Driven”? ]
+
+
+. https://medium.com/@hugo.oliveira.rocha/what-they-dont-tell-you-about-event-sourcing-6afc23c69e9a[What they don’t tell you about event sourcing]
+
+
+. https://martinfowler.com/eaaDev/EventSourcing.html[Event Sourcing (architecure pattern)]
++
+Capture all changes to an application state as a sequence of events.
+
+https://martinfowler.com/bliki/CQRS.html
 
 endif::[]
 // ****************
