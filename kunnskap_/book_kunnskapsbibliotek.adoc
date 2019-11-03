@@ -162,19 +162,22 @@ TBD: Vurder omtale av arkitekturer og referansearkitekturer fra eHelse m.m.
 === Organisasjonsspesifikke referansearkitekturer (Organization-Specific Architectures)
 
 == Arkitekturparadigmer
+:leveloffset: +1
+include::../kunnskap_tema_arkitekturparadigmer/book-architecture-paradigms.adoc[]
 
-//include::../kunnskap_tema_arkitekturparadigmer/book-architecture-paradigms.adoc[]
-
-Se link:../kunnskap_tema_arkitekturparadigmer[Arkitekturparadigmer].
+// Se link:../kunnskap_tema_arkitekturparadigmer[Arkitekturparadigmer].
 //<<../kunnskap_tema_arkitekturparadigmer/event-driven-architecture.adoc#intro,Event-Driven Architecture, Intro>>
 
+:leveloffset!:
 
 == Patterns (arkitekturmønstre)
 
-NOTE: Det skilles her mellom begrepene _referansearkitur_ og _arkitekturmønster_. Begrepet _design pattern_ har eksistert lenge, mens begrepet _architecture pattern_ ikke er like innarbeidet (2019). Mange bruker også begrepene _referansearkitur_ og _arkitekturmønster_ om hverandre. Her henger vi oss ikke mer opp i det,men går rett på sak med å liste og beskrive de mest aktuelle arkitekturmønstrene.
+:leveloffset: +1
 
 Se link:../kunnskap_tema_arkitekturmønstre[Patterns]
+include::../kunnskap_tema_arkitekturmønstre/book-arkitekturmønstre.adoc[]
 
+:leveloffset!:
 
 == Internasjonale aktører og aktiviteter 
 === EU 

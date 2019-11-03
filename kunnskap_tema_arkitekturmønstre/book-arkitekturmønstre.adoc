@@ -44,6 +44,8 @@ It is out of scope here to write a new text book og provide a complete and consi
 
 The focus is on the most common and the most relevant patterns with regard to data exchange and integration.
 
+//NOTE: Det skilles her mellom begrepene _referansearkitur_ og _arkitekturmønster_. Begrepet _design pattern_ har eksistert lenge, mens begrepet _architecture pattern_ ikke er like innarbeidet (2019). Mange bruker også begrepene _referansearkitur_ og _arkitekturmønster_ om hverandre. Her henger vi oss ikke mer opp i det,men går rett på sak med å liste og beskrive de mest aktuelle arkitekturmønstrene.
+
 
 
 == Integration Styles
