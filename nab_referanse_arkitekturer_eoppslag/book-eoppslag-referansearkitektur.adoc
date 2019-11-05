@@ -275,20 +275,23 @@ image:../nab_referanse_arkitekturer_eoppslag/media/ABB_Innhente.png[alt="Bilde m
 | Element
 | Beskrivelse
 
+| Adressetjeneste
+| Tjeneste som gir mulighet til å slå opp teknisk endepunkt
+
+| Tokentjeneste
+| Tjeneste som utsteder sikkerhetsbilletter. Sikkerhetsbillett utstedes basert på tildelte rettigheter og eventuelle representasjonsforhold.
+
 | Innhente data
 | Evnen til å innhente data fra en annen aktør.
-
-| Konsument
-| Den som konsumerer data.
 
 | Forespørsel om data
 | Forespørsel om data med parametetere i forespørselen, sikkerhetsbillett mv.
 
+| Datautvekslings-tjeneste
+| Tjeneste for utveksling av data. Samme som data exchange service. Benyttes av avsender og mottaker for transport av meldinger.
+
 | Slå opp data gjennom et API 
 | Prosessen med lå opp og hente data gjennom et API.
-
-| Hent teknisk endepunkt ved behov
-| Prosessen å slå opp den tekniske adressen til et API før spørring mot API-et. Gjøres kun dersom det er nødvendig.
 
 | Be om tilgangstoken
 | Prosessen med å benytte en sikkerhetsbillettjeneste for hente en sikkerhetsbillett som gir tilgang til et API. Dette forutsetter at alt er registert og satt opp riktig mot de aktuelle tjenestene.
@@ -296,16 +299,21 @@ image:../nab_referanse_arkitekturer_eoppslag/media/ABB_Innhente.png[alt="Bilde m
 | Utfør tjenestekall
 | Prosessen med å benytte (gjøre et oppslag mot) et eksternt API.
 
-| Datautvekslings-tjeneste
-| Tjeneste for utveksling av data. Benyttes av avsender/tilbyder og mottaker/konsument for transport av data.
+| Hent teknisk endepunkt ved behov
+| Prosessen å slå opp den tekniske adressen til et API før spørring mot API-et. Gjøres kun dersom det er nødvendig.
 
-| Adressetjeneste
-| Tjeneste som gir mulighet til å slå opp teknisk endepunkt
+| Innhent samtykke ved behov
+| Prosess for å innhente samtykke fra person eller virksomhet som grunnlag for å innhente data. Dette gjøres kun ved behov.
 
-| Tokentjeneste
-| Tjeneste som utsteder sikkerhetsbilletter. Sikkerhetsbillett utstedes basert på tildelte rettigheter og eventuelle representasjonsforhold.
+| Datakonsument
+| Den som innhenter eller mottar data fra andre aktører.
+
+| Samtykkeregistererings-tjeneste
+| Tjeneste for å innhente samtykke fra den registrert som dataene gjelder. Dette kan være en person eller en virksomhet.
 
 |===
+
+
 
 ==== Avgi forespurte data
 Avgi forespurte data er det tilbyder av data må gjøre for å svare på en forespørsel. Prosessen kontrollere tilgang gjøres kun dersom det er enakk om å avgi data gjennom et sikret API.
@@ -567,36 +575,34 @@ Når en konsumet skal slå opp data gjennom et API benyttes Maskinporten for å 
 
 image:../nab_referanse_arkitekturer_eoppslag/media/SBB_Innhente.png[alt="Bilde mangler", width=750,link=https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/e7e6c527-26f4-461c-b4dd-651fcbe85c8d/views/8d72be4b-7e31-438d-9990-c2c3f38f551e.html]
 
+
 [cols ="1,3", options="header"]
-.Elementer i view for Innhente data - løsningsmønster (copy)
+.Elementer i view for Innhente data - løsningsmønster
 |===
 
 | Element
 | Beskrivelse
 
-| Virksomhetssertifikat
-| En virksomhets elektroniske ID. Benyttes for å autentisere virksomheten overfor tokentjenesten.
-
-| Altinn autorisasjon
-| Autorisasjonskomponenten i Altinn som gir muligheter til å delegere rettigheter til andre organisasjoner eller personer. Rettigheter til bruk av autorisasjonskomponenten baserer seg på registrerte roller i Enhetsregisteret.
-
 | Maskinporten
 | Fellesløsning for API-sikring ved bruk av OAUTH2-tokens.
 
-| Oppslag representasjons-forhold
-| Tjeneste som benyttes av tokentjenesten for å kontrollere om det foreligger et delegert representasjonsforhold fra konsument til leverendør i autorisasjonstjenesten til Altinn.
+| Datakonsument
+| Den som innhenter eller mottar data fra andre aktører.
 
-| Tilganger konsument
-| Oversikt over hvilke API og OAUTH-scopes en virksomhet (representert ved organisasjonsnummer) skal ha tilgang til (utstedt token for).
+| Tokentjeneste
+| Tjeneste som utsteder sikkerhetsbilletter. Sikkerhetsbillett utstedes basert på tildelte rettigheter og eventuelle representasjonsforhold.
 
-| Felles API-katalog
-| Del av Felles datakatalog som gir mulighet for å søke etter API-er og lese API-spesifikasjoner https://fellesdatakatalog.brreg.no/apis
+| Virksomhetssertifikat
+| En virksomhets elektroniske ID. Benyttes for å autentisere virksomheten overfor tokentjenesten.
 
 | Innhente data
 | Evnen til å innhente data fra en annen aktør.
 
-| Konsument
-| Den som konsumerer data.
+| Endepunkt (adresse)
+| Teknisk adresse til et API eller ressurs
+
+| Oppslag representasjons-forhold
+| Tjeneste som benyttes av tokentjenesten for å kontrollere om det foreligger et delegert representasjonsforhold fra konsument til leverendør i autorisasjonstjenesten til Altinn.
 
 | Slå opp data gjennom et API 
 | Prosessen med lå opp og hente data gjennom et API.
@@ -610,19 +616,35 @@ image:../nab_referanse_arkitekturer_eoppslag/media/SBB_Innhente.png[alt="Bilde m
 | Utfør tjenestekall
 | Prosessen med å benytte (gjøre et oppslag mot) et eksternt API.
 
-| Datautvekslings-tjeneste
-| Tjeneste for utveksling av data. Benyttes av avsender/tilbyder og mottaker/konsument for transport av data.
+| Innhent samtykke ved behov
+| Prosess for å innhente samtykke fra person eller virksomhet som grunnlag for å innhente data. Dette gjøres kun ved behov.
 
-| Endepunkt (adresse)
-| Teknisk adresse til et API eller ressurs
+| Tilganger konsument
+| Oversikt over hvilke API og OAUTH-scopes en virksomhet (representert ved organisasjonsnummer) skal ha tilgang til (utstedt token for).
+
+| Altinn autorisasjon
+| Autorisasjonskomponenten i Altinn som gir muligheter til å delegere rettigheter til andre organisasjoner eller personer. Rettigheter til bruk av autorisasjonskomponenten baserer seg på registrerte roller i Enhetsregisteret.
+Altinn autorisasjon leverer også tjenester for å registrere og kontrollere samtykke gitt av person eller virksomhet.
+
+| Felles API-katalog
+| Del av Felles datakatalog som gir mulighet for å søke etter API-er og lese API-spesifikasjoner https://fellesdatakatalog.brreg.no/apis
 
 | Adressetjeneste
 | Tjeneste som gir mulighet til å slå opp teknisk endepunkt
 
-| Tokentjeneste
-| Tjeneste som utsteder sikkerhetsbilletter. Sikkerhetsbillett utstedes basert på tildelte rettigheter og eventuelle representasjonsforhold.
+| Datautvekslings-tjeneste
+| Tjeneste for utveksling av data. Samme som data exchange service. Benyttes av avsender og mottaker for transport av meldinger.
+
+| Samtykkeregistererings-tjeneste
+| Tjeneste for å innhente samtykke fra den registrert som dataene gjelder. Dette kan være en person eller en virksomhet.
+
+| Altinn autorisasjon
+| Autorisasjonskomponenten i Altinn som gir muligheter til å delegere rettigheter til andre organisasjoner eller personer. Rettigheter til bruk av autorisasjonskomponenten baserer seg på registrerte roller i Enhetsregisteret.
+Altinn autorisasjon leverer også tjenester for å registrere og kontrollere samtykke gitt av person eller virksomhet.
 
 |===
+
+
 
 
 ==== Avgi data
