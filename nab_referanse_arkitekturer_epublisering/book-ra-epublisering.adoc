@@ -10,7 +10,7 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _I arbeid (høst 2019)_
 
 //== Introduksjon
-include::../nab_referanse_arkitekturer_enotifikasjon/ra-enotifikasjon-intro.adoc[]
+// include::../nab_referanse_arkitekturer_enotifikasjon/ra-enotifikasjon-intro.adoc[]
 
 
 == Om ePublisering
