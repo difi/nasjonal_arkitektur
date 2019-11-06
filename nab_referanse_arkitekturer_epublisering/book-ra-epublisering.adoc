@@ -4,17 +4,18 @@
 
 include::../plattform_felles/includes/commonincludes.adoc[]
 
-[.lead]
-ePublisering er en referansearkitektur for asynkron publisering av informasjon.
+//[.lead]
+//ePublisering er en referansearkitektur for asynkron publisering av informasjon.
 
 image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _I arbeid (høst 2019)_
 
-== Introduksjon
+//== Introduksjon
 include::../nab_referanse_arkitekturer_enotifikasjon/ra-enotifikasjon-intro.adoc[]
 
 
 == Om ePublisering
-ePublisering er en delmengde av deling av data ved publisering. Mønsteret forutsetter de samme kapabilitetene som eOppslag for oppsett og utveksling av data. Hendelseslister gjøres tilgjengelig som APIer på samme måte som andre oppslag og benytter tilsvarende mekanismer for tilgangsstyring. Det som derimot kommer i tillegg er kapabilitetene for å generere og tilby notifikasjon fra tilbyder og å innhente og håndtere notifikasjoner for konsument. 
+
+ePublisering er et arkitekturmønster under området _deling av data ved publisering_. Mønsteret forutsetter de samme kapabilitetene som eOppslag for oppsett og utveksling av data. Hendelseslister gjøres tilgjengelig som APIer på samme måte som andre oppslag og benytter tilsvarende mekanismer for tilgangsstyring. Det som  kommer i tillegg er kapabiliteter for å generere og tilby notifikasjon (tilbydere), samt å innhente og håndtere notifikasjoner (konsumenter). 
 
 == Kapabilitetskart publisering
 
