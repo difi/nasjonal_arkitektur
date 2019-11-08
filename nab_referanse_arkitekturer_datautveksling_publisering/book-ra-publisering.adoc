@@ -9,17 +9,17 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _I arbeid (høst 2019)_
 
 = Introduksjon
-Publisering.... en til mange... ukjente mottakere...
+Referansearkitekturer for publisering omfatter mønstre for deling av hendelser med flere ukjente konsumenter.
 
-NB: Skift navn til eStrømming?
+Eksempler på anvendelse er:  
 
-
-strømming generelt
-
-iot
-
-kafka/strømming av hendelser
+* notifikasjoner om enkeltvise hendelser  
+* strømming av iot-data
+* strømming av hendelser i tilknytning til vedtak i saksbehandling
 
 
+= Aktuelle mønstre
+
+:leveloffset: +1
 = ePublisering
 include::../nab_referanse_arkitekturer_epublisering/book-ra-epublisering.adoc[]
