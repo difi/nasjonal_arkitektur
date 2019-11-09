@@ -19,7 +19,7 @@ Referansearkitekturer gir mønstre og veiledning til utforming av arkitekturer o
 De nasjonale referansearkitekturene bygger på link:../nab_referanse_arkitekturer/grunnleggende-referansearkitekturer.adoc[Grunnleggende referansearkitekturer] fra EU og andre kilder, men er tilpasset norske aktører og fellesløsninger. Det gis også referanser til andre kilder. Det finnes mye stoff om arkitekturmønstre i litteraturen, men dette kan være en jungel å finne fram i, med ulik forståelse av samme begreper eller samme navn på ulike mønstre.
 
 
-Prioritering av arbeidet og utarbeidelsen av referansearkitekturer gjøres i samarbeid med aktører på tvers av offentlig og privat sektor nasjonalt og internasjonalt. Det legges vekt på å få fram nyttig veiledning, med alt fra gode eksempler til beste praksis og konkrete anbefalinger. 
+Prioritering av arbeidet og utarbeidelsen av referansearkitekturer gjøres i samarbeid med aktører på tvers av offentlig og privat sektor nasjonalt og internasjonalt. Det legges vekt på å få fram nyttig veiledning, med alt fra gode eksempler til beste praksis og konkrete anbefalinger.  
 
 
 
