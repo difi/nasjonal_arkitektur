@@ -1,3 +1,9 @@
+:lang: no
+:doctitle: Struktur beskrivelser
+:keywords: Referansearkitekturer
+
+include::../plattform_felles/includes/commonincludes.adoc[]
+
 == Dokumentstruktur
 De tre samhandlingsmønstre er beskrevet med en liknende oppbygning. 
 
