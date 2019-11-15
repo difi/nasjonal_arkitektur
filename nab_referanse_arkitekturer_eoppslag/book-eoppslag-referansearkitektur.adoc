@@ -33,7 +33,8 @@ Eksempler på bruk:
 * Oppslag av data i egen virksomhet.
 
 
-// Henrik: flytte dette opp et nivå til å gjelde alle mønstrene.
+//// 
+//Flyttet til eget 
 
 == Dokumentstruktur
 Det gis først en overordnet beskrivelse av kapabilitetene som er relevante for eOppslag. Deretter beskrives realiseringen av hver kapabilitet gjennom modeller for rene arkitekturmønstre (uten kobling til spesifikke løsninger) og løsningsmønstre som angir god praksis for bruk av _nasjonale fellesløsninger_).
@@ -46,7 +47,7 @@ Selve beskrivelsene er basert på modeller i henhold til Archimate-standarden.
 
 I den tekstlige beskrivelsen her, er modellene vist som figurer. Hvert modellelement er beskrevet i tabeller for hver figur, eventuelt med henvisning til overordnet eller forutgående figur. Det er også publisert klikkbare Archimate-modeller under https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/. Disse fungerer godt, med bare  noen få ekstra klikk for å komme fram til de aktuelle modellene for eOppslag. De aktuelle modellene kan også nås gjennom hyperlenking fra figurene her, men brukergrensesnittet er da mindre hensiktsmessig (nye vinduer eller faner for hvert klikk).   
 
-
+////
 
 == Kapabilitetskart - relevante kapabiliteter
 Modellen under viser hovedinndelingen i kapabiliteter en tilbyder og en konsument må ha for å dele data gjennom tilgangsstyrte API-er. Dette er en delmengde av det større området som omhandler _Deling av data på forespørsel_. 
@@ -109,11 +110,15 @@ NOTE: Mer informasjon om kapabilitetskart og nedbrytingen av overordnede temaomr
 
 == Arkitekturmønstre (konseptuelle beskrivelser, kun arkitekturbyggeklosser)
 
-I dette kapittelet beskrives kapabilitetene som inngår i eOppslag. De er detaljert ved prosessteg som realiserer kapabiliteten. Det vil si at kan du gjennomføre prosesstegene innehar du evnen kapabiliteten beskriver. Det er også identifisert hvilke generiske fellestjenester det er behov for å ha for å støtte prosesstegene. 
+I dette kapittelet beskrives kapabilitetene som inngår i eOppslag. 
+
+////
+De er detaljert ved prosessteg som realiserer kapabiliteten. Det vil si at kan du gjennomføre prosesstegene innehar du evnen kapabiliteten beskriver. Det er også identifisert hvilke generiske fellestjenester det er behov for å ha for å støtte prosesstegene. 
+////
 
 Beskrivelsene er forsøkt å holde helt generisk uten å peke til noen løsning og det vil dermed kunne være flere måter å realisere de ulike elementene på.
 
-
+////
 === Hvordan lese modellene
 Modellene viser hvilke roller som innehar den respektive kapabiliten og er involvert i prosessene. Prosessene realiserer kapabiliteten og tjenester med tilhørende sentrale informasjonselementer støtter opp om prosessene.
 
@@ -125,7 +130,7 @@ De grunnleggende elementene i modellene forklares i denne figuren:
 
 
 image:../nab_referanse_arkitekturer_eoppslag/media/Forklaring prosess.png[alt="Bilde mangler", width=500, link=https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/e7e6c527-26f4-461c-b4dd-651fcbe85c8d/views/65254811-97bc-4c11-b5c2-2fda4c4dc3fe.html]
-
+////
 
 === Klargjøring for _deling av data på forespørsel_
 
@@ -385,6 +390,7 @@ Beskrivelsen under viser hvordan den generiske arkitekturen i det foregående ka
 
 Det er ikke hensikten å låse referansearkitekturen til spesifikke løsninger, da ulike sektorer og aktører kan ha behov som ikke passer med det som er beskrevet. For synkrone tjenestekall basert på REST og med tilgangsstyring ved hjelp av OAUTH2-tokens, vil det være god støtte i å benytte de foreslåtte løsningene. 
 
+////
 === Hvordan lese modellene
 
 For enklere lesbarhet er laget med forretningstjenester utelatt fra modellene og mer løsningsnære applikasjonstjenester er benyttet direkte inn mot forretningsprosessene. Modellene viser dermed hvordan fellesløsninger i form av applikasjonskomponenter støtter de ulike forretningsprosessene gjennom applikasjonstjenester.
@@ -394,7 +400,7 @@ For enklere lesbarhet er laget med forretningstjenester utelatt fra modellene og
 De grunnleggende elementene i modellene foklares i denne figuren:
 
 image:../nab_referanse_arkitekturer_eoppslag/media/forklaring_app_lag.png[alt="Bilde mangler", width=500, link=https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/e7e6c527-26f4-461c-b4dd-651fcbe85c8d/views/6a46c6d0-64eb-43d4-97f3-2a94516c2211.html]
-
+////
 
 // For å registrere API må man for i de respektive fellestjenestene ha rettigheter til dette på vegne av egen virksomhet. Dette tildeles iht. hvem som har rettigheter i enhetsregisteret og rettighetene må delegeres nedover i organisasjonen til den som skal gjennomføre registreringen. Dette foregår i Altinn.
 

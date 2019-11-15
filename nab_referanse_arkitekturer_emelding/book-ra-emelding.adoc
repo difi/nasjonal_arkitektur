@@ -50,10 +50,11 @@ image:../nab_referanse_arkitekturer_emelding/media/kapabiliteter_forsendelse.png
 
 == Arkitekturmønstre (konseptuelle beskrivelser, kun arkitekturbyggeklosser)
 
+
 === Klargjøring for deling av data ved forsendelse
 
 ==== Klargjøre for eMelding
-Modellen under detaljerer hvordan en samhandlingsaktør, som i dette tilfellet normalt vil være en avsender eller mottaker, blir klar for å sende data som en melding. Dette gjøres ved å melde inn i et fellesskap og registrere nødvendige data i registre som er tilgjengelig for de andre samhandlingsaktørene i fellesskapet. Det vil kunne være forskjeller på hva som er nødvendig å gjøre avhengig av om samhandlingsaktøren er en sender eller mottaker, men i mange tilfeller vil man innha begge roller i fellesskapet.
+Modellen under detaljerer hvordan en samhandlingsaktør, som i dette tilfellet normalt vil være en avsender eller mottaker, blir klar for å sende data som en melding. Dette gjøres ved å melde inn i et fellesskap og registrere nødvendige data i registre som er tilgjengelig for de andre samhandlingsaktørene i fellesskapet. Det vil kunne være forskjeller på hva som er nødvendig å gjøre avhengig av om samhandlingsaktøren er en sender eller mottaker, men normalt vil man innha begge roller i fellesskapet.
 
 image:../nab_referanse_arkitekturer_emelding/media/ABB_klargjøre.png[alt="Bilde mangler", width=750]
 
@@ -125,6 +126,8 @@ Privat nøkkel benyttes til dekryptering og signering av meldinger.
 === Operativ deling av data ved forsendelse
 
 ==== Sende melding
+Sende melding detaljerer prosessen med å sende en melding etter klargjøring for forsendelse. Alle stegene i prosessen vil ikke alltid være nødvendig avhengig av dataene som utveksles og spesifikasjonene for samhandling innen fellesskapet.
+
 image:../nab_referanse_arkitekturer_emelding/media/ABB_sende.png[alt="Bilde mangler", width=750]
 
 
@@ -209,6 +212,8 @@ Privat nøkkel benyttes til dekryptering og signering av meldinger.
 
 
 ==== Motta melding
+Motta melding detaljerer prosessen med å motta en melding etter klargjøring for forsendelse. Alle stegene i prosessen vil ikke alltid være nødvendig avhengig av dataene som utveksles og spesifikasjonene for samhandling innen fellesskapet.
+
 image:../nab_referanse_arkitekturer_emelding/media/ABB_motta.png[alt="Bilde mangler", width=600]
 
 [cols ="1,3", options="header"]
@@ -603,11 +608,11 @@ Illustrasjon:
 .Firehjørnersmodellen - forvaltningsmessig
 image::../nab_referanse_arkitekturer_datautveksling_forsendelse/media/Firehjørnersmodellen - forvaltningsmessig.png[alt=Firehjørnersmodellen - forvaltningsmessig image]
 
-
+////
 == Videre informasjon om eMelding
 
 Videre informasjon og og dokumentasjon om eMelding finnes under https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/nasjonal-arkitektur-old/referansearkitektur-meldingsutveksling-emelding.
-
+////
 
 
 ////
