@@ -1,1 +1,1 @@
-include::./book-struktur_beskrivelse.adoc[]
+include::./book-struktur_beskrivelser.adoc[]
