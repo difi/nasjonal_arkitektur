@@ -56,9 +56,7 @@ include::../nab_referanse_arkitekturer/kapabilitetsområder.adoc[]
 //include::../nab_referanse_arkitekturer_datautveksling/book-ra-datautveksling.adoc[]
 
 Hvordan de spesifikke referansearkitekturene er beskrevet forklares her: 
-link:../nab_referanse_arkitekturer/struktur_beskrivelser.adoc[Struktur på beskrivelser]
-
-Lenker til aktuelle referansearkitekturer og mønstre:
+link:../nab_referanse_arkitekturer_struktur_beskrivelse[Struktur på beskrivelser]
 
 
 1. link:../nab_referanse_arkitekturer_datautveksling/[Referansearkitekturer for datautveksling], herunder
