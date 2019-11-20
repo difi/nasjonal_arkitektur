@@ -1,5 +1,18 @@
+:lang: en
+:difi_orig_language: en
+:doctitle_en: Process Design Principles
+:doctitle_no: Prinsipper for design av prosesser
+:difi_translation_status: -
+:keywords_en: TBD
+:keywords_no: TBD
+:toclevels: 2
+:difi_doctype: template-article
+
+// The above parameters are processed by scripts included by the following statement
+include::../plattform_felles/includes/commonincludes.adoc[]
+
 ////
-Guide to the below header attributes:
+Guide to the above header attributes:
 
     lang: en; no
     difi_orig_language: en; no
@@ -10,57 +23,113 @@ Guide to the below header attributes:
 Note: The _lang_ value may be overridden by a command line parameter.
 ////
 
-:lang: en
-:difi_orig_language: en
-:doctitle_en: English Document Title
-:doctitle_no: Norsk dokumenttittel
-:difi_translation_status: -
-:keywords_en: TBD
-:keywords_no: TBD
-:toclevels: 2
-:difi_doctype: Basic Book Template
 
-// The above parameters are processed by scripts included by the following statement
-include::../plattform_felles/includes/commonincludes.adoc[]
 
-image:../nab_referanse_maler_asciidoc-book-basic/media/sample-logo.png[]
 
-// ****************
 // NORWEGIAN
 // ****************
 ifeval::["{lang}" == "no"]
 
+ifeval::["{lang}" != "{difi_orig_language}"]
+(language:{difi_orig_language})
+endif::[]
 
-== Introduksjon
-include::./intro_booktitle.adoc[]
 
-== Kapittel 2 
-// Inkluder kapittel-filer eller skriv direkte her 
+Artikkeltekst ...
+
+.Figur: Eksempelfigur
+image:../nab_referanse_maler_asciidoc-book-basic/media/sample-image.png[]
+endif::[]
 
 // ****************
 endif::[]
-// ****************
 
 
 
-// ****************
 // ENGLISH
-ifeval::["{lang}" == "en"]
 // ****************
+ifeval::["{lang}" == "en"]
+
+ifeval::["{lang}" != "{difi_orig_language}"]
+(language:{difi_orig_language})
+endif::[]
 
 [.lead]
-Preamble goes here...
+The following process design principles represent the major concepts involved in most process redesign projects. Not every design principle applies to every process. Never abandon common sense when you apply them. As a guideline, the principles should prove to be quite helpful.
 
-== Introduction
-include::./intro_booktitle.adoc[]
+=== Design from the Outside-In Starting with Customer Interactions
+Customer interactions represent a point of contact into the organization and represent opportunities to show the success or failure in meeting the needs of the customer. Every customer interaction is an opportunity to enhance the reputation of the organization. The customer experience is the sum of the quality of each customer contact point.
 
-== Chapter 2 
-// Further chapters to go here - include files or  write directly here 
+When considering customer interactions during the design stage of process improvement, it is important to consider all the different opportunities where the customer could contact the organization. It is inefficient to optimize an order fulfillment process without considering the customer support process that facilitates resolving problems with that order. Although the order was processed smoothly, if the wrong item was shipped and the customer becomes frustrated trying to return the item, the outcome of the customer experience is not positive and repeat business is less likely.
+The customer experience depends on the primary business processes that directly interact with the customer and the internal support processes that indirectly influence customer experience quality. Support processes also deserve serious attention, but may focus on different issues.
+
+=== Design Around Value-Adding Activities
+This principle requires a clear understanding of what the customer of the process requires. Transforming information or material to meet customer requirements creates value-adding activities. 
+In addition, any
+step the customer is willing to pay for, such as a service, is also value-adding. Study the as-is process flowchart and determine exactly where the value-adding activities are performed. Then, extract these activities from the as-is process and look for ways to enable the value-adding activities efficiently and effectively.
+Do not discuss who will do any particular activity or where it will be performed at this point in the design process. Combining the what and who of the activities at this stage will distract the team from developing a creative, unique process solution. Your efforts to create an effective process may initiate debate about who should be responsible for the task, but save that discussion for later. After an effective process flow is created, then a discussion can ensue regarding who is responsible for the work required to enable the process.
+To create a new process, job descriptions, work location, and task assignment must be flexible. Team members should be aware that the existing configuration of jobs, work location, and organizational structure can be reassessed. Additionally, do not impose constraints thinking. Freedom of thought, outside of existing patterns, allows people to create a dramatically improved process.
+Some redesign methods serve to explore non-value-adding activities to eliminate or reduce them. This approach may create acrimonious relationships with people involved in this work. Informing people that their work adds no value to the process may trigger animosity in defense of their positions. To circumvent this situation, look for value-adding activities to optimize instead. Simply by focusing and optimizing value-adding activities, the non-value-adding activities will dissolve and you can avoid potential confrontation that may create resistance to the redesign project.
+
+=== Minimize Handoffs
+As activities and rules are defined during the process definition, handoffs between functional groups become apparent. A handoff in Business Process Management occurs when ownership of an activity or information is passed from one individual to another. For example, when a purchase order is transferred to invoicing, a physical handoff is created as the activity is transferred from one group (shipping) to another (billing).
+Handoffs between individuals or functional groups are potential points for a breakdown in the process. As a transaction transfers from one group to another, data can be lost or misinterpreted. In addition, the more information transferred, and the more times it is transferred, the more distortion can occur, which can lengthen process completion time.
+A key success factor is to simplify the handoffs and limit handoffs when possible. Automating handoffs through technology will help reduce errors and speed up the activity between individuals and groups.
+
+=== Have Work Performed Where it Makes the Most Sense
+Task assignment occurs after an effective process flow is designed. Application of the first design principle may negate some existing work, create new work, and/or may move work from one department to another.
+
+For example, during one redesign effort, a team was challenged to decide who should be responsible for the initial review. The initial review required the expertise of an engineer with a broad background rather than a specialist. The position did not exist in the original process structure. To implement the new process, the department had to develop a job description for a generalist engineer and then hire someone for the new position. Therefore, current job titles and locations should not be constrained. Create the positions needed to allow the process flow to operate with the greatest efficiency and effectiveness.
+
+=== Provide a Single Point of Contact
+A common symptom of not having a single point of contact is multiple transfers of customers’ calls. Another symptom of not having a single point of contact occurs when staff members are not told who to ask for information.
+A single point of contact can be a person such as a project manager, process consultant, or customer service representative. In addition, a single point of contact could be a data repository like an intranet.
+
+=== Create a Separate Process for Each Cluster
+Often a single process attempts to handle every variation. However, process inputs and outputs often vary by complexity, type, size, and other factors. For some variations, the process might work smoothly, but for others, it might be cumbersome and slow.
+For example, when shopping at a grocery store, a shopper has eight items to purchase and chooses to check out in the express checkout lane. The store has two checkout processes, one for many items and one for few. The regular checkout line has a bagger, but a bagger is not needed for the express lane.
+If inputs naturally cluster from significant differences, then a decision diamond should be placed at the front end of the process asking which sub-process is most appropriate for this cluster. Additional resources and costs are introduced, but efficiency of throughput and greater customer satisfaction should occur. The input cluster is then routed to the appropriate process.
+
+=== Ensure a Continuous Flow
+In a manufacturing process, steps that directly add value to the customer such as delivering supplies, building the product, and shipping it, represent the main sequence. In Lean terminology, the main sequence is the value stream. In a service process, the steps that make and deliver the service are the main sequence. The customer pays for the output of the value stream, and the organization earns revenue.
+In a Lean approach to process design, nothing should impede or slow down the value stream.
+
+=== Reduce Batch Size
+Batching causes wait time for items at the end of the batch. Batching causes inventory to build as it moves through your process. As you cut batch sizes, you start creating a smoother flow through the process. Ultimately, a batch size of one, or processing transactions in real-time, is ideal.
+
+=== Bring Downstream Information Needs Upstream
+At each step of the process, explore things that may cause frustration to team members. When a team member expresses frustration at missing or incomplete information, bring downstream information upstream.
+There are two ways of implementing the upstreaming of the information design principle. If the process is routine and not complex, the upstream person should be trained or given a template or check sheet to capture what the downstream person needs. However, this solution will not work when the process is complex and/or changes frequently. For complex processes, the downstream person must be brought upstream during a redesign to receive information directly from the source.
+
+=== Capture Information Once at the Source and Share It
+If a process requires entering the same data more than once, then this design principle is appropriate. Root out data redundancy, re-keying, and reconciliation. Enterprise resource planning (ERP) software is designed to accomplish this principle. However, knowledge of the processes must be clear before installing an ERP system.
+
+=== Involve as Few Actors as Possible
+The children’s game called Telephone illustrates the importance of this design principle. In the game, ten kids line up, and the first whispers in the ear of the next child. Each child passes the message along from ear to ear. The last child announces what the message was, and everyone laughs because the relayed version differs substantially from the original.
+In a relay race, the baton pass illustrates our few actors design principle. Often, a slower team will beat a faster team because the faster team had a problem with the baton pass. (During the 2004 Olympics, both the US men’s and women’s relay teams suffered from poor baton passes and didn’t win gold medals.)
+Think of the handoff of work or information as the baton pass or message in Telephone. Every handoff presents potential for error. Eliminating so-called baton passes in a process eliminates potential for error. Expand the job scope upstream and downstream so that a person runs with the work longer (so to speak). Cross-training and a change in compensation to reward knowledge or pay for new skills are often required to expand job scope. There are some advantages to cross-training.
+First, work often doesn’t arrive at an organization in a steady, even flow. Instead, there are spikes and bottlenecks in the workload. With more cross-trained workers, bottlenecks can be broken as more workers are qualified to manage them.
+Second, if a person does more of the work, he or she will take increased pride in the outcome. This person can see his or her major contribution to the whole. This pride increases the desire to produce a quality product or service.
+
+=== Redesign, then Automate
+One of the worst things an organization can do is take the as-is flowchart and lay information technology on top of it. Automation without redesign is bad for two reasons. First, information technology can be expensive. There might be much less expensive but equally effective solutions, such as redesigning processes or training. Second, despite the investment, the problem might not be solved and automating it could magnify the issue. It is crucial to first employ process design principles, benchmarking, best practices, and Lean thinking before automating an as-is process. Otherwise, a faster but much more expensive and still ineffective process may result. A clear understanding of the organization’s processes is necessary. IT may not be the solution.
+The process improvement team will begin to envision a new process after benchmarking best practices and using design principles. At this point, engage in conversation with IT on current and future IT capabilities, thereby conjoining innovative process ideas with enabling IT tools.
+
+=== Ensure Quality at the Beginning
+Quality problems encountered in the first several steps of a process will create exponentially negative effects downstream. The time spent to fix inefficiencies by the downstream people can be excessive. There are certain stages in a process where an investment in time and money is warranted and the beginning is one of them. Time and money spent up front to ensure quality, also emphasized by Lean thinking, pays for itself in preventing reviews and rework later.
+
+=== Standardize Processes
+Sometimes a significant variation in output is caused by five people doing the same process five different ways. This creates three concerns. First, with this kind of variation, it’s difficult to improve the process. Second, when a problem occurs, it is difficult to determine if it is a process or training problem. Third, how can there be process control when there’s no standardization? It’s much easier to find the root cause of a problem when people standardize their work. Even less structured processes might be decomposed into more and less structured components. The former may be amenable to standardization.
+
+=== Use Co-located or Networked Teams for Complex Issues
+Complex problems require people to pour over information and data in real time. If complex problems occur regularly, consider co-locating team members. If co-location doesn’t make sense, then network the team so information can smoothly flow.
+
+===  Consider Outsourcing Business Processes
+Outsourcing one or more processes to companies that specialize in that process may be the best choice for some organization. Outsourcing certain processes can free up internal resources to focus on other more strategic processes that add greater value to the organization. If outsourcing is considered, it should be compared to the costs of designing the process in-house as well as compared to the risks associated with outsourcing. Some risks include IP protection, quality and controls delegated to the outsourcer, and disposition of current employees.
 
 
-.Figure: Sample figure
-image:../nab_referanse_maler_asciidoc-book-basic/media/sample-image.png[]
+//.Figure: Sample figure
+//image:../nab_referanse_maler_asciidoc-book-basic/media/sample-image.png[]
 
-// ****************
 endif::[]
 // ****************

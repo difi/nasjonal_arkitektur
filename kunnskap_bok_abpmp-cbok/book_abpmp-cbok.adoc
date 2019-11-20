@@ -57,6 +57,12 @@ ifeval::["{lang}" == "en"]
 == Introduction
 include::./intro_abpmp-cbok.adoc[]
 
+
+== Process design principles
+:levelofset: +1
+include::./process-design-principles.adoc[]
+:levelofset: -1
+
 == Seleced illustrations
 // Further chapters to go here - include files or  write directly here 
 
