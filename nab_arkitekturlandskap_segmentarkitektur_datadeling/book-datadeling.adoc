@@ -49,7 +49,7 @@ Det mangler foreløpig (2019) noe på at "alt" annet er på plass. Difi kjører 
 
 Som en pragmatisk tilnærming, gis her et forslag til temaområder innen datadeling der avgrensingen mot tilsvarende områder innen informasjonsforvaltning ikke er spesifisert. Dette er temaer som uansett må dekkes.
 
-Foreløpig oversikt over prioriterte temaområder innen datadeling:
+Foreløpig oversikt over prioriterte temaområder innen datadeling: 
 
 
 .Prioriterte temaer innen datadeling (2019)
