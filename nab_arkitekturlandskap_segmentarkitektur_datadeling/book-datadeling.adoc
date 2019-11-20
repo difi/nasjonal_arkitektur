@@ -11,6 +11,11 @@ Datadeling er et prioritert område innen nasjonal arkitektur.
 
 == Generelt
 
+:leveloffset: +1
+include::../nab_arkitekturlandskap_segmentarkitektur_datadeling_verdistrømmer/book_datadeling_verdistrømmer.adoc[]
+
+:leveloffset: -1
+
 === Datadeling for et formål - sammenhengende tjenester
 
 Godt fungerende datadeling inngår som et viktig element i for å nå målene i regjeringens digitaliseringsstrategi. Et overordnet mål er sammenhengende tjenester for personer og virksomheter. Datadeling handler om å forsyne forretningsprosesser og dataanalyse med nødvendig datagrunnlag. Figuren under illustrerer dette.  
