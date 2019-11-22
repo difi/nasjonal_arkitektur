@@ -14,9 +14,8 @@ Se figuren under.
 image::../nab_referanse_arkitekturer_datautveksling/media/Samhandlingsaktører.png[alt=Samhandlingsaktører image]
 
 
-
 [cols ="1,3", options="header"]
-.Elementer i view for Samhandlingsaktører
+.Elementer i view for Roller involvert i datautveksling
 |===
 
 | Element
@@ -29,12 +28,10 @@ image::../nab_referanse_arkitekturer_datautveksling/media/Samhandlingsaktører.p
 | Den som innhenter eller mottar data fra andre aktører.
 
 | Dataformidler
-| En aktør som formidler data mellom tilbyder og konsument.
-
-F.eks. tilbyder av meldingsinfrastruktur, aksesspunkt, mellomliggende lagringsløsninger etc.
+| En aktør som formidler data mellom tilbyder og konsument. F.eks. tilbyder av meldingsinfrastruktur, aksesspunkt, mellomliggende lagringsløsninger etc.
 
 | Samhandlingsaktør
-| Den som inngår i en samhandlingsprosess og samhandler med en annen samhandlingsaktør. Kan være en tilbyder, konsument, avsender, mottaker, leverandør etc.
+| Samlebetegnelse på roller som inngår i en samhandlingsprosess og samhandler med en annen samhandlingsaktør. Kan være en tilbyder, konsument, avsender, mottaker, leverandør etc.
 
 | Avsender 
 | Den som sender en elektronisk melding eller tilsvarende.
@@ -58,7 +55,19 @@ En annen type representant er databehandler i betydningen representant for behan
 | Ansvarlig aktør
 | Den som har eller er delegert et ansvar i forbindelse med databehandling.
 
+| Koordinator
+| En aktør som har en koordinerende rolle i tilrettelegging og gjennomføring av datautveksling.
+
+| Segmentansvarlig
+| Den som har en koordinerende rolle innen en bransje. F.eks. Finans Norge på vegne av bankene.
+
+| Leverandør
+| Den som etter en
+
+delegert rettighet gitt til leverandør av ansvarlig samhandlingsaktør.
+
 |===
+
 
 == Tiltrodde tredjeparter
 
