@@ -41,7 +41,7 @@ include::./intro_ra_datadeling.adoc[]
 
 == Brukstilfeller og scenarier
 
-#*** I ARBEID ***#
+#*** I ARBEID! ***#
 
 Konsument:
 
