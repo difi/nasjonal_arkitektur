@@ -17,7 +17,7 @@ include::../nab_referanse_arkitekturer_emelding/krav_eMelding.adoc[]
 
 
 == Kapabilitetskart - relevante kapabiliteter
-Modellen under viser hovedinndelingen i kapabiliteter en avsender og en mottaker må ha for å dele data ved meldingsutveklsing. Beskrivelsene tar utgangspunkt i meldingsutveksling innenfor et fellesskap. Dette er en delmengde av det større området som omhandler Deling av data på forespørsel.
+Modellen under viser hovedinndelingen i kapabiliteter en avsender og en mottaker må ha for å dele data ved meldingsutveksling. Beskrivelsene tar utgangspunkt i forsendelse av meldinger innenfor et fellesskap og er en delmengde av det større området som omhandler deling av data på forespørsel.
 
 image:../nab_referanse_arkitekturer_emelding/media/kapabiliteter_forsendelse.png[alt="Bilde mangler", width=750]
 
