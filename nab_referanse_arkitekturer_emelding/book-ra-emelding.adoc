@@ -15,9 +15,9 @@ include::../nab_referanse_arkitekturer_emelding/krav_eMelding.adoc[]
 ////
 
 
-////
-== Kapabilitetskart - relevante kapabiliteter
 
+== Kapabilitetskart - relevante kapabiliteter
+Modellen under viser hovedinndelingen i kapabiliteter en avsender og en mottaker må ha for å dele data ved meldingsutveklsing. Beskrivelsene tar utgangspunkt i meldingsutveksling innenfor et fellesskap. Dette er en delmengde av det større området som omhandler Deling av data på forespørsel.
 
 image:../nab_referanse_arkitekturer_emelding/media/kapabiliteter_forsendelse.png[alt="Bilde mangler", width=750]
 
@@ -45,7 +45,6 @@ image:../nab_referanse_arkitekturer_emelding/media/kapabiliteter_forsendelse.png
 | Den som sender et brev, en pakke, en e-post, en elektronisk melding, en SMS eller lignende.
 
 |===
-////
 
 
 == Arkitekturmønstre (konseptuelle beskrivelser, kun arkitekturbyggeklosser)
@@ -294,9 +293,9 @@ image:../nab_referanse_arkitekturer_emelding/media/SBB_klargjøre.png[alt="Bilde
 | Evne til å klargjøre for meldingsutveksling med eksterne parter.
 
 | Samhandlingsaktør
-| Den som inngår i en samhandlingsprosess og samhandler med en annen samhandlingsaktør. Kan være en tilbyder, konsument, avsender, mottaker, leverandør etc.
+| Samlebetegnelse på roller som inngår i en samhandlingsprosess og samhandler med en annen samhandlingsaktør. Kan være en tilbyder, konsument, avsender, mottaker, leverandør etc.
 
-| Klargjøre for melding
+| Klargjøre for meldingsutveksling
 | Prosessen med å klargjøre for eMelding ved å akseptere felles avtaler og tilgjengeliggjøre nødvendig informasjon til andre samhandlingsaktører.
 
 | Foreta innmelding i fellesskap
@@ -328,8 +327,8 @@ Sertifikater må forvaltes og fornyes etter gjeldende regler for å være gyldig
 | Kapabilitetsregistrering
 | Tjeneste for å registrere kapabiliteter
 
-| ELMA
-| Elektronisk mottakeradresseregister
+| Elektronisk mottakerregister (ELMA)
+| Med ELMA får brukerne dine oversikt over alle virksomheter i Norge som kan motta elektroniske fakturaer i henhold til EHF-standarden. 
 
 | BCL
 | Business Certificate Locater
