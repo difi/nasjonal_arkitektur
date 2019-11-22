@@ -275,6 +275,9 @@ Privat nøkkel benyttes til dekryptering og signering av meldinger.
 
 
 == Løsningsmønstre
+Beskrivelsen under viser hvordan den generiske arkitekturen i det foregående kapittelet kan realiseres med løsningskomponentene som inngår i PEPPOL-infrastrukturen henholdsvis Elektronisk mottaksregister (ELMA), adressetjenestene CEF SML/SMP og sertifikatkatalogløsningene BCP/BCL . Disse fellesløsningene leverer de tjenestene som er beskrevet på forretningsnivå over.
+
+Det er ikke hensikten å låse referansearkitekturen til spesifikke løsninger, da ulike sektorer og aktører kan ha behov som ikke passer med det som er beskrevet. I PEPPOL-infrastrukturen som benyttes som datautvekslingstjeneste er det spesifiserte protokoller og standardere som sikrer en del funksjoner som pålitelig meldingsutveksling med integritet og 
 
 === Klargjøre for deling av data ved forsendelse
 
