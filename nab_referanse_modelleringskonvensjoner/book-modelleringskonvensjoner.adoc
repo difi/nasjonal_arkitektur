@@ -94,11 +94,59 @@ NOTE: _Value stream_ som konsept ble først introdusert i link:https://pubs.open
 
    
 
-==== Informasjon vs. data
+==== Informasjon vs. data, representasjon og dokumenter
 
 Strukturert informasjon vs. ustrukturert informasjon
 Data vs. dokument
 Datasett vs. Informasonselement
+
+
+
+== Modelleringsprinsipper
+
+=== Verktøystøtte
+
+Prinsipp: Bruk modelleringsverktøy som gjør det mulig å  utveksle modeller på standardiserte utvekslingsformater med støtte for _essensielle_ modelleringskonvensjoner og attributter som angitt i Nasjonalt arkitekturbibliotek (her).
+
+
+Essensielle modelleringskonvensjoner: 
+
+TBD.
+
+////
+
+* Standardbasert utveksling av modeller
+* Mulighet tli å spesifisere attributter
+* Skripting eller tilsvarende for automatisering av oppgaver, konsistenssjekk og ensartet visning av modellelementer. 
+////
+
+
+//* Fjerning av ubrukte elementer (kan eventuelt gjøres med skripting)
+//* Sammeslåing av objekter med identiske navn (kan eventuelt gjøres med skripting)
+//* Referanseintegritet  
+
+
+
+
+=== Kombinasjon av modelleringsspråk
+Temaer som kommer her:
+
+* Overgang fra identifiserte prosessmodeller i Archimate til mer detaljerte prosessmodeller i BPMN
+* Overgang fra BPMN Service Tasks til modellering av Application Services og realisering i Archimate.
+* Regelmodellering i DMN i sammenheng med BPMN for å unngå kompliserte og uoversiktlige prosessmodeller.
+
+=== Støtte for arkitekturparadigmer som tjenesteorientert arkitektur (SOA), hendelsedrevet arkitektur (EDA) og ressursorientert arkitektur (ROA)
+
+TBD.
+
+=== Ulike viewpoints for ulike målgrupper
+
+=== Enhetlig tilnærming på tvers av modelleringsspråk 
+
+=== Visuelle modeller vs. attributter og tekst
+
+=== Skille mellom abstraksjonnivåer
+
 
 
 == Navnekonvensjoner (norsk)
@@ -337,6 +385,14 @@ image::../nab_referanse_modelleringskonvensjoner/media/Abstraksjon eksempler.png
 image::../nab_referanse_modelleringskonvensjoner/media/Realisering.png[alt=Realisering image]
 
 == Realisering av kapabiliteter 
+Følgende figurer angir de viktigste konseptene.
+
+.Realisering av kapabiliteter i arkitekturlagene - overordnet bilde
+image::../nab_referanse_modelleringskonvensjoner/media/Realisering av kapabiliteter i arkitekturlagene - overordnet bilde.png[alt=Realisering av kapabiliteter i arkitekturlagene - overordnet bilde image]
+
+.Realisering av kapabiliteter i arkitekturlagene
+image::../nab_referanse_modelleringskonvensjoner/media/Realisering av kapabiliteter i arkitekturlagene.png[alt=Realisering av kapabiliteter i arkitekturlagene image]
+
 
 == Realisering av forretningstjenester
 
