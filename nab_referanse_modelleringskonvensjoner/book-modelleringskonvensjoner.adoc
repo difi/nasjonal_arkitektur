@@ -10,7 +10,7 @@ image:../plattform_felles/media/i-arbeid.png[width=45, height=45, alt="Figur: i-
 
 == Generelt
 
-Disse modelleringskonvensjonene  inngår i et overordnet sett av dokumentasjonskonvensjoner, der også konvesjonell tekstlig dokumentasjon inngår.
+Disse modelleringskonvensjonene  inngår i et overordnet sett av dokumentasjonskonvensjoner, der også konvensjonell tekstlig dokumentasjon inngår.
 
 Begrepsapparat, konsepter og metamodeller for modelleringskonvensjonene bygger i hovedsak på link:https://pubs.opengroup.org/architecture/archimate3-doc/[modelleringsstandarden ArchiMate®] fra The Open Group. 
 Med dette som utgangspunkt, gjøres visse presiseringer og utvidelser. Dette er nødvendig, fordi Archimate som standard er ment å være generell nok til å dekke ulike formål, samtidig som det savnes støtte for visse konsepter og detaljer. 
