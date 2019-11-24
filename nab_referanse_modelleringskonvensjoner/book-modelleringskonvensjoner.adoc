@@ -9,55 +9,96 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 image:../plattform_felles/media/i-arbeid.png[width=45, height=45, alt="Figur: i-arbeid.png?",]Uferdig innhold - første versjon er fremdeles i arbeid
 
 == Generelt
-Konvensjoner for arkitekturmodellering i aktuelle arkitekturspråk, dvs. primært Archimate, BPMN, UML (dessuten planlagt DMN, CMMN).
 
-Dette inngår i et overordnet sett av dokumentasjonskonvensjoner, der også konvesjonell  tekstlig dokumenntasjon inngår.    
+Disse modelleringskonvensjonene  inngår i et overordnet sett av dokumentasjonskonvensjoner, der også konvesjonell tekstlig dokumentasjon inngår.
+
+Begrepsapparat, konsepter og metamodeller for modelleringskonvensjonene bygger i hovedsak på link:https://pubs.opengroup.org/architecture/archimate3-doc/[modelleringsstandarden ArchiMate®] fra The Open Group. 
+Med dette som utgangspunkt, gjøres visse presiseringer og utvidelser. Dette er nødvendig, fordi Archimate som standard er ment å være generell nok til å dekke ulike formål, samtidig som det savnes støtte for visse konsepter og detaljer. 
+
+I tillegg til ArchiMate®, benyttes utvalgte konsepter fra link:https://www.omg.org/bpmn/[BPMN™], link:https://www.omg.org/dmn/[DMN™] og link:https://www.uml.org/what-is-uml.htm[UML®].
+
+Andre modelleringsstandarder og metamodeller vurderes løpende, i sammenheng med utviklingen av nevnte standarder.  
+
 
 == Modelleringsprinsipper
-Her kommer informasjon om styrende prinsipper for modellering.
-
-Foreløpig liste over temaer:
+Her kommer informasjon om styrende prinsipper for modellering. Foreløpig liste over temaer:
 
 * Kombinasjon av modelleringsspråk
-* Tjenesteorientert arkitektur (SOA)
-* Viewpoints for målgrupper
+* Støtte for arkitekturparadigmer som tjenesteorientert arkitektur (SOA), hendelsedrevet arkitektur (EDA) og ressursorientert arkitektur (ROA)
+* Ulike viewpoints for ulike målgrupper
 * Enhetlig tilnærming på tvers av modelleringsspråk 
-* Klart skille mellom abstraksjonnivåer
-* Visuelle modeller framfor attributter og tekst
+* Skille mellom abstraksjonnivåer
+* Visuelle modeller vs. attributter og tekst
 
 
-== Grunnleggende begrepsapparat
+== Grunnleggende begrepsapparat og konsepter
 
 === Generelle begreper relatert til modeller 
 
-Modell 
-Konsept
-Element
-Relasjon
-Visningsmal (Viewpoint)
-Visning (Wiew)
+* *Modell* 
++
+TBD.
+
+*Konsept*
++
+TBD.
+
+* *Element*
++
+TBD.
+
+* *Relasjon*
++
+TBD.
+
+* *Visningsmal (Viewpoint)*
++
+TBD.
+
+* *Visning (Wiew)*
++
+TBD.
 
 === Konsepter
-Kapabilitet
-Funksjon
-Prosess
-Aktør
-Rolle
 
-IT-system
-Applikasjon
-Infrastruktur
-Teknologi
+==== Kapabilitet vs. funksjon vs. prosess
+TBD.
 
-Informasjon
-Strukturert informasjon
-Ustrukturert informasjon
+=== Aktør vs. rolle
+TBD.
 
-Data
-Dokument
 
-Datasett
-Informasonselement
+==== Ressurs vs. andre konsepter 
+Ressursbegrepet omfatter
+
+* Mennesker
+* IT-systemer
+* Applikasjoner
+* Infrastruktur
+* Teknologier
+* Fysiske objekter
+* Roller
+
+
+==== Verdistrøm vs. prosess
+Konseptet _Verdistrøm_  forstås her slik det beskrives i  link:https://en.wikipedia.org/w/index.php?title=Value_stream&oldid=912726011[Wikipedia-artikkel per august 2019 om _Value Stream_]
+
+Legg spesielt merke til:
+
+* _Value streams are not processes in the sense that the concern is "how value is achieved" rather than "how it's done"._
+* _Value streams are not associated with the Lean concept of value stream mapping. While named similarly, Lean value stream mapping is a process-based practice that seeks to identify waste, whereas value streams provide a higher-level overview of how a stakeholder receives value._
+
+NOTE: _Value stream_ som konsept ble først introdusert i link:https://pubs.opengroup.org/architecture/archimate3-doc/chap07.html#_Toc10045360[Archimate versjon 3.1], og er også forklart der.
+
+
+
+   
+
+==== Informasjon vs. data
+
+Strukturert informasjon vs. ustrukturert informasjon
+Data vs. dokument
+Datasett vs. Informasonselement
 
 
 == Navnekonvensjoner (norsk)
@@ -65,6 +106,9 @@ Informasonselement
 Som hovedregel følges navnkonvensjonene som er gitt i Archimate-standarden. Her gis unntak, presiseringer  og utdyping.
 
 === Navning av _kapabiliteter_
+
+WARNING: Norsk navnekonvensjon for kapabiliteter er et  kontroversielt tema. Konvensjonene her kan bli gjenstand for endring.
+
 
 * [underline]#*Hovedregel:*# Bruk ord som passer inn i setningsmalen: "Rolle/aktør/system må evne å <kapabilitetsnavn>." Dette vil normalt være _verb i infinitiv form_. 
 +
@@ -76,11 +120,10 @@ Om det dreier seg om innarbeidede ord som kommuniserer bedre, kan det benyttes o
 Eksempel: "En virksomhet må evne å gjøre _Informasjonsforvaltning_". 
 
 
-TIP: En kan også godt si "En virksomhet må evne å _Forvalte informasjon_". Kommuniserer dette meningen like godt, er det kanskje bedre å bruke? 
 
-NOTE: På engelsk fungerer det bedre   med _Verbalsubstantiv_ enn på norsk. En kan f.eks. godt si _Data reception_ (mens ordet _Datamottaking_ vel ikke finnes på norsk). 
+TIP: På engelsk fungerer det bedre   med _Verbalsubstantiv_ enn på norsk. En kan f.eks. godt si _Data reception_, mens ordet _Datamottaking_ ikke finnes på norsk; en må derfor ty til omskrivinger som _Mottak av data_ (eller bare _Datamottak_). Et annet ord som volder mye hodebry, er det engelske ordet _management_, som må oversettes til ord som _ledelse_, _styring_ eller _forvaltning_, ut fra hva som er innarbeidet i norsk språk og sett fra ulike faglige kontekster.
 
-WARNING: _Bestandig angi rolle(aktør/system som innehar, eller bør inneha, aktuell kapabilitet. En kapabilitet i "løse luften" er meningsløs._ 
+//WARNING: _Bestandig angi rolle(aktør/system som innehar, eller bør inneha, aktuell kapabilitet. En kapabilitet i "løse luften" er meningsløs._ 
 
 
 === Navning av _prosesser_ 
@@ -269,9 +312,29 @@ TBD.
 == Konvensjoner for abstraksjon i Archimate 
 Archimate-standarden gir rom for flere tolkninger og ulik praksis når det gjelder "abstraksjon".
 
-Hvordan modellere konseptuelle,logiske og fysiske begreper.
+Attributten difi:abstractionLevel benyttes for å angi om et konsept er å oppfatte som ABB (konseptuelt), SBB (logisk) eller INSTANS (fysisk).
 
-Hvordan modellerer arkitekturbyggeklosser vs. løsningsbyggeklosser.
+Fargenyanser angir aktuelt abstraksjonsnivå, med lysest farge for ABB og mørkere nyanser for SBB og INSTANS.
+
+Dette er angitt for de ulike konsepttypene i Archimate.
+
+.Abstraksjon - ABB, SBB, INSTANCE
+image::../nab_referanse_modelleringskonvensjoner/media/Abstraksjon - ABB, SBB, INSTANCE.png[alt=Abstraksjon - ABB, SBB, INSTANCE image]
+
+.Abstraksjon - data
+image::../nab_referanse_modelleringskonvensjoner/media/Abstraksjon - data.png[alt=Abstraksjon - data image]
+
+.Abstraksjon - prosess
+image::../nab_referanse_modelleringskonvensjoner/media/Abstraksjon - prosess.png[alt=Abstraksjon - prosess image]
+
+.Abstraksjon - ressurser
+image::../nab_referanse_modelleringskonvensjoner/media/Abstraksjon - ressurser.png[alt=Abstraksjon - ressurser image]
+
+.Abstraksjon eksempler
+image::../nab_referanse_modelleringskonvensjoner/media/Abstraksjon eksempler.png[alt=Abstraksjon eksempler image]
+
+.Realisering
+image::../nab_referanse_modelleringskonvensjoner/media/Realisering.png[alt=Realisering image]
 
 == Realisering av kapabiliteter 
 
@@ -286,18 +349,28 @@ SOAP, REST, micro services,...
 
 Archimate: Verdikjeder, identifisering av prosesser. Automatisering av prosesser i IT-systemer (applikasjoner og infrastruktur). 
 
-BPMN: Detajerte prosessmodeller
+BPMN: Detajerte prosessmodeller; i sammenheneg med DMN for regelmodellering.
+
+DMN: Regelmodellering; i sammenheng med BPMN for prosessmodellering.
 
 UML: Klassediagrammer for informasjon og data
 
-=== Layout
-Størrelse på symboler
-Alignment
-Nesting
-Visning av relasjonsnavn  
+== Layout
+Enhetlig layout av symboler og diagrammer 
+
+.Diagram-layout
+[width="100%",options="header"]
+|====================
+| Tema | Konvensjon 
+| Symbolstørrelse | Bruk som hovedregel samme størrelse på symboler for å å få et "ryddig" inntrykk. Dette kan fravikes når det er hensiktsmessig, f.eks. for å framheve et symbol som står i fokus eller har mange relasjoner.  
+| Alignment av symboler | Hovedregel: Midtstill symboler vannrett og loddrett. 
+| Alignment av tekst i symboler | Hovedregel: Midtstill tekst i symboler vannrett og loddrett.  
+| Nesting | Unngå "nesting" av symboler for der relasjonstypen er av betydning for forståelsen
+| Visning av relasjonsnavn | Vis relasjonsnavn der det kan hjelpe leseren til å forstå diagrammet 
+| Visning av symbolnavn | Angi eventuell tilleggsinformasjon i braketter [attributt:attributtverdi]. Eksempel: Angi namespace dersom flere konsepter med samme navn finnes: __Navn [ns:namsespaceverdi]__
+| Fargenyanser for abstraksjnsnivå | Bruk fargenyanser for å angi aktuelt abstraksjonsnivå, med lysest farge for ABB og mørkere nyanser for SBB og INSTANS. Merk: Dette  kan gjøres ved å sette opp aktuelt modelleringsverktøy til å sette farge ut fra attributt for abstraksjonsnivå; dvs. difi:abstractionLevel (abb, sbb, instance).
+|====================
 
 
-== Annet
-...
 
 

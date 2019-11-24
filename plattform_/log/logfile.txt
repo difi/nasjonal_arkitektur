@@ -171,3 +171,100 @@
 20.10.2019 13:35:33: SøkTekstIAlleFiler(strategisk-kapabilitetskart.adoc)
 20.10.2019 13:35:33: Linje: include::./strategisk-kapabilitetskart.adoc[]
 20.10.2019 13:35:33: 1 occurences in C:\Users\eha\OneDrive\GitHub\Difi\nasjonal_arkitektur\--nab_arkitekturlandskap_strategisk-arkitektur_kapabilitetskart\book-kapabiliteter.adoc
+22.11.2019 20:21:52: SøkTekstIAlleFiler(/na_)
+22.11.2019 20:22:17: SøkTekstIAlleFiler(/na_)
+22.11.2019 20:22:44: ErstattTekstIAlleFiler(image:../nab_felles/media/, image:../plattform_felles/media/)
+22.11.2019 20:23:59: SøkTekstIAlleFiler(TBD.)
+22.11.2019 20:23:59: Linje: TBD.
+22.11.2019 20:23:59: 1 occurences in C:\github\digdir\nasjonal_arkitektur\kunnskap_\book_kunnskapsbibliotek.adoc
+22.11.2019 20:23:59: Linje: TBD.
+22.11.2019 20:23:59: Linje: TBD.
+22.11.2019 20:23:59: 2 occurences in C:\github\digdir\nasjonal_arkitektur\kunnskap_tema_arkitekturparadigmer\book-architecture-paradigms.adoc
+22.11.2019 20:23:59: Linje: NOTE: Se  link:TBD.[navnekonvensjoner for nasjonalt arkitekturbibliotek] for mer om navngivning av kapabiliteter.  
+22.11.2019 20:23:59: Linje: TBD.
+22.11.2019 20:23:59: 2 occurences in C:\github\digdir\nasjonal_arkitektur\kunnskap_tema_kapabilitetsmodellering\book-kapabilitetsbasert-modellering-og-analyse.adoc
+22.11.2019 20:23:59: Linje: TBD.
+22.11.2019 20:23:59: 1 occurences in C:\github\digdir\nasjonal_arkitektur\nab_arkitekturlandskap\book-arkitekturlandskap.adoc
+22.11.2019 20:23:59: Linje: TBD.
+22.11.2019 20:23:59: Linje: TBD.
+22.11.2019 20:23:59: Linje: TBD.
+22.11.2019 20:23:59: Linje: TBD.
+22.11.2019 20:23:59: Linje: TBD.
+22.11.2019 20:23:59: Linje: TBD.
+22.11.2019 20:23:59: 6 occurences in C:\github\digdir\nasjonal_arkitektur\nab_arkitekturlandskap_segmentarkitektur\book_segmentarkitektur.adoc
+22.11.2019 20:23:59: Linje: TBD.
+22.11.2019 20:23:59: Linje: TBD.
+22.11.2019 20:23:59: Linje: TBD.
+22.11.2019 20:23:59: Linje: TBD.
+22.11.2019 20:23:59: Linje: TBD.
+22.11.2019 20:23:59: Linje: TBD.
+22.11.2019 20:23:59: Linje: TBD.
+22.11.2019 20:23:59: Linje: TBD.
+22.11.2019 20:23:59: Linje: TBD.
+22.11.2019 20:23:59: 9 occurences in C:\github\digdir\nasjonal_arkitektur\nab_arkitekturlandskap_segmentarkitektur_datadeling\book-datadeling.adoc
+22.11.2019 20:23:59: Linje: Tekst TBD...
+22.11.2019 20:23:59: 1 occurences in C:\github\digdir\nasjonal_arkitektur\nab_arkitekturlandskap_segmentarkitektur_datadeling_avtaleforvaltning\book-avtaleforvaltning.adoc
+22.11.2019 20:23:59: Linje: TBD.
+22.11.2019 20:23:59: Linje: TBD.
+22.11.2019 20:23:59: Linje: TBD.
+22.11.2019 20:23:59: 3 occurences in C:\github\digdir\nasjonal_arkitektur\nab_arkitekturlandskap_segmentarkitektur_datadeling_datautveklsing\book-datautveksling.adoc
+22.11.2019 20:23:59: Linje: TBD.
+22.11.2019 20:23:59: 1 occurences in C:\github\digdir\nasjonal_arkitektur\nab_arkitekturlandskap_strategisk-arkitektur\strategiske-føringer.adoc
+22.11.2019 20:23:59: Linje: #TBD.#
+22.11.2019 20:23:59: Linje: #TBD.#
+22.11.2019 20:23:59: Linje: #TBD.#
+22.11.2019 20:23:59: Linje: #TBD.#
+22.11.2019 20:23:59: 4 occurences in C:\github\digdir\nasjonal_arkitektur\nab_løsningslandskap_sbb_difi-nasjonalt-arkitekturbiblotek\dokumentasjonskonvensjoner.adoc
+22.11.2019 20:23:59: Linje: TBD.
+22.11.2019 20:23:59: 1 occurences in C:\github\digdir\nasjonal_arkitektur\nab_løsningslandskap_ssb\main.adoc
+22.11.2019 20:23:59: Linje: //TBD.
+22.11.2019 20:23:59: Linje: // TBD. 
+22.11.2019 20:23:59: 2 occurences in C:\github\digdir\nasjonal_arkitektur\nab_referanse_arkitekturer_datautveksling\book-ra-datautveksling – Kopi.adoc
+22.11.2019 20:23:59: Linje: //TBD.
+22.11.2019 20:24:00: Linje: // TBD. 
+22.11.2019 20:24:00: 2 occurences in C:\github\digdir\nasjonal_arkitektur\nab_referanse_arkitekturer_datautveksling\book-ra-datautveksling.adoc
+22.11.2019 20:24:00: Linje: TBD.
+22.11.2019 20:24:00: 1 occurences in C:\github\digdir\nasjonal_arkitektur\nab_referanse_arkitekturer_datautveksling\generisk-prosess-for-klargjøring-til-databehandling.adoc
+22.11.2019 20:24:00: Linje: TBD.
+22.11.2019 20:24:00: 1 occurences in C:\github\digdir\nasjonal_arkitektur\nab_referanse_arkitekturer_datautveksling_forespørsel-svar\book-ra-forespørsel-svar.adoc
+22.11.2019 20:24:00: Linje: TBD.
+22.11.2019 20:24:00: 1 occurences in C:\github\digdir\nasjonal_arkitektur\nab_referanse_maler\book-referanse-maler.adoc
+22.11.2019 20:24:00: Linje: Viewpoint attributes: TBD.
+22.11.2019 20:24:00: Linje: . Additional attributes TBD.
+22.11.2019 20:24:00: 2 occurences in C:\github\digdir\nasjonal_arkitektur\nab_referanse_maler_asciidoc-book-sat\book_sat_template.adoc
+22.11.2019 20:24:00: Linje: difi:default-language:: Meaning: TBD.
+22.11.2019 20:24:00: Linje: difi:current-language:: Meaning: TBD.
+22.11.2019 20:24:00: Linje: difi:orig-language:: Meaning: TBD.
+22.11.2019 20:24:00: Linje: TBD.
+22.11.2019 20:24:00: Linje: TBD.
+22.11.2019 20:24:00: Linje: TBD.
+22.11.2019 20:24:00: Linje: TBD.
+22.11.2019 20:24:00: Linje: TBD.
+22.11.2019 20:24:00: 8 occurences in C:\github\digdir\nasjonal_arkitektur\nab_referanse_modelleringskonvensjoner\book-modelleringskonvensjoner.adoc
+22.11.2019 20:24:00: Linje: TBD.
+22.11.2019 20:24:00: 1 occurences in C:\github\digdir\nasjonal_arkitektur\nab_referanse_modeller_kvalitetsegenskaper\book-kvalitetsegenskaper.adoc
+22.11.2019 20:24:00: Linje: TBD.
+22.11.2019 20:24:00: 1 occurences in C:\github\digdir\nasjonal_arkitektur\nab_referanse_modeller_kvalitetsegenskaper\intro-kvalitetsegenskaper.adoc
+22.11.2019 20:24:00: Linje: TBD.
+22.11.2019 20:24:00: Linje: TBD.
+22.11.2019 20:24:00: Linje: TBD.
+22.11.2019 20:24:00: Linje: TBD.
+22.11.2019 20:24:00: 4 occurences in C:\github\digdir\nasjonal_arkitektur\nab_styring\book_styring.adoc
+22.11.2019 20:24:00: Linje: TBD. 
+22.11.2019 20:24:00: 1 occurences in C:\github\digdir\nasjonal_arkitektur\nab_styring\intro_styring.adoc
+22.11.2019 20:24:00: Linje: TBD.
+22.11.2019 20:24:00: Linje: TBD.
+22.11.2019 20:24:00: Linje: TBD.
+22.11.2019 20:24:00: 3 occurences in C:\github\digdir\nasjonal_arkitektur\nab_styring\strategiske-føringer.adoc
+22.11.2019 20:24:00: Linje: TBD.
+22.11.2019 20:24:00: 1 occurences in C:\github\digdir\nasjonal_arkitektur\plattform_om-plattformen\book-about-the-platform.adoc
+22.11.2019 20:24:00: Linje: Forklaring: TBD.
+22.11.2019 20:24:00: 1 occurences in C:\github\digdir\nasjonal_arkitektur\plattform_praktiske-tips_asciidoc\main.adoc
+22.11.2019 20:24:00: Linje: TBD.
+22.11.2019 20:24:00: Linje: TBD.
+22.11.2019 20:24:00: Linje: TBD.
+22.11.2019 20:24:00: Linje: TBD.
+22.11.2019 20:24:00: Linje: TBD.
+22.11.2019 20:24:00: Linje: TBD.
+22.11.2019 20:24:00: Linje: TBD.
+22.11.2019 20:24:00: 7 occurences in C:\github\digdir\nasjonal_arkitektur\plattform_praktiske-tips_github\main.adoc
