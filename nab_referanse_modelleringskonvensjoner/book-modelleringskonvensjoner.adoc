@@ -271,6 +271,75 @@ difi:doc-lifecycle:: Meaning: Current status of the documentation as such for a 
 * Applicability: Views and concepts.
 * Valid values: Initial; Preliminary; In work; Ready for review; Established; To be revised; Archived; To be deleted  
 
+difi:notes:: Meaning: Views, concepts anf folders.
++
+* Applicability: TBD.
+* Mandatory: No.
+* Valid values: TBD.
+
+difi:metaLevel:: Meaning: TBD.
++
+* Applicability: Views and concepts.
+* Mandatory: No.
+* Valid values: meta, real, undefined.
+
+difi:abstractionLevel:: Meaning: TBD.
++
+* Applicability: Views and concepts.
+* Mandatory: No.
+* Valid values: abb, sbb, instance.
+
+difi:parentConcept:: Meaning: TBD.
++
+* Applicability: TBD.
+* Mandatory: No.
+* Valid values: TBD.
+
+difi:docRootPath:: Meaning: TBD.
++
+* Applicability: TBD.
+* Mandatory: No.
+* Valid values: TBD.
+
+difi:docViewPath:: Meaning: TBD.
++
+* Applicability: TBD.
+* Mandatory: No.
+* Valid values: TBD.
+
+////
+difi:dct:BibliographicResource:: Meaning: TBD.
++
+* Applicability: TBD.
+* Mandatory: No.
+* Valid values: TBD.
+////
+
+difi:notes:: Meaning: TBD.
++
+* Applicability: TBD.
+* Mandatory: No.
+* Valid values: TBD.
+
+difi:notes:: Meaning: TBD.
++
+* Applicability: TBD.
+* Mandatory: No.
+* Valid values: TBD.
+
+difi:notes:: Meaning: TBD.
++
+* Applicability: TBD.
+* Mandatory: No.
+* Valid values: TBD.
+
+difi:notes:: Meaning: TBD.
++
+* Applicability: TBD.
+* Mandatory: No.
+* Valid values: TBD.
+
+
 === ABB-attributter
 
 difi:abb-lifecycle:: Meaning: Current status of an ABB.
@@ -381,10 +450,10 @@ image::../nab_referanse_modelleringskonvensjoner/media/Abstraksjon - ressurser.p
 .Abstraksjon eksempler
 image::../nab_referanse_modelleringskonvensjoner/media/Abstraksjon eksempler.png[alt=Abstraksjon eksempler image]
 
-.Realisering
-image::../nab_referanse_modelleringskonvensjoner/media/Realisering.png[alt=Realisering image]
 
-== Realisering av kapabiliteter 
+== Konvensjoner for realisering i Archimate
+
+=== Realisering av kapabiliteter 
 Følgende figurer angir de viktigste konseptene.
 
 .Realisering av kapabiliteter i arkitekturlagene - overordnet bilde
@@ -394,10 +463,16 @@ image::../nab_referanse_modelleringskonvensjoner/media/Realisering av kapabilite
 image::../nab_referanse_modelleringskonvensjoner/media/Realisering av kapabiliteter i arkitekturlagene.png[alt=Realisering av kapabiliteter i arkitekturlagene image]
 
 
-== Realisering av forretningstjenester
+=== Realisering av forretningstjenester
+TBD
 
-== Modellering av Web Services i Archimate
-SOAP, REST, micro services,...
+=== Annet om bruk av realisering i Archimate
+.Realisering
+image::../nab_referanse_modelleringskonvensjoner/media/Realisering.png[alt=Realisering image]
+
+
+== Modellering av tjenester i Archimate
+Her kommer informasjon om modellering av SOAP, REST, micro services.
 
 == Modellering av helt  eller delvis automatiserte prosesser i Archimate
 
@@ -424,7 +499,7 @@ Enhetlig layout av symboler og diagrammer
 | Nesting | Unngå "nesting" av symboler for der relasjonstypen er av betydning for forståelsen
 | Visning av relasjonsnavn | Vis relasjonsnavn der det kan hjelpe leseren til å forstå diagrammet 
 | Visning av symbolnavn | Angi eventuell tilleggsinformasjon i braketter [attributt:attributtverdi]. Eksempel: Angi namespace dersom flere konsepter med samme navn finnes: __Navn [ns:namsespaceverdi]__
-| Fargenyanser for abstraksjnsnivå | Bruk fargenyanser for å angi aktuelt abstraksjonsnivå, med lysest farge for ABB og mørkere nyanser for SBB og INSTANS. Merk: Dette  kan gjøres ved å sette opp aktuelt modelleringsverktøy til å sette farge ut fra attributt for abstraksjonsnivå; dvs. difi:abstractionLevel (abb, sbb, instance).
+| Fargenyanser for abstraksjonsnivå | Bruk fargenyanser for å angi aktuelt abstraksjonsnivå, med lysest farge for ABB og mørkere nyanser for SBB og INSTANS. Merk: Dette  kan gjøres ved å sette opp aktuelt modelleringsverktøy til å sette farge ut fra attributt for abstraksjonsnivå; dvs. difi:abstractionLevel (abb, sbb, instance).
 |====================
 
 
