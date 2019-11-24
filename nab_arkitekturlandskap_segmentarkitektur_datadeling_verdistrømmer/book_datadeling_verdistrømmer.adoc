@@ -23,7 +23,7 @@ Note: The _lang_ value may be overridden by a command line parameter.
 // The above parameters are processed by scripts included by the following statement
 include::../plattform_felles/includes/commonincludes.adoc[]
 
-image:../nab_arkitekturlandskap_segmentarkitektur_datadeling_verdistrømmer/media/datadeling-logo.png[width=300]
+
 
 
 // ****************
@@ -31,19 +31,19 @@ image:../nab_arkitekturlandskap_segmentarkitektur_datadeling_verdistrømmer/medi
 // ****************
 ifeval::["{lang}" == "no"]
 
-[.lead]
-_Kort, innledende tekst for denne boken_
+//[.lead]
+//_Kort, innledende tekst for denne boken_
 
+image:../plattform_felles/media/i-arbeid.png[width=45, height=45, alt="Figur: i-arbeid.png?",]Uferdig innhold - i arbeid
 
 == Introduksjon
 //include::./intro_ra_datadeling.adoc[]
 
-Se link:../kunnskap_tema_value_streams[kunnskapsbiblioteket om verdistrømmer] for generell bakgrunn og link../nab_referanse_modelleringskonvensjoner[modelleringskovensjoner] om gjeldende modelleringskonvensjoner.
+Se link:../kunnskap_tema_value_streams[kunnskapsbiblioteket om verdistrømmer] for generell bakgrunn, samt link:../nab_referanse_modelleringskonvensjoner[modelleringskovensjoner] om gjeldende modelleringskonvensjoner.
 
-
+////
 Brukstilfeller og scenarier
 
-#*** I ARBEID! ***#
 
 Konsument:
 
@@ -62,26 +62,51 @@ Produsent:
 * Forespørsel om abonnement på  hendelsesbaserte notifikasjoner
 * ...
 
+////
 
-== Generell deling og innhenting av data og hendelser  
+== Referansemodell for deling og innhenting av data og hendelser  
 
+=== Overordnet modell
 
 ////
 .Overordnet verdistrøm for deling av data 
 image::../nab_arkitekturlandskap_segmentarkitektur_datadeling_verdistrømmer/media/Overordnet verdistrøm for deling av data .png[alt=Overordnet verdistrøm for deling av data  image]
 ////
 
+En overordnet modell er vist i følgende figur, der det skilles mellom aktører som har data å dele (potensielle datatilbydere) og aktører som har behov for data (potensielle datakonsumenter), og deres respektive verdistrømmer.
+
 .Del og innhent data og hendelser
 image::../nab_arkitekturlandskap_segmentarkitektur_datadeling_verdistrømmer/media/Del og innhent data og hendelser.png[alt=Del og innhent data og hendelser image]
 
+I dette bildet er *involverte samhandlingsaktører kollektivt _hovedansvarlige_* for deling og innhenting av data og hendelser.
 
+Interessenter kan være:
+
+* Samhandlingsaktører
+* Tjenesteeiere
+* Sluttbrukere
+
+Videre kommentarer til figuren over: TBD.
+
+=== Ende-til-ende verdistrømmer
+Ende-til-ende verdistrømmer for både datatilbydere og datakonsumenter er vist i følgende figur.
 
 .Del og innhent data og hendelser, detaljert verdistrøm
 image::../nab_arkitekturlandskap_segmentarkitektur_datadeling_verdistrømmer/media/Del og innhent data og hendelser, detaljert verdistrøm.png[alt=Del og innhent data og hendelser, detaljert verdistrøm image]
 
-==== Tilgjengeliggjør egne data og klargjør for datadeling
+
+Videre kommentarer til figuren over: TBD.
+
+=== Detaljering av stegene i overordnet verdistrøm
+
+==== Steg: Tilgjengeliggjør egne data og klargjør for datadeling
 .Tilgjengeliggjør egne data og klargjør for datadeling
 image::../nab_arkitekturlandskap_segmentarkitektur_datadeling_verdistrømmer/media/Tilgjengeliggjør egne data og klargjør for datadeling.png[alt=Tilgjengeliggjør egne data og klargjør for datadeling image]
+
+==== Detaljering av andre steg i overodnet verdistrøm
+TBD.
+
+
 
 // ****************
 endif::[]
