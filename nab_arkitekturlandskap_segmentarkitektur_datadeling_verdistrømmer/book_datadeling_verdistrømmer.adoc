@@ -36,10 +36,12 @@ _Kort, innledende tekst for denne boken_
 
 
 == Introduksjon
-include::./intro_ra_datadeling.adoc[]
+//include::./intro_ra_datadeling.adoc[]
+
+Se link:../kunnskap_tema_value_streams[kunnskapsbiblioteket om verdistrømmer] for generell bakgrunn og link../nab_referanse_modelleringskonvensjoner[modelleringskovensjoner] om gjeldende modelleringskonvensjoner.
 
 
-== Brukstilfeller og scenarier
+Brukstilfeller og scenarier
 
 #*** I ARBEID! ***#
 
@@ -61,16 +63,21 @@ Produsent:
 * ...
 
 
+== Generell deling og innhenting av data og hendelser  
 
-== Verdistrømmer
 
-=== Generell deling av data  
-
+////
 .Overordnet verdistrøm for deling av data 
 image::../nab_arkitekturlandskap_segmentarkitektur_datadeling_verdistrømmer/media/Overordnet verdistrøm for deling av data .png[alt=Overordnet verdistrøm for deling av data  image]
+////
+
+.Del og innhent data og hendelser
+image::../nab_arkitekturlandskap_segmentarkitektur_datadeling_verdistrømmer/media/Del og innhent data og hendelser.png[alt=Del og innhent data og hendelser image]
 
 
 
+.Del og innhent data og hendelser, detaljert verdistrøm
+image::../nab_arkitekturlandskap_segmentarkitektur_datadeling_verdistrømmer/media/Del og innhent data og hendelser, detaljert verdistrøm.png[alt=Del og innhent data og hendelser, detaljert verdistrøm image]
 
 ==== Tilgjengeliggjør egne data og klargjør for datadeling
 .Tilgjengeliggjør egne data og klargjør for datadeling

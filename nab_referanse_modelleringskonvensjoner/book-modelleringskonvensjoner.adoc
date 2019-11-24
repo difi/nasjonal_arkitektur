@@ -502,6 +502,9 @@ Enhetlig layout av symboler og diagrammer
 | Fargenyanser for abstraksjonsnivå | Bruk fargenyanser for å angi aktuelt abstraksjonsnivå, med lysest farge for ABB og mørkere nyanser for SBB og INSTANS. Merk: Dette  kan gjøres ved å sette opp aktuelt modelleringsverktøy til å sette farge ut fra attributt for abstraksjonsnivå; dvs. difi:abstractionLevel (abb, sbb, instance).
 |====================
 
+== Konvensjoner for utvalgte _viewpoints_
 
+=== Value Stream Viewpoint
+Se link:https://pubs.opengroup.org/architecture/archimate3-doc/apdxc.html#_Toc10045518[ArchiMate® 3.1 om Value Stream Viewpoint] og link:https://pubs.opengroup.org/architecture/archimate3-doc/chap07.html#_Toc10045360[ArchiMate® 3.1 om Value Stream Structure Element]. Se også link:../kunnskap_tema_value_streams[kunnskapsbiblioteket om verdistrømmer] for generell bakgrunn om dette temaet.
 
-
+Her følger nærmere spesifikasjon og eksempler: TBD.
