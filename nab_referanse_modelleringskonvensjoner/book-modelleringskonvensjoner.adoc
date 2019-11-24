@@ -21,7 +21,7 @@ Andre modelleringsstandarder og metamodeller vurderes løpende, i sammenheng med
 
 
 == Modelleringsprinsipper
-Her kommer informasjon om styrende prinsipper for modellering. Foreløpig liste over temaer:
+Foreløpig liste over temaer:
 
 * Kombinasjon av modelleringsspråk
 * Støtte for arkitekturparadigmer som tjenesteorientert arkitektur (SOA), hendelsedrevet arkitektur (EDA) og ressursorientert arkitektur (ROA)
