@@ -52,7 +52,7 @@ Videre behov og muligheter, som eventuelt vil dekkes etterhvert, omfatter blant 
 
 Det skilles mellom konseptuelle arkitekturbeskrivelser og mer løsningsnære beskrivelser som gir merkonkret veiledning, f.eks. ved å angi bruk av nasjonale felleskomponenter.
 
-De generiske og konseptuelle beskrivelsene kommer først, og kan etterfølges av alternative, mer spesifikk arkitektur- eller løsningsmønstre. 
+De generiske og konseptuelle beskrivelsene kommer først, og kan etterfølges av alternative, mer spesifikke anvendelser (arkitektur- eller løsningsmønstre). 
 
 Løsningsarkitekter som er ute etter praktiske tips, kan velge å gå rett på de mest konkrete beskrivelsene.
 
@@ -82,6 +82,8 @@ include::../nab_referanse_arkitekturer_datautveksling/generisk-prosess-for-opera
 
 //NOTE: Prinsipper for datautveksling vil bygge på felles  nasjonale arkitekturprinsipper, som er under revidering høsten 2019.
 
+Se også: 
+link:../nab_referanse_arkitekturer_struktur_beskrivelse[Mer om dokumentstruktur]
 
 = Arkitekturmønstre for datautveksling
 
