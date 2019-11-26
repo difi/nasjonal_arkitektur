@@ -28,36 +28,9 @@ image::../nab_referanse_arkitekturer_datautveksling_forsendelse/media/Generisk d
 ////
 
 
-= Kapabilitetskart for deling av data ved forsendelse
+= Grunnleggende mønstre og konsepter for meldingsutveksling
 
-image:../nab_referanse_arkitekturer_emelding/media/kapabiliteter_forsendelse.png[alt="Bilde mangler", width=750]
-
-
-[cols ="1,3", options="header"]
-.Elementer i view for Kapabiliteter eMelding
-|===
-
-| Element
-| Beskrivelse
-
-| Sending av data
-| Evnen til å sende data til en mottaker.
-
-| Mottak av data
-| Evnene til å motta en melding eller forsendelse fra en avsender.
-
-| Klargjøre for deling av data ved forsendelse
-| Evne til å klargjøre for meldingsutveksling med eksterne parter.
-
-| Mottaker
-| Den som mottar en melding.
-
-| Avsender 
-| Den som sender et brev, en pakke, en e-post, en elektronisk melding, en SMS eller lignende.
-
-|===
-
-= Generisk mønster for meldingsforsendelse
+== Generisk meldingsforsendelse
 
 I sin enkleste form handler dette om realisering av informasjonsflyt nellom avsender og mottaker som dataflyt mellom kommunikasjonsløsningene på hver side, i form av meldingsflyt gjennom underliggende infrastruktur for meldingssutveksling. Dette er illustrert i følgende figur.  
 
@@ -66,6 +39,15 @@ image::../nab_referanse_arkitekturer_datautveksling_forsendelse/media/Generisk m
 
 Det finnes flere mer detaljerte mønstre som bygger på dette.
 
+= Firehjørnersmodellen
+Begrepet "firehjørnersmodell" tilsvarer  
+
+.Firehjørnersmodellen - operativt
+image::../nab_referanse_arkitekturer_datautveksling_forsendelse/media/Firehjørnersmodellen - operativt.png[alt=Firehjørnersmodellen - operativt image]
+
+4-hjørnersmodellen er basert på en distribuert modell som tillater kommunikasjon mellom samhandlingsaktører uten behov for bilaterale avtaler ved at man baserer seg på innmelding i et fellesskap.
+
+4-hjørnersmodellen med adresse- og kapabilitetsoppslag sikrer fleksibilitet og skalerbarhet hvor
 
 ////
 Firehjørnersmodellen for meldingsforsendelse

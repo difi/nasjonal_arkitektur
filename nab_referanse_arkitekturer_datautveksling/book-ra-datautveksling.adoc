@@ -10,6 +10,8 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 == Generelt
 Referansearkitekturer for datautveksling adresserer temaområdet datautveksling i form av arkitektur- og løsningsmønstre. Se  link:../nab_arkitekturlandskap_segmentarkitektur_datadeling_datautveklsing\[temaområde datautveksling] om omfang, tverrgående temaer og annen informasjon som angår dette området.
 
+Se også om det overliggende link:../nab_arkitekturlandskap_segmentarkitektur_datadeling\[temaområdet datadeling].
+
 // include::../nab_referanse_arkitekturer_datautveksling/intro-ra-datautveksling.adoc[]
 
 

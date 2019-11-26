@@ -16,6 +16,7 @@ include::../nab_referanse_arkitekturer_emelding/krav_eMelding.adoc[]
 ////
 
 == Kapabilitetskart - relevante kapabiliteter
+
 Modellen under viser hovedinndelingen i kapabiliteter en avsender og en mottaker må ha for å dele data ved meldingsutveksling. Beskrivelsene tar utgangspunkt i forsendelse av meldinger innenfor et fellesskap og er en delmengde av det større området som omhandler deling av data på forespørsel.
 
 image:../nab_referanse_arkitekturer_emelding/media/kapabiliteter_forsendelse.png[alt="Bilde mangler", width=750]
@@ -47,8 +48,14 @@ image:../nab_referanse_arkitekturer_emelding/media/kapabiliteter_forsendelse.png
 
 == Grunnleggende konsepter
 
+Se ... 
+
+
 
 Introduksjon til "firehjørnersmodellen" pluss øvrige ABB-er kommer her!
+
+
+
 
 #Foreløpig figur (her PEPPOL, men erstattes med generisk figur):#
 
@@ -288,6 +295,7 @@ Privat nøkkel benyttes til dekryptering og signering av meldinger.
 |===
 
 == Anvendelse av eMelding i PEPPOL-infrastrukturen i Norge
+
 
 Beskrivelsene her viser hvordan den generiske referansearkitekturen for eMelding kan realiseres med #arkitektur- og løsningskomponenter# som inngår i PEPPOL-infrastrukturen.
 
