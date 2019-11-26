@@ -5,6 +5,7 @@
 include::../plattform_felles/includes/commonincludes.adoc[]
 
 [.lead]
+eMelding er en referansearkitektur  under området _Deling av data ved forsendelse_, og kan ses på som en "beste praksis" for meldingsutveksling på tvers av virksomheter, sektorer og landegrenser.
 
 == Introduksjon
 include::../nab_referanse_arkitekturer_emelding/ra-emelding-intro.adoc[]
