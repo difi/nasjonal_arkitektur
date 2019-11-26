@@ -14,7 +14,7 @@ Referansearkitekturer for publisering omfatter mønstre for deling av hendelser 
 Eksempler på anvendelse er:  
 
 * notifikasjoner om enkeltvise hendelser  
-* strømming av iot-data
+* strømming av IoT-data
 * strømming av hendelser i tilknytning til vedtak i saksbehandling
 
 

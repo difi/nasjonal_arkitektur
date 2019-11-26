@@ -10,14 +10,18 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _I arbeid (høst 2019)_
 
 //== Introduksjon
-// include::../nab_referanse_arkitekturer_enotifikasjon/ra-enotifikasjon-intro.adoc[]
+//include::../nab_referanse_arkitekturer_enotifikasjon/ra-enotifikasjon-intro.adoc[]
 
 
 == Om ePublisering
 
-ePublisering er et arkitekturmønster under området _deling av data ved publisering_. Mønsteret forutsetter de samme kapabilitetene som eOppslag for oppsett og utveksling av data. Hendelseslister gjøres tilgjengelig som APIer på samme måte som andre oppslag og benytter tilsvarende mekanismer for tilgangsstyring. Det som  kommer i tillegg er kapabiliteter for å generere og tilby notifikasjon (tilbydere), samt å innhente og håndtere notifikasjoner (konsumenter). 
+ePublisering er et samhandlingsmønster under området _deling av data ved publisering_ og tar for seg hvordan dele data ved publisering av hendelseslister og bruk av disse. Mønsteret forutsetter de samme kapabilitetene som eOppslag for oppsett og utveksling av data.
+
+Hendelseslister gjøres tilgjengelig som APIer på samme måte som andre oppslag og benytter tilsvarende mekanismer for tilgangsstyring. Det som  kommer i tillegg er kapabiliteter for å generere og tilby notifikasjon (tilbydere), samt å innhente og håndtere notifikasjoner (konsumenter). 
 
 == Kapabilitetskart publisering
+
+Modellen under viser kapabiliteter spesifikke for ePublisering. Øvrige kapabiliteter er beskrevet i samhandlingsmønsteret for eOppslag.
 
 image:../nab_referanse_arkitekturer_epublisering/media/eNotifikasjon kapabiliteter kort.png[alt="Bilde mangler", width=750]
 
@@ -50,6 +54,7 @@ image:../nab_referanse_arkitekturer_epublisering/media/eNotifikasjon kapabilitet
 == Arkitekturmønstre
 
 === Generere og tilby notifikasjoner
+Generere og tilby notifikasjoner er den prosessen datatilbyder må gjøre for å tilby hendelseslister med notifikasjoner om endringer i ett eller flere datasett. Hendelselister tilbys på samme måte som beskrevet i eOppslag, men det er spesielle krav til hendelseslister med tanke på søk og nedlasting.
 
 image:../nab_referanse_arkitekturer_epublisering/media/ABB_Generere.png[alt="Bilde mangler", width=600]
 
@@ -88,6 +93,8 @@ En notifikasjoner kan inneholde lite eller mye informasjon om selve hendelsen, m
 
 
 === Innhente og håndtere notifikasjoner
+Innhente og håndtere notifikasjoner beskriver konsumering av notafikasjoner. Notifiasjonen leses ved damme mekanismer som i eOppslag, men konsumenten må holde orden i spesielle forhold som kan være rundt hendelseslister.
+Konumenten må også være i stand til å vurdere relevansen av hendelsene for seg før videre behandling av norifikasjonene.
 
 image:../nab_referanse_arkitekturer_epublisering/media/ABB_Innhente.png[alt="Bilde mangler", width=750]
 
@@ -135,6 +142,7 @@ En notifikasjoner kan inneholde lite eller mye informasjon om selve hendelsen, m
 == Løsningsmønstere
 
 === Generere og tilby notifikasjoner
+Datatilbyder må etablere en hendelseshåndteringstjeneste som genererer notifikasjoner basert på hendelser eller endringer i ett eller flere datasett. Notifikasjonene tilbys gjennom APIer på samme måte som beskrevet i eOppslag.
 
 image:../nab_referanse_arkitekturer_epublisering/media/SBB_Generere.png[alt="Bilde mangler", width=750]
 
@@ -170,6 +178,7 @@ En hendelse som fører til en notfikasjon vil typisk være en endring i et datas
 |===
 
 === Innhente og håndtere notifikasjoner
+Datakonsument leser notifikasjoner som beskrevet i eOppslag før vurdering og videre behandling av notifikasjonene.
 
 image:../nab_referanse_arkitekturer_epublisering/media/SBB_Konsumere.png[alt="Bilde mangler", width=750]
 
