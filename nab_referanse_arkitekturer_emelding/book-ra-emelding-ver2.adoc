@@ -14,10 +14,6 @@ include::../nab_referanse_arkitekturer_emelding/ra-emelding-intro.adoc[]
 include::../nab_referanse_arkitekturer_emelding/krav_eMelding.adoc[]
 ////
 
-== Grunnleggende konsepter
-
-
-
 == Kapabilitetskart - relevante kapabiliteter
 Modellen under viser hovedinndelingen i kapabiliteter en avsender og en mottaker må ha for å dele data ved meldingsutveksling. Beskrivelsene tar utgangspunkt i forsendelse av meldinger innenfor et fellesskap og er en delmengde av det større området som omhandler deling av data på forespørsel.
 
@@ -47,6 +43,22 @@ image:../nab_referanse_arkitekturer_emelding/media/kapabiliteter_forsendelse.png
 | Den som sender et brev, en pakke, en e-post, en elektronisk melding, en SMS eller lignende.
 
 |===
+
+== Grunnleggende konsepter
+
+
+Introduksjon til "firehjørnersmodellen" pluss øvrige ABB-er kommer her!
+
+#Foreløpig figur (her PEPPOL, men erstattes med generisk figur):#
+
+.PEPPOL eDelivery Network overview
+image::../kunnskap_losning_eu-peppol\media/PEPPOL eDelivery Network overview.png[]
+
+ 
+TODO: Gi en sammenlikning mellom en tradisjonell ESB (begrenset  skaleriug) og eMelding (gloal skalering).
+
+TODO: Beskriv muligheten for å opprette flere communities! 
+
 
 
 == Arkitekturmønstre (konseptuelle beskrivelser, kun arkitekturbyggeklosser)
@@ -488,9 +500,10 @@ Etter mottak må mottaker følge opp og håndtere innholdet i meldingen.
 
 |===
 
+== Mulige videre anvendelser
+TBD.
 
-
-== "Firehjørnersmodellen"
+== Mer om "Firehjørnersmodellen"
 === Konsept (operativt)
 
 eMelding benytter en 4-hjørnersmodell hvor meldinger utveksles mellom aksesspunkter, slik dette er spesifisert i PEPPOL-infrastrukturen
