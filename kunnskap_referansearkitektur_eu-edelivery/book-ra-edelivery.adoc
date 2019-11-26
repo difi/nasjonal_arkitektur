@@ -1,0 +1,59 @@
+:lang: en
+:doctitle: EIRA - European Interoperability Reference Architecture
+:keywords: eNotifikasjon
+
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+[.lead]
+European Interoperability Reference Architecture (EIRA) er en generisk referansearkitektur som  definerer metamodeller med de mest sentrale arkitekturbyggeklossene som behøves for å bygge interoperable systemer i offentlig sektor.
+
+== Introduction to eDelivery
+include::./ra-edelivery-intro.adoc[]
+
+== Who is eDelivery for
+
+Policy domain owners involved in the roll out of EU or national policies that require the *secure exchange of documents and data* are the main target of the services of eDelivery DSI.
+
+By adopting eDelivery, these actors make sure that Public Administrations can exchange any type of data and documents across borders. This means enabling *Administration to Administration communication (A2A)* contributing to the creation of an European single market which is fit for the digital age. 
+
+eDelivery can also be used in *Administration to Business (A2B)* and *Business to Administration (B2A)* scenarios, as proven by the PEPPOL implementation of eDelivery in the eProcurement domain.
+
+It can also enable the interconnection of *Public Administrations with Citizens (A2C and C2A)* when adopted in the development of **webportals**. For example, eDelivery enables the eJustice portal to talk with other information systems. [underline]#Communications between citizens (C2C) is out of scope of eDelivery.#
+
+The eDelivery DSI is also appealing for *service and software vendors* in the eDelivery domain. These actors can benefit form the CEF eDelivery services when upgrading their solutions to become conformant with the technical specifications. 
+
+.Target and scope of eDelivery
+image::../kunnskap_referansearkitektur_eu-edelivery\media/eDelivery_Discover_Background_img1.png[]
+
+Also see https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/Who+is+eDelivery+for.
+
+== eDelivery Use cases
+eDelivery has the following Use Cases:
+
+* Message exchange
+* Trust Establishment
+* Dynamic Service Location
+* Capability Lookup
+* Backend Integration
+
+
+[underline]#These Use Cases are domain-neutral as eDelivery can be used for the exchange of any type of document and data.#
+
+As an example, the first use case refers to a generic 'Message Exchange' instead of 'Invoices Exchange' or 'Claims Exchange'. The exchange of invoices or claims are domain-specific Use Cases and are examples specializations of the 'Message Exchange' Use Case. eDelivery is an enabler of a wide variety of services which will exchange specific types of documents and data, below are a few examples.
+
+.eDelivery Use Cases”
+image::../kunnskap_referansearkitektur_eu-edelivery\media/eDelivery_usecases.png[]
+
+
+== How does eDelivery work?
+The CEF eDelivery Building Block helps users to exchange electronic data and documents with one another in a reliable and trusted way.
+
+The CEF eDelivery solution is based on a distributed model called **the “4-corner model”**. In this model, the back-end systems of the users don’t exchange data directly with each other but do this through Access Points. These Access Points are conformant to the same technical specifications and therefore capable of communicating with each other.
+
+As a result of this, users adopting CEF eDelivery can easily and safely exchange data even if their IT systems were developed independently from each other. 
+
+.The “4-corner model”
+image::../kunnskap_referansearkitektur_eu-edelivery\media/eDelivery_HowItWorks_SolutionDescription_img1.png[]
+
+
+
