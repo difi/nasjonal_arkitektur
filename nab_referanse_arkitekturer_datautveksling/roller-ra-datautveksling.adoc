@@ -62,9 +62,8 @@ En annen type representant er databehandler i betydningen representant for behan
 | Den som har en koordinerende rolle innen en bransje. F.eks. Finans Norge på vegne av bankene.
 
 | Leverandør
-| Den som etter en
-
-delegert rettighet gitt til leverandør av ansvarlig samhandlingsaktør.
+| Den som selger eller leverer tjenester, systemer eller lignende. 
+Tjenesteleverandører vil normalt representere en behandlingsansvarlig og også ha rollen som databehandler. 
 
 |===
 
