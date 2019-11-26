@@ -55,5 +55,41 @@ As a result of this, users adopting CEF eDelivery can easily and safely exchange
 .The “4-corner model”
 image::../kunnskap_referansearkitektur_eu-edelivery\media/eDelivery_HowItWorks_SolutionDescription_img1.png[]
 
+== eDelivery AS4 profile ver. 1.14
+The AS4 messaging protocol is used between corners 2 and 3 of the "4-corner model".
 
+The eDelivery AS4 Profile is a modular profile of the ebMS3 and AS4 OASIS specifications. Its core is a mandatory Common Profile that selects, extends and profiles the AS4 ebHandler Conformance Profile and AS4 Additional Features and provides a common Usage Profile. 
+This Common Profile can be implemented using open source or closed source AS4 software implementations. It is aligned with, and corresponds to a subset of, the AS4 profile for TSOs (Transmission System Operators) developed by ENTSOG (the European Network of Transmission System Operators for Gas).
+
+In addition to the Common Profile, this specification provides a number of optional Profile Enhancement modules that specify functionality enhancements covering AS4 message exchange in four corner topologies, the use of AS4 in conjunction with the UN/CEFACT Standard Business Document Header (SBDH) specification, Dynamic Receiver and Dynamic Sender behavior and support for the Pull feature.
+
+
+.ebMS3/AS4 Functional Overview.  (****) in ebMS3, not in AS4 (*****) AS4 extension to ebMS3
+[width="100%",options="header"]
+|====================
+|Functionality|ebMS 3.0 AS4
+
+|Core Messaging|Web Services
+|Exchange Pattern Bindings|Push, Pull and Sync (*)
+|Exchange Patterns|One Way or Two Way (*)
+|Internet TransportHTTP 1.1
+|Message and Payload Packaging|SOAP 1.2 with attachments
+|Message Confidentiality|WS-Security 1.1 using XML Encryption
+|Message Correlation|ebMS 3.0 "RefToMessageId" and "ConversationId"
+|Message Identification|ebMS 3.0 "MessageId"
+|Message Timestamp|ebMS 3.0 "Timestamp" and WS-Security "Timestamp"
+|Non-Repudiation of Origin|WS-Security 1.1 using XML Signature
+|Non-Repudiation of Receipt|Signed Receipt Signal Message
+|Party Identification|ebMS 3.0 "From" and "To" party identifiers.
+|Payload Compression|Gzip (**)
+|Reliable Message|AS4 reception awareness feature for lightweight, interoperable reliable messaging (**)
+|Routing and Dispatching, SOA integration|Mandatory "Service" and "Action" header elements
+|Transport Layer Integrity, Sender Authentication, Receiver Authentication and Message Confidentiality (Non-Persistent)|Transport Layer (SSL / TLS) Security
+|====================
+
+
+
+Also see: 
+
+1. https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eDelivery+AS4+-+1.14
 
