@@ -4,9 +4,16 @@
 
 include::../plattform_felles/includes/commonincludes.adoc[]
 
-eMelding er en delmengde av området "Deling av data ved forsendelse". Det er spesifikt avgrenset til asynkron forsendelse (push) innenfor et gitt fellesskap (community) som samhandler under et felles interoperabilitetsregime. Når man er del av fellesskapet vil man kunne sende meldinger til andre parter i fellesskapet uten å måtte inngå bilaterale avtaler om dette. 
+eMelding hører inn under området _Deling av data ved forsendelse_, og kan ses på som en "beste praksis" for meldingsutveksling på tvers av virksomheter og sektorer i offentlig sektor, samt dessuten mellom offentlig sektor og privat sektor. 
 
-Formålet med referansearkitekturen for eMelding er å beskrive hvordan meldingsutveksling bør skje internt i offentlig sektor, samt mellom offentlig sektor og privat sektor, basert på den europeiske byggeklossen link:https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/Documentation+eDelivery[CEF eDelivery]. 
+Referansearkitekturen er  basert på basert på den europeiske "byggeklossen" link:https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/Documentation+eDelivery[CEF eDelivery], som spesifiserer aktuelle arkitekturer og standarder. Det finnes også eksisterende anvendelser og gjenbrukbare løsningsbyggeklosser.
+
+
+Det pekes også på konkrete løsninger som kan benyttes.
+
+eMelding er spesifikt avgrenset til asynkron forsendelse (push) innenfor et gitt fellesskap (community) som samhandler under et felles interoperabilitetsregime. Når man er del av fellesskapet vil man kunne sende meldinger til andre parter i fellesskapet uten å måtte inngå bilaterale avtaler om dette. 
+
+basert på den europeiske byggeklossen link:https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/Documentation+eDelivery[CEF eDelivery]. 
 
 Referansearkitekturen er  basert på beste praksis i EU. Den definerer roller og ansvar, og  veileder og stiller krav til arkitektur og standarder som skal benyttes når meldinger utveksles. Det pekes også på konkrete løsninger som kan benyttes.
 
