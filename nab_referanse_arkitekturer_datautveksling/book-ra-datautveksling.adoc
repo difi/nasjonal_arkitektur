@@ -38,7 +38,7 @@ Videre behov og muligheter, som eventuelt vil dekkes etterhvert, omfatter blant 
 
 * Spørringer på tvers av flere datakilder.
 
-* Standardisert støtte for korrelering av meldinger i tverrgående prosesser.
+* Meldingsutveksling i tverrgående prosesser. __Merk: eMelding beskriver standardisert støtte for korrelering av meldinger, som en forutsetning for dette.__
 
 * Abonnement på periodisk eller hendelsesbasert oppdatering om endringer eller status. 
 
@@ -82,7 +82,7 @@ include::../nab_referanse_arkitekturer_datautveksling/generisk-prosess-for-opera
 
 //NOTE: Prinsipper for datautveksling vil bygge på felles  nasjonale arkitekturprinsipper, som er under revidering høsten 2019.
 
-Se også link:../nab_referanse_arkitekturer_struktur_beskrivelse[mer om dokumentstruktur og modelleringskonvensjoner].
+Se også: link:../nab_referanse_arkitekturer_struktur_beskrivelse[Mer om dokumentstruktur og modelleringskonvensjoner].
 
 
 Beskrivelsene finnes ellers både samlet og  enkeltvis. Som alternativ til å se "den store boken", kan en gå inn på følgende lenker: 
