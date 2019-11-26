@@ -5,7 +5,7 @@
 include::../plattform_felles/includes/commonincludes.adoc[]
 
 [.lead]
-//European Interoperability Reference Architecture (EIRA) er en generisk referansearkitektur som  definerer metamodeller med de mest sentrale arkitekturbyggeklossene som behøves for å bygge interoperable systemer i offentlig sektor.
+PEPPOL is a set of artifacts and specifications enabling cross-border eProcurement. The use of PEPPOL is governed by a multi-lateral agreement structure which is owned and maintained by OpenPEPPOL.
 
 == Introduction to PEPPOL
 include::./intro-peppol.adoc[]

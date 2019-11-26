@@ -9,7 +9,8 @@ image:../kunnskap_losning_eu-peppol\media/logo-peppol.png[]
 
 PEPPOL is a set of artifacts and specifications enabling cross-border eProcurement. The use of PEPPOL is governed by a multi-lateral agreement structure which is owned and maintained by OpenPEPPOL.
 
-PEPPOL enables trading partners to exchange standards-based electronic documents over the PEPPOL network (based on a 4-corner model). These documents include e-Orders, e-Advance Shipping Notes, eInvoices, eCatalogues, Message Level Responses, etc.
+PEPPOL enables trading partners to exchange standards-based electronic documents over the PEPPOL network (based on a "4-corner model"). These documents include e-Orders, e-Advance Shipping Notes, eInvoices, eCatalogues, Message Level Responses, etc.
+
 
 PEPPOL Access Points connect users to the PEPPOL network and exchange electronic documents based on the PEPPOL specifications. Buyers and suppliers are free to choose their preferred single Access Point provider to connect to all PEPPOL participants already on the network. (‘Connect once, connect to all’).
 
@@ -18,6 +19,13 @@ PEPPOL is based on three major pillars:
 * the network (PEPPOL eDelivery Network).
 * the document specifications (PEPPOL Business Interoperability Specifications ‘BIS’)
 * the legal framework that defines the network governance (PEPPOL Transport Infrastructure Agreements – TIA)
+
+
+*OpenPEPPOL* is a non-profit international association under Belgian law (Association Internationale Sans But Lucratif – AISBL) and consists of both public sector and private members. The association has assumed full responsibility for the development and maintenance of the PEPPOL specifications, building blocks and its services and implementation across Europe.
+
+The purpose of OpenPEPPOL is to enable European businesses to easily deal electronically with any European public sector buyers in their procurement processes, thereby increasing opportunities for greater competition for government contracts and providing better value for tax payers’ money.
+
+The Association provides an authoritative point of reference for networks of interoperable, PEPPOL-compliant infrastructure and the organisations that use it, ensuring high level governance and continuation of the agreement infrastructure. OpenPEPPOL is working towards providing its stakeholders with widely accepted technology standards and specifications, while ensuring sustainability and promoting and supporting the wider use of the PEPPOL specifications, building blocks and services.
 
 
 

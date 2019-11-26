@@ -4,17 +4,23 @@
 
 include::../plattform_felles/includes/commonincludes.adoc[]
 
-eMelding hører inn under området _Deling av data ved forsendelse_, og kan ses på som en "beste praksis" for meldingsutveksling på tvers av virksomheter og sektorer i offentlig sektor, samt dessuten mellom offentlig sektor og privat sektor. 
+eMelding hører inn under området _Deling av data ved forsendelse_, og kan ses på som en "beste praksis" for meldingsutveksling på tvers av virksomheter og sektorer i offentlig sektor, samt dessuten mellom offentlig sektor og privat sektor.
 
-Referansearkitekturen er  basert på basert på den europeiske "byggeklossen" link:https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/Documentation+eDelivery[CEF eDelivery], som spesifiserer aktuelle arkitekturer og standarder. Det finnes også eksisterende anvendelser og gjenbrukbare løsningsbyggeklosser.
+Referansearkitekturen tar utgangspunkt i den europeiske "byggeklossen"  link:../kunnskap_referansearkitektur_eu-edelivery[CEF eDelivery]. CEF eDelivery  spesifiserer arkitekturer og standarder for meldingsutveksling. Det finnes flere eksisterende anvendelser og gjenbrukbare løsninger for å realisere eDelivery i ulike land og virksomheter.
+
+I Norge finnes per 2019 anvendelser innen link:../kunnskap_losning_eu-peppol[PEPPOL-nettverket], nærmere bestemt i regi av OpenPEPPOL.
+
+NOTE: __OpenPEPPOL is a non-profit international association under Belgian law (Association Internationale Sans But Lucratif – AISBL) and consists of both public sector and private members. The association has assumed full responsibility for the development and maintenance of the PEPPOL specifications, building blocks and its services and implementation across Europe.__
 
 
-Det pekes også på konkrete løsninger som kan benyttes.
 
-eMelding er spesifikt avgrenset til asynkron forsendelse (push) innenfor et gitt fellesskap (community) som samhandler under et felles interoperabilitetsregime. Når man er del av fellesskapet vil man kunne sende meldinger til andre parter i fellesskapet uten å måtte inngå bilaterale avtaler om dette. 
+**eMelding som referansearkitektur rendyrker konseptene og har en klar kopling til CEF eDelivery, men beskrives i utgangspunktet frikoplet fra CEF eDelivery**. Med dette som utgangspunkt, angis så aktuelle løsninger og praktiske anvendelser i form av CEF eDelivery og PEPPOL/OpenPEPPOL.    
 
-basert på den europeiske byggeklossen link:https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/Documentation+eDelivery[CEF eDelivery]. 
+eMelding som referansearkitektur er avgrenset til** asynkron meldingsutveksling innenfor et fellesskap (community) som samhandler under et felles interoperabilitetsregime**. Når man er del av fellesskapet vil man kunne sende meldinger til andre parter i fellesskapet uten å måtte inngå bilaterale avtaler om dette. Hver enkelt part registrerer sine samhandlingskapabiliteter i felles registre, for andre til å oppdage.
 
-Referansearkitekturen er  basert på beste praksis i EU. Den definerer roller og ansvar, og  veileder og stiller krav til arkitektur og standarder som skal benyttes når meldinger utveksles. Det pekes også på konkrete løsninger som kan benyttes.
+TIP: eMelding som referansearkitektur støtter mønstre for request-reply og korrelering av meldinger i prosessinstanser, tilsvarende slik dette legges opp til i spesifikasjonen av metadata i meldingsprofil for CEF eDelivery. 
 
-WARNING: De
+
+
+
+
