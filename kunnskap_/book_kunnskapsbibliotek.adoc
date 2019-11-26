@@ -216,6 +216,9 @@ TBD
 
 === OMG
 
+== Gjenbrukbare løsninger
+
+.link:../kunnskap_losning_eu-peppol[PEPPOL]
 
 == Verktøy
 . link:../kunnskap_verktøy_archi[Archi]
