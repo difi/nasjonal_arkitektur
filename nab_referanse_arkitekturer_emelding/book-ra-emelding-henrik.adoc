@@ -14,6 +14,8 @@ include::../nab_referanse_arkitekturer_emelding/ra-emelding-intro.adoc[]
 include::../nab_referanse_arkitekturer_emelding/krav_eMelding.adoc[]
 ////
 
+
+
 == Kapabilitetskart - relevante kapabiliteter
 Modellen under viser hovedinndelingen i kapabiliteter en avsender og en mottaker må ha for å dele data ved meldingsutveksling. Beskrivelsene tar utgangspunkt i forsendelse av meldinger innenfor et fellesskap og er en delmengde av det større området som omhandler deling av data på forespørsel.
 
@@ -43,22 +45,6 @@ image:../nab_referanse_arkitekturer_emelding/media/kapabiliteter_forsendelse.png
 | Den som sender et brev, en pakke, en e-post, en elektronisk melding, en SMS eller lignende.
 
 |===
-
-== Grunnleggende konsepter
-
-
-Introduksjon til "firehjørnersmodellen" pluss øvrige ABB-er kommer her!
-
-#Foreløpig figur (her PEPPOL, men erstattes med generisk figur):#
-
-.PEPPOL eDelivery Network overview
-image::../kunnskap_losning_eu-peppol\media/PEPPOL eDelivery Network overview.png[]
-
- 
-TODO: Gi en sammenlikning mellom en tradisjonell ESB (begrenset  skaleriug) og eMelding (gloal skalering).
-
-TODO: Beskriv muligheten for å opprette flere communities! 
-
 
 
 == Arkitekturmønstre (konseptuelle beskrivelser, kun arkitekturbyggeklosser)
@@ -286,24 +272,10 @@ Privat nøkkel benyttes til dekryptering og signering av meldinger.
 
 |===
 
-== Anvendelse av eMelding i PEPPOL-infrastrukturen i Norge
-
-Beskrivelsene her viser hvordan den generiske referansearkitekturen for eMelding kan realiseres med #arkitektur- og løsningskomponenter# som inngår i PEPPOL-infrastrukturen.
-
-Arkitekturbyggeklosser med flere mulige leverandører og løsninger;
-
-* CEF SMP (Service Metadata Publisher): Oppslagstjeneste for å finne adresse og kapabiliteter for aktuell mottaker. Inneholder mottakers ID, aksesspunktadresse og dokumenttyper som mottaker kan motta.Aktuelle løsninger:  link:https://samarbeid.difi.no/felleslosninger/elma[ELMA].
-
-* BCP (Business Certificate Publisher): Sertifikatutsteder. Løsninger: Se https://vefa.difi.no/bcp/.
-
-Rene løsningsbyggeklosser: 
-
-* Adressetjenesten CEF link:https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/SML+service[SML] (Service Metadata Locater): Global oppslagstjeneste for å finne fram til aktuell SMP.
-* BCL (Business Certificate Locator): Oppslagstjeneste for å finne BCP (introdusert ifm. Enhanced PEPPOL eDelivery Network).
-* Elektronisk mottaksregister (link:https://samarbeid.difi.no/felleslosninger/elma[ELMA]): Norsk register over foretak som kan ta i mot dokumenter i standardisert EHF-format.
 
 
-Disse fellesløsningene leverer de tjenestene som er beskrevet på forretningsnivå over.
+== Løsningsmønstre
+Beskrivelsen under viser hvordan den generiske arkitekturen i det foregående kapittelet kan realiseres med løsningskomponentene som inngår i PEPPOL-infrastrukturen henholdsvis Elektronisk mottaksregister (ELMA), adressetjenestene CEF SML/SMP og sertifikatkatalogløsningene BCP/BCL . Disse fellesløsningene leverer de tjenestene som er beskrevet på forretningsnivå over.
 
 Det er ikke hensikten å låse referansearkitekturen til spesifikke løsninger, da ulike sektorer og aktører kan ha behov som ikke passer med det som er beskrevet. I PEPPOL-infrastrukturen som benyttes som datautvekslingstjeneste er det spesifiserte protokoller og standardere som sikrer en del funksjoner som pålitelig meldingsutveksling med integritet og leveringssikkerhet.
 
@@ -500,10 +472,9 @@ Etter mottak må mottaker følge opp og håndtere innholdet i meldingen.
 
 |===
 
-== Mulige videre anvendelser
-TBD.
 
-== Mer om "Firehjørnersmodellen"
+
+== "Firehjørnersmodellen"
 === Konsept (operativt)
 
 eMelding benytter en 4-hjørnersmodell hvor meldinger utveksles mellom aksesspunkter, slik dette er spesifisert i PEPPOL-infrastrukturen
