@@ -1,0 +1,31 @@
+:lang: en
+:doctitle: Introduction to PEPPOL
+:keywords: PEPPOL
+
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+
+image:../kunnskap_losning_eu-peppol\media/logo-peppol.png[]
+
+PEPPOL is a set of artifacts and specifications enabling cross-border eProcurement. The use of PEPPOL is governed by a multi-lateral agreement structure which is owned and maintained by OpenPEPPOL.
+
+PEPPOL enables trading partners to exchange standards-based electronic documents over the PEPPOL network (based on a 4-corner model). These documents include e-Orders, e-Advance Shipping Notes, eInvoices, eCatalogues, Message Level Responses, etc.
+
+PEPPOL Access Points connect users to the PEPPOL network and exchange electronic documents based on the PEPPOL specifications. Buyers and suppliers are free to choose their preferred single Access Point provider to connect to all PEPPOL participants already on the network. (‘Connect once, connect to all’).
+
+PEPPOL is based on three major pillars:
+
+* the network (PEPPOL eDelivery Network).
+* the document specifications (PEPPOL Business Interoperability Specifications ‘BIS’)
+* the legal framework that defines the network governance (PEPPOL Transport Infrastructure Agreements – TIA)
+
+
+
+Also see: 
+
+1. link:https://peppol.eu/what-is-peppol/[What is PEPPOL?]
+2. link:https://peppol.eu/about-openpeppol/[About OpenPEPPOL]
+
+
+
+

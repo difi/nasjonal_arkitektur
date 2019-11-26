@@ -1,0 +1,43 @@
+:lang: en
+:doctitle: PEPPOL
+:keywords: TBD
+
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+[.lead]
+//European Interoperability Reference Architecture (EIRA) er en generisk referansearkitektur som  definerer metamodeller med de mest sentrale arkitekturbyggeklossene som behøves for å bygge interoperable systemer i offentlig sektor.
+
+== Introduction to PEPPOL
+include::./intro-peppol.adoc[]
+
+== The PEPPOL eDelivery Network
+PEPPOL uses the eDelivery Network to connect different eProcurement systems by establishing a set of common business processes and technical standards. This provides an interoperable and secure network connecting all Access Points using the same electronic messaging protocol and formats and applying digital signature technologies to secure message content.
+
+Once connected to the PEPPOL eDelivery Network (via a PEPPOL Access Point), public agencies and private enterprises can quickly and easily reach any other trading partner, also using PEPPOL.
+
+ 
+
+In this context, PEPPOL provides:
+
+* Technical specifications and sample software (open source)
+
+* PEPPOL Transport Infrastructure Agreements – a legal framework for many-to-many interoperability
+
+.PEPPOL eDelivery Network overview
+image::../kunnskap_losning_eu-peppol\media/PEPPOL eDelivery Network overview.png[]
+
+
+== Peppol in Norway
+The use of PEPPOL–based solutions has grown steadily in Norway, registering the following results, as of October 2018:
+
+* 41 Access Points in production
+* More than 121.000 end-users enabled as PEPPOL receivers
+* Over 8 million transactions per month
+
+Please click here to see the complete list of PEPPOL receivers in Norway.
+
+Also see:
+
+1. link:https://peppol.eu/what-is-peppol/peppol-country-profiles/norway-country-profile/[Norwegian PEPPOL Country Profile]
+
+2. link:https://www.anskaffelser.no/verktoy/veiledere/mottakere-i-elma#argument=undefined&query=&page=1[PEPPOL Transport Infrastructure Agreements provided by Difi]

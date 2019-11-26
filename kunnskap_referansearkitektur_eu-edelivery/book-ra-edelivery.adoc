@@ -5,7 +5,7 @@
 include::../plattform_felles/includes/commonincludes.adoc[]
 
 [.lead]
-European Interoperability Reference Architecture (EIRA) er en generisk referansearkitektur som  definerer metamodeller med de mest sentrale arkitekturbyggeklossene som behøves for å bygge interoperable systemer i offentlig sektor.
+Any Policy Domain of the EU (Justice, Procurement, Consumer Protection, etc.) in need of secure, reliable, cross-border and cross-sector exchange of documents and data, can use the technical specification prescribed by the eDelivery DSI.
 
 == Introduction to eDelivery
 include::./ra-edelivery-intro.adoc[]
