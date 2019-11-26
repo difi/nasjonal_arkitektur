@@ -57,10 +57,7 @@ Introduksjon til "firehjørnersmodellen" pluss øvrige ABB-er kommer her!
 
 
 
-#Foreløpig figur (her PEPPOL, men erstattes med generisk figur):#
 
-.PEPPOL eDelivery Network overview
-image::../kunnskap_losning_eu-peppol\media/PEPPOL eDelivery Network overview.png[]
 
  
 TODO: Gi en sammenlikning mellom en tradisjonell ESB (begrenset  skaleriug) og eMelding (gloal skalering).
@@ -296,8 +293,13 @@ Privat nøkkel benyttes til dekryptering og signering av meldinger.
 
 == Anvendelse av eMelding i PEPPOL-infrastrukturen i Norge
 
+=== Generelt
 
-Beskrivelsene her viser hvordan den generiske referansearkitekturen for eMelding kan realiseres med #arkitektur- og løsningskomponenter# som inngår i PEPPOL-infrastrukturen.
+Beskrivelsene her viser hvordan den generiske referansearkitekturen for eMelding kan realiseres med arkitektur- og løsningskomponenter som inngår i PEPPOL-infrastrukturen.
+
+
+.PEPPOL eDelivery Network overview
+image::../kunnskap_losning_eu-peppol\media/PEPPOL eDelivery Network overview.png[]
 
 Arkitekturbyggeklosser med flere mulige leverandører og løsninger;
 

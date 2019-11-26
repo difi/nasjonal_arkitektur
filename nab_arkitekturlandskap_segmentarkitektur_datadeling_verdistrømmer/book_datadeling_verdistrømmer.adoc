@@ -13,7 +13,7 @@ Note: The _lang_ value may be overridden by a command line parameter.
 :lang: no
 :difi_orig_language: no
 :doctitle_en: English Document Title
-:doctitle_no: Verdistrømmer for deling av data 
+:doctitle_no: Felles referansemodeller for deling av data 
 :difi_translation_status: -
 :keywords_en: TBD
 :keywords_no: TBD
@@ -31,15 +31,22 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 // ****************
 ifeval::["{lang}" == "no"]
 
-//[.lead]
-//_Kort, innledende tekst for denne boken_
+[.lead]
+_Disse modellene er tatt fram for å gi felles referanse og rammer for beskrivelser i ulike sammenhenger._
 
 image:../plattform_felles/media/i-arbeid.png[width=45, height=45, alt="Figur: i-arbeid.png?",]Uferdig innhold - i arbeid
 
+
+NOTE: Se link:../nab_referanse_modelleringskonvensjoner[modelleringskovensjoner] om gjeldende modelleringskonvensjoner (_verdistrømmer_).
+
+////
 == Introduksjon
-//include::./intro_ra_datadeling.adoc[]
+
 
 Se link:../kunnskap_tema_value_streams[kunnskapsbiblioteket om verdistrømmer] for generell bakgrunn, samt link:../nab_referanse_modelleringskonvensjoner[modelleringskovensjoner] om gjeldende modelleringskonvensjoner.
+////
+
+
 
 ////
 Brukstilfeller og scenarier
@@ -64,14 +71,8 @@ Produsent:
 
 ////
 
-== Referansemodell for deling og innhenting av data og hendelser  
-
-=== Overordnet modell
-
 ////
-.Overordnet verdistrøm for deling av data 
-image::../nab_arkitekturlandskap_segmentarkitektur_datadeling_verdistrømmer/media/Overordnet verdistrøm for deling av data .png[alt=Overordnet verdistrøm for deling av data  image]
-////
+== Overordnet modell
 
 En overordnet modell er vist i følgende figur, der det skilles mellom aktører som har data å dele (potensielle datatilbydere) og aktører som har behov for data (potensielle datakonsumenter), og deres respektive verdistrømmer.
 
@@ -88,7 +89,9 @@ Interessenter kan være:
 
 Videre kommentarer til figuren over: TBD.
 
-=== Ende-til-ende verdistrømmer
+////
+
+== Ende-til-ende verdistrøm (overordnet)
 Ende-til-ende verdistrømmer for både datatilbydere og datakonsumenter er vist i følgende figur.
 
 .Del og innhent data og hendelser, detaljert verdistrøm
@@ -97,13 +100,13 @@ image::../nab_arkitekturlandskap_segmentarkitektur_datadeling_verdistrømmer/med
 
 Videre kommentarer til figuren over: TBD.
 
-=== Detaljering av stegene i overordnet verdistrøm
+== Detaljering av stegene i overordnet verdistrøm
 
-==== Steg: Tilgjengeliggjør egne data og klargjør for datadeling
+=== Steg: Tilgjengeliggjør egne data og klargjør for datadeling
 .Tilgjengeliggjør egne data og klargjør for datadeling
 image::../nab_arkitekturlandskap_segmentarkitektur_datadeling_verdistrømmer/media/Tilgjengeliggjør egne data og klargjør for datadeling.png[alt=Tilgjengeliggjør egne data og klargjør for datadeling image]
 
-==== Detaljering av andre steg i overodnet verdistrøm
+=== Detaljering av andre steg i overodnet verdistrøm
 TBD.
 
 

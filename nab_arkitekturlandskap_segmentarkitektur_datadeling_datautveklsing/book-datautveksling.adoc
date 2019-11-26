@@ -49,7 +49,7 @@ NOTE: Data kan finnes med større eller mindre grad av struktur, og det er en fl
 
 NOTE: Det finnes ulik praksis for bruk av begrepet _dokument_. Dette begrepet brukes derfor ikke her, dvs. i sammenheng med referansearkitekturer for datautveksling.  
 
-== Omfang og avgrensing
+== Omfang og avgrensing for temaområdet datutveksling
 
 Datautveksling kan brytes ned i et sett av isolerte områder og kapabiliteter. På øverste nivå skilles det mellom:
 
@@ -79,38 +79,45 @@ Følgende figur viser en oversikt over de viktigste temaene og kapabilitetene in
 .Datautveksling - overordnet oversikt over kapabiliteter og temaer 
 image::../nab_arkitekturlandskap_segmentarkitektur_datadeling_datautveklsing/media/Datautveksling - overordnet oversikt over kapabiliteter og temaer .png[alt=Datautveksling - overordnet oversikt over kapabiliteter og temaer  image]
 
-=== Tverrgående temaer
-De tverrgående temaene beskriver områder som må ivaretas, eller være på plass, for å utveksle data på en tillitsvekkende måte i tråd med regelverk og god praksis. Dette er ikke en uttømmende liste og temaene er heller ikke beskrevet i sin helhet, men tatt med siden det er viktige områder som må vurderes og som utfyller og støtter de øvrige beskrivelsene.
+De tverrgående temaene beskriver områder som må ivaretas for å utveksle data i tråd med regelverk og god praksis. Dette er ikke en uttømmende liste, men angir set som anses som viktigst å beskrive.
 
-Temaene vil normalt favne langt videre enn datautveksling som beskrevet i referansearkitekturene for datautveksling og kan også selv være gjenstand for egen referansearkitekturer.
+Noen av disse temaene er også aktuelle i andre sammenhenger enn datautveksling, og vil beskrives under andre overskrifter.
 
-==== Standarder og spesifikasjoner
-Temaområdet beskriver...
+Kort introduksjon ev hvert enkelt av disse temaene gis her.
 
-==== Avtaleforvaltning
-Temaområdet omhandler bl.a. formaliseringen av datautvekslingen mellom to eller flere parter. 
+. *Standarder og spesifikasjoner*
++
+Standarder og spesifikasjoner (og andre føringer) kan finnes på alle lagene i _EIF-modellen_ (juridisk, organisatorisk, semantisk, teknisk). Dokumentasjon av slike føringer kan gjøres for større eller mindre områder. I gjeldende link:nab_referanse_maler_asciidoc-book-sat[mal for referansearkitekturene] omtales dette som  _interoperability specifications_.
 
-==== Roller og ansvar
-Temaområdet omhandler og definerer roller involvert i datautveksling og hvilket ansvar som følger med rollene og grenseoppgangen for når en aktør har eller får ansvaret for dataene som håndteres.
+. *Avtaleforvaltning*
++
+Dette temaområdet omhandler oppsett og forvaltning av avtaler melom partene, enten bilateralt eller innen et felleskap (community).
 
-==== Informasjonssikkerhet, tillit og personvern
-Temaområdet omhandler bl.a.
+
+. *Roller og ansvar*
+Dette temaområdet definerer roller involvert i datautveksling, og angir ansvar i forhold til dataene som innehas eller deles. Eksempel: Ansvar som følger av krav til dataminimering.
+
+. *Informasjonssikkerhet, tillit og personvern*
+Dette temaområdet er omfattende. Det omhandler temaer som:
 
 * Integritet, konfidensialitet, tilgjengelighet
 * Tillitskjeder
 * Innsyn og transparens
-* m.m.
+* Personvern
+* M.v
 
-==== Feilhåndtering ved datautveksling
-Temaområdet feilhåndtering ved datautveksling omhandler hvordan feil og avvik håndteres. Dette vil være svært forskjellig fra mellom mønstrene og hva avviket gjelder. 
+. *Feilhåndtering ved datautveksling*
+Temaområdet _feilhåndtering ved datautveksling_ omhandler hvordan feil og avvik håndteres. I tillegg til generelle prinsipper og krav,  dokumenteres særskilte aspekter i tilknytning til de ulike arkitekturmønstrene.  
 
-==== Sporing
-Temaområdet sporing omfatter bl.a.
 
-* Sporing av dataaksess
-* Sporing av kilder 
-* Sporing for etterlevelse
-* Sporing for dokumentasjon tilknyttet vedtak 
+. *Sporing*
++
+Temaområdet _sporing_ omfatter:
++
+* Sporing av dataaksess (stikkord: _informasjonssikkerhet og tillit_) 
+* Sporing av datakilder (stikkord: _masterdata management_)
+* Dokumentasjon av etterlevelse av lover og regler, samt andre føringer (f.eks. obligatoriske arkitekturprinsipper) 
+* Dokumentasjon tilknyttet vedtak (stikkord: _innebygget arkiv_) 
 
 
 
