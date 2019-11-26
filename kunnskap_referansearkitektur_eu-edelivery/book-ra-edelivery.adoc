@@ -1,5 +1,5 @@
 :lang: en
-:doctitle: EIRA - European Interoperability Reference Architecture
+:doctitle: eDelivery (CEF  building block)
 :keywords: eNotifikasjon
 
 include::../plattform_felles/includes/commonincludes.adoc[]
@@ -163,3 +163,22 @@ Other technical highlights are:
 * Reception Awareness features and Duplicate Detection capabilities make use of the eb:Receipt as the sole type of acknowledgment.
 
 [underline]##Note that this version of this eDelivery AS4 specification does not use all features of ebMS3 and AS4. Specifically, it does not use the Pull pattern##. Future versions of this profile may require additional support for Pull or other additional features not currently included. For a complete feature list, see section 3.2.
+
+
+== eDelivery Services for getting started with eDelivery
+
+Ready to start re-using the CEF eDelivery building block? 
+
+You can build and test your own components according to the specifications of CEF eDelivery, you can buy a product(s) that implements these specifications for you, or you can reuse the CEF eDelivery sample software. 
+
+Regardless of which option you choose, CEF offers a service package that helps you comply with European standards and technical specifications. It includes software, services, documentation and tools helping you to test, deploy and operate the building block. 
+
+For building your own components, the technical specifications and testing services sections will be particularly relevant. For buying a product or reusing the sample software, the software sections will be most relevant.
+
+Generic terms and conditions, that apply to all services offered by the CEF Building Blocks, are defined in the Master Service Arrangement (MSA). Specific Service Level Arrangements (SLA) can apply to individual services. 
+
+Also see:
+
+1. https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/Get+started+eDelivery
+
+2. https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eDelivery

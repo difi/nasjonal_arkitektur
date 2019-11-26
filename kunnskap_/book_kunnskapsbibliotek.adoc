@@ -156,6 +156,7 @@ DMBOK2 (2017)  er et omfattende verk om data- og informasjonsforvaltning fra DAM
 
 . link:http://www.opengroup.org/iot/wp-refarchs/p3.htm[The Open group: Reference Architectures and Open Group Standards for the Internet of Things – Four Internet of Things Reference Architectures]
 
+. link:../kunnskap_referansearkitektur_eu-edelivery[eDelivery - an EU CEF building block]
 
 === Sektorvise referansearkitekturer (Industry Arhitectures)
 
