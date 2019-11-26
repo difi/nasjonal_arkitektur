@@ -1,20 +1,21 @@
 :lang: no
-:doctitle: Forsendelse arkitekturmønstre 
+:doctitle: Arkitekturmønstre for _forsendelse_
 :keywords: TBD
 :toclevels: 3
 include::../plattform_felles/includes/commonincludes.adoc[]
 
 :leveloffset: +1
-= Introduksjon
+= Brukstilfeller
 Området _Deling av data ved forsendelse_ omfatter i hovedsak meldingsforsendelse.
 
-Eksempler på bruk er:
+Aktuelle brukstilfeller er:
 
 * melding om hendelser og data mellom to kjente parter i tverrgående forretningsprosesser, f.eks. saksbehandlingsprosesser.
 
+* melding om hendelser og data  til mellomliggende løsninger for dataformidling
+
 * melding om  hendelser og data til datalagringsløsninger
 
-* melding om hendelser og data  til mellomliggende løsninger for dataformidling
 
 ////
 = Generisk mønster for dataforsendelse
