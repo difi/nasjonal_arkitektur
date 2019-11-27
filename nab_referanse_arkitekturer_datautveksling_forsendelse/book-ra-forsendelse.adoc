@@ -49,16 +49,28 @@ Følgende figur illustrerer grunnleggende konsepter:
 // image::../nab_referanse_arkitekturer_datautveksling_forsendelse/media/Firehjørnersmodellen - operativt.png[alt=Firehjørnersmodellen - operativt image]
 
 
-.Firehjørnersmodellen - forvaltningsmessig
+.Firehjørnersmodellen
 image::../nab_referanse_arkitekturer_datautveksling_forsendelse/media/Firehjørnersmodellen - forvaltningsmessig.png[alt=Firehjørnersmodellen - forvaltningsmessig image]
 
 NOTE: Denne modellen kan minne om en "tjenestebuss" (ESB), der det også finnes tilsvarende løs kopling mellom avsender og mottaker. Den grunnleggende forskjellen er at dette mønsteret er fullstendig distribuert og skalerer "uendelig"  over www på global basis.
 
 I firehjørnersmodellen kommuniserer avsenders og mottakers systemer via hver sine _aksesspunktløsninger_. Aksesspunktene konverterer mellom applikasjonsspesifikke protokoller og en standardisert, sikker meldingsprotokoll over internett.
 
-#Fleksibilitet... runtine.... avtalemessig... både design tine og runtime!!!!!!!!!!!!!!!!!#
+Aksesspunktene kan eventuelt integreres i avsenders og mottakers systemer. Om dette gjøres på begge sider, vil en rent fysisk ha en punkt-til-punkt forbindelse, men uten at det endrer konseptet som sådan.
 
 
+Egenskaper:
+
+* Løs kopling mellom avsender og mottaker
+* Sikker meldingsinfrastruktur (mellom aksesspunktene)
+* Avtaleforvaltning gjennom betrodd tredjepart
+* Mulighet for å oppdage tjenestetilbydere og inngå avtaler runtime 
+* Ubegrenset skalering  
+* [red]#Mulig å opprette flere communities#
+
+Videre beskrivelse av disse egenskapene: #TBD#.
+
+////
 I denne modellen In this model, the back-end systems of the users don’t exchange data directly with each other but do this through Access Points. These Access Points are conformant to the same technical specifications and therefore capable of communicating with each other.
 
 As a result of this, users adopting CEF eDelivery can easily and safely exchange data even if their IT systems were developed independently from each other.
@@ -70,8 +82,11 @@ As a result of this, users adopting CEF eDelivery can easily and safely exchange
 4-hjørnersmodellen er basert på en distribuert modell som tillater kommunikasjon mellom samhandlingsaktører uten behov for bilaterale avtaler ved at man baserer seg på innmelding i et fellesskap.
 
 4-hjørnersmodellen med adresse- og kapabilitetsoppslag sikrer fleksibilitet og skalerbarhet hvor
+////
+
 
 ////
+
 Firehjørnersmodellen for meldingsforsendelse
 
 

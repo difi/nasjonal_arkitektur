@@ -1,6 +1,7 @@
 :lang: en
 :doctitle: eDelivery (CEF  building block)
 :keywords: eNotifikasjon
+:toclevels: 3
 
 include::../plattform_felles/includes/commonincludes.adoc[]
 

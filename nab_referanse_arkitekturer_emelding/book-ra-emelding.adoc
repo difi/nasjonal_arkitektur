@@ -1,6 +1,7 @@
 :lang: no
 :doctitle: Referansearkitektur eMelding 
 :keywords: eMelding
+:toclevels: 4
 
 include::../plattform_felles/includes/commonincludes.adoc[]
 
@@ -46,39 +47,35 @@ image:../nab_referanse_arkitekturer_emelding/media/kapabiliteter_forsendelse.png
 
 |===
 
-== Grunnleggende konsepter
+== Grunnleggende konsepter for eMelding
 
-Se ... 
+link:../nab_referanse_arkitekturer_datautveksling_forsendelse[Grunnleggende mønstre og konsepter for _forsendelse_] beskriver "firehjørnersmodellen", der det blant annet redegjøres for
 
+* Løs kopling mellom avsender og mottaker
+* Avtaleforvaltning gjennom betrodd tredjepart
+* Mulighet for å oppdage tjenestetilbydere og inngå avtaler runtime 
+* Ubegrenset skalering  
 
+Her gjengis en figur sin viser "firehjørnersmodellen":
 
-Introduksjon til "firehjørnersmodellen" pluss øvrige ABB-er kommer her!
-
-
-
-
-
-
- 
-TODO: Gi en sammenlikning mellom en tradisjonell ESB (begrenset  skaleriug) og eMelding (gloal skalering).
-
-TODO: Beskriv muligheten for å opprette flere communities! 
-
-
+.Firehjørnersmodellen
+image::../nab_referanse_arkitekturer_datautveksling_forsendelse/media/Firehjørnersmodellen - forvaltningsmessig.png[alt=Firehjørnersmodellen - forvaltningsmessig image]
 
 == Arkitekturmønstre (konseptuelle beskrivelser, kun arkitekturbyggeklosser)
 
 
-=== Klargjøring for deling av data ved forsendelse
+=== Klargjøre for deling av data ved forsendelse (eMelding)
 
-==== Klargjøre for eMelding
-Modellen under detaljerer hvordan en samhandlingsaktør, som i dette tilfellet normalt vil være en avsender eller mottaker, blir klar for å sende data som en melding. Dette gjøres ved å melde inn i et fellesskap og registrere nødvendige data i registre som er tilgjengelig for de andre samhandlingsaktørene i fellesskapet. Det vil kunne være forskjeller på hva som er nødvendig å gjøre avhengig av om samhandlingsaktøren er en sender eller mottaker, men normalt vil man innha begge roller i fellesskapet.
+Modellen under detaljerer hvordan en samhandlingsaktør, som i dette tilfellet normalt vil være en avsender eller mottaker, blir klar for å sende data som en melding. Dette gjøres ved å melde inn i et fellesskap og registrere nødvendige data i registre som er tilgjengelig for de andre samhandlingsaktørene i fellesskapet. Det vil kunne være forskjeller på hva som er nødvendig å gjøre avhengig av om samhandlingsaktøren er en avsender eller mottaker, men normalt vil man innha begge roller i fellesskapet.
 
-image:../nab_referanse_arkitekturer_emelding/media/ABB_klargjøre.png[alt="Bilde mangler", width=750]
 
+.Klargjør for eMelding (arkitekturmønster)
+image::../nab_referanse_arkitekturer_emelding/media/Klargjør for eMelding (arkitekturmønster).png[alt=Klargjør for eMelding (arkitekturmønster) image]
+
+Forklaring til figur:
 
 [cols ="1,3", options="header"]
-.Elementer i view for Klargjør for forsendelse ABB
+.Elementer i view for Klargjør for eMelding (arkitekturmønster)
 |===
 
 | Element
@@ -141,16 +138,18 @@ Privat nøkkel benyttes til dekryptering og signering av meldinger.
 |===
 
 
-=== Operativ deling av data ved forsendelse
+=== Operativ deling av data ved forsendelse (eMelding)
 
-==== Sende melding
-Sende melding detaljerer prosessen med å sende en melding etter klargjøring for forsendelse. Alle stegene i prosessen vil ikke alltid være nødvendig avhengig av dataene som utveksles og spesifikasjonene for samhandling innen fellesskapet.
+==== Send eMelding
+Send eMelding detaljerer prosessen med å sende en melding etter klargjøring for forsendelse. Alle stegene i prosessen vil ikke alltid være nødvendig avhengig av dataene som utveksles og spesifikasjonene for samhandling innen fellesskapet.
 
-image:../nab_referanse_arkitekturer_emelding/media/ABB_sende.png[alt="Bilde mangler", width=750]
+.Send eMelding (arkitekturmønster)
+image::../nab_referanse_arkitekturer_emelding/media/Send eMelding (arkitekturmønster).png[alt=Send eMelding (arkitekturmønster) image]
 
+Forklaring til figur:
 
 [cols ="1,3", options="header"]
-.Elementer i view for Send melding ABB
+.Elementer i view for Send eMelding (arkitekturmønster)
 |===
 
 | Element
@@ -229,13 +228,16 @@ Privat nøkkel benyttes til dekryptering og signering av meldinger.
 
 
 
-==== Motta melding
+==== Motta eMelding
 Motta melding detaljerer prosessen med å motta en melding etter klargjøring for forsendelse. Alle stegene i prosessen vil ikke alltid være nødvendig avhengig av dataene som utveksles og spesifikasjonene for samhandling innen fellesskapet.
 
-image:../nab_referanse_arkitekturer_emelding/media/ABB_motta.png[alt="Bilde mangler", width=600]
+.Motta eMelding (arkitekturmønster)
+image::../nab_referanse_arkitekturer_emelding/media/Motta eMelding (arkitekturmønster).png[alt=Motta eMelding (arkitekturmønster) image]
+
+Forklaring til figur:
 
 [cols ="1,3", options="header"]
-.Elementer i view for Motta melding ABB
+.Elementer i view for Motta eMelding (arkitekturmønster)
 |===
 
 | Element
@@ -295,34 +297,35 @@ Privat nøkkel benyttes til dekryptering og signering av meldinger.
 
 === Generelt
 
-Beskrivelsene her viser hvordan den generiske referansearkitekturen for eMelding kan realiseres med arkitektur- og løsningskomponenter som inngår i PEPPOL-infrastrukturen.
+Beskrivelsene her peker på hvordan den generiske referansearkitekturen for eMelding kan realiseres med arkitektur- og løsningskomponenter som inngår i PEPPOL-infrastrukturen; basetr på CEF eDelivery.
+
+Utover de arkitekturtegningene som presenenteres, henvises til omfattende dokumentasjon av eDelivery og PEPPOL.
 
 
 .PEPPOL eDelivery Network overview
 image::../kunnskap_losning_eu-peppol\media/PEPPOL eDelivery Network overview.png[]
 
-Arkitekturbyggeklosser med flere mulige leverandører og løsninger;
+Arkitektur- og løsningsbyggeklosser:
 
 * CEF SMP (Service Metadata Publisher): Oppslagstjeneste for å finne adresse og kapabiliteter for aktuell mottaker. Inneholder mottakers ID, aksesspunktadresse og dokumenttyper som mottaker kan motta.Aktuelle løsninger:  link:https://samarbeid.difi.no/felleslosninger/elma[ELMA].
 
 * BCP (Business Certificate Publisher): Sertifikatutsteder. Løsninger: Se https://vefa.difi.no/bcp/.
-
-Rene løsningsbyggeklosser: 
 
 * Adressetjenesten CEF link:https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/SML+service[SML] (Service Metadata Locater): Global oppslagstjeneste for å finne fram til aktuell SMP.
 * BCL (Business Certificate Locator): Oppslagstjeneste for å finne BCP (introdusert ifm. Enhanced PEPPOL eDelivery Network).
 * Elektronisk mottaksregister (link:https://samarbeid.difi.no/felleslosninger/elma[ELMA]): Norsk register over foretak som kan ta i mot dokumenter i standardisert EHF-format.
 
 
-Disse fellesløsningene leverer de tjenestene som er beskrevet på forretningsnivå over.
 
-Det er ikke hensikten å låse referansearkitekturen til spesifikke løsninger, da ulike sektorer og aktører kan ha behov som ikke passer med det som er beskrevet. I PEPPOL-infrastrukturen som benyttes som datautvekslingstjeneste er det spesifiserte protokoller og standardere som sikrer en del funksjoner som pålitelig meldingsutveksling med integritet og leveringssikkerhet.
+//NOTE: Det er ikke hensikten å låse referansearkitekturen til spesifikke løsninger, da ulike sektorer og aktører kan ha behov som ikke passer med det som er beskrevet. PEPPOL gir   standarder som sikrer sikker meldingsutveksling som tilfredsstiller aktuelle krav til integritet, leveringssikkerhet, mv.
 
-=== Klargjøre for deling av data ved forsendelse
+=== Klargjør for deling av data ved forsendelse (eMelding)
 
-==== Klargjøre for eMelding
-image:../nab_referanse_arkitekturer_emelding/media/SBB_klargjøre.png[alt="Bilde mangler", width=600]
 
+.Klargjør for eMelding (løsningsmønster)
+image::../nab_referanse_arkitekturer_emelding/media/Klargjør for eMelding (løsningsmønster).png[alt=Klargjør for eMelding (løsningsmønster) image]
+
+Forklaring til figur:
 
 [cols ="1,3", options="header"]
 .Elementer i view for Klargjør for forsendelse SBB
@@ -381,11 +384,15 @@ Sertifikater må forvaltes og fornyes etter gjeldende regler for å være gyldig
 
 
 
-=== Operativ deling av data ved forsendelse
+=== Operativ deling av data ved forsendelse (eMelding)
 
-==== Sende melding
-image:../nab_referanse_arkitekturer_emelding/media/SBB_sende.png[alt="Bilde mangler", width=750]
+==== Send eMelding
 
+
+.Send eMelding  (løsningsmønster)
+image::../nab_referanse_arkitekturer_emelding/media/Send eMelding  (løsningsmønster).png[alt=Send eMelding  (løsningsmønster) image]
+
+Forklaring til figur:
 
 [cols ="1,3", options="header"]
 .Elementer i view for Send melding SBB
@@ -460,9 +467,14 @@ image:../nab_referanse_arkitekturer_emelding/media/SBB_sende.png[alt="Bilde mang
 
 |===
 
-==== Motta melding
-image:../nab_referanse_arkitekturer_emelding/media/SBB_motta.png[alt="Bilde mangler", width=600]
+==== Motta eMelding
 
+
+.Motta eMelding (løsningsmønster)
+image::../nab_referanse_arkitekturer_emelding/media/Motta eMelding (løsningsmønster).png[alt=Motta eMelding (løsningsmønster) image]
+
+
+Forklaring til figur:
 
 [cols ="1,3", options="header"]
 .Elementer i view for Motta melding SBB
@@ -514,7 +526,7 @@ Etter mottak må mottaker følge opp og håndtere innholdet i meldingen.
 == Mulige videre anvendelser
 TBD.
 
-== Mer om "Firehjørnersmodellen"
+== Mer om "firehjørnersmodellen"
 === Konsept (operativt)
 
 eMelding benytter en 4-hjørnersmodell hvor meldinger utveksles mellom aksesspunkter, slik dette er spesifisert i PEPPOL-infrastrukturen
