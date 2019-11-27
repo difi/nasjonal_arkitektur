@@ -91,7 +91,16 @@ Videre kommentarer til figuren over: TBD.
 
 ////
 
-== Ende-til-ende verdistrøm (overordnet)
+== Kontekst - tverrgående tjenster
+Her vises et forenklet bilde ende-til-ende verdistrøm for tverrgående prosesser, der _datadeling_ inngår.   
+
+.Ende-til-ende verdistrøm, tverrgående prosess
+image::../nab_arkitekturlandskap_segmentarkitektur_datadeling_verdistrømmer/media/Ende-til-ende verdistrøm, tverrgående prosess.png[alt=Ende-til-ende verdistrøm, tverrgående prosess image]
+
+__Merk: Se også tilsvarende under temaområdet sammenhengende tjenester.__ 
+
+== Ende-til-ende verdistrøm for datadeling (overordnet)
+
 Ende-til-ende verdistrømmer for både datatilbydere og datakonsumenter er vist i følgende figur.
 
 .Del og innhent data og hendelser, detaljert verdistrøm
