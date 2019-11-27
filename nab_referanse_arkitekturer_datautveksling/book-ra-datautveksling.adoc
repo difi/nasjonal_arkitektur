@@ -108,9 +108,12 @@ c. link:../nab_referanse_arkitekturer_datautveksling_publisering[Deling av data 
 :leveloffset: +1
 
 = Mønstre for forepørsel-svar
+include::../nab_referanse_arkitekturer_datautveksling_forespørsel-svar/book-ra-forespørsel-svar.adoc[]
 
+////
 = eOppslag
 include::../nab_referanse_arkitekturer_eoppslag/book-eoppslag-referansearkitektur.adoc[]
+////
 
 :leveloffset: -1
 = Mønstre for forsendelse
