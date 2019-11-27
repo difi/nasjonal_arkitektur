@@ -8,7 +8,9 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 = Introduksjon
 == Hva menes med datautveksling?
-I sammenheng med nasjonale referansearkitekturer for datautveksling omfatter begrepet datautveksling alle former for dataflyt mellom tilbydere og konsumenter, enten det er internt i en virksomhet, mellom virksomheter eller mellom virksomheter og personer. Begrepet omfatter også  
+I sammenheng med nasjonale referansearkitekturer for datautveksling omfatter begrepet datautveksling alle former for flyt av data og hendelser (eller _notifikasjoner_) mellom tilbydere og konsumenter, enten det er internt i en virksomhet, mellom virksomheter eller mellom virksomheter og personer. 
+
+Se også om det overliggende link:../nab_arkitekturlandskap_segmentarkitektur_datadeling\[temaområdet datadeling].
 
 == Hva er _data_ for _datautveksling_?
 
