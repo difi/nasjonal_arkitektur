@@ -97,7 +97,7 @@ Her vises et forenklet bilde ende-til-ende verdistrøm for tverrgående prosesse
 .Ende-til-ende verdistrøm, tverrgående prosess
 image::../nab_arkitekturlandskap_segmentarkitektur_datadeling_verdistrømmer/media/Ende-til-ende verdistrøm, tverrgående prosess.png[alt=Ende-til-ende verdistrøm, tverrgående prosess image]
 
-__Merk: Se også tilsvarende under temaområdet sammenhengende tjenester.__ 
+[red]#__Merk: Se også tilsvarende under temaområdet Tverrgående prosesser og saksbehandling.__#
 
 == Ende-til-ende verdistrøm for datadeling (overordnet)
 
