@@ -132,7 +132,9 @@ include::../nab_arkitekturlandskap_segmentarkitektur_datadeling_datautveklsing/b
 
 = Informasjonssikkerhet, tillit og personvern
 
-Se under link:../nab_arkitekturlandskap_segmentarkitektur_datadeling_datasikkerhet[informasjonssikkerhet for datautveksling].
+include::../nab_arkitekturlandskap_segmentarkitektur_datadeling_datasikkerhet/book-datasikkerhet-tillit-personvern.adoc[]
+
+
 
 ////
 Kapabilitetskart for temaområdet Informasjonssikkerhet, tillit og personvern:

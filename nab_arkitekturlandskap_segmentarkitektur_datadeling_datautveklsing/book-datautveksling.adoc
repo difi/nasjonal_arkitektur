@@ -133,7 +133,12 @@ Forsendelse av data fra en avsender til en eller flere kjente mottakere.
 Publisering av data eller hendelser med løs kopling mellom avsendere og mottakere. 
 ////
     
-= Referansearkitekturer for datautveksling
+= Aktuelle arkitekturprinsipper
+
+NOTE: Prinsipper for datautveksling vil bygge på felles  nasjonale arkitekturprinsipper, som er under revidering høsten 2019
+
+    
+= Referansearkitekturer (mønstre) for datautveksling
 
 
 Se link:../nab_referanse_arkitekturer_datautveksling[Referansearkitekturer for datautveksling]
@@ -146,24 +151,28 @@ NOTE: Se også tverrgående temaer under det større området link:../nab_arkite
 
 :leveloffset: +1
 
-= Aktuelle arkitekturprinsipper
-
-NOTE: Prinsipper for datautveksling vil bygge på felles  nasjonale arkitekturprinsipper, som er under revidering høsten 2019
 
 
 = Roller involvert i datautveksling
 include::../nab_referanse_arkitekturer_datautveksling/roller-ra-datautveksling.adoc[]
 
 = Avtaleforvaltning for datautveksling
+
+//Se link:../nab_arkitekturlandskap_segmentarkitektur_datadeling_datasikkerhet/[]
+
+Se  link:../nab_arkitekturlandskap_segmentarkitektur_datadeling[tverrgående temaer under området datadeling].
+
 include::../nab_arkitekturlandskap_segmentarkitektur_datadeling_avtaleforvaltning/book-avtaleforvaltning.adoc[]
 
 //Se link:../nab_arkitekturlandskap_segmentarkitektur_datadeling_avtaleforvaltning/[Avtaleforvaltning]
 
 = Informasjonssikkerhet
 
+Se link:../nab_arkitekturlandskap_segmentarkitektur_datadeling_datasikkerhet/[Informasjonssikkerhet, tillit og personvern].
+
 // Se link:../nab_arkitekturlandskap_segmentarkitektur_datadeling_datasikkerhet[Informasjonssikkerhet, tillit og personvern]
 
-include::../nab_arkitekturlandskap_segmentarkitektur_datadeling_datasikkerhet/book-datasikkerhet-tillit-personvern.adoc[]
+//include::../nab_arkitekturlandskap_segmentarkitektur_datadeling_datasikkerhet/book-datasikkerhet-tillit-personvern.adoc[]
 
 
 :leveloffset: -1
@@ -272,3 +281,19 @@ For videre nedbryting og detaljer om dette kartet, se
 == Mapping til EIRA
 #Mapping til EIRA kommer her.#
 ////
+
+
+== Sporing
+
+=== Sporing av dataaksess (informasjonssikkerhet)
+TBD.
+
+=== Sporing av datakilder (MDM)
+TBD.
+
+
+=== Dokumentasjon tilknyttet vedtak (innebygget arkiv)
+TBD.
+
+=== Dokumentasjon av etterlevelse
+TBD.
