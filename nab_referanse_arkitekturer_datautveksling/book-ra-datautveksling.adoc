@@ -1,5 +1,5 @@
 :lang: no
-:doctitle: Referansearkitekturer for datautveksling
+:doctitle: Referansearkitektur for datautveksling
 :keywords: Referansearkitektur
 :toclevels: 3
 include::../plattform_felles/includes/commonincludes.adoc[]
@@ -8,7 +8,7 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 = Introduksjon
 
 == Generelt
-Referansearkitekturer for datautveksling adresserer temaområdet datautveksling i form av arkitektur- og løsningsmønstre. Se  link:../nab_arkitekturlandskap_segmentarkitektur_datadeling_datautveklsing\[temaområde datautveksling] om omfang, tverrgående temaer og annen informasjon som angår dette området.
+Referansearkitektur for datautveksling adresserer temaområdet datautveksling i form av arkitektur- og løsningsmønstre. Se  link:../nab_arkitekturlandskap_segmentarkitektur_datadeling_datautveklsing\[temaområde datautveksling] om omfang, tverrgående temaer og annen informasjon som angår dette området.
 
 Se også om det overliggende link:../nab_arkitekturlandskap_segmentarkitektur_datadeling\[temaområdet datadeling].
 
