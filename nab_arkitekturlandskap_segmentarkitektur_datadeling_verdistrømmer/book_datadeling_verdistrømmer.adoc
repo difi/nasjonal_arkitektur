@@ -91,15 +91,17 @@ Videre kommentarer til figuren over: TBD.
 
 ////
 
-== Kontekst - tverrgående tjenster
-Her vises et forenklet bilde ende-til-ende verdistrøm for tverrgående prosesser, der _datadeling_ inngår.   
+
+
+== Ende-til-ende verdistrøm for datadeling (overordnet)
+Datadeling inngår saksbehandling og tverrgående prosesser for tjenesteproduksjon. Her vises et forenklet bilde av ende-til-ende verdistrøm for tverrgående prosesser, der _datadeling_ inngår.   
 
 .Ende-til-ende verdistrøm, tverrgående prosess
 image::../nab_arkitekturlandskap_segmentarkitektur_datadeling_verdistrømmer/media/Ende-til-ende verdistrøm, tverrgående prosess.png[alt=Ende-til-ende verdistrøm, tverrgående prosess image]
 
-[red]#__Merk: Se også tilsvarende under temaområdet Tverrgående prosesser og saksbehandling.__#
+[red]#__Merk: Se også link:../nab_arkitekturlandskap_segmentarkitektur[mer utfyllende dekning av  temaområdet Tverrgående prosesser og saksbehandling.__]#
 
-== Ende-til-ende verdistrøm for datadeling (overordnet)
+
 
 Ende-til-ende verdistrømmer for både datatilbydere og datakonsumenter er vist i følgende figur.
 
