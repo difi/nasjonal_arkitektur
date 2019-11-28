@@ -14,8 +14,6 @@ include::../nab_referanse_arkitekturer_emelding/ra-emelding-intro.adoc[]
 include::../nab_referanse_arkitekturer_emelding/krav_eMelding.adoc[]
 ////
 
-== Grunnleggende konsepter
-
 
 
 == Kapabilitetskart - relevante kapabiliteter
@@ -274,24 +272,10 @@ Privat nøkkel benyttes til dekryptering og signering av meldinger.
 
 |===
 
-== Anvendelse av eMelding i PEPPOL-infrastrukturen i Norge
-
-Beskrivelsene her viser hvordan den generiske referansearkitekturen for eMelding kan realiseres med #arkitektur- og løsningskomponenter# som inngår i PEPPOL-infrastrukturen.
-
-Arkitekturbyggeklosser med flere mulige leverandører og løsninger;
-
-* CEF SMP (Service Metadata Publisher): Oppslagstjeneste for å finne adresse og kapabiliteter for aktuell mottaker. Inneholder mottakers ID, aksesspunktadresse og dokumenttyper som mottaker kan motta.Aktuelle løsninger:  link:https://samarbeid.difi.no/felleslosninger/elma[ELMA].
-
-* BCP (Business Certificate Publisher): Sertifikatutsteder. Løsninger: Se https://vefa.difi.no/bcp/.
-
-Rene løsningsbyggeklosser: 
-
-* Adressetjenesten CEF link:https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/SML+service[SML] (Service Metadata Locater): Global oppslagstjeneste for å finne fram til aktuell SMP.
-* BCL (Business Certificate Locator): Oppslagstjeneste for å finne BCP (introdusert ifm. Enhanced PEPPOL eDelivery Network).
-* Elektronisk mottaksregister (link:https://samarbeid.difi.no/felleslosninger/elma[ELMA]): Norsk register over foretak som kan ta i mot dokumenter i standardisert EHF-format.
 
 
-Disse fellesløsningene leverer de tjenestene som er beskrevet på forretningsnivå over.
+== Løsningsmønstre
+Beskrivelsen under viser hvordan den generiske arkitekturen i det foregående kapittelet kan realiseres med løsningskomponentene som inngår i PEPPOL-infrastrukturen henholdsvis Elektronisk mottaksregister (ELMA), adressetjenestene CEF SML/SMP og sertifikatkatalogløsningene BCP/BCL . Disse fellesløsningene leverer de tjenestene som er beskrevet på forretningsnivå over.
 
 Det er ikke hensikten å låse referansearkitekturen til spesifikke løsninger, da ulike sektorer og aktører kan ha behov som ikke passer med det som er beskrevet. I PEPPOL-infrastrukturen som benyttes som datautvekslingstjeneste er det spesifiserte protokoller og standardere som sikrer en del funksjoner som pålitelig meldingsutveksling med integritet og leveringssikkerhet.
 

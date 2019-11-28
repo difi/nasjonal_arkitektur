@@ -1,5 +1,5 @@
 :lang: no
-:doctitle: Referansearkitekturer for datautveksling
+:doctitle: Referansearkitektur for datautveksling
 :keywords: Referansearkitektur
 :toclevels: 3
 include::../plattform_felles/includes/commonincludes.adoc[]
@@ -8,7 +8,13 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 = Introduksjon
 
 == Generelt
-Referansearkitekturer for datautveksling adresserer temaområdet datautveksling i form av arkitektur- og løsningsmønstre. Se  link:../nab_arkitekturlandskap_segmentarkitektur_datadeling_datautveklsing\[temaområde datautveksling] om omfang, tverrgående temaer og annen informasjon som angår dette området.
+Referansearkitektur for datautveksling adresserer temaområdet datautveksling i form av arkitektur- og løsningsmønstre. Se  link:../nab_arkitekturlandskap_segmentarkitektur_datadeling_datautveklsing\[temaområde datautveksling] om omfang, tverrgående temaer og annen informasjon som angår dette området.
+
+Se også:
+
+* link:../nab_referanse_arkitekturer[Nasjonale referansearkitekturer]
+
+* Temaområde link:../nab_arkitekturlandskap_segmentarkitektur_datadeling\[datadeling].
 
 // include::../nab_referanse_arkitekturer_datautveksling/intro-ra-datautveksling.adoc[]
 
@@ -36,7 +42,7 @@ Videre behov og muligheter, som eventuelt vil dekkes etterhvert, omfatter blant 
 
 * Spørringer på tvers av flere datakilder.
 
-* Standardisert støtte for korrelering av meldinger i tverrgående prosesser.
+* Meldingsutveksling i tverrgående prosesser. __Merk: eMelding beskriver standardisert støtte for korrelering av meldinger, som en forutsetning for dette.__
 
 * Abonnement på periodisk eller hendelsesbasert oppdatering om endringer eller status. 
 
@@ -48,9 +54,9 @@ Videre behov og muligheter, som eventuelt vil dekkes etterhvert, omfatter blant 
 
 == Leseveiledning
 
-Det skilles mellom konseptuelle arkitekturbeskrivelser og mer løsningsnære beskrivelser som gir merkonkret veiledning, f.eks. ved å angi bruk av nasjonale felleskomponenter.
+Det skilles mellom konseptuelle arkitekturbeskrivelser og mer løsningsnære beskrivelser. Løsningsmønstre gir konkret veiledning for løsningsarkitekter og utviklere, f.eks. ved å angi bruk av nasjonale felleskomponenter.
 
-De generiske og konseptuelle beskrivelsene kommer først, og kan etterfølges av alternative, mer spesifikk arkitektur- eller løsningsmønstre. 
+De generiske og konseptuelle beskrivelsene kommer først, og etterfølges eventuelt av alternative, mer spesifikke anvendelser (arkitektur- eller løsningsmønstre). 
 
 Løsningsarkitekter som er ute etter praktiske tips, kan velge å gå rett på de mest konkrete beskrivelsene.
 
@@ -80,17 +86,38 @@ include::../nab_referanse_arkitekturer_datautveksling/generisk-prosess-for-opera
 
 //NOTE: Prinsipper for datautveksling vil bygge på felles  nasjonale arkitekturprinsipper, som er under revidering høsten 2019.
 
+Se også: link:../nab_referanse_arkitekturer_struktur_beskrivelse[Mer om dokumentstruktur og modelleringskonvensjoner].
+
+
+Beskrivelsene finnes ellers både samlet og  enkeltvis. Som alternativ til å se "den store boken", kan en gå inn på følgende lenker: 
+
+
+a. link:../nab_referanse_arkitekturer_datautveksling_forespørsel-svar[Deling av data på forespørsel]
+
+
+* link:../nab_referanse_arkitekturer_eoppslag/[eOppslag]
+
+b. link:../nab_referanse_arkitekturer_datautveksling_forsendelse[Deling av data ved forsendelse]
+
+* link:../nab_referanse_arkitekturer_emelding[eMelding]
+
+c. link:../nab_referanse_arkitekturer_datautveksling_publisering[Deling av data ved publisering]
+
+* link:../nab_referanse_arkitekturer_epublisering[ePublisering]
+
 
 = Arkitekturmønstre for datautveksling
 
+
 :leveloffset: +1
 
-
 = Mønstre for forepørsel-svar
+include::../nab_referanse_arkitekturer_datautveksling_forespørsel-svar/book-ra-forespørsel-svar.adoc[]
 
-
+////
 = eOppslag
 include::../nab_referanse_arkitekturer_eoppslag/book-eoppslag-referansearkitektur.adoc[]
+////
 
 :leveloffset: -1
 = Mønstre for forsendelse

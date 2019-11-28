@@ -38,6 +38,12 @@ ifeval::["{lang}" == "no"]
 include::./intro_segmentarkitektur.adoc[]
 
 
+= Saksbehandling og tverrgående prosesser
+image:../plattform_felles/media/i-arbeid.png[width=45, height=45, alt="Figur: i-arbeid.png?"]I arbeid
+
+.Utvikle, drift og forvalt tverrgående prosess
+image::../nab_arkitekturlandskap_segmentarkitektur/media/Utvikle, drift og forvalt tverrgående prosess.png[alt=Utvikle, drift og forvalt tverrgående prosess image]
+
 
 = Informasjonsforvaltning
 
@@ -46,8 +52,6 @@ include::../nab_arkitekturlandskap_segmentarkitektur_informasjonsforvaltning/boo
 = Intiativstyring og samordning
 include::../nab_arkitekturlandskap_segmentarkitektur/kapabilitetsbasert-arkitekturstyring.adoc[]
 
-= Saksbehandling og tverrgående prosesser
-TBD.
 
 
 = Eiendelsforvaltning - fellesløsninger

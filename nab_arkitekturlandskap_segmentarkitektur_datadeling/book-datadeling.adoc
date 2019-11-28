@@ -6,51 +6,81 @@
 
 include::../plattform_felles/includes/commonincludes.adoc[]
 
-image:../nasjonal_arkitektur\nab_arkitekturlandskap_segmentarkitektur_datadeling/media/datadeling-logo.png[width=300]
+image:../nab_arkitekturlandskap_segmentarkitektur_datadeling/media/datadeling-logo.png[width=300]
 
 [.lead]
 _Datadeling_ er et prioritert område innen nasjonal arkitektur. 
 
 == Generelt
 
+=== Hva er "datadeling"?
+
+Datadeling handler om å forsyne forretningsprosesser og dataanalyse med nødvendig datagrunnlag. 
+
+De fleste aktører sitter på begge sider i dette bildet, og må kunne både _dele_ og _innhente_ data og hendelser. I beskrivelsene skilles det likevel gjerne på rollene som _tilbyder_ og _konsument_.
+
+
+Begrepet _datadeling_ er ut fra dette å oppfatte som kortform for **__deling og innhenting av data og hendelser__**.
+
+
+I noen sammenhenger skilles det også  mellom _data_ og _hendelser_. En hendelse kan f.eks. være at det er gjort et vedtak i en sak, noe som utløser behov for å informere andre. Dette gjøres typisk gjennom meldinger som gir varsel (notifikasjon) om hva som har skjedd, der konsumentene så eventuelt må tilbake til tilbyder for å ta rede på detaljene.
+
+Begrepet _datadeling" omfatter her dessuten den type meldingsutveksling som skjer mellom de ulike delprosessene i tverrgående prosesser, dvs. prosesser som går på tvers av ulike organisasjonsenheter eller virksomheter.
+
+
 === Motivasjon for deling av data
-Deling av data er definert som et insatsområde i regjeringens digitaliseringsstrategi for 2019-2025, i tillegg til sammenhengende tjenester og enkelte andre områder.
+Deling av data er definert som et insatsområde i regjeringens digitaliseringsstrategi for 2019-2025.
 
-Bakgrunnen for dette ligger i verdien for ulike interessenter, slik dette er antydet i følgende figur.
+Bakgrunnen for dette ligger i verdien for ulike interessenter, enten det dreier seg om egen oppgaveløsning, verdiøkende tjenester eller sekundær bruk i form av dataanalyse.
 
+Grovt sett, kan en si at det finnes følgende formål for "datadeling":  
+ 
+1. Generell deling av data, for vilkårlige tredjeparter og deres formål. Dette kan være primærbruk i egen oppgaveløsning, eller sekundær bruk i form av verdiøkende tjenester eller dataanalyse.
+
+2. Samhandling mellom samhandlingsaktører i tverrgående prosesser. 
+
+//NOTE: Avhengig av type prosess og løsning, er tilbydere og konsumenter på forhånd kjent for hverandre, helt frikoplet, eller det etableres løpende kontakt i mer dynamiske økosystemer.     
+
+
+For den som skal dele data, kan motivasjonen for "generell deling av data" være vanskelig å få øye på. Det kreves effektive virkemidler og gode fellesløsninger for at dette skal prioriteres på bekostning av egen oppgaveløsning, spesielt der det følger med risiko for å trå feil med tanke på informasjonssikkerhet (kompromittering av taushetsbelagte opplysninger).      
+
+
+////
 .Motivasjon for deling av data
 image::../nab_arkitekturlandskap_segmentarkitektur_datadeling/media/Motivasjon for deling av data.png[alt=Motivasjon for deling av data image]
+////
 
-Verdien av deling av data kan sies å komme gjennom følgende typer av datadeling:
-
-1. Generell tilgang til data for tredjeparter for formål som dataanalyse, verdiøkende tjenester og oppgaveløsning; frikoplet fra den som deler data.
-
-2. Samhandling mellom samhandlingsaktører i tverrgående prosesser "på baksiden" av aktuelle (sammenhengende) sluttbrukertjenester. Avhengig av type prosess og valt løsning, er tilbydere og konsumenter på forhånd kjent for hverandre, helt frikoplet, eller det etableres løpende kontakt i mer dynamiske økosystemer.     
 
 
 === Datadeling i kontekst
 
-image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _I arbeid (høst 2019)_
+Datadeling gir ikke verdi uten at data benyttes   i oppgaveløsning og tjenesteproduksjon.
 
-//Godt fungerende datadeling inngår som et viktig element i å nå målene i regjeringens digitaliseringsstrategi. Et overordnet mål er sammenhengende tjenester for personer og virksomheter. 
-
-
-Datadeling handler grovt sett om å forsyne forretningsprosesser og dataanalyse med nødvendig datagrunnlag.
-Figuren under illustrerer dette.  
+Aktuelle mål om sammenhengende tjenester for personer og virksomheter, krever fungerende arbeidsprosesser på tvers av forvaltningen. Dette omtales gjerne som _tverrgående prosesser_.   
 
 
+////
 .Datadeling i kontekst med sammenhengende tjenester
 image::../nab_arkitekturlandskap_segmentarkitektur_datadeling/media/Datadeling i kontekst med sammenhengende tjenester.png[alt=Datadeling i kontekst med sammenhengende tjenester image]
+////
 
-
+////
 .Sammenheng - datadeling og  tverrgående prosesser
 image::../nab_arkitekturlandskap_segmentarkitektur_datadeling/media/Sammenheng - datadeling og  tverrgående prosesser.png[alt=Sammenheng - datadeling og  tverrgående prosesser image]
+////
+
+Tverrgående prosesser finnes i flere former. 
+
+De enkleste prosessene kan kartlegges og standardiseres. Slike prosesser kan typisk automatiseres - så langt det er mulig å definere reglene for dette (eventuelt med kunstig intelligens)
+
+For mer komplekse oppgaver kreves andre tilnærminger. De mest komplekse oppgavene løses av kunnskapsmedarbeidere i økosystemer på tvers av forvaltningen. Arbeidsprosessene kan ikke da på forhånd kartlegges eller automatiseres i sin helhet, men en kan støtte saksbehandlere med verktøy for dynamisk saksbehandling og enkelte deler av prosessene kan kanskje uansett automatiseres.     
 
 
 .Sammenheng - datadeling og faste vs. dynamiske prosesser
 image::../nab_arkitekturlandskap_segmentarkitektur_datadeling/media/Sammenheng - datadeling og faste vs. dynamiske prosesser.png[alt=Sammenheng - datadeling og faste vs. dynamiske prosesser image]
 
-=== Omfang og avgrensing
+
+=== Omfang og avgrensing for området datadeling
 Området datadeling kan ses som del av link:../nab_arkitekturlandskap_segmentarkitektur_informasjonsforvaltning[informasjonsforvaltning] som et større område.
 
 image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _I arbeid (høst 2019)_
@@ -87,7 +117,7 @@ NOTE: Beskrivelsene bygges ut og oppdateres  i tilknytning til løpende prosjekt
 
 :leveloffset: +1
 
-= Verdistrømmer for datadeling
+= Felles referansemodeller for datadeling
 
 include::../nab_arkitekturlandskap_segmentarkitektur_datadeling_verdistrømmer/book_datadeling_verdistrømmer.adoc[]
 
@@ -102,7 +132,9 @@ include::../nab_arkitekturlandskap_segmentarkitektur_datadeling_datautveklsing/b
 
 = Informasjonssikkerhet, tillit og personvern
 
-Se under link:../nab_arkitekturlandskap_segmentarkitektur_datadeling_datasikkerhet[informasjonssikkerhet for datautveksling].
+include::../nab_arkitekturlandskap_segmentarkitektur_datadeling_datasikkerhet/book-datasikkerhet-tillit-personvern.adoc[]
+
+
 
 ////
 Kapabilitetskart for temaområdet Informasjonssikkerhet, tillit og personvern:

@@ -1,12 +1,16 @@
 :lang: no
-:doctitle: Struktur beskrivelser
+:doctitle: Leseveiledning for referansearkitekturer innen datautveksling
 :keywords: Referansearkitekturer
 
 include::../plattform_felles/includes/commonincludes.adoc[]
 
-== Dokumentstruktur
-De tre samhandlingsmønstre er beskrevet med en liknende oppbygning. 
+[.lead]
+Hvordan lese og tolke  
 
+NOTE: Se også  link:../nab_referanse_maler_asciidoc-book-sat[mal for referansearkitekturer]. 
+
+== Dokumentstruktur
+=== Generelt
 Først gis en overordnet beskrivelse av kapabilitetene som er relevante for mønsteret. Deretter beskrives realiseringen av hver kapabilitet gjennom modeller for rene arkitekturmønstre (uten kobling til spesifikke løsninger) og løsningsmønstre som angir god praksis for bruk av _nasjonale fellesløsninger_.
 
 De detaljerte beskrivelsene har separate underkapitler som henholdsvis klargjøring og operativ deling av data.
@@ -29,7 +33,7 @@ Beskrivelsene er forsøkt å holde helt generisk uten å peke til noen spesifikk
 Løsningsmønstrene beskriver hvordan den generiske arkitekturen fra arkitekturmønstrene kan realiseres med løsningskomponenter. Kapabilitetene og prosesstegene som realiserer denne er de samme, men det er mer detaljert beskrivelse av tjenester og komponenter som støtter prosessene.
 
 
-=== Hvordan lese modellene
+== Hvordan lese modellene
 Modellene viser hvilke roller som innehar den respektive kapabiliten og er involvert i prosessene. Prosessene realiserer kapabiliteten og tjenester og sentrale informasjonselementer støtter opp om prosessene.
 
 De grunnleggende elementene for arkitekturmønstre forklares i denne figuren:
@@ -42,7 +46,7 @@ image:../nab_referanse_arkitekturer_eoppslag/media/Forklaring prosess.png[alt="B
 
 //Henrik: I teksten over mener jeg det er riktig å benytte begrepet fellesløsninger. Er det eventuelt bedre med "aktuelle fellesløsninger" eller noe i den duren?
 
-De grunnleggende elementene for løsningsmønstre foklares i denne figuren:
+De grunnleggende elementene for løsningsmønstre forklares i denne figuren:
 
 image:../nab_referanse_arkitekturer_eoppslag/media/forklaring_app_lag.png[alt="Bilde mangler", width=500, link=https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/e7e6c527-26f4-461c-b4dd-651fcbe85c8d/views/6a46c6d0-64eb-43d4-97f3-2a94516c2211.html]
 

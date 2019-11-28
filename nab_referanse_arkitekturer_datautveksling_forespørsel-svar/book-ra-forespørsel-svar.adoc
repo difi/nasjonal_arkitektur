@@ -5,12 +5,9 @@
 include::../plattform_felles/includes/commonincludes.adoc[]
 
 :leveloffset: +1
-= Introduksjon
 
-Formål:
-
-= Generisk mønster
+= Grunnleggende mønstre for forespørsel-svar
 TBD.
 
 = eOppslag
-include:
+include::../nab_referanse_arkitekturer_eoppslag/book-eoppslag-referansearkitektur.adoc[]
