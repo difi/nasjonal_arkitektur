@@ -19,21 +19,11 @@ image::../nab_referanse_arkitekturer_datautveksling_forsendelse/media/Firehjørn
 
 NOTE: Denne modellen kan minne om en "tjenestebuss" (ESB), der det også finnes tilsvarende løs kopling mellom avsender og mottaker. Den grunnleggende forskjellen er at dette mønsteret er fullstendig distribuert og skalerer "uendelig"  over www på global basis.
 
-I firehjørnersmodellen kommuniserer avsenders og mottakers systemer via hver sine _aksesspunktløsninger_. Aksesspunktene konverterer mellom applikasjonsspesifikke protokoller og en standardisert, sikker meldingsprotokoll over internett.
+I firehjørnersmodellen kommuniserer avsenders og mottakers systemer via hver sine _aksesspunktløsninger_. Aksesspunktene konverterer mellom applikasjonsspesifikke protokoller og en standardisert, sikker meldingsprotokoll over aktuell kommunikasosjonsinfrastruktur.
 
 Hvert aksesspunkt blir en node i et tillitsfelleskap.
 
 Aksesspunktene kan eventuelt integreres i avsenders og mottakers systemer. Om dette gjøres på begge sider, vil en rent fysisk ha en punkt-til-punkt forbindelse, men uten at det endrer konseptet som sådan.
-
-
-Egenskaper:
-
-* Løs kopling mellom avsender og mottaker
-* Sikker meldingsinfrastruktur (mellom aksesspunktene)
-* Avtaleforvaltning gjennom betrodd tredjepart
-* Mulighet for å oppdage tjenestetilbydere og inngå avtaler runtime 
-* Ubegrenset skalering  
-* [red]#Mulig å opprette flere communities#
 
 
 

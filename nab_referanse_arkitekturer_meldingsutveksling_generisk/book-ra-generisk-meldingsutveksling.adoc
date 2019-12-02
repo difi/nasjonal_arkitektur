@@ -50,7 +50,8 @@ NOTE: __Et eksempel på dette er beskrevet i referansearkitekturen for eMelding 
 
 Selv om avsender kjenner mottaker på forhånd, kan det være aktuelt å slå opp detaljer om mottakers kommunikasjonsløsning i tilknytning til selve forsendelsen. Dette gjøres typisk gjennom run-time oppslagstjenester som er innebygget i infrastrukuren; her vist som en (konseptuell) tjeneste for __Kapabilitets-og adresseoppslag__.   
 
-
+=== Aktører og roller
+Se under link:../nasjonal_arkitektur\nab_arkitekturlandskap_segmentarkitektur_datadeling_roller[rollebeskrivelser for området datadeling.]
 
 === Avtaleforvaltning
 
@@ -73,7 +74,7 @@ Avtaler kan altså gjøres på flere måter:
 
 a. Bilateral avtale, der avtalen registreres direkte hos hver av partene.  
 
-b. Bilteral avtale, der avtalen registreres hos tiltrodd tredjepart (avtaleforvalter).
+b. Bilateral avtale, der avtalen registreres hos tiltrodd tredjepart (avtaleforvalter).
 
 c. Avtalefellesskap, der avtalen registreres hos tiltrodd tredjepart (avtaleforvalter/fellesskapsforvalter) og der andre aktører eventuelt kan registrere tilsvarende kapabiliteter for sending og mottak.
 
@@ -97,8 +98,6 @@ I dette (generiske) arkitekturmønsteret, gjøres et minimum av  konkrete spesif
 Følgende presiseres spesielt:
 
 WARNING: Dersom det skal utveksles meldinger i noen form for sammenhengende prosess, kreves en løsning for korrelering av meldinger. Det forutsettes her at det avtales en meldingsprotokoll på applikasjonslaget for dette med en parameter kalt "ConversationId" eller tilsvarende.
-
-
 
 
 
@@ -139,7 +138,7 @@ Realiseringen av disse kapabilitetene er beskrevet i det følgende; først konse
 
 == Konseptuelle beskrivelser (arkitekturbyggeklosser)
 
-=== Klargjøre for deling av data ved forsendelse
+=== Klargjøring for meldingsforsendelse
 
 Modellen under detaljerer hvordan en samhandlingsaktør, som i dette tilfellet normalt vil være en avsender eller mottaker, blir klar for å sende data som en melding. Dette gjøres ved å melde inn i et fellesskap og registrere nødvendige data i registre som er tilgjengelig for de andre samhandlingsaktørene i fellesskapet. Det vil kunne være forskjeller på hva som er nødvendig å gjøre avhengig av om samhandlingsaktøren er en avsender eller mottaker, men normalt vil man inneha begge roller i fellesskapet.
 
@@ -369,14 +368,26 @@ Privat nøkkel benyttes til dekryptering og signering av meldinger.
 |===
 
 
-== Praktiske anvendelser - meldingsforsendelse til kjent mottaker
+== Praktiske anvendelser av generisk mønster for  meldingsforsendelse til kjent mottaker
 
-=== Meldingsforsendelse gjennom eFormidling
-
-TBD.
 
 === Meldingsforsendelse gjennom PEPPOL, basert på eMelding
 
+Se under link:../nab_referanse_arkitekturer_emelding[referansearkitekturen eMelding].
+
+=== Meldingsforsendelse gjennom eFormidlings-løsningen
+
+TBD.
+
+=== Meldingsforsendelse i helsesektoren
+
+TBD.
+
+
+
+
+
+////
 :leveloffset: +1
 
 === Klargjør for deling av data ved forsendelse (eMelding)
@@ -561,7 +572,7 @@ Etter mottak må mottaker følge opp og håndtere innholdet i meldingen.
 | Prosessen med å motta en melding fra avsender
 
 | Kontroller forsendelse
-| Prosessen med å kontrollere om forsendelsen er autentisk og fra en legitim avsender.
+| Prosessen med å kontrollere om forsendelsen er autentisk og fra en legitim avsender.s
 
 | Dekrypter melding
 | Prosessen med å dekryptere mottatt melding. 
@@ -584,3 +595,4 @@ Etter mottak må mottaker følge opp og håndtere innholdet i meldingen.
 |===
 
 :leveloffset: -1
+////

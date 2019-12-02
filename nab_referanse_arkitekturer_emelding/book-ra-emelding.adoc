@@ -1,7 +1,7 @@
 :lang: no
 :doctitle: Referansearkitektur eMelding 
 :keywords: eMelding
-:toclevels: 4
+:toclevels: 3
 
 include::../plattform_felles/includes/commonincludes.adoc[]
 
@@ -17,26 +17,26 @@ include::../nab_referanse_arkitekturer_emelding/krav_eMelding.adoc[]
 ////
 
 
+== Grunnleggende konsepter for eMelding
 
-
-== Konseptuelle beskrivelse
-
-=== Grunnleggende konsepter for eMelding
-
-link:../nab_referanse_arkitekturer_datautveksling_forsendelse[Grunnleggende mønstre og konsepter for _forsendelse_] beskriver "firehjørnersmodellen", der det blant annet redegjøres for
+////
+=== Generelt
 
 * Løs kopling mellom avsender og mottaker
 * Avtaleforvaltning gjennom betrodd tredjepart
 * Mulighet for å oppdage tjenestetilbydere og inngå avtaler runtime 
 * Ubegrenset skalering  
+////
 
-Her gjengis en figur som viser "firehjørnersmodellen":
+:leveloffset: +1
 
-.Firehjørnersmodellen
-image::../nab_referanse_arkitekturer_emelding\media/Firehjørnersmodellen - forvaltningsmessig.png[alt=Firehjørnersmodellen - forvaltningsmessig image]
+== Firehjørnersmodellen
 
-=== Verdistrømmer og prosessbeskrivelser for eMelding
-== Konseptuell beskrivelse (arkitekturbyggeklosser)
+include::./4-hjørnersmodellen.adoc[]
+
+:leveloffset: -1
+
+== Konseptuelle prosessbeskrivelser (arkitekturbyggeklosser)
 
 === Klargjøre for deling av data ved forsendelse
 
