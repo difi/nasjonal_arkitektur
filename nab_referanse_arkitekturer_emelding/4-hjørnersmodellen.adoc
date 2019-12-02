@@ -8,14 +8,15 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 == Generelt
 Begrepet "firehjørnersmodell", eller “4-corner model”, stammer fra  link:../kunnskap_referansearkitektur_eu-edelivery[CEF eDelivery]. 
 
-Følgende figur illustrerer grunnleggende konsepter: 
+Følgende figur illustrerer aktuelle konsepter: 
 
 // .Firehjørnersmodellen - operativt
 // image::../nab_referanse_arkitekturer_datautveksling_forsendelse/media/Firehjørnersmodellen - operativt.png[alt=Firehjørnersmodellen - operativt image]
 
 
 .Firehjørnersmodellen
-image::../nab_referanse_arkitekturer_datautveksling_forsendelse/media/Firehjørnersmodellen - forvaltningsmessig.png[alt=Firehjørnersmodellen - forvaltningsmessig image]
+.Firehjørnersmodellen - forvaltningsmessig
+image::../nab_referanse_arkitekturer_emelding/media/Firehjørnersmodellen - forvaltningsmessig.png[alt=Firehjørnersmodellen - forvaltningsmessig image]
 
 
 NOTE: Denne modellen kan minne om en "tjenestebuss" (ESB), der det også finnes tilsvarende løs kopling mellom avsender og mottaker. Den grunnleggende forskjellen er at dette mønsteret er fullstendig distribuert og skalerer "uendelig"  over www på global basis.
