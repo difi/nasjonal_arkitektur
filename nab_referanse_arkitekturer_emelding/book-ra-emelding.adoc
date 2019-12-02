@@ -41,7 +41,7 @@ include::./4-hjørnersmodellen.adoc[]
 === Klargjøre for deling av data ved forsendelse
 
 Modellen under detaljerer hvordan en samhandlingsaktør, som i dette tilfellet normalt vil være en avsender eller mottaker, blir klar for å sende data som en melding. Dette gjøres ved å melde inn i et fellesskap og registrere nødvendige data i registre som er tilgjengelig for de andre samhandlingsaktørene i fellesskapet. Det vil kunne være forskjeller på hva som er nødvendig å gjøre avhengig av om samhandlingsaktøren er en avsender eller mottaker, men normalt vil man inneha begge roller i fellesskapet.
-
+ 
 
 
 .Klargjør for eMelding (arkitekturmønster)
