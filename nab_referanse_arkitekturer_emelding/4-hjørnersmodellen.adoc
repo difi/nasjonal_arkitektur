@@ -17,6 +17,7 @@ Følgende figur illustrerer grunnleggende konsepter:
 .Firehjørnersmodellen
 image::../nab_referanse_arkitekturer_datautveksling_forsendelse/media/Firehjørnersmodellen - forvaltningsmessig.png[alt=Firehjørnersmodellen - forvaltningsmessig image]
 
+
 NOTE: Denne modellen kan minne om en "tjenestebuss" (ESB), der det også finnes tilsvarende løs kopling mellom avsender og mottaker. Den grunnleggende forskjellen er at dette mønsteret er fullstendig distribuert og skalerer "uendelig"  over www på global basis.
 
 I firehjørnersmodellen kommuniserer avsenders og mottakers systemer via hver sine _aksesspunktløsninger_. Aksesspunktene konverterer mellom applikasjonsspesifikke protokoller og en standardisert, sikker meldingsprotokoll over aktuell kommunikasosjonsinfrastruktur.
