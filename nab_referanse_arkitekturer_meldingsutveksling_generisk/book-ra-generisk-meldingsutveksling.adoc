@@ -1,51 +1,153 @@
 :lang: no
-:doctitle: Referansearkitektur eMelding 
-:keywords: eMelding
+:doctitle: Generisk mønster for meldingsforsendelse til kjent mottaker
+:keywords: 
 :toclevels: 4
 
 include::../plattform_felles/includes/commonincludes.adoc[]
 
 [.lead]
-eMelding er en referansearkitektur for meldingsutveksling på tvers av virksomheter, sektorer og landegrenser.
+Det mest grunnleggende mønsteret for meldingsutveksling omhandler enkeltvise meldinger fra en avsender til en kjent mottaker
 
 == Introduksjon
-include::../nab_referanse_arkitekturer_emelding/intro-ra-emelding.adoc[]
+
+//I sin enkleste form handler dette om realisering av informasjonsflyt nellom avsender og mottaker som dataflyt mellom kommunikasjonsløsningene på hver side, i form av meldingsflyt gjennom underliggende infrastruktur for meldingssutveksling. Dette er illustrert i følgende figur.  
+__Generisk mønster for meldingsforsendelse til kjent mottaker__ beskriver meldingsutveksling i form av enkeltvise meldinger fra en avsender til en kjent mottaker. De konseptuelle beskrivelsene som gis her danner grunnlag for beskrivelser av mer avanserte og spesialiserte mønstre; men kan også stå på egne ben, med egne løsningsmønstre.
+
+Beskrivelsene skiller mellom 
+
+1. Det konseptuelle arkitekturmønsteret
+2. Praktisk anvendelser i form av løsningsmønstre med mer konkret veiledning, f.eks. til bruk av nasjonale fellesløsninger.
+
+
+== Brukstilfeller
+Aktuelle brukstilfeller for __Generisk nønster for meldingsforsendelse til kjent mottaker__:
+
+* melding om hendelser og data mellom to kjente parter i tverrgående forretningsprosesser, f.eks. saksbehandlingsprosesser.
+
+* melding om hendelser og data  til mellomliggende løsninger for dataformidling
+
+* melding om  hendelser og data til datalagringsløsninger
+
 
 ////
 === Krav til eMelding
 include::../nab_referanse_arkitekturer_emelding/krav_eMelding.adoc[]
 ////
 
+== Grunnleggende konsepter og forutsetninger
+
+=== Logisk og fysisk dataflyt
+Følgende arkitekturtegning illustrerer helt grunnleggende konsepter.
+
+.Generisk meldingsforsendelse
+image::../nab_referanse_arkitekturer_meldingsutveksling_generisk/media/Generisk meldingsforsendelse.png[alt=Generisk meldingsforsendelse image]
+
+Her skilles det mellom forretningsmessig informasjonsflyt mellom partene og den fysiske dataflyten mellom IT-løsningene på hver side.
+
+Det forutsettes altså at det finnes en kommunikasjonsinfrastruktur som det kan sendes meldinger over. I sin enkleste form er dette internett. Det kan også finnes krav til bestente formater og protokoller i en mer spesialisert meldingsinfrastruktur. 
+
+NOTE: __Et eksempel på dette er beskrevet i referansearkitekturen for eMelding (og anvendelser som i  PEPPOL-infrastrukturen), der det stilles krav til støtte for en standardisert meldingsprotokoll på tvers av alle samhandlingsaktører innenfor et avtalefelleskap (i PEPPOL er det AS4).__   
+
+Selv om avsender kjenner mottaker på forhånd, kan det være aktuelt å slå opp detaljer om mottakers kommunikasjonsløsning i tilknytning til selve forsendelsen. Dette gjøres typisk gjennom run-time oppslagstjenester som er innebygget i infrastrukuren; her vist som en (konseptuell) tjeneste for __Kapabilitets-og adresseoppslag__.   
 
 
 
-== Konseptuelle beskrivelse
+=== Avtaleforvaltning
 
-=== Grunnleggende konsepter for eMelding
+Det forutsettes at det finnes avtaler mellom avsender og mottaker som ivaretar hensyn til interoperabilitet og informasjonssikkerhet.
 
-link:../nab_referanse_arkitekturer_datautveksling_forsendelse[Grunnleggende mønstre og konsepter for _forsendelse_] beskriver "firehjørnersmodellen", der det blant annet redegjøres for
+Følgende figur illlustrerer det generelle konseptet.
 
-* Løs kopling mellom avsender og mottaker
-* Avtaleforvaltning gjennom betrodd tredjepart
-* Mulighet for å oppdage tjenestetilbydere og inngå avtaler runtime 
-* Ubegrenset skalering  
+.Generisk meldingsforsendelse inkl. avtaleforvaltning
+image::../nab_referanse_arkitekturer_meldingsutveksling_generisk/media/Generisk meldingsforsendelse inkl. avtaleforvaltning.png[alt=Generisk meldingsforsendelse inkl. avtaleforvaltning image]
 
-Her gjengis en figur som viser "firehjørnersmodellen":
+Begrepene Avtaleforvalter og Samhandlingsavtale kan her forstås på ulike måter, avhengig av sammehengen (slik dette også framkommer av mer spesialiserte arkitekturmønstre).
 
-.Firehjørnersmodellen
-image::../nab_referanse_arkitekturer_emelding\media/Firehjørnersmodellen - forvaltningsmessig.png[alt=Firehjørnersmodellen - forvaltningsmessig image]
 
-=== Verdistrømmer og prosessbeskrivelser for eMelding
-== Konseptuell beskrivelse (arkitekturbyggeklosser)
+Følgende figur illustrerer dette.
+
+.Former for avtaleforvaltning
+image::../nab_referanse_arkitekturer_datautveksling/media/Former for avtaleforvaltning.png[alt=Former for avtaleforvaltning image]
+
+Avtaler kan altså gjøres på flere måter:
+
+a. Bilateral avtale, der avtalen registreres direkte hos hver av partene.  
+
+b. Bilteral avtale, der avtalen registreres hos tiltrodd tredjepart (avtaleforvalter).
+
+c. Avtalefellesskap, der avtalen registreres hos tiltrodd tredjepart (avtaleforvalter/fellesskapsforvalter) og der andre aktører eventuelt kan registrere tilsvarende kapabiliteter for sending og mottak.
+
+
+NOTE: __De konseptuelle beskrivelsene tar høyde for at det kan finnes et avtalefellesskap, men dette er ikke en forutsetning for dette, generiske, arkitekturmønsteret.__
+
+
+=== Samhandlingsspesifikasjoner
+Samhandlingsspesifikasjoner ligger til grunn for samhandlingsavtaler (se foregående avsnitt). For __Generisk mønster for meldingsforsendelse til kjent mottaker_  omfatter dette: 
+
+* Tekniske spesifikasjoner: Muliggjør datautveksling mellom systemer. Omfatter transportprotokoller,  meldingsformater, teknisk feilhåndtering, eventuell orkestreringsløsninger, m.m..
+* Semantisk spesifikasjoner: Muliggjør utveksling av meningsfull informasjon. Omfatter metadata og datamodeller for aktuelle meldingsformater.
+* Organisatorisk: Muliggjør forretningsprosesser på tvers av organsiasjonsenheter og systemer. Omfatter spesifikasjon av meldingsflyt på tvers av delproseser eller prosessteg (koreografi).
+
+I dette (generiske) arkitekturmønsteret, gjøres et minimum av  konkrete spesifikasjoner.
+
+#TBD: Parametre for kvalitetsegenskaper.#
+
+#TBD: Referansemodell som viser tekniske protokollag (applikasjon/forretning/transport/...).#
+
+Følgende presiseres spesielt:
+
+WARNING: Dersom det skal utveksles meldinger i noen form for sammenhengende prosess, kreves en løsning for korrelering av meldinger. Det forutsettes her at det avtales en meldingsprotokoll på applikasjonslaget for dette med en parameter kalt "ConversationId" eller tilsvarende.
+
+
+
+
+
+== Kapabilitetskart - relevante kapabiliteter
+
+Modellen under viser hovedinndelingen i kapabiliteter for meldingsforsendelse mellom  en avsender og en mottaker.
+
+
+image:../nab_referanse_arkitekturer_meldingsutveksling_generisk/media/kapabiliteter_forsendelse.png[alt="Bilde mangler", width=750]
+
+
+[cols ="1,3", options="header"]
+.Elementer i view, Kapabiliteter for generisk meldingsforsendelse
+|===
+
+| Element
+| Beskrivelse
+
+| Sending av data
+| Evnen til å sende data til en mottaker.
+
+| Mottak av data
+| Evnene til å motta en melding eller forsendelse fra en avsender.
+
+| Klargjøre for deling av data ved forsendelse
+| Evne til å klargjøre for meldingsutveksling med eksterne parter.
+
+| Mottaker
+| Den som mottar en melding.
+
+| Avsender 
+| Den som sender et brev, en pakke, en e-post, en elektronisk melding, en SMS eller lignende.
+
+|===
+
+Realiseringen av disse kapabilitetene er beskrevet i det følgende; først konseptuelt, så med løsningsspefikke eksempler eller anbefalinger. 
+
+
+== Konseptuelle beskrivelser (arkitekturbyggeklosser)
 
 === Klargjøre for deling av data ved forsendelse
 
 Modellen under detaljerer hvordan en samhandlingsaktør, som i dette tilfellet normalt vil være en avsender eller mottaker, blir klar for å sende data som en melding. Dette gjøres ved å melde inn i et fellesskap og registrere nødvendige data i registre som er tilgjengelig for de andre samhandlingsaktørene i fellesskapet. Det vil kunne være forskjeller på hva som er nødvendig å gjøre avhengig av om samhandlingsaktøren er en avsender eller mottaker, men normalt vil man inneha begge roller i fellesskapet.
 
 
+TIP: #_Bør beskrivelsene nedefor endres slik at det tas høyde for både avtalefellesskap og bilaterale avtaler?_#
 
 .Klargjør for eMelding (arkitekturmønster)
-image::../nab_referanse_arkitekturer_emelding\media/Klargjør for eMelding (arkitekturmønster).png[alt=Klargjør for eMelding (arkitekturmønster) image]
+image::../nab_referanse_arkitekturer_meldingsutveksling_generisk/media/Klargjør for eMelding (arkitekturmønster).png[alt=Klargjør for eMelding (arkitekturmønster) image]
 
 Forklaring til figur:
 
@@ -116,10 +218,10 @@ Privat nøkkel benyttes til dekryptering og signering av meldinger.
 === Operativ meldingsforsendelse
 
 ==== Send melding
-Send eMelding detaljerer prosessen med å sende en melding etter klargjøring for forsendelse. Alle stegene i prosessen vil ikke alltid være nødvendig avhengig av dataene som utveksles og spesifikasjonene for samhandling innen fellesskapet.
+Her beskrives en referansemodell for operativ meldingsforsendelse. Merk: Enkelte prosessteg kan være uaktuelle, avhengig av dataene som utveksles og spesifikasjonene for samhandling innen et eventuelt _avtalefellesskap_.
 
 .Send melding (arkitekturmønster)
-image::../nab_referanse_arkitekturer_emelding\media/Send eMelding (arkitekturmønster).png[alt=Send eMelding (arkitekturmønster) image]
+image::../nab_referanse_arkitekturer_meldingsutveksling_generisk/media/Send eMelding (arkitekturmønster).png[alt=Send eMelding (arkitekturmønster) image]
 
 Forklaring til figur:
 
@@ -205,7 +307,7 @@ Privat nøkkel benyttes til dekryptering og signering av meldinger.
 Motta melding detaljerer prosessen med å motta en melding etter klargjøring for forsendelse. Alle stegene i prosessen vil ikke alltid være nødvendig avhengig av dataene som utveksles og spesifikasjonene for samhandling innen fellesskapet.
 
 .Motta eMelding (arkitekturmønster)
-image::../nab_referanse_arkitekturer_emelding\media/Motta eMelding (arkitekturmønster).png[alt=Motta eMelding (arkitekturmønster) image]
+image::../nab_referanse_arkitekturer_meldingsutveksling_generisk/media/Motta eMelding (arkitekturmønster).png[alt=Motta eMelding (arkitekturmønster) image]
 
 Forklaring til figur:
 
@@ -265,31 +367,17 @@ Privat nøkkel benyttes til dekryptering og signering av meldinger.
 Privat nøkkel benyttes til dekryptering og signering av meldinger.
 
 |===
-== Anvendelse av eMelding i PEPPOL-infrastrukturen i Norge
-
-=== Generelt
-
-Beskrivelsene her peker på hvordan den generiske referansearkitekturen for eMelding kan realiseres med arkitektur- og løsningskomponenter som inngår i PEPPOL-infrastrukturen; basetr på CEF eDelivery.
-
-Utover de arkitekturtegningene som presenenteres, henvises til omfattende dokumentasjon av eDelivery og PEPPOL.
 
 
-.PEPPOL eDelivery Network overview
-image::../kunnskap_losning_eu-peppol\media/PEPPOL eDelivery Network overview.png[]
+== Praktiske anvendelser - meldingsforsendelse til kjent mottaker
 
-Arkitektur- og løsningsbyggeklosser:
+=== Meldingsforsendelse gjennom eFormidling
 
-* CEF SMP (Service Metadata Publisher): Oppslagstjeneste for å finne adresse og kapabiliteter for aktuell mottaker. Inneholder mottakers ID, aksesspunktadresse og dokumenttyper som mottaker kan motta.Aktuelle løsninger:  link:https://samarbeid.difi.no/felleslosninger/elma[ELMA].
+TBD.
 
-* BCP (Business Certificate Publisher): Sertifikatutsteder. Løsninger: Se https://vefa.difi.no/bcp/.
+=== Meldingsforsendelse gjennom PEPPOL, basert på eMelding
 
-* Adressetjenesten CEF link:https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/SML+service[SML] (Service Metadata Locater): Global oppslagstjeneste for å finne fram til aktuell SMP.
-* BCL (Business Certificate Locator): Oppslagstjeneste for å finne BCP (introdusert ifm. Enhanced PEPPOL eDelivery Network).
-* Elektronisk mottaksregister (link:https://samarbeid.difi.no/felleslosninger/elma[ELMA]): Norsk register over foretak som kan ta i mot dokumenter i standardisert EHF-format.
-
-
-
-//NOTE: Det er ikke hensikten å låse referansearkitekturen til spesifikke løsninger, da ulike sektorer og aktører kan ha behov som ikke passer med det som er beskrevet. PEPPOL gir   standarder som sikrer sikker meldingsutveksling som tilfredsstiller aktuelle krav til integritet, leveringssikkerhet, mv.
+:leveloffset: +1
 
 === Klargjør for deling av data ved forsendelse (eMelding)
 
@@ -495,125 +583,4 @@ Etter mottak må mottaker følge opp og håndtere innholdet i meldingen.
 
 |===
 
-
-== Videre informasjon om eMelding
-
-Videre informasjon og og dokumentasjon om eMelding finnes under https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/nasjonal-arkitektur-old/referansearkitektur-meldingsutveksling-emelding.
-////
-
-
-////
-
-. link:https://github.com/difi/nasjonal_arkitektur/blob/master/nab_referanse_arkitekturer_emelding/files/H%C3%B8ringsnotat-Strategi-og-referansearkitektur-meldingsutveksling.docx[Høringsnotat]
-
-
-. link:https://github.com/difi/nasjonal_arkitektur/blob/master/nab_referanse_arkitekturer_emelding/files/Vedlegg-A-Forslag-Nasjonal-referansekarkitektur-og-strategi-for-meldingsutveksling-v1_1.docx[Veddlegg A - Forslag - Nasjonal referansekarkitektur og strategi for meldingsutveksling v1_1]
-
-. link:https://github.com/difi/nasjonal_arkitektur/blob/master/nab_referanse_arkitekturer_emelding/files/Vedlegg-B-Referanse-arkitektur-for-eMelding-printable.pdf[Vedlegg B - Referansearkitektur for eMelding (teknisk)]
-
-////
-
-
-I SAT eDelivery deles tjenesten opp i fem kapabiliteter som er:
-
-* Backend integration
-* Service Location
-* Capability Lookup
-* Message Exchange
-* Trust Establishment
-
-////
-
-
-
-
-
-////
-
-== SAT eDelivery
-
-=== Non technical description
-The reference architecture supports cross enterprise business processes, where two
-enterprises participate in a distributed Business Process in a choreography manner.
-Where the Business Process crosses the Enterprise border to another Enterprise, the
-sending enterprise makes an event notification and hands over necessary information to
-a receiving Enterprise to invoke the corresponding business process. 
-
-<Figure 2: eDelivery context>
-
-An enterprise conducting a Business process, where the Business Process needs to
-invoke a Business Process in another Enterprise can use the Reference architecture for
-Norwegian e-Delivery to send an event notification and the required information
-(eDocuments) to the other Enterprise to invoke and thereby proceed the continued
-Business Process.
-
-The Term Enterprise can be extended to Citizens, where a citicen can either be sending
-i.e. trigger the process of a receiving Enterprise or be receiving, thereby start a "citizen
-process" e.g. fill in tax return. 
-
-=== Definition
-eDelivery is electronicly pushing Event notification and eDocuments (Set of interrelated
-structured or semistructured information) between two Enterprises i.e. from a sending
-Back-end system (or Citizen) to another receiving Back-end System (or Citizen).
-
-eDelivery supports public Public administrations, Businesses and Citizens to engage in
-shared Business processes in an electronic way by exchanging event-notifications and
-eDocuments with other Public administrations, Businesses and citizens, in a flexible
-interoperable, secure, reliable and trusted way. 
-
-=== Requirements
-==== Electronic Delivery Service
-Norwegian eDelivery basic requirements: SAT-eDelivery_Requirements
-
-==== Electronic Registered Delivery Service
-A service that makes it possible to transmit data between third parties by electronic
-means and provides evidence relating to the handling of the transmitted data, including
-proof of sending and receiving the data, and that protects transmitted data against the
-risk of loss, theft, damage or any unauthorised alterations
-
-eIDAS (reference) compliant requirements: ABB-eIDAS_Regulation
-
-==== Description of Architecture
-The Architecture is in compliance with the SOA principles, EIF principles and
-the Norwegian IT-principles for public sector (see "Nasjonal strategi for
-meldingsutveksling")
-
-The Business Exchange Pattern used is Asynchronous-Push, meaning that the Sending
-Enterprise can send event notifications and eDocuments in a reliable and secure way,
-without knowing when the receiving Enterprise is ready to consume the event
-notification and eDocuments.
-
-It should be noted that here the term eDelivery is not fuly consistent with the CEF
-eDelivery term eDelivery. The definition and architecture of eDelivery spans all of the EIF
-layers, whereas CEF eDelivery uses the term for the technical part, here defined as
-Technical eDelivery. 
-
-=== Technical eDelivery Architecture
-Technical eDelivery architecture is based on a distributed model, allowing
-communication (one Back-end system to send eDocument(s) to another Back-end
-system) between participants without the need to set up bilateral agreements and
-technical channels. 
-
-For Flexibility and Scalability the Architecture is based on a 4 Corner model with
-Location- and Capability LookUp: 
-Figure 3: Four Corner Model with Location- and Capability LookUp
-
-*Corner 1* represents a Back-end system (within the legal responsibility of the sending
-organization), that needs to send eDocument(s) to another Back-end system  (Corner 4).
-This is done by interacting with
-
-*Corner 2* (Sending Access Point). The adress and the receiving capabilities (legal,
-organisational, semantic and technical) of the receiver is established through the
-Location LookUp and the Capability LookUp. With the technical capability to send the
-event notification and related eDocuments(s) in a reliable and secure  way to the correct
-receiving 
-
-*Corner 3* (Receiving Access Point). The Receiving Access Point has technical capability to
-receive the eDocuments(s) in a reliable and secure  way and interact with
-
-*Corner 4*, the receiving Back-end system (within the legal responsibility of the receiving
-organization) to deliver the eDocuments.
-In this 4-Corner Store-and-Forward model, every eDelivery Access Point becomes a node
-in a trusted interoperabilty community
-
-////
+:leveloffset: -1

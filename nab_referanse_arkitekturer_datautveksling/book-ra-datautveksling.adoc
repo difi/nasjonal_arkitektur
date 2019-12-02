@@ -106,33 +106,22 @@ c. link:../nab_referanse_arkitekturer_datautveksling_publisering[Deling av data 
 * link:../nab_referanse_arkitekturer_epublisering[ePublisering]
 
 
-= Arkitekturmønstre for datautveksling
-
-
-:leveloffset: +1
-
-= Mønstre for forepørsel-svar
-include::../nab_referanse_arkitekturer_datautveksling_forespørsel-svar/book-ra-forespørsel-svar.adoc[]
-
-////
-= eOppslag
-include::../nab_referanse_arkitekturer_eoppslag/book-eoppslag-referansearkitektur.adoc[]
-////
-
-:leveloffset: -1
-= Mønstre for forsendelse
+= Mønstre for meldingsutveksling mellom kjente parter
 include::../nab_referanse_arkitekturer_datautveksling_forsendelse/book-ra-forsendelse.adoc[]
 
-//= eMelding
-//include::../nab_referanse_arkitekturer_emelding/book-ra-emelding.adoc[]
-
-
-:leveloffset: -1
-= Mønstre for publisering 
+:leveloffset!:
+:leveloffset: +1
+= Mønstre for deling med  ukjente parter
 include::../nab_referanse_arkitekturer_datautveksling_publisering/book-ra-publisering.adoc[]
 
+:leveloffset!:
+:leveloffset: +1
+= Mønstre for spørring og oppslag
+include::../nab_referanse_arkitekturer_datautveksling_forespørsel-svar/book-ra-forespørsel-svar.adoc[]
+
+
+//= Introduksjon til tverrgående temaer
+//include::../nab_referanse_arkitekturer_tverrgående-tema/book-tverrgående-tema.adoc[]
+x|
 
 :leveloffset: -1
-
-//== Introduksjon til tverrgående temaer
-//include::../nab_referanse_arkitekturer_tverrgående-tema/book-tverrgående-tema.adoc[]
