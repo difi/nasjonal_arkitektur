@@ -92,16 +92,17 @@ Se også: link:../nab_referanse_arkitekturer_struktur_beskrivelse[Mer om dokumen
 Beskrivelsene finnes ellers både samlet og  enkeltvis. Som alternativ til å se "den store boken", kan en gå inn på følgende lenker: 
 
 
-a. link:../nab_referanse_arkitekturer_datautveksling_forespørsel-svar[Deling av data på forespørsel]
+a. link:../nab_referanse_arkitekturer_datautveksling_forespørsel-svar[Arkitekturnønstre for spørring og oppslag]
 
 
 * link:../nab_referanse_arkitekturer_eoppslag/[eOppslag]
 
-b. link:../nab_referanse_arkitekturer_datautveksling_forsendelse[Deling av data ved forsendelse]
+b. link:../nab_referanse_arkitekturer_datautveksling_forsendelse[Arkitekturmønstre for forsendelse]
 
+* link:../nab_referanse_arkitekturer_meldingsutveksling_generisk[Generisk meldingsforsendelse]
 * link:../nab_referanse_arkitekturer_emelding[eMelding]
 
-c. link:../nab_referanse_arkitekturer_datautveksling_publisering[Deling av data ved publisering]
+c. link:../nab_referanse_arkitekturer_datautveksling_publisering[Arkitekturnønstre for deling med ukjente parter]
 
 * link:../nab_referanse_arkitekturer_epublisering[ePublisering]
 
