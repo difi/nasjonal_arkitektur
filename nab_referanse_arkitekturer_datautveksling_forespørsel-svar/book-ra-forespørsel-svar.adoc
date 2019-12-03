@@ -15,5 +15,5 @@ TIP: #Beskrivelser under eOppslag løftes inn hit.#
 include::../nab_referanse_arkitekturer_eoppslag/book-eoppslag-referansearkitektur.adoc[]
 
 
-= Asynkront oppslag (request-reply)
+= Asynkron spørring (request-reply)
 image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _I arbeid._
