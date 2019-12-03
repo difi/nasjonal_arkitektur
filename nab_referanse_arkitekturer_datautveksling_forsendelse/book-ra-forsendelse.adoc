@@ -1,5 +1,5 @@
 :lang: no
-:doctitle: Basismønstre for _dataforsendelse_
+:doctitle: Basismønstre for _forsendelse_
 :keywords: TBD
 :toclevels: 3
 include::../plattform_felles/includes/commonincludes.adoc[]
@@ -30,7 +30,7 @@ image::../nab_referanse_arkitekturer_datautveksling_forsendelse/media/Generisk d
 
 
 
-= eForsendelse - generisk meldingsforsendelse
+= Generisk meldingsforsendelse
 
 include::../nab_referanse_arkitekturer_meldingsutveksling_generisk/book-ra-generisk-meldingsutveksling.adoc[]
 

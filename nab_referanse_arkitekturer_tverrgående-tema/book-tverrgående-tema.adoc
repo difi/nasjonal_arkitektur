@@ -1,9 +1,25 @@
 :lang: no
-:doctitle: Tverrgående temaer
+:doctitle: Avanserte samhandlingsmønstre og tverrgående temaer
 :keywords: 
 
 include::../plattform_felles/includes/commonincludes.adoc[]
 
+image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _I arbeid._
+
+== Introduksjon
+TBD.
+
+== Innhenting av tilleggsdata for hendelser
+TBD.
+
+
+== Meldingsutveksling i  tverrgående prosesser
+TBD.
+
+== Andre temaer
+TBD.
+
+////
 
 Tverrgående temaer adresseres her i form av generiske kapabiliteter, dvs. kapabiliterer som er relevante i flere av de spesfikke referansearkitekturene.
 
@@ -173,3 +189,4 @@ Legal admissibility refers to whether a court of law would accept a a digital fi
 
 |===
 
+////

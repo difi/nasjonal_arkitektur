@@ -28,16 +28,18 @@ Se også:
 == Omfang og avgrensing
 //include::../nab_referanse_arkitekturer_datautveksling/brukstilfeller.adoc[]
 
-Omfanget for referansarkitekturer innen datautveksling er i utgangspunktet stort. Foreliggende referansearkitekturer adresserer 
-følgende grunnleggende behov:
+Omfanget for referansarkitekturer innen datautveksling er i utgangspunktet stort. Foreliggende referansearkitekturer adresserer følgende grunnleggende behov:
 
 * Enkeltvise oppslag i enkeltstående datakilder ved forepørsel-svar. eOppslag dekker dette.
 
-* Enkeltvise overføringer av data fra en avsender til en bestemt mottaker. Dette adresseres av eMelding.
+* Enkeltvise overføringer av data fra en avsender til en bestemt mottaker. Dette adresseres av mønstre for meldingsforsendelse; herunder blant annet eMelding.
 
 * Publisering av data om hendelser til et ukjent antall ukjente mottakere. ePublisering dekker dette.
 
 
+Disse basismønstrene kan brukes og kombineres på flere måter; se under link:..nab_referanse_arkitekturer_tverrgående-tema/avanserte-mønstre[Avanserte samhandlingsmønstre og tverrgående temaer].
+
+////
 Videre behov og muligheter, som eventuelt vil dekkes etterhvert, omfatter blant annet:
 
 * Spørringer på tvers av flere datakilder.
@@ -49,7 +51,7 @@ Videre behov og muligheter, som eventuelt vil dekkes etterhvert, omfatter blant 
 * Mer detaljerte mønstre for strømming av data og hendelser til et ukjent antall ukjente mottakere.
 
 * Mønstre for publisering av data gjennom felles datalager. 
-
+////
 
 
 == Leseveiledning
@@ -102,22 +104,22 @@ b. link:../nab_referanse_arkitekturer_datautveksling_forsendelse[Arkitekturmøns
 * link:../nab_referanse_arkitekturer_meldingsutveksling_generisk[Generisk meldingsforsendelse]
 * link:../nab_referanse_arkitekturer_emelding[eMelding]
 
-c. link:../nab_referanse_arkitekturer_datautveksling_publisering[Arkitekturnønstre for deling med ukjente parter]
+c. link:../nab_referanse_arkitekturer_datautveksling_publisering[Arkitekturmønstre for publisering av hendelser]
 
 * link:../nab_referanse_arkitekturer_epublisering[ePublisering]
 
 
-= Mønstre for meldingsutveksling mellom kjente parter
+= Basismønstre for meldingsforsendelse
 include::../nab_referanse_arkitekturer_datautveksling_forsendelse/book-ra-forsendelse.adoc[]
 
 :leveloffset!:
 :leveloffset: +1
-= Mønstre for deling med  ukjente parter
+= Basismønstre for publisering av hendelser
 include::../nab_referanse_arkitekturer_datautveksling_publisering/book-ra-publisering.adoc[]
 
 :leveloffset!:
 :leveloffset: +1
-= Mønstre for spørring og oppslag
+= Basismønstre for spørring og oppslag
 include::../nab_referanse_arkitekturer_datautveksling_forespørsel-svar/book-ra-forespørsel-svar.adoc[]
 
 
