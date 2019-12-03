@@ -54,7 +54,7 @@ image:../nab_referanse_arkitekturer_epublisering/media/eNotifikasjon kapabilitet
 == Arkitekturmønstre
 
 === Generere og tilby notifikasjoner
-Generere og tilby notifikasjoner er den prosessen datatilbyder må gjøre for å tilby hendelseslister med notifikasjoner om endringer i ett eller flere datasett. Hendelselister tilbys på samme måte som beskrevet i eOppslag, men det er spesielle krav til hendelseslister med tanke på søk og nedlasting.
+Generere og tilby notifikasjoner er den prosessen datatilbyder må gjøre for å tilby hendelseslister med notifikasjoner. Hendelselister tilbys på samme måte som beskrevet i eOppslag, men det er spesielle krav til hendelseslister med tanke på søk og nedlasting.
 
 image:../nab_referanse_arkitekturer_epublisering/media/ABB_Generere.png[alt="Bilde mangler", width=600]
 
@@ -93,8 +93,8 @@ En notifikasjoner kan inneholde lite eller mye informasjon om selve hendelsen, m
 
 
 === Innhente og håndtere notifikasjoner
-Innhente og håndtere notifikasjoner beskriver konsumering av notafikasjoner. Notifiasjonen leses ved damme mekanismer som i eOppslag, men konsumenten må holde orden i spesielle forhold som kan være rundt hendelseslister.
-Konumenten må også være i stand til å vurdere relevansen av hendelsene for seg før videre behandling av norifikasjonene.
+Innhente og håndtere notifikasjoner beskriver konsumering av notifikasjoner. Notifikasjonen leses ved samme mekanismer som i eOppslag, men konsumenten må holde orden på spesielle forhold som rekkefølge og hvilke notifikasjoner som er lest.
+Konsumenten må også være i stand til å vurdere relevansen av hendelsene før videre behandling av notifikasjonene.
 
 image:../nab_referanse_arkitekturer_epublisering/media/ABB_Innhente.png[alt="Bilde mangler", width=750]
 
@@ -112,7 +112,7 @@ image:../nab_referanse_arkitekturer_epublisering/media/ABB_Innhente.png[alt="Bil
 | Den som innhenter eller mottar data fra andre aktører.
 
 | Konsumere notifikasjoner
-| Prosessen med å lese og konsumere notifikasjoner.
+| Prosessen med å lese og håndtere notifikasjoner.
 
 | Les notifikasjoner
 | Prosess for å hente en eller flere notifikasjoner fra en hendelsesliste.
@@ -127,22 +127,24 @@ image:../nab_referanse_arkitekturer_epublisering/media/ABB_Innhente.png[alt="Bil
 | Prosess med videre behandling av en notifikasjon. Vil normalt være å innhente mer informasjon om hendelsen knyttet til notifikasjonen og eventuelt agere ut i fra denne.
 
 | Forespørsel om notifikasjoner
-| Parametere for notifikasjoner som skal hentes fra tilgjengelig hendelsesliste.
+| Dataobjekt med eventuelle parametere for spørring på notifikasjoner fra tilgjengelig hendelsesliste. Kan inneholde referanse til hvor i hendelselisten (tid eller nummer) man ønsker å lese, avgrensning til temaer og liknende. 
 
 | Kriterier og regler for vurdering
 | Informasjon om hva som legges til grunn for å vurdere relevansen av en hendelse basert på tilgjengelig notifikasjon.
 
 | Notifikasjon
-| Dataobjekt som peker til en hendelse og gjøres tilgjengelig på en hendelseskø så konsumenten får vite om hendelsen.
+| Dataobjekt som peker til (eller representerer) en hendelse og gjøres tilgjengelig på en hendelsesliste så konsumenten får vite om hendelsen.
 
-En notifikasjoner kan inneholde lite eller mye informasjon om selve hendelsen, men det må være nok informasjon til at konsumenten kan vurdere om hendelsen er relevant seg. 
+En notifikasjoner kan inneholde lite eller mye informasjon om selve hendelsen, men det må være nok informasjon til at konsumenten kan vurdere om hendelsen er relevant for seg. 
+
+En notifikasjon inneholder også en referanse til hendelsen den representerer.
 
 |===
 
 == Løsningsmønstere
 
 === Generere og tilby notifikasjoner
-Datatilbyder må etablere en hendelseshåndteringstjeneste som genererer notifikasjoner basert på hendelser eller endringer i ett eller flere datasett. Notifikasjonene tilbys gjennom APIer på samme måte som beskrevet i eOppslag.
+Datatilbyder må etablere en tjeneste som genererer notifikasjoner basert på hendelser. Notifikasjonene tilbys gjennom APIer på samme måte som beskrevet i eOppslag.
 
 image:../nab_referanse_arkitekturer_epublisering/media/SBB_Generere.png[alt="Bilde mangler", width=750]
 
@@ -169,7 +171,7 @@ En hendelse som fører til en notfikasjon vil typisk være en endring i et datas
 | Tilgjengeliggjøre notifikasjon
 | Prosessen med å legge notifikasjoner i en hendelsesliste og gjøre den tilgjengelig for konsumenter av listen.
 
-| Hendelseshåndterings-tjeneste
+| Hendelsegenererings-tjeneste
 | Tjeneste som genererer notifikasjoner basert på hendelser (endringer i datasett).
 
 | eOppslag referansearkitektur
@@ -218,7 +220,7 @@ image:../nab_referanse_arkitekturer_epublisering/media/SBB_Konsumere.png[alt="Bi
 Hendelsesbasert deling av data 
 
 * Hendelser er uforanderlige (immutable)
-* En hendelse representeres ved en notifisering
+* En hendelse representeres ved en notifikasjon
 * Hendelseslister må pagineres og kunne traverseres 
 * Det benyttes et pull-mønster for utveksling av hendelser
 
