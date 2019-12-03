@@ -30,7 +30,7 @@ image::../nab_referanse_arkitekturer_datautveksling_forsendelse/media/Generisk d
 
 
 
-= Generisk meldingsforsendelse
+= Generisk mønster for meldingsforsendelse
 
 include::../nab_referanse_arkitekturer_meldingsutveksling_generisk/book-ra-generisk-meldingsutveksling.adoc[]
 

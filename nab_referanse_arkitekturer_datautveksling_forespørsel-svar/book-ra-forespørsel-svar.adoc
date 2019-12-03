@@ -6,7 +6,7 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 :leveloffset: +1
 
-= Generisk basismønster for spørring og oppslag
+= Generisk mønster for spørring og oppslag
 image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _I arbeid._
 
 TIP: #Beskrivelser under eOppslag løftes inn hit.#
