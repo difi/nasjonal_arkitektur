@@ -17,7 +17,7 @@ Følgende figur illustrerer aktuelle konsepter:
 .Firehjørnersmodellen
 .Firehjørnersmodellen - forvaltningsmessig
 image::../nab_referanse_arkitekturer_emelding/media/Firehjørnersmodellen - forvaltningsmessig.png[alt=Firehjørnersmodellen - forvaltningsmessig image]
-
+ 
 
 NOTE: Denne modellen kan minne om en "tjenestebuss" (ESB), der det også finnes tilsvarende løs kopling mellom avsender og mottaker. Den grunnleggende forskjellen er at dette mønsteret er fullstendig distribuert og skalerer "uendelig"  over www på global basis.
 

@@ -1,5 +1,5 @@
 :lang: no
-:doctitle: Generisk mønster for meldingsforsendelse til kjent mottaker
+:doctitle: eForsendelse - generisk meldingsforsendelse
 :keywords: 
 :toclevels: 4
 
