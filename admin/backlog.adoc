@@ -1,0 +1,10 @@
+:lang: no
+:doctitle: Admin
+:keywords: 
+:toclevels: 3
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+
+
+* *nab_arkitekturlandskap_roller*
++
