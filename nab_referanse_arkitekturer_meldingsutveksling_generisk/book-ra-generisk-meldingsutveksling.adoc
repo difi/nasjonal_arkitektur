@@ -145,8 +145,8 @@ Modellen under detaljerer hvordan en samhandlingsaktør, som i dette tilfellet n
 
 TIP: #_Bør beskrivelsene nedefor endres slik at det tas høyde for både avtalefellesskap og bilaterale avtaler?_#
 
-.Klargjør for eMelding (arkitekturmønster)
-image::../nab_referanse_arkitekturer_meldingsutveksling_generisk/media/Klargjør for eMelding (arkitekturmønster).png[alt=Klargjør for eMelding (arkitekturmønster) image]
+.Klargjør for melding (arkitekturmønster)
+image::../nab_referanse_arkitekturer_meldingsutveksling_generisk/media/ABB_klargjøre.png[alt=Klargjør for eMelding (arkitekturmønster) image]
 
 Forklaring til figur:
 
