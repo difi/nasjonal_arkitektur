@@ -19,6 +19,8 @@ Eksempler på anvendelse er:
 * strømming av hendelser i tilknytning til vedtak i saksbehandling
 
 
-:leveloffset: +1
 = Generisk mønster for publisering av hendelser (eNotifikasjon)
 include::../nab_referanse_arkitekturer_epublisering/book-ra-epublisering.adoc[]
+
+
+:leveloffset: -1
