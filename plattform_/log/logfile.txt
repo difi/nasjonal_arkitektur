@@ -268,3 +268,148 @@
 22.11.2019 20:24:00: Linje: TBD.
 22.11.2019 20:24:00: Linje: TBD.
 22.11.2019 20:24:00: 7 occurences in C:\github\digdir\nasjonal_arkitektur\plattform_praktiske-tips_github\main.adoc
+04.12.2019 18:35:05: SøkTekstIAlleFiler(TBD.)
+04.12.2019 18:35:05: Linje: TBD.
+04.12.2019 18:35:05: 1 occurences in C:\github\digdir\nasjonal_arkitektur\kunnskap_\book_kunnskapsbibliotek.adoc
+04.12.2019 18:35:07: Linje: TBD.
+04.12.2019 18:35:07: Linje: TBD.
+04.12.2019 18:35:07: 2 occurences in C:\github\digdir\nasjonal_arkitektur\kunnskap_tema_arkitekturparadigmer\book-architecture-paradigms.adoc
+04.12.2019 18:35:07: Linje: NOTE: Se  link:TBD.[navnekonvensjoner for nasjonalt arkitekturbibliotek] for mer om navngivning av kapabiliteter.  
+04.12.2019 18:35:07: Linje: TBD.
+04.12.2019 18:35:07: 2 occurences in C:\github\digdir\nasjonal_arkitektur\kunnskap_tema_kapabilitetsmodellering\book-kapabilitetsbasert-modellering-og-analyse.adoc
+04.12.2019 18:35:07: Linje: TBD.
+04.12.2019 18:35:07: 1 occurences in C:\github\digdir\nasjonal_arkitektur\nab_arkitekturlandskap\book-arkitekturlandskap.adoc
+04.12.2019 18:35:07: Linje: TBD.
+04.12.2019 18:35:07: Linje: TBD.
+04.12.2019 18:35:07: Linje: TBD.
+04.12.2019 18:35:07: Linje: TBD.
+04.12.2019 18:35:07: Linje: TBD.
+04.12.2019 18:35:07: 5 occurences in C:\github\digdir\nasjonal_arkitektur\nab_arkitekturlandskap_segmentarkitektur\book_segmentarkitektur.adoc
+04.12.2019 18:35:07: Linje: TBD.
+04.12.2019 18:35:07: Linje: TBD.
+04.12.2019 18:35:07: Linje: TBD.
+04.12.2019 18:35:07: Linje: TBD.
+04.12.2019 18:35:07: Linje: TBD.
+04.12.2019 18:35:07: Linje: TBD.
+04.12.2019 18:35:07: Linje: TBD.
+04.12.2019 18:35:07: Linje: TBD.
+04.12.2019 18:35:07: Linje: TBD.
+04.12.2019 18:35:07: 9 occurences in C:\github\digdir\nasjonal_arkitektur\nab_arkitekturlandskap_segmentarkitektur_datadeling\book-datadeling.adoc
+04.12.2019 18:35:07: Linje: Tekst TBD...
+04.12.2019 18:35:07: 1 occurences in C:\github\digdir\nasjonal_arkitektur\nab_arkitekturlandskap_segmentarkitektur_datadeling_avtaleforvaltning\book-avtaleforvaltning.adoc
+04.12.2019 18:35:07: Linje: TBD.
+04.12.2019 18:35:07: Linje: TBD.
+04.12.2019 18:35:07: Linje: TBD.
+04.12.2019 18:35:07: Linje: TBD.
+04.12.2019 18:35:07: Linje: TBD.
+04.12.2019 18:35:07: Linje: TBD.
+04.12.2019 18:35:07: Linje: TBD.
+04.12.2019 18:35:07: 7 occurences in C:\github\digdir\nasjonal_arkitektur\nab_arkitekturlandskap_segmentarkitektur_datadeling_datautveklsing\book-datautveksling.adoc
+04.12.2019 18:35:07: Linje: Videre kommentarer til figuren over: TBD.
+04.12.2019 18:35:07: Linje: Videre kommentarer til figuren over: TBD.
+04.12.2019 18:35:07: Linje: TBD.
+04.12.2019 18:35:07: 3 occurences in C:\github\digdir\nasjonal_arkitektur\nab_arkitekturlandskap_segmentarkitektur_datadeling_verdistrømmer\book_datadeling_verdistrømmer.adoc
+04.12.2019 18:35:07: Linje: TBD.
+04.12.2019 18:35:07: 1 occurences in C:\github\digdir\nasjonal_arkitektur\nab_arkitekturlandskap_strategisk-arkitektur\strategiske-føringer.adoc
+04.12.2019 18:35:07: Linje: #TBD.#
+04.12.2019 18:35:07: Linje: #TBD.#
+04.12.2019 18:35:07: Linje: #TBD.#
+04.12.2019 18:35:07: Linje: #TBD.#
+04.12.2019 18:35:07: 4 occurences in C:\github\digdir\nasjonal_arkitektur\nab_løsningslandskap_sbb_difi-nasjonalt-arkitekturbiblotek\dokumentasjonskonvensjoner.adoc
+04.12.2019 18:35:07: Linje: TBD.
+04.12.2019 18:35:07: 1 occurences in C:\github\digdir\nasjonal_arkitektur\nab_løsningslandskap_ssb\main.adoc
+04.12.2019 18:35:08: Linje: //TBD.
+04.12.2019 18:35:08: Linje: // TBD. 
+04.12.2019 18:35:08: 2 occurences in C:\github\digdir\nasjonal_arkitektur\nab_referanse_arkitekturer_datautveksling\book-ra-datautveksling – Kopi.adoc
+04.12.2019 18:35:08: Linje: //TBD.
+04.12.2019 18:35:08: Linje: // TBD. 
+04.12.2019 18:35:08: 2 occurences in C:\github\digdir\nasjonal_arkitektur\nab_referanse_arkitekturer_datautveksling\book-ra-datautveksling.adoc
+04.12.2019 18:35:08: Linje: TBD.
+04.12.2019 18:35:08: 1 occurences in C:\github\digdir\nasjonal_arkitektur\nab_referanse_arkitekturer_datautveksling\generisk-prosess-for-klargjøring-til-databehandling.adoc
+04.12.2019 18:35:08: Linje: TBD.
+04.12.2019 18:35:08: Linje: TBD.
+04.12.2019 18:35:08: 2 occurences in C:\github\digdir\nasjonal_arkitektur\nab_referanse_arkitekturer_meldingsutveksling_generisk\book-ra-generisk-meldingsutveksling.adoc
+04.12.2019 18:35:08: Linje: TBD.
+04.12.2019 18:35:08: Linje: TBD.
+04.12.2019 18:35:08: Linje: TBD.
+04.12.2019 18:35:08: 3 occurences in C:\github\digdir\nasjonal_arkitektur\nab_referanse_arkitekturer_tverrgående-tema\book-tverrgående-tema.adoc
+04.12.2019 18:35:08: Linje: TBD.
+04.12.2019 18:35:08: 1 occurences in C:\github\digdir\nasjonal_arkitektur\nab_referanse_maler\book-referanse-maler.adoc
+04.12.2019 18:35:08: Linje: Viewpoint attributes: TBD.
+04.12.2019 18:35:08: Linje: . Additional attributes TBD.
+04.12.2019 18:35:08: 2 occurences in C:\github\digdir\nasjonal_arkitektur\nab_referanse_maler_asciidoc-book-sat\book_sat_template.adoc
+04.12.2019 18:35:08: Linje: TBD.
+04.12.2019 18:35:08: Linje: TBD.
+04.12.2019 18:35:08: Linje: TBD.
+04.12.2019 18:35:08: Linje: TBD.
+04.12.2019 18:35:08: Linje: TBD.
+04.12.2019 18:35:08: Linje: TBD.
+04.12.2019 18:35:08: Linje: TBD.
+04.12.2019 18:35:08: Linje: TBD.
+04.12.2019 18:35:08: Linje: TBD.
+04.12.2019 18:35:08: Linje: TBD.
+04.12.2019 18:35:08: Linje: difi:default-language:: Meaning: TBD.
+04.12.2019 18:35:08: Linje: difi:current-language:: Meaning: TBD.
+04.12.2019 18:35:08: Linje: difi:orig-language:: Meaning: TBD.
+04.12.2019 18:35:08: Linje: * Applicability: TBD.
+04.12.2019 18:35:08: Linje: * Valid values: TBD.
+04.12.2019 18:35:08: Linje: difi:metaLevel:: Meaning: TBD.
+04.12.2019 18:35:08: Linje: difi:abstractionLevel:: Meaning: TBD.
+04.12.2019 18:35:08: Linje: difi:parentConcept:: Meaning: TBD.
+04.12.2019 18:35:08: Linje: * Applicability: TBD.
+04.12.2019 18:35:08: Linje: * Valid values: TBD.
+04.12.2019 18:35:08: Linje: difi:docRootPath:: Meaning: TBD.
+04.12.2019 18:35:08: Linje: * Applicability: TBD.
+04.12.2019 18:35:08: Linje: * Valid values: TBD.
+04.12.2019 18:35:08: Linje: difi:docViewPath:: Meaning: TBD.
+04.12.2019 18:35:08: Linje: * Applicability: TBD.
+04.12.2019 18:35:08: Linje: * Valid values: TBD.
+04.12.2019 18:35:08: Linje: difi:dct:BibliographicResource:: Meaning: TBD.
+04.12.2019 18:35:08: Linje: * Applicability: TBD.
+04.12.2019 18:35:08: Linje: * Valid values: TBD.
+04.12.2019 18:35:08: Linje: difi:notes:: Meaning: TBD.
+04.12.2019 18:35:08: Linje: * Applicability: TBD.
+04.12.2019 18:35:08: Linje: * Valid values: TBD.
+04.12.2019 18:35:08: Linje: difi:notes:: Meaning: TBD.
+04.12.2019 18:35:08: Linje: * Applicability: TBD.
+04.12.2019 18:35:08: Linje: * Valid values: TBD.
+04.12.2019 18:35:08: Linje: difi:notes:: Meaning: TBD.
+04.12.2019 18:35:08: Linje: * Applicability: TBD.
+04.12.2019 18:35:08: Linje: * Valid values: TBD.
+04.12.2019 18:35:08: Linje: difi:notes:: Meaning: TBD.
+04.12.2019 18:35:08: Linje: * Applicability: TBD.
+04.12.2019 18:35:08: Linje: * Valid values: TBD.
+04.12.2019 18:35:08: Linje: TBD.
+04.12.2019 18:35:08: Linje: TBD.
+04.12.2019 18:35:08: Linje: TBD.
+04.12.2019 18:35:08: Linje: TBD.
+04.12.2019 18:35:08: Linje: TBD.
+04.12.2019 18:35:08: Linje: Her følger nærmere spesifikasjon og eksempler: TBD.
+04.12.2019 18:35:08: 47 occurences in C:\github\digdir\nasjonal_arkitektur\nab_referanse_modelleringskonvensjoner\book-modelleringskonvensjoner.adoc
+04.12.2019 18:35:09: Linje: TBD.
+04.12.2019 18:35:09: 1 occurences in C:\github\digdir\nasjonal_arkitektur\nab_referanse_modeller_kvalitetsegenskaper\book-kvalitetsegenskaper.adoc
+04.12.2019 18:35:09: Linje: TBD.
+04.12.2019 18:35:09: 1 occurences in C:\github\digdir\nasjonal_arkitektur\nab_referanse_modeller_kvalitetsegenskaper\intro-kvalitetsegenskaper.adoc
+04.12.2019 18:35:09: Linje: TBD.
+04.12.2019 18:35:09: Linje: TBD.
+04.12.2019 18:35:09: Linje: TBD.
+04.12.2019 18:35:09: Linje: TBD.
+04.12.2019 18:35:09: 4 occurences in C:\github\digdir\nasjonal_arkitektur\nab_styring\book_styring.adoc
+04.12.2019 18:35:09: Linje: TBD. 
+04.12.2019 18:35:09: 1 occurences in C:\github\digdir\nasjonal_arkitektur\nab_styring\intro_styring.adoc
+04.12.2019 18:35:09: Linje: TBD.
+04.12.2019 18:35:09: Linje: TBD.
+04.12.2019 18:35:09: Linje: TBD.
+04.12.2019 18:35:09: 3 occurences in C:\github\digdir\nasjonal_arkitektur\nab_styring\strategiske-føringer.adoc
+04.12.2019 18:35:09: Linje: TBD.
+04.12.2019 18:35:09: 1 occurences in C:\github\digdir\nasjonal_arkitektur\plattform_om-plattformen\book-about-the-platform.adoc
+04.12.2019 18:35:09: Linje: Forklaring: TBD.
+04.12.2019 18:35:09: 1 occurences in C:\github\digdir\nasjonal_arkitektur\plattform_praktiske-tips_asciidoc\main.adoc
+04.12.2019 18:35:09: Linje: TBD.
+04.12.2019 18:35:09: Linje: TBD.
+04.12.2019 18:35:09: Linje: TBD.
+04.12.2019 18:35:09: Linje: TBD.
+04.12.2019 18:35:09: Linje: TBD.
+04.12.2019 18:35:09: Linje: TBD.
+04.12.2019 18:35:09: Linje: TBD.
+04.12.2019 18:35:09: 7 occurences in C:\github\digdir\nasjonal_arkitektur\plattform_praktiske-tips_github\main.adoc
