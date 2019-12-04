@@ -69,12 +69,12 @@ Arkitektur- og løsningsbyggeklosser:
 
 
 .Klargjør for eMelding (løsningsmønster)
-image::../nab_referanse_arkitekturer_emelding/media/Klargjør for eMelding (løsningsmønster).png[alt=Klargjør for eMelding (løsningsmønster) image]
+image::../nab_referanse_arkitekturer_emelding/media/SBB_klargjøre.png[alt=Klargjør for eMelding (løsningsmønster) image]
 
 Forklaring til figur:
 
 [cols ="1,3", options="header"]
-.Elementer i view for Klargjør for forsendelse SBB
+.Elementer i view for Klargjør for eMelding (løsningsmønster)
 |===
 
 | Element
@@ -86,11 +86,11 @@ Forklaring til figur:
 | Samhandlingsaktør
 | Samlebetegnelse på roller som inngår i en samhandlingsprosess og samhandler med en annen samhandlingsaktør. Kan være en tilbyder, konsument, avsender, mottaker, leverandør etc.
 
-| Klargjøre for meldingsutveksling
-| Prosessen med å klargjøre for eMelding ved å akseptere felles avtaler og tilgjengeliggjøre nødvendig informasjon til andre samhandlingsaktører.
+| Klargjør for melding
+| Prosessen med å klargjøre for melding ved å  inngå nødvendige avtaler og tilgjengeliggjøre nødvendig informasjon til andre samhandlingsaktører.
 
-| Foreta innmelding i fellesskap
-| Akseptere vilkår for og innrette seg etter reglene og forpliktelsene som gjelder i et fellesskap (community) gjennom å f.eks. signere en avtale eller kontrakt. Dette kan omfatte merkantile forhold.
+| Inngå avtaler for meldingsforsendelse
+| Prosessen med å inngå bilaterale avtaler med sammhandlingsparter eller innmelding i et fellesskap. F.eks. gjennom å akseptere spesifikke avtaler, vilkår eller kontrakter og innrette seg etter reglene og forpliktelsene som gjelder i et fellesskap (community), eller det som er avtalt mellom samhanslingsaktørene.
 
 | Registrer kapabiliteter
 | Registering av kapabiliteter vil si å tilgjengeligjøre for avsendere og konsumenter hvilke meldinger og formater man kan motta og hvilke ressurser og tjenester man tilbyr.
@@ -106,11 +106,14 @@ Sertifikater må forvaltes og fornyes etter gjeldende regler for å være gyldig
 | CEF SML
 | Service Metadata Locator
 
-| BCP
+| BCP (CommFides eller Buypass)
 | Business Certificate Publisher
 
 | Sertifikatregisterering
 | Tjeneste for å registrere serifikater i felles katalogtjeneste.
+
+| Application Function
+| 
 
 | Adresseregistrering
 | Tjeneste for å registrere adresse for å sende melding til mottaker.
@@ -125,9 +128,10 @@ Sertifikater må forvaltes og fornyes etter gjeldende regler for å være gyldig
 | Business Certificate Locater
 
 
+| OpenPeppol
+| 
+
 |===
-
-
 
 
 === Operativ deling av data ved forsendelse (eMelding)

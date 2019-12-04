@@ -143,15 +143,15 @@ Realiseringen av disse kapabilitetene er beskrevet i det følgende; først konse
 Modellen under detaljerer hvordan en samhandlingsaktør, som i dette tilfellet normalt vil være en avsender eller mottaker, blir klar for å sende data som en melding. Dette gjøres ved å melde inn i et fellesskap og registrere nødvendige data i registre som er tilgjengelig for de andre samhandlingsaktørene i fellesskapet. Det vil kunne være forskjeller på hva som er nødvendig å gjøre avhengig av om samhandlingsaktøren er en avsender eller mottaker, men normalt vil man inneha begge roller i fellesskapet.
 
 
-TIP: #_Bør beskrivelsene nedefor endres slik at det tas høyde for både avtalefellesskap og bilaterale avtaler?_#
 
 .Klargjør for melding (arkitekturmønster)
 image::../nab_referanse_arkitekturer_meldingsutveksling_generisk/media/ABB_klargjøre.png[alt=Klargjør for eMelding (arkitekturmønster) image]
 
 Forklaring til figur:
 
+
 [cols ="1,3", options="header"]
-.Elementer i view for Klargjør for eMelding (arkitekturmønster)
+.Elementer i view for Klargjør for melding (arkitekturmønster)
 |===
 
 | Element
@@ -161,13 +161,13 @@ Forklaring til figur:
 | Evne til å klargjøre for meldingsutveksling med eksterne parter.
 
 | Samhandlingsaktør
-| Den som inngår i en samhandlingsprosess og samhandler med en annen samhandlingsaktør. Kan være en tilbyder, konsument, avsender, mottaker, leverandør etc.
+| Samlebetegnelse på roller som inngår i en samhandlingsprosess og samhandler med en annen samhandlingsaktør. Kan være en tilbyder, konsument, avsender, mottaker, leverandør etc.
 
-| Klargjøre for melding
-| Prosessen med å klargjøre for eMelding ved å akseptere felles avtaler og tilgjengeliggjøre nødvendig informasjon til andre samhandlingsaktører.
+| Klargjør for melding
+| Prosessen med å klargjøre for melding ved å  inngå nødvendige avtaler og tilgjengeliggjøre nødvendig informasjon til andre samhandlingsaktører.
 
-| Foreta innmelding i fellesskap
-| Akseptere vilkår for og innrette seg etter reglene og forpliktelsene som gjelder i et fellesskap (community) gjennom å f.eks. signere en avtale eller kontrakt. Dette kan omfatte merkantile forhold.
+| Inngå avtaler for meldingsforsendelse
+| Prosessen med å inngå bilaterale avtaler med sammhandlingsparter eller innmelding i et fellesskap. F.eks. gjennom å akseptere spesifikke avtaler, vilkår eller kontrakter og innrette seg etter reglene og forpliktelsene som gjelder i et fellesskap (community), eller det som er avtalt mellom samhanslingsaktørene.
 
 | Registrer kapabiliteter
 | Registering av kapabiliteter vil si å tilgjengeligjøre for avsendere og konsumenter hvilke meldinger og formater man kan motta og hvilke ressurser og tjenester man tilbyr.
@@ -183,8 +183,8 @@ Sertifikater må forvaltes og fornyes etter gjeldende regler for å være gyldig
 | Interoperability specification
 | Spesifikasjoner for hvordan man samhandler i et fellesskap. Dette kan være meldingsformater, krav til tekniske komponenter etc.
 
-| Samhandlingsavtale for fellesskap
-| Avtale som regulerer forhold tilknyttet samhandlingen i et fellesskap for eMelding.
+| Samhandlingsavtale 
+| Avtale som regulerer forhold tilknyttet samhandlingen mellom to parter, eller deltakerne ie et fellesskap for meldingsutveksling.
 
 | Mottakeradresse
 | Teknsik adresse for hvor meldinger skal sendes. Dette kan være adressen til inet
@@ -212,6 +212,7 @@ Privat nøkkel benyttes til dekryptering og signering av meldinger.
 | Tjeneste for å registrere kapabiliteter
 
 |===
+
 
 
 === Operativ meldingsforsendelse
