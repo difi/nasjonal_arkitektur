@@ -222,8 +222,9 @@ TBD
 
 
 == Teknologier
-
+:leveloffset: +1
 include::../kunnskap_teknologi/book_teknologi.adoc[]
+:leveloffset: -1
 
 == Verktøy
 . link:../kunnskap_verktøy_archi[Archi]
