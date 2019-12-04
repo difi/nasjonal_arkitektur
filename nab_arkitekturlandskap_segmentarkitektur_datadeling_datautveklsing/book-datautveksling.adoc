@@ -57,14 +57,15 @@ Datautveksling kan brytes ned i et sett av isolerte områder og kapabiliteter. P
 
 * Deling av data på forespørsel: Innhenting av data ved forespørsel til en eller flere datakilder.
 
-* Deling av data ved forsendelse: Forsendelse av data fra en avsender til en eller flere kjente mottakere.
+* Deling av data ved forsendelse: Forsendelse av data fra en avsender til en eller flere mottakere.
 
-* Deling av data ved publisering: Publisering av data eller hendelser med løs kopling mellom avsendere og mottakere.  
+* Deling av hendelsesdata: Publisering av hendelsesdata, med løs kopling mellom avsendere og mottakere.  
 
 Dette er illustrert i følgende figur.
 
-.Kapabilitetsområder, datautveksling
-image::../nab_arkitekturlandskap_segmentarkitektur_datadeling/media/Kapabilitetsområder, datautveksling.png[alt=Kapabilitetsområder, datautveksling image]
+.Områder innen datautveksling
+image::../nab_arkitekturlandskap_segmentarkitektur_datadeling/media/Områder innen datautveksling.png[alt=Områder innen datautveksling image]
+
 
 Det skille videre mellom operative og forvaltningsmessige kapabiliteter, dvs. selve datautvekslingen og det som går på tilrettelegging og vedlikehold.
 

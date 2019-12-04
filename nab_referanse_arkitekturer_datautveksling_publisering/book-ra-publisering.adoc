@@ -14,9 +14,9 @@ Referansearkitekturer for publisering omfatter mønstre for deling av hendelser 
 
 Eksempler på anvendelse er:  
 
-* notifikasjoner om enkeltvise hendelser  
-* strømming av IoT-data
+* enkeltvise notifikasjoner  
 * strømming av hendelser i tilknytning til vedtak i saksbehandling
+* strømming av IoT-data
 
 
 = Generisk mønster for publisering av hendelser (eNotifikasjon)

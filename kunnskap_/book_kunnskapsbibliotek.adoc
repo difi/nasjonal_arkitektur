@@ -220,6 +220,12 @@ TBD
 
 . link:../kunnskap_losning_eu-peppol[PEPPOL]
 
+
+== Teknologier
+:leveloffset: +1
+include::../kunnskap_teknologi/book_teknologi.adoc[]
+:leveloffset: -1
+
 == Verktøy
 . link:../kunnskap_verktøy_archi[Archi]
 . link:../kunnskap_verktøy_asciidoctor[Asciidoctor]

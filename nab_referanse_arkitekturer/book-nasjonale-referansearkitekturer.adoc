@@ -50,7 +50,7 @@ NOTE: Referansearkitekturer er også aktuelt for flere andre temaområder innen 
 = Funksjonsområder for referansearkitekturer (kapabiliteter)
 include::../nab_referanse_arkitekturer/kapabilitetsområder.adoc[]
 ////
-
+ 
 
 
 //include::../nab_referanse_arkitekturer_datautveksling/book-ra-datautveksling.adoc[]
