@@ -1,5 +1,5 @@
 :lang: no
-:doctitle: eForsendelse - generisk meldingsforsendelse
+:doctitle: Generisk meldingsforsendelse
 :keywords: 
 :toclevels: 4
 

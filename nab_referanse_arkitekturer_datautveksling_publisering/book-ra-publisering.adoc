@@ -1,5 +1,5 @@
 :lang: no
-:doctitle: Basismønstre for publisering av hendelser 
+:doctitle: Mønstre for publisering av hendelser 
 :keywords: TBD
 :toclevels: 3
 include::../plattform_felles/includes/commonincludes.adoc[]

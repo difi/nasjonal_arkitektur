@@ -97,7 +97,7 @@ Beskrivelsene finnes ellers både samlet og  enkeltvis. Som alternativ til å se
 a. link:../nab_referanse_arkitekturer_datautveksling_forespørsel-svar[Arkitekturnønstre for spørring og oppslag]
 
 
-* link:../nab_referanse_arkitekturer_eoppslag/[eOppslag]
+* link:../nab_referanse_arkitekturer_eoppslag/[Synkront oppslag i datakilde (eOppslag)]
 
 b. link:../nab_referanse_arkitekturer_datautveksling_forsendelse[Arkitekturmønstre for forsendelse]
 
@@ -106,9 +106,16 @@ b. link:../nab_referanse_arkitekturer_datautveksling_forsendelse[Arkitekturmøns
 
 c. link:../nab_referanse_arkitekturer_datautveksling_publisering[Arkitekturmønstre for publisering av hendelser]
 
-* link:../nab_referanse_arkitekturer_epublisering[ePublisering]
+* link:../nab_referanse_arkitekturer_epublisering[Publisering av hendelser (ePublisering)]
 
 
+:leveloffset!:
+:leveloffset: +1
+= Basismønstre for spørring og oppslag
+include::../nab_referanse_arkitekturer_datautveksling_forespørsel-svar/book-ra-forespørsel-svar.adoc[]
+
+:leveloffset!:
+:leveloffset: +1
 = Basismønstre for meldingsforsendelse
 include::../nab_referanse_arkitekturer_datautveksling_forsendelse/book-ra-forsendelse.adoc[]
 
@@ -117,14 +124,10 @@ include::../nab_referanse_arkitekturer_datautveksling_forsendelse/book-ra-forsen
 = Basismønstre for publisering av hendelser
 include::../nab_referanse_arkitekturer_datautveksling_publisering/book-ra-publisering.adoc[]
 
+
 :leveloffset!:
 :leveloffset: +1
-= Basismønstre for spørring og oppslag
-include::../nab_referanse_arkitekturer_datautveksling_forespørsel-svar/book-ra-forespørsel-svar.adoc[]
+= Sammensatte arkitekturmønstre for datadeling og samhandling
+include::../nab_referanse_arkitekturer_tverrgående-tema/book-tverrgående-tema.adoc[]
 
-
-//= Introduksjon til tverrgående temaer
-//include::../nab_referanse_arkitekturer_tverrgående-tema/book-tverrgående-tema.adoc[]
-x|
-
-:leveloffset: -1
+:leveloffset!: -1

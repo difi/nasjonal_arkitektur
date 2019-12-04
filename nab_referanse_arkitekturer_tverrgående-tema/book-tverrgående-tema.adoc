@@ -1,5 +1,5 @@
 :lang: no
-:doctitle: Avanserte samhandlingsmønstre og tverrgående temaer
+:doctitle: Sammensatte mønstre for datadeling og samhandling
 :keywords: 
 
 include::../plattform_felles/includes/commonincludes.adoc[]
@@ -16,8 +16,6 @@ TBD.
 == Meldingsutveksling i  tverrgående prosesser
 TBD.
 
-== Andre temaer
-TBD.
 
 ////
 
