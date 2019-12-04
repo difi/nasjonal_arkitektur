@@ -5,6 +5,8 @@
 include::../plattform_felles/includes/commonincludes.adoc[]
 
 :leveloffset: +1
+
+////
 = Brukstilfeller
 Området _Deling av data ved forsendelse_ omfatter i hovedsak meldingsforsendelse.
 
@@ -16,6 +18,7 @@ Aktuelle brukstilfeller er:
 
 * melding om  hendelser og data til datalagringsløsninger
 
+////
 
 ////
 = Generisk mønster for dataforsendelse
