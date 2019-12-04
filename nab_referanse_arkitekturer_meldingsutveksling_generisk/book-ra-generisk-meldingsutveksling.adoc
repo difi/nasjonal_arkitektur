@@ -20,7 +20,7 @@ Beskrivelsene skiller mellom
 
 
 == Brukstilfeller
-Aktuelle brukstilfeller for __Generisk nønster for meldingsforsendelse til kjent mottaker__:
+Aktuelle brukstilfeller for __Generisk mønster for meldingsforsendelse til kjent mottaker__:
 
 * melding om hendelser og data mellom to kjente parter i tverrgående forretningsprosesser, f.eks. saksbehandlingsprosesser.
 
@@ -44,7 +44,7 @@ image::../nab_referanse_arkitekturer_meldingsutveksling_generisk/media/Generisk 
 
 Her skilles det mellom forretningsmessig informasjonsflyt mellom partene og den fysiske dataflyten mellom IT-løsningene på hver side.
 
-Det forutsettes altså at det finnes en kommunikasjonsinfrastruktur som det kan sendes meldinger over. I sin enkleste form er dette internett. Det kan også finnes krav til bestente formater og protokoller i en mer spesialisert meldingsinfrastruktur. 
+Det forutsettes altså at det finnes en kommunikasjonsinfrastruktur som det kan sendes meldinger over. I sin enkleste form er dette internett. Det kan også finnes krav til bestemte formater og protokoller i en mer spesialisert meldingsinfrastruktur. 
 
 NOTE: __Et eksempel på dette er beskrevet i referansearkitekturen for eMelding (og anvendelser som i  PEPPOL-infrastrukturen), der det stilles krav til støtte for en standardisert meldingsprotokoll på tvers av alle samhandlingsaktører innenfor et avtalefelleskap (i PEPPOL er det AS4).__   
 
@@ -57,7 +57,7 @@ Se under link:../nasjonal_arkitektur\nab_arkitekturlandskap_segmentarkitektur_da
 
 Det forutsettes at det finnes avtaler mellom avsender og mottaker som ivaretar hensyn til interoperabilitet og informasjonssikkerhet.
 
-Følgende figur illlustrerer det generelle konseptet.
+Følgende figur illustrerer det generelle konseptet.
 
 .Generisk meldingsforsendelse inkl. avtaleforvaltning
 image::../nab_referanse_arkitekturer_meldingsutveksling_generisk/media/Generisk meldingsforsendelse inkl. avtaleforvaltning.png[alt=Generisk meldingsforsendelse inkl. avtaleforvaltning image]
