@@ -145,7 +145,7 @@ Modellen under detaljerer hvordan en samhandlingsaktør, som i dette tilfellet n
 
 
 .Klargjør for melding (arkitekturmønster)
-image::../nab_referanse_arkitekturer_meldingsutveksling_generisk/media/ABB_klargjøre.png[alt=Klargjør for eMelding (arkitekturmønster) image]
+image::../nab_referanse_arkitekturer_meldingsutveksling_generisk/media/Klargjør for melding (arkitekturmønster).png[alt=Klargjør for eMelding (arkitekturmønster) image]
 
 Forklaring til figur:
 
@@ -221,7 +221,7 @@ Privat nøkkel benyttes til dekryptering og signering av meldinger.
 Her beskrives en referansemodell for operativ meldingsforsendelse. Merk: Enkelte prosessteg kan være uaktuelle, avhengig av dataene som utveksles og spesifikasjonene for samhandling innen et eventuelt _avtalefellesskap_.
 
 .Send melding (arkitekturmønster)
-image::../nab_referanse_arkitekturer_meldingsutveksling_generisk/media/Send eMelding (arkitekturmønster).png[alt=Send eMelding (arkitekturmønster) image]
+image::../nab_referanse_arkitekturer_meldingsutveksling_generisk/media/Send melding (arkitekturmønster).png[alt=Send eMelding (arkitekturmønster) image]
 
 Forklaring til figur:
 
@@ -307,7 +307,7 @@ Privat nøkkel benyttes til dekryptering og signering av meldinger.
 Motta melding detaljerer prosessen med å motta en melding etter klargjøring for forsendelse. Alle stegene i prosessen vil ikke alltid være nødvendig avhengig av dataene som utveksles og spesifikasjonene for samhandling innen fellesskapet.
 
 .Motta eMelding (arkitekturmønster)
-image::../nab_referanse_arkitekturer_meldingsutveksling_generisk/media/Motta eMelding (arkitekturmønster).png[alt=Motta eMelding (arkitekturmønster) image]
+image::../nab_referanse_arkitekturer_meldingsutveksling_generisk/media/Motta melding (arkitekturmønster).png[alt=Motta eMelding (arkitekturmønster) image]
 
 Forklaring til figur:
 

@@ -86,7 +86,7 @@ Nærmere om "hjørnene":
 * [red]#Mulig å opprette flere communities#
 
 == Backend-integrasjon
-I 4 hjørners modellen er det fleksibilitet gjennom hvordan man velger å integrere aksesspunktet med egen IT-arkitektur og IT-infrastruktur. Sett fra avsenderapplikasjonen er det tre måter å integrere hjørne 1/hjørne 2 og hjørne 3/hjørne 4.
+I 4-hjørnersmodellen er det fleksibilitet gjennom hvordan man velger å integrere aksesspunktet med egen IT-arkitektur og IT-infrastruktur. Sett fra avsenderapplikasjonen er det tre måter å integrere hjørne 1/hjørne 2 og hjørne 3/hjørne 4.
 
 ////
 This ABB relates to the eDelivery 4-corner model and adresses the
@@ -109,7 +109,7 @@ System.
 //// 
 
 ==== Tett kobling
-Avsender applikasjon og aksesspunkt er tett koblet ved at avsender applikasjonen har integrert funksjonaliteten til aksesspunktet. Det blir dermed et en til en forhold mellom aksesspunkt og avsender applikasjonen.
+Avsender applikasjon og aksesspunkt er tett koblet ved at avsender applikasjonen har integrert funksjonaliteten til aksesspunktet. Det blir dermed et en-til-en forhold mellom aksesspunkt og avsender applikasjonen.
 
 ////
 ===== Semi-Tightly Coupling
