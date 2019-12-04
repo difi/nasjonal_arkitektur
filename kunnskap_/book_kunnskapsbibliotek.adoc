@@ -220,6 +220,11 @@ TBD
 
 . link:../kunnskap_losning_eu-peppol[PEPPOL]
 
+
+== Teknologier
+
+include::../kunnskap_teknologi/book_teknologi.adoc[]
+
 == Verktøy
 . link:../kunnskap_verktøy_archi[Archi]
 . link:../kunnskap_verktøy_asciidoctor[Asciidoctor]
