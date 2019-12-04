@@ -43,7 +43,7 @@ Se konseptuelle prosessbeskrivelser for link:../nab_referanse_arkitekturer_meldi
 
 === Generelt
 
-Beskrivelsene her peker på hvordan den generiske referansearkitekturen for eMelding kan realiseres med arkitektur- og løsningskomponenter som inngår i PEPPOL-infrastrukturen; basetr på CEF eDelivery.
+Beskrivelsene her peker på hvordan den generiske referansearkitekturen for eMelding kan realiseres med arkitektur- og løsningskomponenter som inngår i PEPPOL-infrastrukturen; basert på CEF eDelivery.
 
 Utover de arkitekturtegningene som presenenteres, henvises til omfattende dokumentasjon av eDelivery og PEPPOL.
 
@@ -53,13 +53,13 @@ image::../kunnskap_losning_eu-peppol\media/PEPPOL eDelivery Network overview.png
 
 Arkitektur- og løsningsbyggeklosser:
 
-* CEF SMP (Service Metadata Publisher): Oppslagstjeneste for å finne adresse og kapabiliteter for aktuell mottaker. Inneholder mottakers ID, aksesspunktadresse og dokumenttyper som mottaker kan motta.Aktuelle løsninger:  link:https://samarbeid.difi.no/felleslosninger/elma[ELMA].
+* CEF SMP (Service Metadata Publisher): Oppslagstjeneste for å finne adresse og kapabiliteter for aktuell mottaker. Inneholder mottakers ID, aksesspunktadresse og dokumenttyper som mottaker kan motta. Aktuelle løsninger:  link:https://samarbeid.difi.no/felleslosninger/elma[ELMA].
 
 * BCP (Business Certificate Publisher): Sertifikatutsteder. Løsninger: Se https://vefa.difi.no/bcp/.
 
 * Adressetjenesten CEF link:https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/SML+service[SML] (Service Metadata Locater): Global oppslagstjeneste for å finne fram til aktuell SMP.
 * BCL (Business Certificate Locator): Oppslagstjeneste for å finne BCP (introdusert ifm. Enhanced PEPPOL eDelivery Network).
-* Elektronisk mottaksregister (link:https://samarbeid.difi.no/felleslosninger/elma[ELMA]): Norsk register over foretak som kan ta i mot dokumenter i standardisert EHF-format.
+* Elektronisk mottakeradresseregister (link:https://samarbeid.difi.no/felleslosninger/elma[ELMA]): Norsk register over foretak som kan ta i mot dokumenter i standardisert EHF-format.
 
 
 
