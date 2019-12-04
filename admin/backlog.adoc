@@ -6,5 +6,6 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 
 
-* *nab_arkitekturlandskap_roller*
+. *nab_arkitekturlandskap_roller*
 +
+Slett denne katalogen? Det finnes "noe annet" som dekker det samme...
