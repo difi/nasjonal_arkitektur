@@ -35,7 +35,7 @@ Foreliggende referansearkitekturer adresserer følgende grunnleggende behov:
 * Deling av hendelsesdata fra en til mange. Dette dekkes gjennom mønstre for publisering og innhenting av notifikasjoner.
 
 
-TIP: Dette er basismønstre som kan brukes og kombineres på flere måter. Arbeid med dette er påbegynt (høst 2019); se under link:..nab_referanse_arkitekturer_tverrgående-tema/avanserte-mønstre[Sammensatte samhandlingsmønstre og avanserte temaer].
+TIP: Dette er basismønstre som kan brukes og kombineres på flere måter. Arbeid med dette er påbegynt (høst 2019); se under link:..nab_referanse_arkitekturer_tverrgående-tema/avanserte-mønstre[Sammensatte arkitekturmønstre for datadeling og samhandling].
 
 ////
 Videre behov og muligheter, som eventuelt vil dekkes etterhvert, omfatter blant annet:
@@ -117,17 +117,17 @@ c. link:../nab_referanse_arkitekturer_datautveksling_publisering[Arkitekturmøns
 
 :leveloffset!:
 :leveloffset: +1
-= Basismønstre for spørring og oppslag
+= Mønstre for spørring og oppslag
 include::../nab_referanse_arkitekturer_datautveksling_forespørsel-svar/book-ra-forespørsel-svar.adoc[]
 
 :leveloffset!:
 :leveloffset: +1
-= Basismønstre for meldingsforsendelse
+= Mønstre for meldingsforsendelse
 include::../nab_referanse_arkitekturer_datautveksling_forsendelse/book-ra-forsendelse.adoc[]
 
 :leveloffset!:
 :leveloffset: +1
-= Basismønstre for publisering av hendelser
+= Mønstre for deling av hendelsesdata
 include::../nab_referanse_arkitekturer_datautveksling_publisering/book-ra-publisering.adoc[]
 
 

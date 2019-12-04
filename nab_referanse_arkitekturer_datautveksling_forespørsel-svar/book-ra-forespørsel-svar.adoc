@@ -1,5 +1,5 @@
 :lang: no
-:doctitle: Basismønstre for spørring og oppslag
+:doctitle: Mønstre for spørring og oppslag
 :keywords: TBD
 :toclevels: 3
 include::../plattform_felles/includes/commonincludes.adoc[]
