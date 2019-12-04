@@ -8,7 +8,7 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 = Introduksjon
 
 == Generelt
-Referansearkitektur for datautveksling adresserer temaområdet datautveksling i form av arkitektur- og løsningsmønstre. Se  link:../nab_arkitekturlandskap_segmentarkitektur_datadeling_datautveklsing\[temaområde datautveksling] om omfang, tverrgående temaer og annen informasjon som angår dette området.
+Referansearkitektur for datautveksling adresserer temaområdet datautveksling i form av arkitektur- og løsningsmønstre. Se  link:../nab_arkitekturlandskap_segmentarkitektur_datadeling_datautveklsing\[temaområde datautveksling] om omfang, tverrgående temaer og annen informasjon som angår dette området som sådan.
 
 Se også:
 
@@ -22,22 +22,20 @@ Se også:
 //== Overordnet forretningmessig kontekst
 //include::../nab_referanse_arkitekturer_datautveksling/overordnet-forretningsmessig-kontekst.adoc[]
 
-//== Strategi
-//TBD.
 
 == Omfang og avgrensing
 //include::../nab_referanse_arkitekturer_datautveksling/brukstilfeller.adoc[]
 
-Omfanget for referansarkitekturer innen datautveksling er i utgangspunktet stort. Foreliggende referansearkitekturer adresserer følgende grunnleggende behov:
+Foreliggende referansearkitekturer adresserer følgende grunnleggende behov:
 
-* Enkeltvise oppslag i enkeltstående datakilder ved forepørsel-svar. eOppslag dekker dette.
+* Enkeltvise oppslag i enkeltstående datakilder ved forepørsel-svar (synkront eller asynkront).
 
-* Enkeltvise overføringer av data fra en avsender til en bestemt mottaker. Dette adresseres av mønstre for meldingsforsendelse; herunder blant annet eMelding.
+* Enkeltvise overføringer av data fra en avsender til en bestemt mottaker. Dette adresseres av mønstre for meldingsforsendelse..
 
-* Publisering av data om hendelser til et ukjent antall ukjente mottakere. ePublisering dekker dette.
+* Deling av hendelsesdata fra en til mange. Dette dekkes gjennom mønstre for publisering og innhenting av notifikasjoner.
 
 
-Disse basismønstrene kan brukes og kombineres på flere måter; se under link:..nab_referanse_arkitekturer_tverrgående-tema/avanserte-mønstre[Avanserte samhandlingsmønstre og tverrgående temaer].
+TIP: Dette er basismønstre som kan brukes og kombineres på flere måter. Arbeid med dette er påbegynt (høst 2019); se under link:..nab_referanse_arkitekturer_tverrgående-tema/avanserte-mønstre[Sammensatte samhandlingsmønstre og avanserte temaer].
 
 ////
 Videre behov og muligheter, som eventuelt vil dekkes etterhvert, omfatter blant annet:
@@ -93,20 +91,28 @@ Se også: link:../nab_referanse_arkitekturer_struktur_beskrivelse[Mer om dokumen
 
 Beskrivelsene finnes ellers både samlet og  enkeltvis. Som alternativ til å se "den store boken", kan en gå inn på følgende lenker: 
 
+a. link:../nab_referanse_arkitekturer_datautveksling_forespørsel-svar[Mønstre for spørring og oppslag]
 
+b. link:../nab_referanse_arkitekturer_datautveksling_forsendelse[Mønstre for forsendelse]
+
+c. link:../nab_referanse_arkitekturer_datautveksling_publisering[Mønstre for publisering av hendelsesdata]
+
+
+////
 a. link:../nab_referanse_arkitekturer_datautveksling_forespørsel-svar[Arkitekturnønstre for spørring og oppslag]
 
 
-* link:../nab_referanse_arkitekturer_eoppslag/[Synkront oppslag i datakilde (eOppslag)]
+ * link:../nab_referanse_arkitekturer_eoppslag/[Synkront oppslag i datakilde (eOppslag)]
 
 b. link:../nab_referanse_arkitekturer_datautveksling_forsendelse[Arkitekturmønstre for forsendelse]
 
-* link:../nab_referanse_arkitekturer_meldingsutveksling_generisk[Generisk meldingsforsendelse]
-* link:../nab_referanse_arkitekturer_emelding[eMelding]
+ * link:../nab_referanse_arkitekturer_meldingsutveksling_generisk[Generisk meldingsforsendelse]
+ * link:../nab_referanse_arkitekturer_emelding[eMelding]
 
-c. link:../nab_referanse_arkitekturer_datautveksling_publisering[Arkitekturmønstre for publisering av hendelser]
+c. link:../nab_referanse_arkitekturer_datautveksling_publisering[Arkitekturmønstre for publisering av hendelsesdata]
+////
 
-* link:../nab_referanse_arkitekturer_epublisering[Publisering av hendelser (ePublisering)]
+// * link:../nab_referanse_arkitekturer_epublisering[Publisering av hendelser (ePublisering)]
 
 
 :leveloffset!:
