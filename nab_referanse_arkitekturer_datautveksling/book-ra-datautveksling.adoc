@@ -127,7 +127,7 @@ include::../nab_referanse_arkitekturer_datautveksling_forsendelse/book-ra-forsen
 
 :leveloffset!:
 :leveloffset: +1
-= Mønstre for deling av hendelsesdata
+= Mønstre for publisering
 include::../nab_referanse_arkitekturer_datautveksling_publisering/book-ra-publisering.adoc[]
 
 

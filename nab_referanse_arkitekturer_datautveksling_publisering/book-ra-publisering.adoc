@@ -6,7 +6,6 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 :leveloffset: +1
 
-image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _I arbeid (høst 2019)_
 
 = Introduksjon
 
@@ -23,7 +22,8 @@ Eksempler på anvendelse:
 
 
 
-= Generisk mønster for publisering av hendelser
+= Generisk mønster for publisering av data
+image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _I arbeid (høst 2019)_
 
 
 = eNotifikasjon - strømming av hendelser
