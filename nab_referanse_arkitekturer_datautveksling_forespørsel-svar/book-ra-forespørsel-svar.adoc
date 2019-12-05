@@ -7,9 +7,10 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 :leveloffset: +1
 
 = Generisk mønster for spørring og oppslag
-image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _I arbeid._
+//image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _I arbeid._
 
-TIP: #Beskrivelser under eOppslag løftes inn hit.#
+include::../nab_referanse_arkitekturer_forespørsel-svar-generisk/book-generisk-forespørsel-svar.adoc[]
+
 
 = Synkront oppslag (eOppslag)
 include::../nab_referanse_arkitekturer_eoppslag/book-eoppslag-referansearkitektur.adoc[]
