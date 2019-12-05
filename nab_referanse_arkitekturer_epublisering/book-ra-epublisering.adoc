@@ -13,13 +13,36 @@ image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _I arbeid (hø
 //include::../nab_referanse_arkitekturer_enotifikasjon/ra-enotifikasjon-intro.adoc[]
 
 
-== Om eNotifikasjon
+== Om dette mønsteret
 
-eNotifikasjon er et arkitekturmønster under området _deling av data ved publisering_ som omhandler publisering og innhenting av hendelsesdata, eller _notifikasjoner_, gjennom hendelseslister.
+eNotifikasjon er en referansearkitektur som adresserer området _deling av data ved publisering_, og inneholder arkitektur- og løsningsmønstre som spesialiser det generiske mønsteret for publisering av data og hendelser.
 
-Hendelseslister gjøres tilgjengelig av datatilbyder via API-er. Tilgangsstyring og aksess av hendelsesdata gjøres samme måte som ved _deling av data på forespørsel_. Det samme gjelder for innhenting av tilleggsdata om hendelser, der dette er aktuelt.
+eNotifikasjon dreier seg om publisering av hendelsesdata via hendelseslister som kan aksesseres av datakonsumenter via spørring og oppslag i API-er. Konsumentene kan også innhente tilleggsdata om hendelser fra datatilbydere via spørring og oppslag i API-er, ved behov.
 
-Det som er spesifikt for eNotifikasjon, er måten å håndtere hendelseslister på, for henhoildsvis datatilbydere og datakonsumenter. 
+
+== Verdistrømmer
+
+=== eNotifikasjon - oversikt over verdistrømmer
+
+Følgende figur viser en oversikt over verdistrømmene på tvers av datatilbyder og datakonsument for eNotifikasjon. 
+
+.eNotifikasjon - oversikt over verdistrømmer
+image::../nab_referanse_arkitekturer_epublisering/media/eNotifikasjon - oversikt over verdistrømmer.png[alt=eNotifikasjon - oversikt over verdistrømmer image]
+
+
+Dette er en spesialisert utgave av tilsvarende #_felles referansemodell for datautveksling_#. 
+
+Stegene i verdistrømmen er nærmere forklart under egne avsnitt om verdistrømmene for hver rolle.  
+
+=== eNotifikasjon - verdistrøm for datatilbyder
+
+.eNotifikasjon - tilbyders verdistrøm
+image::../nab_referanse_arkitekturer_epublisering/media/eNotifikasjon - tilbyders verdistrøm.png[alt=eNotifikasjon - tilbyders verdistrøm image]
+
+=== eNotifikasjon - verdistrøm for datakonsumenter
+
+.eNotifikasjon - konsumenters verdiistrøm
+image::../nab_referanse_arkitekturer_epublisering/media/eNotifikasjon - konsumenters verdiistrøm.png[alt=eNotifikasjon - konsumenters verdiistrøm image]
 
 == Kapabilitetskart for eNotifikasjon
 

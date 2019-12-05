@@ -23,19 +23,26 @@ Eksempler på anvendelse:
 
 = Generisk mønster for publisering av data
 
+image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _I arbeid (høst 2019)_
+
+
 == Om dette mønsteret
 
-_Generisk mønster for publisering av data_ beskriver det som er felles for ulike måter å publisere data på, enten det dreier seg om hendelsesdata eller andre data.
+_Generisk mønster for publisering av data_ beskriver det som er felles for ulike måter å publisere data på, enten det dreier seg om hendelsesdata eller andre data. 
 
+
+
+== Grunnleggende konsepter for publisering av data og hendelser
+// TIP: Her kommer en figur som illustrerer grunnleggende konsepter.
 
 Ved publisering etableres en løs kopling mellom datatilbyder og datakonsument. Dette kan gjøres på flere måter, men en grunnleggende egenskap er behovet for et mellomledd, eller en _datafordeler_, slik at datatilbyder ikke behøver å vite om datakonsumentene ved selve publiseringen. En helt annen sak er at det kreves tilgangsstyring ved lesing av data, og det kan være  behov for oppsett av avtaler og abonnementer mot _datafordeler_ for lesing av publiserte data. Det kan tilsvarende være behov for avtaler og tilgangsstyring mot datatilbyder, om det legges opp til  å kunne berike publiserte data med tillegginformasjon direkte fra datatilbyder. Det siste er typisk tilfelle ved publisering hendelsesdata, der det normalt vil gis en notifikasjon om hva som har skjedd, uten at alle detaljene gis straks.
 
 Legg merke til at konseptet med en mellomliggende _datafordeler_ ikke utelukker at dette dekkes av datatilbyder selv. Dette er å oppfatte som en konseptuell arkitekturbyggekloss, og kan realiseres på ulike måter. Om det benyttes en ekstern tjeneste eller leverandør for _datafordeler_, introduseres imidlertid behov for avtaler mellom datatilbyder og _datafordeler_, i tillegg til tilsvarende mot datakonsument.
 
-TIP: Her kommer en figur som illustrerer grunnleggende konsepter.
 
-image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _I arbeid (høst 2019)_
 
+.Generisk konsept for publisering
+image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Generisk konsept for publisering.png[alt=Generisk konsept for publisering image]
 
 = eNotifikasjon - strømming av hendelser
 include::../nab_referanse_arkitekturer_epublisering/book-ra-epublisering.adoc[]
