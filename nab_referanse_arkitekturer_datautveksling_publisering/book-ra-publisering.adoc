@@ -21,11 +21,11 @@ Eksempler på anvendelse:
 // Ved publisering antas en løs kopling mellom datatilbyder og datakonsument, der 
 
 
-= Generisk mønster for publisering av data
+= Generisk mønster for publisering
 
 == Om dette mønsteret
 
-_Generisk mønster for publisering av data_ beskriver det som er felles for ulike måter å publisere data på, enten det dreier seg om hendelsesdata eller andre data. 
+_Generisk mønster for publisering_ beskriver det som er felles for ulike måter å publisere data på, enten det dreier seg om hendelsesdata eller andre data. 
 
 
 == Grunnleggende konsepter for publisering av data og hendelser
@@ -53,10 +53,21 @@ En helt annen sak er at det kreves tilgangsstyring ved lesing av data, og det ka
 Legg merke til at konseptet med en mellomliggende _datafordeler_ ikke utelukker at dette dekkes av datatilbyder selv. Dette er å oppfatte som en konseptuell arkitekturbyggekloss, og kan realiseres på ulike måter. Om det benyttes en ekstern tjeneste eller leverandør for _datafordeler_, introduseres imidlertid behov for avtaler mellom datatilbyder og _datafordeler_, i tillegg til tilsvarende mot datakonsument.
 ////
 
+Figuren nedenfor illustrerer grunnleggende konsepter.
+
+.Konsept for publisering av data og hendelser
+image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Konsept for publisering av data og hendelser.png[alt=Konsept for publisering av data og hendelser image]
+
+Legg spesielt merke til:
 
 
-// .Generisk konsept for publisering
-// image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Generisk konsept for publisering.png[alt=Generisk konsept for publisering image]
+* Figuren viser den logiske flyten av notifikasjoner og data. I en ren push-basert løsning vil dette tilsvare meldingsflyt, men i en pull-basert løsning er det datakonsumentene som tar initiativ til innhenting.
+
+* Notifikasjoner kan være "tynne" eller tykke", dvs. inneholde mer eller mindre data. Dersom alle aktuelle data er med i notifikasjonen, utgår behovet for å innhente supplerende data.
+
+* Rollen som _dataformidler_ kan være ivaretatt av datatilbyder selv, uten et eksternt mellomledd. 
+
+* _Meglerløsning_ er her en konseptuell arkitekturbyggekloss, og kan være integrert i _fagsystem hos datatilbyder_.  
 
 == Videre beskrivelser av generisk mønster for publisering 
 image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _I arbeid (høst 2019)_
