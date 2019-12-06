@@ -8,13 +8,19 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 = Introduksjon
 
 == Generelt
-Referansearkitektur for datautveksling adresserer temaområdet datautveksling i form av arkitektur- og løsningsmønstre. Se  link:../nab_arkitekturlandskap_segmentarkitektur_datadeling_datautveklsing\[temaområde datautveksling] om omfang, tverrgående temaer og annen informasjon som angår dette området som sådan.
+Referansearkitektur for datautveksling er en samling av spesifikke referansearkitekturer og arkitekturmønstre. 
+
+NOTE: Begrepet referansearkitektur, arkitekturmønster og løsningsmønster benyttes om hverandre, avhengig av sammenheng. Dette er nærmere forklart under Nasjonale referansearkitekturer.
+
 
 Se også:
 
-* link:../nab_referanse_arkitekturer[Nasjonale referansearkitekturer]
+1. link:../nab_arkitekturlandskap_segmentarkitektur_datadeling_datautveklsing\[Temaområde datautveksling] 
 
-* Temaområde link:../nab_arkitekturlandskap_segmentarkitektur_datadeling\[datadeling].
+2. link:../nab_arkitekturlandskap_segmentarkitektur_datadeling\[Temaområde datadeling].
+
+3. link:../nab_referanse_arkitekturer[Nasjonale referansearkitekturer]
+
 
 // include::../nab_referanse_arkitekturer_datautveksling/intro-ra-datautveksling.adoc[]
 
@@ -28,14 +34,35 @@ Se også:
 
 Foreliggende referansearkitekturer adresserer følgende grunnleggende behov:
 
-* Enkeltvise oppslag i enkeltstående datakilder ved forepørsel-svar (synkront eller asynkront).
+* Enkeltvise oppslag i enkeltstående datakilder. Dette dekkes blant annet av referansearkitekturen *_eOppslag_* (høst 2019).
 
-* Enkeltvise overføringer av data fra en avsender til en bestemt mottaker. Dette adresseres av mønstre for meldingsforsendelse..
+* Enkeltvise overføringer av data fra en avsender til en bestemt mottaker. Dette dekkes blant annet av referansearkitekturen *_eMelding_* (høst 2019).
 
-* Deling av hendelsesdata fra en til mange. Dette dekkes gjennom mønstre for publisering og innhenting av notifikasjoner.
+* Deling av hendelsesdata fra en til mange. Dette dekkes gjennom mønstre for publisering. Dette dekkes blant annet av referansearkitekturen *_eNotifikasjon_* (høst 2019).
 
 
 TIP: Dette er basismønstre som kan brukes og kombineres på flere måter. Arbeid med dette er påbegynt (høst 2019); se under link:..nab_referanse_arkitekturer_tverrgående-tema/avanserte-mønstre[Sammensatte arkitekturmønstre for datadeling og samhandling].
+
+.Aktuelle referansearkitekturer
+image::../nab_referanse_arkitekturer/media/Aktuelle referansearkitekturer.png[alt=Aktuelle referansearkitekturer image]
+
+
+
+
+Følgende figur er her gjengitt fra innholdet under link:../nab_arkitekturlandskap_segmentarkitektur_datadeling_datautveklsing\[temaområde datautveksling], og viser en oversikt over de viktigste operative og forvaltningsmessige kapabilitetene for henholdsvis datatilbyder og  datakonsument. Nederst i figuren er det også listet tverrgående temaer som vurderes som særlig viktige i tilknytning til datautveksling.
+
+//Videre nedbryting i detaljerte kapabiliteter og mønstre gjøres i tilknytning til beskrivelsene av referansearkitekturer for datautveksling.
+
+// Her følger en overordnet oversikt over overordnede kapabiliteter og tverrgående temaer som sorterer under området datautveksling. 
+
+//NOTE: Noen av de temaene som nevnes her er også aktuelle i andre sammenhenger, og beskrives ved behov i ulike kontekster.   
+
+
+
+.Datautveksling - overordnet oversikt over kapabiliteter og temaer 
+image::../nab_arkitekturlandskap_segmentarkitektur_datadeling_datautveklsing/media/Datautveksling - overordnet oversikt over kapabiliteter og temaer .png[alt=Datautveksling - overordnet oversikt over kapabiliteter og temaer  image]
+
+Beskrivelser av kapabiliteter og temaer gis i tilknytning til beskrivelser av de referansearkitekturene (eller mønstrene).
 
 ////
 Videre behov og muligheter, som eventuelt vil dekkes etterhvert, omfatter blant annet:

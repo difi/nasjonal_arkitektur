@@ -82,7 +82,7 @@ Følgende figur viser en oversikt over de viktigste temaene og kapabilitetene in
 .Datautveksling - overordnet oversikt over kapabiliteter og temaer 
 image::../nab_arkitekturlandskap_segmentarkitektur_datadeling_datautveklsing/media/Datautveksling - overordnet oversikt over kapabiliteter og temaer .png[alt=Datautveksling - overordnet oversikt over kapabiliteter og temaer  image]
 
-De tverrgående temaene beskriver områder som må ivaretas for å utveksle data i tråd med regelverk og god praksis. Dette er ikke en uttømmende liste, men angir set som anses som viktigst å beskrive.
+De tverrgående temaene beskriver områder som må ivaretas for å utveksle data i tråd med regelverk og god praksis. Dette er ikke en uttømmende liste, men angir det som anses som viktigst å beskrive.
 
 Noen av disse temaene er også aktuelle i andre sammenhenger enn datautveksling, og vil beskrives under andre overskrifter.
 
