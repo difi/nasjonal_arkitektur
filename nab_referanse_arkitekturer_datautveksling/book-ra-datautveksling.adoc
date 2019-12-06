@@ -66,7 +66,9 @@ Følgende figur er her gjengitt fra innholdet under link:../nab_arkitekturlandsk
 .Datautveksling - overordnet oversikt over kapabiliteter og temaer 
 image::../nab_arkitekturlandskap_segmentarkitektur_datadeling_datautveklsing/media/Datautveksling - overordnet oversikt over kapabiliteter og temaer .png[alt=Datautveksling - overordnet oversikt over kapabiliteter og temaer  image]
 
-Beskrivelser av kapabiliteter og temaer gis i tilknytning til beskrivelser av de referansearkitekturene (eller mønstrene).
+Beskrivelser av kapabiliteter og temaer gis i tilknytning til beskrivelser av de enkelte referansearkitekturene.
+
+#TODO, Erik: Kort forklaring om "kapabiliteter"#
 
 ////
 Videre behov og muligheter, som eventuelt vil dekkes etterhvert, omfatter blant annet:

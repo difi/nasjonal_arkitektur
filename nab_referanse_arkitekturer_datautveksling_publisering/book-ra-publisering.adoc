@@ -55,13 +55,13 @@ Legg merke til at konseptet med en mellomliggende _datafordeler_ ikke utelukker 
 
 Figuren nedenfor illustrerer grunnleggende konsepter.
 
-.Konsept for publisering av data og hendelser
+.Konsept for publisering av data og hendelser - logisk dataflyt
 image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Konsept for publisering av data og hendelser.png[alt=Konsept for publisering av data og hendelser image]
 
 Legg spesielt merke til:
 
 
-* Figuren viser den logiske flyten av notifikasjoner og data. I en ren push-basert løsning vil dette tilsvare meldingsflyt, men i en pull-basert løsning er det datakonsumentene som tar initiativ til innhenting.
+* Figuren viser den logiske flyten av notifikasjoner og data. I en ren push-basert løsning vil dette tilsvare meldingsflyt, men i en pull-basert løsning er det datakonsumentene som tar initiativ til innhenting. 
 
 * Notifikasjoner kan være "tynne" eller tykke", dvs. inneholde mer eller mindre data. Dersom alle aktuelle data er med i notifikasjonen, utgår behovet for å innhente supplerende data.
 
@@ -69,8 +69,10 @@ Legg spesielt merke til:
 
 * _Meglerløsning_ er her en konseptuell arkitekturbyggekloss, og kan være integrert i _fagsystem hos datatilbyder_.  
 
+////
 == Videre beskrivelser av generisk mønster for publisering 
 image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _I arbeid (høst 2019)_
+////
 
 = eNotifikasjon - strømming av hendelser
 include::../nab_referanse_arkitekturer_epublisering/book-ra-epublisering.adoc[]
