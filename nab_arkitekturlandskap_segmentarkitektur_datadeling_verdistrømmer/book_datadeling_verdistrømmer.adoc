@@ -34,10 +34,9 @@ ifeval::["{lang}" == "no"]
 [.lead]
 _Disse modellene er tatt fram for å gi felles referanse og rammer for beskrivelser i ulike sammenhenger._
 
-image:../plattform_felles/media/i-arbeid.png[width=45, height=45, alt="Figur: i-arbeid.png?",]Uferdig innhold - i arbeid
 
 
-NOTE: Se link:../nab_referanse_modelleringskonvensjoner[modelleringskovensjoner] om gjeldende modelleringskonvensjoner (_verdistrømmer_).
+NOTE: Se link:../nab_referanse_modelleringskonvensjoner[modelleringskonvensjoner] om gjeldende modelleringskonvensjoner (_verdistrømmer_).
 
 ////
 == Introduksjon
@@ -94,12 +93,27 @@ Videre kommentarer til figuren over: TBD.
 
 
 == Ende-til-ende verdistrøm for datadeling (overordnet)
-Datadeling inngår saksbehandling og tverrgående prosesser for tjenesteproduksjon. Her vises et forenklet bilde av ende-til-ende verdistrøm for tverrgående prosesser, der _datadeling_ inngår.   
+
+image:../plattform_felles/media/i-arbeid.png[width=45, height=45, alt="Figur: i-arbeid.png?"]I arbeid
+
+////
+Datadeling inngår saksbehandling og tverrgående prosesser for tjenesteproduksjon. 
+
+
+Her vises et forenklet bilde av ende-til-ende verdistrøm for tverrgående prosesser, der _datadeling_ inngår.   
 
 .Ende-til-ende verdistrøm, tverrgående prosess
 image::../nab_arkitekturlandskap_segmentarkitektur_datadeling_verdistrømmer/media/Ende-til-ende verdistrøm, tverrgående prosess.png[alt=Ende-til-ende verdistrøm, tverrgående prosess image]
 
 [red]#__Merk: Se også link:../nab_arkitekturlandskap_segmentarkitektur[mer utfyllende dekning av  temaområdet Tverrgående prosesser og saksbehandling.__]#
+////
+Datadeling inngår saksbehandling og tverrgående prosesser for tjenesteproduksjon. 
+
+//== Saksbehandling og tverrgående prosesser
+
+
+.Utvikle, drift og forvalt tverrgående prosess
+image::../nab_arkitekturlandskap_segmentarkitektur/media/Utvikle, drift og forvalt tverrgående prosess.png[alt=Utvikle, drift og forvalt tverrgående prosess image]
 
 
 
