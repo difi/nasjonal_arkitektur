@@ -7,7 +7,7 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 //[.lead]
 //eNotifikasjon er en referansearkitektur for asynkron publisering av informasjon med løs kopling mellom tilbyder og konsument. 
 
-image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _I arbeid (høst 2019)_
+//image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _I arbeid (høst 2019)_
 
 //== Introduksjon
 //include::../nab_referanse_arkitekturer_enotifikasjon/ra-enotifikasjon-intro.adoc[]
@@ -15,12 +15,23 @@ image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _I arbeid (hø
 
 == Om dette mønsteret
 
-eNotifikasjon er en referansearkitektur som adresserer området _deling av data ved publisering_, og inneholder arkitektur- og løsningsmønstre som spesialiser det generiske mønsteret for publisering av data og hendelser.
+eNotifikasjon er en referansearkitektur som adresserer området _deling av data ved publisering_, og inneholder arkitektur- og løsningsmønstre som spesialiser det generiske mønsteret for publisering.
 
 eNotifikasjon dreier seg om publisering av hendelsesdata via hendelseslister som kan aksesseres av datakonsumenter via spørring og oppslag i API-er. Konsumentene kan også innhente tilleggsdata om hendelser fra datatilbydere via spørring og oppslag i API-er, ved behov.
 
 
 == Grunnleggende konsepter
+
+Figuren nedenfor illustrerer grunnleggende konsepter.
+
+Legg spesielt merke til:
+
+* Figuren viser den logiske flyten av notifikasjoner. I en ren push-basert løsning vil dette tilsvare meldingsflyt, men i en pull-basert løsning er det datakonsumentene som tar initiativ til innhenting. 
+
+* Rollen som _dataformidler_ kan være ivaretatt av datatilbyder selv, uten et eksternt mellomledd. 
+
+* _Meglerløsning_ er her en konseptuell arkitekturbyggekloss, og kan være integrert i _fagsystem hos datatilbyder_.   
+
 
 .Konsept for eNotifikasjon
 image::../nab_referanse_arkitekturer_epublisering/media/Konsept for eNotifikasjon.png[alt=Konsept for eNotifikasjon image]
