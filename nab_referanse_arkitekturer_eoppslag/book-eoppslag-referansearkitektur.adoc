@@ -32,9 +32,10 @@ Eksempler på bruk:
 * Oppslag av data hos en annen virksomhet .
 * Oppslag av data i egen virksomhet.
 
-
+////
 == Interoperabilitetsspesifikasjoner
 image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _Under omstrukturering_
 
 TIP: Her kommer informasjon om protokoller som REST, GraphQL, m.v 
+////
 

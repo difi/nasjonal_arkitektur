@@ -12,9 +12,7 @@ _Generisk mønster for spørring og oppslag_ adresserer området _Deling av data
 
 Mønsteret dekker både asynkrone og synkrone oppslag, og det tas ikke stilling til kommunikasjonsprotokoll. 
 
-Referansearkitekturen dekker både sikrede API-er og API-er som tilbyr åpent tilgjengelige data uten tilgangsbegrensninger.
-
-Begrepet API benyttes her i betydningen av et programeringsgrensesnitt som gir tilgang til data og funksjoner fra system.
+Referansearkitekturen dekker både sikrede API-er og API-er som tilbyr åpent tilgjengelige data uten tilgangsbegrensninger. Begrepet API benyttes her i betydningen av et maskingrensesnitt som gir tilgang til data og funksjoner fra et system uavhengig av teknologi.
 
 Dette mønsteret gir videre ingen begrensninger i hva slags informasjon det gjelder, om det er strukturerte eller ustrukturerte data, eller hva data skal brukes til. Tilbyder og konsument av data kan være på tvers av virksomheter eller innenfor samme virksomhet.
 
