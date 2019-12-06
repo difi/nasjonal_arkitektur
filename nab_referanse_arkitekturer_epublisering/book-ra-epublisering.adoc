@@ -55,14 +55,21 @@ image::../nab_referanse_arkitekturer_epublisering/media/eNotifikasjon - oversikt
 Stegene i verdistrømmen er nærmere forklart under egne avsnitt om verdistrømmene for hver rolle.  
 
 === eNotifikasjon - verdistrøm for datatilbyder
+Her vises verdistrømmen for eNotifikasjon sett fra datatilbyder, med angivelse av kapabiliteter.
+
+Det som er spesielt for eNotifikasjon er vist med uthevet skrift, dvs. _Generere og tilby notifikasjoner_. Øvrige kapabiliteter er beskrevet andre steder, blant annet i tilknytning til referansearkitekturer for eMelding (Sende data)og  eOppslag (Avgi data på forespørsel).  
 
 .eNotifikasjon - tilbyders verdistrøm
 image::../nab_referanse_arkitekturer_epublisering/media/eNotifikasjon - tilbyders verdistrøm.png[alt=eNotifikasjon - tilbyders verdistrøm image]
 
 === eNotifikasjon - verdistrøm for datakonsumenter
+Her vises verdistrømmen for eNotifikasjon sett fra datakonsumenter, med angivelse av kapabiliteter.
 
-.eNotifikasjon - konsumenters verdiistrøm
-image::../nab_referanse_arkitekturer_epublisering/media/eNotifikasjon - konsumenters verdiistrøm.png[alt=eNotifikasjon - konsumenters verdiistrøm image]
+Det som er spesielt for eNotifikasjon er vist med uthevet skrift, dvs. _Innhente og håndtere notifikasjoner_. Øvrige kapabiliteter er beskrevet andre steder, blant annet i tilknytning til referansearkitekturer for eMelding (Motta data)og  eOppslag (Innhente data ved forespørsel).  
+
+
+.eNotifikasjon - konsumenters verdistrøm
+image::../nab_referanse_arkitekturer_epublisering/media/eNotifikasjon - konsumenters verdistrøm.png[alt=eNotifikasjon - konsumenters verdistrøm image]
 
 == Kapabilitetskart for eNotifikasjon
 

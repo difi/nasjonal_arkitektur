@@ -68,7 +68,9 @@ image::../nab_arkitekturlandskap_segmentarkitektur_datadeling_datautveklsing/med
 
 Beskrivelser av kapabiliteter og temaer gis i tilknytning til beskrivelser av de enkelte referansearkitekturene.
 
-#TODO, Erik: Kort forklaring om "kapabiliteter"#
+NOTE: Virksomhetsarkitekturen kan inndeles i områder, eller temaområder, og videre i kapabiliteter. Dette kan gjøres i flere nivåer, til et hensiktsmessig detaljnivå. Med kapabilitet menes en evne som er forbundet med en rolle eller en aktør. Slike aktører kan være organisasjoner, personer eller tekniske systemer. Realiseringen av en kapabilitet gjøres igjen typisk gjennom organisasjoner, mennesker, prosesser og teknologier, gjerne i kombinasjon.
+
+
 
 ////
 Videre behov og muligheter, som eventuelt vil dekkes etterhvert, omfatter blant annet:
