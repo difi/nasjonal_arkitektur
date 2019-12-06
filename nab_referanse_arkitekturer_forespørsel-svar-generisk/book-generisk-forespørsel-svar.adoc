@@ -368,13 +368,6 @@ image:../nab_referanse_arkitekturer_forespørsel-svar-generisk/media/forklaring_
 
 === Klargjøring for _deling av data på forespørsel_
 
-==== Informasjon som inngår i klargjøring av forespørsel
-
-image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _Dette kap. flyttes til annet sted_
-
-Figuren under viser hvilken informasjons som må registreres i de ulike komponentene som del av klargjøringen av å forespørre data fra et API.
-
-image:../nab_referanse_arkitekturer_forespørsel-svar-generisk/media/Dataobjekter eOppslag.png[alt="Bilde mangler", width=500, link=https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/e7e6c527-26f4-461c-b4dd-651fcbe85c8d/views/6a46c6d0-64eb-43d4-97f3-2a94516c2211.html]
 
 
 ==== Tilgjengeliggjøre data
@@ -672,6 +665,52 @@ Eksempler på rettigheter kan komme av samtykker fra person eller virksomhet, el
 
 |===
 
+
+==== Informasjon som inngår i klargjøring av forespørsel
+
+
+Figuren under viser hvilken informasjons som må registreres i de ulike komponentene som del av klargjøringen av å forespørre data fra et API.
+
+image:../nab_referanse_arkitekturer_forespørsel-svar-generisk/media/Dataobjekter eOppslag.png[alt="Bilde mangler", width=500, link=https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/e7e6c527-26f4-461c-b4dd-651fcbe85c8d/views/6a46c6d0-64eb-43d4-97f3-2a94516c2211.html]
+
+
+[cols ="1,3", options="header"]
+.Elementer i view for Dataobjekter eOppslag
+|===
+
+| Element
+| Beskrivelse
+
+| API-katalogen
+| API-katalogen er en del av Felles datakatalog som inneholder API-beskrivelser med endepunktsadresser og kobling til datasett.
+
+| Tilganger konsument/representasjonsforhold
+| Dataobjekt som beskriver hvilke tilganger til ressurser en representant (leverandør) skal ha på vegne av konsument.
+
+| Delegerbar ressurs
+| Dataobjekt som beskriver en ressurs, f.eks. et API, som det kan gis rettigheter til gjennom et representasjonsforhold.
+
+| Endepunkt (adresse)
+| Dataobjekt som representerer teknisk adresse til et API eller ressurs.
+
+| Maskinporten
+| Maskinporten er en løsning for tilgangsstyring for virksomheter som utveksler data. Løsningen garanterer identiteten mellom virksomheter, og sørger for maskin-til-maskin autentisering
+
+| Altinn autorisasjon
+| Autorisasjonskomponenten i Altinn som gir muligheter til å delegere rettigheter til andre organisasjoner eller personer. Rettigheter til bruk av autorisasjonskomponenten baserer seg på registrerte roller i Enhetsregisteret.
+Altinn autorisasjon leverer også tjenester for å registrere og kontrollere samtykke gitt av person eller virksomhet.
+
+| Beskrivelse API
+| Dataobjekt som er en maskinlesbar beskrivelse av REST API-er iht. Open API Specification. Dette er formatet som benyttes for å registrere et API i felles API-katalog
+
+| OAUTH scopes
+| Dataobjekt som som kan beskrives som en ressurs-definisjon, og et token er som regel knyttet til ett eller flere scopes. Scopes benyttes til å styre tilganger til API-er og operasjoner, samt eventuelt hva slags responser man får fra API-er.
+
+| Beskrivelse av aktør som kan innhente samtykke
+| Dataobjekt som beskriver en datakonsument som har rett til å innhente samtykke om å slå opp data.
+Viktig innholde er bl.a. URL
+
+|===
 
 ////
 ==== Videre detaljering av komponentene
