@@ -12,11 +12,11 @@ _Generisk mønster for spørring og oppslag_ adresserer området _Deling av data
 
 Mønsteret dekker både asynkrone og synkrone oppslag, og det tas ikke stilling til kommunikasjonsprotokoll. 
 
-Begrepet API benyttes her med følgende betydning: #TBD#. 
-
 Referansearkitekturen dekker både sikrede API-er og API-er som tilbyr åpent tilgjengelige data uten tilgangsbegrensninger.
 
-Dette mønsteret gir videre ingen begrensninger i forhold til  hva slags informasjon det gjelder, om det er strukturerte eller ustrukturerte data, eller hva data skal brukes til. Tilbyder og konsument av data kan være på tvers av virksomheter eller innenfor samme virksomhet.
+Begrepet API benyttes her i betydningen av et programeringsgrensesnitt som gir tilgang til data og funksjoner fra system.
+
+Dette mønsteret gir videre ingen begrensninger i hva slags informasjon det gjelder, om det er strukturerte eller ustrukturerte data, eller hva data skal brukes til. Tilbyder og konsument av data kan være på tvers av virksomheter eller innenfor samme virksomhet.
 
 Eksempler på bruk:
 
@@ -348,6 +348,8 @@ Eksempler på rettigheter kan komme av samtykker fra person eller virksomhet, el
 Beskrivelsen under viser hvordan den generiske arkitekturen i det foregående kapittelet kan realiseres med løsningskomponentene Maskinporten, API-katalogen og Altinn-autorisasjon. Disse fellesløsningene leverer de tjenestene som er beskrevet på forretningsnivå over.
 
 Det er ikke hensikten å låse referansearkitekturen til spesifikke løsninger, da ulike sektorer og aktører kan ha behov som ikke passer med det som er beskrevet. For synkrone tjenestekall basert på REST og med tilgangsstyring ved hjelp av OAUTH2-tokens, vil det være god støtte i å benytte de foreslåtte løsningene. 
+
+Nederst i beskrivelsen av løsningsmønstre er det en overordnet beskrivelse av hvilke data som inngår i registrering i de ulike komponentene.
 
 ////
 === Hvordan lese modellene
