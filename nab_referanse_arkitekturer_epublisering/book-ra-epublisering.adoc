@@ -20,6 +20,11 @@ eNotifikasjon er en referansearkitektur som adresserer området _deling av data 
 eNotifikasjon dreier seg om publisering av hendelsesdata via hendelseslister som kan aksesseres av datakonsumenter via spørring og oppslag i API-er. Konsumentene kan også innhente tilleggsdata om hendelser fra datatilbydere via spørring og oppslag i API-er, ved behov.
 
 
+== Grunnleggende konsepter
+
+.Konsept for eNotifikasjon
+image::../nab_referanse_arkitekturer_epublisering/media/Konsept for eNotifikasjon.png[alt=Konsept for eNotifikasjon image]
+
 == Verdistrømmer
 
 === eNotifikasjon - oversikt over verdistrømmer
@@ -30,7 +35,7 @@ Følgende figur viser en oversikt over verdistrømmene på tvers av datatilbyder
 image::../nab_referanse_arkitekturer_epublisering/media/eNotifikasjon - oversikt over verdistrømmer.png[alt=eNotifikasjon - oversikt over verdistrømmer image]
 
 
-Dette er en spesialisert utgave av tilsvarende #_felles referansemodell for datautveksling_#. 
+//Dette er en spesialisert utgave av tilsvarende #_felles referansemodell for datautveksling_#. 
 
 Stegene i verdistrømmen er nærmere forklart under egne avsnitt om verdistrømmene for hver rolle.  
 
