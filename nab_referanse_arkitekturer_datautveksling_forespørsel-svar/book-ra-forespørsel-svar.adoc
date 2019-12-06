@@ -12,7 +12,8 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 include::../nab_referanse_arkitekturer_forespørsel-svar-generisk/book-generisk-forespørsel-svar.adoc[]
 
 
-= Synkront oppslag (eOppslag)
+= eOppslag - et løsningsmønstre for oppslag i data gjennom synkrone API-kall
+
 include::../nab_referanse_arkitekturer_eoppslag/book-eoppslag-referansearkitektur.adoc[]
 
 ////
