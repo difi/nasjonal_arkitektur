@@ -21,9 +21,9 @@ Se også:
 
 3. link:../nab_referanse_arkitekturer[Nasjonale referansearkitekturer]
 
-4. link:../nab_referanse_arkitekturer_datautveksling/roller-ra-datautveksling.adoc[Roller involvert i datautveksling]
+//4. link:../nab_referanse_arkitekturer_datautveksling/[Roller involvert i datautveksling]
 
-5. link:../nab_arkitekturlandskap_segmentarkitektur_datadeling_verdistrømmer/book_datadeling_verdistrømmer.adoc[Felles referansemodeller for datadeling]
+5. link:../nab_arkitekturlandskap_segmentarkitektur_datadeling_verdistrømmer/[Felles referansemodeller for datadeling]
 
 
 // include::../nab_referanse_arkitekturer_datautveksling/intro-ra-datautveksling.adoc[]
