@@ -13,9 +13,9 @@ Mønstre for publisering omfatter deling av både hendelsesdata og andre data.
 
 Eksempler på anvendelse:  
 
-* strømming av hendelsesdata i tilknytning til vedtak i offentlig saksbehandling
-* strømming av IoT-data, enten periodisk eller hendelsesbasert
-* oppdatering av kopier ved endringer i data
+* Strømming av hendelsesdata i tilknytning til vedtak i offentlig saksbehandling.
+* Strømming av IoT-data, enten periodisk eller hendelsesbasert.
+* Oppdatering av kopier ved endringer i data.
 
 
 // Ved publisering antas en løs kopling mellom datatilbyder og datakonsument, der 
@@ -55,19 +55,18 @@ Legg merke til at konseptet med en mellomliggende _datafordeler_ ikke utelukker 
 
 Figuren nedenfor illustrerer grunnleggende konsepter.
 
-.Konsept for publisering av data og hendelser - logisk dataflyt
-image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Konsept for publisering av data og hendelser.png[alt=Konsept for publisering av data og hendelser image]
+.Publisering av data og hendelser - grunnleggende konsepoter
+image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Publisering av data og hendelser - grunnleggende konsepoter.png[alt=Publisering av data og hendelser - grunnleggende konsepoter image]
 
-Legg spesielt merke til:
+Kommentarer til denne figuren:
 
-
-* Figuren viser den logiske flyten av notifikasjoner og data. I en ren push-basert løsning vil dette tilsvare meldingsflyt, men i en pull-basert løsning er det datakonsumentene som tar initiativ til innhenting. 
-
-* Notifikasjoner kan være "tynne" eller tykke", dvs. inneholde mer eller mindre data. Dersom alle aktuelle data er med i notifikasjonen, utgår behovet for å innhente supplerende data.
+* Figuren viser logiske flyten data og metadata. I en ren push-basert løsning vil dette tilsvare meldingsflyt, men i en pull-basert løsning er det datakonsumentene som tar initiativ til innhenting. 
 
 * Rollen som _dataformidler_ kan være ivaretatt av datatilbyder selv, uten et eksternt mellomledd. 
 
-* _Meglerløsning_ er her en konseptuell arkitekturbyggekloss, og kan være integrert i _fagsystem hos datatilbyder_.  
+* _Meglerløsning_ er her en konseptuell arkitekturbyggekloss, og kan være integrert i _fagsystem hos datatilbyder_.
+
+* _Metadatakatalog_ benyttes for å finne fram til aktuelle datakilder, enten runtime eller designtime. Eksempel p løsning: Felles datakatalog.  
 
 ////
 == Videre beskrivelser av generisk mønster for publisering 

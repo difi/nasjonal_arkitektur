@@ -15,30 +15,34 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 == Om dette mønsteret
 
-eNotifikasjon er en referansearkitektur som adresserer området _deling av data ved publisering_, og inneholder arkitektur- og løsningsmønstre som spesialiser det generiske mønsteret for publisering.
+eNotifikasjon er en referansearkitektur som adresserer området _deling av data ved publisering_, og inneholder arkitektur- og løsningsmønstre som spesialiser link:../nab_referanse_arkitekturer_datautveksling_publisering[det generiske mønsteret for publisering].
 
 eNotifikasjon dreier seg om publisering av hendelsesdata, eller notifikasjoner, via hendelseslister som kan aksesseres av datakonsumenter via spørring og oppslag i API-er. Konsumentene kan også innhente tilleggsdata om hendelser fra datatilbydere via spørring og oppslag i API-er, ved behov.
 
-Se under link:../nab_referanse_arkitekturer_datautveksling_publisering[Generisk mønster for publisering] om grunnleggende konsepter.
-
-////
-== Grunnleggende konsepter
-
+== Grunnleggende konsepter for eNotifikasjon
 
 Figuren nedenfor illustrerer grunnleggende konsepter.
 
-Legg spesielt merke til:
+.eNotifikasjon - grunnleggende konsepter
+image::../nab_referanse_arkitekturer_epublisering/media/eNotifikasjon - grunnleggende konsepter.png[alt=eNotifikasjon - grunnleggende konsepter image]
 
-* Figuren viser den logiske flyten av notifikasjoner. I en ren push-basert løsning vil dette tilsvare meldingsflyt, men i en pull-basert løsning er det datakonsumentene som tar initiativ til innhenting. 
+Kommentarer til denne figuren:
 
-* Rollen som _dataformidler_ kan være ivaretatt av datatilbyder selv, uten et eksternt mellomledd. 
+* Rollen som _Dataformidler_ kan være ivaretatt av datatilbyder selv, uten et eksternt mellomledd. 
 
-* _Meglerløsning_ er her en konseptuell arkitekturbyggekloss, og kan være integrert i _fagsystem hos datatilbyder_.   
+* _Formidlingsløsninger_ kan tilsvarende være ivaretatt av Datatilbyder selv, hva gjelder formidlingen av notifikasjoner. 
+
+* _Formidlingsløsninger_ omfatter også løsning for metadatakatalog for å finne fram til datakilder, designtime og runtime. Dette er ikke eksplisitt vist her. Eksempel på løsning: Felles datakatalog. 
 
 
-.Konsept for eNotifikasjon
-image::../nab_referanse_arkitekturer_epublisering/media/Konsept for eNotifikasjon.png[alt=Konsept for eNotifikasjon image]
-////
+* _Dataflyt_ og _notifikasjonsflyt_ er å forstå som den logiske flyten av data og notifikasjoner. Om dette skjer på intiativ fra datakonsument (pull) eller datatilbyder (pull), er en annen sak.
+
+* _Notifikasjonsdata_ om hver enkelt hendelse finnes i _hendelseslister_ som kan leses og navigeres av datakonsumentene. 
+
+* _Formidlingsløsninger_ kan være integrert i _Fagsystem hos datatilbyder_. 
+
+* _Data assosiert med hendelse_ kan her antas å inneholde all relevant informasjon om aktuelle hendelser. Datakonsumentene må kunne gå tilbake til Datatilbyder for å innhente supplerende data i tilknytning til hver enkelt notifikasjon, ved behov. Avhengig av behovene, må aktuelle data kunne være tilgjengelige for gjentatt lesing, kanskje flere år fram i tid.    
+
 
 == Verdistrømmer
 
