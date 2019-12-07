@@ -31,9 +31,11 @@ image::../nab_referanse_arkitekturer_datautveksling_forsendelse/media/Kapabilite
 image::../nab_referanse_arkitekturer_datautveksling_forsendelse/media/Generisk dataforsendelse - operativt.png[alt=Generisk dataforsendelse - operativt image]
 ////
 
+_Dette er en del  link:../nab_referanse_arkitekturer_datautveksling/[Referansearkitektur for datautveksling]_.
 
 
 = Generisk mønster for meldingsforsendelse
+
 
 include::../nab_referanse_arkitekturer_meldingsutveksling_generisk/book-ra-generisk-meldingsutveksling.adoc[]
 

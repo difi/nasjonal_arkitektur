@@ -27,6 +27,8 @@ Eksempler på anvendelse:
 
 _Generisk mønster for publisering_ beskriver det som er felles for ulike måter å publisere data på, enten det dreier seg om hendelsesdata eller andre data. 
 
+_Dette er en del  link:../nab_referanse_arkitekturer_datautveksling/[Referansearkitektur for datautveksling]_
+
 
 == Grunnleggende konsepter for publisering av data og hendelser
 // TIP: Her kommer en figur som illustrerer grunnleggende konsepter.

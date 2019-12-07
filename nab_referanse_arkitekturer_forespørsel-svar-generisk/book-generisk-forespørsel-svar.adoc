@@ -28,7 +28,8 @@ Eksempler på bruk:
 Modellen under viser hovedinndelingen i kapabiliteter en tilbyder og en konsument må ha for å dele data gjennom tilgangsstyrte API-er. Dette er en delmengde av det større området som omhandler _Deling av data på forespørsel_. 
 
 
-image::../nab_referanse_arkitekturer_forespørsel-svar-generisk/media/Deling på forespørsel.png[alt="Bilde mangler", width=750,link=https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/e7e6c527-26f4-461c-b4dd-651fcbe85c8d/views/4b722aae-1323-46b0-bcac-e730d418b190.html]
+.Kapabiliteter, deling av data på forespørsel
+image::../nab_referanse_arkitekturer_datautveksling_forespørsel-svar/media/Kapabiliteter, deling av data på forespørsel.png[alt=Kapabiliteter, deling av data på forespørsel image]
 
 Tilbyder må kunne tilgjengeliggjøre data og dette er delt i to kapabiliteter:
 

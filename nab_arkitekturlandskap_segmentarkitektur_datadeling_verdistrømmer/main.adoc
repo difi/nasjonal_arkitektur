@@ -1,1 +1,2 @@
-include::book_ra_datadeling.adoc[]
+:lang: no
+include::book_datadeling_verdistrømmer.adoc[]
