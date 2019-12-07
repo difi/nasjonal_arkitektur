@@ -91,9 +91,10 @@ Samhandlingsspesifikasjoner ligger til grunn for samhandlingsavtaler (se foregå
 
 I dette (generiske) arkitekturmønsteret, gjøres et minimum av  konkrete spesifikasjoner.
 
-#TBD: Parametre for kvalitetsegenskaper.#
 
-#TBD: Referansemodell som viser tekniske protokollag (applikasjon/forretning/transport/...).#
+// #TBD: Parametre for kvalitetsegenskaper.#
+
+// #TBD: Referansemodell som viser tekniske protokollag (applikasjon/forretning/transport/...).#
 
 Følgende presiseres spesielt:
 
