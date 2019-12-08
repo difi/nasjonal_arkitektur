@@ -107,30 +107,36 @@ WARNING: Dersom det skal utveksles meldinger i noen form for sammenhengende pros
 Modellen under viser hovedinndelingen i kapabiliteter for meldingsforsendelse mellom  en avsender og en mottaker.
 
 
-image:../nab_referanse_arkitekturer_meldingsutveksling_generisk/media/kapabiliteter_forsendelse.png[alt="Bilde mangler", width=750]
+.Kapabiliteter - meldingsforsendelse
+image::../nab_referanse_arkitekturer_meldingsutveksling_generisk/media/Kapabiliteter - meldingsforsendelse.png[alt=Kapabiliteter - meldingsforsendelse image]
 
 
 [cols ="1,3", options="header"]
 .Elementer i view, Kapabiliteter for generisk meldingsforsendelse
+
+
+
+
+
 |===
 
 | Element
 | Beskrivelse
 
-| Sending av data
+| Sende data
 | Evnen til å sende data til en mottaker.
 
-| Mottak av data
-| Evnene til å motta en melding eller forsendelse fra en avsender.
+| Motta data
+| Evnen til å motta en en forsendelse fra en avsender.
 
 | Klargjøre for deling av data ved forsendelse
 | Evne til å klargjøre for meldingsutveksling med eksterne parter.
 
 | Mottaker
-| Den som mottar en melding.
+| Den som mottar en elektronisk melding eller tilsvarende.
 
 | Avsender 
-| Den som sender et brev, en pakke, en e-post, en elektronisk melding, en SMS eller lignende.
+| Den som sender en elektronisk melding eller tilsvarende.
 
 |===
 
