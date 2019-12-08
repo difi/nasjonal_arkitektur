@@ -8,10 +8,13 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 _Nasjonalt arkitekturbibliotek_ er en del av link:../plattform_[Nasjonalt arkitekturverksted].
 
 [.lead]
-Nasjonalt arkitekturbibliotek inneholder arkitekturdokumentasjon - modeller, standarder, referansearkitekturer, veiledninger, anbefalinger, tips, maler og annet av  interesse på tvers av sektorer i Norge. Primær målgruppe er virksomhetsarkitekter og løsningsarkitekter, men deler av innholdet er også tilpasset andre interessenter.   
+Nasjonalt arkitekturbibliotek inneholder arkitekturdokumentasjon - modeller, standarder, referansearkitekturer, veiledninger, anbefalinger, tips, maler og annet av  interesse på tvers av sektorer i Norge. 
+
 
 
 Innholdet i dette arkitekturbiblioteket utvikles løpende, med samarbeidsverktøy som understøtter samproduksjon av innhold på tvers av forvaltningen. Se link:../plattform_[mer om plattformen] og link:../plattform_praktiske-tips/[praktiske tips for å komme igang med aktuelle verktøy for innholdsproduksjon.]
+
+Primær målgruppe er virksomhetsarkitekter og løsningsarkitekter, men deler av innholdet tilpasses også andre interessenter.   
 
 
 Oppbyggingen av arkitekturbiblioteket følger i grove trekk strukturen som angitt i link:http://pubs.opengroup.org/architecture/togaf9-doc/arch/[TOGAF 9.2] og link:https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/nasjonal-arkitektur/arkitekturrammeverk-samhandling[Norsk arkitekturrammeverk for samhandling].
