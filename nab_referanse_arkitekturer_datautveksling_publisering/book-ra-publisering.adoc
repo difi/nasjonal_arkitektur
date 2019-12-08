@@ -6,6 +6,7 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 :leveloffset: +1
 
+_Dette er en del  link:../nab_referanse_arkitekturer_datautveksling/[Referansearkitektur for datautveksling]_
 
 = Introduksjon
 
@@ -26,8 +27,6 @@ Eksempler på anvendelse:
 == Om dette mønsteret
 
 _Generisk mønster for publisering_ beskriver det som er felles for ulike måter å publisere data på, enten det dreier seg om hendelsesdata eller andre data. 
-
-_Dette er en del  link:../nab_referanse_arkitekturer_datautveksling/[Referansearkitektur for datautveksling]_
 
 
 == Grunnleggende konsepter for publisering av data og hendelser
@@ -68,7 +67,7 @@ Kommentarer til denne figuren:
 
 * _Meglerløsning_ er her en konseptuell arkitekturbyggekloss, og kan være integrert i _fagsystem hos datatilbyder_.
 
-* _Metadatakatalog_ benyttes for å finne fram til aktuelle datakilder, enten runtime eller designtime. Eksempel p løsning: Felles datakatalog.  
+* _Metadatakatalog_ benyttes for å finne fram til aktuelle datakilder, enten runtime eller designtime. Eksempel på løsning: Felles datakatalog.  
 
 ////
 == Videre beskrivelser av generisk mønster for publisering 
