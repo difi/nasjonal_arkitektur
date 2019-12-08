@@ -8,7 +8,7 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 = Introduksjon
 
 == Generelt
-Denne referansearkitekturen er en samling av  arkitekturmønstre og løsningsmønstre som angir beste praksis for arkitekturer og løsninger innen _temaområdet datautveksling_.
+_Referansearkitektur for datautveksling_ er en samling av  arkitekturmønstre og løsningsmønstre som angir beste praksis for arkitekturer og løsninger innen _temaområdet datautveksling_.
 
 Primær målgrupper er virksomhetsarkitekter og  løsningsarkitekter.
 
@@ -26,7 +26,7 @@ Her er noen lenker med bakgrunnsinformasjon:
 
 4. link:../nab_referanse_arkitekturer[Nasjonale referansearkitekturer]
 
-6. link:../nab[Nasjonalt arkitekturbibliotek]
+6. link:../nab_[Nasjonalt arkitekturbibliotek]
 
 //4. link:../nab_referanse_arkitekturer_datautveksling/[Roller involvert i datautveksling]
 
