@@ -8,20 +8,25 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 = Introduksjon
 
 == Generelt
-Referansearkitektur for datautveksling er en samling av spesifikke referansearkitekturer og arkitekturmønstre. 
+Denne referansearkitekturen er en samling av  arkitekturmønstre og løsningsmønstre som angir beste praksis for arkitekturer og løsninger innen _temaområdet datautveksling_.
 
-NOTE: Begrepet referansearkitektur, arkitekturmønster og løsningsmønster benyttes om hverandre, avhengig av sammenheng. Dette er nærmere forklart under Nasjonale referansearkitekturer.
+Primær målgrupper er virksomhetsarkitekter og  løsningsarkitekter.
 
+Beskrivelsene kan leses som en sammenhengende "bok", men forutsetter en viss kjennskap til grunnleggende konsepter og metodikk.
 
-Se også:
+Her er noen lenker med bakgrunnsinformasjon:
 
-1. link:../nab_arkitekturlandskap_segmentarkitektur_datadeling_datautveklsing\[Temaområde datautveksling] 
+1. link:../nab_overordnet-metode-om-referansearkitekturer[Om referansearkitekturer]
 
-2. link:../nab_arkitekturlandskap_segmentarkitektur_datadeling\[Temaområde datadeling].
+2. link:../nab_arkitekturlandskap_segmentarkitektur_datadeling_datautveklsing\[Temaområde datautveksling] 
 
-3. link:../nab_referanse_arkitekturer[Nasjonale referansearkitekturer]
+5. link:../nab_arkitekturlandskap_segmentarkitektur_datadeling_verdistrømmer/[Felles referansemodeller for datadeling]
 
-4. link:../nab_arkitekturlandskap_segmentarkitektur_datadeling_verdistrømmer/[Felles referansemodeller for datadeling]
+3. link:../nab_arkitekturlandskap_segmentarkitektur_datadeling\[Temaområde datadeling].
+
+4. link:../nab_referanse_arkitekturer[Nasjonale referansearkitekturer]
+
+6. link:../nab[Nasjonalt arkitekturbibliotek]
 
 //4. link:../nab_referanse_arkitekturer_datautveksling/[Roller involvert i datautveksling]
 
