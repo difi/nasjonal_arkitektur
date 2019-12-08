@@ -5,9 +5,11 @@
 
 include::../plattform_felles/includes/commonincludes.adoc[]
 
+_Nasjonalt arkitekturbibliotek_ er en del av link:../plattform_[Nasjonalt arkitekturverksted].
 
 [.lead]
 Nasjonalt arkitekturbibliotek inneholder arkitekturdokumentasjon - modeller, standarder, referansearkitekturer, veiledninger, anbefalinger, tips, maler og annet av  interesse på tvers av sektorer i Norge. Primær målgruppe er  ulike arkitektroller, fra virksomhetsarkitekter til løsningsarkitekter.  
+
 
 Innholdet i dette arkitekturbiblioteket utvikles løpende, med samarbeidsverktøy som understøtter samproduksjon av innhold på tvers av forvaltningen. Se link:../plattform_[mer om plattformen] og link:../plattform_praktiske-tips/[praktiske tips for å komme igang med aktuelle verktøy for innholdsproduksjon.]
 
