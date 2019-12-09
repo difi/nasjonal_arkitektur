@@ -155,6 +155,7 @@ _Få tilgang til API_ er det en konsument av data må gjøre for å få tilgang 
 image:../nab_referanse_arkitekturer_forespørsel-svar-generisk/media/ABB_Tilgang.png[alt="Bilde mangler", width=750,link=https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/e7e6c527-26f4-461c-b4dd-651fcbe85c8d/views/6c5a004d-da35-4fce-b38d-4b09d1167201.html]
 
 
+
 [cols ="1,3", options="header"]
 .Elementer i view for Få tilgang til data
 |===
@@ -162,11 +163,11 @@ image:../nab_referanse_arkitekturer_forespørsel-svar-generisk/media/ABB_Tilgang
 | Element
 | Beskrivelse
 
+| Datakonsument
+| Den som innhenter eller mottar data fra andre aktører.
+
 | Få tilgang til data (konsument)
 | Evnen til å skaffe seg tilgang til tilbudte data fra annen aktør. 
-
-| Konsument
-| Den som konsumerer data.
 
 | Bruksavtale
 | Avtale om tilgang til og bruk av data. Dette kan for eksempel være en bilateralt utformet avtale, aksept av generelle bruksvilkår eller lisens for bruk av åpne data.
@@ -174,24 +175,26 @@ image:../nab_referanse_arkitekturer_forespørsel-svar-generisk/media/ABB_Tilgang
 | Få tilgang til API
 | Prosessen med å skaffe seg tilgang til tilbudte data fra annen aktør. Omfatte å finne API-er, inngå nødvendige avtaler og få tilganger.
 
+| Finn/få kjennskap til API
+| Prosessen med å finne eller få kjennskap til tilgjengelige API-er gjennom relevante kataloger og søkeløsninger.
+
 | Inngå avtale om tilgang til data
-| Prosess hvor konsumenten inngår eventuell avtale med tilbyder om tilgang til data.
+| Prosess for å inngå avtale om tilgang og bruk av data.
+
+| Registreringstjeneste for API-brukere
+| Tjeneste for å registrere klienter som skal ha tilgang til et gitt API.
+
+| API-søk
+| Tjeneste for å søke etter og finne tilgjengelige API-er
 
 | Registrer klient med tildelt tilgang
 | Prosess for konsument å registerere (provisjonering av) den klienten som skal ha tilgang til API-et ved bruk av sikkerhetsbillett. Dette forutsetter at konsumenten har avtale om bruk av sikkerhetsbillettjenesten og at tilbyder har gitt konsumenten tilgang.
 
 Dersom det er en leverandør som har blitt delegert rettigheter som databehandler på vegne av konsument er det leverandøren som registrer sin klient.
 
-| Finne/få kjennskap til API
-| Prosessen med å finne eller få kjennskap til tilgjengelige API-er gjennom relevante kataloger og søkeløsninger.
-
-| API-søk
-| Tjeneste for å søke etter og finne tilgjengelige API-er
-
-| Registreringstjeneste for API-brukere
-| Tjeneste for å registrere klienter som skal ha tilgang til et gitt API.
-
 |===
+
+
 
 ==== Delegere rettigheter til databehandler
 Delegering av rettigheter til databehandler er det en konsument må gjøre for at en leverandør kan identifisere seg med sitt eget virksomhetssertifikat og opptre på vegne av konsumenten som er den som innehar behandlingsgrunnlaget for å innhente data.
@@ -200,17 +203,17 @@ image:../nab_referanse_arkitekturer_forespørsel-svar-generisk/media/ABB_Deleger
 
 
 [cols ="1,3", options="header"]
-.Elementer i view for Delegere rettigheter til databehandler (copy)
+.Elementer i view for Delegere rettigheter til databehandler
 |===
 
 | Element
 | Beskrivelse
 
-| Delegering av rettigheter til databehandler
-| Evnen til å delegere rettigheter til databehandler som utfører oppgaver på vegne av behandlingsansvarlig.
-
 | Samhandlingsaktør
-| Den som inngår i en samhandlingsprosess og samhandler med en annen samhandlingsaktør. Kan være en tilbyder, konsument, avsender, mottaker, leverandør etc.
+| Samlebetegnelse på roller som inngår i en samhandlingsprosess og samhandler med en annen samhandlingsaktør. Kan være en tilbyder, konsument, avsender, mottaker, leverandør etc.
+
+| Delegere rettigheter til databehandler
+| Evnen til å delegere rettigheter til databehandler som utfører oppgaver på vegne av behandlingsansvarlig.
 
 | Tjenesteavtale
 | Avtale mellom leverandør og konsument som er grunnlaget for å kunne delegere rettigheter fra konsument til en leverandør
@@ -219,7 +222,7 @@ image:../nab_referanse_arkitekturer_forespørsel-svar-generisk/media/ABB_Deleger
 | Prosessen med å delegere rettigheter til databehandler/leverandør.
 
 | Inngå avtale med leverandør
-| Prosessen med å inngå en avtale med leverandør. En slik avtale vil normalt være inngått tidligere og uavhengig av om man skal ta i bruk et nytt API. En tjenesteavtale med leverandør er en forutsetning forutsetning for å kunne delegere en tilgang.
+| Prosessen med å inngå en avtale med leverandør. En slik avtale vil normalt være inngått tidligere og uavhengig av om man skal ta i bruk et nytt API. En tjenesteavtale med leverandør er en forutsetning for å kunne delegere en tilgang.
 
 | Registrere delegert tilgang
 | Prosessen med å delegere tilganger. I tilknytning til eOppslag vil formålet være å gi leverandør tilgang til å representere konsument overfor et API, men registreringen vil potensielt også kunne gjelde for andre områder.
@@ -230,13 +233,14 @@ image:../nab_referanse_arkitekturer_forespørsel-svar-generisk/media/ABB_Deleger
 |===
 
 
+
+
 === Utveksling av data
 
 ==== Innhente data
 Slå opp data gjennom et API er det en konsument må gjøre når det utføres et tjenestekall for å innhente data gjennom et API. Dersom det er et åpent API er det kun relevante prossessteg som utføres.
 
 image:../nab_referanse_arkitekturer_forespørsel-svar-generisk/media/ABB_Innhente.png[alt="Bilde mangler",  link=https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/e7e6c527-26f4-461c-b4dd-651fcbe85c8d/views/4742dd13-f1fe-4e78-80a8-80929a62efb9.html]
-
 
 
 [cols ="1,3", options="header"]
@@ -246,11 +250,8 @@ image:../nab_referanse_arkitekturer_forespørsel-svar-generisk/media/ABB_Innhent
 | Element
 | Beskrivelse
 
-| Adressetjeneste
-| Tjeneste som gir mulighet til å slå opp teknisk endepunkt
-
-| Tokentjeneste
-| Tjeneste som utsteder sikkerhetsbilletter. Sikkerhetsbillett utstedes basert på tildelte rettigheter og eventuelle representasjonsforhold.
+| Datakonsument
+| Den som innhenter eller mottar data fra andre aktører.
 
 | Innhente data
 | Evnen til å innhente data fra en annen aktør.
@@ -258,11 +259,14 @@ image:../nab_referanse_arkitekturer_forespørsel-svar-generisk/media/ABB_Innhent
 | Forespørsel om data
 | Forespørsel om data med parametetere i forespørselen, sikkerhetsbillett mv.
 
-| Datautvekslings-tjeneste
-| Tjeneste for utveksling av data. Samme som data exchange service. Benyttes av avsender og mottaker for transport av meldinger.
-
 | Slå opp data gjennom et API 
-| Prosessen med lå opp og hente data gjennom et API.
+| Prosessen med å slå opp og hente data gjennom et API.
+
+| Innhent samtykke ved behov
+| Prosess for å innhente samtykke fra person eller virksomhet som grunnlag for å innhente data. Dette gjøres kun ved behov.
+
+| Hent teknisk endepunkt ved behov
+| Prosessen å slå opp den tekniske adressen til et API før spørring mot API-et. Gjøres kun dersom det er nødvendig.
 
 | Be om tilgangstoken
 | Prosessen med å benytte en sikkerhetsbillettjeneste for hente en sikkerhetsbillett som gir tilgang til et API. Dette forutsetter at alt er registert og satt opp riktig mot de aktuelle tjenestene.
@@ -270,17 +274,17 @@ image:../nab_referanse_arkitekturer_forespørsel-svar-generisk/media/ABB_Innhent
 | Utfør tjenestekall
 | Prosessen med å benytte (gjøre et oppslag mot) et eksternt API.
 
-| Hent teknisk endepunkt ved behov
-| Prosessen å slå opp den tekniske adressen til et API før spørring mot API-et. Gjøres kun dersom det er nødvendig.
-
-| Innhent samtykke ved behov
-| Prosess for å innhente samtykke fra person eller virksomhet som grunnlag for å innhente data. Dette gjøres kun ved behov.
-
-| Datakonsument
-| Den som innhenter eller mottar data fra andre aktører.
-
 | Samtykkeregistererings-tjeneste
 | Tjeneste for å innhente samtykke fra den registrert som dataene gjelder. Dette kan være en person eller en virksomhet.
+
+| Adressetjeneste
+| Tjeneste som gir mulighet til å slå opp teknisk endepunkt
+
+| Tokentjeneste
+| Tjeneste som utsteder sikkerhetsbilletter. Sikkerhetsbillett utstedes basert på tildelte rettigheter og eventuelle representasjonsforhold.
+
+| Datautvekslings-tjeneste
+| Tjeneste for utveksling av data. Samme som data exchange service. Benyttes av avsender og mottaker for transport av meldinger.
 
 |===
 
@@ -290,7 +294,7 @@ image:../nab_referanse_arkitekturer_forespørsel-svar-generisk/media/ABB_Innhent
 Avgi forespurte data er det tilbyder av data må gjøre for å svare på en forespørsel. Prosessen kontrollere tilgang gjøres kun dersom det er enakk om å avgi data gjennom et sikret API.
 
 
-image:../nab_referanse_arkitekturer_forespørsel-svar-generisk/media/ABB_Avgi.png[alt="Bilde mangler", width=500,link=https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/e7e6c527-26f4-461c-b4dd-651fcbe85c8d/views/c993199e-3879-4f72-967d-4339159f6641.html]
+image:../nab_referanse_arkitekturer_forespørsel-svar-generisk/media/ABB_Avgi.png[alt="Bilde mangler", link=https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/e7e6c527-26f4-461c-b4dd-651fcbe85c8d/views/c993199e-3879-4f72-967d-4339159f6641.html]
 
 
 [cols ="1,3", options="header"]
@@ -300,42 +304,11 @@ image:../nab_referanse_arkitekturer_forespørsel-svar-generisk/media/ABB_Avgi.pn
 | Element
 | Beskrivelse
 
+| Datatilbyder
+| Tilbyder av data til andre aktører.
+
 | Avgi data
 | Evne til å avgi data på forespørsel. Kan omfatte tilgangsstyring.
-
-| Tilbyder
-| En aktør som tilbyr data til eksterne parter, enten på vegne av andre, som forvalter av data eller som dataansvarlig.
-
-| Svar på forespørsel
-| Informasjonen som avgis til konsument som svar på en forespørsel.
-
-| Avgi forespurte data gjennom API
-| Prosessen med å avgi data på forespørsel gjennom et egnet API.
-
-| Motta  forespørsel om oppslag
-| Prosessen med å motta forespørsler fra API-konsument om å avgi data.
-
-| Kontroller tilgang
-| Prosessen med kontroll og håndheving av konsumentens rettigheter til å få forespurte data. I tillegg til "validering av sikkerhetsbillet", kan det være behov for kontroll mot virksomhetsinterne policies.
-
-| Avgi data
-| Prosessen med å gi svar på forespørselen.
-
-| Autentisere konsument
-| Prosessen med å autentisere en konsument.
-
-| Tilgangskontroll-tjeneste
-| Tjeneste for å sjekke rettigheter til data. Kan være eksterne eller interne tjenester.
-Eksempler på rettigheter kan komme av samtykker fra person eller virksomhet, eller rollebasert fra vergemål, familierelasjon el.
-
-| Autentiseringstjeneste
-| Tjeneste som benyttes av tilbyder for å validere og kontrollere autentisiteten til et OAUTH2 token fra Maskinporten
-
-| Datautvekslings-tjeneste
-| Tjeneste for utveksling av data. Benyttes av avsender/tilbyder og mottaker/konsument for transport av data.
-
-| Datautvekslings-tjeneste
-| Tjeneste for utveksling av data. Benyttes av avsender/tilbyder og mottaker/konsument for transport av data.
 
 | Forespørsel
 | Informasjon om det som forespørres.
@@ -345,6 +318,37 @@ Eksempler på rettigheter kan komme av samtykker fra person eller virksomhet, el
 
 | Autorisasjonsdata
 | Data som autoriserer konsument, f.eks. påstander i en sikkerhetsbillett.
+
+| Svar på forespørsel
+| Informasjonen som avgis til konsument som svar på en forespørsel.
+
+| Avgi forespurte data gjennom API
+| Prosessen med å avgi data på forespørsel gjennom et egnet API.
+
+| Motta  forespørsel om oppslag
+| Motta forespørsler fra API-konsument om å avgi data.
+
+| Autentisere konsument
+| Prosessen med å autentisere en kosnument.
+
+| Kontroller tilgang
+| Kontroll og håndheving av konsumentens rettigheter til å få forespurte data.  I tillegg til "validering av sikkerhetsbillet", kan det være behov for kontroll mot virksomhetsinterne policies.
+
+| Avgi data
+| Prosessen med å gi svar på forespørselen.
+
+| Datautvekslings-tjeneste
+| Tjeneste for utveksling av data. Samme som data exchange service. Benyttes av avsender og mottaker for transport av meldinger.
+
+| Autentiseringstjeneste
+| Tjeneste som benyttes av tilbyder for å validere og kontrollere autentisiteten til et OAUTH2 token fra Maskinporten
+
+| Tilgangskontroll-tjeneste
+| Tjeneste for å sjekke rettigheter til data. Kan være eksterne eller interne tjenester.
+Eksempler på rettigheter kan komme av samtykker fra person eller virksomhet, eller rollebasert fra vergemål, familierelasjon el.
+
+| Datautvekslings-tjeneste
+| Tjeneste for utveksling av data. Samme som data exchange service. Benyttes av avsender og mottaker for transport av meldinger.
 
 |===
 
