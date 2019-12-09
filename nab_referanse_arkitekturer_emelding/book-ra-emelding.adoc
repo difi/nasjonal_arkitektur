@@ -43,7 +43,7 @@ Se konseptuelle prosessbeskrivelser for link:../nab_referanse_arkitekturer_meldi
 
 === Generelt
 
-Beskrivelsene her peker på hvordan den generiske referansearkitekturen for eMelding kan realiseres med arkitektur- og løsningskomponenter som inngår i PEPPOL-infrastrukturen; basert på CEF eDelivery.
+Beskrivelsene her viser på hvordan den generiske referansearkitekturen for eMelding kan realiseres med arkitektur- og løsningskomponenter som inngår i PEPPOL-infrastrukturen; basert på CEF eDelivery.
 
 Utover de arkitekturtegningene som presenenteres, henvises til omfattende dokumentasjon av eDelivery og PEPPOL.
 

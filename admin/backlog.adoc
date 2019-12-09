@@ -9,3 +9,14 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 . *nab_arkitekturlandskap_roller*
 +
 Slett denne katalogen? Det finnes "noe annet" som dekker det samme...
+
+. Fix rekkefølge på tabellelementer (Henrik)
+
+. Generer web-bversjon og oppdater alle lenker
+
+. Fix trykkleif beskrivels
+
+. Fix  Figur 2. Datautveksling - overordnet oversikt over kapabiliteter og temaer
+
+
+

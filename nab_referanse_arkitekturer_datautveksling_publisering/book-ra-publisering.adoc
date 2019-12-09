@@ -36,9 +36,9 @@ _Generisk mønster for publisering_ beskriver det som er felles for ulike måter
 
 Ved publisering etableres en løs kopling mellom datatilbyder og datakonsument. Dette kan gjøres på flere måter. Noen eksempler:
 
-a. Data stilles ut helt åpent, slik at hvem som vil kan konsumere data. Ulike tekniske løsninger for dette finnes. Referansearkitektur for eOppslag beskriver hvordan dette  dette kan gjøres gjennom API-er.
+a. Data tilgjengeliggjøres helt åpent, slik at hvem som vil kan konsumere data. Ulike tekniske løsninger for dette finnes. Referansearkitektur for eOppslag beskriver hvordan dette  dette kan gjøres gjennom API-er.
 
-b. Data stilles ut åpent, men kan kun konsumeres av aktører med nødvendige rettigheter. Referansearkitektur for eOppslag beskriver hvordan dette  dette kan gjøres gjennom oppsett av rettigheter til API.
+b. Data tilgjengeliggjøres åpent, men kan kun konsumeres av aktører med nødvendige rettigheter. Referansearkitektur for eOppslag beskriver hvordan dette  dette kan gjøres gjennom oppsett av rettigheter til API.
 
 c. Datakonsument abonnerer på å få tilsendt oppdaterte data, med utgangspunkt i abonnementsavtale som spesifiserer hvilke data som ønskes.
 
