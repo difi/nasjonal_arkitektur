@@ -89,7 +89,7 @@ Her gjengis også en figur fra link:../nab_arkitekturlandskap_segmentarkitektur_
 .Datautveksling - overordnet oversikt over kapabiliteter og temaer 
 image::../nab_arkitekturlandskap_segmentarkitektur_datadeling_datautveklsing/media/Datautveksling - overordnet oversikt over kapabiliteter og temaer .png[alt=Datautveksling - overordnet oversikt over kapabiliteter og temaer  image]
 
-Videre beskrivelser av temaer og kapabiliteter gis i tilknytning til beskrivels  er av de enkelte referansearkitekturene.
+Videre beskrivelser av temaer og kapabiliteter gis i tilknytning til beskrivelse  er av de enkelte referansearkitekturene.
 
 NOTE: _Virksomhetsarkitekturen kan inndeles i områder, eller temaområder, og videre i kapabiliteter. Dette kan gjøres i flere nivåer, til et hensiktsmessig detaljnivå. Med kapabilitet menes en evne som er forbundet med en rolle eller en aktør. Slike aktører kan være organisasjoner, personer eller tekniske systemer. Realiseringen av en kapabilitet gjøres igjen typisk gjennom organisasjoner, mennesker, prosesser og teknologier, gjerne i kombinasjon._
 
