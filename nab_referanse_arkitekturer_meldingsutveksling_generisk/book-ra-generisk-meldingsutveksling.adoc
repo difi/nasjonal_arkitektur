@@ -123,20 +123,20 @@ image::../nab_referanse_arkitekturer_meldingsutveksling_generisk/media/Kapabilit
 | Element
 | Beskrivelse
 
+| Avsender 
+| Den som sender en elektronisk melding eller tilsvarende.
+
+| Mottaker
+| Den som mottar en elektronisk melding eller tilsvarende.
+
+| Klargjøre for deling av data ved forsendelse
+| Evne til å klargjøre for meldingsutveksling med eksterne parter.
+
 | Sende data
 | Evnen til å sende data til en mottaker.
 
 | Motta data
 | Evnen til å motta en en forsendelse fra en avsender.
-
-| Klargjøre for deling av data ved forsendelse
-| Evne til å klargjøre for meldingsutveksling med eksterne parter.
-
-| Mottaker
-| Den som mottar en elektronisk melding eller tilsvarende.
-
-| Avsender 
-| Den som sender en elektronisk melding eller tilsvarende.
 
 |===
 
@@ -164,11 +164,33 @@ Forklaring til figur:
 | Element
 | Beskrivelse
 
+| Samhandlingsaktør
+| Samlebetegnelse på roller som inngår i en samhandlingsprosess og samhandler med en annen samhandlingsaktør. Kan være en tilbyder, konsument, avsender, mottaker, leverandør etc.
+
 | Klargjøre for deling av data ved forsendelse
 | Evne til å klargjøre for meldingsutveksling med eksterne parter.
 
-| Samhandlingsaktør
-| Samlebetegnelse på roller som inngår i en samhandlingsprosess og samhandler med en annen samhandlingsaktør. Kan være en tilbyder, konsument, avsender, mottaker, leverandør etc.
+| Interoperability specification
+| Spesifikasjoner for hvordan man samhandler i et fellesskap. Dette kan være meldingsformater, krav til tekniske komponenter etc.
+
+| Samhandlingsavtale 
+| Avtale som regulerer forhold tilknyttet samhandlingen mellom to parter, eller deltakerne ie et fellesskap for meldingsutveksling.
+
+| Kapabilitetsbeskrivelse
+| Strukturert beskrivelse av evner og kapabiliteter relevante for samhandling i fellesskapet
+
+| Mottakeradresse
+| Teknsik adresse for hvor meldinger skal sendes. Dette kan være adressen til inet
+
+| Mottakersertifikat
+| Offentlig nøkkel benyttes for kryptering og validering av signatur.
+
+Privat nøkkel benyttes til dekryptering og signering av meldinger.
+
+| Avsendersertifikat
+| Offentlig nøkkel benyttes for kryptering og validering av signatur.
+
+Privat nøkkel benyttes til dekryptering og signering av meldinger.
 
 | Klargjør for melding
 | Prosessen med å klargjøre for melding ved å  inngå nødvendige avtaler og tilgjengeliggjøre nødvendig informasjon til andre samhandlingsaktører.
@@ -187,36 +209,14 @@ Forklaring til figur:
 
 Sertifikater må forvaltes og fornyes etter gjeldende regler for å være gyldige og egnet for bruk. 
 
-| Interoperability specification
-| Spesifikasjoner for hvordan man samhandler i et fellesskap. Dette kan være meldingsformater, krav til tekniske komponenter etc.
-
-| Samhandlingsavtale 
-| Avtale som regulerer forhold tilknyttet samhandlingen mellom to parter, eller deltakerne ie et fellesskap for meldingsutveksling.
-
-| Mottakeradresse
-| Teknsik adresse for hvor meldinger skal sendes. Dette kan være adressen til inet
-
-| Avsendersertifikat
-| Offentlig nøkkel benyttes for kryptering og validering av signatur.
-
-Privat nøkkel benyttes til dekryptering og signering av meldinger.
-
-| Mottakersertifikat
-| Offentlig nøkkel benyttes for kryptering og validering av signatur.
-
-Privat nøkkel benyttes til dekryptering og signering av meldinger.
-
-| Kapabilitetsbeskrivelse
-| Strukturert beskrivelse av evner og kapabiliteter relevante for samhandling i fellesskapet
-
-| Sertifikatregisterering
-| Tjeneste for å registrere serifikater i felles katalogtjeneste.
+| Kapabilitetsregistrering
+| Tjeneste for å registrere kapabiliteter
 
 | Adresseregistrering
 | Tjeneste for å registrere adresse for å sende melding til mottaker.
 
-| Kapabilitetsregistrering
-| Tjeneste for å registrere kapabiliteter
+| Sertifikatregisterering
+| Tjeneste for å registrere serifikater i felles katalogtjeneste.
 
 |===
 
@@ -242,30 +242,33 @@ Forklaring til figur:
 | Avsender 
 | Den som sender et brev, en pakke, en e-post, en elektronisk melding, en SMS eller lignende.
 
-| Mottakeradresse
-| Teknsik adresse for hvor meldinger skal sendes. Dette kan være adressen til inet
+| Sende data
+| Evnen til å sende data til en mottaker.
 
-| Forsendelse
-| Den pakken som sendes til mottaker. Inkluderer forretningsmelding, metadata, adresse etc.
-
-| Avsendersertifikat
-| Offentlig nøkkel benyttes for kryptering og validering av signatur.
-
-Privat nøkkel benyttes til dekryptering og signering av meldinger.
+| Meldingsinnhold
+| Meldingsinnholdet eller informasjonen som skal sendes til ekstern part. 
 
 | Mottakersertifikat
 | Offentlig nøkkel benyttes for kryptering og validering av signatur.
 
 Privat nøkkel benyttes til dekryptering og signering av meldinger.
 
+| Mottakeradresse
+| Teknsik adresse til hvor meldinger skal sendes.
+
+| Avsendersertifikat
+| Offentlig nøkkel benyttes for kryptering og validering av signatur.
+
+Privat nøkkel benyttes til dekryptering og signering av meldinger.
+
+| Forsendelse
+| Den pakken som sendes til mottaker. Inkluderer forretningsmelding, metadata, adresse etc.
+
 | Send melding
 | Prosessen med å sende en eMelding til en mottaker ved hjelp av fellestjenester.
 
 | Kontroller mottakers kapabiliteter
 | Prosess for å slå opp og kontrollere mottakers evner til samhandling innenfor fellesskapet.
-
-| Eksepeder melding
-| Prosessen med å sende melding til mottaker.
 
 | Formater melding
 | Prosess for å tilpasse informasjonspakken til mottakers kapabiliteter og fellesskapets standarder.
@@ -274,37 +277,34 @@ Privat nøkkel benyttes til dekryptering og signering av meldinger.
 | Prosess med å sikre forsendelsen. Inkluderer konfidensialitets- og integritetssikring der dette er nødvendig. Normalt gjøres dette ved hjelp av kryptografi og sertifikater.
 
 | Adresser forsendelse
-| Prosess med å adressere forsendelsen. Dette kan være til mottaker direkte eller til dennes representant eller aksesspunkt,
+| Prosess med å adressere forsendelsen. Dette kan være til mottaker direkte eller til dennes representant eller aksesspunkt.
 
 | Signer forsendelse
 | Prosessen med å signere meldingen som sendes til mottaker. Til dette benyttes eget sertifikats private nøkkel.
 
+| Eksepeder melding
+| Prosessen med å sende melding til mottaker.
+
 | Kapabilitetsoppslag
 | Tjeneste for å slå opp kapabilitetene til en samhandlingspart
 
-| Adresseoppslag
-| Tjeneste for å slå opp adressen til en mottaker.
-
-| Sending av data
-| Evnen til å sende data til en mottaker.
+| Datatransformasjon
+| Tjeneste for  transformere data og meldinger til andre formater.
 
 | Sertifikatoppslag
 | Tjeneste for å hente krypteringssertifkat til mottaker.
 
-| Datautvekslings-tjeneste
-| Tjeneste for utveksling av data. Samme som data exchange service. Benyttes av avsender og mottaker for transport av meldinger.
+| Adresseoppslag
+| Tjeneste for å slå opp adressen til en mottaker.
 
 | Signeringstjeneste
 | Tjeneste for å signere en elektronisk melding. For eMelding er det signatur i form av elektronisk segl som er mest relevant.
 
+| Datautvekslings-tjeneste
+| Tjeneste for utveksling av data. Samme som data exchange service. Benyttes av avsender og mottaker for transport av meldinger.
+
 | Sporingstjeneste
 | Tjeneste for sporing (audit) av meldinger.
-
-| Meldingsinnhold
-| Meldingsinnholdet eller informasjonen som skal sendes til ekstern part. 
-
-| Datatransformasjon
-| Tjeneste for  transformere data og meldinger til andre formater.
 
 |===
 
@@ -325,22 +325,28 @@ Forklaring til figur:
 | Element
 | Beskrivelse
 
-| Motta melding
-| Evnen til å motta, validere og kvittere for mottatte meldinger.
-
 | Mottaker
 | Den som mottar en melding.
 
+| Motta melding
+| Evnen til å motta, validere og kvittere for mottatte meldinger.
+
 | Forsendelse
 | Den pakken som sendes til mottaker. Inkluderer forretningsmelding, metadata, adresse etc.
+| Avsendersertifikat
+| Offentlig nøkkel benyttes for kryptering og validering av signatur.
+
+Privat nøkkel benyttes til dekryptering og signering av meldinger.
+
+| Mottakersertifikat
+| Offentlig nøkkel benyttes for kryptering og validering av signatur.
+
+Privat nøkkel benyttes til dekryptering og signering av meldinger.
 
 | Motta melding
 | Prosessen med å motta melding. Består av flere delprosesser.
 
 Etter mottak må mottaker følge opp og håndtere innholdet i meldingen.
-
-| Valider forsendelse
-| Prosessen med å kontrollere om innholdet i en forsendelse er i henhold til avtale og avtalte formater.
 
 | Motta forsendelse
 | Prosessen med å motta en melding fra avsender
@@ -350,6 +356,9 @@ Etter mottak må mottaker følge opp og håndtere innholdet i meldingen.
 
 | Dekrypter melding
 | Prosessen med å dekryptere mottatt melding. 
+
+| Valider forsendelse
+| Prosessen med å kontrollere om innholdet i en forsendelse er i henhold til avtale og avtalte formater.
 
 | Datautvekslings-tjeneste
 | Tjeneste for utveksling av data. Samme som data exchange service. Benyttes av avsender og mottaker for transport av meldinger.
@@ -362,16 +371,6 @@ Etter mottak må mottaker følge opp og håndtere innholdet i meldingen.
 
 | Datavaliderings-tjeneste
 | Tjeneste for å validere meldinger mot format og forventet innhold.
-
-| Mottakersertifikat
-| Offentlig nøkkel benyttes for kryptering og validering av signatur.
-
-Privat nøkkel benyttes til dekryptering og signering av meldinger.
-
-| Avsendersertifikat
-| Offentlig nøkkel benyttes for kryptering og validering av signatur.
-
-Privat nøkkel benyttes til dekryptering og signering av meldinger.
 
 |===
 
