@@ -12,7 +12,7 @@ Slett denne katalogen? Det finnes "noe annet" som dekker det samme...
 
 . Fix rekkefølge på tabellelementer (Henrik)
 
-. Generer web-bversjon og oppdater alle lenker (Erik)
+. Generer web-versjon og oppdater alle lenker (Erik)
 
 //. Fix  Figur 2. Datautveksling - overordnet oversikt over kapabiliteter og temaer
 
