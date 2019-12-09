@@ -14,8 +14,6 @@ Slett denne katalogen? Det finnes "noe annet" som dekker det samme...
 
 . Generer web-bversjon og oppdater alle lenker
 
-. Fix trykkleif beskrivels
-
 . Fix  Figur 2. Datautveksling - overordnet oversikt over kapabiliteter og temaer
 
 . Slå sammen ABB/SBB-nivå i eNotifikasjon
