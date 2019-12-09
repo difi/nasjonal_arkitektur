@@ -35,7 +35,7 @@ Kommentarer til denne figuren:
 * _Formidlingsløsninger_ omfatter også løsning for metadatakatalog for å finne fram til datakilder, designtime og runtime. Dette er ikke eksplisitt vist her. Eksempel på løsning: Felles datakatalog. 
 
 
-* _Dataflyt_ og _notifikasjonsflyt_ er å forstå som den logiske flyten av data og notifikasjoner. Om dette skjer på intiativ fra datakonsument (pull) eller datatilbyder (pull), er en annen sak.
+* _Dataflyt_ og _notifikasjonsflyt_ er å forstå som den logiske flyten av data og notifikasjoner. Om dette skjer på initiativ fra datakonsument (pull) eller datatilbyder (push), er en annen sak.
 
 * _Notifikasjonsdata_ om hver enkelt hendelse finnes i _hendelseslister_ som kan leses og navigeres av datakonsumentene. 
 
@@ -61,7 +61,7 @@ Stegene i verdistrømmen er nærmere forklart under egne avsnitt om verdistrømm
 === eNotifikasjon - verdistrøm for datatilbyder
 Her vises verdistrømmen for eNotifikasjon sett fra datatilbyder, med angivelse av kapabiliteter.
 
-Det som er spesielt for eNotifikasjon er vist med uthevet skrift, dvs. _Generere og tilby notifikasjoner_. Øvrige kapabiliteter er beskrevet andre steder, blant annet i tilknytning til referansearkitekturer for eMelding (Sende data)og  eOppslag (Avgi data på forespørsel).  
+Det som er spesielt for eNotifikasjon er vist med uthevet skrift, dvs. _Generere og tilby notifikasjoner_. Øvrige kapabiliteter er beskrevet andre steder, blant annet i tilknytning til referansearkitekturer for eMelding (Sende data) og  eOppslag (Avgi data på forespørsel).  
 
 .eNotifikasjon - tilbyders verdistrøm
 image::../nab_referanse_arkitekturer_epublisering/media/eNotifikasjon - tilbyders verdistrøm.png[alt=eNotifikasjon - tilbyders verdistrøm image]
@@ -69,7 +69,7 @@ image::../nab_referanse_arkitekturer_epublisering/media/eNotifikasjon - tilbyder
 === eNotifikasjon - verdistrøm for datakonsumenter
 Her vises verdistrømmen for eNotifikasjon sett fra datakonsumenter, med angivelse av kapabiliteter.
 
-Det som er spesielt for eNotifikasjon er vist med uthevet skrift, dvs. _Innhente og håndtere notifikasjoner_. Øvrige kapabiliteter er beskrevet andre steder, blant annet i tilknytning til referansearkitekturer for eMelding (Motta data)og  eOppslag (Innhente data ved forespørsel).  
+Det som er spesielt for eNotifikasjon er vist med uthevet skrift, dvs. _Innhente og håndtere notifikasjoner_. Øvrige kapabiliteter er beskrevet andre steder, blant annet i tilknytning til referansearkitekturer for eMelding (Motta data) og  eOppslag (Innhente data ved forespørsel).  
 
 
 .eNotifikasjon - konsumenters verdistrøm
@@ -280,7 +280,7 @@ Hendelsesbasert deling av data
 * Hendelseslister må pagineres og kunne traverseres 
 * Det benyttes et pull-mønster for utveksling av hendelser
 
-
+////
 == Begreper og temaer
 * Hendelsestype
 * Topics
@@ -296,3 +296,4 @@ Hendelsesbasert deling av data
 * Notifikasjon = det som utveksles/legges på kø om en hendelse
 * Tynne og tykke hendelser
 
+////

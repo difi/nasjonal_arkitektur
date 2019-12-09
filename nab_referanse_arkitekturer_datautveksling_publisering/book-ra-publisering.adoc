@@ -8,6 +8,8 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 _Dette er en del  link:../nab_referanse_arkitekturer_datautveksling/[Referansearkitektur for datautveksling]_
 
+//Henrik: hendelsesdata må defineres
+
 = Introduksjon
 
 Mønstre for publisering omfatter deling av både hendelsesdata og andre data.  
