@@ -143,10 +143,10 @@ include::../nab_referanse_arkitekturer_datautveksling/generisk-prosess-for-opera
 
 //NOTE: Prinsipper for datautveksling vil bygge på felles  nasjonale arkitekturprinsipper, som er under revidering høsten 2019.
 
-Se også: link:../nab_referanse_arkitekturer_struktur_beskrivelse[Mer om dokumentstruktur og modelleringskonvensjoner].
+Se link:../nab_referanse_arkitekturer_struktur_beskrivelse[leseveiledning].
 
 
-Beskrivelsene finnes ellers både samlet og  enkeltvis. Som alternativ til å se "den store boken", kan en gå inn på følgende lenker: 
+Beskrivelsene finnes ellers både samlet og enkeltvis: 
 
 a. link:../nab_referanse_arkitekturer_datautveksling_forespørsel-svar[Mønstre for spørring og oppslag]
 
