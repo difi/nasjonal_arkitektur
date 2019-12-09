@@ -54,26 +54,26 @@ I tillegg kan begge parter ha kapabiliteten:
 | Element
 | Beskrivelse
 
+| Datatilbyder
+| Tilbyder av data til andre aktører.
+
+| Datakonsument
+| Den som innhenter eller mottar data fra andre aktører.
+
+| Delegere rettigheter til databehandler
+| Evnen til å delegere rettigheter til databehandler som utfører oppgaver på vegne av behandlingsansvarlig.
+
 | Tilgjengeliggjøre data
 | Evnen til å gjøre data tilgjengelig for aktører utenfor egen virksomhet.
 
-| Innhente data
-| Evnen til å innhente data fra en annen aktør.
+| Få tilgang til data (konsument)
+| Evnen til å skaffe seg tilgang til tilbudte data fra annen aktør.
 
 | Avgi data
 | Evne til å avgi data på forespørsel. Kan omfatte tilgangsstyring.
 
-| Delegering av rettigheter til databehandler
-| Evnen til å delegere rettigheter til databehandler som utfører oppgaver på vegne av behandlingsansvarlig.
-
-| Få tilgang til data (konsument)
-| Evnen til å skaffe seg tilgang til tilbudte data fra annen aktør. 
-
-| Konsument
-| Den som konsumerer data.
-
-| Tilbyder
-| En aktør som tilbyr data til eksterne parter, enten på vegne av andre, som forvalter av data eller som dataansvarlig.
+| Innhente data
+| Evnen til å innhente data fra en annen aktør.
 
 |===
 
