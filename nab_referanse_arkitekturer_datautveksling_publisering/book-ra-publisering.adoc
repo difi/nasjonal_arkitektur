@@ -6,7 +6,7 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 :leveloffset: +1
 
-_Dette er en del  link:../nab_referanse_arkitekturer_datautveksling/[Referansearkitektur for datautveksling]_
+_Dette er en del av link:../nab_referanse_arkitekturer_datautveksling/[Referansearkitektur for datautveksling]_
 
 //Henrik: hendelsesdata må defineres
 
@@ -16,9 +16,9 @@ Mønstre for publisering omfatter deling av både hendelsesdata og andre data.
 
 Eksempler på anvendelse:  
 
-* Strømming av hendelsesdata i tilknytning til vedtak i offentlig saksbehandling.
+* Strømming av hendelsesdata, f.eks. i tilknytning til vedtak i offentlig saksbehandling.
 * Strømming av IoT-data, enten periodisk eller hendelsesbasert.
-* Oppdatering av kopier ved endringer i data.
+* Oppdatering av kopier og avledede datasett ved endringer i data.
 
 
 // Ved publisering antas en løs kopling mellom datatilbyder og datakonsument, der 
