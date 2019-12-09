@@ -34,40 +34,15 @@ For å tilby data gjennom et API sikret med fellestjenester må tilbyder inngå 
 
 image:../nab_referanse_arkitekturer_forespørsel-svar-generisk/media/SBB_Tilgjengeliggjøre.png[alt="Bilde mangler",  link=https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/e7e6c527-26f4-461c-b4dd-651fcbe85c8d/views/80c1baa6-55d8-4434-ab14-55e2d0afa827.html]
 
-
 [cols ="1,3", options="header"]
-.Elementer i view for Tilgjengeliggjøre data løsningsmønster (copy)
+.Elementer i view for Tilgjengeliggjøre data løsningsmønster
 |===
 
 | Element
 | Beskrivelse
 
-| Registrere Open API specification¨
-| Tjeneste i Felles API-katalogen for å registrere API. Bruk av tjenesten forutsetter at rettigheter til å gjøre dette på vegne av tilbyders virksomhet.
-
-| Selvbetjeningstjeneste for administrasjon av integrasjoner og APIer
-| "administrasjonssentre" vil ha rettigheter til å registrere på vegne av andre f.eks. API-katalogen
-
-| Regisstrering av API-brukere
-| Tjeneste for gjennom selvbetjening å registrere og vedlikeholde tilgangene konsumenter skal ha til API-er og scopes.
-
-| Token-egenskaper
-| Egenskaper som f.eks. gyldighetstid ved tilgangstoken som er Maskinportens variant av sikkerhetsbillett.
-
-| OAUTH scopes
-| Et scope kan beskrives som en ressurs-definisjon, og et token er som regel knyttet til ett eller flere scopes. Scopes benyttes til å styre tilganger til API-er og operasjoner,samt eventuelt hva slags responser man får fra API-er.
-
-| Tilganger konsument
-| Oversikt over hvilke API og OAUTH-scopes en virksomhet (representert ved organisasjonsnummer) skal ha tilgang til (utstedt token for).
-
-| Maskinporten
-| Fellesløsning for API-sikring ved bruk av OAUTH2-tokens.
-
-| Felles API-katalog
-| Del av Felles datakatalog som gir mulighet for å søke etter API-er og lese API-spesifikasjoner https://fellesdatakatalog.brreg.no/apis
-
-| Tilbyder
-| En aktør som tilbyr data til eksterne parter, enten på vegne av andre, som forvalter av data eller som dataansvarlig.
+| Datatilbyder
+| Tilbyder av data til andre aktører.
 
 | Tilgjengeliggjøre data
 | Evnen til å gjøre data tilgjengelig for aktører utenfor egen virksomhet.
@@ -75,19 +50,58 @@ image:../nab_referanse_arkitekturer_forespørsel-svar-generisk/media/SBB_Tilgjen
 | Tilgjengeliggjøre API
 | Prosessen med å tilby data gjennom et API til aktører utenfor egen virksomhet.
 
+| Registrere API
+| Prosess med å registere API i relevante tjenester, api-katalog, Maskinporten, Kapabilitetsoversikt
+
 | Inngå avtale om tilgang til data
 | Prosess for å inngå avtale om tilgang og bruk av data.
 
 | Tildele tilganger til API
-| Prosessen med å registrere hvilke databrukere som skal få tilgang til et API.
+| Prosess for å registrere hvilke databrukere som skal få tilgang
+Sette policy, og grov tilgangsstyring gjennom maskinporten.
 
+| Registrere brukere av samtykke
+| Prosess for å registrere konsumenter som skal ha mulighet for å innhente samtykker som gir tilgang til en tjeneste.
 
-| Registrere API
-| Prosessen med å registere et API i relevante tjenester, API-katalogen, Maskinporten, Kapabilitetsoversikt.
+Dette utføres kun om det er behov for samtykke for tilgang til dataene.
 
+| Registrere Open API specification¨
+| Tjeneste i Felles API-katalogen for å registrere API. Bruk av tjenesten forutsetter at rettigheter til å gjøre dette på vegne av tilbyders virksomhet.
 
-| Open API Specification
-| Dataobjekt som beskriver et API inkludert adresse og operasjoner som tilbys.
+| Selvbetjeningstjeneste for administrasjon av integrasjoner og APIer
+| Tjeneste "administrasjonssentre" vil ha rettigheter til å registrere på vegne av andre f.eks. API-katalogen
+
+| Registrering av API-brukere
+| Tjeneste for gjennom selvbetjening å registrere og vedlikeholde tilgangene konsumenter skal ha til API-er og scopes.
+
+| Registrere samtykkebasert tilgang
+| Tjeneste for å registerer konsumenter som kan innhente samtykke som gir grunnlag for utlevering fra datatilbyder.
+
+| Beskrivelse API
+| Dataobjekt som er en maskinlesbar beskrivelse av REST API-er iht. Open API Specification. Dette er formatet som benyttes for å registrere et API i felles API-katalog
+
+| Token-egenskaper
+| Egenskaper som f.eks. gyldighetstid ved tilgangstoken som er Maskinportens variant av sikkerhetsbillett.
+
+| OAUTH scopes
+| Dataobjekt som som kan beskrives som en ressurs-definisjon, og et token er som regel knyttet til ett eller flere scopes. Scopes benyttes til å styre tilganger til API-er og operasjoner, samt eventuelt hva slags responser man får fra API-er.
+
+| Tilganger konsument
+| Oversikt over hvilke API og OAUTH-scopes en virksomhet (representert ved organisasjonsnummer) skal ha tilgang til (utstedt token for).
+
+| Aktører som kan innhente samtykke for bruk av API
+| Oversikt over aktører som skal ha mulighet til å innhente samtykke som grunnlag for å få tilgang til data gjennom et API. 
+URL til konsumenten det kan innhentes samtykke for må inngå i beskrivelsen.
+
+| Felles API-katalog
+| Del av Felles datakatalog som gir mulighet for å søke etter API-er og lese API-spesifikasjoner https://fellesdatakatalog.brreg.no/apis
+
+| Maskinporten
+| Maskinporten er en løsning for tilgangsstyring for virksomheter som utveksler data. Løsningen garanterer identiteten mellom virksomheter, og sørger for maskin-til-maskin autentisering
+
+| Altinn autorisasjon
+| Autorisasjonskomponenten i Altinn som gir muligheter til å delegere rettigheter til andre organisasjoner eller personer. Rettigheter til bruk av autorisasjonskomponenten baserer seg på registrerte roller i Enhetsregisteret.
+Altinn autorisasjon leverer også tjenester for å registrere og kontrollere samtykke gitt av person eller virksomhet.
 
 |===
 
@@ -100,39 +114,32 @@ For å få tilgang til data gjennom et API sikret ved hjelp av nasjonale fellesl
 image:../nab_referanse_arkitekturer_forespørsel-svar-generisk/media/SBB_Tilgang.png[alt="Bilde mangler",link=https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/e7e6c527-26f4-461c-b4dd-651fcbe85c8d/views/32191953-d527-4b27-8a58-b8ec5fd93660.html]
 
 
-
 [cols ="1,3", options="header"]
-.Elementer i view for Få tilgang til data - løsningsmønster (copy)
+.Elementer i view for Få tilgang til data - løsningsmønster
 |===
 
 | Element
 | Beskrivelse
 
-| Maskinporten
-| Fellesløsning for API-sikring ved bruk av OAUTH2-tokens.
-
-| Felles API-katalog
-| Del av Felles datakatalog som gir mulighet for å søke etter API-er og lese API-spesifikasjoner https://fellesdatakatalog.brreg.no/apis
+| Datakonsument
+| Den som innhenter eller mottar data fra andre aktører.
 
 | Få tilgang til data (konsument)
 | Evnen til å skaffe seg tilgang til tilbudte data fra annen aktør. 
 
-| Konsument
-| Den som konsumerer data.
-
 | Få tilgang til API
 | Prosessen med å skaffe seg tilgang til tilbudte data fra annen aktør. Omfatte å finne API-er, inngå nødvendige avtaler og få tilganger.
 
+| Finn/få kjennskap til API
+| Prosessen med å finne eller få kjennskap til tilgjengelige API-er gjennom relevante kataloger og søkeløsninger.
+
 | Inngå avtale om tilgang til data
-| Prosess hvor konsumenten inngår eventuell avtale med tilbyder om tilgang til data.
+| Prosess for å inngå avtale om tilgang og bruk av data.
 
 | Registrer klient med tildelt tilgang
 | Prosess for konsument å registerere (provisjonering av) den klienten som skal ha tilgang til API-et ved bruk av sikkerhetsbillett. Dette forutsetter at konsumenten har avtale om bruk av sikkerhetsbillettjenesten og at tilbyder har gitt konsumenten tilgang.
 
 Dersom det er en leverandør som har blitt delegert rettigheter som databehandler på vegne av konsument er det leverandøren som registrer sin klient.
-
-| Finne/få kjennskap til API
-| Prosessen med å finne eller få kjennskap til tilgjengelige API-er gjennom relevante kataloger og søkeløsninger.
 
 | API-søk
 | Tjeneste for å søke etter og finne tilgjengelige API-er
@@ -140,10 +147,17 @@ Dersom det er en leverandør som har blitt delegert rettigheter som databehandle
 | Registreringstjeneste for API-brukere
 | Tjeneste for å registrere klienter som skal ha tilgang til et gitt API.
 
-| Open API Specification
-| Dataobjekt som beskriver et API inkludert adresse og operasjoner som tilbys.
+| Beskrivelse API
+| Dataobjekt som er en maskinlesbar beskrivelse av REST API-er iht. Open API Specification. Dette er formatet som benyttes for å registrere et API i felles API-katalog
+
+| Felles API-katalog
+| Del av Felles datakatalog som gir mulighet for å søke etter API-er og lese API-spesifikasjoner https://fellesdatakatalog.brreg.no/apis
+
+| Maskinporten
+| Maskinporten er en løsning for tilgangsstyring for virksomheter som utveksler data. Løsningen garanterer identiteten mellom virksomheter, og sørger for maskin-til-maskin autentisering
 
 |===
+
 
 
 ==== Delegering av rettigheter til databehandler
@@ -153,23 +167,17 @@ Dersom konsumenten benytter en leverandør som skal opptre på konsumentens vegn
 image:../nab_referanse_arkitekturer_forespørsel-svar-generisk/media/SBB_Delegering.png[alt="Bilde mangler", link=https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/e7e6c527-26f4-461c-b4dd-651fcbe85c8d/views/3d9dcb59-8e6e-4f2d-aee7-c729dea4f53f.html]
 
 [cols ="1,3", options="header"]
-.Elementer i view for Delegere rettigheter til databehandler - løsningsmønster 
+.Elementer i view for Delegere rettigheter til databehandler - løsningsmønster
 |===
 
 | Element
 | Beskrivelse
 
-| Altinn autorisasjon
-| Autorisasjonskomponenten i Altinn som gir muligheter til å delegere rettigheter til andre organisasjoner eller personer. Rettigheter til bruk av autorisasjonskomponenten baserer seg på registrerte roller i Enhetsregisteret.
-
-| Registering av representasjonsforhold
-| Tjeneste for å registrere et representasjonsforhold som gir leverandør mulighet til å opptre på vegne av konsument
-
-| Delegering av rettigheter til databehandler
-| Evnen til å delegere rettigheter til databehandler som utfører oppgaver på vegne av behandlingsansvarlig.
-
 | Samhandlingsaktør
-| Den som inngår i en samhandlingsprosess og samhandler med en annen samhandlingsaktør. Kan være en tilbyder, konsument, avsender, mottaker, leverandør etc.
+| Samlebetegnelse på roller som inngår i en samhandlingsprosess og samhandler med en annen samhandlingsaktør. Kan være en tilbyder, konsument, avsender, mottaker, leverandør etc.
+
+| Delegere rettigheter til databehandler
+| Evnen til å delegere rettigheter til databehandler som utfører oppgaver på vegne av behandlingsansvarlig.
 
 | Delegering av rettigheter til databehandler (leverandør)
 | Prosessen med å delegere rettigheter til databehandler/leverandør.
@@ -181,16 +189,25 @@ image:../nab_referanse_arkitekturer_forespørsel-svar-generisk/media/SBB_Deleger
 | Prosessen med å delegere tilganger. I tilknytning til eOppslag vil formålet være å gi leverandør tilgang til å representere konsument overfor et API, men registreringen vil potensielt også kunne gjelde for andre områder.
 
 | Delegerbar ressurs
-| Beskrivelse av ressurs, f.eks. et API, som det kan gis rettigheter til gjennom et representasjonsforhold.
+| Dataobjekt som beskriver en ressurs, f.eks. et API, som det kan gis rettigheter til gjennom et representasjonsforhold.
+
+| Registering av representasjonsforhold
+| Tjeneste for å registrere et representasjonsforhold som gir leverandør mulighet til å opptre på vegne av konsument
+
+| Altinn autorisasjon
+| Autorisasjonskomponenten i Altinn som gir muligheter til å delegere rettigheter til andre organisasjoner eller personer. Rettigheter til bruk av autorisasjonskomponenten baserer seg på registrerte roller i Enhetsregisteret.
+Altinn autorisasjon leverer også tjenester for å registrere og kontrollere samtykke gitt av person eller virksomhet.
 
 |===
+
+
 
 === Informasjon som inngår i klargjøring av forespørsel
 
 
 Figuren under viser hvilken informasjons som må registreres i de ulike komponentene som del av klargjøringen for å forespørre data fra et API.
 
-image:../nab_referanse_arkitekturer_forespørsel-svar-generisk/media/Dataobjekter eOppslag.png[alt="Bilde mangler", width=500, link=https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/e7e6c527-26f4-461c-b4dd-651fcbe85c8d/views/6a46c6d0-64eb-43d4-97f3-2a94516c2211.html]
+image:../nab_referanse_arkitekturer_eoppslag/media/Dataobjekter eOppslag.png[alt="Bilde mangler", width=500, link=https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/e7e6c527-26f4-461c-b4dd-651fcbe85c8d/views/6a46c6d0-64eb-43d4-97f3-2a94516c2211.html]
 
 
 [cols ="1,3", options="header"]
@@ -203,34 +220,33 @@ image:../nab_referanse_arkitekturer_forespørsel-svar-generisk/media/Dataobjekte
 | API-katalogen
 | API-katalogen er en del av Felles datakatalog som inneholder API-beskrivelser med endepunktsadresser og kobling til datasett.
 
-| Tilganger konsument/representasjonsforhold
-| Dataobjekt som beskriver hvilke tilganger til ressurser en representant (leverandør) skal ha på vegne av konsument.
-
-| Delegerbar ressurs
-| Dataobjekt som beskriver en ressurs, f.eks. et API, som det kan gis rettigheter til gjennom et representasjonsforhold.
+| Beskrivelse API
+| Dataobjekt som er en maskinlesbar beskrivelse av REST API-er iht. Open API Specification. Dette er formatet som benyttes for å registrere et API i felles API-katalog
 
 | Endepunkt (adresse)
 | Dataobjekt som representerer teknisk adresse til et API eller ressurs.
-
-| Maskinporten
-| Maskinporten er en løsning for tilgangsstyring for virksomheter som utveksler data. Løsningen garanterer identiteten mellom virksomheter, og sørger for maskin-til-maskin autentisering
 
 | Altinn autorisasjon
 | Autorisasjonskomponenten i Altinn som gir muligheter til å delegere rettigheter til andre organisasjoner eller personer. Rettigheter til bruk av autorisasjonskomponenten baserer seg på registrerte roller i Enhetsregisteret.
 Altinn autorisasjon leverer også tjenester for å registrere og kontrollere samtykke gitt av person eller virksomhet.
 
-| Beskrivelse API
-| Dataobjekt som er en maskinlesbar beskrivelse av REST API-er iht. Open API Specification. Dette er formatet som benyttes for å registrere et API i felles API-katalog
-
-| OAUTH scopes
-| Dataobjekt som som kan beskrives som en ressurs-definisjon, og et token er som regel knyttet til ett eller flere scopes. Scopes benyttes til å styre tilganger til API-er og operasjoner, samt eventuelt hva slags responser man får fra API-er.
+| Delegerbar ressurs
+| Dataobjekt som beskriver en ressurs, f.eks. et API, som det kan gis rettigheter til gjennom et representasjonsforhold.
 
 | Beskrivelse av aktør som kan innhente samtykke
 | Dataobjekt som beskriver en datakonsument som har rett til å innhente samtykke om å slå opp data.
 Viktig innholde er bl.a. URL
 
-|===
+| Tilganger konsument/representasjonsforhold
+| Dataobjekt som beskriver hvilke tilganger til ressurser en representant (leverandør) skal ha på vegne av konsument.
 
+| Maskinporten
+| Maskinporten er en løsning for tilgangsstyring for virksomheter som utveksler data. Løsningen garanterer identiteten mellom virksomheter, og sørger for maskin-til-maskin autentisering
+
+| OAUTH scopes
+| Dataobjekt som som kan beskrives som en ressurs-definisjon, og et token er som regel knyttet til ett eller flere scopes. Scopes benyttes til å styre tilganger til API-er og operasjoner, samt eventuelt hva slags responser man får fra API-er.
+
+|===
 
 
 == Utveksling av data
@@ -249,29 +265,17 @@ image:../nab_referanse_arkitekturer_forespørsel-svar-generisk/media/SBB_Innhent
 | Element
 | Beskrivelse
 
-| Maskinporten
-| Fellesløsning for API-sikring ved bruk av OAUTH2-tokens.
-
 | Datakonsument
 | Den som innhenter eller mottar data fra andre aktører.
-
-| Tokentjeneste
-| Tjeneste som utsteder sikkerhetsbilletter. Sikkerhetsbillett utstedes basert på tildelte rettigheter og eventuelle representasjonsforhold.
-
-| Virksomhetssertifikat
-| En virksomhets elektroniske ID. Benyttes for å autentisere virksomheten overfor tokentjenesten.
 
 | Innhente data
 | Evnen til å innhente data fra en annen aktør.
 
-| Endepunkt (adresse)
-| Teknisk adresse til et API eller ressurs
-
-| Oppslag representasjons-forhold
-| Tjeneste som benyttes av tokentjenesten for å kontrollere om det foreligger et delegert representasjonsforhold fra konsument til leverendør i autorisasjonstjenesten til Altinn.
-
 | Slå opp data gjennom et API 
 | Prosessen med lå opp og hente data gjennom et API.
+
+| Innhent samtykke ved behov
+| Prosess for å innhente samtykke fra person eller virksomhet som grunnlag for å innhente data. Dette gjøres kun ved behov.
 
 | Hent teknisk endepunkt ved behov
 | Prosessen å slå opp den tekniske adressen til et API før spørring mot API-et. Gjøres kun dersom det er nødvendig.
@@ -282,8 +286,26 @@ image:../nab_referanse_arkitekturer_forespørsel-svar-generisk/media/SBB_Innhent
 | Utfør tjenestekall
 | Prosessen med å benytte (gjøre et oppslag mot) et eksternt API.
 
-| Innhent samtykke ved behov
-| Prosess for å innhente samtykke fra person eller virksomhet som grunnlag for å innhente data. Dette gjøres kun ved behov.
+| Samtykkeregistererings-tjeneste
+| Tjeneste for å innhente samtykke fra den registrert som dataene gjelder. Dette kan være en person eller en virksomhet.
+
+| Adressetjeneste
+| Tjeneste som gir mulighet til å slå opp teknisk endepunkt
+
+| Tokentjeneste
+| Tjeneste som utsteder sikkerhetsbilletter. Sikkerhetsbillett utstedes basert på tildelte rettigheter og eventuelle representasjonsforhold.
+
+| Oppslag representasjonsforhold
+| Tjeneste som benyttes av tokentjenesten for å kontrollere om det foreligger et delegert representasjonsforhold fra konsument til leverendør i autorisasjonstjenesten til Altinn.
+
+| Datautvekslingstjeneste
+| Tjeneste for utveksling av data. Samme som data exchange service. Benyttes av avsender og mottaker for transport av meldinger.
+
+| Endepunkt (adresse)
+| Teknisk adresse til et API eller ressurs
+
+| Virksomhetssertifikat
+| En virksomhets elektroniske ID. Benyttes for å autentisere virksomheten overfor tokentjenesten.
 
 | Tilganger konsument
 | Oversikt over hvilke API og OAUTH-scopes en virksomhet (representert ved organisasjonsnummer) skal ha tilgang til (utstedt token for).
@@ -295,14 +317,8 @@ Altinn autorisasjon leverer også tjenester for å registrere og kontrollere sam
 | Felles API-katalog
 | Del av Felles datakatalog som gir mulighet for å søke etter API-er og lese API-spesifikasjoner https://fellesdatakatalog.brreg.no/apis
 
-| Adressetjeneste
-| Tjeneste som gir mulighet til å slå opp teknisk endepunkt
-
-| Datautvekslings-tjeneste
-| Tjeneste for utveksling av data. Samme som data exchange service. Benyttes av avsender og mottaker for transport av meldinger.
-
-| Samtykkeregistererings-tjeneste
-| Tjeneste for å innhente samtykke fra den registrert som dataene gjelder. Dette kan være en person eller en virksomhet.
+| Maskinporten
+| Fellesløsning for API-sikring ved bruk av OAUTH2-tokens.
 
 | Altinn autorisasjon
 | Autorisasjonskomponenten i Altinn som gir muligheter til å delegere rettigheter til andre organisasjoner eller personer. Rettigheter til bruk av autorisasjonskomponenten baserer seg på registrerte roller i Enhetsregisteret.
@@ -311,65 +327,67 @@ Altinn autorisasjon leverer også tjenester for å registrere og kontrollere sam
 |===
 
 
-
-
 === Avgi data
 
 Når tilbyder får en forspørsel om data som et API-kall og det ligger ved en sikkerhetsbillett benyttes valideringstjenesten til maskinporten for grov tilgangskontroll.
 
 image:../nab_referanse_arkitekturer_forespørsel-svar-generisk/media/SBB_Avgi.png[alt="Bilde mangler", width=650,link=https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek/e7e6c527-26f4-461c-b4dd-651fcbe85c8d/views/5a43e372-cf45-491f-a5e9-514d83e1e259.html]
 
+
 [cols ="1,3", options="header"]
-.Elementer i view for Avgi data - løsningsmønster (copy)
+.Elementer i view for Avgi data - løsningsmønster
 |===
 
 | Element
 | Beskrivelse
 
-| Maskinporten
-| Fellesløsning for API-sikring ved bruk av OAUTH2-tokens.
-
-| Tokenvalideringstjeneste
-| Tjeneste som benyttes av tilbyder for å validere og kontrollere autentisiteten til et OAUTH2 token fra Maskinporten
+| Datatilbyder
+| Tilbyder av data til andre aktører.
 
 | Avgi data
 | Evne til å avgi data på forespørsel. Kan omfatte tilgangsstyring.
-
-| Tilbyder
-| En aktør som tilbyr data til eksterne parter, enten på vegne av andre, som forvalter av data eller som dataansvarlig.
 
 | Avgi forespurte data gjennom API
 | Prosessen med å avgi data på forespørsel gjennom et egnet API.
 
 | Motta  forespørsel om oppslag
-| Prosessen med å motta forespørsler fra API-konsument om å avgi data.
-
-| Kontroller tilgang
-| Prosessen med kontroll og håndheving av konsumentens rettigheter til å få forespurte data. I tillegg til "validering av sikkerhetsbillet", kan det være behov for kontroll mot virksomhetsinterne policies.
-
-| Avgi data
-| Prosessen med å gi svar på forespørselen.
+| Motta forespørsler fra API-konsument om å avgi data.
 
 | Autentisere konsument
-| Prosessen med å autentisere en konsument.
+| Prosessen med å autentisere en kosnument.
 
-| Tilgangskontroll-tjeneste
+| Kontroller tilgang
+| Kontroll og håndheving av konsumentens rettigheter til å få forespurte data.  I tillegg til "validering av sikkerhetsbillet", kan det være behov for kontroll mot virksomhetsinterne policies.
+
+| Avgi data
+| Prosessen med å gi svar på forespørselen. 
+
+| Datautvekslingstjeneste
+| Tjeneste for utveksling av data. Samme som data exchange service. Benyttes av avsender og mottaker for transport av meldinger.
+
+| Tokenvalideringstjeneste
+| Tjeneste som benyttes av tilbyder for å validere og kontrollere autentisiteten til et OAUTH2 token fra Maskinporten
+
+| Tilgangskontrolltjeneste
 | Tjeneste for å sjekke rettigheter til data. Kan være eksterne eller interne tjenester.
 Eksempler på rettigheter kan komme av samtykker fra person eller virksomhet, eller rollebasert fra vergemål, familierelasjon el.
 
+| Datautvekslingstjeneste
+| Tjeneste for utveksling av data. Samme som data exchange service. Benyttes av avsender og mottaker for transport av meldinger.
+
+| Maskinporten
+| Maskinporten er en løsning for tilgangsstyring for virksomheter som utveksler data. Løsningen garanterer identiteten mellom virksomheter, og sørger for maskin-til-maskin autentisering
+
 | Altinn autorisasjon
 | Autorisasjonskomponenten i Altinn som gir muligheter til å delegere rettigheter til andre organisasjoner eller personer. Rettigheter til bruk av autorisasjonskomponenten baserer seg på registrerte roller i Enhetsregisteret.
+Altinn autorisasjon leverer også tjenester for å registrere og kontrollere samtykke gitt av person eller virksomhet.
 
-| Egen autorisasjons-komponent
-| 
-
-| Datautvekslings-tjeneste
-| Tjeneste for utveksling av data. Benyttes av avsender/tilbyder og mottaker/konsument for transport av data.
-
-| Datautvekslings-tjeneste
-| Tjeneste for utveksling av data. Benyttes av avsender/tilbyder og mottaker/konsument for transport av data.
+| Egen autorisasjonskomponent
+| Komponent for å håndheve virksomhetens regler for tilgang. 
+Også kalt policy enforcement point (PEP).
 
 |===
+
 
 
 
