@@ -18,5 +18,9 @@ Slett denne katalogen? Det finnes "noe annet" som dekker det samme...
 
 . Fix  Figur 2. Datautveksling - overordnet oversikt over kapabiliteter og temaer
 
+. Slå sammen ABB/SBB-nivå i eNotifikasjon
+
+. Flytt _Krav og prinsipper for eNotifikasjon_ opp til konsepter??
+
 
 
