@@ -80,11 +80,11 @@ Forklaring til figur:
 | Element
 | Beskrivelse
 
-| Klargjøre for deling av data ved forsendelse
-| Evne til å klargjøre for meldingsutveksling med eksterne parter.
-
 | Samhandlingsaktør
 | Samlebetegnelse på roller som inngår i en samhandlingsprosess og samhandler med en annen samhandlingsaktør. Kan være en tilbyder, konsument, avsender, mottaker, leverandør etc.
+
+| Klargjøre for deling av data ved forsendelse
+| Evne til å klargjøre for meldingsutveksling med eksterne parter.
 
 | Klargjør for melding
 | Prosessen med å klargjøre for melding ved å  inngå nødvendige avtaler og tilgjengeliggjøre nødvendig informasjon til andre samhandlingsaktører.
@@ -103,33 +103,29 @@ Forklaring til figur:
 
 Sertifikater må forvaltes og fornyes etter gjeldende regler for å være gyldige og egnet for bruk. 
 
-| CEF SML
-| Service Metadata Locator
-
-| BCP (CommFides eller Buypass)
-| Business Certificate Publisher
-
-| Sertifikatregisterering
-| Tjeneste for å registrere serifikater i felles katalogtjeneste.
-
-| Application Function
-| 
+| Kapabilitetsregistrering
+| Tjeneste for å registrere kapabiliteter
 
 | Adresseregistrering
 | Tjeneste for å registrere adresse for å sende melding til mottaker.
 
-| Kapabilitetsregistrering
-| Tjeneste for å registrere kapabiliteter
+| Sertifikatregisterering
+| Tjeneste for å registrere serifikater i felles katalogtjeneste.
+
+| OpenPeppol
+| 
 
 | Elektronisk mottakerregister (ELMA)
 | Med ELMA får brukerne dine oversikt over alle virksomheter i Norge som kan motta elektroniske fakturaer i henhold til EHF-standarden. 
 
+| CEF SML
+| Service Metadata Locator
+
 | BCL
 | Business Certificate Locater
 
-
-| OpenPeppol
-| 
+| BCP (CommFides eller Buypass)
+| Business Certificate Publisher
 
 |===
 
@@ -145,7 +141,7 @@ image::../nab_referanse_arkitekturer_emelding/media/Send eMelding  (løsningsmø
 Forklaring til figur:
 
 [cols ="1,3", options="header"]
-.Elementer i view for Send melding SBB
+.Elementer i view for Send eMelding  (løsningsmønster)
 |===
 
 | Element
@@ -154,14 +150,14 @@ Forklaring til figur:
 | Avsender 
 | Den som sender et brev, en pakke, en e-post, en elektronisk melding, en SMS eller lignende.
 
+| Sende data
+| Evnen til å sende data til en mottaker.
+
 | Send melding
 | Prosessen med å sende en eMelding til en mottaker ved hjelp av fellestjenester.
 
 | Kontroller mottakers kapabiliteter
 | Prosess for å slå opp og kontrollere mottakers evner til samhandling innenfor fellesskapet.
-
-| Eksepeder melding
-| Prosessen med å sende melding til mottaker.
 
 | Formater melding
 | Prosess for å tilpasse informasjonspakken til mottakers kapabiliteter og fellesskapets standarder.
@@ -175,42 +171,40 @@ Forklaring til figur:
 | Signer forsendelse
 | Prosessen med å signere meldingen som sendes til mottaker. Til dette benyttes eget sertifikats private nøkkel.
 
+| Eksepeder melding
+| Prosessen med å sende melding til mottaker.
+
 | Kapabilitetsoppslag
 | Tjeneste for å slå opp kapabilitetene til en samhandlingspart
-
-| Adresseoppslag
-| Tjeneste for å slå opp adressen til en mottaker.
-
-| Sending av data
-| Evnen til å sende data til en mottaker.
-
-| Sertifikatoppslag
-| Tjeneste for å hente krypteringssertifkat til mottaker.
-
-| Datautvekslings-tjeneste
-| Tjeneste for utveksling av data. Samme som data exchange service. Benyttes av avsender og mottaker for transport av meldinger.
-
-| Signeringstjeneste
-| Tjeneste for å signere en elektronisk melding. For eMelding er det signatur i form av elektronisk segl som er mest relevant.
-
-| Sporingstjeneste
-| Tjeneste for sporing (audit) av meldinger.
 
 | Datatransformasjon
 | Tjeneste for  transformere data og meldinger til andre formater.
 
+| Sertifikatoppslag
+| Tjeneste for å hente krypteringssertifkat til mottaker.
+
+| Adresseoppslag
+| Tjeneste for å slå opp adressen til en mottaker.
+
+| Signeringstjeneste
+| Tjeneste for å signere en elektronisk melding. For eMelding er det signatur i form av elektronisk segl som er mest relevant.
+
+| Datautvekslings-tjeneste
+| Tjeneste for utveksling av data. Samme som data exchange service. Benyttes av avsender og mottaker for transport av meldinger.
+
+| Sporingstjeneste
+| Tjeneste for sporing (audit) av meldinger.
+
 | CEF SML
 | Service Metadata Locator
 
-| BCP
-| Business Certificate Publisher
-
-| ELMA
-| Elektronisk mottakeradresseregister
-
+|Elektronisk mottakerregister (ELMA)
+|Med ELMA får brukerne dine oversikt over alle virksomheter i Norge som kan motta elektroniske fakturaer i henhold til EHF-standarden. 
 | BCL
 | Business Certificate Locater
 
+| BCP (CommFides eller Buypass)
+| Business Certificate Publisher
 
 | PEPPOL
 | 
@@ -227,25 +221,22 @@ image::../nab_referanse_arkitekturer_emelding/media/Motta eMelding (løsningsmø
 Forklaring til figur:
 
 [cols ="1,3", options="header"]
-.Elementer i view for Motta melding SBB
+.Elementer i view for Motta eMelding (løsningsmønster)
 |===
 
 | Element
 | Beskrivelse
 
+| Mottaker
+| Den som mottar en elektronisk melding eller tilsvarende.
+
 | Motta melding
 | Evnen til å motta, validere og kvittere for mottatte meldinger.
-
-| Mottaker
-| Den som mottar en melding.
 
 | Motta melding
 | Prosessen med å motta melding. Består av flere delprosesser.
 
 Etter mottak må mottaker følge opp og håndtere innholdet i meldingen.
-
-| Valider forsendelse
-| Prosessen med å kontrollere om innholdet i en forsendelse er i henhold til avtale og avtalte formater.
 
 | Motta forsendelse
 | Prosessen med å motta en melding fra avsender
@@ -255,6 +246,9 @@ Etter mottak må mottaker følge opp og håndtere innholdet i meldingen.
 
 | Dekrypter melding
 | Prosessen med å dekryptere mottatt melding. 
+
+| Valider forsendelse
+| Prosessen med å kontrollere om innholdet i en forsendelse er i henhold til avtale og avtalte formater.
 
 | Datautvekslings-tjeneste
 | Tjeneste for utveksling av data. Samme som data exchange service. Benyttes av avsender og mottaker for transport av meldinger.
@@ -272,6 +266,7 @@ Etter mottak må mottaker følge opp og håndtere innholdet i meldingen.
 | 
 
 |===
+
 
 
 == Videre informasjon om eMelding
