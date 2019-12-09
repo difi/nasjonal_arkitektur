@@ -1,5 +1,5 @@
 :lang: no
-:doctitle: Admin
+:doctitle: Admin - backlog
 :keywords: 
 :toclevels: 3
 include::../plattform_felles/includes/commonincludes.adoc[]
@@ -12,13 +12,13 @@ Slett denne katalogen? Det finnes "noe annet" som dekker det samme...
 
 . Fix rekkefølge på tabellelementer (Henrik)
 
-. Generer web-bversjon og oppdater alle lenker
+. Generer web-bversjon og oppdater alle lenker (Erik)
 
-. Fix  Figur 2. Datautveksling - overordnet oversikt over kapabiliteter og temaer
+//. Fix  Figur 2. Datautveksling - overordnet oversikt over kapabiliteter og temaer
 
-. Slå sammen ABB/SBB-nivå i eNotifikasjon
+//. Slå sammen ABB/SBB-nivå i eNotifikasjon
 
-. Flytt _Krav og prinsipper for eNotifikasjon_ opp til konsepter??
+//. Flytt _Krav og prinsipper for eNotifikasjon_ opp til konsepter??
 
 
 
