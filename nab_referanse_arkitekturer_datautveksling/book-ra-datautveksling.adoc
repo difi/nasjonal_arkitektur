@@ -69,13 +69,14 @@ a. Generisk mønster for publisering av data
 b. *eNotifikasjon - arkitekturmønster for strømming av hendelsesdata*
 
 
-.Aktuelle referansearkitekturer (høst 2019)
+Illustrasjon - prioriterte arkitektur- og løsningsmønstre:
+
+.Prioriterte referansearkitekturer (høst 2019)
 image::../nab_referanse_arkitekturer/media/Aktuelle referansearkitekturer.png[alt=Aktuelle referansearkitekturer image]
 
 
 
-
-Følgende figur er her gjengitt fra innholdet under link:../nab_arkitekturlandskap_segmentarkitektur_datadeling_datautveklsing\[temaområde datautveksling], og viser en oversikt over de viktigste operative og forvaltningsmessige kapabilitetene for henholdsvis datatilbyder og  datakonsument. Nederst i figuren er det også listet tverrgående temaer som vurderes som særlig viktige i tilknytning til datautveksling.
+Her gjengis også en figur fra link:../nab_arkitekturlandskap_segmentarkitektur_datadeling_datautveklsing\[temaområde datautveksling] som viser en oversikt over de viktigste operative og forvaltningsmessige kapabilitetene for henholdsvis datatilbyder og  datakonsument. Nederst i figuren er det også listet tverrgående temaer som vurderes som særlig viktige i tilknytning til datautveksling.
 
 //Videre nedbryting i detaljerte kapabiliteter og mønstre gjøres i tilknytning til beskrivelsene av referansearkitekturer for datautveksling.
 
@@ -88,10 +89,9 @@ Følgende figur er her gjengitt fra innholdet under link:../nab_arkitekturlandsk
 .Datautveksling - overordnet oversikt over kapabiliteter og temaer 
 image::../nab_arkitekturlandskap_segmentarkitektur_datadeling_datautveklsing/media/Datautveksling - overordnet oversikt over kapabiliteter og temaer .png[alt=Datautveksling - overordnet oversikt over kapabiliteter og temaer  image]
 
-Beskrivelser av kapabiliteter og temaer gis i tilknytning til beskrivelser av de enkelte referansearkitekturene.
+Videre beskrivelser av temaer og kapabiliteter gis i tilknytning til beskrivels  er av de enkelte referansearkitekturene.
 
-NOTE: Virksomhetsarkitekturen kan inndeles i områder, eller temaområder, og videre i kapabiliteter. Dette kan gjøres i flere nivåer, til et hensiktsmessig detaljnivå. Med kapabilitet menes en evne som er forbundet med en rolle eller en aktør. Slike aktører kan være organisasjoner, personer eller tekniske systemer. Realiseringen av en kapabilitet gjøres igjen typisk gjennom organisasjoner, mennesker, prosesser og teknologier, gjerne i kombinasjon.
-
+NOTE: _Virksomhetsarkitekturen kan inndeles i områder, eller temaområder, og videre i kapabiliteter. Dette kan gjøres i flere nivåer, til et hensiktsmessig detaljnivå. Med kapabilitet menes en evne som er forbundet med en rolle eller en aktør. Slike aktører kan være organisasjoner, personer eller tekniske systemer. Realiseringen av en kapabilitet gjøres igjen typisk gjennom organisasjoner, mennesker, prosesser og teknologier, gjerne i kombinasjon._
 
 
 ////
