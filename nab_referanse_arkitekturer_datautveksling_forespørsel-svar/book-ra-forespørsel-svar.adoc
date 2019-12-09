@@ -17,7 +17,7 @@ include::../nab_referanse_arkitekturer_forespørsel-svar-generisk/book-generisk-
 
 
 = eOppslag - et løsningsmønstre for oppslag i data gjennom synkrone API-kall
-_Dette er en del  link:../nab_referanse_arkitekturer_datautveksling/[Referansearkitektur for datautveksling]_
+
 include::../nab_referanse_arkitekturer_eoppslag/book-eoppslag-referansearkitektur.adoc[]
 
 ////

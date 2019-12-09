@@ -8,13 +8,13 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 = Introduksjon
 
 == Generelt
-_Referansearkitektur for datautveksling_ er en samling av  arkitekturmønstre og løsningsmønstre som angir beste praksis for arkitekturer og løsninger innen _temaområdet datautveksling_.
+_Referansearkitektur for datautveksling_ gir beste praksis for arkitekturer og løsninger innen _temaområdet datautveksling_.
 
-Primær målgrupper er virksomhetsarkitekter og  løsningsarkitekter.
+Primære målgrupper er virksomhetsarkitekter og  løsningsarkitekter.
 
 Beskrivelsene kan leses som en sammenhengende "bok", men forutsetter en viss kjennskap til grunnleggende konsepter og metodikk.
 
-Her er noen lenker med bakgrunnsinformasjon:
+Se også:
 
 1. link:../nab_overordnet-metode-om-referansearkitekturer[Om referansearkitekturer]
 
@@ -41,18 +41,35 @@ Her er noen lenker med bakgrunnsinformasjon:
 == Omfang og avgrensing
 //include::../nab_referanse_arkitekturer_datautveksling/brukstilfeller.adoc[]
 
-Foreliggende referansearkitekturer adresserer følgende grunnleggende behov:
+Foreliggende _referansearkitektur for datautveksling_ omfatter områder og basismønstre som svarer på følgende grunnleggende samhandlingsbehov:
 
-* Enkeltvise oppslag i enkeltstående datakilder. Dette dekkes blant annet av referansearkitekturen *_eOppslag_* (høst 2019).
+1. Spørring og oppslag: Enkeltvise oppslag i enkeltstående datakilder.
 
-* Enkeltvise overføringer av data fra en avsender til en bestemt mottaker. Dette dekkes blant annet av referansearkitekturen *_eMelding_* (høst 2019).
+2. Forsendelse: Enkeltvise overføringer av data fra en avsender til en bestemt mottaker.
 
-* Deling av hendelsesdata fra en til mange. Dette dekkes gjennom mønstre for publisering. Dette dekkes blant annet av referansearkitekturen *_eNotifikasjon_* (høst 2019).
+3. Publisering: Publisering av data og hendelser fra en til mange, med løs kopling mellom tilbydere og konsumenter. 
 
 
-TIP: Dette er basismønstre som kan brukes og kombineres på flere måter. Arbeid med dette er påbegynt (høst 2019); se under link:..nab_referanse_arkitekturer_tverrgående-tema/avanserte-mønstre[Sammensatte arkitekturmønstre for datadeling og samhandling].
+TIP: Basismønstrene gir grunnlag for sammensatte og mer avanserte samhandlingsmønstre.
 
-.Aktuelle referansearkitekturer
+_Referansearkitektur for datautveksling_ omfatter inntil videre følgende prioriterte arkitektur- og løsningsmønstre (**uthevet skrift** angir her prioriterte områder og avtalte leveranser i 2019):
+
+1. Deling av data ved forespørsel: 
+a. Generisk mønster for spørring og oppslag.
+b. *eOppslag - et løsningsmønster for oppslag i data gjennom synkrone API-kall med bruk av fellesløsninger i Norge*
+
+2. Deling av data ved forsendelse:
+a. Generisk mønster for meldingsforsendelse
+b. *eMelding - et arkitekturmønster etter modell fra CEF eDelivery*
+c. Løsningsmønster for eMelding i PEPPOL-infrastrukturen
+
+
+3. Deling av data ved publisering: 
+a. Generisk mønster for publisering av data
+b. *eNotifikasjon - arkitekturmønster for strømming av hendelsesdata*
+
+
+.Aktuelle referansearkitekturer (høst 2019)
 image::../nab_referanse_arkitekturer/media/Aktuelle referansearkitekturer.png[alt=Aktuelle referansearkitekturer image]
 
 
