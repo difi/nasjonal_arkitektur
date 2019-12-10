@@ -233,7 +233,7 @@ En notifikasjon inneholder også en referanse til hendelsen og relevante grunnla
 
 
 | Filtrering av notifikasjoner
-| Tjeneste for å filtrere innhentede notifikasosjoner. Dette er en tilleggsmekanisme for filtrering, sammenliknet med filtrering som gjøres gjennom spøringer mot datatilbyder, og benyttes ved behov.  Eksempler på behov:
+| Tjeneste for å filtrere innhentede notifikasjoner. Dette er en tilleggsmekanisme for filtrering, sammenliknet med filtrering som gjøres gjennom spøringer mot datatilbyder, og benyttes ved behov.  Eksempler på behov:
 
 a. Datatilbyder gir ikke gode nok muligheter for filtrering.
 
