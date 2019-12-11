@@ -4,8 +4,14 @@
 
 include::../plattform_felles/includes/commonincludes.adoc[]
 
+[.lead]
+Basismønstre for datautveksling kan kombineres og brukes på ulike måter. Her beskrives noen typiske slike, sammensatte mønstre - eller _samhandlingsmønstre_.
+
 image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _I arbeid._
 
+
+
+////
 == Introduksjon
 TBD.
 
@@ -15,7 +21,7 @@ TBD.
 
 == Meldingsutveksling i  tverrgående prosesser
 TBD.
-
+////
 
 ////
 
