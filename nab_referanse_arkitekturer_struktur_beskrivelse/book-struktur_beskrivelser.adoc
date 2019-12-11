@@ -1,5 +1,5 @@
 :lang: no
-:doctitle: Leseveiledning for referansearkitekturer innen datautveksling
+:doctitle: Leseveiledning referansearkitekturer for datautveksling
 :keywords: Referansearkitekturer
 
 include::../plattform_felles/includes/commonincludes.adoc[]
