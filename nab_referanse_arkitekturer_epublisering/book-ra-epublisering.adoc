@@ -90,8 +90,9 @@ image::../nab_referanse_arkitekturer_epublisering/media/eNotifikasjon - konsumen
 
 Modellen under viser kapabiliteter som er spesifikke for eNotifikasjon. Øvrige kapabiliteter er beskrevet i samhandlingsmønsteret for _deling av data på forespørsel_.
 
-image:../nab_referanse_arkitekturer_epublisering/media/eNotifikasjon kapabiliteter kort.png[alt="Bilde mangler"]
 
+.Kapabiliteter eNotifikasjon
+image::../nab_referanse_arkitekturer_epublisering/media/Kapabiliteter eNotifikasjon.png[alt=Kapabiliteter eNotifikasjon image]
 
 [cols ="1,3", options="header"]
 .Elementer i view for Kapabiliteter eNotifikasjon
@@ -100,20 +101,19 @@ image:../nab_referanse_arkitekturer_epublisering/media/eNotifikasjon kapabilitet
 | Element
 | Beskrivelse
 
-| Tilbyder
-| En aktør som tilbyr data til eksterne parter, enten på vegne av andre, som forvalter av data eller som dataansvarlig.
+| Datatilbyder
+| Tilbyder av data til andre aktører.
 
-| Konsument
-| Den som konsumerer data.
-
-| Innhente og håndtere notifikasjoner
-| Evene til å innhente og håndtere notifikasjoner om endringer i et datasett.
+| Datakonsument
+| Den som innhenter eller mottar data fra andre aktører.
 
 | Generere og tilby notifikasjoner
-| Evnen til å tilby hendelseslister med notifikasjoner om endringer i ett eller flere datasett.
+| Evnen til å dele informasjon om hendelser gjennom notifikasjoner som tilgjengeliggjøres for konsumenter gjennom hendelseslister.
+
+| Innhente og håndtere notifikasjoner
+| Evnen til å konsumere hendelseslister.
 
 |===
-
 
 
 //image:../nab_referanse_arkitekturer_enotifikasjon/media/Kapabiliteter eNotifikasjon.png[alt="Bilde mangler", width=750]
