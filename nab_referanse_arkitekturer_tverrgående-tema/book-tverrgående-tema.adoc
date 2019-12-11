@@ -5,11 +5,13 @@
 include::../plattform_felles/includes/commonincludes.adoc[]
 
 [.lead]
-Basismønstre for datautveksling kan kombineres og brukes på ulike måter. Her beskrives noen typiske slike, sammensatte mønstre - eller _samhandlingsmønstre_.
+Basismønstre for datautveksling kan kombineres og brukes på ulike måter. Her beskrives noen typiske _brukstilfeller_ og _samhandlingsmønstre_.
 
 image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _I arbeid._
 
 
+
+TIP: Som eksempler på _samhandlingsmønstre_ som det kan være aktuelt å adressere her, er _meldingsutveksling i tverrgående prosesser mellom kjente parter_, _dynamiske prosesser i økosystem_ og flere _spesialiserte arbeidsflytmønstre_ (f.eks. det mønsteret son benyttes i eResept, der det publiseres en hendelse til alle apotekene, men kun ett apotek kan ta jobben og "kvittere ut" hendelsen). 
 
 ////
 == Introduksjon
