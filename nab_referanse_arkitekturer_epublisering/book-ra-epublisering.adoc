@@ -29,6 +29,8 @@ eNotifikasjon dreier seg om publisering av hendelsesdata, eller notifikasjoner, 
 * Hendelseslister må kunne traverseres.
 * Notifikasjoner innhentes på initiav fra konsument (pull).
 
+// Henrik Figur under er tatt ut og bør erstattes med figur uten formidler rollen og tilhørende komponenter.
+////
 
 == Aktørsamspill
 
@@ -54,6 +56,7 @@ Kommentarer til denne figuren:
 
 * _Data assosiert med hendelse_ kan her antas å inneholde all relevant informasjon om aktuelle hendelser. Datakonsumentene må kunne gå tilbake til Datatilbyder for å innhente supplerende data i tilknytning til hver enkelt notifikasjon, ved behov. Avhengig av behovene, må aktuelle data kunne være tilgjengelige for gjentatt lesing, kanskje flere år fram i tid.    
 
+////
 
 == Verdistrømmer
 
@@ -245,10 +248,14 @@ b. Formidling av noifikasjoner til flere og ulike typer (interne) konsumenter.
 
 
 == Løsningsmønstre
-Spesifikke løsningsmønstre for eNotifikasjon er inntil videre ikke utarbeidet. Det er stor variasjon i praksis, og ingen fellesløsninger er så langt etablert i Norge. 
+Spesifikke løsningsmønstre for eNotifikasjon er inntil videre ikke utarbeidet. Det er stor variasjon i praksis, og ingen fellesløsninger er så langt etablert i Norge.
 
+Det beste eksempelet er så langt distriubsjonen av modernisert folkeregister fra Skatteetaten som blant annet tilbyr hendelseslister og oppslag som konsumenttjenester. Disse tjenestene er beskrevet i link:https://skatteetaten.github.io/folkeregisteret-api-dokumentasjon/konsumenttjenester/[Folkeregisterets API dokumentasjon]
+
+
+////
 TIP: Det finnes flere interessant mønstre og løsninger å peke til som "god praksis". Herunder kommer bruk av fellesløsningen _Context Broker_ fra EU, standarder som AsyncAPI, samt bruk av open source løsninger som f.eks. _Kafka_ og _Rabbit MQ_. Følg med - her vil det komme mer;)
-
+////
 
 ////
 

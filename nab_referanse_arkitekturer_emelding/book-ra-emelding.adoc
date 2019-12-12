@@ -272,10 +272,7 @@ Etter mottak må mottaker følge opp og håndtere innholdet i meldingen.
 == Videre informasjon om eMelding
 
 Videre informasjon og og dokumentasjon om eMelding finnes under https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/nasjonal-arkitektur-old/referansearkitektur-meldingsutveksling-emelding.
-////
 
-
-////
 
 . link:https://github.com/difi/nasjonal_arkitektur/blob/master/nab_referanse_arkitekturer_emelding/files/H%C3%B8ringsnotat-Strategi-og-referansearkitektur-meldingsutveksling.docx[Høringsnotat]
 
@@ -283,6 +280,24 @@ Videre informasjon og og dokumentasjon om eMelding finnes under https://www.difi
 . link:https://github.com/difi/nasjonal_arkitektur/blob/master/nab_referanse_arkitekturer_emelding/files/Vedlegg-A-Forslag-Nasjonal-referansekarkitektur-og-strategi-for-meldingsutveksling-v1_1.docx[Veddlegg A - Forslag - Nasjonal referansekarkitektur og strategi for meldingsutveksling v1_1]
 
 . link:https://github.com/difi/nasjonal_arkitektur/blob/master/nab_referanse_arkitekturer_emelding/files/Vedlegg-B-Referanse-arkitektur-for-eMelding-printable.pdf[Vedlegg B - Referansearkitektur for eMelding (teknisk)]
+
+
+
+== Praktiske anvendelser av generisk mønster for  meldingsforsendelse til kjent mottaker
+
+
+=== Meldingsforsendelse gjennom PEPPOL, basert på eMelding
+
+Se under link:../nab_referanse_arkitekturer_emelding[referansearkitekturen eMelding].
+
+=== Meldingsforsendelse gjennom eFormidlings-løsningen
+
+TBD.
+
+=== Meldingsforsendelse i helsesektoren
+
+TBD.
+
 
 ////
 

@@ -10,7 +10,7 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 == Generelt
 _Referansearkitektur for datautveksling_ gir beste praksis for arkitekturer og løsninger innen _temaområdet datautveksling_.
 
-Primære målgrupper er virksomhetsarkitekter og løsningsarkitekter.
+Primære målgrupper er virksomhetsarkitekter, løsningsarkitekter og tech-leads i utviklingsteam.
 
 Beskrivelsene kan leses som en sammenhengende "bok", men forutsetter en viss kjennskap til grunnleggende konsepter og metodikk.
 
