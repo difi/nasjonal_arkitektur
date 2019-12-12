@@ -247,7 +247,7 @@ b. Formidling av noifikasjoner til flere og ulike typer (interne) konsumenter.
 == Løsningsmønstre
 Spesifikke løsningsmønstre for eNotifikasjon er inntil videre ikke utarbeidet. Det er stor variasjon i praksis, og ingen fellesløsninger er så langt etablert i Norge. 
 
-TIP: Det finnes flere interessant mønstre og løsninger å peke til som "god praksis". Herunder kommer bruk av fellesløsningen _Context Broker_ fra EU, samt bruk av open source løsninger som f.eks. _Kafka_ og mønstere for _feeds_. Følg med - her vil det komme mer;)
+TIP: Det finnes flere interessant mønstre og løsninger å peke til som "god praksis". Herunder kommer bruk av fellesløsningen _Context Broker_ fra EU, standarder som AsyncAPI, samt bruk av open source løsninger som f.eks. _Kafka_ og _Rabbit MQ_. Følg med - her vil det komme mer;)
 
 
 ////

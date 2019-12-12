@@ -10,7 +10,7 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 == Generelt
 _Referansearkitektur for datautveksling_ gir beste praksis for arkitekturer og løsninger innen _temaområdet datautveksling_.
 
-Primære målgrupper er virksomhetsarkitekter og  løsningsarkitekter.
+Primære målgrupper er virksomhetsarkitekter og løsningsarkitekter.
 
 Beskrivelsene kan leses som en sammenhengende "bok", men forutsetter en viss kjennskap til grunnleggende konsepter og metodikk.
 
@@ -52,7 +52,7 @@ Foreliggende _referansearkitektur for datautveksling_ omfatter områder og basis
 
 TIP: Basismønstrene gir grunnlag for sammensatte og mer avanserte samhandlingsmønstre.
 
-_Referansearkitektur for datautveksling_ omfatter inntil videre følgende prioriterte arkitektur- og løsningsmønstre (**uthevet skrift** angir her prioriterte områder og avtalte leveranser i 2019):
+_Referansearkitektur for datautveksling_ omfatter inntil videre følgende prioriterte arkitektur- og løsningsmønstre (**uthevet skrift** angir her avtalte leveranser i 2019):
 
 1. Deling av data ved forespørsel: 
 a. Generisk mønster for spørring og oppslag.
