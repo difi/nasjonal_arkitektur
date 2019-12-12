@@ -57,11 +57,12 @@ _Referansearkitektur for datautveksling_ omfatter inntil videre følgende priori
 1. Deling av data ved forespørsel: 
 a. Generisk mønster for spørring og oppslag.
 b. *eOppslag - et arkitekturmønster for oppslag i data gjennom synkrone API-kall*
+c. *Løsningsmønster for eOppslag med bruk av nasjonale fellesløsninger i Norge*
 
 2. Deling av data ved forsendelse:
 a. Generisk mønster for meldingsforsendelse
 b. *eMelding - et arkitekturmønster etter modell av CEF eDelivery*
-c. Løsningsmønster for eMelding i PEPPOL-infrastrukturen
+c. *Løsningsmønster for eMelding i PEPPOL-infrastrukturen*
 
 
 3. Deling av data ved publisering: 
