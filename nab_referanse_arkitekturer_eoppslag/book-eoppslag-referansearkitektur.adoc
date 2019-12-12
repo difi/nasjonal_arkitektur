@@ -4,12 +4,14 @@
 
 include::../plattform_felles/includes/commonincludes.adoc[]
 
-
+////
 == Om eOppslag
 
-eOppslag er en referansearkitektur for oppslag i data gjennom synkrone API-kall. Dette er en spesialisering av _Generisk mønster for spørring og oppslag_.
 
-Beskrivelsen under viser hvordan den generiske arkitekturen i det foregående kapittelet kan realiseres med løsningskomponentene Maskinporten, API-katalogen og Altinn-autorisasjon. Disse fellesløsningene leverer de tjenestene som er beskrevet på forretningsnivå over.
+eOppslag er en referansearkitektur for oppslag i data gjennom synkrone API-kall. Dette er en spesialisering av _Generisk mønster for spørring og oppslag_.
+////
+
+Beskrivelsen under viser hvordan den generelle arkitekturen for eOppslag kan realiseres med løsningskomponentene Maskinporten, API-katalogen og Altinn-autorisasjon. Disse fellesløsningene leverer de tjenestene som er beskrevet på forretningsnivå over.
 
 eOppslag kan benyttes både for sikrede API-er og API-er som tilbyr åpent tilgjengelige data uten tilgangsbegrensninger.
 
