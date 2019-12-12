@@ -38,7 +38,7 @@ Ved publisering etableres en løs kopling mellom datatilbyder og datakonsument. 
 
 a. Data tilgjengeliggjøres helt åpent, slik at hvem som vil kan konsumere data. Ulike tekniske løsninger for dette finnes. Referansearkitektur for eOppslag beskriver hvordan dette  dette kan gjøres gjennom API-er.
 
-b. Metadata publiseres åpent, men data kan kun konsumeres av aktører med nødvendige rettigheter. Referansearkitektur for eOppslag beskriver hvordan dette  dette kan gjøres gjennom oppsett av rettigheter til API.
+b. Metadata publiseres åpent, men data kan kun konsumeres av aktører med nødvendige rettigheter. Referansearkitektur for eOppslag beskriver hvordan dette  dette kan gjøres gjennom oppsett av rettigheter til APIer.
 
 c. Datakonsument abonnerer på å få tilsendt oppdaterte data, med utgangspunkt i abonnementsavtale som spesifiserer hvilke data som ønskes.
 
@@ -56,10 +56,14 @@ En helt annen sak er at det kreves tilgangsstyring ved lesing av data, og det ka
 Legg merke til at konseptet med en mellomliggende _datafordeler_ ikke utelukker at dette dekkes av datatilbyder selv. Dette er å oppfatte som en konseptuell arkitekturbyggekloss, og kan realiseres på ulike måter. Om det benyttes en ekstern tjeneste eller leverandør for _datafordeler_, introduseres imidlertid behov for avtaler mellom datatilbyder og _datafordeler_, i tillegg til tilsvarende mot datakonsument.
 ////
 
+//Henrik: Figuren under er tatt ut. Erstattes med ny figur uten "Dataformidler"
+
+////
+
 Figuren nedenfor illustrerer grunnleggende konsepter.
 
 .Publisering av data og hendelser - grunnleggende konsepoter
-image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Publisering av data og hendelser - grunnleggende konsepoter.png[alt=Publisering av data og hendelser - grunnleggende konsepoter image]
+image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Publisering av data og hendelser - grunnleggende konsepoter.png[alt=Publisering av data og hendelser - grunnleggende konsepter image]
 
 Kommentarer til denne figuren:
 
@@ -70,6 +74,8 @@ Kommentarer til denne figuren:
 * _Meglerløsning_ er her en konseptuell arkitekturbyggekloss, og kan være integrert i _fagsystem hos datatilbyder_.
 
 * _Metadatakatalog_ benyttes for å finne fram til aktuelle datakilder, enten runtime eller designtime. Eksempel på løsning: Felles datakatalog.  
+
+////
 
 ////
 == Videre beskrivelser av generisk mønster for publisering 
