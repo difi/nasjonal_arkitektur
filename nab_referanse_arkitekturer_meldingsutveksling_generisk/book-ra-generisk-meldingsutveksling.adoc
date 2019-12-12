@@ -375,22 +375,6 @@ Etter mottak må mottaker følge opp og håndtere innholdet i meldingen.
 |===
 
 
-== Praktiske anvendelser av generisk mønster for  meldingsforsendelse til kjent mottaker
-
-
-=== Meldingsforsendelse gjennom PEPPOL, basert på eMelding
-
-Se under link:../nab_referanse_arkitekturer_emelding[referansearkitekturen eMelding].
-
-=== Meldingsforsendelse gjennom eFormidlings-løsningen
-
-TBD.
-
-=== Meldingsforsendelse i helsesektoren
-
-TBD.
-
-
 
 
 

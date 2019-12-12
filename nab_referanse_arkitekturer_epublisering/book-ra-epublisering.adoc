@@ -248,10 +248,14 @@ b. Formidling av noifikasjoner til flere og ulike typer (interne) konsumenter.
 
 
 == Løsningsmønstre
-Spesifikke løsningsmønstre for eNotifikasjon er inntil videre ikke utarbeidet. Det er stor variasjon i praksis, og ingen fellesløsninger er så langt etablert i Norge. 
+Spesifikke løsningsmønstre for eNotifikasjon er inntil videre ikke utarbeidet. Det er stor variasjon i praksis, og ingen fellesløsninger er så langt etablert i Norge.
 
+Det beste eksempelet er så langt distriubsjonen av modernisert folkeregister fra Skatteetaten som blant annet tilbyr hendelseslister og oppslag som konsumenttjenester. Disse tjenestene er beskrevet i link:https://skatteetaten.github.io/folkeregisteret-api-dokumentasjon/konsumenttjenester/[Folkeregisterets API dokumentasjon]
+
+
+////
 TIP: Det finnes flere interessant mønstre og løsninger å peke til som "god praksis". Herunder kommer bruk av fellesløsningen _Context Broker_ fra EU, standarder som AsyncAPI, samt bruk av open source løsninger som f.eks. _Kafka_ og _Rabbit MQ_. Følg med - her vil det komme mer;)
-
+////
 
 ////
 
