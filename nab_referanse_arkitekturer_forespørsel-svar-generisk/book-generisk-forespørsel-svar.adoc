@@ -10,11 +10,13 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 _Generisk mønster for spørring og oppslag_ adresserer området _Deling av data på forespørsel_ og omhandler tilgjengeliggjøring av data og oppslag i data, som sett fra henholdvis datatilbyder og datakonsument.
 
-Mønsteret dekker både asynkrone og synkrone oppslag, og det tas ikke stilling til kommunikasjonsprotokoll. 
+Mønsteret dekker både asynkrone og synkrone oppslag, og det tas ikke stilling til kommunikasjonsprotokoll. Spørring og oppslag kan gjøres både mot data med ulike grader av tilgangsbegrensninger og mot åpne data helt uten tilgangsstyring.
 
+////
 Referansearkitekturen dekker både sikrede API-er og API-er som tilbyr åpent tilgjengelige data uten tilgangsbegrensninger. Begrepet API benyttes her i betydningen av et maskingrensesnitt som gir tilgang til data og funksjoner fra et system uavhengig av teknologi.
+////
 
-Dette mønsteret gir videre ingen begrensninger i hva slags informasjon det gjelder, om det er strukturerte eller ustrukturerte data, eller hva data skal brukes til. Tilbyder og konsument av data kan være på tvers av virksomheter eller innenfor samme virksomhet.
+Mønsteret gir heller ingen begrensninger i hva slags informasjon det gjelder, om det er strukturerte eller ustrukturerte data, eller hva data skal brukes til. Tilbyder og konsument av data kan være på tvers av virksomheter eller innenfor samme virksomhet.
 
 Eksempler på bruk:
 
@@ -25,7 +27,7 @@ Eksempler på bruk:
 
 
 == Kapabilitetskart - relevante kapabiliteter
-Modellen under viser hovedinndelingen i kapabiliteter en tilbyder og en konsument må ha for å dele data gjennom tilgangsstyrte API-er. Dette er en delmengde av det større området som omhandler _Deling av data på forespørsel_. 
+Modellen under viser hovedinndelingen i kapabiliteter en tilbyder og en konsument må ha for å dele data gjennom spørring og oppslag. Dette er av området som omhandler _Deling av data på forespørsel_. 
 
 
 .Kapabiliteter, deling av data på forespørsel
@@ -33,7 +35,7 @@ image::../nab_referanse_arkitekturer_datautveksling_forespørsel-svar/media/Kapa
 
 Tilbyder må kunne tilgjengeliggjøre data og dette er delt i to kapabiliteter:
 
-* _Tilgjengeliggjøre data_ omhandler hvordan man registerer API og setter opp tilganger. 
+* _Tilgjengeliggjøre data_ omhandler hvordan man registerer og setter opp tilganger. 
 * _Avgi data_ omhandler den operative delingen av data fra tilbyder.
 
 
@@ -84,10 +86,9 @@ NOTE: Mer informasjon om kapabilitetskart og nedbrytingen av overordnede temaomr
 
 == Arkitekturmønstre (konseptuelle beskrivelser, kun arkitekturbyggeklosser)
 
-Her beskrives realiseringen av de aktuelle kapabilitetene.
+Her beskrives realiseringen av de aktuelle kapabilitetene innenfor rammene av synkrone oppslag mot APIer og tilgangsstyring ved bruk av sikkerhetsbilletter.
 
-
-Beskrivelsene er forsøkt å holde helt generisk uten å peke til noen løsning og det vil dermed kunne være flere måter å realisere de ulike elementene på.
+Beskrivelsene er forsøkt å holdes generisk uten å peke til noen løsning og det vil dermed kunne være flere måter å realisere de ulike elementene på.
 
 
 === Klargjøring for _deling av data på forespørsel_
