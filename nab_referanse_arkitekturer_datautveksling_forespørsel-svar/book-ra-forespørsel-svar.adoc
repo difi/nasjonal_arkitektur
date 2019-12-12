@@ -21,7 +21,7 @@ include::../nab_referanse_arkitekturer_forespørsel-svar-generisk/book-generisk-
 
 eOppslag som arkitekturmønster beskriver synkrone API-kall mot en datatilbyder med tilgangsstyring ved bruk av sikkerhetsbilletter.
 
-Her beskrives realiseringen av de aktuelle kapabilitetene idet generelle mønsteret for deling av data på forespørsel innenfor rammene av synkrone oppslag mot APIer og tilgangsstyring ved bruk av sikkerhetsbilletter.
+Her beskrives realiseringen av kapabilitetene i det generiske mønsteret for deling av data på forespørsel innenfor rammene av synkrone oppslag mot APIer og tilgangsstyring ved bruk av sikkerhetsbilletter.
 
 Beskrivelsene er forsøkt å holdes generisk uten å peke til noen løsning og det vil dermed kunne være flere måter å realisere de ulike elementene på.
 
