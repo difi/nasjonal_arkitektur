@@ -56,7 +56,7 @@ _Referansearkitektur for datautveksling_ omfatter inntil videre følgende priori
 
 1. Deling av data ved forespørsel: 
 a. Generisk mønster for spørring og oppslag.
-b. *eOppslag - et løsningsmønster for oppslag i data gjennom synkrone API-kall med bruk av fellesløsninger i Norge*
+b. *eOppslag - et mønster for oppslag i data gjennom synkrone API-kall med bruk av fellesløsninger i Norge*
 
 2. Deling av data ved forsendelse:
 a. Generisk mønster for meldingsforsendelse
