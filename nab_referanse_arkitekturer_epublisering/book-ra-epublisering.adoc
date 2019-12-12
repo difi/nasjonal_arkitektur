@@ -29,6 +29,8 @@ eNotifikasjon dreier seg om publisering av hendelsesdata, eller notifikasjoner, 
 * Hendelseslister må kunne traverseres.
 * Notifikasjoner innhentes på initiav fra konsument (pull).
 
+// Henrik Figur under er tatt ut og bør erstattes med figur uten formidler rollen og tilhørende komponenter.
+////
 
 == Aktørsamspill
 
@@ -54,6 +56,7 @@ Kommentarer til denne figuren:
 
 * _Data assosiert med hendelse_ kan her antas å inneholde all relevant informasjon om aktuelle hendelser. Datakonsumentene må kunne gå tilbake til Datatilbyder for å innhente supplerende data i tilknytning til hver enkelt notifikasjon, ved behov. Avhengig av behovene, må aktuelle data kunne være tilgjengelige for gjentatt lesing, kanskje flere år fram i tid.    
 
+////
 
 == Verdistrømmer
 
