@@ -5,12 +5,27 @@
 include::../plattform_felles/includes/commonincludes.adoc[]
 
 
+. *Fix rollekart*
++
+Legg til Metadataleverandør som Tiltrodd tredjepart
+
+
+
+. *Fix konseptskissen for meldingsfordendelse*
++
+Legg til Metadataleverandør og fix relasjoner for _Adresse- og kapabilitetsoppslag_. 
+
+
+. *Vurder å tegne "firehjørnersmodellen" mer generisk?..."
++
+Aksesspunktene kan også tegnes som tjeneste for sikker meldingsutveksling
+
 
 . *nab_arkitekturlandskap_roller*
 +
 Slett denne katalogen? Det finnes "noe annet" som dekker det samme...
 
-. Fix rekkefølge på tabellelementer (Henrik)
+// . Fix rekkefølge på tabellelementer (Henrik)
 
 . Generer web-versjon og oppdater alle lenker (Erik)
 
