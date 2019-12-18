@@ -24,7 +24,7 @@ Aktuelle brukstilfeller for __Generisk mønster for meldingsforsendelse til kjen
 
 * melding om hendelser og data mellom to kjente parter i tverrgående forretningsprosesser, f.eks. saksbehandlingsprosesser.
 
-* melding om hendelser og data  til mellomliggende løsninger for dataformidling
+// * melding om hendelser og data  til mellomliggende løsninger for dataformidling
 
 * melding om  hendelser og data til datalagringsløsninger
 
@@ -48,7 +48,7 @@ Det forutsettes altså at det finnes en kommunikasjonsinfrastruktur som det kan 
 
 NOTE: __Et eksempel på dette er beskrevet i referansearkitekturen for eMelding (og anvendelser som i  PEPPOL-infrastrukturen), der det stilles krav til støtte for en standardisert meldingsprotokoll på tvers av alle samhandlingsaktører innenfor et avtalefelleskap (i PEPPOL er det AS4).__   
 
-Selv om avsender kjenner mottaker på forhånd, kan det være aktuelt å slå opp detaljer om mottakers kommunikasjonsløsning i tilknytning til selve forsendelsen. Dette gjøres typisk gjennom run-time oppslagstjenester som er innebygget i infrastrukuren; her vist som en (konseptuell) tjeneste for __Kapabilitets-og adresseoppslag__.   
+Selv om avsender kjenner mottaker på forhånd, kan det være aktuelt å slå opp detaljer om mottakers kommunikasjonsløsning i tilknytning til selve forsendelsen. Dette gjøres typisk gjennom run-time oppslagstjenester; her vist som en (konseptuell) tjeneste for __Kapabilitets-og adresseoppslag__.   
 
 === Aktører og roller
 Se under link:../nasjonal_arkitektur\nab_arkitekturlandskap_segmentarkitektur_datadeling_roller[rollebeskrivelser for området datadeling.]
