@@ -85,6 +85,8 @@ NOTE: __De konseptuelle beskrivelsene tar høyde for at det kan finnes et avtale
 === Samhandlingsspesifikasjoner
 Samhandlingsspesifikasjoner ligger til grunn for samhandlingsavtaler (se foregående avsnitt). For __Generisk mønster for meldingsforsendelse til kjent mottaker_  omfatter dette: 
 
+// Fra Anne Lise - de to første punktene er relevante for mer enn eMelding.
+
 * Tekniske spesifikasjoner: Muliggjør datautveksling mellom systemer. Omfatter transportprotokoller,  meldingsformater, teknisk feilhåndtering, eventuell orkestreringsløsninger, m.m..
 * Semantisk spesifikasjoner: Muliggjør utveksling av meningsfull informasjon. Omfatter metadata og datamodeller for aktuelle meldingsformater.
 * Organisatorisk: Muliggjør forretningsprosesser på tvers av organsiasjonsenheter og systemer. Omfatter spesifikasjon av meldingsflyt på tvers av delproseser eller prosessteg (koreografi).
@@ -147,7 +149,7 @@ Realiseringen av disse kapabilitetene er beskrevet i det følgende; først konse
 
 === Klargjøring for meldingsforsendelse
 
-Modellen under detaljerer hvordan en samhandlingsaktør, som i dette tilfellet normalt vil være en avsender eller mottaker, blir klar for å sende data som en melding. Dette gjøres ved å melde inn i et fellesskap og registrere nødvendige data i registre som er tilgjengelig for de andre samhandlingsaktørene i fellesskapet. Det vil kunne være forskjeller på hva som er nødvendig å gjøre avhengig av om samhandlingsaktøren er en avsender eller mottaker, men normalt vil man inneha begge roller i fellesskapet.
+Modellen under detaljerer hvordan en samhandlingsaktør, som i dette tilfellet normalt vil være en avsender eller mottaker, blir klar for å sende data som en melding. Dette gjøres ved å inngå nødvendige avtaler for meldngsforsendelse og registrere nødvendige data i registre som er tilgjengelig for de andre samhandlingsaktørene i fellesskapet. Det vil kunne være forskjeller på hva som er nødvendig å gjøre avhengig av om samhandlingsaktøren er en avsender eller mottaker, men normalt vil man inneha begge roller i fellesskapet.
 
 
 
@@ -180,7 +182,7 @@ Forklaring til figur:
 | Strukturert beskrivelse av evner og kapabiliteter relevante for samhandling i fellesskapet
 
 | Mottakeradresse
-| Teknsik adresse for hvor meldinger skal sendes. Dette kan være adressen til inet
+| Teknisk adresse for hvor meldinger skal sendes. Dette kan være adressen til mottaker direkte eller mottakers integrasjonspunkt.
 
 | Mottakersertifikat
 | Offentlig nøkkel benyttes for kryptering og validering av signatur.
@@ -233,7 +235,7 @@ image::../nab_referanse_arkitekturer_meldingsutveksling_generisk/media/Send meld
 Forklaring til figur:
 
 [cols ="1,3", options="header"]
-.Elementer i view for Send eMelding (arkitekturmønster)
+.Elementer i view for Send melding (arkitekturmønster)
 |===
 
 | Element
@@ -313,13 +315,13 @@ Privat nøkkel benyttes til dekryptering og signering av meldinger.
 ==== Motta melding
 Motta melding detaljerer prosessen med å motta en melding etter klargjøring for forsendelse. Alle stegene i prosessen vil ikke alltid være nødvendig avhengig av dataene som utveksles og spesifikasjonene for samhandling innen fellesskapet.
 
-.Motta eMelding (arkitekturmønster)
-image::../nab_referanse_arkitekturer_meldingsutveksling_generisk/media/Motta melding (arkitekturmønster).png[alt=Motta eMelding (arkitekturmønster) image]
+.Motta melding (arkitekturmønster)
+image::../nab_referanse_arkitekturer_meldingsutveksling_generisk/media/Motta melding (arkitekturmønster).png[alt=Motta melding (arkitekturmønster) image]
 
 Forklaring til figur:
 
 [cols ="1,3", options="header"]
-.Elementer i view for Motta eMelding (arkitekturmønster)
+.Elementer i view for Motta melding (arkitekturmønster)
 |===
 
 | Element
