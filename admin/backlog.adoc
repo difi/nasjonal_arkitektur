@@ -5,20 +5,21 @@
 include::../plattform_felles/includes/commonincludes.adoc[]
 
 
-. *Fix rollekart*
+. 2019-15-12    *Fix rollekart*
 +
 Legg til Metadataleverandør som Tiltrodd tredjepart
 
 
 
-. *Fix konseptskissen for meldingsfordendelse*
+. 2019-15-12    *Fix konseptskissen for meldingsfordendelse*
 +
 Legg til Metadataleverandør og fix relasjoner for _Adresse- og kapabilitetsoppslag_. 
 
 
-. *Vurder å tegne "firehjørnersmodellen" mer generisk?..."
+
+. 2019-15-12    *Vurder å tegne "firehjørnersmodellen" annerledes?*
 +
-Aksesspunktene kan også tegnes som tjeneste for sikker meldingsutveksling
+Se Message Protocols for Enabling Digital Government Services� (Asutralia), Figure 8. The multi-hop model as used in ebMS and SOAP
 
 
 . *nab_arkitekturlandskap_roller*
