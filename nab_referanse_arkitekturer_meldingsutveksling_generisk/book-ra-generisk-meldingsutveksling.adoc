@@ -227,10 +227,10 @@ Sertifikater må forvaltes og fornyes etter gjeldende regler for å være gyldig
 === Operativ meldingsforsendelse
 
 ==== Send melding
-Her beskrives en referansemodell for operativ meldingsforsendelse. Merk: Enkelte prosessteg kan være uaktuelle, avhengig av dataene som utveksles og spesifikasjonene for samhandling innen et eventuelt _avtalefellesskap_.
+Her beskrives en referansemodell for operativ meldingsforsendelse. Merk: Enkelte prosess-steg kan være uaktuelle, avhengig av dataene som utveksles og spesifikasjonene for samhandling innen et eventuelt _avtalefellesskap_.
 
 .Send melding (arkitekturmønster)
-image::../nab_referanse_arkitekturer_meldingsutveksling_generisk/media/Send melding (arkitekturmønster).png[alt=Send eMelding (arkitekturmønster) image]
+image::../nab_referanse_arkitekturer_meldingsutveksling_generisk/media/Send melding (arkitekturmønster).png[alt=Send melding (arkitekturmønster) image]
 
 Forklaring til figur:
 
@@ -284,7 +284,7 @@ Privat nøkkel benyttes til dekryptering og signering av meldinger.
 | Signer forsendelse
 | Prosessen med å signere meldingen som sendes til mottaker. Til dette benyttes eget sertifikats private nøkkel.
 
-| Eksepeder melding
+| Ekspeder melding
 | Prosessen med å sende melding til mottaker.
 
 | Kapabilitetsoppslag

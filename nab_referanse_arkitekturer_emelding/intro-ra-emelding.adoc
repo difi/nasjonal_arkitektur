@@ -4,11 +4,15 @@
 
 include::../plattform_felles/includes/commonincludes.adoc[]
 
-eMelding  kan ses på som en "beste praksis" for meldingsutveksling på tvers av virksomheter og sektorer i offentlig sektor, samt dessuten mellom offentlig sektor og privat sektor.
+eMelding  kan ses på som en "beste praksis" for meldingsutveksling på tvers av virksomheter og sektorer i offentlig sektor, samt mellom offentlig sektor og privat sektor.
 
 Referansearkitekturen tar utgangspunkt i den europeiske "byggeklossen"  link:../kunnskap_referansearkitektur_eu-edelivery[CEF eDelivery]. CEF eDelivery  spesifiserer arkitekturer og standarder for meldingsutveksling. Det finnes flere eksisterende anvendelser og gjenbrukbare løsninger for å realisere eDelivery i ulike land og virksomheter.
 
+eMelding anvendes bl.a. innen link:../kunnskap_losning_eu-peppol[PEPPOL-nettverket], nærmere bestemt i regi av OpenPEPPOL.
+
+////
 I Norge finnes per 2019 anvendelser innen link:../kunnskap_losning_eu-peppol[PEPPOL-nettverket], nærmere bestemt i regi av OpenPEPPOL.
+////
 
 NOTE: __OpenPEPPOL is a non-profit international association under Belgian law (Association Internationale Sans But Lucratif – AISBL) and consists of both public sector and private members. The association has assumed full responsibility for the development and maintenance of the PEPPOL specifications, building blocks and its services and implementation across Europe.__
 
