@@ -413,3 +413,4 @@
 04.12.2019 18:35:09: Linje: TBD.
 04.12.2019 18:35:09: Linje: TBD.
 04.12.2019 18:35:09: 7 occurences in C:\github\digdir\nasjonal_arkitektur\plattform_praktiske-tips_github\main.adoc
+18.12.2019 21:05:55: GenerateHtml
