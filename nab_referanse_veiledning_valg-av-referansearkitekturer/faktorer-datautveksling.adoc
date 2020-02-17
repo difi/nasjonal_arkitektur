@@ -1,17 +1,17 @@
 :lang: no
-:doctitle: Faktorer for valg av referansearkitekturer innen datautveksling 
+:doctitle: Egenskaper for valg av referansearkitekturer innen datautveksling 
 :keywords: Datautveksling
 
 include::../plattform_felles/includes/commonincludes.adoc[]
 
 
-== Faktorer relatert til juridiske forhold
+== Egenskaper relatert til juridiske forhold
 * *Gjeldende lovpålagte krav*
 +
 Eksempel: GDPR med krav til dataminimering mv.
 
 
-== Faktorer relatert til organisatorisk samhandlingsevne
+== Egenskaper relatert til organisatorisk samhandlingsevne
 
 * *Type forretningsprosess (arketype)*
 +
@@ -29,18 +29,18 @@ Fast eller dynamisk gruppe med samhandlingsparter
 
 * *Prosessens levetid*
 +
-Relevant for feilhåndtering: Kortlevde prosesser med innebygd transaksjonssikkerhet kan tilbakerulles gjennom generelle mekanismer,f.eks. slik dette støttes av _rollback_ i relasjonsdatabaser. Langlevde prosesser krever skreddersydde _kompensasjonsaksjoner_.
+Relevant for feilhåndtering: Kortlevde prosesser med innebygd transaksjonssikkerhet kan tilbakerulles gjennom generelle mekanismer, f.eks. slik dette støttes av _rollback_ i relasjonsdatabaser. Langlevde prosesser krever skreddersydde _kompensasjonsaksjoner_.
 
 
 
-== Faktorer relatert til semantisk samhandlingsevne
+== Egenskaper relatert til semantisk samhandlingsevne
 
 
 * *Begrepsapparat*
 * *Datamodeller*
 * *Utvekslingsformater*
 	
-== Faktorer relatert til teknisk samhandlingsevne
+== Egenskaper relatert til teknisk samhandlingsevne
 
 * *Utvekslingsprotokoller*
 +
@@ -51,7 +51,7 @@ Relevant for feilhåndtering: Kortlevde prosesser med innebygd transaksjonssikke
 +
 Garantert leveringstid vs. krav til leveringstid
 +
-Mål: Mikrosekunder, millisekunder, sekunder,timer,dager
+Mål: Mikrosekunder, millisekunder, sekunder, timer, dager
 
 * *Responstid for spørringer* (kvalitetskrav)
 +
@@ -65,7 +65,7 @@ Grad av garantert levering (uten behov for tilbakemelding på _applikasjonslaget
 +
 Mål: Prosentvis sannsynlighet for vellykket levering og mottak.
 
-== Andre faktorer (tverrgående)
+== Andre egenskaper (tverrgående)
 
 * *Føringer*
 +
