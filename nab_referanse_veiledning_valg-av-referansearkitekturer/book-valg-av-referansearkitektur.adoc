@@ -29,7 +29,10 @@ include::./metode-eif-forretningsdrevet.adoc[]
 
 //= Egenskaper å vurdere ved valg av referansearkitekturer innen området _datautveksling_ 
 
-// include::./faktorer-datautveksling.adoc[]
+= Egenskaper for valg av referansearkitektur innen datautveksling
+
+include::./faktorer-datautveksling.adoc[]
+
 
 
 //= Metode basert på vurdering av kapabiliteter og kvalitetskrav

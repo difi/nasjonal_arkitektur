@@ -4,6 +4,7 @@
 
 include::../plattform_felles/includes/commonincludes.adoc[]
 
+Nedenfor listes det opp ulike egenskaper eller områder som kan være verdt å vurdere i prosessen med å velge riktig referansearkitektur. Egenskapene er sortert etter EIF-lagene i tillegg til andre egenskaper som ikke passer så godt inn i EIF-modellen. Oversikten er ikke ment å være uttømmende, men kan kan gi et startpunkt for vurderingene. 
 
 == Egenskaper relatert til juridiske forhold
 * *Gjeldende lovpålagte krav*
@@ -16,7 +17,7 @@ Eksempel: GDPR med krav til dataminimering mv.
 * *Type forretningsprosess (arketype)*
 +
 Eksempler:  Bilateral prosess mellom to kjente parter (herunder spørring og forhåndsavtalt, periodisk distriusjon); 
-Tverrgående prosess mellom faste parter; Tverrgående prosess mellom dynamiske oppdagete parter 
+Tverrgående prosess mellom faste parter; Tverrgående prosess mellom dynamiske oppdagete parter. 
 
 
 * *Antall samhandlingsparter*
