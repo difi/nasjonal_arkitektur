@@ -9,7 +9,8 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 +
 Legg til Metadataleverandør som Tiltrodd tredjepart
 
-
++
+Legg til produsentrolle
 
 . 2019-15-12    *Fix konseptskissen for meldingsfordendelse*
 +
