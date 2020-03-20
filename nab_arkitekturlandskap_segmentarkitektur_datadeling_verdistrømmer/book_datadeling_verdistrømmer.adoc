@@ -123,7 +123,6 @@ Ende-til-ende verdistrømmer for både datatilbydere og datakonsumenter er vist 
 image::../nab_arkitekturlandskap_segmentarkitektur_datadeling_verdistrømmer/media/Del og innhent data og hendelser, detaljert verdistrøm.png[alt=Del og innhent data og hendelser, detaljert verdistrøm image]
 
 
-Videre kommentarer til figuren over: TBD.
 
 === Del og innhent data og hendelser, detaljert verdistrøm med kapabiliteter
 
