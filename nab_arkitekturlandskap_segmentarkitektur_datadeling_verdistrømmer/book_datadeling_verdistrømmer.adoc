@@ -122,8 +122,239 @@ Ende-til-ende verdistrømmer for både datatilbydere og datakonsumenter er vist 
 .Del og innhent data og hendelser, detaljert verdistrøm
 image::../nab_arkitekturlandskap_segmentarkitektur_datadeling_verdistrømmer/media/Del og innhent data og hendelser, detaljert verdistrøm.png[alt=Del og innhent data og hendelser, detaljert verdistrøm image]
 
+=== Del og innhent data og hendelser, detaljert verdistrøm datatilbyder med kapabiliteter
 
-Videre kommentarer til figuren over: TBD.
+Forklaring:
+Datatilbyder må evne å bestemme hvilken teknisk løsning som skal benyttes når dataene gjøres tilgjengelig som åpne data
+
+Datatilbyder må evne å velge hvor og hvordan dataene skal gjøres tilgjengelig, hvor skal datakonsument finne dataene og på hvilket format skal dataene deles 
+
+Datatilbyder må videre evne å bestemme detaljeringsgrad på dataene
+
+Krav til personvern må kunne ivaretas, samt eventuelle krav i forhold til andre skjermingsverdige opplysninger  
+
+
+Løsning:
+Prosesser for å dele data som åpne data
+
+
+.Del og innhent data og hendelser, detaljert verdistrøm datatilbyder med kapabiliteter
+image::../nab_arkitekturlandskap_segmentarkitektur_datadeling_verdistrømmer/media/Del og innhent data og hendelser, detaljert verdistrøm datatilbyder med kapabiliteter.png[alt=Del og innhent data og hendelser, detaljert verdistrøm datatilbyder med kapabiliteter image]
+
+[cols ="1,3", options="header"]
+.Elementer i view for Del og innhent data og hendelser, detaljert verdistrøm datatilbyder med kapabiliteter
+|===
+
+| Element
+| Beskrivelse
+
+| Datatilbyder
+| Tilbyder av data til andre aktører.
+
+| Ta rede på egne data og ansvar for å dele data
+| "Ta rede på egne data og ansvar for å dele data" handler om å ha oversikt over og forvalte egne data. Virksomheten må også være bevist ansvaret for å dele data og ha informasjonsforvaltningsrutiner som støtter opp om deling.
+
+| Klargjør for datadeling
+| "Klargjøre for datadeling" handler om å synliggjøre hvilke data virksomheter har og vurder om de kan deles med hensyn på skjerming, verdi etc.
+Også teknisk og organisatoriske kapabilitet for deling må etableres.
+
+| Motta henvendelser om tilgang til data
+| "Motta henvendelser om tilgang til data" handler om å ha rutiner og kapasitet for å ta i mot henvendelser og vurdere om tilgang skal gis.
+
+| Sett opp avtaler, IT-løsninger og tilganger mot aktuelle konsumenter
+| "Sett opp avtaler, IT-løsninger og tilganger mot aktuelle konsumenter" handler om å etablere, integrere og konfigurere avtaler og it-løsninger mellom partene så alt er klart for at data kan utveksles. 
+
+Merk: Tilgangsstyring må settes opp i sammenheng med, eller etter, utvikling eller oppsett av løsninger.
+
+| Del data (operativt)
+| "Del data (operativt)" handler om utveksling av data gjennom etablerte kanaler og iht. avtaler. Dette forutsetter også håndtering av avvik og ikke-tilsiktede hendelser.
+
+| Kontinuerlig forbedring av opplegg for deling av data
+| "Kontinuerlig forbedring av opplegg for deling av data" handler om aktiv forvaltning av operative løsninger for deling av data gjennom kontakt med datakonsumenter og tilpasning til nye behov, krav og teknologi.
+
+Kan også omfatte tilbakemeldinger på kvalitet på data og forbedring av datagrunnlaget.
+
+| Evnen til å organisere virksomheten slik at datadeling kan håndteres effektivt og etter gjeldene krav og regelverk
+| Forklaring:
+Virksomheten må være organisert slik at den har kapasitet til å dele data. Videre må det settes fokus på deling slik at dette ikke blir nedprioritert i forhold til virksomhetens øvrige oppgaver
+
+
+Løsning:
+En mulighet er at virksomheten har ansatte som har datadeling som spesialområde og fått tid og ressurser til å utføre oppgaven 
+
+
+| Evnen til å etablere interne krav og retningslinjer for deling av data
+| Forklaring:
+Internt må virksomheten forankre arbeidet med datadeling og det må settes krav til arbeidet og resultatet av virksomhetens deling av data
+
+
+Løsning:
+Krav til datadeling kan tas inn i virksomhetens planer og strategier. Det bør etableres en beste praksis for deling av data ut av huset som passer med referansearkitekturene for datautveksling.
+
+
+| Evnen til å beskrive og ha oversikt over virksomhetens data (fra orden i eget hus)
+| Forklaring:
+Beskrivelse av offentlige data i Norge skal utføres på en felles, strukturert måte og i en maskinlesbar form
+
+Informasjonsmodeller: Etablere felles begrepsapparat, standardiserte beskrivelser og sammenhengen mellom dataelementene
+
+Datakvaliteten bør være dokumentert, og kjente utfordringer knyttet til datakvalitet bør omtales eksplisitt i beskrivelsen.
+
+Det må være kjent hvilket formål data er innhentet for.
+
+Løsning:
+Bruke DCAT-AP-NO
+
+https://doc.difi.no/data/veileder-orden-i-eget-hus/#_beskrive_data
+
+| Evnen til å publisere oversikt over virksomhetens datasett (fra orden i eget hus)
+| Forklaring:
+Datatilbyder må evne å tilby datakonsument oversikt over data som virksomheten produserer slik at datakonsument enkelt kan oppdage data som tilbys. Videre bør det være opplyst hvordan datakonsument kan få tilgang til dataene
+
+
+Løsning:
+Prosesser for hvor og hvordan oversikt over virksomhetens datasett skal publiseres
+
+Legge oversikt over virksomhetens datasett på Felles datakatalog
+
+Eventuelt Intern datakatalog som kan benyttes til å publisere oversikten på Felles datakatalog. Om mulig automatisere høsting fra egne kataloger til felles datakatalog.
+
+Publisere oversikt over datatilbyders APIer
+
+| Evnen til å vurdere og beskrive tilgang til data (fra orden i eget hus)
+| Forklaring:
+Datatilbyder må evne å vurdere egne data med tanke på deling med eksterne konsumenter. Vurderingene som gjøres bør gjøres tilgjengelig for allmennheten
+
+
+Løsning:
+Vurdere om data kan deles ved å klassifisere data som grønn (offentlig), gul (begrenset offentlighet) og rød (unntatt offentlighet)
+
+Vurderingene bør dokumenteres og gjøres tilgjengelig for eventuelle konsumenter
+
+| Evnen til å utvikle IT løsninger for deling av data 
+| Forklaring:
+Løsningene må kunne håndtere både åpne data og data som deles etter henvendelse
+
+IT løsningene bør kunne gjenbrukes slik at det ikke er nødvendig å utvikle løsninger hver gang det skal deles data
+
+Ved utvikling av nye IT løsninger til annen bruk i virksomhetene bør det tas høyde for at løsningene skal støtte deling av data
+
+
+Løsning:
+Prosesser som beskriver hvilke vurderinger som skal gjøres rundt valg av IT løsninger. Prosesser for utvikling av IT løsninger, samt implementering av disse.
+
+Det bør være en beste praksis at alle nye løsninger legger til rette for at data skal kunne deles («innebygd deling av data»).
+
+
+
+
+| Evnen til å vurdere om data kan gjøres tilgjengelig som åpne data
+| Forklaring:
+Hvis data klassifiseres som grønn (eventuelt gule data som kan være aktuelt å dele som åpne data), må det videre vurderes om dataene skal deles som åpne data. Her vil flere forhold kunne spille inn. Eksempel på dette er vurdering av om dataene er interessante for allmennheten, samt vurdering av kostnadene med å dele dataene sett i forhold til samfunnsnytten
+
+
+Løsning:
+Sjekkliste for vurderingene som skal gjøres før dataene eventuelt gjøres tilgjengelig som åpne data
+
+| Evnen til å ta imot henvendelser om tilgang til data
+| Forklaring:
+Datatilbyder må ha rutiner for å håndtere mottak av henvendelser slik at krav til eventuell journalføring, registrering og arkivering blir ivaretatt
+
+Datatilbyder må sørge for at henvendelsen er forstått slik at det ikke er uklarheter omkring konsumentens behov. Dersom tilbyder ikke har forstått hva konsument har behov for, må konsument kontaktes
+
+Det må videre håndteres hvordan henvendelsen skal følges opp videre i virksomheten
+
+
+Løsning:
+Rutine for mottak av henvendelser om tilgang til data for å sikre at henvendelser håndteres effektivt og ensartet
+
+Konsumentene må dokumentere sitt formål og behandlingsgrunnlag, og argumentere for hvilke informasjonselementer de mener de skal ha tilgang til for det gitte formålet.
+
+| Evnen til å tilrettelegge data for deling
+| Forklaring:
+Datatilbyder må evne å utvikle eller bruke tekniske løsninger for deling av data med konsumenten. Eventuell tilgangsstyring må tilrettelegges
+
+
+Løsning:
+Virksomheten bør ha beste praksis for hvordan data skal tilrettelegges for deling.
+
+Teknisk løsning for datadeling bør være på plass slik at data effektivt kan tilrettelegges for å konsumentens behov.
+
+Bruk av fellesfunksjonalitet som Maskinporten og Altinn Autorisasjon er kjent og kan benyttes i henhold til beste praksis.
+
+| Evnen til å utarbeide avtaler
+| Forklaring:
+I en del tilfeller vil det være behov for utleveringsavtale som regulerer hvordan data utleveres og hvordan dataene brukes av konsument
+
+Dersom konsument skal betale for dataene må pris avklares og tas inn i avtale med konsument
+
+
+Løsning:
+Mal for utleveringsavtale
+
+| Evnen til å gi konsumenten tilgang til data
+| Forklaring:
+Datatilbyder kjenner til hvordan man setter opp tilgang for nye konsumenter
+
+
+Løsning:
+Følger beste praksis for oppsett av tilgang i Maskinporten og eventuelt tilgangskontroll internt i virksomheten.
+
+| Evnen til å dele data som åpne data
+| Forklaring:
+Datatilbyder må evne å bestemme hvilken teknisk løsning som skal benyttes når dataene gjøres tilgjengelig som åpne data
+
+Datatilbyder må evne å velge hvor og hvordan dataene skal gjøres tilgjengelig, hvor skal datakonsument finne dataene og på hvilket format skal dataene deles 
+
+Datatilbyder må videre evne å bestemme detaljeringsgrad på dataene
+
+Krav til personvern må kunne ivaretas, samt eventuelle krav i forhold til andre skjermingsverdige opplysninger  
+
+
+Løsning:
+Prosesser for å dele data som åpne data
+
+
+| Evnen til å dele data etter henvendelse
+| Forklaring:
+Datatilbyder må evne å vurdere hvordan dataene skal deles, hvilken teknisk løsning som skal benyttes, hvordan dataene skal tilrettelegges for konsument og hvordan skal tilgang til dataene håndteres. Skal dataen leveres som enkeltleveranse eller skal det være en fast leveranse 
+
+Kompetanse på hvordan prising av leveransene skal håndteres, samt hvilke kostnader til datatilbyder skal eventuelt dekkes av konsument
+
+Datatilbyder må evne å bestemme detaljeringsgrad på dataene
+
+Krav til sikkerhet ved deling av data må kunne ivaretas
+
+Krav til personvern må ivaretas, samt eventuelle krav i forhold til andre skjermingsverdige opplysninger  
+
+
+Løsning:
+Prosesser for å dele data etter henvendelse
+
+| Evnen til å motta et teknisk kall, behandle dette og returnere respons
+| Forklaring:
+Datatilbyder må ha ønsket tilgjengelighet på sine grensesnitt slik at konsumenter får ønsket respons på forespørsler innen rimelig tid.
+
+
+Løsning:
+Datatilbyder må enten selv ha et modent driftsmiljø som kan levere en tjeneste med rett kvalitet, eller så må man benytte en partner som kan tilby denne tjenesten på vegne av seg. Denne parten er en databehandler på vegne av datatilbyder. 
+
+| Evnen til å motta henvendelser om forbedringer
+| Forklaring:
+Det bør være enkelt for datakonsument å gi tilbakemelding til virksomheten om hvordan datakonsument opplever datatilbyders tilbud av data. Datatilbyder må evne å motta og behandle tilbakemeldinger på en profesjonell måte.
+
+Løsning:
+Løsning for mottak av henvendelser. Kan eksempelvis være mottaksapparat i form av felles postkasse eller lignende.
+
+| Evnen til å videreutvikle prosessene for deling av data
+| Forklaring:
+For at virksomhetens deling av data skal videreutvikles og møte datakonsumentens behov, må virksomheten evne å endre måten datadeling gjennomføres på
+
+Løsning:
+Personer som er ansvarlige for virksomhetens prosesser for deling av data må behandle tilbakemeldingene. Det må deretter vurderes om det skal gjøres endringer i prosessene 
+
+|===
+
 
 == Detaljering av stegene i overordnet verdistrøm
 

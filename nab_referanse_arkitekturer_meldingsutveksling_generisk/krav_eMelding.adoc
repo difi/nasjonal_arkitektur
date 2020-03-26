@@ -1,4 +1,4 @@
-[cols ="1,3,3", options="header"]
+[cols="1,3,3", options="header"]
 .Requirements for Norwegian eDelivery
 |===
 |ID

@@ -16,27 +16,28 @@ image:../plattform_felles/media/i-arbeid.png[width=45, height=45] Foreløpig inn
 
 = Generelt
 
-I det følgende gis først en oversikt over ulike faktorer som det kan være aktuelt å vurdere. Det gis deretter en skisse til en mer metodisk tilnærming, speselt med fokus på å få til samhandlingsevne i tverrgående prosesser, dvs. integrerte tjenesterpå tvers av organisajonsgrenser.
+I det følgende gis en beskrivelse av hvordan man kan gå frem for å velge hvilket samhandlingsmønster som bør eller kan benyttes i integrasjoner mellom virksomheter.
+Det gis en metode i fire steg og en oversikt over mulig egenskaper eller kriterier som bør kartlegges og vurderes som en del av prosessen med å velge referansearkitektur.
+Målet er å få til samhandlingsevne i tverrgående prosesser, dvs. integrerte tjenester på tvers av organisajonsgrenser.
 
-
-//= Begrepsapparat i tilknytning til valg av referansearkitekturer for datautveksling 
-
-//include::./begrepsapparat.adoc[]
-
-
-//= Metode basert på vurdering av kapabiliteter og kvalitetskrav
-
-//include::./metode-kapabiliter-og-kvalitetskrav.adoc[]
-
-
-= Faktorer å vurdere ved valg av referansearkitekturer innen området _datautveksling_ 
-
-include::./faktorer-datautveksling.adoc[]
 
 
 = Metode for valg av referansearkitekturer i tverrgående samhandlingsløsninger
 
 include::./metode-eif-forretningsdrevet.adoc[]
+
+
+//= Egenskaper å vurdere ved valg av referansearkitekturer innen området _datautveksling_ 
+
+= Egenskaper for valg av referansearkitektur innen datautveksling
+
+include::./faktorer-datautveksling.adoc[]
+
+
+
+//= Metode basert på vurdering av kapabiliteter og kvalitetskrav
+
+//include::./metode-kapabiliter-og-kvalitetskrav.adoc[]
 
 
 :leveloffset: -1

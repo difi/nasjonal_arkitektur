@@ -12,7 +12,8 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 * Ta bort eller renavn "mellomledd"???
 * Ta inn Dataeier, data steward osv.??? 
 
-
++
+Legg til produsentrolle
 
 . 2019-15-12    *Fix konseptskissen for meldingsfordendelse*
 +
