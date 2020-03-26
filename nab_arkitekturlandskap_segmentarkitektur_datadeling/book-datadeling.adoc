@@ -11,6 +11,8 @@ image:../nab_arkitekturlandskap_segmentarkitektur_datadeling/media/datadeling-lo
 [.lead]
 _Datadeling_ er et prioritert område innen nasjonal arkitektur. 
 
+
+
 == Generelt
 
 === Hva er "datadeling"?
@@ -34,7 +36,9 @@ Deling av data er definert som et insatsområde i regjeringens digitaliseringsst
 Bakgrunnen for dette ligger i verdien for ulike interessenter, enten det dreier seg om egen oppgaveløsning, verdiøkende tjenester eller sekundær bruk i form av dataanalyse.
 
 Grovt sett, kan en si at det finnes følgende formål for "datadeling":  
- 
+
+
+
 1. Generell deling av data, for vilkårlige tredjeparter og deres formål. Dette kan være primærbruk i egen oppgaveløsning, eller sekundær bruk i form av verdiøkende tjenester eller dataanalyse.
 
 2. Samhandling mellom samhandlingsaktører i tverrgående prosesser. 
