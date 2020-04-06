@@ -22,17 +22,18 @@ Metoden er først og fremst tenkt å bidra til hvordan to virksomheter kan digit
 
 Metoden er uavhengig av om den ene, begge eller ingen benytter serviceprovidere i deres løsninger.
 
-Metoden er delt inn i fire steg:
+Metoden er delt inn i fem steg:
 
 . *Modeller fulldigitaliserte forretningsprosesser med fokus på samhandling*
 . *Identifisere krav og egenskaper ved samhandlingen*
 . *Identifiser referansearkitektur med fokus på samhandling*
 . *Identifiser løsningsarkitektur*
+. *Realiseringshensyn*
 
 
 //Digital samhandling mellom virksomheter vil fra et forretningsperspektiv gjøres på et fåtall måter. Dette kaller vi samhandlingsmønstre og er beskrevet under.
 
-I steg 1 vil vi modellere en digital samhandlingsprosess og i steg 2 vil vi beskrive hvilke forretningsmessige krav som stilles og hvilke egenskaper det er behov at samhandlingsmønsteret har for å kunne realisere samhandlingsprosessen. I steg 3 vil vi vurdere hvilke referansearkitekturer som bør benyttes for den digitale samhandlingsprosessen. Først når man har identifisert samhandlingsmønstre og referansearkitektur, er det riktig å diskutere løsningsarkitektur og hvilke tekniske løsningsalternativer man har for hver enkelt samhandling. Dette ser vi på i steg 4. 
+I steg 1 vil vi modellere en digital samhandlingsprosess og i steg 2 vil vi beskrive hvilke forretningsmessige krav som stilles og hvilke egenskaper det er behov at samhandlingsmønsteret har for å kunne realisere samhandlingsprosessen. I steg 3 vil vi vurdere hvilke referansearkitekturer som bør benyttes for den digitale samhandlingsprosessen. Først når man har identifisert samhandlingsmønstre og referansearkitektur, er det riktig å diskutere løsningsarkitektur og hvilke tekniske løsningsalternativer man har for hver enkelt samhandling. Dette ser vi på i steg 4. I steg 5 vurderer vi øvrige realiseringshensyn som tilleggskomponenter og tjenester. Det må også gjennomføres en risikoanalyse av løsningen og fattes nødvendige tiltak. 
 
 Sagt på en annen måte, man må forstå og være enige om behovet før man kan diskutere teknologi.
 
@@ -73,12 +74,17 @@ Det er avgjørende at behandlingsgrunnlag (hjemler, samtykke etc.) for deling av
 
 Forretningsprosessens hovedformål er å identifisere digitale samhandlinger på tvers av virksomheter og ikke vise detaljer på hva som foregår i den enkelte virksomhet. Dette for å ha fokus på den digitale samhandlingen. 
 
+#Legge til figur - eksempel på prosess#
+
+//// 
 Et eksempler på hvordan man kan modellere digital samhandling er prosessen for samtykkebasert lånesøknad som for eksempel kan modelleres slik:
 
 //Henrik kommentar:er det greit med et så konkret case (som det tekstlig forutsettes at man kjenner) eller skal vi generalisere?
 
 
 image:../nab_referanse_veiledning_valg-av-referansearkitekturer/media/Prosess SBL.png[alt="bad!", width=750]
+
+////
 
 ////
 Prosessen for konkurs og lønnsgaranti kan for eksempel modelleres slik:
@@ -89,7 +95,13 @@ image:../nab_referanse_veiledning_valg-av-referansearkitekturer/media/Basis pros
 Når to parter blir enige om en fulldigitalisert prosess, så har man et godt startpunkt på videre arbeid. Begge parter må kanskje gjøre løft i forhold til digitalisering, noe som ikke alltid er fullt ut mulig. Som regel vil man kunne digitalisere samhandlingen for fremtiden og så kan hver og en virksomhet stegvis dra nytte av dette til å digitalisere interne løsninger. Unntaksvis må man kanskje fire på kravet på hvor langt man vil gå i å digitalisere samhandlingen. I steg 2 vil vi se på og identifisere krav og egenskaper til samhandlingen mellom aktørene i den digitale prosessen. Steg 2 kan med fordel kjøres samtidig som steg 1, men er av pedagogiske grunner dokumentert separat.
 
 
-=== Steg 2 - Identifisere krav og egenskaper ved samhandlingen
+=== Steg 2 - Identifisere funksjonelle krav og egenskaper ved samhandlingen
+
+
+#Steg 2  - presisere at det identifisering av funksjonelle krav og egenskaper.
+Se om vi kan løfte inn fra kap.3 inn i trinnene til metoden.
+Ikke de tekniske, men de forretningsmessige delene.#
+
 
 Som del av modellering av en digital samhandlingsprosess i steg 1, så er det naturlig å identifisere hvilke behov og krav man har til samhandlingsmønstre og beskrive dette for hver enkelt identifiserte samhandling.
 
@@ -150,3 +162,10 @@ image:../nab_overordnet-metode/media/referansearkitektur-definisjon-grunnleggend
 
 
 Man velger løsningsarkitektur ved å ta utgangspunkt i beste praksis for referansearkitekturen og se om denne dekker behovet. Der valget står mellom flere løsningskomponenter, må man vurdere hvilken som best dekker funksjonelle behov og krav til kvalitetsegenskaper. Har man spesielle behov, kan det hende man må ta i bruk løsningskomponenter som ikke ligger dokumentert som beste praksis. I så fall bør man oppdatere beste praksis.
+
+=== Steg 5 - Andre realiseringshensyn
+Vurdering av andre hensyn, alternativer. Valgfrie tjenester. Det må også vurderes om det trengs tilleggskomponenter/tjenester som f.eks. data.altinn.no for best å realisere løsningen. 
+Gjennomføre risikoanalyse for valgt løsning og bestemme nødvendige sikkerhetsmekanismer.
+"Verdiøkende tjenester" En boks i midten må gi verdi.
+
+Kompetanse, kapasitet, risiko, datoer 
