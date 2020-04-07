@@ -76,6 +76,8 @@ Forretningsprosessens hovedformål er å identifisere digitale samhandlinger på
 
 #Legge til figur - eksempel på prosess#
 
+image:../nab_referanse_veiledning_valg-av-referansearkitekturer/media/Konkursbo - forretningsprosess.png[alt="bad!", width=1100]
+
 //// 
 Et eksempler på hvordan man kan modellere digital samhandling er prosessen for samtykkebasert lånesøknad som for eksempel kan modelleres slik:
 
@@ -114,7 +116,7 @@ I eksempelet vårt med samtykkebasert lånesøknad vil det f.eks. være blant an
 * forretningsmessig behov for synkron kommunikasjon
 * behov for umiddelbar respons
 
-
+image:../nab_referanse_veiledning_valg-av-referansearkitekturer/media/Konkursbo - forretningsprosess med krav.png[alt="bad!", width=1100]
 
 ////
 I prosessen for samtykkebasert lånesøknad kan for eksempel da identifisere samhandlingsmønster slik:
@@ -148,6 +150,8 @@ image:../nab_referanse_veiledning_valg-av-referansearkitekturer/media/Samhandlin
 
 Når referansearkitektur er identifisert for hver enkelt samhandling, så blir neste steg å identifisere løsningsarkitektur med tilhørende løsningskomponenter som beskrevet i steg 4.
 
+image:../nab_referanse_veiledning_valg-av-referansearkitekturer/media/Konkursbo - forretningsprosess med samhandlingsmønster.png[alt="bad!", width=1100]
+
 === Steg 4 - Identifiser løsningsarkitektur
 Når referansearkitektur er identifisert, se steg 3, kan man gå videre å jobbe med løsningsarkitektur.
 
@@ -162,6 +166,9 @@ image:../nab_overordnet-metode/media/referansearkitektur-definisjon-grunnleggend
 
 
 Man velger løsningsarkitektur ved å ta utgangspunkt i beste praksis for referansearkitekturen og se om denne dekker behovet. Der valget står mellom flere løsningskomponenter, må man vurdere hvilken som best dekker funksjonelle behov og krav til kvalitetsegenskaper. Har man spesielle behov, kan det hende man må ta i bruk løsningskomponenter som ikke ligger dokumentert som beste praksis. I så fall bør man oppdatere beste praksis.
+
+image:../nab_referanse_veiledning_valg-av-referansearkitekturer/media/Konkursbo - forretningsprosess med referansearkitektur.png[alt="bad!", width=1100]
+
 
 === Steg 5 - Andre realiseringshensyn
 Vurdering av andre hensyn, alternativer. Valgfrie tjenester. Det må også vurderes om det trengs tilleggskomponenter/tjenester som f.eks. data.altinn.no for best å realisere løsningen. 
