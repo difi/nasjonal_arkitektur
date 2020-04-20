@@ -29,9 +29,9 @@ include::./metode-eif-forretningsdrevet.adoc[]
 
 //= Egenskaper å vurdere ved valg av referansearkitekturer innen området _datautveksling_ 
 
-= Egenskaper for valg av referansearkitektur innen datautveksling
+//= Egenskaper for valg av referansearkitektur innen datautveksling
 
-include::./faktorer-datautveksling.adoc[]
+//include::./faktorer-datautveksling.adoc[]
 
 
 

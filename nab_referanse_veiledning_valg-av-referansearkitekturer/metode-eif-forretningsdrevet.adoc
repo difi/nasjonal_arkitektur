@@ -33,7 +33,7 @@ Metoden er delt inn i fem steg:
 
 //Digital samhandling mellom virksomheter vil fra et forretningsperspektiv gjøres på et fåtall måter. Dette kaller vi samhandlingsmønstre og er beskrevet under.
 
-I steg 1 vil vi modellere en digital samhandlingsprosess og i steg 2 vil vi beskrive hvilke forretningsmessige krav som stilles og hvilke egenskaper det er behov at samhandlingsmønsteret har for å kunne realisere samhandlingsprosessen. I steg 3 vil vi vurdere hvilke referansearkitekturer som bør benyttes for den digitale samhandlingsprosessen. Først når man har identifisert samhandlingsmønstre og referansearkitektur, er det riktig å diskutere løsningsarkitektur og hvilke tekniske løsningsalternativer man har for hver enkelt samhandling. Dette ser vi på i steg 4. I steg 5 vurderer vi øvrige realiseringshensyn som tilleggskomponenter og tjenester. Det må også gjennomføres en risikoanalyse av løsningen og fattes nødvendige tiltak. 
+I steg 1 vil vi modellere en digital samhandlingsprosess og i steg 2 vil vi beskrive hvilke forretningsmessige krav som stilles og hvilke egenskaper det er behov at samhandlingsmønsteret har for å kunne realisere samhandlingsprosessen. I steg 3 vil vi vurdere hvilke referansearkitekturer som bør benyttes for den digitale samhandlingsprosessen. Først når man har identifisert samhandlingsmønstre og referansearkitektur, er det riktig å diskutere løsningsarkitektur og hvilke tekniske løsningsalternativer man har for hver enkelt samhandling. Dette ser vi på i steg 4. I steg 5 vurderer vi øvrige realiseringshensyn som tilleggskomponenter og tjenester. Det må også gjennomføres en risikoanalyse av løsningen og fattes nødvendige tiltak i henhold til risikoanalysen. 
 
 Sagt på en annen måte, man må forstå og være enige om behovet før man kan diskutere teknologi.
 
@@ -47,15 +47,15 @@ Basert på god forståelse av prosessene for fulldigitalisert samhandling mellom
 Digital samhandling mellom virksomheter vil fra et forretningsperspektiv gjøres på et fåtall måter. Dette kaller vi link:../nab_referanse_arkitekturer/samhandlingsmønstre.adoc[samhandlingsmønstre]. I link:./metode_Steg2.adoc[steg 2] vil vi se på hvordan vi enkelt kan avdekke hvilke samhandlingsmønstre man har behov for å realisere en digital samhandlingsprosess og deretter mappe disse mor referansearkitekturer i link:./Steg3.adoc[steg 3]. Først når man har identifisert samhandlingsmønstre og referansearkitektur, er det riktig å diskutere løsningsarkitektur og hvilke tekniske løsningsalternativer man har for hver enkelt samhandling. Dette ser vi på i link:./Steg4.adoc[steg 4]. Sagt på en annen måte, man må forstå og være enige om behovet før man kan diskutere teknologi.
 ////
 
-Ved modellering av forretningsprosessene kan det være lurt å la seg inspirere av digital agenda:
+Ved modellering av forretningsprosessene kan det være lurt å la seg inspirere av https://www.regjeringen.no/no/aktuelt/digital-agenda-for-norge--ikt-for-en-enklere-hverdag/id2484184/[Digital agenda for Norge]:
 
-* "Brukeren i sentrum"
-** "Offentlige tjenester skal oppleves sammenhengende og helhetlige for brukerne, uavhengig av hvilke offentlige virksomheter som tilbyr dem."
-** "Forvaltningen skal gjenbruke informasjon i stedet for å spørre brukerne på nytt om forhold de allerede har opplyst om."
-* "Effektiv digitalisering av offentlig sektor"
-* "Godt personvern og god informasjonssikkerhet"
-** "Personvern og informasjonssikkerhet skal være en integrert del av utviklingen og bruken av IKT."
-** "Den enkelte innbygger skal i størst mulig grad ha råderett over egne personopplysninger."
+* _Brukeren i sentrum_
+** _Offentlige tjenester skal oppleves sammenhengende og helhetlige for brukerne, uavhengig av hvilke offentlige virksomheter som tilbyr dem._
+** _Forvaltningen skal gjenbruke informasjon i stedet for å spørre brukerne på nytt om forhold de allerede har opplyst om._
+* _Effektiv digitalisering av offentlig sektor_
+* _Godt personvern og god informasjonssikkerhet_
+** _Personvern og informasjonssikkerhet skal være en integrert del av utviklingen og bruken av IKT._
+** _Den enkelte innbygger skal i størst mulig grad ha råderett over egne personopplysninger._
 
 Man bør også utforde hvordan digital samhandling er realisert inntil nå, og avklare hvor langt man kan gå i å gjennomføre en digital transformasjon. Husk å sette brukeren i fokus og at virksomhetens egne behov ikke overskygger det å gi gode løsninger til brukeren.
 
@@ -74,7 +74,9 @@ Det er avgjørende at behandlingsgrunnlag (hjemler, samtykke etc.) for deling av
 
 Forretningsprosessens hovedformål er å identifisere digitale samhandlinger på tvers av virksomheter og ikke vise detaljer på hva som foregår i den enkelte virksomhet. Dette for å ha fokus på den digitale samhandlingen. 
 
-#Legge til figur - eksempel på prosess#
+//Ny figur under
+
+Figuren under er et eksempel på en prosess for behandling av konkursbo og samhandlingen mellom boet og NAV. Det er ikke lagt vekt på interne prosessene, men gitt en oversikt med fokus på samhandling partene i mellom. Denne prosessen vil følges og brukes som eksempel gjennom trinnen i metoden.
 
 image:../nab_referanse_veiledning_valg-av-referansearkitekturer/media/Konkursbo - forretningsprosess.png[alt="bad!", width=1100]
 
@@ -94,16 +96,20 @@ Prosessen for konkurs og lønnsgaranti kan for eksempel modelleres slik:
 image:../nab_referanse_veiledning_valg-av-referansearkitekturer/media/Basis prosess lønnsgaranti.png[alt="bad!", width=1100]
 ////
 
-Når to parter blir enige om en fulldigitalisert prosess, så har man et godt startpunkt på videre arbeid. Begge parter må kanskje gjøre løft i forhold til digitalisering, noe som ikke alltid er fullt ut mulig. Som regel vil man kunne digitalisere samhandlingen for fremtiden og så kan hver og en virksomhet stegvis dra nytte av dette til å digitalisere interne løsninger. Unntaksvis må man kanskje fire på kravet på hvor langt man vil gå i å digitalisere samhandlingen. I steg 2 vil vi se på og identifisere krav og egenskaper til samhandlingen mellom aktørene i den digitale prosessen. Steg 2 kan med fordel kjøres samtidig som steg 1, men er av pedagogiske grunner dokumentert separat.
+Når to parter blir enige om en fulldigitalisert prosess, så har man et godt startpunkt på videre arbeid. Begge parter må kanskje gjøre løft i forhold til digitalisering, noe som ikke alltid er fullt ut mulig. Som regel vil man kunne digitalisere samhandlingen for fremtiden og så kan hver og en virksomhet stegvis dra nytte av dette til å digitalisere interne løsninger. Unntaksvis må man kanskje fire på kravet på hvor langt man vil gå i å digitalisere samhandlingen. 
+
+
 
 
 === Steg 2 - Identifisere funksjonelle krav og egenskaper ved samhandlingen
 
+I steg 2 vil vi se på og identifisere krav og egenskaper til samhandlingen mellom aktørene i den digitale prosessen. Steg 2 kan med fordel kjøres samtidig som steg 1, men er av pedagogiske grunner dokumentert separat.
 
 #Steg 2  - presisere at det identifisering av funksjonelle krav og egenskaper.
 Se om vi kan løfte inn fra kap.3 inn i trinnene til metoden.
 Ikke de tekniske, men de forretningsmessige delene.#
 
+#Legge til juridiske saker?#
 
 Som del av modellering av en digital samhandlingsprosess i steg 1, så er det naturlig å identifisere hvilke behov og krav man har til samhandlingsmønstre og beskrive dette for hver enkelt identifiserte samhandling.
 
@@ -128,6 +134,33 @@ I prosessen for konkurs og lønnsgaranti kan vi identifisere flere ulike samhand
 image:../nab_referanse_veiledning_valg-av-referansearkitekturer/media/Prosess med mønster lønnsgaranti.png[alt="bad!", width=1100]
 ////
 Når dette er identifisert for hver enkelt samhandling, så blir neste steg å analysere behov og identifisere referansearkitektur.
+
+==== Egenskaper relatert til juridiske forhold
+* *Gjeldende lovpålagte krav*
++
+Eksempel: GDPR med krav til dataminimering mv.
+
+==== Egenskaper relatert til organisatorisk samhandlingsevne
+
+* *Type forretningsprosess*
++
+Eksempler:  Bilateral prosess mellom to kjente parter (herunder spørring og forhåndsavtalt, periodisk distriusjon); 
+Tverrgående prosess mellom faste parter; Tverrgående prosess mellom dynamiske oppdagete parter. 
+
+
+** *Antall samhandlingsparter*
++
+En-til-en, en-til-mange, mange-til-mange, mange-til-en
+
+** *Kjente eller ukjente mottakere*
++ 
+Fast eller dynamisk gruppe med samhandlingsparter
+
+
+* *Ansvarsfordeling*
++
+Hvem skal ha ansvar for hva? Hvem sier om du får tilgang til opplysninger eller ikke. 
+// Mulig at dette løftes inn i steg 1. 
 
 
 === Steg 3 - Identifiser referansearkitektur med fokus på samhandling
@@ -169,6 +202,35 @@ Man velger løsningsarkitektur ved å ta utgangspunkt i beste praksis for refera
 
 image:../nab_referanse_veiledning_valg-av-referansearkitekturer/media/Konkursbo - forretningsprosess med referansearkitektur.png[alt="bad!", width=1100]
 
+==== Egenskaper relatert til teknisk samhandlingsevne
+
+* *Utvekslingsprotokoller*
++
+** Synkron eller asynkron kommunikasjon
+** Aktuell infrastruktur
+
+* *Leveringstid for meldinger* (kvalitetskrav)
++
+Garantert leveringstid vs. krav til leveringstid
++
+Mål: Mikrosekunder, millisekunder, sekunder, timer, dager
+
+* *Responstid for spørringer* (kvalitetskrav)
++
+Garantert responstid vs. krav til responstid
++
+Mål: Mikrosekunder, millisekunder, sekunder, timer, dager
+
+* *Leveringssikkerhet* (kvalitetskrav)
++ 
+Grad av garantert levering (uten behov for tilbakemelding på _applikasjonslaget_)
++
+Mål: Prosentvis sannsynlighet for vellykket levering og mottak.
+
+// Vuredere plassering av denne
+* *Prosessens levetid*
++
+Relevant for feilhåndtering: Kortlevde prosesser med innebygd transaksjonssikkerhet kan tilbakerulles gjennom generelle mekanismer, f.eks. slik dette støttes av _rollback_ i relasjonsdatabaser. Langlevde prosesser krever skreddersydde _kompensasjonsaksjoner_.
 
 === Steg 5 - Andre realiseringshensyn
 Vurdering av andre hensyn, alternativer. Valgfrie tjenester. Det må også vurderes om det trengs tilleggskomponenter/tjenester som f.eks. data.altinn.no for best å realisere løsningen. 
@@ -176,3 +238,42 @@ Gjennomføre risikoanalyse for valgt løsning og bestemme nødvendige sikkerhets
 "Verdiøkende tjenester" En boks i midten må gi verdi.
 
 Kompetanse, kapasitet, risiko, datoer 
+
+==== Andre egenskaper (tverrgående)
+
+* *Føringer*
++
+** Prinsipper
++
+For eksempel SOA-prinsipper, samhandlingsprinsipper.
+** Standarder
++
+Ref. _Referansekatalogen_, bransjestandarder, mv.
+
+
+
+
+
+* *Kompetanse*
++
+** Kompleksitet
+
+* *Avtaler*
+
+* *Kostnader*
++
+** Pris
+
+
+* *Informasjonssikkerhet*
++
+Herunder:
++
+** Risikoanalyser
++
+** Kvalitetskrav for konfidensialitet, integritet og tilgjengelighet
++
+** Mekanismer for autentisering, autorisasjon, kryptering, ikke-benektelse, mv.
+
+
+
