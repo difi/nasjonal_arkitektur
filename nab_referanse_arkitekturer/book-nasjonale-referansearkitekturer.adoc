@@ -70,7 +70,7 @@ b. link:../nab_referanse_arkitekturer_datautveksling_forsendelse[Deling av data 
 
 c. link:../nab_referanse_arkitekturer_datautveksling_publisering[Deling av data ved publisering]
 
-* link:../nab_referanse_arkitekturer_epublisering[ePublisering]
+* link:../nab_referanse_arkitekturer_enotifikasjon[eNotifikasjon]
 
 
 //== Informasjonssikkerhet (felles)

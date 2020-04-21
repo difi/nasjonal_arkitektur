@@ -28,17 +28,32 @@ Eksempler på anvendelse:
 
 == Om dette mønsteret
 
-_Generisk mønster for publisering_ beskriver det som er felles for ulike måter å publisere data på, enten det dreier seg om hendelsesdata eller andre data. 
+_Generisk mønster for publisering_ beskriver det som er felles for ulike måter å publisere data på.
 
 
-== Grunnleggende konsepter for publisering av data og hendelser
-// TIP: Her kommer en figur som illustrerer grunnleggende konsepter.
+== Grunnleggende begrepsapparat for publisering
+
+
+.Publisering - grunnleggende begreper
+image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Publisering - grunnleggende begreper.png[alt=Publisering - grunnleggende begreper image]
+
+== Grunnleggende konsept for publisering
+
+Følgende figur illustrerer grunnleggende konsepter for publisering    
+
+
+
+sadsad
+
+.Publisering - konseptskisse
+image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Publisering - konseptskisse.png[alt=Publisering - konseptskisse image]
+
 
 Ved publisering etableres en løs kopling mellom datatilbyder og datakonsument. Dette kan gjøres på flere måter. Noen eksempler:
 
 a. Data tilgjengeliggjøres helt åpent, slik at hvem som vil kan konsumere data. Ulike tekniske løsninger for dette finnes. Referansearkitektur for eOppslag beskriver hvordan dette  dette kan gjøres gjennom API-er.
 
-b. Metadata publiseres åpent, men data kan kun konsumeres av aktører med nødvendige rettigheter. Referansearkitektur for eOppslag beskriver hvordan dette  dette kan gjøres gjennom oppsett av rettigheter til APIer.
+b. Metadata publiseres åpent, men data kan kun konsumeres av aktører med nødvendige rettigheter. Referansearkitektur for eOppslag beskriver hvordan dette  dette kan gjøres gjennom oppsett av rettigheter til API-er.
 
 c. Datakonsument abonnerer på å få tilsendt oppdaterte data, med utgangspunkt i abonnementsavtale som spesifiserer hvilke data som ønskes.
 
@@ -82,8 +97,12 @@ Kommentarer til denne figuren:
 image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _I arbeid (høst 2019)_
 ////
 
+
+
+
+
 = eNotifikasjon - strømming av hendelser
-include::../nab_referanse_arkitekturer_epublisering/book-ra-epublisering.adoc[]
+include::../nab_referanse_arkitekturer_enotifikasjon/book-ra-enotifikasjon.adoc[]
 
 
 :leveloffset: -1

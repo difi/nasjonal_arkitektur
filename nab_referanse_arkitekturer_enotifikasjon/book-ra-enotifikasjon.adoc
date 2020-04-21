@@ -15,7 +15,7 @@ eNotifikasjon er en referansearkitektur for publisering av hendelsesdata med lø
 
 == Om dette mønsteret
 
-eNotifikasjon er en referansearkitektur som adresserer området _deling av data ved publisering_, og inneholder arkitektur- og løsningsmønstre som spesialiserer link:../nab_referanse_arkitekturer_datautveksling_publisering[det generiske mønsteret for publisering].
+eNotifikasjon gir arkitektur- og løsningsmønstre som spesialiserer link:../nab_referanse_arkitekturer_datautveksling_publisering[det generiske mønsteret for publisering].
 
 eNotifikasjon dreier seg om publisering av hendelsesdata, eller notifikasjoner, via hendelseslister som kan aksesseres av datakonsumenter via spørring og oppslag i API-er. Konsumentene kan også innhente tilleggsdata om hendelser fra datatilbydere via spørring og oppslag i API-er, ved behov.
 
@@ -37,7 +37,7 @@ eNotifikasjon dreier seg om publisering av hendelsesdata, eller notifikasjoner, 
 Figuren nedenfor viser involverte roller og applikasjoner, samt samspillet mellom disse.
 
 .eNotifikasjon - grunnleggende konsepter
-image::../nab_referanse_arkitekturer_epublisering/media/eNotifikasjon - grunnleggende konsepter.png[alt=eNotifikasjon - grunnleggende konsepter image]
+image::../nab_referanse_arkitekturer_enotifikasjon/media/eNotifikasjon - grunnleggende konsepter.png[alt=eNotifikasjon - grunnleggende konsepter image]
 
 Kommentarer til denne figuren:
 
@@ -65,7 +65,7 @@ Kommentarer til denne figuren:
 Følgende figur viser en oversikt over verdistrømmene på tvers av datatilbyder og datakonsument for eNotifikasjon. 
 
 .eNotifikasjon - oversikt over verdistrømmer
-image::../nab_referanse_arkitekturer_epublisering/media/eNotifikasjon - oversikt over verdistrømmer.png[alt=eNotifikasjon - oversikt over verdistrømmer image]
+image::../nab_referanse_arkitekturer_enotifikasjon/media/eNotifikasjon - oversikt over verdistrømmer.png[alt=eNotifikasjon - oversikt over verdistrømmer image]
 
 
 //Dette er en spesialisert utgave av tilsvarende #_felles referansemodell for datautveksling_#. 
@@ -78,7 +78,7 @@ Her vises verdistrømmen for eNotifikasjon sett fra datatilbyder, med angivelse 
 Det som er spesielt for eNotifikasjon er vist med uthevet skrift, dvs. _Generere og tilby notifikasjoner_. Øvrige kapabiliteter er beskrevet andre steder, blant annet i tilknytning til referansearkitekturer for eMelding (Sende data) og  eOppslag (Avgi data på forespørsel).  
 
 .eNotifikasjon - tilbyders verdistrøm
-image::../nab_referanse_arkitekturer_epublisering/media/eNotifikasjon - tilbyders verdistrøm.png[alt=eNotifikasjon - tilbyders verdistrøm image]
+image::../nab_referanse_arkitekturer_enotifikasjon/media/eNotifikasjon - tilbyders verdistrøm.png[alt=eNotifikasjon - tilbyders verdistrøm image]
 
 === eNotifikasjon - verdistrøm for datakonsumenter
 Her vises verdistrømmen for eNotifikasjon sett fra datakonsumenter, med angivelse av kapabiliteter.
@@ -87,7 +87,7 @@ Det som er spesielt for eNotifikasjon er vist med uthevet skrift, dvs. _Innhente
 
 
 .eNotifikasjon - konsumenters verdistrøm
-image::../nab_referanse_arkitekturer_epublisering/media/eNotifikasjon - konsumenters verdistrøm.png[alt=eNotifikasjon - konsumenters verdistrøm image]
+image::../nab_referanse_arkitekturer_enotifikasjon/media/eNotifikasjon - konsumenters verdistrøm.png[alt=eNotifikasjon - konsumenters verdistrøm image]
 
 == Kapabilitetskart for eNotifikasjon
 
@@ -95,7 +95,7 @@ Modellen under viser kapabiliteter som er spesifikke for eNotifikasjon. Øvrige 
 
 
 .Kapabiliteter eNotifikasjon
-image::../nab_referanse_arkitekturer_epublisering/media/Kapabiliteter eNotifikasjon.png[alt=Kapabiliteter eNotifikasjon image]
+image::../nab_referanse_arkitekturer_enotifikasjon/media/Kapabiliteter eNotifikasjon.png[alt=Kapabiliteter eNotifikasjon image]
 
 [cols ="1,3", options="header"]
 .Elementer i view for Kapabiliteter eNotifikasjon
@@ -128,7 +128,7 @@ Generer og publiser notifikasjoner er den prosessen datatilbyder må gjøre for 
 
 
 .Generer og publiser notifikasjoner (arkitekturmønster)
-image::../nab_referanse_arkitekturer_epublisering/media/Generer og publiser notifikasjoner (arkitekturmønster).png[alt=Generer og publiser notifikasjoner (arkitekturmønster) image]]
+image::../nab_referanse_arkitekturer_enotifikasjon/media/Generer og publiser notifikasjoner (arkitekturmønster).png[alt=Generer og publiser notifikasjoner (arkitekturmønster) image]]
 
 
 Forklaring til figur:
@@ -181,7 +181,7 @@ En notifikasjon inneholder også en referanse til hendelsen og relevante grunnla
 Notifikasjoner leses på tilsvarende måte som beskrevet for generelle mønstre for spørring og oppslag (herunder eOppslag), men konsumentene må holde orden på spesielle forhold som rekkefølge og hvilke notifikasjoner som er lest. Konsumenten må også være i stand til å vurdere relevansen av hendelsene før videre behandling av notifikasjonene.
 
 .Innhente notifikasjoner ((arkitekturmønster)
-image::../nab_referanse_arkitekturer_epublisering/media/Innhente notifikasjoner ((arkitekturmønster).png[alt=Innhente notifikasjoner ((arkitekturmønster) image]
+image::../nab_referanse_arkitekturer_enotifikasjon/media/Innhente notifikasjoner ((arkitekturmønster).png[alt=Innhente notifikasjoner ((arkitekturmønster) image]
 
 [cols ="1,3", options="header"]
 .Elementer i view for Innhente notifikasjoner ((arkitekturmønster)
