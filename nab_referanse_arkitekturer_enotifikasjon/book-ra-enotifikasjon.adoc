@@ -176,6 +176,52 @@ En notifikasjon inneholder også en referanse til hendelsen og relevante grunnla
 
 |===
 
+=== Avgi forespurte notifikasjoner
+Notifikasjoner avgis gjennom API på tilsvarende måte som beskrevet for generelle mønstre for spørring og oppslag, men tilbyder må tilpasse hendelsene som avgis etter det konsumenten har rettigheter til og etterspør. F.eks. kan konsumenten kun ha rettigheter til en delmengde av alle hendelser i hendelsesliten og også kun være interessert i enkelte typer hendelser. Konsumenten vil også normalt kun ha behov for å hente notifikasjoner som ikke er hentet tidliger, men kan også ønske å hente tidligere notifikasjoner på nytt. 
+
+
+.Avgi notifikasjoner på forespørsel
+image::../nab_referanse_arkitekturer_epublisering/media/Avgi notifikasjoner på forespørsel.png[alt=Avgi notifikasjoner på forespørsel image]
+
+[cols ="1,3", options="header"]
+.Elementer i view for Avgi notifikasjoner på forespørsel
+|===
+
+| Element
+| Beskrivelse
+
+| Spørretjeneste mot hendelsesliste
+| Tjeneste for spørring og navigering av hendelsesliste gjennom API. Det kan være aktuelt å filtrere informasjon ut fra hvem som spør og hvilken informasjon det er abonnert på, i tillegg til å filtrere ut fra spesifikasjoner i hver enkelt spørring.
+
+| Avgi forespurte data gjennom API
+| Prosessen med å avgi data på forespørsel gjennom et egnet API.
+
+| Avgi forespurte notifikasjoner gjennom API
+| Prosessen med å avgi notifikasjoner på forespørsel gjennom et API som 
+
+| Motta forespørsel om notifikasjoner
+| Motta forespørsler fra konsument om å avgi notifkiasjoner.
+
+| Autentisere konsument
+| Prosessen med å autentisere en konsument.
+
+| Kontroller tilgang
+| Kontroll og håndheving av konsumentens rettigheter til å få forespurte data.  I tillegg til "validering av sikkerhetsbillet", kan det være behov for kontroll mot virksomhetsinterne policies.
+
+| Avgi utvalgte notifikasjoner 
+| Avgi utvalgte hendelser basert på parametere i forespørsel om notifikasjoner. 
+
+| Datatilbyder
+| Tilbyder av data til andre aktører.
+
+| Avgi data på forespørsel
+| Avgi data på forespørsel
+
+| Forespørsel om notifikasjoner
+| Dataobjekt med eventuelle parametere for spørring på notifikasjoner fra tilgjengelig hendelsesliste. Kan inneholde referanse til hvor i hendelselisten (tid eller nummer) man ønsker å lese, avgrensning til temaer og liknende. 
+
+|===
+
 
 === Konsumer notifikasjoner
 Notifikasjoner leses på tilsvarende måte som beskrevet for generelle mønstre for spørring og oppslag (herunder eOppslag), men konsumentene må holde orden på spesielle forhold som rekkefølge og hvilke notifikasjoner som er lest. Konsumenten må også være i stand til å vurdere relevansen av hendelsene før videre behandling av notifikasjonene.
