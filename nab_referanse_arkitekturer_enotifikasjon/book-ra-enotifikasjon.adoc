@@ -181,7 +181,7 @@ Notifikasjoner avgis gjennom API på tilsvarende måte som beskrevet for generel
 
 
 .Avgi notifikasjoner på forespørsel
-image::../nab_referanse_arkitekturer_epublisering/media/Avgi notifikasjoner på forespørsel.png[alt=Avgi notifikasjoner på forespørsel image]
+image::../nab_referanse_arkitekturer_enotifikasjon/media/Avgi notifikasjoner på forespørsel.png[alt=Avgi notifikasjoner på forespørsel image]
 
 [cols ="1,3", options="header"]
 .Elementer i view for Avgi notifikasjoner på forespørsel
