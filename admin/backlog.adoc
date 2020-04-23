@@ -7,7 +7,10 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 . 2019-15-12    *Fix rollekart*
 +
-Legg til Metadataleverandør som Tiltrodd tredjepart
+*  Legg til Metadataleverandør som Tiltrodd tredjepart???
+* legg til Produsent
+* Ta bort eller renavn "mellomledd"???
+* Ta inn Dataeier, data steward osv.??? 
 
 +
 Legg til produsentrolle

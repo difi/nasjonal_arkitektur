@@ -170,7 +170,7 @@ b. link:../nab_referanse_arkitekturer_datautveksling_forsendelse[Arkitekturmøns
 c. link:../nab_referanse_arkitekturer_datautveksling_publisering[Arkitekturmønstre for publisering av hendelsesdata]
 ////
 
-// * link:../nab_referanse_arkitekturer_epublisering[Publisering av hendelser (ePublisering)]
+// * link:../nab_referanse_arkitekturer_enotifikasjon[Publisering av hendelser (eNotifikasjon)]
 
 
 :leveloffset!:
