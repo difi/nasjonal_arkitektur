@@ -110,20 +110,23 @@ Som vist i følgende figur, gjøres dette typisk gjennom ulike API-er:
 NOTE: Begge disse måtene å gjøre oppslag på dekkes av _eOppslag_ arkitekturmønster. API-er for oppslag i hendelseslister kan f.eks. også finnes gjennom Felles datakatalog,  
 
 
-.Pull-basert publisering av notifikasjoner
-image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Pull-basert publisering av notifikasjoner.png[alt=Pull-basert publisering av notifikasjoner image]
+
+.Pull-basert distribusjon av notifikasjoner
+image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Pull-basert publisering av notifikasjoner.png[alt=Pull-basert distribusjon av notifikasjoner image]
 
 NOTE: Dette konseptet er det som ligger til grunn for mønsteret _eNotifikasjon_.  
 
 
 Notifikasjoner kan også sendes direkte til mottakers egen løsning, typisk med asynkrone meldinger til en meldingskø ut fra abonnementsavtale.
 
-.Push-basert publisering av notifikasjoner
-image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Push-basert publisering av notifikasjoner.png[alt=Push-basert publisering av notifikasjoner image]
+.Push-basert distribusjon av notifikasjoner
+image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Push-basert publisering av notifikasjoner.png[alt=Push-basert distribusjon av notifikasjoner image]
 
 
 NOTE: Om push-basert distribusjon er å oppfatte som "publisering", kan diskuteres. Figuren viser ikke alle detaljer, men en kan tenke seg en løs kopling mellom tilbyder og konsumenter også med dette mønsteret.     
 
+
+Det er også mulig å operere med en kombinasjon av pull og push for distribusjon av notifikasjoner, ved at det abonneres på sanntids "varsler" om nye hendelser, slik at en unngår å behov for hyppig polling av hendelseslistene. 
 
 == Forholdet til hendelsesdrevet arkitektur
 
@@ -159,10 +162,22 @@ Hvordan konsumenten identifiserer aktuelle supplerende hendelsesdata, kan varier
 
 TIP: En globalt unik identifikator kan fungere som en direkte peker til aktuelle dataressurser på nettet. En kan da, under visse forutsetninger, unngå behovet for å måtte innhente kopier av supplerende data, også for data som ligger hos andre virksomheter og eventuelt distribuert hos flere virksomheter. 
 
+== Litteraturhenvisninger
+Det er skrevet mye om arkitekturmønstre for publisering (eller pub-sub) og hendelsesdrevet arkitektur de siste årene, gjerne med ulike innfallsvinkler ut fra sammenhengen med arkitekturparadigmer som SOA og Microservices. 
+
+Henvisninger her er TBD, men se "arkitekturfaglig kunnskapsverksted" om 
+
+* https://doc.difi.no/nasjonal-arkitektur/kunnskap_/#event-sourcing[event sourcing]
+
+* https://doc.difi.no/nasjonal-arkitektur/kunnskap_/#event-collaboration[Event Collaboration]
+
+* https://doc.difi.no/nasjonal-arkitektur/kunnskap_/#_pattern_cqrs_command_query_responsibility_segregation[]
+
+* https://mapr.com/blog/event-driven-microservices-patterns/[Event Driven Microservices Architecture Patterns and Examples]
 
 
 = eNotifikasjon - strømming av hendelser
-include::../nab_referanse_arkitekturer_enotifikasjon/book-ra-enotifikasjon.adoc[]
+include::../nab_referanse_arkitekturer_enotifikasjon/book-ra-enotifikasjon.adoc[CQRS (Command Query Responsibility Segregation)]
 
 
 :leveloffset: -1
