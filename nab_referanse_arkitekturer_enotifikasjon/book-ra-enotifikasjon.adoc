@@ -15,6 +15,7 @@ eNotifikasjon er en referansearkitektur for publisering av hendelsesdata med lø
 
 == Om dette mønsteret
 
+
 eNotifikasjon dreier seg om publisering av hendelsesdata, via hendelseslister som kan aksesseres av datakonsumenter via spørring og oppslag i API-er. Konsumentene kan også innhente tilleggsdata om hendelser fra datatilbydere via spørring og oppslag i API-er, ved behov. Dette er illustert i følgende figur.
 
 .Pull-basert publisering av notifikasjoner
