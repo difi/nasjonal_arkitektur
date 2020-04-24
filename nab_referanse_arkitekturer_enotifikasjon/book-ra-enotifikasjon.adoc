@@ -15,14 +15,46 @@ eNotifikasjon er en referansearkitektur for publisering av hendelsesdata med lø
 
 == Om dette mønsteret
 
-eNotifikasjon gir arkitektur- og løsningsmønstre som spesialiserer link:../nab_referanse_arkitekturer_datautveksling_publisering[det generiske mønsteret for publisering].
+eNotifikasjon dreier seg om publisering av hendelsesdata, via hendelseslister som kan aksesseres av datakonsumenter via spørring og oppslag i API-er. Konsumentene kan også innhente tilleggsdata om hendelser fra datatilbydere via spørring og oppslag i API-er, ved behov. Dette er illustert i følgende figur.
 
-eNotifikasjon dreier seg om publisering av hendelsesdata, eller notifikasjoner, via hendelseslister som kan aksesseres av datakonsumenter via spørring og oppslag i API-er. Konsumentene kan også innhente tilleggsdata om hendelser fra datatilbydere via spørring og oppslag i API-er, ved behov.
+.Pull-basert publisering av notifikasjoner
+image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Pull-basert publisering av notifikasjoner.png[alt=Pull-basert publisering av notifikasjoner image]
+
+Som vist i figuren, skille det mellom to hovedtyper API-er: 
+
+1. API for oppslag/spørring mot hendelseslister.
+2. API for oppslag/innhenting av supplerende hendelsesdata (ved behov).
+
+Begge disse måtene å gjøre oppslag på dekkes av _eOppslag_ arkitekturmønster.
+
+TIP: eNotifikasjon bygger på konsepter fra Event Sourcing, et anerkjent og mye omtalt arkitekturmønster.  
+
+Grunnleggende egenskaper ved eNotifikasjon som mønster
+
+* En hendelse kan representeres ved en eller _notifikasjoner_.
+* Notifikasjoner samles i _hendelseslister_.
+* Hendelser kan ikke slettes (_immutable_), og notifikasjoner slettes heller ikke fra hendelseslister.  
+* Notifikasjoner innhentes på initiav fra konsument (pull).
+* Hver enketl konsument kan lese samme notifikasjn flere ganger.  
+Hendelseslister kan traverseres .
+
+TIP: Er det gitt hvem som skal holde rede på   
+
+Event Sourcing is an architectural pattern in which the state of the application is determined by a sequence of events each of which is recorded in an append-only Event store or Stream. As an example, imagine that each “event” is an incremental update to an entry in a database. In this case, the state of a particular entry is simply the accumulation of events pertaining to that entry. In the example below the Stream persists the queue of all deposit and withdrawal events, and the database table persists the current account balances
+
+=== Konsepter  
+Det gr
 
 
-== Grunnleggende konsepter for eNotifikasjon
 
+Når konsumentene uten videre kan kople seg på aktuelle hendelseslister og lese ut de notifikasjonene som ønskes, fås størst mulig grad av fri kopling mellom datatilbyder og datakonsumenter.
 
+Som vist i følgende figur, gjøres dette typisk gjennom ulike API-er: 
+
+1. API for oppslag/spørring mot hendelseslister.
+2. API for oppslag/innhenting av supplerende hendelsesdata (ved behov).
+
+NOTE: Begge disse måtene å gjøre oppslag på dekkes av _eOppslag_ arkitekturmønster. API-er for oppslag i hendelseslister kan f.eks. også finnes gjennom Felles datakatalog,  
 
 
 === Oppsummering av grunnleggende egenskaper ved eNotifikasjon som mønster
