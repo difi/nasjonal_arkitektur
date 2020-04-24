@@ -241,6 +241,8 @@ Gjennomføre risikoanalyse for valgt løsning og bestemme nødvendige sikkerhets
 
 Kompetanse, kapasitet, risiko, datoer 
 
+// Legge til en kobling til informasjonsforvaltning og orden i eget hus.
+
 ==== Andre egenskaper (tverrgående)
 
 * *Føringer*
