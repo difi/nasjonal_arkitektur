@@ -19,6 +19,7 @@ eNotifikasjon gir arkitektur- og løsningsmønstre som spesialiserer link:../nab
 
 eNotifikasjon dreier seg om publisering av hendelsesdata, eller notifikasjoner, via hendelseslister som kan aksesseres av datakonsumenter via spørring og oppslag i API-er. Konsumentene kan også innhente tilleggsdata om hendelser fra datatilbydere via spørring og oppslag i API-er, ved behov.
 
+
 == Grunnleggende konsepter for eNotifikasjon
 
 
