@@ -160,6 +160,9 @@ image::../nab_referanse_arkitekturer_enotifikasjon/media/Kapabiliteter eNotifika
 | Generere og tilby notifikasjoner
 | Evnen til å dele informasjon om hendelser gjennom notifikasjoner som tilgjengeliggjøres for konsumenter gjennom hendelseslister.
 
+|Avgi data på forespørsel
+|Evnen til å avgi data på forespørsel.
+
 | Innhente og håndtere notifikasjoner
 | Evnen til å konsumere hendelseslister.
 
