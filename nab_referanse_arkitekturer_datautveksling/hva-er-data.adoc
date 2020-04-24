@@ -40,8 +40,8 @@ NOTE: Meldinger kan også vises på logisk og konseptuelt nivå (som meldingsspe
 
 
 
-.Hva er data
-image::../nab_referanse_arkitekturer_datautveksling/media/Hva er data.png[alt=Hva er data image]
+.Hva er data for datautveksling
+image::../nab_referanse_arkitekturer_datautveksling/media/Hva er data for datautveksling.png[alt=Hva er data for datautveksling image]
 
 [cols ="1,1,3", options="header"]
 .Elementer i view for Hva er data

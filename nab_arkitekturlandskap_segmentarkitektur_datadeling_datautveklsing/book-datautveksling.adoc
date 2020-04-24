@@ -39,9 +39,9 @@ Innholdet i datasett ("selve dataene") kan redegjøres for i form av tidsstemple
 
 Begrepet _datadistrubusjon_ tilsvarer begrepet https://www.w3.org/TR/vocab-dcat/#Class:_Distribution[_distribution_] i DCAT-standarden. Dette kan f.eks. være dokumenter i et dokumentarkiv eller tabeller i en database.
 
-Det er den fysiske forekomsten av data i ulike systemer som må sikres, enten det dreier seg om data som er lagret over tid (data at rest) eller data som finnes midlertidig mellom systemer i en datautveksling (data in motion).
+Det er den fysiske forekomsten av data i ulike systemer som må sikres, enten det dreier seg om data som er lagret over tid (data i ro) eller data som finnes midlertidig mellom systemer i en datautveksling (data i bevegelse).
 
-Datautveksling kan skje gjennom felles datalager, men vil uansett omfatte en form for meldingsutveksling (synkront eller asynkront).
+//Datautveksling kan skje gjennom felles datalager , men vil uansett omfatte en form for meldingsutveksling (synkront eller asynkront).
 
 Det skilles videre mellom autoritative datasett (masterdata) og avledete data (slavedata). 
 
