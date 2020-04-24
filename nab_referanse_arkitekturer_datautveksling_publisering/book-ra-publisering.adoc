@@ -125,6 +125,15 @@ image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Push-baser
 NOTE: Om push-basert distribusjon er å oppfatte som "publisering", kan diskuteres. Figuren viser ikke alle detaljer, men en kan tenke seg en løs kopling mellom tilbyder og konsumenter også med dette mønsteret.     
 
 
+== Forholdet til hendelsesdrevet arkitektur
+
+image:../plattform_felles/media/i-arbeid.png[width=45, height=45] #_Dette kapitlet er til vurdering inn/ut?_#
+
+.Hendelsesdrevet prosessteg  (med utkast til kapabiliteter)
+image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Hendelsesdrevet prosessteg  (med utkast til kapabiliteter).png[alt=Hendelsesdrevet prosessteg  (med utkast til kapabiliteter) image]
+
+
+
 = Begrepsapparat 
 
 Grunnleggende begreper og sammenhenger er vist i følgende modell. 
@@ -149,9 +158,6 @@ For notifikasjoner som ikke gir det komplette _øyeblikksbildet_, må datakonsum
 Hvordan konsumenten identifiserer aktuelle supplerende hendelsesdata, kan variere. En mulighet er at notifikasjonen inneholder en peker til det aktuelle datasettet, dvs. øyeblikksbildet, og at dette gjøres gjennom en _identifikator for øyeblikksbilde av datasett_. Selve datasettet, og instansen av datasettet, kan eventuelt være sammensatt og ligge distribuert. Det vil også kunne lenke til relaterte datasett som ikke ses på som en direkte del av det aktuelle datasettet (og der det kan være vanskelig å garantere at det finnes et konsistent øyeblikksbilde).
 
 TIP: En globalt unik identifikator kan fungere som en direkte peker til aktuelle dataressurser på nettet. En kan da, under visse forutsetninger, unngå behovet for å måtte innhente kopier av supplerende data, også for data som ligger hos andre virksomheter og eventuelt distribuert hos flere virksomheter. 
-
-
-
 
 
 
