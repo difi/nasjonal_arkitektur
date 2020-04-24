@@ -30,6 +30,9 @@ image::../nab_referanse_arkitekturer_datautveksling/media/Samhandlingsaktører.p
 | Dataformidler
 | En aktør som formidler data mellom tilbyder og konsument. F.eks. tilbyder av meldingsinfrastruktur, aksesspunkt, mellomliggende lagringsløsninger etc.
 
+|Dataprodusent
+|Den som oppdaterer et datasett. Enten ved å gjøre endringer eller legge til nye data. 
+
 | Samhandlingsaktør
 | Samlebetegnelse på roller som inngår i en samhandlingsprosess og samhandler med en annen samhandlingsaktør. Kan være en tilbyder, konsument, avsender, mottaker, leverandør etc.
 
