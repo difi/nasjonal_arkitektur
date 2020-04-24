@@ -9,10 +9,9 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 :leveloffset: +1
 _Dette er en del av link:../nab_referanse_arkitekturer_datautveksling/[Referansearkitektur for datautveksling]_
 
+image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _UNDER OPPDATERING, 2020-04-24_
+
 = Introduksjon
-
-image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _UNDER OPPDATERING, 2020-04-23_
-
 
 Mønstre for publisering handler om hendelsesbasert deling av data med  løs kopling mellom tilbyder og konsument. 
 
@@ -28,27 +27,40 @@ Eksempler på anvendelse:
 
 = Grunnleggende konsepter for publisering
 
-Følgende figur illustrerer grunnleggende konsepter for publisering.    
+== Generelt
+Her introduseres noen begreper og konsepter. Videre detaljering av dette gis i påfølgende avsnitt, samt i tilknytning til spesifikke arkitekturmønstre.   
+
+Det helt  grunnleggende konseptet er at datatilbyder publiserer _notifikasjoner_ om hendelser uten å nødvendigvis vite hvem som er interessert og vil konsumere notifikasjonene.
+
+Selve notifikasjonene kan inneholde alle aktuelle hendelsesdata, eller det vil være nødvendig for konsumenten å innhente supplerende hendelsesdata. Dette er vist i følgende figur.   
+
+.Publisering - grunnleggende konsept
+image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Publisering - grunnleggende konsept.png[alt=Publisering - grunnleggende konsept image]
+
+Måten notifikasjoner publiseres og distribueres på kan variere, men konseptuelt sett brukes begrepet _hendelsesliste_ om en strøm av hendelser i form av notifikasjoner. 
+
+Datatilbyder skriver notifikasjoner til hendelseslister (engelsk begrep: topics) etterhvert som hendelser skjer, mens konsumentene kan lese ut informasjon om hendelsene når det passer. 
 
 
 .Publisering - enkel illustrasjon
 image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Publisering - enkel illustrasjon.png[alt=Publisering - enkel illustrasjon image]
 
 
-Ved publisering etableres en løs kopling mellom datatilbyder og datakonsument, der 
+Noen eksempler på ulike måter og tekniske løsninger å gjøre publisering på:
 
-
-Dette kan gjøres på flere måter. Noen eksempler:
-
-a. Data tilgjengeliggjøres helt åpent, slik at hvem som vil kan konsumere data. Ulike tekniske løsninger for dette finnes. Referansearkitektur for eOppslag beskriver hvordan dette  dette kan gjøres gjennom API-er.
+a. Data tilgjengeliggjøres helt åpent, slik at hvem som vil kan konsumere data. 
++
+NOTE: Arkitekturmønsteret _eOppslag_ beskriver hvordan dette  dette kan gjøres gjennom API-er.
 
 b. Metadata publiseres åpent, men data kan kun konsumeres av aktører med nødvendige rettigheter. Referansearkitektur for eOppslag beskriver hvordan dette  dette kan gjøres gjennom oppsett av rettigheter til API-er.
 
-c. Datakonsument abonnerer på å få tilsendt oppdaterte data, med utgangspunkt i abonnementsavtale som spesifiserer hvilke data som ønskes.
-
-d. Datakonsument abonnerer på notifikasjoner ved gitte hendelser.
+c. Datakonsument abonnerer på å få tilsendt oppdaterte data ved gitte hendelser (eventuelt periodisk), med utgangspunkt i abonnementsavtale som spesifiserer hvilke data som ønskes m.m. 
++
+NOTE: Begrepet publish-subscriber henspeiler på dette.
 
 e. Datakonsumenter henter selv inn notifikasjoner om hendelser ved å gjøre spørringer mot åpent tilgjengelige hendelseslister. 
++
+NOTE: Dette er utgangspunktet for det mønsteret som her kalles _eNotifikasjon_.
 
 ////
 
@@ -86,6 +98,31 @@ Kommentarer til denne figuren:
 image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _I arbeid (høst 2019)_
 ////
 
+== Pull-basert og push-basert distribusjon av notifikasjoner
+
+Når konsumentene uten videre kan kople seg på aktuelle hendelseslister og lese ut de notifikasjonene som ønskes, fås størst mulig grad av fri kopling mellom datatilbyder og datakonsumenter.
+
+Som vist i følgende figur, gjøres dette typisk gjennom ulike API-er: 
+
+1. API for oppslag/spørring mot hendelseslister.
+2. API for oppslag/innhenting av supplerende hendelsesdata (ved behov).
+
+NOTE: Begge disse måtene å gjøre oppslag på dekkes av _eOppslag_ arkitekturmønster. API-er for oppslag i hendelseslister kan f.eks. også finnes gjennom Felles datakatalog,  
+
+
+.Pull-basert publisering av notifikasjoner
+image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Pull-basert publisering av notifikasjoner.png[alt=Pull-basert publisering av notifikasjoner image]
+
+NOTE: Dette konseptet er det som ligger til grunn for mønsteret _eNotifikasjon_.  
+
+
+Notifikasjoner kan også sendes direkte til mottakers egen løsning, typisk med asynkrone meldinger til en meldingskø ut fra abonnementsavtale.
+
+.Push-basert publisering av notifikasjoner
+image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Push-basert publisering av notifikasjoner.png[alt=Push-basert publisering av notifikasjoner image]
+
+
+NOTE: Om push-basert distribusjon er å oppfatte som "publisering", kan diskuteres. Figuren viser ikke alle detaljer, men en kan tenke seg en løs kopling mellom tilbyder og konsumenter også med dette mønsteret.     
 
 
 = Begrepsapparat 
@@ -105,6 +142,13 @@ I tilknytning til hver hendelse finnes _Hendelsesdata_. Dette kan være små ell
 
 Notifikasjoner kan inneholde _komplette hendelsesdata_,  men dette er i mange tilfeller ikke hensiktsmessig. Alternativet er å la konsumentene komme tilbake og be om _supplerende data_. Det er f.eks. uproblematisk å sende med en ny måleverdi for et termometer, mens det kan være mindre ønskelig å distribuere komplette kopier av større og distribuerte datasett. Hensynet til dataminimering spiller også en rolle i slike vurderinger.
 
+Begrepet _klassifisering_ benyttes her om ulike typer metadata om datasettet som kan gi grunnlag for dataminimering, f.eks. at det inneholder persondata. Dette gjelder både for hendelsesdata og det _øyeblikksbildet_ (eller instansen av datasettet) som forelå da hendelsen inntraff og som forbindes med notifikasjonen.
+
+For notifikasjoner som ikke gir det komplette _øyeblikksbildet_, må datakonsumenten avgjøre om det behøves supplerende data, og selv ta initiativ til å innhente de dataene det er behov for.
+
+Hvordan konsumenten identifiserer aktuelle supplerende hendelsesdata, kan variere. En mulighet er at notifikasjonen inneholder en peker til det aktuelle datasettet, dvs. øyeblikksbildet, og at dette gjøres gjennom en _identifikator for øyeblikksbilde av datasett_. Selve datasettet, og instansen av datasettet, kan eventuelt være sammensatt og ligge distribuert. Det vil også kunne lenke til relaterte datasett som ikke ses på som en direkte del av det aktuelle datasettet (og der det kan være vanskelig å garantere at det finnes et konsistent øyeblikksbilde).
+
+TIP: En globalt unik identifikator kan fungere som en direkte peker til aktuelle dataressurser på nettet. En kan da, under visse forutsetninger, unngå behovet for å måtte innhente kopier av supplerende data, også for data som ligger hos andre virksomheter og eventuelt distribuert hos flere virksomheter. 
 
 
 

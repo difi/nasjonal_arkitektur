@@ -24,6 +24,7 @@ eNotifikasjon dreier seg om publisering av hendelsesdata, eller notifikasjoner, 
 
 
 
+
 === Oppsummering av grunnleggende egenskaper ved eNotifikasjon som mønster
 
 * En hendelse kan representeres ved en eller notifikasjoner.
