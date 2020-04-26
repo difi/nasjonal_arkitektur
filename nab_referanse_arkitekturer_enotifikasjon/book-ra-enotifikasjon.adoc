@@ -44,7 +44,15 @@ Grunnleggende egenskaper ved eNotifikasjon som mønster:
 // Event Sourcing is an architectural pattern in which the state of the application is determined by a sequence of events each of which is recorded in an append-only Event store or Stream. As an example, imagine that each “event” is an incremental update to an entry in a database. In this case, the state of a particular entry is simply the accumulation of events pertaining to that entry. In the example below the Stream persists the queue of all deposit and withdrawal events, and the database table persists the current account balances
 
 
-== Begrepsapparat 
+== Begrepsapparat
+
+Begrepsapparatet bygger på det grunnleggende begrepsapparatet for publisering; gjengitt her:
+
+image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Grunnleggende begreper for publisering av hendelser.png[alt=Grunnleggende begreper for publisering av hendelser image]
+
+image:../plattform_felles/media/i-arbeid.png[width=45, height=45] #_Innarbeiding av kommentarer pågår, 2020-04-27_#
+
+
 
 ////
 Grunnleggende begreper og sammenhenger er vist i følgende modell. 
@@ -175,7 +183,7 @@ Generer og publiser notifikasjoner er den prosessen datatilbyder må gjøre for 
 
 
 .Generer og publiser notifikasjoner (arkitekturmønster)
-image::../nab_referanse_arkitekturer_enotifikasjon/media/Generer og publiser notifikasjoner (arkitekturmønster).png[alt=Generer og publiser notifikasjoner (arkitekturmønster) image]]
+image::../nab_referanse_arkitekturer_enotifikasjon/media/Generer og publiser notifikasjoner (arkitekturmønster).png[alt=Generer og publiser notifikasjoner (arkitekturmønster) image]
 
 
 Forklaring til figur:
