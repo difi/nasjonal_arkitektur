@@ -11,6 +11,7 @@ _Dette er en del av link:../nab_referanse_arkitekturer_datautveksling/[Referanse
 
 // image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _UNDER OPPDATERING, 2020-04-24_
 
+
 = Introduksjon
 
 Mønstre for publisering gir deling av data og datastrømmer med løs kopling mellom tilbyder og konsument. 

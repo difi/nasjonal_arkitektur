@@ -6,6 +6,7 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 // image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _UNDER OPPDATERING, 2020-04-24_
 
+
 == Om dette mønsteret
 
 Det grunnleggende mønsteret for publisering som omhandles her, bygger på det mønsteret som i litteraturen tradisjonelt omtales som _publish-subscribe_; se f.eks. link:https://en.wikipedia.org/w/index.php?title=Publish%E2%80%93subscribe_pattern&oldid=950857039[wikipedia om publish-subscribe pattern] for en enkel beskrivelse av dette.
