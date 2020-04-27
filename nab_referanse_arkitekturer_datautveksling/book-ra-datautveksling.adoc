@@ -76,7 +76,6 @@ Illustrasjon - prioriterte arkitektur- og løsningsmønstre:
 image::../nab_referanse_arkitekturer/media/Aktuelle referansearkitekturer.png[alt=Aktuelle referansearkitekturer image]
 
 
-
 Her gjengis også en figur fra link:../nab_arkitekturlandskap_segmentarkitektur_datadeling_datautveklsing\[temaområde datautveksling] som viser en oversikt over de viktigste operative og forvaltningsmessige kapabilitetene for henholdsvis datatilbyder og  datakonsument. Nederst i figuren er det også listet tverrgående temaer som vurderes som særlig viktige i tilknytning til datautveksling.
 
 //Videre nedbryting i detaljerte kapabiliteter og mønstre gjøres i tilknytning til beskrivelsene av referansearkitekturer for datautveksling.
