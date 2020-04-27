@@ -20,11 +20,11 @@ Se også:
 
 2. link:../nab_arkitekturlandskap_segmentarkitektur_datadeling_datautveklsing\[Temaområde datautveksling] 
 
-5. link:../nab_arkitekturlandskap_segmentarkitektur_datadeling_verdistrømmer/[Felles referansemodeller for datadeling]
+3. link:../nab_arkitekturlandskap_segmentarkitektur_datadeling_verdistrømmer/[Felles referansemodeller for datadeling]
 
-3. link:../nab_arkitekturlandskap_segmentarkitektur_datadeling\[Temaområde datadeling].
+4. link:../nab_arkitekturlandskap_segmentarkitektur_datadeling\[Temaområde datadeling].
 
-4. link:../nab_referanse_arkitekturer[Nasjonale referansearkitekturer]
+5. link:../nab_referanse_arkitekturer[Nasjonale referansearkitekturer]
 
 6. link:../nab_[Nasjonalt arkitekturbibliotek]
 

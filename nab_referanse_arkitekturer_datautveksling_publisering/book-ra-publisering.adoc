@@ -16,7 +16,7 @@ _Dette er en del av link:../nab_referanse_arkitekturer_datautveksling/[Referanse
 
 Mønstre for publisering gir deling av data og datastrømmer med løs kopling mellom tilbyder og konsument. 
 
-Det fokuseres her på mønstre som understøtter hendelsesdrevet arkitektur, og det benyttes et begrepsapparat som gjenspeiler dette. Mønstre for publisering handler derfor her i hovedsak om publisering av data om hendelser, samt strømming av slike data. 
+Det fokuseres her på mønstre som understøtter hendelsesdrevet arkitektur, og det benyttes et begrepsapparat som gjenspeiler dette. Mønstre for publisering handler derfor her i hovedsak om publisering av data om hendelser, samt strømming av slike data. Andre former for publisering, slik som f.eks. publisering av API-er i en API-katalog, faller utenfor her.  
 
 Det finnes flere varianter av mønstrene, og disse egner seg til ulike formål. Utvikling av arkitekturer og fellesløsninger pågår både i Norge og internasjonalt, blant annet med komponenter fra EU. Det finnes også en rekke teknologier og produkter, deriblant mye som _open source_.
 
@@ -27,12 +27,15 @@ Dette er fremdeles for de fleste et vanskelig område å navigere i. Det finnes 
 
 Ambisjonsnivået her er heller ikke  å gi en komplett innføring i alle aspekter. Beskrivelser og utvalg av mønstre vil være behovsdrevet og vil utvikles over tid.
 
-Et viktig prinsipp er å ikke "finne opp hjulet på nytt". Det er dessuten 
+// Et viktig prinsipp er å ikke "finne opp hjulet på nytt"; for å unngå unødig arbeid og for å bruke begreper som rimer med det lar seg oversette Det er dessuten et poeng å kunne samarbeide internasojnalt. Det er derfor viktig å avtsemme begrepsapparate 
+
+
 // Henrik: Egenskaper? Distribuert, proseseor, uavhengig
 // Henrik: Data Mesh... 
-// Henrik sammenheng med sammenhengende tjenesterønskelig at et norsk begrepsapparat tilsvarer utbredte engelske begreper.  
+// Henrik sammenheng med sammenhengende tjenester  
 
-= Litteraturhenvisninger
+.Noen litteraturhenvisninger
+****
 Det er skrevet mye om arkitekturmønstre for publisering (eller pub-sub) og hendelsesdrevet arkitektur de siste årene, gjerne med ulike innfallsvinkler ut fra sammenhengen med arkitekturparadigmer som SOA og Microservices.
 
 Noen utvalgte henvisninger: 
@@ -50,23 +53,38 @@ Noen utvalgte henvisninger:
 . https://mapr.com/blog/event-driven-microservices-patterns/[Event Driven Microservices Architecture Patterns and Examples]
 
 . https://www.confluent.io/blog/journey-to-event-driven-part-1-why-event-first-thinking-changes-everything/[Why Event-First Thinking Changes Everything]
+****
+
+////
+= Egenskaper
+
+Fordeler:
+
+* Løs kopling mellom tilbyder og konsument gir fleksibilitet på begge sider.
+
+* Skalerbarhet
+
+
+Ulemper:
+
+Komplesitet...
+////
+
+// Henrik: Egenskaper? Distribuert, proseseor, uavhengig
+// Henrik: Data Mesh... 
+// Henrik sammenheng med sammenhengende tjenester
 
 
 = Bruksområder
 
 Eksempler på anvendelse av mønstre for publisering:  
 
-* Strømming av forretningsmessige hendelsesdata, f.eks. i tilknytning til vedtak i offentlig saksbehandling.
 * Abonnement på data brukt til analyser og statistikk.
 * Replikering av data ved hendelsesbasert oppdatering av kopier og avledede datasett.
 * Strømming av IoT-data, enten periodisk (tidshendelse) eller ved terskeloverskridende endringer i måleverdier
+* Strømming av forretningsmessige hendelsesdata, f.eks. i tilknytning til vedtak i offentlig saksbehandling. Dette gir grunnlag for dynamisk etablering av nye forretningsprosesser og tjenester for å dekke aktuelle brukerbehov (stikkord: sammenhengende tjenester).
 
-
-// Henrik: Egenskaper? Distribuert, proseseor, uavhengig
-// Henrik: Data Mesh... 
-// Henrik sammenheng med sammenhengende tjenester
-
-= Grunnleggende begrepsapparat for publisering
+== Begrepsapparat
 
 Grunnleggende begreper og sammenhenger er vist i følgende modell. 
 

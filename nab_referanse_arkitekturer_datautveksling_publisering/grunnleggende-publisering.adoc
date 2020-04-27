@@ -1,5 +1,5 @@
 :lang: no
-:doctitle: Grunnleggende mønster for publisering  
+:doctitle: Generisk mønster for publisering  
 :keywords: TBD
 :toclevels: 3
 include::../plattform_felles/includes/commonincludes.adoc[]
@@ -9,7 +9,9 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 == Om dette mønsteret
 
-Det grunnleggende mønsteret for publisering som omhandles her, bygger på det mønsteret som i litteraturen tradisjonelt omtales som _publish-subscribe_; se f.eks. link:https://en.wikipedia.org/w/index.php?title=Publish%E2%80%93subscribe_pattern&oldid=950857039[wikipedia om publish-subscribe pattern] for en enkel beskrivelse av dette.
+Det grunnleggende mønsteret for publisering som omhandles her, bygger hovedsakelig på det mønsteret som i litteraturen tradisjonelt omtales som _publish-subscribe_; se f.eks. link:https://en.wikipedia.org/w/index.php?title=Publish%E2%80%93subscribe_pattern&oldid=950857039[wikipedia om publish-subscribe pattern] for en enkel beskrivelse av dette.
+
+Det tas også inn visse detaljer fra andre arkitekturmønstre (slik som f.eks. Event Notification). 
 
 //Tilbyder publiserer data i en til en hendelsesliste som ulike konsumenter kan kople seg på og lese fra (abonnere på oppdateringer fra).
 //Tilbyder publiserer notifikasjoner om hendelser til en hendelsesliste som ulike konsumenter kan kople seg på og lese fra (abonnere på oppdateringer fra). 
@@ -19,29 +21,53 @@ Det grunnleggende mønsteret for publisering som omhandles her, bygger på det m
 
 // Henrik kommentar
 
-Konseptene bak mønsteret kan oppsummeres slik (se figur under): 
-
-* Tilbydere publiserer nyheter (hendelser) via  nyhetskanaler (hendelsesstrømmer) til et konsumentmarked der konsumentene (datakonsumentene) ikke nødvendigvis er kjent på forhånd. 
-* Konsumenter kan kople seg på for å lese nyheter (hendelser) på tilfeldig basis (løssalgsavis).
-* Konsumenter kan eventuelt tegne abonnementer for å få levert nyhetene (hendelsene) "på døra" (f.eks. via en meldingskø på abonnentsiden, men dette kan også gjøres på andre måter).
-* Konsumenter kan også tegne abonnementer for å få et utvalg av nyhetene (innholdsfilter.) 
-* Tilbyder kan ta betalt for innhold og tjenester, eller det kan være gratis.
+Det helt grunnleggende konseptet er at tilbyder publiserer data (til en  hendelsesstrøm) uten å forutsette noe om hvem konsumentene er. Konsumentene kan i sin tur koble seg på og lese fra hendelsesstrømmen.
 
 
 .Publisering av hendelser - basiskonsept
 image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Publisering av hendelser - basiskonsept.png[alt=Publisering av hendelser - basiskonsept image]
 
 
-== Overordnet om løsninger for utveksling av notifikasjoner via hendelseslister
+Dersom det stilles særskilte krav til f.eks. innhold eller levering, kan det være nødvendig å sette opp abonnementer. 
 
-Datatilbyders publiseringsløsning skriver notifikasjoner til hendelseslister etterhvert som hendelser skjer. Datakonsumentene kan deretter lese og konsumere notifikasjoner gjennom sine løsninger.
 
+.Publisering av hendelser - basiskonsept med abonnement
+image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Publisering av hendelser - basiskonsept med abonnement.png[alt=Publisering av hendelser - basiskonsept med abonnement image]
+
+NOTE: Selv om mønsteret normalt omtales som Publish-Subscribe, understrekes det at abonnement ikke bestandig er nødvendig.
+
+.Analogi til mediehus:
+****
+ * Mediehus (tilbyder) publiserer nyheter  (hendelser)  via  nyhetskanaler (hendelsesstrømmer) til et konsumentmarked der konsumentene ikke nødvendigvis er kjent på forhånd. 
+ * Konsumenter kan kople seg på for å lese nyheter på tilfeldig basis, f.eks. en løssalgsavis.
+* Konsumenter kan eventuelt tegne abonnementer for å få levert nyhetene "på døra" (f.eks. til en innboks).
+* Konsumenter kan også tegne abonnementer for å få et utvalg av nyhetene (innholdsfilter.) 
+* Tilbyder kan ta betalt for innhold og tjenester, eller det kan være gratis.
+****
+
+
+
+== Grunnleggende om løsninger for utveksling av notifikasjoner via hendelseslister
+
+[underline]#Konseptuelt sett# kan en si at datatilbyders publiseringsløsning [underline]#skriver# notifikasjoner til hendelseslister etterhvert som hendelser skjer, etterfulgt av at datakonsumentene [underline]#leser# notifikasjoner gjennom sine løsninger for innhenting og mottak. Dette tilsvarer at datatilbyder [underline]#publiserer# og datakonsument [underline]##konsumerer##.
 
 
 .Publisering av hendelser - grunnleggende konsept, med applikasjoner
 image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Publisering av hendelser - grunnleggende konsept, med applikasjoner.png[alt=Publisering av hendelser - grunnleggende konsept, med applikasjoner image]
 
-== Applikasjonstjenester for utveksling av notifikasjoner via hendelseslister (teknisk)
+
+I praksis kan det være at tilbyder  skriver notifikasjoner direkte til konsumentens integrasjonløsning, som em "pushbasert" abonnementstjeneste" for levering av notifikasjoner (se neste avsnitt).
+
+I praksis kan også både datatilbyder og datakonsument velge å benytte en ekstern tjenesteleverandør for å formidle hendelsesdata. I så fall kan ekstern tjenesteleverandørs løsninger og tjenester anses som del av tilbyders eller konsuments løsninger og tjenester på lik linje med interne leverandører (og behøver ikke vises som egen part).
+
+WARNING: Det faller utenfor omfanget her å gå inn på tilfeller der  ekstern tjenesteleverandør opptrer som  mellomledd på en måte som gjør det nødvendig å se på juridiske forhold eller løsninger på tvers av partene. 
+
+
+
+
+
+
+== Applikasjonstjenester
 
 Følgende figur angir aktuelle tjenester og grensesnitt.
 
@@ -82,7 +108,7 @@ b. Konsumenten spesifiserer et abonnement på ytterligere filtrering innen hver 
 * Dataminimering ut fra hensyn til personvern eller konfidensialitet 
 * Filtrering av ikke-relevante notifikasjoner
 
-c. Konsumenten kasserer notifikasjoner etter mottak.
+c. Konsumenten forkaster notifikasjoner etter mottak.
 
 Følgende modell oppsummerer sammenhengen mellom begreper som angår filtrering og dataminimering for hendelseslister og notifikasjoner på tvers av tilbyder og konsument.
 
