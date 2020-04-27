@@ -17,11 +17,13 @@ Det grunnleggende mønsteret for publisering som omhandles her, bygger på det m
 //Det antas her at notifikasjonene inneholder alle relevante data 
 == Hovedkonsepter
 
+// Henrik kommentar
+
 Konseptene bak mønsteret kan oppsummeres slik (se figur under): 
 
 * Tilbydere publiserer nyheter (hendelser) via  nyhetskanaler (hendelsesstrømmer) til et konsumentmarked der konsumentene (datakonsumentene) ikke nødvendigvis er kjent på forhånd. 
-* Konsumenter kan kople seg på for å lese nyheter på tilfeldig basis (løssalgsavis).
-* Konsumenter kan eventuelt tegne abonnementer for å få levert nyhetene "på døra" (f.eks. via en meldingskø på abonnentsiden, men dette kan også gjøres på andre måter).
+* Konsumenter kan kople seg på for å lese nyheter (hendelser) på tilfeldig basis (løssalgsavis).
+* Konsumenter kan eventuelt tegne abonnementer for å få levert nyhetene (hendelsene) "på døra" (f.eks. via en meldingskø på abonnentsiden, men dette kan også gjøres på andre måter).
 * Konsumenter kan også tegne abonnementer for å få et utvalg av nyhetene (innholdsfilter.) 
 * Tilbyder kan ta betalt for innhold og tjenester, eller det kan være gratis.
 
@@ -72,6 +74,7 @@ Merk: Dataminimering kan løses ved at det tilbys ulike hendelseslister for samm
 == Filtrering og minimering av hendelseslister og notifikasjoner (semantisk og teknisk)
 
 Filtrering av notifikasjoner kan skje på følgende måter:
+// Kommentar, Henrik!
 
 a. Tilbyder tilbyr ulike hendelseslister, der det allerede er gjort et utvalg basert på metadata og kriterier som tema eller rettigheter. 
 b. Konsumenten spesifiserer et abonnement på ytterligere filtrering innen hver hendelsesliste. Det kan være to formål for dette:

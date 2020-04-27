@@ -16,7 +16,7 @@ _Dette er en del av link:../nab_referanse_arkitekturer_datautveksling/[Referanse
 
 Mønstre for publisering gir deling av data og datastrømmer med løs kopling mellom tilbyder og konsument. 
 
-Det fokuseres her på mønstre som understøtter hendelsesdrevet arkitektur, og det benyttes bevisst et begrepsapparat som gjenspeiler dette. Mønstre for publisering handler derfor her i hovedsak om publisering av data om hendelser og strømming av slike data. 
+Det fokuseres her på mønstre som understøtter hendelsesdrevet arkitektur, og det benyttes et begrepsapparat som gjenspeiler dette. Mønstre for publisering handler derfor her i hovedsak om publisering av data om hendelser, samt strømming av slike data. 
 
 Det finnes flere varianter av mønstrene, og disse egner seg til ulike formål. Utvikling av arkitekturer og fellesløsninger pågår både i Norge og internasjonalt, blant annet med komponenter fra EU. Det finnes også en rekke teknologier og produkter, deriblant mye som _open source_.
 
@@ -27,7 +27,10 @@ Dette er fremdeles for de fleste et vanskelig område å navigere i. Det finnes 
 
 Ambisjonsnivået her er heller ikke  å gi en komplett innføring i alle aspekter. Beskrivelser og utvalg av mønstre vil være behovsdrevet og vil utvikles over tid.
 
-Et viktig prinsipp er å ikke "oppfinne hjulet på nytt". Det er dessuten ønskelig at et norsk begrepsapparat tilsvarer utbredte engelske begreper.  
+Et viktig prinsipp er å ikke "finne opp hjulet på nytt". Det er dessuten 
+// Henrik: Egenskaper? Distribuert, proseseor, uavhengig
+// Henrik: Data Mesh... 
+// Henrik sammenheng med sammenhengende tjenesterønskelig at et norsk begrepsapparat tilsvarer utbredte engelske begreper.  
 
 = Litteraturhenvisninger
 Det er skrevet mye om arkitekturmønstre for publisering (eller pub-sub) og hendelsesdrevet arkitektur de siste årene, gjerne med ulike innfallsvinkler ut fra sammenhengen med arkitekturparadigmer som SOA og Microservices.
@@ -58,6 +61,10 @@ Eksempler på anvendelse av mønstre for publisering:
 * Replikering av data ved hendelsesbasert oppdatering av kopier og avledede datasett.
 * Strømming av IoT-data, enten periodisk (tidshendelse) eller ved terskeloverskridende endringer i måleverdier
 
+
+// Henrik: Egenskaper? Distribuert, proseseor, uavhengig
+// Henrik: Data Mesh... 
+// Henrik sammenheng med sammenhengende tjenester
 
 = Grunnleggende begrepsapparat for publisering
 
@@ -119,9 +126,11 @@ include::../nab_referanse_arkitekturer_datautveksling_publisering/grunnleggende-
 
 :leveloffset: -1
 
-= Strømming av oppdaterte data (event-carried state transfer)
- 
-= Strømming av hendelser (event notification)
+//= Strømming av oppdaterte data (event-carried state transfer)
+
+
+//= Strømming av hendelser (event notification)
+
 ////
 For notifikasjoner som ikke gir det komplette _øyeblikksbildet_, må datakonsumenten avgjøre om det behøves supplerende data, og selv ta initiativ til å innhente de dataene det er behov for.
 
@@ -130,7 +139,7 @@ Hvordan konsumenten identifiserer aktuelle supplerende hendelsesdata, kan varier
 TIP: En globalt unik identifikator kan fungere som en direkte peker til aktuelle dataressurser på nettet. En kan da, under visse forutsetninger, unngå behovet for å måtte innhente kopier av supplerende data, også for data som ligger hos andre virksomheter og eventuelt distribuert hos flere virksomheter. 
 ////
 
-= Regnskapsføring av hendelser (event sourcing)
+//= Regnskapsføring av hendelser (event sourcing)
 
 //== Skille mellom datamodeller for skriving og lesing (CQRS)
 

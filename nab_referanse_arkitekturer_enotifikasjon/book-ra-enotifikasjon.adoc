@@ -15,10 +15,14 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 == Om dette mønsteret
 
-eNotifikasjon dreier seg om publisering av hendelsesdata via hendelseslister som kan aksesseres av datakonsumenter via spørring og oppslag i API-er. Konsumentene kan også innhente tilleggsdata om hendelser fra datatilbydere via spørring og oppslag i API-er, ved behov. Dette er illustert i følgende figur.
+eNotifikasjon dreier seg om publisering av hendelsesdata via hendelseslister som kan aksesseres av datakonsumenter via spørring og oppslag i API-er.
 
-.Pull-basert publisering av notifikasjoner
-image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Pull-basert publisering av notifikasjoner.png[alt=Pull-basert publisering av notifikasjoner image]
+eNotifikasjon bygger på _grunnleggende mønster for publisering og strømming av hendelser_. 
+
+Konsumentene kan også innhente tilleggsdata om hendelser fra datatilbydere via spørring og oppslag i API-er, ved behov. Dette er illustert i følgende figur.
+
+.Pull-basert distribusjon av notifikasjoner
+image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Pull-basert distribusjon av notifikasjoner.png[alt=Pull-basert distribusjon av notifikasjoner image]
 
 Som vist i figuren, skilles det mellom to hovedtyper API-er: 
 
@@ -49,7 +53,42 @@ Begrepsapparatet bygger på det grunnleggende begrepsapparatet for publisering; 
 
 image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Grunnleggende begreper for publisering av hendelser.png[alt=Grunnleggende begreper for publisering av hendelser image]
 
-image:../plattform_felles/media/i-arbeid.png[width=45, height=45] #_Innarbeiding av kommentarer pågår, 2020-04-27_#
+//image:../plattform_felles/media/i-arbeid.png[width=45, height=45] #_Innarbeiding av kommentarer pågår, 2020-04-27_#
+
+For mønsteret eNotifikasjon gjelder en detaljering av begrepet _hendelsesrelaterte data_ som følger her.
+
+.Hendelsesrelaterte data
+image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Hendelsesrelaterte data.png[alt=Hendelsesrelaterte data image]
+
+Forkaring til modellen:
+
+_Hendelsestype_ kan være et entydig element i et kontrollert vokabular, men det kan også være "fritekst".
+
+_Hendelsesrelaterte data_ kan være små eller store _Datasett_, enten lagret samlet eller distribuert.
+
+//Notifikasjoner kan inneholde et fullstendig sett av _hendelsesrelaterte data_,  men dette er i mange tilfeller ikke hensiktsmessig. Alternativet er å la konsumentene komme tilbake og be om _supplerende data_. Det er f.eks. uproblematisk å sende med en ny måleverdi for et termometer, mens det kan være mindre ønskelig å distribuere komplette kopier av større og distribuerte datasett. Hensynet til dataminimering spiller også en rolle i slike vurderinger.
+
+== Innhenting av supplerende hendelsesrelaterte data
+
+For notifikasjoner som ikke gir et tilstrekkelig sett av _hendelsesrelaterte data_ for konsumentens formål, må datakonsumenten selv ta initiativ til å innhente supplerende data.
+
+Identifikasjon av aktuelle supplerende hendelsesrelaterte kan enten gjøres gjennom 
+
+a. en enkelt _identifikator for hendelsesrelaterte data_ som inneholdes i notifikasjonen, Dette kan fungere godt når tilbyder har preparert det aktuelle datasettet for konsumenten ut fra spesifikasjon gitt i abonnementsoppsettet.
+
+b. separate identifikatorer for ulike deler av  notifikasjon, f.eks for _subjekt_.
+
+Selve innhentingen av _supplerende hendelsesrelaterte data_ dekkes av eOppslag referansearkitektur.
+
+////
+For å kunne filtrere og minimere innholdet i supplerende hendelsesdata gjennom spørringer, må konsumenten kjenne datamodellen for _hendelsesrelaterte data_.
+
+
+Merk: Det totale datasettet for hendelsesrelaterte data kan eventuelt være sammensatt og ligge distribuert. Det vil også kunne lenke til relaterte datasett som ikke ses på som en direkte del av det aktuelle datasettet.  
+
+TIP: Globalt unike identifikatorer kan fungere som direkte pekere til aktuelle dataressurser på nettet. Med spørrespråk som SPARQL of GraphQL kan slike ressurser finnes direkte, uten å gå veien om tilbyder.
+
+////
 
 
 
