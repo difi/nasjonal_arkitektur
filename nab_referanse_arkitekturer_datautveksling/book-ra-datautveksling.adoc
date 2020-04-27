@@ -8,7 +8,7 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 = Introduksjon
 
 == Generelt
-_Referansearkitektur for datautveksling_ gir beste praksis for arkitekturer og løsninger innen _temaområdet datautveksling_.
+_Referansearkitektur for datautveksling_ gir god praksis for arkitekturer og løsninger innen _temaområdet datautveksling_.
 
 Primære målgrupper er virksomhetsarkitekter, løsningsarkitekter og tech-leads i utviklingsteam.
 
