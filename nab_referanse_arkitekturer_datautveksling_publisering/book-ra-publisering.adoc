@@ -14,7 +14,7 @@ image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _UNDER OPPDATE
 
 = Introduksjon
 [[basiskonsept-publisering]]
-Mønstre for publisering handler helt grunnleggende om at tilbydere publiserer hendelsesstømmer uten å måtte vite hvem konsumentene er. Konsumentene kan i sin tur koble seg på og lese fra hendelsesstrømmene.
+Mønstre for publisering handler helt grunnleggende om at tilbydere publiserer hendelsesstømmer uten å måtte vite hvem konsumentene er. Konsumentene kan i sin tur koble seg på hendelsesstrømmene.
 
 .Publisering av hendelser - basiskonsept
 image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Publisering av hendelser - basiskonsept.png[alt=Publisering av hendelser - basiskonsept image]
@@ -152,8 +152,8 @@ TIP: En globalt unik identifikator kan fungere som en direkte peker til aktuelle
 
 
 
-
-
+:leveloffset!:
+:leveloffset: +1
 
 [[overskrift-grunnleggende-publisering]]
 = Grunnleggende arkitekturmønstre for publisering
@@ -379,8 +379,10 @@ include::../nab_referanse_arkitekturer_enotifikasjon/book-ra-enotifikasjon.adoc[
 :leveloffset!:
 ////
 
+
 :leveloffset!:
 :leveloffset: +1
+
 = Anbefalte anvendelser av grunnleggende arkitekturmønstre for publisering
 
 :leveloffset: +1
