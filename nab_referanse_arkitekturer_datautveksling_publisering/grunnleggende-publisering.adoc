@@ -96,9 +96,9 @@ TIP: Spørringer kan også gjøres som en bestilling av framtidige notifikasjone
 
 Følgende figur illustrerer disse konseptene. 
 
-//der hhv. _grensesnitt for spørring mot hendelsesliste_ og _grensesnitt for levering av notifikasjoner_ 
 
-// Erik: Dette er ikke perfekt, fordi
+
+// Erik: Figuren er ikke perfekt, fordi
 
 .Publisering av hendelser - grunnleggende om tekniske grensesnitt
 image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Publisering av hendelser - grunnleggende om tekniske grensesnitt.png[alt=Publisering av hendelser - grunnleggende om tekniske grensesnitt image]
@@ -149,18 +149,23 @@ Merk: Dataminimering kan løses ved at det tilbys ulike hendelseslister for samm
 == Filtrering og minimering av hendelseslister og notifikasjoner (semantisk og teknisk)
 
 Filtrering av notifikasjoner kan skje på følgende måter:
-// Kommentar, Henrik!
 
-a. Tilbyder tilbyr ulike hendelseslister, der det allerede er gjort et utvalg basert på metadata og kriterier som tema eller rettigheter. 
-b. Konsumenten spesifiserer et abonnement på ytterligere filtrering innen hver hendelsesliste. Det kan være to formål for dette:
-+
-* Dataminimering ut fra hensyn til personvern eller konfidensialitet 
-* Filtrering av ikke-relevante notifikasjoner
 
-c. Konsumenten forkaster notifikasjoner etter mottak.
+a. Tilbyder tilbyr ulike hendelseslister, der det allerede er gjort et utvalg basert på metadata og kriterier som tema eller konfidensialitet. 
+
+c. Konsumenten spesifiserer et abonnement på ytterligere filtrering innen hver hendelsesliste.
+
+b. Spørring mot hendelsesliste.
+
+d. Konsumenten forkaster notifikasjoner etter mottak.
+
+
+
 
 Følgende modell oppsummerer sammenhengen mellom begreper som angår filtrering og dataminimering for hendelseslister og notifikasjoner på tvers av tilbyder og konsument.
 
+
+// Håkon: Del opp i to: filterer/minimer vs. geerering vs. publisring
 
 .Publisering av hendelser - filtrering og minimering
 image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Publisering av hendelser - filtrering og minimering.png[alt=Publisering av hendelser - filtrering og minimering image]

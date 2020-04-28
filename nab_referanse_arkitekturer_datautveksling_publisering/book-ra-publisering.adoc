@@ -14,8 +14,13 @@ _Dette er en del av link:../nab_referanse_arkitekturer_datautveksling/[Referanse
 
 = Introduksjon
 
-Løs kobling av aktører og komponenter fremmer innovasjon gjennom å lette endringer og få til mer dynamisk etablering av samarbeid mellom aktørene. En ønsker generelt å komme bort fra store monolittiske systemer som ikke er lagt opp til å samspille i en distribuert kontekst. 
-Mønstre for publisering gir deling av data og datastrømmer med løs kopling mellom tilbyder og konsument.
+Arkitekturmønstre for publisering handler om at datatilbydere publiserer hendelsesstømmer uten å nødvendigvis kjenne til konsumentene på forhånd.
+
+Dette gir en form for løs kobling mellom aktørene som fremmer innovasjon og samhandling. Nye samhandlingsparter kan kople seg på i tjenesteproduksjonen  i en form for dynamisk økosystem. Forretningsprosessene behøver ikke være kartlagt og fastsatt i minste detalj på forhånd.
+
+Endringer i IT-systemene blir også enklere, fordi det vil være mindre avhengigheter til systemene hos andre virksomheter. En ønsker generelt å komme bort fra store monolittiske systemer som ikke er lagt opp til å samspille i en distribuert kontekst. 
+
+NOTE: Løs kopling mellom IT-systemene er blant de de helt grunnleggende arkitekturprinsippene innen tjenesteorientert atrkitektur. Gjeldende arkitekturprinsipper fra Digitaliseringsdirektoratet per 2020 sier blant annet: _Ta hensyn til anerkjente designprinsipper for tjenesteorientert arkitektur, slik som løse koplinger, modularisering, standardiserte tjenestekontrakter med videre._
 
 Det fokuseres her på mønstre som understøtter hendelsesdrevet arkitektur og tjenesteorientering, og det benyttes et begrepsapparat som gjenspeiler dette. Mønstre for publisering handler derfor her i hovedsak om publisering av data om hendelser, samt strømming av slike data. Andre former for publisering, slik som f.eks. publisering av API-er i en API-katalog, faller utenfor her.  
 
@@ -24,16 +29,13 @@ Det finnes flere varianter av mønstrene, og disse egner seg til ulike formål. 
 
 TIP: I artikkelen  link:https://martinfowler.com/articles/201701-event-driven.html[What do you mean by “Event-Driven”?] (fra 2017), redegjør  Martin Fowler kort for noen av de mest aktuelle mønstrene for strømming av hendelser. Han peker her også på behovet for god veiledning.
 
-Dette er fremdeles for de fleste et vanskelig område å navigere i. Det finnes mange kilder til informasjon, men ingen enkelt, dekkende lærebok. Både vinkling og begrepsapparat fra ulike kilder er egnet til forviiring. 
+Dette er fremdeles for de fleste et vanskelig område å navigere i. Det finnes mange kilder til informasjon, men ingen enkelt, dekkende lærebok. Både vinkling og begrepsapparat fra ulike kilder er egnet til forvirring. 
 
 Ambisjonsnivået her er heller ikke  å gi en komplett innføring i alle aspekter. Beskrivelser og utvalg av mønstre vil være behovsdrevet og vil utvikles over tid.
 
+
 // Et viktig prinsipp er å ikke "finne opp hjulet på nytt"; for å unngå unødig arbeid og for å bruke begreper som rimer med det lar seg oversette Det er dessuten et poeng å kunne samarbeide internasojnalt. Det er derfor viktig å avtsemme begrepsapparate 
 
-
-// Henrik: Egenskaper? Distribuert, proseseor, uavhengig
-// Henrik: Data Mesh... 
-// Henrik sammenheng med sammenhengende tjenester  
 
 .Noen litteraturhenvisninger
 ****
@@ -80,10 +82,12 @@ Komplesitet...
 
 Eksempler på anvendelse av mønstre for publisering:  
 
-* Abonnement på data brukt til analyser og statistikk.
+* Trigging av forretningsprosesser hos samhandlingsparter som deltar i dynamiske forretningsprosesser og tilpasset saksbehandling.
 * Replikering av data ved hendelsesbasert oppdatering av kopier og avledede datasett.
+* Hendelsesbart innhenting av data brukt til analyser og statistikk.
 * Strømming av IoT-data, enten periodisk (tidshendelse) eller ved terskeloverskridende endringer i måleverdier
-* Strømming av forretningsmessige hendelsesdata, f.eks. i tilknytning til vedtak i offentlig saksbehandling. Dette gir grunnlag for dynamisk etablering av nye forretningsprosesser og tjenester for å dekke aktuelle brukerbehov (stikkord: sammenhengende tjenester).
+
+//* Strømming av forretningsmessige hendelsesdata, f.eks. i tilknytning til vedtak i offentlig saksbehandling. Dette gir grunnlag for dynamisk etablering av nye forretningsprosesser og tjenester for å dekke aktuelle brukerbehov (stikkord: sammenhengende tjenester).
 
 = Begrepsapparat
 
@@ -92,10 +96,11 @@ Grunnleggende begreper og sammenhenger er vist i følgende modell.
 .Grunnleggende begreper for publisering av hendelser
 image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Grunnleggende begreper for publisering av hendelser.png[alt=Grunnleggende begreper for publisering av hendelser image]
 
+// Håkon: Har og medfører
 
 _Hendelser_ er det som skjer i den virkelige i verden, i en strøm av hendelser, eller __hendelsesstrømmer__. 
 
-Assosiert med hver hendelse finnes et _datagrunnlag_ som tilsvarer tilstanden før hendelsen inntraff. I bakkant av hendelsen finnes tilsvarende  et "_oppdatert datagrunnlag_, som typisk, men ikke nødvendigvis, vil være endret.
+Assosiert med hver hendelse finnes et _datagrunnlag_ som tilsvarer tilstanden før hendelsen inntraff. I bakkant av hendelsen finnes tilsvarende  et "_oppdatert datagrunnlag_.
 
 _Subjekt_ er hvem eller hva hendelsen omhandler, slik dette er å oppfatte i den aktuelle konteksten. Dette kan være et fysisk objekt (f.eks. person), en samling fysiske objekter (f.eks. befolkningsgruppe) eller et konsept (f.eks. politikk).  
 
