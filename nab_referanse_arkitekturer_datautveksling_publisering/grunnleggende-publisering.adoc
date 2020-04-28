@@ -11,7 +11,7 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 Det grunnleggende mønsteret for publisering som omhandles her, bygger hovedsakelig på det mønsteret som i litteraturen tradisjonelt omtales som _publish-subscribe_; se f.eks. link:https://en.wikipedia.org/w/index.php?title=Publish%E2%80%93subscribe_pattern&oldid=950857039[wikipedia om publish-subscribe pattern] for en enkel beskrivelse av dette.
 
-Det tas også inn visse detaljer fra andre arkitekturmønstre (slik som f.eks. Event Notification). 
+Det tas også inn visse detaljer fra andre arkitekturmønstre. 
 
 //Tilbyder publiserer data i en til en hendelsesliste som ulike konsumenter kan kople seg på og lese fra (abonnere på oppdateringer fra).
 //Tilbyder publiserer notifikasjoner om hendelser til en hendelsesliste som ulike konsumenter kan kople seg på og lese fra (abonnere på oppdateringer fra). 
@@ -55,8 +55,27 @@ NOTE: Selv om mønsteret normalt omtales som Publish-Subscribe, understrekes det
 .Publisering av hendelser - grunnleggende konsept, med applikasjoner
 image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Publisering av hendelser - grunnleggende konsept, med applikasjoner.png[alt=Publisering av hendelser - grunnleggende konsept, med applikasjoner image]
 
+=== Om dataflyt og pull vs. push
 
-I praksis kan det være at tilbyder  skriver notifikasjoner direkte til konsumentens integrasjonløsning, som em "pushbasert" abonnementstjeneste" for levering av notifikasjoner (se neste avsnitt).
+I praksis kan det være at tilbyder  skriver notifikasjoner direkte til konsumentens integrasjonløsning, som en "pushbasert" abonnementstjeneste for levering av notifikasjoner.
+
+Følgende figur viser dataflyten mellom systemene og illustrer dette.
+
+
+.Publisering av hendelser - grunnleggende konsept, dataflyt mellom applikasjoner
+image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Publisering av hendelser - grunnleggende konsept, dataflyt mellom applikasjoner.png[alt=Publisering av hendelser - grunnleggende konsept, dataflyt mellom applikasjoner image]
+
+Kombinasjonen av abonnement og spørring er det som bestemmer hvilke notifikasjoner som flyter fra tilbyder til konsument. 
+
+Om det ikke er krav til å sette opp abonnement i forkant, kan spørringer gjøres direkte (pullbasert). 
+
+Om det i registrering av abonnement på en hendelsesliste også registreres mer spesifikt hvilke notifikasjoner som ønskes levert hvordan, kan en tilsvarende få levert notifikasjoner på initiativ fra publiseringsløsningen (pushbasert).
+
+Spørringer kan også gjøres (pullbasert) med utgangspunkt i en abonnementsavtale.
+
+
+
+=== Om bruk av eksterne tjenesteleverandører 
 
 I praksis kan også både datatilbyder og datakonsument velge å benytte en ekstern tjenesteleverandør for å formidle hendelsesdata. I så fall kan ekstern tjenesteleverandørs løsninger og tjenester anses som del av tilbyders eller konsuments løsninger og tjenester på lik linje med interne leverandører (og behøver ikke vises som egen part).
 

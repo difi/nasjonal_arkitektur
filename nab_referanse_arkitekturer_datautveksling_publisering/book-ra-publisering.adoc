@@ -84,7 +84,7 @@ Eksempler på anvendelse av mønstre for publisering:
 * Strømming av IoT-data, enten periodisk (tidshendelse) eller ved terskeloverskridende endringer i måleverdier
 * Strømming av forretningsmessige hendelsesdata, f.eks. i tilknytning til vedtak i offentlig saksbehandling. Dette gir grunnlag for dynamisk etablering av nye forretningsprosesser og tjenester for å dekke aktuelle brukerbehov (stikkord: sammenhengende tjenester).
 
-== Begrepsapparat
+= Begrepsapparat
 
 Grunnleggende begreper og sammenhenger er vist i følgende modell. 
 
