@@ -9,9 +9,13 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 == Om dette mønsteret
 
-Det grunnleggende mønsteret for publisering som omhandles her, bygger hovedsakelig på det mønsteret som i litteraturen tradisjonelt omtales som _publish-subscribe_; se f.eks. link:https://en.wikipedia.org/w/index.php?title=Publish%E2%80%93subscribe_pattern&oldid=950857039[wikipedia om publish-subscribe pattern] for en enkel beskrivelse av dette.
+Dette mønsteret er "generisk", der det i begrenset grad gjøres konkrete valg av teknologier og løsninger. 
 
-Det tas også inn visse detaljer fra andre arkitekturmønstre. 
+Mønsteret bygger i hovedsakelig på det mønsteret som i litteraturen tradisjonelt omtales som _publish-subscribe_; se f.eks. link:https://en.wikipedia.org/w/index.php?title=Publish%E2%80%93subscribe_pattern&oldid=950857039[wikipedia om publish-subscribe pattern] for en enkel beskrivelse av dette.
+
+Det tas også inn visse detaljer fra andre arkitekturmønstre.
+
+NOTE: Selv om mønsteret normalt omtales som Publish-Subscribe, understrekes det at abonnement ikke bestandig er nødvendig. Vi kaller det derfor også bare for "publisering".
 
 //Tilbyder publiserer data i en til en hendelsesliste som ulike konsumenter kan kople seg på og lese fra (abonnere på oppdateringer fra).
 //Tilbyder publiserer notifikasjoner om hendelser til en hendelsesliste som ulike konsumenter kan kople seg på og lese fra (abonnere på oppdateringer fra). 
@@ -34,7 +38,7 @@ Dersom det stilles særskilte krav til f.eks. innhold eller levering, kan det v�
 .Publisering av hendelser - basiskonsept med abonnement
 image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Publisering av hendelser - basiskonsept med abonnement.png[alt=Publisering av hendelser - basiskonsept med abonnement image]
 
-NOTE: Selv om mønsteret normalt omtales som Publish-Subscribe, understrekes det at abonnement ikke bestandig er nødvendig.
+
 
 .Analogi til mediehus:
 ****

@@ -14,9 +14,10 @@ _Dette er en del av link:../nab_referanse_arkitekturer_datautveksling/[Referanse
 
 = Introduksjon
 
-Mønstre for publisering gir deling av data og datastrømmer med løs kopling mellom tilbyder og konsument. 
+Løs kobling av aktører og komponenter fremmer innovasjon gjennom å lette endringer og få til mer dynamisk etablering av samarbeid mellom aktørene. En ønsker generelt å komme bort fra store monolittiske systemer som ikke er lagt opp til å samspille i en distribuert kontekst. 
+Mønstre for publisering gir deling av data og datastrømmer med løs kopling mellom tilbyder og konsument.
 
-Det fokuseres her på mønstre som understøtter hendelsesdrevet arkitektur, og det benyttes et begrepsapparat som gjenspeiler dette. Mønstre for publisering handler derfor her i hovedsak om publisering av data om hendelser, samt strømming av slike data. Andre former for publisering, slik som f.eks. publisering av API-er i en API-katalog, faller utenfor her.  
+Det fokuseres her på mønstre som understøtter hendelsesdrevet arkitektur og tjenesteorientering, og det benyttes et begrepsapparat som gjenspeiler dette. Mønstre for publisering handler derfor her i hovedsak om publisering av data om hendelser, samt strømming av slike data. Andre former for publisering, slik som f.eks. publisering av API-er i en API-katalog, faller utenfor her.  
 
 Det finnes flere varianter av mønstrene, og disse egner seg til ulike formål. Utvikling av arkitekturer og fellesløsninger pågår både i Norge og internasjonalt, blant annet med komponenter fra EU. Det finnes også en rekke teknologier og produkter, deriblant mye som _open source_.
 
