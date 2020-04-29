@@ -1,4 +1,4 @@
-event sourcing:lang: no
+:lang: no
 :doctitle: Mønstre for publisering 
 :keywords: TBD
 :toclevels: 3
