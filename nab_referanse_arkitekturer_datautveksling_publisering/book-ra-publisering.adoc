@@ -566,9 +566,11 @@ image::../nab_referanse_arkitekturer_publisering/media/eNotifikasjon - konsument
 
 Modellen under viser kapabiliteter som er spesifikke for eNotifikasjon. Øvrige kapabiliteter er beskrevet i samhandlingsmønsteret for _deling av data på forespørsel_.
 
-
 .Kapabiliteter eNotifikasjon
 image::../nab_referanse_arkitekturer_enotifikasjon/media/Kapabiliteter eNotifikasjon.png[alt=Kapabiliteter eNotifikasjon image]
+
+//.Kapabiliteter eNotifikasjon
+//image::../nab_referanse_arkitekturer_enotifikasjon/media/Kapabiliteter eNotifikasjon.png[alt=Kapabiliteter eNotifikasjon image]
 
 [cols ="1,3", options="header"]
 .Elementer i view for Kapabiliteter eNotifikasjon
