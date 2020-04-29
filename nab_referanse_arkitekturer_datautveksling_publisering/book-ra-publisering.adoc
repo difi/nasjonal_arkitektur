@@ -885,6 +885,7 @@ Her nevnes spesielt:
 
 * Modernisert folkeregister fra Skatteetaten tilbyr hendelseslister og oppslag som konsumenttjenester. Disse tjenestene er beskrevet i link:https://skatteetaten.github.io/folkeregisteret-api-dokumentasjon/konsumenttjenester/[Folkeregisterets API dokumentasjon]
 
+* https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/Context+Broker[EU CEF Context Broker]
 
 //* _Context Broker_   
 //* _Kafka_
