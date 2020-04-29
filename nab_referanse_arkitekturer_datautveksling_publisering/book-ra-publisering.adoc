@@ -872,7 +872,7 @@ b. Formidling av noifikasjoner til flere og ulike typer (interne) konsumenter.
 
 
 
-== Løsningsmønstre
+== Løsningsmønstre for eNotifikasjon
 Spesifikke løsningsmønstre for eNotifikasjon er inntil videre ikke utarbeidet. Det er stor variasjon i praksis, og ingen fellesløsninger er så langt etablert i Norge.
 
 Det finnes i mellomtiden noen  gode eksempler å peke på. Open source produkter som er i utstrakt gir også en pekepinn om aktuelle løsningsmønstre. 
