@@ -121,6 +121,7 @@ Løsningsarkitekter som er ute etter praktiske tips, kan velge å gå rett på d
 
 ////
 
+
 == Overgripende modell for datautveksling
 
 === Generisk prosess for klargjøring til databehandling
