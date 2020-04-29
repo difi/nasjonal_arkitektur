@@ -155,10 +155,12 @@ TIP: En globalt unik identifikator kan fungere som en direkte peker til aktuelle
 :leveloffset!:
 :leveloffset: +1
 
+:leveloffset: +1
+
 [[overskrift-grunnleggende-publisering]]
 = Grunnleggende arkitekturmønstre for publisering
 
-:leveloffset: +1
+
 
 // include::../nab_referanse_arkitekturer_datautveksling_publisering/grunnleggende-publisering.adoc[]
 
@@ -177,7 +179,7 @@ Hvordan konsumenten identifiserer aktuelle supplerende hendelsesdata, kan varier
 TIP: En globalt unik identifikator kan fungere som en direkte peker til aktuelle dataressurser på nettet. En kan da, under visse forutsetninger, unngå behovet for å måtte innhente kopier av supplerende data, også for data som ligger hos andre virksomheter og eventuelt distribuert hos flere virksomheter. 
 ////
 
-
+:leveloffset: +1
 [[generisk-publisering]]
 = Publisering og konsumering av hendelsesstrømmer (generisk mønster)
 
@@ -385,7 +387,7 @@ include::../nab_referanse_arkitekturer_enotifikasjon/book-ra-enotifikasjon.adoc[
 
 //= Anbefalte anvendelser av grunnleggende arkitekturmønstre for publisering
 
-//:leveloffset: +1
+:leveloffset: +1
 
 = eNotifikasjon - publisering av hendelser med pullbasert innhenting 
 
