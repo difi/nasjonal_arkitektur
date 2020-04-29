@@ -796,19 +796,22 @@ En notifikasjon inneholder også en referanse til hendelsen og relevante grunnla
 Notifikasjoner avgis gjennom API på tilsvarende måte som beskrevet for generelle mønstre for spørring og oppslag, men tilbyder må tilpasse hendelsene som avgis etter det konsumenten har rettigheter til og etterspør. F.eks. kan konsumenten kun ha rettigheter til en delmengde av alle hendelser i hendelsesliten og også kun være interessert i enkelte typer hendelser. Konsumenten vil også normalt kun ha behov for å hente notifikasjoner som ikke er hentet tidliger, men kan også ønske å hente tidligere notifikasjoner på nytt. 
 
 
-.Avgi notifikasjoner på forespørsel
-image::../nab_referanse_arkitekturer_enotifikasjon/media/Avgi notifikasjoner på forespørsel.png[alt=Avgi notifikasjoner på forespørsel image]
 
+.Avgi forespurte notifikasjoner
+image::../nab_referanse_arkitekturer_enotifikasjon/media/Avgi forespurte notifikasjoner.png[alt=Avgi forespurte notifikasjoner image]
 
 [cols ="1,3", options="header"]
-.Elementer i view for Avgi notifikasjoner på forespørsel
+.Elementer i view for Avgi forespurte notifikasjoner
 |===
 
 | Element
 | Beskrivelse
 
-| Tilbyders spørretjeneste mot hendelsesliste
-| Tjeneste for spørring og navigering av hendelsesliste gjennom API. Det kan være aktuelt å filtrere informasjon ut fra hvem som spør og hvilken informasjon det er abonnert på, i tillegg til å filtrere ut fra spesifikasjoner i hver enkelt spørring.
+| Datatilbyder
+| Tilbyder av data til andre aktører.
+
+| Avgi data på forespørsel
+| Evnen til å avgi data på forespørsel
 
 | Avgi forespurte data gjennom API
 | Prosessen med å avgi data på forespørsel gjennom et egnet API.
@@ -817,51 +820,58 @@ image::../nab_referanse_arkitekturer_enotifikasjon/media/Avgi notifikasjoner på
 | Prosessen med å avgi notifikasjoner på forespørsel gjennom et API som 
 
 | Motta forespørsel om notifikasjoner
-| Motta forespørsler fra konsument om å avgi notifkiasjoner.
+| Motta forespørsler fra konsument om å avgi notifikasjoner.
 
-| Autentisere konsument
-| Prosessen med å autentisere en konsument.
+| Autentisere konsument og kontrollere tilgang
+| Prosessen med å autentisere en konsument og kontrollere  rettigheter til data.
 
-| Kontroller tilgang
-| Kontroll og håndheving av konsumentens rettigheter til å få forespurte data.  I tillegg til "validering av sikkerhetsbillet", kan det være behov for kontroll mot virksomhetsinterne policies.
+| Tilpass innhold til konsument
+| Prosessen med å tilpasse innholdet til konsument. Tilpasningen gjøres på grunnlag av parametere/informasjon i forespørselen og 
 
 | Avgi utvalgte notifikasjoner 
 | Avgi utvalgte hendelser basert på parametere i forespørsel om notifikasjoner. 
 
-| Tilpass innhold til konsument
-| 
-
-| Junction
-| 
-
-| Datatilbyder
-| Tilbyder av data til andre aktører.
-
-| Avgi data på forespørsel
-| Evnen til å avgi data på forespørsel
-
 | Forespørsel om notifikasjoner
-| Dataobjekt med eventuelle parametere for spørring på notifikasjoner fra tilgjengelig hendelsesliste. Kan inneholde referanse til hvor i hendelselisten (tid eller nummer) man ønsker å lese, avgrensning til temaer og liknende. 
+| Dataobjekt med eventuelle parametere for spørring på notifikasjoner fra tilgjengelig hendelsesliste. Kan inneholde referanse til hvor i hendelselisten (f.eks. tid eller sekvensnummer) man ønsker å lese, avgrensning til temaer, rettigheter og liknende. 
+Informasjonen er grunnlag for eventuell tilpasning av innhold og utvalg. 
 
-| Filtrert hendelsesliste
-| 
+| Datautvekslings-tjeneste
+| Tjeneste for utveksling av data. Samme som data exchange service. Benyttes av avsender og mottaker for transport av meldinger.
 
-| Minimert notifikasjon
-| 
+| Autentiseringstjeneste
+| Tjeneste som benyttes av tilbyder for å validere og kontrollere autentisiteten til et OAUTH2 token fra Maskinporten
+
+| Tilgangskontroll-tjeneste
+| Tjeneste for å sjekke rettigheter til data. Kan være eksterne eller interne tjenester.
+Eksempler på rettigheter kan komme av samtykker fra person eller virksomhet, eller rollebasert fra vergemål, familierelasjon el.
 
 | Filtrerings- og minimeringstjeneste
-| 
+| Tjeneste for å filtrere og minimere informasjon ut fra parametere i forespørselen og hvilken informasjon konsumenten har rettigheter til.
+
+| Tilbyders spørretjeneste mot hendelsesliste
+| Tjeneste for spørring og navigering av hendelsesliste gjennom API. 
+
+| Filtrert hendelsesliste
+| Utvalg av hendelsesliste tilpasset en forespørsel fra konsument.
+
+| Minimert notifikasjon
+| Notifikasjon som inneholder kun det konsumenten etterspør og har rettigheter til.
 
 |===
+
 
 === Konsumer notifikasjoner
 Notifikasjoner leses på tilsvarende måte som beskrevet for generelle mønstre for spørring og oppslag (herunder eOppslag), men konsumentene må holde orden på spesielle forhold som rekkefølge og hvilke notifikasjoner som er lest. Konsumenten må også være i stand til å vurdere relevansen av hendelsene før videre behandling av notifikasjonene.
 
-.Innhente notifikasjoner ((arkitekturmønster)
-image::../nab_referanse_arkitekturer_enotifikasjon/media/Innhente notifikasjoner ((arkitekturmønster).png[alt=Innhente notifikasjoner ((arkitekturmønster) image]
+
+
+
+
+.Konsumer notifikasjoner
+image::../nab_referanse_arkitekturer_enotifikasjon/media/Konsumer notifikasjoner.png[alt=Konsumer notifikasjoner image]
 
 [cols ="1,3", options="header"]
-.Elementer i view for Innhente notifikasjoner ((arkitekturmønster)
+.Elementer i view for Konsumer notifikasjoner
 |===
 
 | Element
@@ -871,25 +881,21 @@ image::../nab_referanse_arkitekturer_enotifikasjon/media/Innhente notifikasjoner
 | Den som innhenter eller mottar data fra andre aktører.
 
 | Innhente og håndtere notifikasjoner
-| Evnen til å konsumere hendelseslister.
-
+| Evnen til å konsumere hendelseslister ved å innhente notifikasjoner.
 
 | Forespørsel om notifikasjoner
-| Dataobjekt med eventuelle parametere for spørring på notifikasjoner fra tilgjengelig hendelsesliste. Kan inneholde referanse til hvor i hendelselisten (tid eller nummer) man ønsker å lese, avgrensning til temaer og liknende. 
+| Dataobjekt med eventuelle parametere for spørring på notifikasjoner fra tilgjengelig hendelsesliste. Kan inneholde referanse til hvor i hendelselisten (f.eks. tid eller sekvensnummer) man ønsker å lese, avgrensning til temaer, rettigheter og liknende. 
+Informasjonen er grunnlag for eventuell tilpasning av innhold og utvalg. 
 
-
-| Notifikasjon
+| Notifikasjoner
 | Dataobjekt som peker til (eller representerer) en hendelse og gjøres tilgjengelig på en hendelsesliste så konsumenten får vite om hendelsen.
 
 En notifikasjon kan inneholde lite eller mye informasjon om selve hendelsen, men det må være nok informasjon til at konsumenten kan vurdere om hendelsen er relevant for seg.
 
 En notifikasjon inneholder også en referanse til hendelsen og relevante grunnlagsdata.
 
-
 | Kriterier og regler for vurdering
 | Informasjon om hva som legges til grunn for å vurdere relevansen av en hendelse basert på tilgjengelig notifikasjon.
-
-
 
 | Konsumer notifikasjoner
 | Prosessen med å lese og håndtere notifikasjoner.
@@ -897,40 +903,31 @@ En notifikasjon inneholder også en referanse til hendelsen og relevante grunnla
 | Les notifikasjoner
 | Prosess for å hente en eller flere notifikasjoner fra en hendelsesliste.
 
-| Vurdere notifikasjon
+| Vurder notifikasjon
 | Prosess med å vurdere om en hendelsen knyttet til lest notifikasjon er relevant for egen virksomhet.
 
 | Videre behandling av notifikasjon
-| Prosess med videre behandling av en notifikasjon. Vil normalt være å innhente mer informasjon om hendelsen knyttet til notifikasjonen og eventuelt agere ut i fra denne.
+| Prosess med videre behandling av en notifikasjon som normalt vil være å innhente mer informasjon om hendelsen eller subjektet notifikasjonen er knyttet til og eventuelt agere ut i fra denne.
 
 | Forkast notifikasjon
 | Prosess med å forkaste notifikasjon som ikke er relevant for virksomheten. Avhengig av krav til personvern og informasjonssikkerhet kan det være særskilte krav til hva som er lov å beholde. 
 
-
 | Spørring mot eksponert hendelsesliste
 | Tjeneste(r) for å forespørre notifikasjoner og navigere i hendelseslister.
 
-|Tjeneste for mottak notifikasjoner
-|
+| Datautvekslings-tjeneste
+| Tjeneste for utveksling av data. Samme som data exchange service. Benyttes av avsender og mottaker for transport av meldinger.
 
 | Filtrering av notifikasjoner
 | Tjeneste for å filtrere innhentede notifikasjoner. Dette er en tilleggsmekanisme for filtrering, sammenliknet med filtrering som gjøres gjennom spøringer mot datatilbyder, og benyttes ved behov.  Eksempler på behov:
 
 a. Datatilbyder gir ikke gode nok muligheter for filtrering.
 
-b. Formidling av noifikasjoner til flere og ulike typer (interne) konsumenter.
-
-|Kassert notifikasjon
-|Notifikasjoner som ikke angår datakonsumenten kasseres.
+b. Formidling av notifikasjoner til flere og ulike typer (interne) konsumenter.
 
 
-|Benyttet notifikasjon
-|Notifikasjoner som skal benyttes til videre behandling.
 
 |===
-
-
-
 
 == Løsningsmønstre for eNotifikasjon
 Spesifikke løsningsmønstre for eNotifikasjon er inntil videre ikke utarbeidet. Det er stor variasjon i praksis, og ingen fellesløsninger er så langt etablert i Norge.
