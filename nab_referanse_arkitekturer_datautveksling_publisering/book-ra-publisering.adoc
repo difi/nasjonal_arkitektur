@@ -557,9 +557,9 @@ Her vises verdistrømmen for eNotifikasjon sett fra datakonsumenter, med angivel
 
 Det som er spesielt for eNotifikasjon er vist med uthevet skrift, dvs. _Innhente og håndtere notifikasjoner_. Øvrige kapabiliteter er beskrevet andre steder, blant annet i tilknytning til referansearkitekturer for eMelding (Motta data) og  eOppslag (Innhente data ved forespørsel).  
 
-
 .eNotifikasjon - konsumenters verdistrom
-image::../nab_referanse_arkitekturer_epublisering/media/eNotifikasjon - konsumenters verdistrom.png[alt=eNotifikasjon - konsumenters verdistrom image]
+image::../nab_referanse_arkitekturer_publisering/media/eNotifikasjon - konsumenters verdistrom.png[alt=eNotifikasjon - konsumenters verdistrom image]
+
 
 
 == Kapabilitetskart for eNotifikasjon
