@@ -1,4 +1,4 @@
-:lang: no
+event sourcing:lang: no
 :doctitle: Mønstre for publisering 
 :keywords: TBD
 :toclevels: 3
@@ -11,7 +11,7 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 
 _Dette er en del av link:../nab_referanse_arkitekturer_datautveksling/[Referansearkitektur for datautveksling]_
 
-image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _UNDER OPPDATERING etter innspill 2020-04-28_
+//image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _UNDER OPPDATERING etter innspill 2020-04-28_
 
 
 == Introduksjon
@@ -127,7 +127,7 @@ En _notifikasjon_ informerer om at en hendelse har inntruffet og kan inneholde  
 Notifikasjoner samles og publiseres av tilbyder gjennom  _hendelseslister_. 
 
 
-Em hendelse kan gi flere notifikasjoner.
+En hendelse kan gi flere notifikasjoner.
 
 Samme notifikasjon kan opptre i flere hendelseslister.
 
@@ -191,7 +191,7 @@ Dette mønsteret er et _generisk_ arkitekturmønster, uten konkrete valg av tekn
 
 <<basiskonsept-publisering,Det grunnleggende konseptet>> er det samme som for andre mønstre for publisering og konsumering av hendelsesstrømmer. Kort fortalt: Tilbydere publiserer hendelsesstømmer uten å måtte vite hvem konsumentene er. Konsumentene kan i sin tur koble seg på og lese fra hendelsesstrømmen.
 
-Begrepsapparatet bygger på <<grunnleggende-begreper,grunnleggende begreper for publisering av hendelsesstroemmer>>.
+Begrepsapparatet bygger på <<grunnleggende-begreper,grunnleggende begreper for publisering av hendelsesstrømmer>>.
 
 [[egenskaper-generisk-publisering]]
 Egenskaper:
@@ -218,81 +218,24 @@ I praksis kan også både datatilbyder og datakonsument velge å benytte en ekst
 
 WARNING: Det faller utenfor omfanget her å gå inn på tilfeller der  ekstern tjenesteleverandør opptrer som  mellomledd på en måte som gjør det nødvendig å se på juridiske forhold eller løsninger på tvers av partene. 
 
-== Innhold i notifikasjoner
-
+[[notifikasjonsinnhold-generisk]]
+== Innhold i notifikasjoner (generisk)
 Begrepsapparatet bygger på <<grunnleggende-begreper,det grunnleggende begrepsapparatet for publisering av hendelsesstrømmer>>.
 
+En modell som konkretiserer notifikasjonsinnholdet er vist i figuren nedenfor. Her er det også angitt relasjonene til hendelsesrelaterte data, noe som kan være et langt større datasett enn det som utveksles i notifikasjoner mellom tilbyder og konsument.
 
-Inneholdet  
+Overordnet:
 
+En notifikasjon inneholder som minimum en identifikator for notifikasjon, slik at det er mulig å identifisere assosierte hendelsesrelaterte data. 
 
-//image:../plattform_felles/media/i-arbeid.png[width=45, height=45] #_Innarbeiding av kommentarer pågår, 2020-04-27_#
+Det er normalt hensiktsmessig å inkludere en spesifikasjon av hendelsestype, og det kan være hensiktsmessig å inkludere ytterligere data om hendelsen eller berørte subjekter. 
 
-// For mønsteret eNotifikasjon gjelder en detaljering av begrepet _hendelsesrelaterte data_ som følger her.
+Hvilke notifikasjonsdata som forøvrig er relevante,  avhenger av hendelsestype. Hvilke data som konsumenten vil ha og spør etter kommer dessiten an på  konsumentens kontekst og behov. I det generiske tilfellet spesifiseres ikke dette.
+
+I modellen nedenfor er det også angitt  relasjonene til _hendelsesrelaterte data_, noe som kan være et langt større datasett enn det som utveksles i notifikasjoner mellom tilbyder og konsument.
 
 .Innhold i notifikasjon
 image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Innhold i notifikasjon.png[alt=Innhold i notifikasjon image]
-
-Forklaring til modellen:
-
-* _Hendelsesrelaterte data_ kan være små eller store datasett som kan identifiseres og assosieres med en notifikasjon. Det komplette datasettet for dette kan ligge samlet, eller det kan være distribuert over flere lagringsløsninger og virksomheter. 
-
-
-* _Notifikasjon_ kan inneholde et fullstendig sett av _hendelsesrelaterte data_, men dette er i mange tilfeller ikke hensiktsmessig. Alternativet er å la konsumentene komme tilbake og be om _supplerende notifikasjonsdata_.
-
-// * _Supplerende notifikasjonsdata_ er relevant når den den leverte notifikasjonen ikke inneholder   f.eks. uproblematisk å sende med en ny måleverdi for et termometer, mens det kan være mindre ønskelig å distribuere komplette kopier av større og distribuerte datasett. Hensynet til dataminimering spiller også en rolle i slike vurderinger.
-
-
-* _Hendelsestype_ kan være et entydig element i et kontrollert vokabular, men det kan også være "fritekst".
-
-* _Subjekt for hendelse_ vil identifisere subjektet, dvs. hvem eller hva hendelsen omhandler, slik dette er å oppfatte i den aktuelle konteksten. Dette kan være et fysisk objekt (f.eks. person), en samling fysiske objekter (f.eks. befolkningsgruppe) eller et konsept (f.eks. politikk).
-
-* _Øyeblikksbilde for subjekt etter hendelse_ 
-
-
-//Notifikasjoner kan inneholde et fullstendig sett av _hendelsesrelaterte data_,  men dette er i mange tilfeller ikke hensiktsmessig. Alternativet er å la konsumentene komme tilbake og be om _supplerende data_. Det er f.eks. uproblematisk å sende med en ny måleverdi for et termometer, mens det kan være mindre ønskelig å distribuere komplette kopier av større og distribuerte datasett. Hensynet til dataminimering spiller også en rolle i slike vurderinger.
-
-
-
-////
-For å kunne filtrere og minimere innholdet i supplerende hendelsesdata gjennom spørringer, må konsumenten kjenne datamodellen for _hendelsesrelaterte data_.
-
-
-Merk: Det totale datasettet for hendelsesrelaterte data kan eventuelt være sammensatt og ligge distribuert. Det vil også kunne lenke til relaterte datasett som ikke ses på som en direkte del av det aktuelle datasettet.  
-
-TIP: Globalt unike identifikatorer kan fungere som direkte pekere til aktuelle dataressurser på nettet. Med spørrespråk som SPARQL of GraphQL kan slike ressurser finnes direkte, uten å gå veien om tilbyder.
-
-////
-
-
-
-////
-Grunnleggende begreper og sammenhenger er vist i følgende modell. 
-
-.eNotifikasjon - grunnleggende begreper
-image::../nab_referanse_arkitekturer_enotifikasjon/media/eNotifikasjon - grunnleggende begreper.png[alt=eNotifikasjon - grunnleggende begreper image]
-
-
-_Hendelser_ er det som skjer i den virkelige i verden, i en strøm av hendelser, eller __hendelsesstrømmer__. 
-
-
-_Notifikasjoner_ gir informasjon om hendelser, og kan distribueres via _hendelseslister_ (på engelsk brukes begrepet __topics__) til den som måtte være interessert.
-
-I tilknytning til hver hendelse finnes _Hendelsesdata_. Dette kan være små eller store _Datasett_, enten lagret samlet eller lagret distribuert i flere ulike lagringsløsninger (polyglot persistence).
-
-Notifikasjoner kan inneholde _komplette hendelsesdata_,  men dette er i mange tilfeller ikke hensiktsmessig. Alternativet er å la konsumentene komme tilbake og be om _supplerende data_. Det er f.eks. uproblematisk å sende med en ny måleverdi for et termometer, mens det kan være mindre ønskelig å distribuere komplette kopier av større og distribuerte datasett. Hensynet til dataminimering spiller også en rolle i slike vurderinger.
-
-Begrepet _klassifisering_ benyttes her om ulike typer metadata om datasettet som kan gi grunnlag for dataminimering, f.eks. at det inneholder persondata. Dette gjelder både for hendelsesdata og det _øyeblikksbildet_ (eller instansen av datasettet) som forelå da hendelsen inntraff og som forbindes med notifikasjonen.
-////
-
-////
-For notifikasjoner som ikke gir det komplette _øyeblikksbildet_, må datakonsumenten avgjøre om det behøves supplerende data, og selv ta initiativ til å innhente de dataene det er behov for.
-
-Hvordan konsumenten identifiserer aktuelle supplerende hendelsesdata, kan variere. En mulighet er at notifikasjonen inneholder en peker til det aktuelle datasettet, dvs. øyeblikksbildet, og at dette gjøres gjennom en _identifikator for øyeblikksbilde av datasett_. Selve datasettet, og instansen av datasettet, kan eventuelt være sammensatt og ligge distribuert. Det vil også kunne lenke til relaterte datasett som ikke ses på som en direkte del av det aktuelle datasettet (og der det kan være vanskelig å garantere at det finnes et konsistent øyeblikksbilde).
-
-TIP: En globalt unik identifikator kan fungere som en direkte peker til aktuelle dataressurser på nettet. En kan da, under visse forutsetninger, unngå behovet for å måtte innhente kopier av supplerende data, også for data som ligger hos andre virksomheter og eventuelt distribuert hos flere virksomheter. 
-////
-
 
 
 ////
@@ -476,13 +419,32 @@ include::../nab_referanse_arkitekturer_enotifikasjon/book-ra-enotifikasjon.adoc[
 // erik offset???????????????????????????
 //:leveloffset: +1
 
-= eNotifikasjon - publisering av hendelser med pullbasert innhenting 
+= eNotifikasjon
 
 == Om dette mønsteret
+Arkitekturmønsteret eNotifokasjon bygger på _grunnleggende mønstre for publisering og strømming av hendelser_. 
 
+Det tas videre utganspunkt i konsepter fra _Event Sourcing, et anerkjent og mye omtalt arkitekturmønster.
+
+.Event sourcing
+****
+Event Sourcing is an architectural pattern in which the state of the application is determined by a sequence of events each of which is recorded in an append-only Event store or Stream. As an example, imagine that each “event” is an incremental update to an entry in a database. In this case, the state of a particular entry is simply the accumulation of events pertaining to that entry.
+****
+
+Grunnleggende egenskaper ved eNotifikasjon som mønster:
+
+* En hendelse kan representeres ved en eller flere  _notifikasjoner_.
+* Notifikasjoner samles i _hendelseslister_.
+* Hendelser kan ikke slettes (_immutable_), og notifikasjoner slettes heller ikke fra hendelseslister.  
+* Notifikasjoner innhentes på initiav fra konsument (pull).
+* Hver enkelt konsument kan lese samme notifikasjon flere ganger.  
+* Hendelseslister kan traverseres og spørres mot.
+
+
+
+== Grensensitt for innhenting av notifikasjoner 
 eNotifikasjon dreier seg om publisering av hendelsesdata via hendelseslister som kan aksesseres av datakonsumenter via spørring og oppslag i API-er.
 
-Mønsteret bygger på _grunnleggende mønstre for publisering og strømming av hendelser_. 
 
 Konsumentene kan også innhente tilleggsdata om hendelser fra datatilbydere via spørring og oppslag i API-er, ved behov. Dette er illustert i følgende figur.
 
@@ -496,28 +458,107 @@ Som vist i figuren, skilles det mellom to hovedtyper API-er:
 
 For begge disse typene API-er er _eOppslag-mønsteret_ relevant. For spørring mot hendelseslister er det dessuten interessant å se på spesifikk funksjonalitet og tjenester som gis gjennom API.
 
-Grunnleggende egenskaper ved eNotifikasjon som mønster:
 
-* En hendelse kan representeres ved en eller flere  _notifikasjoner_.
-* Notifikasjoner samles i _hendelseslister_.
-* Hendelser kan ikke slettes (_immutable_), og notifikasjoner slettes heller ikke fra hendelseslister.  
-* Notifikasjoner innhentes på initiav fra konsument (pull).
-* Hver enkelt konsument kan lese samme notifikasjon flere ganger.  
-* Hendelseslister kan traverseres og spørres mot.
 
-//TIP: eNotifikasjon bygger på konsepter fra Event Sourcing, et anerkjent og mye omtalt arkitekturmønster.
+== Innhold i notifikasjoner (eNotifikasjon)
 
-//  Er det gitt hvem som skal holde rede på "markør"
+Dette er en konkretisering av <<notifikasjonsinnhold-generisk,generisk notifikasonsinnholdet>>. Begrepsapparatet bygger på <<grunnleggende-begreper,det grunnleggende begrepsapparatet for publisering av hendelsesstrømmer>>.
 
-// Event Sourcing is an architectural pattern in which the state of the application is determined by a sequence of events each of which is recorded in an append-only Event store or Stream. As an example, imagine that each “event” is an incremental update to an entry in a database. In this case, the state of a particular entry is simply the accumulation of events pertaining to that entry. In the example below the Stream persists the queue of all deposit and withdrawal events, and the database table persists the current account balances
+
+En modell for notifikasjonsinnholdet for _eNotifikasjon_ er vist i figuren nedenfor. Her er det også angitt  relasjonene til _hendelsesrelaterte data_, noe som kan være et langt større datasett enn det som utveksles i notifikasjoner mellom tilbyder og konsument.
+
+Overordnet:
+
+En notifikasjon inneholder som minimum en _identifikator for notifikasjon_, slik at det er mulig å identifisere assosierte hendelsesrelaterte data.
+Det er normalt hensiktsmessig å inkludere en spesifikasjon av hendelsestype.
+I tilknytning tli eNotifikasjon vil det bestandig kunne assosieres et subjekt (eventuel en samling), og en vil være interessert i å ta rede på status og historikk.
+
+
+//image:../plattform_felles/media/i-arbeid.png[width=45, height=45] #_Innarbeiding av kommentarer pågår, 2020-04-27_#
+
+// For mønsteret eNotifikasjon gjelder en detaljering av begrepet _hendelsesrelaterte data_ som følger her.
+
+
+.Innhold i notifikasoner for mønsteret eNotifikasjon
+image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Innhold i notifikasoner for mønsteret eNotifikasjon.png[alt=Innhold i notifikasoner for mønsteret eNotifikasjon image]
+
+
+
+Forklaring til modellen:
+
+ 
+* _Hendelsesrelaterte data_ kan være små eller store datasett som kan identifiseres og assosieres med en notifikasjon. Det komplette datasettet for dette kan ligge samlet, eller det kan være distribuert over flere lagringsløsninger og virksomheter. 
+
+
+* _Notifikasjon_ kan inneholde et fullstendig sett av _hendelsesrelaterte data_, men dette er i mange tilfeller ikke hensiktsmessig. Alternativet er å la konsumentene komme tilbake og be om supplerende data. 
+
+* _Identifikator for notifikasjon_ identifiserer notifikasjonen entydig for eller overfor tilbyder. Konsumenten kan bruke denne identifikatoren i spørringer for å innhente supplerende hendelsesrelaterte data om en mottatt notifikasjon. 
+
+
+// * _Supplerende notifikasjonsdata_ er relevant når den den leverte notifikasjonen ikke inneholder   f.eks. uproblematisk å sende med en ny måleverdi for et termometer, mens det kan være mindre ønskelig å distribuere komplette kopier av større og distribuerte datasett. Hensynet til dataminimering spiller også en rolle i slike vurderinger.
+
+
+* _Hendelsestype_ kan være et entydig element i et kontrollert vokabular, men det kan også være "fritekst".
+
+* _Subjekt for hendelse_ vil identifisere subjektet, dvs. hvem eller hva hendelsen omhandler, slik dette er å oppfatte i den aktuelle konteksten. Dette kan være en person, et fysisk objekt, en samling av personer eller fysiske objekter, eller et konsept.
+
+* _Øyeblikksbilde for subjekt etter hendelse_ kan være f.eks. en målerutlesning fra en sensor. Det kan også være f.eks. innholdet i en større database.
+
+* _Inkrementell endring i øyeblikksbilde av subjekt_ gir både historikk og statis for aktuelle subjekter.   
+
+
+//Notifikasjoner kan inneholde et fullstendig sett av _hendelsesrelaterte data_,  men dette er i mange tilfeller ikke hensiktsmessig. Alternativet er å la konsumentene komme tilbake og be om _supplerende data_. Det er f.eks. uproblematisk å sende med en ny måleverdi for et termometer, mens det kan være mindre ønskelig å distribuere komplette kopier av større og distribuerte datasett. Hensynet til dataminimering spiller også en rolle i slike vurderinger.
+
+
+
+////
+For å kunne filtrere og minimere innholdet i supplerende hendelsesdata gjennom spørringer, må konsumenten kjenne datamodellen for _hendelsesrelaterte data_.
+
+
+Merk: Det totale datasettet for hendelsesrelaterte data kan eventuelt være sammensatt og ligge distribuert. Det vil også kunne lenke til relaterte datasett som ikke ses på som en direkte del av det aktuelle datasettet.  
+
+TIP: Globalt unike identifikatorer kan fungere som direkte pekere til aktuelle dataressurser på nettet. Med spørrespråk som SPARQL of GraphQL kan slike ressurser finnes direkte, uten å gå veien om tilbyder.
+
+////
+
+
+
+////
+Grunnleggende begreper og sammenhenger er vist i følgende modell. 
+
+.eNotifikasjon - grunnleggende begreper
+image::../nab_referanse_arkitekturer_enotifikasjon/media/eNotifikasjon - grunnleggende begreper.png[alt=eNotifikasjon - grunnleggende begreper image]
+
+
+_Hendelser_ er det som skjer i den virkelige i verden, i en strøm av hendelser, eller __hendelsesstrømmer__. 
+
+
+_Notifikasjoner_ gir informasjon om hendelser, og kan distribueres via _hendelseslister_ (på engelsk brukes begrepet __topics__) til den som måtte være interessert.
+
+I tilknytning til hver hendelse finnes _Hendelsesdata_. Dette kan være små eller store _Datasett_, enten lagret samlet eller lagret distribuert i flere ulike lagringsløsninger (polyglot persistence).
+
+Notifikasjoner kan inneholde _komplette hendelsesdata_,  men dette er i mange tilfeller ikke hensiktsmessig. Alternativet er å la konsumentene komme tilbake og be om _supplerende data_. Det er f.eks. uproblematisk å sende med en ny måleverdi for et termometer, mens det kan være mindre ønskelig å distribuere komplette kopier av større og distribuerte datasett. Hensynet til dataminimering spiller også en rolle i slike vurderinger.
+
+Begrepet _klassifisering_ benyttes her om ulike typer metadata om datasettet som kan gi grunnlag for dataminimering, f.eks. at det inneholder persondata. Dette gjelder både for hendelsesdata og det _øyeblikksbildet_ (eller instansen av datasettet) som forelå da hendelsen inntraff og som forbindes med notifikasjonen.
+////
+
+////
+For notifikasjoner som ikke gir det komplette _øyeblikksbildet_, må datakonsumenten avgjøre om det behøves supplerende data, og selv ta initiativ til å innhente de dataene det er behov for.
+
+Hvordan konsumenten identifiserer aktuelle supplerende hendelsesdata, kan variere. En mulighet er at notifikasjonen inneholder en peker til det aktuelle datasettet, dvs. øyeblikksbildet, og at dette gjøres gjennom en _identifikator for øyeblikksbilde av datasett_. Selve datasettet, og instansen av datasettet, kan eventuelt være sammensatt og ligge distribuert. Det vil også kunne lenke til relaterte datasett som ikke ses på som en direkte del av det aktuelle datasettet (og der det kan være vanskelig å garantere at det finnes et konsistent øyeblikksbilde).
+
+TIP: En globalt unik identifikator kan fungere som en direkte peker til aktuelle dataressurser på nettet. En kan da, under visse forutsetninger, unngå behovet for å måtte innhente kopier av supplerende data, også for data som ligger hos andre virksomheter og eventuelt distribuert hos flere virksomheter. 
+////
+
 
 == API for spørring mot hendelsesliste
+
 Bruk av API dekkes av eOppslag.
 
-Funkjsonalitet i API (foreløpig oversikt):
+Overordnet funksjonalitet i API:
 
-* Spørringer
-* Navigering
+* Spørringer for å hente ut filtrerte utvalg av notifikasjoner og minimere datainnhold i hver enkelt notifikasjon
+* Navigering i hendelselister for å hente inn inkrementelle endringer og holde regnskap på tilstanden til aktuelle subjekter  
  
 
 
