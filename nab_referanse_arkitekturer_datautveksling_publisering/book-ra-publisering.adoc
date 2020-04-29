@@ -40,10 +40,11 @@ Ambisjonsnivået her er heller ikke  å gi en komplett innføring i alle aspekte
 
 // Et viktig prinsipp er å ikke "finne opp hjulet på nytt"; for å unngå unødig arbeid og for å bruke begreper som rimer med det lar seg oversette Det er dessuten et poeng å kunne samarbeide internasojnalt. Det er derfor viktig å avtsemme begrepsapparate 
 
-
+[[litteraturhenvisninger]]
 .Noen litteraturhenvisninger
 ****
-Det er skrevet mye om arkitekturmønstre for publisering (eller pub-sub) og hendelsesdrevet arkitektur de siste årene, gjerne med ulike innfallsvinkler ut fra sammenhengen med arkitekturparadigmer som SOA og Microservices.
+Det er skrevet mye om arkitekturmønstre for publisering, strømming og hendelsesdrevet arkitektur de siste årene, gjerne med ulike innfallsvinkler ut fra sammenhengen med arkitekturparadigmer som SOA og Microservices.
+
 
 Noen utvalgte henvisninger: 
 
@@ -59,6 +60,8 @@ Noen utvalgte henvisninger:
 
 . link:https://www.sciencedirect.com/topics/computer-science/event-notification[Event Notification ]
 
+
+[[litteraturhenvisninger-event-sourcing]]
 . https://doc.difi.no/nasjonal-arkitektur/kunnskap_/#event-sourcing[Event Sourcing]
 
 . https://doc.difi.no/nasjonal-arkitektur/kunnskap_/#_pattern_cqrs_command_query_responsibility_segregation[CQRS]
@@ -224,13 +227,14 @@ En modell som konkretiserer notifikasjonsinnholdet er vist i figuren nedenfor. H
 
 Overordnet:
 
-En notifikasjon inneholder som minimum en identifikator for notifikasjon, slik at det er mulig å identifisere assosierte hendelsesrelaterte data. 
+* En notifikasjon inneholder som minimum en identifikator for notifikasjon, slik at det er mulig å identifisere assosierte hendelsesrelaterte data. 
 
-Det er normalt hensiktsmessig å inkludere en spesifikasjon av hendelsestype, og det kan være hensiktsmessig å inkludere ytterligere data om hendelsen eller berørte subjekter. 
+* Det er normalt hensiktsmessig å inkludere en spesifikasjon av hendelsestype, og det kan være hensiktsmessig å inkludere ytterligere data om hendelsen eller berørte subjekter. 
 
-Hvilke notifikasjonsdata som forøvrig er relevante,  avhenger av hendelsestype. Hvilke data som konsumenten vil ha og spør etter kommer dessiten an på  konsumentens kontekst og behov. I det generiske tilfellet spesifiseres ikke dette.
+* Hvilke notifikasjonsdata som forøvrig er relevante,  avhenger av hendelsestype. Hvilke data som konsumenten vil ha og spør etter kommer dessiten an på  konsumentens kontekst og behov. I det generiske tilfellet spesifiseres ikke dette.
 
-I modellen nedenfor er det også angitt  relasjonene til _hendelsesrelaterte data_, noe som kan være et langt større datasett enn det som utveksles i notifikasjoner mellom tilbyder og konsument.
+* I modellen nedenfor er det også angitt  relasjonene til _hendelsesrelaterte data_, noe som kan være et langt større datasett enn det som utveksles i notifikasjoner mellom tilbyder og konsument.
+
 
 .Innhold i notifikasjon
 image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Innhold i notifikasjon.png[alt=Innhold i notifikasjon image]
@@ -317,6 +321,16 @@ a. Tilbyder tilbyr ulike hendelseslister, der det i utgangspunktet er gjort et u
 b. Ytterligere filtrering innen hver hendelsesliste ut fra konsumentens spesifikasjon.
 
 c. Konsumenten forkaster notifikasjoner etter mottak.
+
+
+////
+== Tekniske grensesnitt
+
+
+
+.Publisering av hendelsesstrømmer - tekniske grensesnitt
+image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Publisering av hendelsesstrømmer - tekniske grensesnitt.png[alt=Publisering av hendelsesstrømmer - tekniske grensesnitt image]
+////
 
 
 
@@ -420,13 +434,15 @@ include::../nab_referanse_arkitekturer_enotifikasjon/book-ra-enotifikasjon.adoc[
 = eNotifikasjon
 
 == Om dette mønsteret
-Arkitekturmønsteret eNotifokasjon bygger på _grunnleggende mønstre for publisering og strømming av hendelser_. 
+Arkitekturmønsteret eNotifikasjon bygger på _grunnleggende mønstre for publisering og strømming av hendelser_. 
 
-Det tas videre utganspunkt i konsepter fra _Event Sourcing, et anerkjent og mye omtalt arkitekturmønster.
+Det tas videre utganspunkt i konsepter fra _Event Sourcing_, et anerkjent og mye omtalt arkitekturmønster.
 
-.Event sourcing
+.Event sourcing - overordnet konsept
 ****
-Event Sourcing is an architectural pattern in which the state of the application is determined by a sequence of events each of which is recorded in an append-only Event store or Stream. As an example, imagine that each “event” is an incremental update to an entry in a database. In this case, the state of a particular entry is simply the accumulation of events pertaining to that entry.
+Event Sourcing er et arkitekturmønster hvor tilstanden til et "subjekt" bestemmes gjennom en sekvens av hendelser som lagres i kronologisk rekkefølge, ut fra et gitt startpunkt.
+
+Detaljer om dette mønsteret finnes under   <<litteraturhenvisninger-event-sourcing,litteraturhenvisninger om event sourcing>>
 ****
 
 Grunnleggende egenskaper ved eNotifikasjon som mønster:
@@ -439,8 +455,7 @@ Grunnleggende egenskaper ved eNotifikasjon som mønster:
 * Hendelseslister kan traverseres og spørres mot.
 
 
-
-== Grensensitt for innhenting av notifikasjoner 
+== Grensesnitt for innhenting av notifikasjoner 
 eNotifikasjon dreier seg om publisering av hendelsesdata via hendelseslister som kan aksesseres av datakonsumenter via spørring og oppslag i API-er.
 
 
@@ -457,6 +472,12 @@ Som vist i figuren, skilles det mellom to hovedtyper API-er:
 For begge disse typene API-er er _eOppslag-mønsteret_ relevant. For spørring mot hendelseslister er det dessuten interessant å se på spesifikk funksjonalitet og tjenester som gis gjennom API.
 
 
+Bruk av API dekkes av eOppslag.
+
+Overordnet funksjonalitet i API for oppslag/spørring mot hendelseslister:
+
+* Spørringer for å hente ut filtrerte utvalg av notifikasjoner og minimere datainnhold i hver enkelt notifikasjon.
+* Navigering i hendelselister for å hente inn inkrementelle endringer og holde regnskap på tilstanden til aktuelle subjekter.
 
 == Innhold i notifikasjoner (eNotifikasjon)
 
@@ -549,15 +570,6 @@ TIP: En globalt unik identifikator kan fungere som en direkte peker til aktuelle
 ////
 
 
-== API for spørring mot hendelsesliste
-
-Bruk av API dekkes av eOppslag.
-
-Overordnet funksjonalitet i API:
-
-* Spørringer for å hente ut filtrerte utvalg av notifikasjoner og minimere datainnhold i hver enkelt notifikasjon
-* Navigering i hendelselister for å hente inn inkrementelle endringer og holde regnskap på tilstanden til aktuelle subjekter  
- 
 
 
 

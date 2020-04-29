@@ -95,6 +95,7 @@ Capture all changes to an application state as a sequence of events.
 
 
 *Resources:*
+. https://dev.to/barryosull/event-sourcing-what-it-is-and-why-its-awesome[Event Sourcing: What it is and why it's awesome]
 
 . https://martinfowler.com/eaaDev/EventSourcing.html[Martin Fowler on Event Sourcing]
 
