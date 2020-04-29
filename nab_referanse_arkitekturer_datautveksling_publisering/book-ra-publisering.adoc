@@ -383,10 +383,12 @@ include::../nab_referanse_arkitekturer_enotifikasjon/book-ra-enotifikasjon.adoc[
 :leveloffset!:
 :leveloffset: +1
 
-= Anbefalte anvendelser av grunnleggende arkitekturmønstre for publisering
+//= Anbefalte anvendelser av grunnleggende arkitekturmønstre for publisering
 
-:leveloffset: +1
+//:leveloffset: +1
+
 = eNotifikasjon - publisering av hendelser med pullbasert innhenting 
+
 == Om dette mønsteret
 
 eNotifikasjon dreier seg om publisering av hendelsesdata via hendelseslister som kan aksesseres av datakonsumenter via spørring og oppslag i API-er.
