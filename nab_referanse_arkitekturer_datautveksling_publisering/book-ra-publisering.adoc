@@ -627,96 +627,78 @@ image::../nab_referanse_arkitekturer_enotifikasjon/media/Kapabiliteter eNotifika
 //image:../nab_referanse_arkitekturer_enotifikasjon/media/Kapabiliteter eNotifikasjon.png[alt="Bilde mangler", width=750]
 
 == Arkitekturmønstre
+Arkitekturmønster for eNotifikasjon beskriver realiseringen av kapabilitetene som er spesifikke for dette mønsteret.
+
+Beskrivelsene er forsøkt å holdes generisk uten å peke til løsningskomponenter, og det vil dermed kunne være flere måter å realisere de ulike elementene på.
 
 
 === Gi tilgang til notifikasjoner og hendelser
 Gi tilgang til notifikasjoner og hendelser er den prosessen datatilbyder må gjøre for å gi datakonsumenten tilgang til hendelseslister. Ved helt åpne hendelseslister kan prosessen være unødvendig og utgår, men vil normalt omfatte å tilgjengeliggjøre API som beskrevet i eOppslag. I tillegg må det eventuelt registreres en del informasjon i tilknytning til filtrering og tilpassning av hendelselister etter konsumentens behov og tilganger.
 
-image:../nab_referanse_arkitekturer_enotifikasjon/media/Registrere konsument av hendelser.png[alt="Bilde mangler", width=750]
+image:../nab_referanse_arkitekturer_enotifikasjon/media/Gi tilgang til notifikasjoner og hendelser.png[alt="Bilde mangler", width=500]
 
 
 [cols ="1,3", options="header"]
-.Elementer i view for Registrere konsument av hendelser
+.Elementer i view for Gi tilgang til notifikasjoner og hendelser
 |===
 
 | Element
 | Beskrivelse
-
-| Gi tilgang til notifikasjoner og hendelser
-| Prosessen med oppsett for å gi tilgang til notifikasjoner og hendelser.
-
-| Motta forespørsel om abonnement
-| Prosessen med å motta forespørsel om å abonnere på eller lese hendelseslister.
-
-| Registrere abonnent
-| Prosessen med å registrere ny konsument av hendelsesliste.
-
-| Inngå avtaler og sette opp abonnementer og tilganger til data og tjenester
-| Evnen til å inngå avtaler og sette opp abonnementer og tilganger til data og tjenester
-
-Klargjøre for deling av data
 
 | Datatilbyder
 | Tilbyder av data til andre aktører.
 
-| Registrering av abonnement
-| 
+| Inngå avtaler om tilgang og levering av hendelsesstrømmer
+| Evnen til å inngå avtaler med datakonsumenter om tilgengjengeliggjøring av hendelseslister med notifikasjoner om hendelser.
 
-| Filterspesifikasjon
-| 
+| Motta forespørsel om tilgang til hendelsesstrømmer
+| Prosessen med å motta forespørsel om tilgang til notifikasjoner på hendelseslister.
 
-| Minimerings-spesifikasjon
-| 
+| Inngå avtale om tilgang til hendelsesliste med notifikasjoner
+| Prosessen med å registrere seg som konsument av en hendelsesliste hos datatilbyder
+
+| Registrering av konsument av hendelsesliste
+| Tjeneste for å registrere konsumenter av hendelseslite med notifikasjoner.
 
 |===
+
 
 === Få tilgang til notifikasjoner og hendelser
 Få tilgang til notifikasjoner og hendelser er den prosessen datakonsument må gjøre for å sette opp og få tilganger til hendelseslister. Prosessetrinnene kommer i tillegg til prosessen for å få tigang til API som beskrevet i eOppslag.
 
-image:../nab_referanse_arkitekturer_enotifikasjon/media/Tegne abonnement på hendelser.png[alt="Bilde mangler", width=750]
+image:../nab_referanse_arkitekturer_enotifikasjon/media/Få tilgang til notifikasjoner og hendelser.png[alt="Bilde mangler", width=500]
 
 
 [cols ="1,3", options="header"]
-.Elementer i view for Tegne abonnement på hendelser
+.Elementer i view for Få tilgang til notifikasjoner og hendelser
 |===
 
 | Element
 | Beskrivelse
 
-| Få tilgang til notfikasjoner og hendelser
-| 
+| Datakonsument
+| Den som innhenter eller mottar data fra andre aktører.
+
+| Inngå avtaler om tilgang og innhenting av hendelsesstrømmer 
+| Evnen til å inngå avtaler med datatilbyder om tilgang til hendelser gjennom hendelseslister med notifikasjoner.
 
 | Beskrive behov og tilganger
 | Prosessen med å beskrive hvilke tilganger konsument har rettigeheter til og hvilken type notifikasjoner som er aktuelle. 
 
-| Registrere abonnenment
+| Inngå avtale om tilgang til hendelsesliste med notifikasjoner
 | Prosessen med å registrere seg som konsument av en hendelsesliste hos datatilbyder
 
-| Inngå avtaler om abonnement og tilgang til data fra andre
-| Evenen til å klargjøre for innhenting og mottak av data
-
-Inngå avtaler om abonnement og tilgang til data fra andre
-
-| Datakonsument
-| Den som innhenter eller mottar data fra andre aktører.
-
-| Filterspesifikasjon
-| 
-
-| Minimerings-spesifikasjon
-| 
-
-| Registreringstjeneste for abonnement på hendelseliste
-| 
+| Registrering av konsument av hendelsesliste
+| Tjeneste for å registrere konsumenter av hendelseslite med notifikasjoner.
 
 |===
-
 
 === Generer og publiser notifikasjoner
 Generer og publiser notifikasjoner er den prosessen datatilbyder må gjøre for å tilby notifikasjoner gjennom hendelseslister. Hendelselister tilbys på tilsvarende måte som beskrevet for generelle mønstre for spørring og oppslag (herunder eOppslag), men det finnes spesielle krav for hendelseslister med tanke på segmentering,  filtrering og navigering.
 
 
 .Generer og publiser notifikasjoner (arkitekturmønster)
+
 image::../nab_referanse_arkitekturer_enotifikasjon/media/Generer og publiser notifikasjoner (arkitekturmønster).png[alt=Generer og publiser notifikasjoner (arkitekturmønster) image]
 
 
