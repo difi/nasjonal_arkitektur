@@ -431,7 +431,7 @@ Funkjsonalitet i API (foreløpig oversikt):
 
 * Spørringer
 * Navigering
-
+ 
 
 == Begrepsapparat
 
