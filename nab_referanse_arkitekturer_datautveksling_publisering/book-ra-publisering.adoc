@@ -4,7 +4,7 @@
 :toclevels: 3
 include::../plattform_felles/includes/commonincludes.adoc[]
 
-:leveloffset: +1
+
 
 
 _Dette er en del av link:../nab_referanse_arkitekturer_datautveksling/[Referansearkitektur for datautveksling]_
@@ -12,7 +12,7 @@ _Dette er en del av link:../nab_referanse_arkitekturer_datautveksling/[Referanse
 image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _UNDER OPPDATERING etter innspill 2020-04-28_
 
 
-= Introduksjon
+== Introduksjon
 [[basiskonsept-publisering]]
 Mønstre for publisering handler helt grunnleggende om at tilbydere publiserer hendelsesstømmer uten å måtte vite hvem konsumentene er. Konsumentene kan i sin tur koble seg på hendelsesstrømmene.
 
@@ -84,7 +84,7 @@ Kompleksitet...
 
 
 [[bruksområder-publisering-generelt]]
-= Bruksområder
+== Bruksområder
 // <<bruksområder-publisering-generelt,Generelle bruksområder for publisering>>
 
 Eksempler på anvendelse av mønstre for publisering og konsumering av hendelsesstrømmer:  
@@ -97,7 +97,7 @@ Eksempler på anvendelse av mønstre for publisering og konsumering av hendelses
 //* Strømming av forretningsmessige hendelsesdata, f.eks. i tilknytning til vedtak i offentlig saksbehandling. Dette gir grunnlag for dynamisk etablering av nye forretningsprosesser og tjenester for å dekke aktuelle brukerbehov (stikkord: sammenhengende tjenester).
 
 [[grunnleggende-begreper]]
-= Begrepsapparat
+== Begrepsapparat
 // <<grunnleggende-begreper,Grunnleggende begreper for publisering av hendelsesstrømmer>>
 Grunnleggende begreper og sammenhenger er vist i følgende modell. 
 
@@ -424,12 +424,15 @@ Grunnleggende egenskaper ved eNotifikasjon som mønster:
 
 // Event Sourcing is an architectural pattern in which the state of the application is determined by a sequence of events each of which is recorded in an append-only Event store or Stream. As an example, imagine that each “event” is an incremental update to an entry in a database. In this case, the state of a particular entry is simply the accumulation of events pertaining to that entry. In the example below the Stream persists the queue of all deposit and withdrawal events, and the database table persists the current account balances
 
+== API for spørring mot hendelsesliste
+#TBD#
+//Henrik
 
 == Begrepsapparat
 
-Begrepsapparatet bygger på det grunnleggende begrepsapparatet for publisering; gjengitt her:
 
-image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Grunnleggende begreper for publisering av hendelser.png[alt=Grunnleggende begreper for publisering av hendelser image]
+Begrepsapparatet bygger på <<grunnleggende-begreper,det grunnleggende begrepsapparatet for publisering av hendelsesstrømmer>>.
+
 
 //image:../plattform_felles/media/i-arbeid.png[width=45, height=45] #_Innarbeiding av kommentarer pågår, 2020-04-27_#
 
@@ -438,11 +441,22 @@ For mønsteret eNotifikasjon gjelder en detaljering av begrepet _hendelsesrelate
 .Hendelsesrelaterte data
 image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Hendelsesrelaterte data.png[alt=Hendelsesrelaterte data image]
 
-Forkaring til modellen:
+Forklaring til modellen:
 
-_Hendelsestype_ kan være et entydig element i et kontrollert vokabular, men det kan også være "fritekst".
+* _Hendelsesrelaterte data_ kan være små eller store datasett som kan identifiseres og assosieres med en notifikasjon. Det komplette datasettet for dette kan ligge samlet, eller det kan være distribuert over flere lagringsløsninger og virksomheter. 
 
-_Hendelsesrelaterte data_ kan være små eller store _Datasett_, enten lagret samlet eller distribuert.
+
+* _Notifikasjon_ kan inneholde et fullstendig sett av _hendelsesrelaterte data_, men dette er i mange tilfeller ikke hensiktsmessig. Alternativet er å la konsumentene komme tilbake og be om _supplerende notifikasjonsdata_.
+
+* _Supplerende notifikasjonsdata_ er relevant når den den leverte notifikasjonen ikke  f.eks. uproblematisk å sende med en ny måleverdi for et termometer, mens det kan være mindre ønskelig å distribuere komplette kopier av større og distribuerte datasett. Hensynet til dataminimering spiller også en rolle i slike vurderinger.
+
+
+* _Hendelsestype_ kan være et entydig element i et kontrollert vokabular, men det kan også være "fritekst".
+
+* _Subjekt for hendelse_ vil identifisere subjektet, dvs. hvem eller hva hendelsen omhandler, slik dette er å oppfatte i den aktuelle konteksten. Dette kan være et fysisk objekt (f.eks. person), en samling fysiske objekter (f.eks. befolkningsgruppe) eller et konsept (f.eks. politikk).
+
+
+
 
 //Notifikasjoner kan inneholde et fullstendig sett av _hendelsesrelaterte data_,  men dette er i mange tilfeller ikke hensiktsmessig. Alternativet er å la konsumentene komme tilbake og be om _supplerende data_. Det er f.eks. uproblematisk å sende med en ny måleverdi for et termometer, mens det kan være mindre ønskelig å distribuere komplette kopier av større og distribuerte datasett. Hensynet til dataminimering spiller også en rolle i slike vurderinger.
 
@@ -545,7 +559,7 @@ Det som er spesielt for eNotifikasjon er vist med uthevet skrift, dvs. _Innhente
 
 
 .eNotifikasjon - konsumenters verdistrøm
-image::../nab_referanse_arkitekturer_enotifikasjon/media/eNotifikasjon - konsumenters verdistrøm.png[alt=eNotifikasjon - konsumenters verdistrøm image]
+image::../nab_referanse_arkitekturer_epublisering/media/eNotifikasjon - konsumenters verdistrøm.png[alt=eNotifikasjon - konsumenters verdistrøm image]
 
 == Kapabilitetskart for eNotifikasjon
 
