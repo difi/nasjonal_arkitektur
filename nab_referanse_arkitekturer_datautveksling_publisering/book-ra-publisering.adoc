@@ -568,7 +568,7 @@ Stegene i verdistrømmen er nærmere forklart under egne avsnitt om verdistrømm
 === eNotifikasjon - verdistrøm for datatilbyder
 Her vises verdistrømmen for eNotifikasjon sett fra datatilbyder, med angivelse av kapabiliteter.
 
-Det som er spesielt for eNotifikasjon er vist med uthevet skrift, dvs. _Generere og tilby notifikasjoner_. Øvrige kapabiliteter er beskrevet andre steder, blant annet i tilknytning til referansearkitekturer for eMelding (Sende data) og  eOppslag (Avgi data på forespørsel).  
+Det som er spesifikt for eNotifikasjon er vist med uthevet skrift, dvs. _Inngå avtaler om tilgang og levering av hendelsesstrømmer_ og _Generere og tilby notifikasjoner_. Øvrige kapabiliteter er beskrevet andre steder, blant annet i tilknytning til referansearkitekturer for eMelding (Sende data) og  eOppslag (Avgi data på forespørsel).  
 
 .eNotifikasjon - tilbyders verdistrøm
 image::../nab_referanse_arkitekturer_enotifikasjon/media/eNotifikasjon - tilbyders verdistrøm.png[alt=eNotifikasjon - tilbyders verdistrøm image]
@@ -576,10 +576,10 @@ image::../nab_referanse_arkitekturer_enotifikasjon/media/eNotifikasjon - tilbyde
 === eNotifikasjon - verdistrøm for datakonsumenter
 Her vises verdistrømmen for eNotifikasjon sett fra datakonsumenter, med angivelse av kapabiliteter.
 
-Det som er spesielt for eNotifikasjon er vist med uthevet skrift, dvs. _Innhente og håndtere notifikasjoner_. Øvrige kapabiliteter er beskrevet andre steder, blant annet i tilknytning til referansearkitekturer for eMelding (Motta data) og  eOppslag (Innhente data ved forespørsel).  
+Det som er spesifikt for eNotifikasjon er vist med uthevet skrift, dvs. _Inngå avtaler om tilgang og innhenting av hendelsesstrømmer_ og _Innhente og håndtere notifikasjoner_. Øvrige kapabiliteter er beskrevet andre steder, blant annet i tilknytning til referansearkitekturer for eMelding (Motta data) og  eOppslag (Innhente data ved forespørsel).  
 
 .eNotifikasjon - konsumenters verdistrøm
-image::../nab_referanse_arkitekturer_datautveksling_publisering/media/eNotifikasjon - konsumenters verdistrom.png[alt=eNotifikasjon - konsumenters verdistrom image]
+image::../nab_referanse_arkitekturer_datautveksling_publisering/media/eNotifikasjon - konsumenters verdistrom.png[alt=eNotifikasjon - konsumenters verdistrøm image]
 
 
 
@@ -592,6 +592,7 @@ image::../nab_referanse_arkitekturer_enotifikasjon/media/Kapabiliteter eNotifika
 
 //.Kapabiliteter eNotifikasjon
 //image::../nab_referanse_arkitekturer_enotifikasjon/media/Kapabiliteter eNotifikasjon.png[alt=Kapabiliteter eNotifikasjon image]
+
 
 [cols ="1,3", options="header"]
 .Elementer i view for Kapabiliteter eNotifikasjon
@@ -606,17 +607,22 @@ image::../nab_referanse_arkitekturer_enotifikasjon/media/Kapabiliteter eNotifika
 | Datakonsument
 | Den som innhenter eller mottar data fra andre aktører.
 
+| Inngå avtaler om tilgang og levering av hendelsesstrømmer
+| Evnen til å inngå avtaler med datakonsumenter om tilgengjengeliggjøring av hendelseslister med notifikasjoner om hendelser.
+
+| Inngå avtaler om tilgang og innhenting av hendelsesstrømmer 
+| Evnen til å inngå avtaler med datatilbyder om tilgang til hendelser gjennom hendelseslister med notifikasjoner.
+
+| Avgi data på forespørsel
+| Evnen til å avgi data på forespørsel
+
 | Generere og tilby notifikasjoner
 | Evnen til å dele informasjon om hendelser gjennom notifikasjoner som tilgjengeliggjøres for konsumenter gjennom hendelseslister.
 
-|Avgi data på forespørsel
-|Evnen til å avgi data på forespørsel.
-
 | Innhente og håndtere notifikasjoner
-| Evnen til å konsumere hendelseslister.
+| Evnen til å konsumere hendelseslister ved å innhente notifikasjoner.
 
 |===
-
 
 //image:../nab_referanse_arkitekturer_enotifikasjon/media/Kapabiliteter eNotifikasjon.png[alt="Bilde mangler", width=750]
 
