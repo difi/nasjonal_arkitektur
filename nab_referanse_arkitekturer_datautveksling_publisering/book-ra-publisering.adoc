@@ -240,14 +240,14 @@ Forklaring til modellen:
 
 * _Notifikasjon_ kan inneholde et fullstendig sett av _hendelsesrelaterte data_, men dette er i mange tilfeller ikke hensiktsmessig. Alternativet er å la konsumentene komme tilbake og be om _supplerende notifikasjonsdata_.
 
-// * _Supplerende notifikasjonsdata_ er relevant når den den leverte notifikasjonen ikke  f.eks. uproblematisk å sende med en ny måleverdi for et termometer, mens det kan være mindre ønskelig å distribuere komplette kopier av større og distribuerte datasett. Hensynet til dataminimering spiller også en rolle i slike vurderinger.
+// * _Supplerende notifikasjonsdata_ er relevant når den den leverte notifikasjonen ikke inneholder   f.eks. uproblematisk å sende med en ny måleverdi for et termometer, mens det kan være mindre ønskelig å distribuere komplette kopier av større og distribuerte datasett. Hensynet til dataminimering spiller også en rolle i slike vurderinger.
 
 
 * _Hendelsestype_ kan være et entydig element i et kontrollert vokabular, men det kan også være "fritekst".
 
 * _Subjekt for hendelse_ vil identifisere subjektet, dvs. hvem eller hva hendelsen omhandler, slik dette er å oppfatte i den aktuelle konteksten. Dette kan være et fysisk objekt (f.eks. person), en samling fysiske objekter (f.eks. befolkningsgruppe) eller et konsept (f.eks. politikk).
 
-
+* _Øyeblikksbilde for subjekt etter hendelse_ 
 
 
 //Notifikasjoner kan inneholde et fullstendig sett av _hendelsesrelaterte data_,  men dette er i mange tilfeller ikke hensiktsmessig. Alternativet er å la konsumentene komme tilbake og be om _supplerende data_. Det er f.eks. uproblematisk å sende med en ny måleverdi for et termometer, mens det kan være mindre ønskelig å distribuere komplette kopier av større og distribuerte datasett. Hensynet til dataminimering spiller også en rolle i slike vurderinger.
@@ -331,12 +331,18 @@ Merk: Dataminimering kan løses ved at det tilbys ulike hendelseslister for samm
 
 == Innhenting av supplerende hendelsesrelaterte data
 
-For notifikasjoner som ikke gir et tilstrekkelig sett av _hendelsesrelaterte data_ for konsumentens formål, må datakonsumenten selv ta initiativ til å innhente supplerende data.
+For notifikasjoner som ikke gir et tilstrekkelig sett av _hendelsesrelaterte data_ for konsumentens formål, må datakonsumenten selv ta initiativ til å innhente _supplerende hendelsesrelaterte data_.
 
-.Publisert vs. utvekslet notifikasjon
-image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Publisert vs. utvekslet notifikasjon.png[alt=Publisert vs. utvekslet notifikasjon image]
+****
+Det er uproblematisk å sende med en ny måleverdi for et termometer, mens det kan være mindre ønskelig å distribuere komplette kopier av større og distribuerte datasett. Hensyn til dataminimering (personvern eller andre hesnyn) spiller også en rolle i slike vurderinger.
+****
 
+Prosessen er illustrert i følgende sekvensdiagram:  
 
+.Innhenting av supplerende hendelsesrelaterte data
+image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Innhenting av supplerende hendelsesrelaterte data.png[alt=Innhenting av supplerende hendelsesrelaterte data image]
+
+////
 Identifikasjon av aktuelle supplerende hendelsesrelaterte i notifikasjonen gjøres enten gjennom: 
 
 a. en enkelt identifikator som angir det totale datasettet 
@@ -344,8 +350,11 @@ a. en enkelt identifikator som angir det totale datasettet
 
 b. separate identifikatorer for ulike deler av  notifikasjonen
 //f.eks for _subjekt_.
+////
 
-Selve innhentingen av _supplerende hendelsesrelaterte data_ dekkes av eOppslag referansearkitektur.
+NOTE: Selve innhentingen av _supplerende hendelsesrelaterte data_ dekkes av eOppslag referansearkitektur.
+
+
 
 ////
 For å kunne filtrere og minimere innholdet i supplerende hendelsesdata gjennom spørringer, må konsumenten kjenne datamodellen for _hendelsesrelaterte data_.
@@ -362,22 +371,13 @@ TIP: Globalt unike identifikatorer kan fungere som direkte pekere til aktuelle d
 Filtrering og minimering av notifikasjoner kan skje på følgende måter:
 
 
-a. Tilbyder tilbyr ulike hendelseslister, der det i utgangspunktet er gjort et utvalg basert på metadata og kriterier som tema eller konfidensialitet. 
+a. Tilbyder tilbyr ulike hendelseslister, der det i utgangspunktet er gjort et utvalg basert på metadata og kriterier som tema eller konfidensialitet for hver hendelsesliste.
 
 b. Ytterligere filtrering innen hver hendelsesliste ut fra konsumentens spesifikasjon.
-
-//Merk: Abonnementsbasert filtrering dekkes av dette!?
 
 c. Konsumenten forkaster notifikasjoner etter mottak.
 
 
-Følgende modell oppsummerer sammenhengen mellom begreper som angår filtrering og dataminimering for hendelseslister og notifikasjoner på tvers av tilbyder og konsument.
-
-
-// Håkon: Del opp i to: filterer/minimer vs. geerering vs. publisring
-
-.Publisering av hendelser - filtrering og minimering
-image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Publisering av hendelser - filtrering og minimering.png[alt=Publisering av hendelser - filtrering og minimering image]
 
 
 [[generisk-publish-subscribe]]
