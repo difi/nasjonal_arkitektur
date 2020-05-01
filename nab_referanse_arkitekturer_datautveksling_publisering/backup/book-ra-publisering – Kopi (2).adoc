@@ -156,10 +156,10 @@ TIP: En globalt unik identifikator kan fungere som en direkte peker til aktuelle
 
 
 
-//:leveloffset!:
-//:leveloffset: +1
+:leveloffset!:
+:leveloffset: +1
 [[overskrift-grunnleggende-publisering]]
-== Grunnleggende arkitekturmønstre for publisering
+= Grunnleggende arkitekturmønstre for publisering
 
 
 
@@ -184,9 +184,9 @@ TIP: En globalt unik identifikator kan fungere som en direkte peker til aktuelle
 
 :leveloffset: +1
 [[generisk-publisering]]
-== Publisering og konsumering av hendelsesstrømmer (generisk mønster)
+= Publisering og konsumering av hendelsesstrømmer (generisk mønster)
 
-=== Om dette mønsteret
+== Om dette mønsteret
 
 Dette mønsteret er et _generisk_ arkitekturmønster, uten konkrete valg av teknologier og løsninger. 
 
@@ -204,7 +204,7 @@ Egenskaper:
 * Hendelseslister kan traverseres og spørres mot.
 
 
-=== Aktørsamspill
+== Aktørsamspill
 
 Datatilbyder [underline]#publiserer# hendelsestrømmer som [underline]##konsumeres## av datakonsumenter.
 
@@ -221,7 +221,7 @@ I praksis kan også både datatilbyder og datakonsument velge å benytte en ekst
 WARNING: Det faller utenfor omfanget her å gå inn på tilfeller der  ekstern tjenesteleverandør opptrer som  mellomledd på en måte som gjør det nødvendig å se på juridiske forhold eller løsninger på tvers av partene. 
 
 [[notifikasjonsinnhold-generisk]]
-=== Innhold i notifikasjoner (generisk)
+== Innhold i notifikasjoner (generisk)
 Begrepsapparatet bygger på <<grunnleggende-begreper,det grunnleggende begrepsapparatet for publisering av hendelsesstrømmer>>.
 
 En modell som konkretiserer notifikasjonsinnholdet er vist i figuren nedenfor. Her er det også angitt relasjonene til hendelsesrelaterte data, noe som kan være et langt større datasett enn det som utveksles i notifikasjoner mellom tilbyder og konsument.
@@ -275,7 +275,7 @@ Merk: Dataminimering kan løses ved at det tilbys ulike hendelseslister for samm
 
 ////
 
-=== Innhenting av supplerende hendelsesrelaterte data
+== Innhenting av supplerende hendelsesrelaterte data
 
 For notifikasjoner som ikke gir et tilstrekkelig sett av _hendelsesrelaterte data_ for konsumentens formål, må datakonsumenten selv ta initiativ til å innhente _supplerende hendelsesrelaterte data_.
 
@@ -312,7 +312,7 @@ TIP: Globalt unike identifikatorer kan fungere som direkte pekere til aktuelle d
 
 ////
 
-=== Filtrering og minimering av hendelseslister og notifikasjoner
+== Filtrering og minimering av hendelseslister og notifikasjoner
 
 Filtrering og minimering av notifikasjoner kan skje på følgende måter:
 
@@ -325,15 +325,15 @@ c. Konsumenten forkaster notifikasjoner etter mottak.
 
 
 
-=== Tekniske grensesnitt
+== Tekniske grensesnitt
 
 
-//.Publisering av hendelsesstrømmer - tekniske grensesnitt
-//image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Publisering av hendelsesstrømmer - tekniske grensesnitt.png[alt=Publisering av hendelsesstrømmer - tekniske grensesnitt image]
+.Publisering av hendelsesstrømmer - tekniske grensesnitt
+image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Publisering av hendelsesstrømmer - tekniske grensesnitt.png[alt=Publisering av hendelsesstrømmer - tekniske grensesnitt image]
 
 
-//== Grensesnitt for innhenting av notifikasjoner 
-#eNotifikasjon# dreier seg om publisering av hendelsesdata via hendelseslister som kan aksesseres av datakonsumenter via spørring og oppslag i API-er.
+== Grensesnitt for innhenting av notifikasjoner 
+eNotifikasjon dreier seg om publisering av hendelsesdata via hendelseslister som kan aksesseres av datakonsumenter via spørring og oppslag i API-er.
 
 
 Konsumentene kan også innhente tilleggsdata om hendelser fra datatilbydere via spørring og oppslag i API-er, ved behov. Dette er illustert i følgende figur.
@@ -357,9 +357,9 @@ Overordnet funksjonalitet i API for oppslag/spørring mot hendelseslister:
 * Navigering i hendelselister for å hente inn inkrementelle endringer og holde regnskap på tilstanden til aktuelle subjekter.
 
 [[generisk-publish-subscribe]]
-== Abonnementsbasert publisering (generisk mønster)
+= Abonnementsbasert publisering (generisk mønster)
 
-=== Om dette mønsteret 
+== Om dette mønsteret 
 
 Dette mønsteret bygger på <<generisk-publisering,Generisk mønster for publisering og konsumering av hendelsesstrømmer>>.
 
@@ -393,7 +393,7 @@ image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Publiserin
 
 
 
-=== Om dataflyt og pull vs. push
+== Om dataflyt og pull vs. push
 
 I praksis kan det være at tilbyder  skriver notifikasjoner direkte til konsumentens integrasjonløsning, som en "pushbasert" abonnementstjeneste for levering av notifikasjoner.
 
@@ -411,23 +411,24 @@ Om det i registrering av abonnement på en hendelsesliste også registreres mer 
 
 Spørringer kan også gjøres (pullbasert) med utgangspunkt i en abonnementsavtale.
 
-=== Om tekniske grensesnitt
+== Om tekniske grensesnitt
 I dette _generiske_ arkitekturmønsteret, gis rom for ulike tekniske løsninger. 
 
 Notifikasjoner kan f.eks. leveres gjennom et synkront API eller via en asynkron meldingskø hos konsumenten. Tilsvarende kan spørringer skje synkront eller asynkront. 
 
 En mulig kombinasjon er at spørringen skjer gjennom et synkront API, mens notifikasjonene deretter leveres asynkront og fortløpende (pushbasert).
 
-//erik1 Fix figur!
-////
-TIP: Spørringer kan også gjøres som en bestilling av framtidige notifikasjoner. Dette kan ses på som en type abonnement.  
+TIP: Spørringer kan også gjøres som en bestilling av framtidige notifikasjoner. Dette kan ses på som en type abonnment.  
 
 Følgende figur illustrerer disse konseptene. 
 
 
+
+// Erik: Figuren er ikke perfekt, fordi
+
 .Publisering av hendelser - grunnleggende om tekniske grensesnitt
 image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Publisering av hendelser - grunnleggende om tekniske grensesnitt.png[alt=Publisering av hendelser - grunnleggende om tekniske grensesnitt image]
-////
+
 
 
 //= Regnskapsføring av hendelser (generisk mønster)
@@ -442,12 +443,20 @@ include::../nab_referanse_arkitekturer_enotifikasjon/book-ra-enotifikasjon.adoc[
 ////
 
 
+:leveloffset!:
+:leveloffset: +1
+
+//= Anbefalte anvendelser av grunnleggende arkitekturmønstre for publisering
+
+
+// erik offset???????????????????????????
+//:leveloffset: +1
 
 = eNotifikasjon
 
 == Om dette mønsteret
 
-//=== Basismønstre for eNotifikasjon
+=== Grunnleggende mønstre
 
 Arkitekturmønsteret eNotifikasjon bygger på _grunnleggende mønstre for publisering og strømming av hendelser_. 
 
@@ -460,7 +469,7 @@ Event Sourcing er et arkitekturmønster hvor tilstanden til et "subjekt" bestemm
 Detaljer om dette mønsteret finnes under   <<litteraturhenvisninger-event-sourcing,litteraturhenvisninger om event sourcing>>
 ****
 
-//=== Egenskaper
+=== Egenskaper
 
 Grunnleggende egenskaper ved eNotifikasjon som mønster:
 
@@ -493,7 +502,7 @@ I tilknytning tli eNotifikasjon vil det bestandig kunne assosieres et subjekt (e
 // For mønsteret eNotifikasjon gjelder en detaljering av begrepet _hendelsesrelaterte data_ som følger her.
 
 
-.Innhold i notifikasjoner for mønsteret eNotifikasjon
+.Innhold i notifikasoner for mønsteret eNotifikasjon
 image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Innhold i notifikasoner for mønsteret eNotifikasjon.png[alt=Innhold i notifikasoner for mønsteret eNotifikasjon image]
 
 
@@ -597,7 +606,7 @@ Kommentarer til denne figuren:
 
 ////
 
-== Verdistrømsbeskrivelse
+== Verdistrømmer
 
 === eNotifikasjon - oversikt over verdistrømmer
 
@@ -671,7 +680,7 @@ image::../nab_referanse_arkitekturer_enotifikasjon/media/Kapabiliteter eNotifika
 |===
 
 
-== Prosessbeskrivelse - generisk arkitektur
+== Arkitekturmønstre
 Arkitekturmønster for eNotifikasjon beskriver realiseringen av kapabilitetene som er spesifikke for dette mønsteret.
 
 Beskrivelsene er forsøkt å holdes generisk uten å peke til løsningskomponenter, og det vil dermed kunne være flere måter å realisere de ulike elementene på.
@@ -935,8 +944,8 @@ b. Formidling av notifikasjoner til flere og ulike typer (interne) konsumenter.
 
 
 |===
-== Prosessbeskrivelse løsningsarkitekur
 
+== Løsningsmønstre for eNotifikasjon
 Spesifikke løsningsmønstre for eNotifikasjon er inntil videre ikke utarbeidet. Det er stor variasjon i praksis, og ingen fellesløsninger er så langt etablert i Norge.
 
 Det finnes i mellomtiden noen  gode eksempler å peke på. Open source produkter som er i utstrakt gir også en pekepinn om aktuelle løsningsmønstre. 

@@ -1,5 +1,5 @@
 :lang: no
-:doctitle: eNotifikasjon arkitekturmønster
+:doctitle: Referansearkitektur eNotifikasjon
 :keywords: eNotifikasjon
 
 include::../plattform_felles/includes/commonincludes.adoc[]
@@ -13,22 +13,25 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 //include::../nab_referanse_arkitekturer_enotifikasjon/ra-enotifikasjon-intro.adoc[]
 
 
+//eriktest1
+
 == Om dette mønsteret
 
-=== Grunnleggende mønstre
+eNotifikasjon dreier seg om publisering av hendelsesdata via hendelseslister som kan aksesseres av datakonsumenter via spørring og oppslag i API-er.
 
-Arkitekturmønsteret eNotifikasjon bygger på _grunnleggende mønstre for publisering og strømming av hendelser_. 
+Mønsteret bygger på _grunnleggende mønstre for publisering og strømming av hendelser_. 
 
-Det tas videre utganspunkt i konsepter fra _Event Sourcing_, et anerkjent og mye omtalt arkitekturmønster.
+Konsumentene kan også innhente tilleggsdata om hendelser fra datatilbydere via spørring og oppslag i API-er, ved behov. Dette er illustert i følgende figur.
 
-.Event sourcing - overordnet konsept
-****
-Event Sourcing er et arkitekturmønster hvor tilstanden til et "subjekt" bestemmes gjennom en sekvens av hendelser som lagres i kronologisk rekkefølge, ut fra et gitt startpunkt.
+.Pull-basert distribusjon av notifikasjoner
+image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Pull-basert distribusjon av notifikasjoner.png[alt=Pull-basert distribusjon av notifikasjoner image]
 
-Detaljer om dette mønsteret finnes under   <<litteraturhenvisninger-event-sourcing,litteraturhenvisninger om event sourcing>>
-****
+Som vist i figuren, skilles det mellom to hovedtyper API-er: 
 
-=== Egenskaper
+1. API for oppslag/spørring mot hendelseslister.
+2. API for oppslag/innhenting av supplerende hendelsesdata (ved behov).
+
+For begge disse typene API-er er _eOppslag-mønsteret_ relevant. For spørring mot hendelseslister er det dessuten interessant å se på spesifikk funksjonalitet og tjenester som gis gjennom API.
 
 Grunnleggende egenskaper ved eNotifikasjon som mønster:
 
@@ -39,59 +42,45 @@ Grunnleggende egenskaper ved eNotifikasjon som mønster:
 * Hver enkelt konsument kan lese samme notifikasjon flere ganger.  
 * Hendelseslister kan traverseres og spørres mot.
 
+//TIP: eNotifikasjon bygger på konsepter fra Event Sourcing, et anerkjent og mye omtalt arkitekturmønster.
+
+//  Er det gitt hvem som skal holde rede på "markør"
+
+// Event Sourcing is an architectural pattern in which the state of the application is determined by a sequence of events each of which is recorded in an append-only Event store or Stream. As an example, imagine that each “event” is an incremental update to an entry in a database. In this case, the state of a particular entry is simply the accumulation of events pertaining to that entry. In the example below the Stream persists the queue of all deposit and withdrawal events, and the database table persists the current account balances
 
 
+== Begrepsapparat
 
-== Innhold i notifikasjoner (eNotifikasjon)
+Begrepsapparatet bygger på det grunnleggende begrepsapparatet for publisering; gjengitt her:
 
-Dette er en konkretisering av <<notifikasjonsinnhold-generisk,generisk notifikasonsinnholdet>>. Begrepsapparatet bygger på <<grunnleggende-begreper,det grunnleggende begrepsapparatet for publisering av hendelsesstrømmer>>.
-
-
-En modell for notifikasjonsinnholdet for _eNotifikasjon_ er vist i figuren nedenfor. Her er det også angitt  relasjonene til _hendelsesrelaterte data_, noe som kan være et langt større datasett enn det som utveksles i notifikasjoner mellom tilbyder og konsument.
-
-Overordnet:
-
-En notifikasjon inneholder som minimum en _identifikator for notifikasjon_, slik at det er mulig å identifisere assosierte hendelsesrelaterte data.
-Det er normalt hensiktsmessig å inkludere en spesifikasjon av hendelsestype.
-I tilknytning tli eNotifikasjon vil det bestandig kunne assosieres et subjekt (eventuel en samling), og en vil være interessert i å ta rede på status og historikk.
-
+image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Grunnleggende begreper for publisering av hendelser.png[alt=Grunnleggende begreper for publisering av hendelser image]
 
 //image:../plattform_felles/media/i-arbeid.png[width=45, height=45] #_Innarbeiding av kommentarer pågår, 2020-04-27_#
 
-// For mønsteret eNotifikasjon gjelder en detaljering av begrepet _hendelsesrelaterte data_ som følger her.
+For mønsteret eNotifikasjon gjelder en detaljering av begrepet _hendelsesrelaterte data_ som følger her.
 
+.Hendelsesrelaterte data
+image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Hendelsesrelaterte data.png[alt=Hendelsesrelaterte data image]
 
-.Innhold i notifikasoner for mønsteret eNotifikasjon
-image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Innhold i notifikasoner for mønsteret eNotifikasjon.png[alt=Innhold i notifikasoner for mønsteret eNotifikasjon image]
+Forkaring til modellen:
 
+_Hendelsestype_ kan være et entydig element i et kontrollert vokabular, men det kan også være "fritekst".
 
-
-Forklaring til modellen:
-
- 
-* _Hendelsesrelaterte data_ kan være små eller store datasett som kan identifiseres og assosieres med en notifikasjon. Det komplette datasettet for dette kan ligge samlet, eller det kan være distribuert over flere lagringsløsninger og virksomheter. 
-
-
-* _Notifikasjon_ kan inneholde et fullstendig sett av _hendelsesrelaterte data_, men dette er i mange tilfeller ikke hensiktsmessig. Alternativet er å la konsumentene komme tilbake og be om supplerende data. 
-
-* _Identifikator for notifikasjon_ identifiserer notifikasjonen entydig for eller overfor tilbyder. Konsumenten kan bruke denne identifikatoren i spørringer for å innhente supplerende hendelsesrelaterte data om en mottatt notifikasjon. 
-
-
-// * _Supplerende notifikasjonsdata_ er relevant når den den leverte notifikasjonen ikke inneholder   f.eks. uproblematisk å sende med en ny måleverdi for et termometer, mens det kan være mindre ønskelig å distribuere komplette kopier av større og distribuerte datasett. Hensynet til dataminimering spiller også en rolle i slike vurderinger.
-
-
-* _Hendelsestype_ kan være et entydig element i et kontrollert vokabular, men det kan også være "fritekst".
-
-* _Subjekt for hendelse_ vil identifisere subjektet, dvs. hvem eller hva hendelsen omhandler, slik dette er å oppfatte i den aktuelle konteksten. Dette kan være en person, et fysisk objekt, en samling av personer eller fysiske objekter, eller et konsept.
-
-* _Øyeblikksbilde for subjekt etter hendelse_ kan være f.eks. en målerutlesning fra en sensor. Det kan også være f.eks. innholdet i en større database.
-
-* _Inkrementell endring i øyeblikksbilde av subjekt_ gir både historikk og statis for aktuelle subjekter.   
-
+_Hendelsesrelaterte data_ kan være små eller store _Datasett_, enten lagret samlet eller distribuert.
 
 //Notifikasjoner kan inneholde et fullstendig sett av _hendelsesrelaterte data_,  men dette er i mange tilfeller ikke hensiktsmessig. Alternativet er å la konsumentene komme tilbake og be om _supplerende data_. Det er f.eks. uproblematisk å sende med en ny måleverdi for et termometer, mens det kan være mindre ønskelig å distribuere komplette kopier av større og distribuerte datasett. Hensynet til dataminimering spiller også en rolle i slike vurderinger.
 
+== Innhenting av supplerende hendelsesrelaterte data
 
+For notifikasjoner som ikke gir et tilstrekkelig sett av _hendelsesrelaterte data_ for konsumentens formål, må datakonsumenten selv ta initiativ til å innhente supplerende data.
+
+Identifikasjon av aktuelle supplerende hendelsesrelaterte kan enten gjøres gjennom 
+
+a. en enkelt _identifikator for hendelsesrelaterte data_ som inneholdes i notifikasjonen, Dette kan fungere godt når tilbyder har preparert det aktuelle datasettet for konsumenten ut fra spesifikasjon gitt i abonnementsoppsettet.
+
+b. separate identifikatorer for ulike deler av  notifikasjon, f.eks for _subjekt_.
+
+Selve innhentingen av _supplerende hendelsesrelaterte data_ dekkes av eOppslag referansearkitektur.
 
 ////
 For å kunne filtrere og minimere innholdet i supplerende hendelsesdata gjennom spørringer, må konsumenten kjenne datamodellen for _hendelsesrelaterte data_.
@@ -131,10 +120,6 @@ Hvordan konsumenten identifiserer aktuelle supplerende hendelsesdata, kan varier
 
 TIP: En globalt unik identifikator kan fungere som en direkte peker til aktuelle dataressurser på nettet. En kan da, under visse forutsetninger, unngå behovet for å måtte innhente kopier av supplerende data, også for data som ligger hos andre virksomheter og eventuelt distribuert hos flere virksomheter. 
 ////
-
-
-
-
 
 // Henrik Figur under er tatt ut og bør erstattes med figur uten formidler rollen og tilhørende komponenter.
 
@@ -182,7 +167,7 @@ Stegene i verdistrømmen er nærmere forklart under egne avsnitt om verdistrømm
 === eNotifikasjon - verdistrøm for datatilbyder
 Her vises verdistrømmen for eNotifikasjon sett fra datatilbyder, med angivelse av kapabiliteter.
 
-Det som er spesifikt for eNotifikasjon er vist med uthevet skrift, dvs. _Inngå avtaler om tilgang og levering av hendelsesstrømmer_ og _Generere og tilby notifikasjoner_. Øvrige kapabiliteter er beskrevet andre steder, blant annet i tilknytning til referansearkitekturer for eMelding (Sende data) og  eOppslag (Avgi data på forespørsel).  
+Det som er spesielt for eNotifikasjon er vist med uthevet skrift, dvs. _Generere og tilby notifikasjoner_. Øvrige kapabiliteter er beskrevet andre steder, blant annet i tilknytning til referansearkitekturer for eMelding (Sende data) og  eOppslag (Avgi data på forespørsel).  
 
 .eNotifikasjon - tilbyders verdistrøm
 image::../nab_referanse_arkitekturer_enotifikasjon/media/eNotifikasjon - tilbyders verdistrøm.png[alt=eNotifikasjon - tilbyders verdistrøm image]
@@ -190,23 +175,19 @@ image::../nab_referanse_arkitekturer_enotifikasjon/media/eNotifikasjon - tilbyde
 === eNotifikasjon - verdistrøm for datakonsumenter
 Her vises verdistrømmen for eNotifikasjon sett fra datakonsumenter, med angivelse av kapabiliteter.
 
-Det som er spesifikt for eNotifikasjon er vist med uthevet skrift, dvs. _Inngå avtaler om tilgang og innhenting av hendelsesstrømmer_ og _Innhente og håndtere notifikasjoner_. Øvrige kapabiliteter er beskrevet andre steder, blant annet i tilknytning til referansearkitekturer for eMelding (Motta data) og  eOppslag (Innhente data ved forespørsel).  
+Det som er spesielt for eNotifikasjon er vist med uthevet skrift, dvs. _Innhente og håndtere notifikasjoner_. Øvrige kapabiliteter er beskrevet andre steder, blant annet i tilknytning til referansearkitekturer for eMelding (Motta data) og  eOppslag (Innhente data ved forespørsel).  
+
 
 .eNotifikasjon - konsumenters verdistrøm
-image::../nab_referanse_arkitekturer_datautveksling_publisering/media/eNotifikasjon - konsumenters verdistrom.png[alt=eNotifikasjon - konsumenters verdistrøm image]
-
-
+image::../nab_referanse_arkitekturer_enotifikasjon/media/eNotifikasjon - konsumenters verdistrøm.png[alt=eNotifikasjon - konsumenters verdistrøm image]
 
 == Kapabilitetskart for eNotifikasjon
 
 Modellen under viser kapabiliteter som er spesifikke for eNotifikasjon. Øvrige kapabiliteter er beskrevet i samhandlingsmønsteret for _deling av data på forespørsel_.
 
+
 .Kapabiliteter eNotifikasjon
 image::../nab_referanse_arkitekturer_enotifikasjon/media/Kapabiliteter eNotifikasjon.png[alt=Kapabiliteter eNotifikasjon image]
-
-//.Kapabiliteter eNotifikasjon
-//image::../nab_referanse_arkitekturer_enotifikasjon/media/Kapabiliteter eNotifikasjon.png[alt=Kapabiliteter eNotifikasjon image]
-
 
 [cols ="1,3", options="header"]
 .Elementer i view for Kapabiliteter eNotifikasjon
@@ -221,123 +202,129 @@ image::../nab_referanse_arkitekturer_enotifikasjon/media/Kapabiliteter eNotifika
 | Datakonsument
 | Den som innhenter eller mottar data fra andre aktører.
 
-| Inngå avtaler om tilgang og levering av hendelsesstrømmer
-| Evnen til å inngå avtaler med datakonsumenter om tilgengjengeliggjøring av hendelseslister med notifikasjoner om hendelser.
-
-| Inngå avtaler om tilgang og innhenting av hendelsesstrømmer 
-| Evnen til å inngå avtaler med datatilbyder om tilgang til hendelser gjennom hendelseslister med notifikasjoner.
-
-| Avgi data på forespørsel
-| Evnen til å avgi data på forespørsel
-
 | Generere og tilby notifikasjoner
 | Evnen til å dele informasjon om hendelser gjennom notifikasjoner som tilgjengeliggjøres for konsumenter gjennom hendelseslister.
 
+|Avgi data på forespørsel
+|Evnen til å avgi data på forespørsel.
+
 | Innhente og håndtere notifikasjoner
-| Evnen til å konsumere hendelseslister ved å innhente notifikasjoner.
+| Evnen til å konsumere hendelseslister.
 
 |===
 
 
-== Arkitekturmønstre
-Arkitekturmønster for eNotifikasjon beskriver realiseringen av kapabilitetene som er spesifikke for dette mønsteret.
+//image:../nab_referanse_arkitekturer_enotifikasjon/media/Kapabiliteter eNotifikasjon.png[alt="Bilde mangler", width=750]
 
-Beskrivelsene er forsøkt å holdes generisk uten å peke til løsningskomponenter, og det vil dermed kunne være flere måter å realisere de ulike elementene på.
+== Arkitekturmønstre
 
 
 === Gi tilgang til notifikasjoner og hendelser
 Gi tilgang til notifikasjoner og hendelser er den prosessen datatilbyder må gjøre for å gi datakonsumenten tilgang til hendelseslister. Ved helt åpne hendelseslister kan prosessen være unødvendig og utgår, men vil normalt omfatte å tilgjengeliggjøre API som beskrevet i eOppslag. I tillegg må det eventuelt registreres en del informasjon i tilknytning til filtrering og tilpassning av hendelselister etter konsumentens behov og tilganger.
 
-.Gi tilgang til notifikasjoner og hendelser
-image::../nab_referanse_arkitekturer_enotifikasjon/media/Gi tilgang til notifikasjoner og hendelser.png[alt="Bilde mangler", width=500]
+image:../nab_referanse_arkitekturer_enotifikasjon/media/Registrere konsument av hendelser.png[alt="Bilde mangler", width=750]
 
 
 [cols ="1,3", options="header"]
-.Elementer i view for Gi tilgang til notifikasjoner og hendelser
+.Elementer i view for Registrere konsument av hendelser
 |===
 
 | Element
 | Beskrivelse
+
+| Gi tilgang til notifikasjoner og hendelser
+| Prosessen med oppsett for å gi tilgang til notifikasjoner og hendelser.
+
+| Motta forespørsel om abonnement
+| Prosessen med å motta forespørsel om å abonnere på eller lese hendelseslister.
+
+| Registrere abonnent
+| Prosessen med å registrere ny konsument av hendelsesliste.
+
+| Inngå avtaler og sette opp abonnementer og tilganger til data og tjenester
+| Evnen til å inngå avtaler og sette opp abonnementer og tilganger til data og tjenester
+
+Klargjøre for deling av data
 
 | Datatilbyder
 | Tilbyder av data til andre aktører.
 
-| Inngå avtaler om tilgang og levering av hendelsesstrømmer
-| Evnen til å inngå avtaler med datakonsumenter om tilgengjengeliggjøring av hendelseslister med notifikasjoner om hendelser.
+| Registrering av abonnement
+| 
 
-| Motta forespørsel om tilgang til hendelsesstrømmer
-| Prosessen med å motta forespørsel om tilgang til notifikasjoner på hendelseslister.
+| Filterspesifikasjon
+| 
 
-| Inngå avtale om tilgang til hendelsesliste med notifikasjoner
-| Prosessen med å registrere seg som konsument av en hendelsesliste hos datatilbyder
-
-| Registrering av konsument av hendelsesliste
-| Tjeneste for å registrere konsumenter av hendelseslite med notifikasjoner.
+| Minimerings-spesifikasjon
+| 
 
 |===
-
 
 === Få tilgang til notifikasjoner og hendelser
 Få tilgang til notifikasjoner og hendelser er den prosessen datakonsument må gjøre for å sette opp og få tilganger til hendelseslister. Prosessetrinnene kommer i tillegg til prosessen for å få tigang til API som beskrevet i eOppslag.
 
-.Få tilgang til notifikasjoner og hendelser
-image::../nab_referanse_arkitekturer_enotifikasjon/media/Få tilgang til notifikasjoner og hendelser.png[alt="Bilde mangler", width=500]
+image:../nab_referanse_arkitekturer_enotifikasjon/media/Tegne abonnement på hendelser.png[alt="Bilde mangler", width=750]
 
 
 [cols ="1,3", options="header"]
-.Elementer i view for Få tilgang til notifikasjoner og hendelser
+.Elementer i view for Tegne abonnement på hendelser
 |===
 
 | Element
 | Beskrivelse
 
-| Datakonsument
-| Den som innhenter eller mottar data fra andre aktører.
-
-| Inngå avtaler om tilgang og innhenting av hendelsesstrømmer 
-| Evnen til å inngå avtaler med datatilbyder om tilgang til hendelser gjennom hendelseslister med notifikasjoner.
+| Få tilgang til notfikasjoner og hendelser
+| 
 
 | Beskrive behov og tilganger
 | Prosessen med å beskrive hvilke tilganger konsument har rettigeheter til og hvilken type notifikasjoner som er aktuelle. 
 
-| Inngå avtale om tilgang til hendelsesliste med notifikasjoner
+| Registrere abonnenment
 | Prosessen med å registrere seg som konsument av en hendelsesliste hos datatilbyder
 
-| Registrering av konsument av hendelsesliste
-| Tjeneste for å registrere konsumenter av hendelseslite med notifikasjoner.
+| Inngå avtaler om abonnement og tilgang til data fra andre
+| Evenen til å klargjøre for innhenting og mottak av data
+
+Inngå avtaler om abonnement og tilgang til data fra andre
+
+| Datakonsument
+| Den som innhenter eller mottar data fra andre aktører.
+
+| Filterspesifikasjon
+| 
+
+| Minimerings-spesifikasjon
+| 
+
+| Registreringstjeneste for abonnement på hendelseliste
+| 
 
 |===
+
 
 === Generer og publiser notifikasjoner
 Generer og publiser notifikasjoner er den prosessen datatilbyder må gjøre for å tilby notifikasjoner gjennom hendelseslister. Hendelselister tilbys på tilsvarende måte som beskrevet for generelle mønstre for spørring og oppslag (herunder eOppslag), men det finnes spesielle krav for hendelseslister med tanke på segmentering,  filtrering og navigering.
 
 
-.Generer og publiser notifikasjoner 
-image::../nab_referanse_arkitekturer_enotifikasjon/media/Generer og publiser notifikasjoner.png[alt=Generer og publiser notifikasjoner (arkitekturmønster) image]
+.Generer og publiser notifikasjoner (arkitekturmønster)
+image::../nab_referanse_arkitekturer_enotifikasjon/media/Generer og publiser notifikasjoner (arkitekturmønster).png[alt=Generer og publiser notifikasjoner (arkitekturmønster) image]
+
+
+Forklaring til figur:
 
 
 [cols ="1,3", options="header"]
-.Elementer i view for Generer og publiser notifikasjoner
+.Elementer i view for Generer og publiser notifikasjoner (arkitekturmønster)
 |===
 
 | Element
 | Beskrivelse
 
-| Datatilbyder
-| Tilbyder av data til andre aktører.
-
 | Generere og tilby notifikasjoner
 | Evnen til å dele informasjon om hendelser gjennom notifikasjoner som tilgjengeliggjøres for konsumenter gjennom hendelseslister.
 
-| Notifikasjoner
-| Dataobjekt som peker til (eller representerer) en hendelse og gjøres tilgjengelig på en hendelsesliste så konsumenten får vite om hendelsen.
-
-En notifikasjon kan inneholde lite eller mye informasjon om selve hendelsen, men det må være nok informasjon til at konsumenten kan vurdere om hendelsen er relevant for seg.
-
-En notifikasjon inneholder også en referanse til hendelsen og relevante grunnlagsdata.
-
-| Hendelsesliste
-| Liste med notifikasjoner tilgjengelig for konsumenter. 
+| Datatilbyder
+| Tilbyder av data til andre aktører.
 
 | Generer og publiser notifikasjoner
 | Prosessen med å dele informasjon om hendelser.
@@ -348,22 +335,38 @@ En notifikasjon inneholder også en referanse til hendelsen og relevante grunnla
 | Publiser notifikasjon i hendelseslister
 | Prosessen med å legge notifikasjoner i en eller flere hendelseslister som er eksponert overfor aktuelle konsumenter.
 
+| Notifikasjoner
+| Dataobjekt som peker til (eller representerer) en hendelse og gjøres tilgjengelig på en hendelsesliste så konsumenten får vite om hendelsen.
+
+En notifikasjon kan inneholde lite eller mye informasjon om selve hendelsen, men det må være nok informasjon til at konsumenten kan vurdere om hendelsen er relevant for seg.
+
+En notifikasjon inneholder også en referanse til hendelsen og relevante grunnlagsdata.
+
+| Hendelsesliste (topic)
+| Liste med notifikasjoner tilgjengelig for konsumenter. 
+
 | Generering av notifikasjon
 | Tjeneste som genererer notifikasjoner basert på hendelser, der alle aktuelle grunnlagsdata er med eller lenket til.
 
 | Skriving av notifikasjon til eksponerte hendelseslister
-| Tjeneste for å skrive en notifikasjon til en eller flere hendelseslister, eventuelt med filtrering av informasjon ut fra hvem som er aktuelle konsumenter.
+| Tjeneste for å skrive en notifikasjon til en eller flere hendelseslister, eventuelt med filtrering av informasjon ut fra hvem som er aktuelle konsumenter (abonnenter).
+
+| Komplett hendelsesliste
+| 
 
 | Komplett notifikasjon
-| Notifikasjon som inneholder et fullstendig sett av hendelsesrelaterte data.
+| 
 
 | Publisert hendelsesliste
-| Hendelsesliste som eksponeres for konsument. En tilbyder kan tilby flere hendelselister i parallell f.eks. med ulike temaer og for konsumenter med ulike rettigheter.
+| 
 
 | Publisert notifikasjon
-| Notifikasjon som publiseres på en eller flere hendelseslister. Publiserte notifikasjoner kan være tykke eller tynne med hensyn på hvor mye informasjon om en hendelse de inneholder.
+| 
 
 |===
+
+
+
 
 
 
@@ -371,22 +374,19 @@ En notifikasjon inneholder også en referanse til hendelsen og relevante grunnla
 Notifikasjoner avgis gjennom API på tilsvarende måte som beskrevet for generelle mønstre for spørring og oppslag, men tilbyder må tilpasse hendelsene som avgis etter det konsumenten har rettigheter til og etterspør. F.eks. kan konsumenten kun ha rettigheter til en delmengde av alle hendelser i hendelsesliten og også kun være interessert i enkelte typer hendelser. Konsumenten vil også normalt kun ha behov for å hente notifikasjoner som ikke er hentet tidliger, men kan også ønske å hente tidligere notifikasjoner på nytt. 
 
 
+.Avgi notifikasjoner på forespørsel
+image::../nab_referanse_arkitekturer_enotifikasjon/media/Avgi notifikasjoner på forespørsel.png[alt=Avgi notifikasjoner på forespørsel image]
 
-.Avgi forespurte notifikasjoner
-image::../nab_referanse_arkitekturer_enotifikasjon/media/Avgi forespurte notifikasjoner.png[alt=Avgi forespurte notifikasjoner image]
 
 [cols ="1,3", options="header"]
-.Elementer i view for Avgi forespurte notifikasjoner
+.Elementer i view for Avgi notifikasjoner på forespørsel
 |===
 
 | Element
 | Beskrivelse
 
-| Datatilbyder
-| Tilbyder av data til andre aktører.
-
-| Avgi data på forespørsel
-| Evnen til å avgi data på forespørsel
+| Tilbyders spørretjeneste mot hendelsesliste
+| Tjeneste for spørring og navigering av hendelsesliste gjennom API. Det kan være aktuelt å filtrere informasjon ut fra hvem som spør og hvilken informasjon det er abonnert på, i tillegg til å filtrere ut fra spesifikasjoner i hver enkelt spørring.
 
 | Avgi forespurte data gjennom API
 | Prosessen med å avgi data på forespørsel gjennom et egnet API.
@@ -395,58 +395,51 @@ image::../nab_referanse_arkitekturer_enotifikasjon/media/Avgi forespurte notifik
 | Prosessen med å avgi notifikasjoner på forespørsel gjennom et API som 
 
 | Motta forespørsel om notifikasjoner
-| Motta forespørsler fra konsument om å avgi notifikasjoner.
+| Motta forespørsler fra konsument om å avgi notifkiasjoner.
 
-| Autentisere konsument og kontrollere tilgang
-| Prosessen med å autentisere en konsument og kontrollere  rettigheter til data.
+| Autentisere konsument
+| Prosessen med å autentisere en konsument.
 
-| Tilpass innhold til konsument
-| Prosessen med å tilpasse innholdet til konsument. Tilpasningen gjøres på grunnlag av parametere/informasjon i forespørselen og 
+| Kontroller tilgang
+| Kontroll og håndheving av konsumentens rettigheter til å få forespurte data.  I tillegg til "validering av sikkerhetsbillet", kan det være behov for kontroll mot virksomhetsinterne policies.
 
 | Avgi utvalgte notifikasjoner 
 | Avgi utvalgte hendelser basert på parametere i forespørsel om notifikasjoner. 
 
+| Tilpass innhold til konsument
+| 
+
+| Junction
+| 
+
+| Datatilbyder
+| Tilbyder av data til andre aktører.
+
+| Avgi data på forespørsel
+| Evnen til å avgi data på forespørsel
+
 | Forespørsel om notifikasjoner
-| Dataobjekt med eventuelle parametere for spørring på notifikasjoner fra tilgjengelig hendelsesliste. Kan inneholde referanse til hvor i hendelselisten (f.eks. tid eller sekvensnummer) man ønsker å lese, avgrensning til temaer, rettigheter og liknende. 
-Informasjonen er grunnlag for eventuell tilpasning av innhold og utvalg. 
-
-| Datautvekslings-tjeneste
-| Tjeneste for utveksling av data. Samme som data exchange service. Benyttes av avsender og mottaker for transport av meldinger.
-
-| Autentiseringstjeneste
-| Tjeneste som benyttes av tilbyder for å validere og kontrollere autentisiteten til et OAUTH2 token fra Maskinporten
-
-| Tilgangskontroll-tjeneste
-| Tjeneste for å sjekke rettigheter til data. Kan være eksterne eller interne tjenester.
-Eksempler på rettigheter kan komme av samtykker fra person eller virksomhet, eller rollebasert fra vergemål, familierelasjon el.
-
-| Filtrerings- og minimeringstjeneste
-| Tjeneste for å filtrere og minimere informasjon ut fra parametere i forespørselen og hvilken informasjon konsumenten har rettigheter til.
-
-| Tilbyders spørretjeneste mot hendelsesliste
-| Tjeneste for spørring og navigering av hendelsesliste gjennom API. 
+| Dataobjekt med eventuelle parametere for spørring på notifikasjoner fra tilgjengelig hendelsesliste. Kan inneholde referanse til hvor i hendelselisten (tid eller nummer) man ønsker å lese, avgrensning til temaer og liknende. 
 
 | Filtrert hendelsesliste
-| Utvalg av hendelsesliste tilpasset en forespørsel fra konsument.
+| 
 
 | Minimert notifikasjon
-| Notifikasjon som inneholder kun det konsumenten etterspør og har rettigheter til.
+| 
+
+| Filtrerings- og minimeringstjeneste
+| 
 
 |===
-
 
 === Konsumer notifikasjoner
 Notifikasjoner leses på tilsvarende måte som beskrevet for generelle mønstre for spørring og oppslag (herunder eOppslag), men konsumentene må holde orden på spesielle forhold som rekkefølge og hvilke notifikasjoner som er lest. Konsumenten må også være i stand til å vurdere relevansen av hendelsene før videre behandling av notifikasjonene.
 
-
-
-
-
-.Konsumer notifikasjoner
-image::../nab_referanse_arkitekturer_enotifikasjon/media/Konsumer notifikasjoner.png[alt=Konsumer notifikasjoner image]
+.Innhente notifikasjoner ((arkitekturmønster)
+image::../nab_referanse_arkitekturer_enotifikasjon/media/Innhente notifikasjoner ((arkitekturmønster).png[alt=Innhente notifikasjoner ((arkitekturmønster) image]
 
 [cols ="1,3", options="header"]
-.Elementer i view for Konsumer notifikasjoner
+.Elementer i view for Innhente notifikasjoner ((arkitekturmønster)
 |===
 
 | Element
@@ -456,21 +449,25 @@ image::../nab_referanse_arkitekturer_enotifikasjon/media/Konsumer notifikasjoner
 | Den som innhenter eller mottar data fra andre aktører.
 
 | Innhente og håndtere notifikasjoner
-| Evnen til å konsumere hendelseslister ved å innhente notifikasjoner.
+| Evnen til å konsumere hendelseslister.
+
 
 | Forespørsel om notifikasjoner
-| Dataobjekt med eventuelle parametere for spørring på notifikasjoner fra tilgjengelig hendelsesliste. Kan inneholde referanse til hvor i hendelselisten (f.eks. tid eller sekvensnummer) man ønsker å lese, avgrensning til temaer, rettigheter og liknende. 
-Informasjonen er grunnlag for eventuell tilpasning av innhold og utvalg. 
+| Dataobjekt med eventuelle parametere for spørring på notifikasjoner fra tilgjengelig hendelsesliste. Kan inneholde referanse til hvor i hendelselisten (tid eller nummer) man ønsker å lese, avgrensning til temaer og liknende. 
 
-| Notifikasjoner
+
+| Notifikasjon
 | Dataobjekt som peker til (eller representerer) en hendelse og gjøres tilgjengelig på en hendelsesliste så konsumenten får vite om hendelsen.
 
 En notifikasjon kan inneholde lite eller mye informasjon om selve hendelsen, men det må være nok informasjon til at konsumenten kan vurdere om hendelsen er relevant for seg.
 
 En notifikasjon inneholder også en referanse til hendelsen og relevante grunnlagsdata.
 
+
 | Kriterier og regler for vurdering
 | Informasjon om hva som legges til grunn for å vurdere relevansen av en hendelse basert på tilgjengelig notifikasjon.
+
+
 
 | Konsumer notifikasjoner
 | Prosessen med å lese og håndtere notifikasjoner.
@@ -478,33 +475,42 @@ En notifikasjon inneholder også en referanse til hendelsen og relevante grunnla
 | Les notifikasjoner
 | Prosess for å hente en eller flere notifikasjoner fra en hendelsesliste.
 
-| Vurder notifikasjon
+| Vurdere notifikasjon
 | Prosess med å vurdere om en hendelsen knyttet til lest notifikasjon er relevant for egen virksomhet.
 
 | Videre behandling av notifikasjon
-| Prosess med videre behandling av en notifikasjon som normalt vil være å innhente mer informasjon om hendelsen eller subjektet notifikasjonen er knyttet til og eventuelt agere ut i fra denne.
+| Prosess med videre behandling av en notifikasjon. Vil normalt være å innhente mer informasjon om hendelsen knyttet til notifikasjonen og eventuelt agere ut i fra denne.
 
 | Forkast notifikasjon
 | Prosess med å forkaste notifikasjon som ikke er relevant for virksomheten. Avhengig av krav til personvern og informasjonssikkerhet kan det være særskilte krav til hva som er lov å beholde. 
 
+
 | Spørring mot eksponert hendelsesliste
 | Tjeneste(r) for å forespørre notifikasjoner og navigere i hendelseslister.
 
-| Datautvekslings-tjeneste
-| Tjeneste for utveksling av data. Samme som data exchange service. Benyttes av avsender og mottaker for transport av meldinger.
+|Tjeneste for mottak notifikasjoner
+|
 
 | Filtrering av notifikasjoner
 | Tjeneste for å filtrere innhentede notifikasjoner. Dette er en tilleggsmekanisme for filtrering, sammenliknet med filtrering som gjøres gjennom spøringer mot datatilbyder, og benyttes ved behov.  Eksempler på behov:
 
 a. Datatilbyder gir ikke gode nok muligheter for filtrering.
 
-b. Formidling av notifikasjoner til flere og ulike typer (interne) konsumenter.
+b. Formidling av noifikasjoner til flere og ulike typer (interne) konsumenter.
+
+|Kassert notifikasjon
+|Notifikasjoner som ikke angår datakonsumenten kasseres.
 
 
+|Benyttet notifikasjon
+|Notifikasjoner som skal benyttes til videre behandling.
 
 |===
 
-== Løsningsmønstre for eNotifikasjon
+
+
+
+== Løsningsmønstre
 Spesifikke løsningsmønstre for eNotifikasjon er inntil videre ikke utarbeidet. Det er stor variasjon i praksis, og ingen fellesløsninger er så langt etablert i Norge.
 
 Det finnes i mellomtiden noen  gode eksempler å peke på. Open source produkter som er i utstrakt gir også en pekepinn om aktuelle løsningsmønstre. 
@@ -513,7 +519,6 @@ Her nevnes spesielt:
 
 * Modernisert folkeregister fra Skatteetaten tilbyr hendelseslister og oppslag som konsumenttjenester. Disse tjenestene er beskrevet i link:https://skatteetaten.github.io/folkeregisteret-api-dokumentasjon/konsumenttjenester/[Folkeregisterets API dokumentasjon]
 
-* https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/Context+Broker[EU CEF Context Broker]
 
 //* _Context Broker_   
 //* _Kafka_
