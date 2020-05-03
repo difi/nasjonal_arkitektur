@@ -95,7 +95,7 @@ Eksempler på anvendelse av mønstre for publisering og konsumering av hendelses
 
 * Trigging av forretningsprosesser hos samhandlingsparter som deltar i dynamiske forretningsprosesser og tilpasset saksbehandling.
 * Replikering av data ved hendelsesbasert oppdatering av kopier og avledede datasett.
-* Hendelsesbart innhenting av data brukt til analyser og statistikk.
+* Hendelsesbasert innhenting av data brukt til analyser og statistikk.
 * Strømming av IoT-data, enten periodisk (tidshendelse) eller ved terskeloverskridende endringer i måleverdier
 
 //* Strømming av forretningsmessige hendelsesdata, f.eks. i tilknytning til vedtak i offentlig saksbehandling. Dette gir grunnlag for dynamisk etablering av nye forretningsprosesser og tjenester for å dekke aktuelle brukerbehov (stikkord: sammenhengende tjenester).
@@ -671,7 +671,8 @@ image::../nab_referanse_arkitekturer_enotifikasjon/media/Kapabiliteter eNotifika
 |===
 
 
-== Prosessbeskrivelse - generisk arkitektur
+== Konseptuelle prosessbeskrivelser (arkitekturbyggeklosser)
+
 Arkitekturmønster for eNotifikasjon beskriver realiseringen av kapabilitetene som er spesifikke for dette mønsteret.
 
 Beskrivelsene er forsøkt å holdes generisk uten å peke til løsningskomponenter, og det vil dermed kunne være flere måter å realisere de ulike elementene på.
@@ -932,10 +933,9 @@ a. Datatilbyder gir ikke gode nok muligheter for filtrering.
 
 b. Formidling av notifikasjoner til flere og ulike typer (interne) konsumenter.
 
-
-
 |===
-== Prosessbeskrivelse løsningsarkitekur
+
+== Løsningsarkitekur
 
 Spesifikke løsningsmønstre for eNotifikasjon er inntil videre ikke utarbeidet. Det er stor variasjon i praksis, og ingen fellesløsninger er så langt etablert i Norge.
 
@@ -950,6 +950,7 @@ Her nevnes spesielt:
 //* _Context Broker_   
 //* _Kafka_
 //* _Rabbit MQ_.
+// 
 
 
 
