@@ -187,7 +187,7 @@ image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Grunnlegge
 
 _Hendelser_ er det som skjer i den virkelige i verden, i en strøm av hendelser, eller __hendelsesstrømmer__. 
 
-Assosiert med hver hendelse finnes et _datagrunnlag_ som tilsvarer tilstanden før hendelsen inntraff. I bakkant av hendelsen finnes tilsvarende  et "_oppdatert datagrunnlag_.
+Assosiert med hver hendelse finnes et _datagrunnlag_ som tilsvarer tilstanden før hendelsen inntraff. I bakkant av hendelsen finnes tilsvarende  et _oppdatert datagrunnlag_.
 
 _Subjekt_ er hvem eller hva hendelsen omhandler, slik dette er å oppfatte i den aktuelle konteksten. Dette kan være et fysisk objekt (f.eks. person), en samling fysiske objekter (f.eks. befolkningsgruppe) eller et konsept (f.eks. politikk).  
 
