@@ -16,25 +16,19 @@ _Dette er en del av link:../nab_referanse_arkitekturer_datautveksling/[Referanse
 
 == Introduksjon
 [[basiskonsept-publisering]]
-Mønstre for publisering handler helt grunnleggende om at tilbydere publiserer datastrømmer, eller hendelsesstrømmer, uten å måtte vite hvem konsumentene er. Konsumentene kan i sin tur koble seg på disse hendelsestrømmene og ta rede på hva som skjer.
-
+Mønstre for publisering handler helt grunnleggende om at tilbydere publiserer hendelsesstømmer uten å måtte vite hvem konsumentene er. Konsumentene kan i sin tur koble seg på hendelsesstrømmene.
 
 .Publisering av hendelser - basiskonsept
 image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Publisering av hendelser - basiskonsept.png[alt=Publisering av hendelser - basiskonsept image]
 
 
-Dette gir en form for løs kobling mellom aktørene som fremmer innovasjon og samhandling. Nye samhandlingsparter kan plukke opp hendelser og kople seg på i tjenesteproduksjonen. Forretningsprosessene behøver ikke være kartlagt og fastsatt i minste detalj på forhånd. Nye prosesser kan utvikles i dynamiske økosystemer. _Dette kan ses som et essensielt element i satsingen på sammenhengende tjenester og realisering av målsetninger om datadrevet økonomi og innovasjon; se f.eks.  https://www.regjeringen.no/no/tema/statlig-forvaltning/ikt-politikk/melding-om-datadrevet-okonomi-og-innovasjon/id2688376/[Stortingsmelding om datadrevet økonomi og innovasjon]._
-
-// forvaltning betydningen av data som kilde til innovasjon, nye forretningsmodeller og forbedring av eksisterende digitale tjenester
-
+Dette gir en form for løs kobling mellom aktørene som fremmer innovasjon og samhandling. Nye samhandlingsparter kan kople seg på i tjenesteproduksjonen  i en form for dynamisk økosystem. Forretningsprosessene behøver ikke være kartlagt og fastsatt i minste detalj på forhånd.
 
 Endringer i IT-systemene blir også enklere, fordi det vil være mindre avhengigheter til systemene hos andre virksomheter. En ønsker generelt å komme bort fra store monolittiske systemer som ikke er lagt opp til å samspille i en distribuert kontekst. 
 
 NOTE: Løs kopling mellom IT-systemene er blant de de helt grunnleggende arkitekturprinsippene innen tjenesteorientert atrkitektur. Gjeldende arkitekturprinsipper fra Digitaliseringsdirektoratet per 2020 sier blant annet: _Ta hensyn til anerkjente designprinsipper for tjenesteorientert arkitektur, slik som løse koplinger, modularisering, standardiserte tjenestekontrakter med videre._
 
-
-Det fokuseres her på mønstre som understøtter hendelsesdrevet arkitektur og tjenesteorientering, og det benyttes et begrepsapparat som gjenspeiler dette. Mønstre for publisering handler derfor her i hovedsak om publisering av data om hendelser, samt strømming av slike data. Andre former for publisering, slik som f.eks. publisering av API-er i en API-katalog, faller utenfor her.
-
+Det fokuseres her på mønstre som understøtter hendelsesdrevet arkitektur og tjenesteorientering, og det benyttes et begrepsapparat som gjenspeiler dette. Mønstre for publisering handler derfor her i hovedsak om publisering av data om hendelser, samt strømming av slike data. Andre former for publisering, slik som f.eks. publisering av API-er i en API-katalog, faller utenfor her.  
 
 Det finnes flere varianter av mønstrene, og disse egner seg til ulike formål. Utvikling av arkitekturer og fellesløsninger pågår både i Norge og internasjonalt, blant annet med komponenter fra EU. Det finnes også en rekke teknologier og produkter, deriblant mye som _open source_.
 
@@ -102,7 +96,6 @@ Eksempler på anvendelse av mønstre for publisering og konsumering av hendelses
 
 * Trigging av forretningsprosesser hos samhandlingsparter som deltar i dynamiske forretningsprosesser og tilpasset saksbehandling.
 * Replikering av data ved hendelsesbasert oppdatering av kopier og avledede datasett.
-* Arkivering av datagrunnlag og resultatdata i tilknytning til vedtak som fattes i offentlig forvaltning.  
 * Hendelsesbasert innhenting av data brukt til analyser og statistikk.
 * Strømming av IoT-data, enten periodisk (tidshendelse) eller ved terskeloverskridende endringer i måleverdier
 
@@ -166,7 +159,9 @@ Egenskaper:
 
 === Aktørsamspill
 
-Datatilbyder [underline]#publiserer# hendelsestrømmer som [underline]##konsumeres## av datakonsumenter.
+//Datatilbyder [underline]#publiserer# hendelsestrømmer som [underline]##konsumeres## av datakonsumenter.
+
+<<basiskonsept-publisering,Det grunnleggende konseptet>> er, kort fortalt: Tilbydere publiserer hendelsesstømmer uten å måtte vite hvem konsumentene er. Konsumentene kan i sin tur koble seg på og lese fra hendelsesstrømmen.
 
 Datatilbyders publiseringsløsning [underline]#skriver# notifikasjoner til hendelseslister etterhvert som hendelser skjer, etterfulgt av at datakonsumentene [underline]#leser# notifikasjoner gjennom sine løsninger for innhenting og mottak. 
 
@@ -191,38 +186,28 @@ image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Grunnlegge
 
 // Håkon: Har og medfører
 
-_Hendelser_ er det som skjer i den virkelige i verden, i en konstant strøm av endrede data, eller __hendelsesstrømmer__. 
+_Hendelser_ er det som skjer i den virkelige i verden, i en strøm av hendelser, eller __hendelsesstrømmer__. 
 
 Assosiert med hver hendelse finnes et _datagrunnlag_ som tilsvarer tilstanden før hendelsen inntraff. I bakkant av hendelsen finnes tilsvarende  et _oppdatert datagrunnlag_.
 
-_Subjekt_ er hvem eller hva hendelsen omhandler, slik dette er å oppfatte i den aktuelle konteksten. Dette kan f.eks. være et fysisk objekt (eks. bil), en person, en virksomhet eller et konsept (eks. politikk). Det kan også være en samling av underordnede subjekter, slik som f.eks. en befolkningsgruppe eller alle virksomheter som har et navn som begynner på A.   
+_Subjekt_ er hvem eller hva hendelsen omhandler, slik dette er å oppfatte i den aktuelle konteksten. Dette kan være et fysisk objekt (f.eks. person), en samling fysiske objekter (f.eks. befolkningsgruppe) eller et konsept (f.eks. politikk).  
+
 
 I tilknytning til hver hendelse finnes _Hendelsesrelaterte data_. Dette kan være små eller store datasett som beskriver datagrunnlaget og aktuelle endringer. Nærmere om begreper og tekniske løsninger for dette gis i tilknytning til de ulike arkitekturmønstrene, med ulike måter å representere og oppdatere datagrunnlaget på, på tvers av tilbyder og konsument.  
 
 // f.eks. lagret samlet eller distribuert. 
 
 
-En _notifikasjon_ informerer om at en hendelse har inntruffet og kan inneholde  hele eller deler av det totale settet av  aktuelle _hendelsesrelaterte data_, enten direkte eller gjennom lenke til hvor datasettet finnes (eventuelt en kombinasjon).
+En _notifikasjon_ informerer om at en hendelse har inntruffet og kan inneholde  hele eller deler av det totale settet av  aktuelle _hendelsesrelaterte data_ direkte eller lenke til hvor dette finnes (eventuelt en kombinasjon).
 
 
 
 Notifikasjoner samles og publiseres av tilbyder gjennom  _hendelseslister_. 
 
-En hendelse kab ha 
 
+En hendelse kan gi flere notifikasjoner.
 
-En hendelse kan lede til flere notifikasjoner.
-
-
-Samme notifikasjon kan opptre i flere hendelseslister, myntet på ulike konsumentgrupper og filtrert på f.eks. subjekt, hendelsestype eller rettigheter/hjemmelsgrunnlag.
-
-****
-En kan også snakke om ulike instanser av samme notifikasjon; 
-
-Den grunnlegg
-****
-
-
+Samme notifikasjon kan opptre i flere hendelseslister.
 
 
 
@@ -381,8 +366,7 @@ c. Konsumenten ignorerer irrelevante notifikasjoner ved å filtrere innlesingen 
 
 d. Minimering av innholdet i hver notifikasjon ut fra konsumentens spesifikasjoner. 
 
-.Filtrering og minimering av hendelseslister og notifikasjoner på tvers av tilbyder og konsument
-image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Filtrering og minimering av hendelseslister og notifikasjoner på tvers av tilbyder og konsument.png[alt=Filtrering og minimering av hendelseslister og notifikasjoner på tvers av tilbyder og konsument image]
+
 
 ////
 === Tekniske grensesnitt
@@ -999,57 +983,21 @@ b. Formidling av notifikasjoner til flere og ulike typer (interne) konsumenter.
 
 |===
 
-== Løsningsarkitektur
+== Løsningsarkitekur
 
 Spesifikke løsningsmønstre for eNotifikasjon er inntil videre ikke utarbeidet. Det er stor variasjon i praksis, og ingen fellesløsninger er så langt etablert i Norge.
 
 Det finnes i mellomtiden noen  gode eksempler å peke på. Open source produkter som er i utstrakt gir også en pekepinn om aktuelle løsningsmønstre. 
 
-=== Eksempler på anvendelse
-
 Her nevnes spesielt: 
 
-. Modernisert folkeregister fra Skatteetaten tilbyr hendelseslister og oppslag som konsumenttjenester. Disse tjenestene er beskrevet i link:https://skatteetaten.github.io/folkeregisteret-api-dokumentasjon/konsumenttjenester/[Folkeregisterets API dokumentasjon].
+* Modernisert folkeregister fra Skatteetaten tilbyr hendelseslister og oppslag som konsumenttjenester. Disse tjenestene er beskrevet i link:https://skatteetaten.github.io/folkeregisteret-api-dokumentasjon/konsumenttjenester/[Folkeregisterets API dokumentasjon]
 
-=== Produkteksempler
+* https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/Context+Broker[EU CEF Context Broker]
 
-Eksempler på produkter som per 2020 er i utstrakt bruk og kan sies å være med på å definere beste praksis innen "event streaming":
-
-WARNING: Denne oversikten gir  ikke nødvendigvis et representativt bilde av markedet, og må uansett ikke ses på som produktanbefalinger. 
-
-
-. https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/Context+Broker[EU CEF Context Broker] Utvalgte sitater:
-* CEF Context Broker offers a mix of software components and support services that are based on global https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/EU+Standards[FIWARE NGSI] specifications for enabling applications to contextualise data. Context Broker is also fully compatible with the https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/EU+Standards[Context Information Management API standard] by the European Telecommunications Standards Institute (ETSI), as it was drafted using FIWARE NGSI as input. In the future, the FIWARE Foundation is planning to evolve the Context Broker in line with https://www.etsi.org/newsroom/press-releases/1519-2019-01-etsi-cim-group-releases-full-feature-specification-for-context-information-exchange-in-smart-cities[ETSI’s NGSI-LD standard].
-+
-* The CEF Context Broker is a digital solution that helps cities to collect, manage and share real-time data coming from multiple sources. Using this information, cities can see a much broader picture of actual events happening in different areas and can take data-driven decisions based on real-time information. Ref. https://eu-smartcities.eu/news/dare-rethink-your-city-cef-building-blocks[Dare to rethink your city with the CEF Building Blocks].
-
-. https://kafka.apache.org/[Apache Kafka]
-+
-The Kafka cluster stores streams of records in categories called topics. 
-+
-Kafka has five core APIs:
-
-* The Producer API allows an application to publish a stream of records to one or more Kafka topics.
-
-* The Consumer API allows an application to subscribe to one or more topics and process the stream of records produced to them. 
-
-* The Streams API allows an application to act as a stream processor, consuming an input stream from one or more topics and producing an output stream to one or more output topics, effectively transforming the input streams to output streams.
-
-* The Connector API allows building and running reusable producers or consumers that connect Kafka topics to existing applications or data systems. For example, a connector to a relational database might capture every
-
-* The Admin API allows managing and inspecting topics, brokers and other Kafka objects. 
-
-
-
-. https://www.rabbitmq.com/[Rabbit MQ]
-+
-https://www.cloudamqp.com/blog/2019-12-10-event-driven-and-streaming-apps.html[Rapidly Building Event Driven and Streaming Applications with RabbitMQ]
-
-.  https://en.wikipedia.org/wiki/Atom_(Web_standard)[Atom feed]
-
-. https://azure.microsoft.com/en-au/services/event-hubs/[Microsoft Azure Event Hub]
-+
-Stream millions of events per second from any source to build dynamic data pipelines and immediately respond to business challenges.
+//* _Context Broker_   
+//* _Kafka_
+//* _Rabbit MQ_.
 // 
 
 
