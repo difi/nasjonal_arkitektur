@@ -191,14 +191,11 @@ image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Grunnlegge
 
 // Håkon: Har og medfører
 
-_Hendelser_ er det som skjer i den virkelige i verden, i en strøm av hendelser, eller __hendelsesstrømmer__. 
+_Hendelser_ er det som skjer i den virkelige i verden, i en konstant strøm av endrede data, eller __hendelsesstrømmer__. 
 
 Assosiert med hver hendelse finnes et _datagrunnlag_ som tilsvarer tilstanden før hendelsen inntraff. I bakkant av hendelsen finnes tilsvarende  et _oppdatert datagrunnlag_.
 
-_Subjekt_ er hvem eller hva hendelsen omhandler, slik dette er å oppfatte i den aktuelle konteksten. Dette kan f.eks. være et fysisk objekt, en person, en virksomhet eller et konsept . . Det 
-
-en samling fysiske objekter (f.eks. befolkningsgruppe) eller et konsept (f.eks. politikk).  
-
+_Subjekt_ er hvem eller hva hendelsen omhandler, slik dette er å oppfatte i den aktuelle konteksten. Dette kan f.eks. være et fysisk objekt (eks. bil), en person, en virksomhet eller et konsept (eks. politikk). Det kan også være en samling av underordnede subjekter, slik som f.eks. en befolkningsgruppe eller alle virksomheter som har et navn som begynner på A.   
 
 I tilknytning til hver hendelse finnes _Hendelsesrelaterte data_. Dette kan være små eller store datasett som beskriver datagrunnlaget og aktuelle endringer. Nærmere om begreper og tekniske løsninger for dette gis i tilknytning til de ulike arkitekturmønstrene, med ulike måter å representere og oppdatere datagrunnlaget på, på tvers av tilbyder og konsument.  
 
