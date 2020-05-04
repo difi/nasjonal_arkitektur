@@ -221,24 +221,31 @@ I praksis kan også både datatilbyder og datakonsument velge å benytte en ekst
 WARNING: Det faller utenfor omfanget her å gå inn på tilfeller der  ekstern tjenesteleverandør opptrer som  mellomledd på en måte som gjør det nødvendig å se på juridiske forhold eller løsninger på tvers av partene. 
 
 [[notifikasjonsinnhold-generisk]]
-=== Innhold i notifikasjoner (generisk)
+=== Innhold i notifikasjoner
 Begrepsapparatet bygger på <<grunnleggende-begreper,det grunnleggende begrepsapparatet for publisering av hendelsesstrømmer>>.
 
 En modell som konkretiserer notifikasjonsinnholdet er vist i figuren nedenfor. Her er det også angitt relasjonene til hendelsesrelaterte data, noe som kan være et langt større datasett enn det som utveksles i notifikasjoner mellom tilbyder og konsument.
 
-Overordnet:
-
-* En notifikasjon inneholder som minimum en identifikator for notifikasjon, slik at det er mulig å identifisere assosierte hendelsesrelaterte data. 
-
-* Det er normalt hensiktsmessig å inkludere en spesifikasjon av hendelsestype, og det kan være hensiktsmessig å inkludere ytterligere data om hendelsen eller berørte subjekter. 
-
-* Hvilke notifikasjonsdata som forøvrig er relevante,  avhenger av hendelsestype. Hvilke data som konsumenten vil ha og spør etter kommer dessiten an på  konsumentens kontekst og behov. I det generiske tilfellet spesifiseres ikke dette.
-
-* I modellen nedenfor er det også angitt  relasjonene til _hendelsesrelaterte data_, noe som kan være et langt større datasett enn det som utveksles i notifikasjoner mellom tilbyder og konsument.
 
 
-.Innhold i notifikasjon
-image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Innhold i notifikasjon.png[alt=Innhold i notifikasjon image]
+.Notifikasjonsinnhold
+image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Notifikasjonsinnhold.png[alt=Notifikasjonsinnhold image]
+
+// erik: bør vi si identifisering av hendelse, heller enn notifikasjon? Er det en forskjell når vi filtrerer hendelseslisten, slik at ikke alle notifikasjoner er med? 
+
+Forklaring til figuren over:
+
+* En notifikasjon inneholder som minimum en identifikator for notifikasjonen. Denne må være gyldig på tvers av tilbyder og konsument. Tilbyder må holde rede på sammenhengen mellom notifikasjon og assosierte, hendelsesrelaterte data. 
+
+* Hvilke notifikasjonsdata som forøvrig er relevante,  avhenger av hendelsestype og eventuell innholdsminimering.
+
+** Hendelsestype angir hva som har skjedd.
+
+** Sekvensinformasjon kan gis ved å peke på foregående notifikasjon for samme subjekt. Tidsstempel med tilstrekkelig oppløsning kan være et alternativ til dette, eller komme i tillegg.
+
+** Subjektets tilstand kan beskrives i form av et øyeblikksbilde eller som en serie endringer ut fra et tidligere øyeblikksbilde. En notifikasjon inneholder tilsvarende enten et øyeblikksbilde av subjektet eller data om hendelsen som beskriver den inkrementelle endringen. Eksempel: Termometeravlesning kan angis med ny temperatur eller med endring siden forrige avlesning. 
+
+
 
 
 ////
@@ -274,6 +281,14 @@ Merk: Dataminimering kan løses ved at det tilbys ulike hendelseslister for samm
 ** (Direkte databaseoppdatering.)
 
 ////
+
+=== Spørring mot hendelseslister 
+
+Overordnet funksjonalitet i tjeneste for oppslag/spørring mot hendelseslister:
+
+* Spørringer for å hente ut filtrerte utvalg av notifikasjoner og minimere datainnhold i hver enkelt notifikasjon.
+
+* Navigering i hendelselister for å hente inn inkrementelle endringer og holde regnskap på tilstanden til aktuelle subjekter.
 
 === Innhenting av supplerende hendelsesrelaterte data
 
@@ -333,6 +348,7 @@ c. Konsumenten forkaster notifikasjoner etter mottak.
 
 
 //== Grensesnitt for innhenting av notifikasjoner 
+////
 #eNotifikasjon# dreier seg om publisering av hendelsesdata via hendelseslister som kan aksesseres av datakonsumenter via spørring og oppslag i API-er.
 
 
@@ -355,6 +371,7 @@ Overordnet funksjonalitet i API for oppslag/spørring mot hendelseslister:
 
 * Spørringer for å hente ut filtrerte utvalg av notifikasjoner og minimere datainnhold i hver enkelt notifikasjon.
 * Navigering i hendelselister for å hente inn inkrementelle endringer og holde regnskap på tilstanden til aktuelle subjekter.
+////
 
 [[generisk-publish-subscribe]]
 == Abonnementsbasert publisering (generisk mønster)
@@ -493,8 +510,8 @@ I tilknytning tli eNotifikasjon vil det bestandig kunne assosieres et subjekt (e
 // For mønsteret eNotifikasjon gjelder en detaljering av begrepet _hendelsesrelaterte data_ som følger her.
 
 
-.Innhold i notifikasjoner for mønsteret eNotifikasjon
-image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Innhold i notifikasoner for mønsteret eNotifikasjon.png[alt=Innhold i notifikasoner for mønsteret eNotifikasjon image]
+.Notifikasjonsinnhold
+image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Notifikasjonsinnhold.png[alt=Notifikasjonsinnhold image]
 
 
 
@@ -679,7 +696,7 @@ Beskrivelsene er forsøkt å holdes generisk uten å peke til løsningskomponent
 
 
 === Gi tilgang til notifikasjoner og hendelser
-Gi tilgang til notifikasjoner og hendelser er den prosessen datatilbyder må gjøre for å gi datakonsumenten tilgang til hendelseslister. Ved helt åpne hendelseslister kan prosessen være unødvendig og utgår, men vil normalt omfatte å tilgjengeliggjøre API som beskrevet i eOppslag. I tillegg må det eventuelt registreres en del informasjon i tilknytning til filtrering og tilpassning av hendelselister etter konsumentens behov og tilganger.
+Gi tilgang til notifikasjoner og hendelser er den prosessen datatilbyder må gjøre for å gi datakonsumenten tilgang til hendelseslister. Ved helt åpne hendelseslister kan prosessen være unødvendig og utgår, men vil normalt omfatte å tilgjengeliggjøre API som beskrevet i eOppslag. I tillegg må det eventuelt registreres en del informasjon i tilknytning til filtrering og tilpasning av hendelselister etter konsumentens behov og tilganger.
 
 .Gi tilgang til notifikasjoner og hendelser
 image::../nab_referanse_arkitekturer_enotifikasjon/media/Gi tilgang til notifikasjoner og hendelser.png[alt="Bilde mangler", width=500]
