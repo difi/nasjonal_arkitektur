@@ -13,6 +13,7 @@ _Dette er en del av link:../nab_referanse_arkitekturer_datautveksling/[Referanse
 //image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _UNDER OPPDATERING etter innspill 2020-04-28_
 
 
+
 == Introduksjon
 [[basiskonsept-publisering]]
 Mønstre for publisering handler helt grunnleggende om at tilbydere publiserer hendelsesstømmer uten å måtte vite hvem konsumentene er. Konsumentene kan i sin tur koble seg på hendelsesstrømmene.
