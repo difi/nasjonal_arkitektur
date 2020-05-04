@@ -671,9 +671,9 @@ Her vises verdistrømmen for eNotifikasjon sett fra datakonsumenter, med angivel
 
 Det som er spesifikt for eNotifikasjon er vist med uthevet skrift, dvs. _Inngå avtaler om tilgang og innhenting av hendelsesstrømmer_ og _Innhente og håndtere notifikasjoner_. Øvrige kapabiliteter er beskrevet i tilknytning til andre mønstre. 
 
+
 .eNotifikasjon - konsumenters verdistrøm
 image::../nab_referanse_arkitekturer_enotifikasjon/media/eNotifikasjon - konsumenters verdistrøm.png[alt=eNotifikasjon - konsumenters verdistrøm image]
-
 
 
 == Kapabilitetskart for eNotifikasjon
@@ -865,8 +865,8 @@ image::../nab_referanse_arkitekturer_enotifikasjon/media/Avgi forespurte notifik
 | Datatilbyder
 | Tilbyder av data til andre aktører.
 
-| Avgi data på forespørsel
-| Evnen til å avgi data på forespørsel
+| Avgi notifikasjoner
+| Evnen til å avgi notifikasjoner på forespørsel
 
 | Avgi forespurte data gjennom API
 | Prosessen med å avgi data på forespørsel gjennom et egnet API.
