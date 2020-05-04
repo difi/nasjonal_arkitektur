@@ -672,7 +672,7 @@ Her vises verdistrømmen for eNotifikasjon sett fra datakonsumenter, med angivel
 Det som er spesifikt for eNotifikasjon er vist med uthevet skrift, dvs. _Inngå avtaler om tilgang og innhenting av hendelsesstrømmer_ og _Innhente og håndtere notifikasjoner_. Øvrige kapabiliteter er beskrevet i tilknytning til andre mønstre. 
 
 .eNotifikasjon - konsumenters verdistrøm
-image::../nab_referanse_arkitekturer_datautveksling_publisering/media/eNotifikasjon - konsumenters verdistrom.png[alt=eNotifikasjon - konsumenters verdistrøm image]
+image::../nab_referanse_arkitekturer_enotifikasjon/media/eNotifikasjon - konsumenters verdistrøm.png[alt=eNotifikasjon - konsumenters verdistrøm image]
 
 
 
