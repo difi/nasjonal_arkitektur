@@ -356,19 +356,25 @@ TIP: Globalt unike identifikatorer kan fungere som direkte pekere til aktuelle d
 
 === Filtrering og minimering av hendelseslister og notifikasjoner
 
-Filtrering og minimering av notifikasjoner kan løses på ulike måter. Eksempler:
+Filtrering og minimering av notifikasjoner kan løses på ulike måter. 
 
-
-a. Tilbyder tilbyr ulike hendelseslister, der det i utgangspunktet er gjort et utvalg basert på metadata og kriterier som tema eller konfidensialitet for hver hendelsesliste.
-
-b. Tilbyder filtrerer innen hver hendelsesliste ut fra konsumentens spesifikasjon i spørring.
-
-c. Konsumenten ignorerer irrelevante notifikasjoner ved å filtrere innlesingen eller forkaste notifikasjoner etter innlesing.
-
-d. Minimering av innholdet i hver notifikasjon ut fra konsumentens spesifikasjoner. 
+Begrepsapparat for hendelseslister og notifikasjoner:
 
 .Filtrering og minimering av hendelseslister og notifikasjoner på tvers av tilbyder og konsument
 image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Filtrering og minimering av hendelseslister og notifikasjoner på tvers av tilbyder og konsument.png[alt=Filtrering og minimering av hendelseslister og notifikasjoner på tvers av tilbyder og konsument image]
+
+Eksempler:
+
+a. Tilbyder tilbyr ulike hendelseslister, der det i utgangspunktet er gjort et utvalg basert på metadata og kriterier som tema eller konfidensialitet for hver hendelsesliste.
+
+b. Tilbyder filtrerer innen hver hendelsesliste ut fra konsumentens spesifikasjon /spørring.
+
+c. Minimering av innholdet i hver notifikasjon ut fra konsumentens spesifikasjon /spørring. 
+
+d. Konsumenten ignorerer irrelevante notifikasjoner ved å filtrere innlesingen eller forkaste notifikasjoner etter innlesing.
+
+
+
 
 ////
 === Tekniske grensesnitt
