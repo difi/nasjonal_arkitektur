@@ -282,13 +282,26 @@ Merk: Dataminimering kan løses ved at det tilbys ulike hendelseslister for samm
 
 ////
 
-=== Spørring mot hendelseslister 
+=== Innhenting av notifikasjoner gjennom spørring mot hendelseslister 
 
-Overordnet funksjonalitet i tjeneste for oppslag/spørring mot hendelseslister:
+Pullbasert innhenting av notifikasjoner skjer gjennom at konsumenten forespør notifikasjoner fra tilbyder, etterfulgt av at forespurte notifikasjoner leveres. Dette kan være en enkelt notifikasjon eller flere i rekke. Dette er illustrert i følgende sekvensdiagram:
+
+.Spørring mot hendelseslister - basisflyt
+image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Spørring mot hendelseslister - basisflyt.png[alt=Spørring mot hendelseslister - basisflyt image]
+
+
+Tilbyders spørretjeneste er vist i følgende diagram.
+
+.Tilbyders spørretjeneste mot hendelsesliste
+image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Tilbyders spørretjeneste mot hendelsesliste.png[alt=Tilbyders spørretjeneste mot hendelsesliste image]
+
+Tilbyders tjeneste for oppslag/spørring mot hendelseslister må støtte ulike måter å lese ut aktuelle hendelser på, slik som:  
 
 * Spørringer for å hente ut filtrerte utvalg av notifikasjoner og minimere datainnhold i hver enkelt notifikasjon.
 
-* Navigering i hendelselister for å hente inn inkrementelle endringer og holde regnskap på tilstanden til aktuelle subjekter.
+* Avspilling av notifikasjoner innen angitt tidsrom.
+
+* Avspilling av seneste notifikasjoner etter gitt identifikator.
 
 === Innhenting av supplerende hendelsesrelaterte data
 
@@ -300,8 +313,8 @@ Det er uproblematisk å sende med en ny måleverdi for et termometer, mens det k
 
 Prosessen er illustrert i følgende sekvensdiagram:  
 
-.Innhenting av supplerende hendelsesrelaterte data
-image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Innhenting av supplerende hendelsesrelaterte data.png[alt=Innhenting av supplerende hendelsesrelaterte data image]
+.Spørring mot hendelseslister - med innhenting av supplerende data
+image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Spørring mot hendelseslister - med innhenting av supplerende data.png[alt=Spørring mot hendelseslister - med innhenting av supplerende data image]
 
 ////
 Identifikasjon av aktuelle supplerende hendelsesrelaterte i notifikasjonen gjøres enten gjennom: 
@@ -329,17 +342,20 @@ TIP: Globalt unike identifikatorer kan fungere som direkte pekere til aktuelle d
 
 === Filtrering og minimering av hendelseslister og notifikasjoner
 
-Filtrering og minimering av notifikasjoner kan skje på følgende måter:
+Filtrering og minimering av notifikasjoner kan løses på ulike måter. Eksempler:
 
 
 a. Tilbyder tilbyr ulike hendelseslister, der det i utgangspunktet er gjort et utvalg basert på metadata og kriterier som tema eller konfidensialitet for hver hendelsesliste.
 
-b. Ytterligere filtrering innen hver hendelsesliste ut fra konsumentens spesifikasjon.
+b. Tilbyder filtrerer innen hver hendelsesliste ut fra konsumentens spesifikasjon i spørring.
 
-c. Konsumenten forkaster notifikasjoner etter mottak.
+c. Konsumenten ignorerer irrelevante notifikasjoner ved å filtrere innlesingen eller forkaste notifikasjoner etter innlesing.
+
+d. Minimering av innholdet i hver notifikasjon ut fra konsumentens spesifikasjoner. 
 
 
 
+////
 === Tekniske grensesnitt
 
 
@@ -348,7 +364,7 @@ c. Konsumenten forkaster notifikasjoner etter mottak.
 
 
 //== Grensesnitt for innhenting av notifikasjoner 
-////
+
 #eNotifikasjon# dreier seg om publisering av hendelsesdata via hendelseslister som kan aksesseres av datakonsumenter via spørring og oppslag i API-er.
 
 
@@ -382,12 +398,12 @@ Dette mønsteret bygger på <<generisk-publisering,Generisk mønster for publise
 
 NOTE: Mønsteret tilsvarer det som i litteraturen tradisjonelt omtales som _publish-subscribe_; se f.eks. link:https://en.wikipedia.org/w/index.php?title=Publish%E2%80%93subscribe_pattern&oldid=950857039[wikipedia om publish-subscribe pattern] for en enkel beskrivelse av dette.
 
-Her introduserer støtte for å tegne abonnementer for formål og behov som:
+Her introduseres støtte for å tegne abonnementer for formål og behov som:
 
 * Støtte for strenge sanntidskrav. Unngå behov for å polle hendelseslistene for endringer og i stedet få abonnerte notifikasjoner levert fortløpende (pushbasert levering).
 * Velg mellom opsjoner for å få mottak av notifikasjoner til ønsket teknisk grensesnitt (f.eks. kall av API vs. levering til meldingkø).
-* SLA-avtaler 
-* Abonnementsbasert betaling.
+* SLA-avtaler, f.eks. avtale om akseptable tidsforsinkelser før levering av notifikasjoner.  
+* Abonnementsbasert betaling. f.eks. ut fra valg mellom ulike, volumbaserte prispakker som tilbys, eller f.eks. volumuavhengig fastpris. 
 
 
 //Egenskaper:
@@ -535,7 +551,7 @@ Forklaring til modellen:
 
 * _Øyeblikksbilde for subjekt etter hendelse_ kan være f.eks. en målerutlesning fra en sensor. Det kan også være f.eks. innholdet i en større database.
 
-* _Inkrementell endring i øyeblikksbilde av subjekt_ gir både historikk og statis for aktuelle subjekter.   
+* _Inkrementell endring i øyeblikksbilde av subjekt_ gir både historikk og status for aktuelle subjekter.   
 
 
 //Notifikasjoner kan inneholde et fullstendig sett av _hendelsesrelaterte data_,  men dette er i mange tilfeller ikke hensiktsmessig. Alternativet er å la konsumentene komme tilbake og be om _supplerende data_. Det er f.eks. uproblematisk å sende med en ny måleverdi for et termometer, mens det kan være mindre ønskelig å distribuere komplette kopier av større og distribuerte datasett. Hensynet til dataminimering spiller også en rolle i slike vurderinger.
