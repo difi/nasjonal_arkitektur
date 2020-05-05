@@ -438,10 +438,15 @@ Her introduseres støtte for å tegne abonnementer for formål og behov som:
 //Egenskaper:
 // * <<egenskaper-generisk-publisering, Egenskaper for generisk publisering>> gjelder.
 
+Følgende figur illustrerer det forretningsmessige koneptet for abonnement på hendelsesstrømmer.
 
 .Publisering av hendelser - basiskonsept med abonnement
 image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Publisering av hendelser - basiskonsept med abonnement.png[alt=Publisering av hendelser - basiskonsept med abonnement image]
 
+Registrering av abonnement gjøres typisk mot en selvbetjeningsløsning for dette hos datatilbyder. Datatilbyder vil deretter sende notifikasjoner fortløpende og pushbasert til konsumentens mottaksløsning som avtalt.
+
+.Pushbasert levering av notifikasjoner til abonnenter
+image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Pushbasert levering av notifikasjoner til abonnenter.png[alt=Pushbasert levering av notifikasjoner til abonnenter image]
 
 
 .Analogi til mediehus:
