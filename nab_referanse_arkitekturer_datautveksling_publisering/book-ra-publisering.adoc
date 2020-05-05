@@ -102,7 +102,7 @@ Eksempler på anvendelse av mønstre for publisering og konsumering av hendelses
 
 * Trigging av forretningsprosesser hos samhandlingsparter som deltar i dynamiske forretningsprosesser og tilpasset saksbehandling.
 * Replikering av data ved hendelsesbasert oppdatering av kopier og avledede datasett.
-* Arkivering av datagrunnlag og resultatdata i tilknytning til vedtak som fattes i offentlig forvaltning.  
+* Logging av hendelsesrelaterte data for formål som arkivering og verifikasjon av etterlevelse. 
 * Hendelsesbasert innhenting av data brukt til analyser og statistikk.
 * Strømming av IoT-data, enten periodisk (tidshendelse) eller ved terskeloverskridende endringer i måleverdier
 
@@ -260,7 +260,7 @@ Forklaring til figuren over:
 
 ** Subjekt for hendelse: Se <<subjekt-definisjon,definisjon av subjekt>>.
 
-** Subjektets tilstand kan beskrives i form av et øyeblikksbilde eller som en serie endringer ut fra et tidligere øyeblikksbilde. En notifikasjon inneholder tilsvarende enten et øyeblikksbilde av subjektet eller data om hendelsen som beskriver den inkrementelle endringen. Eksempel: Termometeravlesning kan angis med ny temperatur eller med endring siden forrige avlesning. 
+// ikke her: ** Subjektets tilstand kan beskrives i form av et øyeblikksbilde eller som en serie endringer ut fra et tidligere øyeblikksbilde. En notifikasjon inneholder tilsvarende enten et øyeblikksbilde av subjektet eller data om hendelsen som beskriver den inkrementelle endringen. Eksempel: Termometeravlesning kan angis med ny temperatur eller med endring siden forrige avlesning. 
 
 
 
@@ -320,6 +320,15 @@ Tilbyders spørretjeneste  mot hendelseslister må støtte ulike måter å lese 
 * Avspilling av seneste notifikasjoner, f.eks etter en gitt identifikator.
 
 
+[[utledning-av-subjekttilstand]]
+=== Utledning av subjekttilstand
+
+Subjektets tilstand kan beskrives i form av et øyeblikksbilde eller som en serie endringer ut fra et tidligere øyeblikksbilde. En notifikasjon inneholder tilsvarende enten et øyeblikksbilde av subjektet eller data om hendelsen som beskriver en inkrementell endringen. 
+
+Eksempel: Anta at termometeravlesninger rapporteres som daglige endringer siden forrige avlesning. For å finne dagens temperatur, må det være et kjent startpunkt (øyeblikksbilde).
+
+TIP: En kan tenke på notifikasjoner  som transaksjoner i et regskap som gjøres opp med jevne mellomrom. Subjekttilstanden tilsvarer saldo, og ny saldo kan enkelt regnes ut ved å legge sammen alle transaksjonene siden forrige dokumenterte oppgjør. En kan også gå hele veien tilbake til oppstart, som i dette tilfellet uten videre er et kjent utgansgpunkt (nullsaldo).  
+
 === Innhenting av supplerende hendelsesrelaterte data
 
 For notifikasjoner som ikke gir et tilstrekkelig sett av _hendelsesrelaterte data_ for konsumentens formål, må datakonsumenten selv ta initiativ til å innhente _supplerende hendelsesrelaterte data_.
@@ -364,59 +373,6 @@ TIP: Globalt unike identifikatorer kan fungere som direkte pekere til aktuelle d
 
 == Avanserte konsepter
 
-=== Filtrering og minimering av hendelseslister og notifikasjoner
-
-Filtrering og minimering av notifikasjoner kan løses på ulike måter:
-
-a. Tilbyder tilbyr ulike hendelseslister, der det i utgangspunktet er gjort et utvalg av det komplette utvalget innen tilbyders domene, basert på metadata og kriterier som tema eller konfidensialitet for hver hendelsesliste.
-
-b. Tilbyder filtrerer innen hver hendelsesliste ut fra konsumentens spesifikasjon /spørring.
-
-c. Tilbyder minimerer innholdet i hver notifikasjon ut fra konsumentens spesifikasjon /spørring. 
-
-d. Konsumenten ignorerer irrelevante notifikasjoner ved å filtrere innlesingen eller forkaste notifikasjoner etter innlesing.
-
-
-På veien fra tilbyder til konsument vil hendelseslister og notifikasjoner på denne måten endre innhold. Det er de samme hendelsene som gjelder, men nye datasett. Det kan være nyttig å skille mellom tilbyders publiserte notifikasjoner, utvekslede notifikasjoner (tilpasset for konsument av tilbyder) og de notifikasjonene som er relevante for konsument og tas videre til  prosessering. En kan tilsvarende se på serier av f.eks. utvekslede notifikasjoner som en utvekslet hendelsesliste. Dette begrepsapparatet er oppsummert i følgende modell.
-
-.Filtrering og minimering av hendelseslister og notifikasjoner på tvers av tilbyder og konsument
-image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Filtrering og minimering av hendelseslister og notifikasjoner på tvers av tilbyder og konsument.png[alt=Filtrering og minimering av hendelseslister og notifikasjoner på tvers av tilbyder og konsument image]
-
-
-
-////
-=== Tekniske grensesnitt
-
-
-//.Publisering av hendelsesstrømmer - tekniske grensesnitt
-//image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Publisering av hendelsesstrømmer - tekniske grensesnitt.png[alt=Publisering av hendelsesstrømmer - tekniske grensesnitt image]
-
-
-//== Grensesnitt for innhenting av notifikasjoner 
-
-#eNotifikasjon# dreier seg om publisering av hendelsesdata via hendelseslister som kan aksesseres av datakonsumenter via spørring og oppslag i API-er.
-
-
-Konsumentene kan også innhente tilleggsdata om hendelser fra datatilbydere via spørring og oppslag i API-er, ved behov. Dette er illustert i følgende figur.
-
-.Pull-basert distribusjon av notifikasjoner
-image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Pull-basert distribusjon av notifikasjoner.png[alt=Pull-basert distribusjon av notifikasjoner image]
-
-Som vist i figuren, skilles det mellom to hovedtyper API-er: 
-
-1. API for oppslag/spørring mot hendelseslister.
-2. API for oppslag/innhenting av supplerende hendelsesdata (ved behov).
-
-For begge disse typene API-er er _eOppslag-mønsteret_ relevant. For spørring mot hendelseslister er det dessuten interessant å se på spesifikk funksjonalitet og tjenester som gis gjennom API.
-
-
-Bruk av API dekkes av eOppslag.
-
-Overordnet funksjonalitet i API for oppslag/spørring mot hendelseslister:
-
-* Spørringer for å hente ut filtrerte utvalg av notifikasjoner og, ved behov, minimere datainnhold i hver enkelt notifikasjon.
-* Navigering i hendelselister for å hente inn inkrementelle endringer og holde regnskap på tilstanden til aktuelle subjekter.
-////
 
 [[generisk-publish-subscribe]]
 === Abonnementsbasert publisering
@@ -512,6 +468,68 @@ image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Publiserin
 ////
 
 
+[[filtrering-og-minimering]]
+=== Filtrering og minimering av hendelseslister og notifikasjoner
+
+Filtrering og minimering av notifikasjoner kan løses på ulike måter:
+
+a. Tilbyder tilbyr ulike hendelseslister, der det i utgangspunktet er gjort et utvalg av det komplette utvalget innen tilbyders domene, basert på metadata og kriterier som tema eller konfidensialitet for hver hendelsesliste.
+
+b. Tilbyder filtrerer innen hver hendelsesliste ut fra konsumentens spesifikasjon /spørring.
+
+c. Tilbyder minimerer innholdet i hver notifikasjon ut fra konsumentens spesifikasjon /spørring. 
+
+d. Konsumenten ignorerer irrelevante notifikasjoner ved å filtrere innlesingen eller forkaste notifikasjoner etter innlesing.
+
+
+På veien fra tilbyder til konsument vil hendelseslister og notifikasjoner på denne måten endre innhold. Det er de samme hendelsene som gjelder, men nye datasett. Det kan være nyttig å skille mellom tilbyders publiserte notifikasjoner, utvekslede notifikasjoner (tilpasset for konsument av tilbyder) og de notifikasjonene som er relevante for konsument og tas videre til  prosessering. En kan tilsvarende se på serier av f.eks. utvekslede notifikasjoner som en utvekslet hendelsesliste. Dette begrepsapparatet er oppsummert i følgende modell.
+
+.Filtrering og minimering av hendelseslister og notifikasjoner på tvers av tilbyder og konsument
+image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Filtrering og minimering av hendelseslister og notifikasjoner på tvers av tilbyder og konsument.png[alt=Filtrering og minimering av hendelseslister og notifikasjoner på tvers av tilbyder og konsument image]
+
+
+////
+[[versjonsstyring-av-notifikasjoner]]
+=== Versjonsstyring av notifikasjoner
+Om datamodellen for notifikasjoner i en hendelsesliste endres,  
+////
+
+////
+=== Tekniske grensesnitt
+
+
+//.Publisering av hendelsesstrømmer - tekniske grensesnitt
+//image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Publisering av hendelsesstrømmer - tekniske grensesnitt.png[alt=Publisering av hendelsesstrømmer - tekniske grensesnitt image]
+
+
+//== Grensesnitt for innhenting av notifikasjoner 
+
+#eNotifikasjon# dreier seg om publisering av hendelsesdata via hendelseslister som kan aksesseres av datakonsumenter via spørring og oppslag i API-er.
+
+
+Konsumentene kan også innhente tilleggsdata om hendelser fra datatilbydere via spørring og oppslag i API-er, ved behov. Dette er illustert i følgende figur.
+
+.Pull-basert distribusjon av notifikasjoner
+image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Pull-basert distribusjon av notifikasjoner.png[alt=Pull-basert distribusjon av notifikasjoner image]
+
+Som vist i figuren, skilles det mellom to hovedtyper API-er: 
+
+1. API for oppslag/spørring mot hendelseslister.
+2. API for oppslag/innhenting av supplerende hendelsesdata (ved behov).
+
+For begge disse typene API-er er _eOppslag-mønsteret_ relevant. For spørring mot hendelseslister er det dessuten interessant å se på spesifikk funksjonalitet og tjenester som gis gjennom API.
+
+
+Bruk av API dekkes av eOppslag.
+
+Overordnet funksjonalitet i API for oppslag/spørring mot hendelseslister:
+
+* Spørringer for å hente ut filtrerte utvalg av notifikasjoner og, ved behov, minimere datainnhold i hver enkelt notifikasjon.
+* Navigering i hendelselister for å hente inn inkrementelle endringer og holde regnskap på tilstanden til aktuelle subjekter.
+////
+
+
+
 //= Regnskapsføring av hendelser (generisk mønster)
 //Ref. Event sourcing
 
@@ -529,25 +547,24 @@ include::../nab_referanse_arkitekturer_enotifikasjon/book-ra-enotifikasjon.adoc[
 
 == Om dette mønsteret
 
-//=== Basismønstre for eNotifikasjon
+eNotifikasjon er en referansearkitektur for utveksling av notifikasjoner som er innrettet på å støtte opp under "nyere" arkitekturmønstre for distribuerte applikasjoner, særlig aktuelt innen Microservices som arkitekturparadigme.   
 
-eNotifikasjon er en referansearkitektur for utveksling av notifikasjoner som er innrettet på å støtte opp under konsepter fra arkitekturmønsteret _Event Sourcing_; karakterisert ved at tilstanden til et _subjekt_ kan bestemmes gjennom en kronologisk sekvens av hendelser, ut fra et gitt øyeblikksbilde. Se under  <<litteraturhenvisninger-event-sourcing,litteraturhenvisninger om event sourcing>> for detaljer om Event Sourcing som arkitekturmønster.
-
+NOTE: Det sentrale arkitekturmønsteret som støttes er best kjent som _Event Sourcing_. blant annet karakterisert ved at tilstanden til et _subjekt_ kan bestemmes ut fra en logg av hendelser. Se  <<litteraturhenvisninger-event-sourcing,litteraturhenvisninger om event sourcing>>.
 
 //=== Egenskaper
 
 Beskrivelsene her bygger på utvalgte deler av en separat oversikt over <<overskrift-grunnleggende-publisering,konsepter for publisering og konsumering av hendelsesstrømmer>>.
 
-Grunnleggende egenskaper ved eNotifikasjon som mønster, oppsummert:
+Grunnleggende egenskaper ved eNotifikasjon som mønster - en oppsummering av aktuelle konsepter:
 
+* Tilstanden til et _subjekt_ kan bestemmes gjennom å prosessere en kronologisk sekvens av hendelser, ut fra et gitt øyeblikksbilde.
 * En hendelse kan representeres ved en eller flere  _notifikasjoner_.
 * Notifikasjoner samles i _hendelseslister_.
-* Hendelser kan ikke slettes (_immutable_), og notifikasjoner slettes heller ikke fra hendelseslister.  
+* Hendelser er i seg selv uforanderlige (_immutable_). Tilsvarende gjelder for notifikasjoner i hendelseslister, dvs. at notifikasjoner i regelen ikke endres eller slettes fra hendelseslister.  
 // * Notifikasjoner innhentes på initiav fra konsument (pull).
 * Hver enkelt konsument kan lese samme notifikasjon flere ganger.  
 * Hendelseslister kan traverseres og spørres mot.
-
-
+* En hendelsesliste tilsvarer en logg, og kan benyttes som en logg.
 
 ////
 == Innhold i notifikasjoner (eNotifikasjon)
@@ -695,7 +712,6 @@ Det som er spesifikt for eNotifikasjon er vist med uthevet skrift, dvs. _Inngå 
 
 .eNotifikasjon - tilbyders verdistrøm
 image::../nab_referanse_arkitekturer_epublisering/media/eNotifikasjon - tilbyders verdistrøm.png[alt=eNotifikasjon - tilbyders verdistrøm image]
-
 
 === eNotifikasjon - verdistrøm for datakonsumenter
 Her vises verdistrømmen for eNotifikasjon sett fra datakonsumenter, med angivelse av kapabiliteter.
