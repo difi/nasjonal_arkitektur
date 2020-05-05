@@ -208,7 +208,7 @@ image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Grunnlegge
 
 * En og samme hendelse kan være representert gjennom flere notifikasjoner som hver beskriver hendelsen på ulike måter for ulike formål og ulike målgrupper; som publisert gjennom ulike hendelseslister.
 
-* En og samme notifikasjon kan kun opptre i en og samme assosierte hendelsesliste.
+//* En og samme notifikasjon kan kun opptre i en og samme assosierte hendelsesliste.
 
 // * Samme notifikasjon kan opptre i flere hendelseslister, myntet på ulike konsumentgrupper og filtrert på f.eks. subjekt, hendelsestype eller rettigheter/hjemmelsgrunnlag.
 
