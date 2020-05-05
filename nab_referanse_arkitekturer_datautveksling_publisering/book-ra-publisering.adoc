@@ -367,7 +367,7 @@ c. Tilbyder minimerer innholdet i hver notifikasjon ut fra konsumentens spesifik
 d. Konsumenten ignorerer irrelevante notifikasjoner ved å filtrere innlesingen eller forkaste notifikasjoner etter innlesing.
 
 
-På veien fra tilbyder til konsument vil hendelseslister og notifikasjoner på dene måten endre innhold. Det er de samme hendelsene som gjelder, men nye datasett. Det kan være nyttig å skille mellom tilbyders publiserte notifikasjoner, utvekslede notifikasjoner (tilpasset for konsument av tilbyder) og de notifikasjonene som er relevante for konsument og tas videre til  prosessering. En kan tilsvarende se på serier av f.eks. utvekslede notifikasjoner som en utvekslet hendelsesliste. Dette begrepsapparatet er oppsummert i følgende modell.
+På veien fra tilbyder til konsument vil hendelseslister og notifikasjoner på denne måten endre innhold. Det er de samme hendelsene som gjelder, men nye datasett. Det kan være nyttig å skille mellom tilbyders publiserte notifikasjoner, utvekslede notifikasjoner (tilpasset for konsument av tilbyder) og de notifikasjonene som er relevante for konsument og tas videre til  prosessering. En kan tilsvarende se på serier av f.eks. utvekslede notifikasjoner som en utvekslet hendelsesliste. Dette begrepsapparatet er oppsummert i følgende modell.
 
 .Filtrering og minimering av hendelseslister og notifikasjoner på tvers av tilbyder og konsument
 image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Filtrering og minimering av hendelseslister og notifikasjoner på tvers av tilbyder og konsument.png[alt=Filtrering og minimering av hendelseslister og notifikasjoner på tvers av tilbyder og konsument image]
@@ -411,9 +411,9 @@ Overordnet funksjonalitet i API for oppslag/spørring mot hendelseslister:
 [[generisk-publish-subscribe]]
 === Abonnementsbasert publisering
 
-==== Generelt 
+// ==== Generelt 
 
-Dette mønsteret bygger på <<generisk-publisering,Generisk mønster for publisering og konsumering av hendelsesstrømmer>>.
+// Dette mønsteret bygger på <<generisk-publisering,Generisk mønster for publisering og konsumering av hendelsesstrømmer>>.
 
 NOTE: Dette konseptet tilsvarer det som i litteraturen tradisjonelt omtales som _publish-subscribe_; se f.eks. link:https://en.wikipedia.org/w/index.php?title=Publish%E2%80%93subscribe_pattern&oldid=950857039[wikipedia om publish-subscribe pattern] for en enkel beskrivelse av dette.
 
@@ -444,11 +444,20 @@ image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Publiserin
 ****
 
 
+////
+=== Pushbasert levering av notifikasjoner
+Pushbasert levering av notifikasjoner has når tilbyder leverer notifikasjoner direkte til konsumentens integrasjonløsning. 
 
-=== Push vs. pull
+Spesifikasjon av  
 
-#under skriving#
 
+Om det i registrering av abonnement på en hendelsesliste også registreres mer spesifikt hvilke notifikasjoner som ønskes levert hvordan, kan en tilsvarende få levert notifikasjoner på initiativ fra publiseringsløsningen (pushbasert).
+
+Spørringer kan også gjøres (pullbasert) med utgangspunkt i en abonnementsavtale.
+////
+
+
+////
 I praksis kan det være at tilbyder  skriver notifikasjoner direkte til konsumentens integrasjonløsning, som en "pushbasert" abonnementstjeneste for levering av notifikasjoner.
 
 Følgende figur viser dataflyten mellom systemene og illustrer dette.
@@ -464,12 +473,17 @@ Om det ikke er krav til å sette opp abonnement i forkant, kan spørringer gjør
 Om det i registrering av abonnement på en hendelsesliste også registreres mer spesifikt hvilke notifikasjoner som ønskes levert hvordan, kan en tilsvarende få levert notifikasjoner på initiativ fra publiseringsløsningen (pushbasert).
 
 Spørringer kan også gjøres (pullbasert) med utgangspunkt i en abonnementsavtale.
+////
 
+
+////
 === Om tekniske grensesnitt
 
 Notifikasjoner kan f.eks. leveres gjennom et synkront API eller via en asynkron meldingskø hos konsumenten. Tilsvarende kan spørringer skje synkront eller asynkront. 
 
 En mulig kombinasjon er at spørringen skjer gjennom et synkront API, mens notifikasjonene deretter leveres asynkront og fortløpende (pushbasert).
+////
+
 
 //erik1 Fix figur!
 ////
@@ -502,25 +516,21 @@ include::../nab_referanse_arkitekturer_enotifikasjon/book-ra-enotifikasjon.adoc[
 
 //=== Basismønstre for eNotifikasjon
 
-Arkitekturmønsteret eNotifikasjon bygger på _grunnleggende mønstre for publisering og strømming av hendelser_. 
-
-Det tas videre utganspunkt i konsepter fra _Event Sourcing_, et anerkjent og mye omtalt arkitekturmønster.
-
-.Event sourcing - overordnet konsept
-****
-Event Sourcing er et arkitekturmønster hvor tilstanden til et "subjekt" bestemmes gjennom en sekvens av hendelser som lagres i kronologisk rekkefølge, ut fra et gitt startpunkt.
+eNotifikasjon er en referansearkitektur for utveksling av notifikasjoner som er innrettet på å støtte opp under konsepter fra arkitekturmønsteret _Event Sourcing_; karakterisert ved at tilstanden til et _subjekt_ kan bestemmes gjennom en kronologisk sekvens av hendelser, ut fra et gitt øyeblikksbilde.
 
 Detaljer om dette mønsteret finnes under   <<litteraturhenvisninger-event-sourcing,litteraturhenvisninger om event sourcing>>
-****
+
 
 //=== Egenskaper
 
-Grunnleggende egenskaper ved eNotifikasjon som mønster:
+Beskrivelsene her bygger på utvalgte deler av en separat oversikt over <<overskrift-grunnleggende-publisering,konsepter for publisering og konsumering av hendelsesstrømmer>>.
+
+Grunnleggende egenskaper ved eNotifikasjon som mønster, oppsummert:
 
 * En hendelse kan representeres ved en eller flere  _notifikasjoner_.
 * Notifikasjoner samles i _hendelseslister_.
 * Hendelser kan ikke slettes (_immutable_), og notifikasjoner slettes heller ikke fra hendelseslister.  
-* Notifikasjoner innhentes på initiav fra konsument (pull).
+// * Notifikasjoner innhentes på initiav fra konsument (pull).
 * Hver enkelt konsument kan lese samme notifikasjon flere ganger.  
 * Hendelseslister kan traverseres og spørres mot.
 
