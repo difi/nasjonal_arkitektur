@@ -256,7 +256,7 @@ Forklaring til figuren over:
 
 ** Hendelsestype angir hva som har skjedd.
 
-** Sekvensinformasjon kan gis ved å peke på foregående notifikasjon for samme subjekt. Tidsstempel med tilstrekkelig oppløsning kan også angi sekvens, men gir ikke en like direkte identifisering av foregående notifikasjon. Merk: Løpende sekvensnummer er også mulig å benytte, men er ikke vist her.
+** Sekvensinformasjon kan gis ved å peke på foregående notifikasjon for samme subjekt. Tidsstempel med tilstrekkelig oppløsning kan også angi sekvens, men gir  ikke generelt en like direkte og treffsikker identifisering av foregående notifikasjon. _Merk: Løpende sekvensnummer er også mulig å benytte, men er ikke vist her._
 
 ** Subjekt for hendelse: Se <<subjekt-definisjon,definisjon av subjekt>>.
 
@@ -471,15 +471,21 @@ image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Publiserin
 [[filtrering-og-minimering]]
 === Filtrering og minimering av hendelseslister og notifikasjoner
 
-Filtrering og minimering av notifikasjoner kan løses på ulike måter:
+Filtrering og minimering av hendelseslister og notifikasjoner handler om:
 
-a. Tilbyder tilbyr ulike hendelseslister, der det i utgangspunktet er gjort et utvalg av det komplette utvalget innen tilbyders domene, basert på metadata og kriterier som tema eller konfidensialitet for hver hendelsesliste.
+a. Filtrering av hendelseslister slik at en får det ønskede utvalget av subjekter og hendelser, f.eks. salg av leiligheter til under 2 millioner kroner i  din bydel. Dette handler ikke om å gjøre innhentingen stykkevis og delt. Det er normalt viktig å sørge for at den filtrerte hendelseslisten gir komplett historikk for formålet.      
 
-b. Tilbyder filtrerer innen hver hendelsesliste ut fra konsumentens spesifikasjon /spørring.
+b. Minimering av innholdet i notifikasjoner, slik at konsumenten unngår å motta eller få tilgang til mer informasjon enn det som er interessant for konsumenten eller det has hjemmel for ut fra personvernhensyn. 
 
-c. Tilbyder minimerer innholdet i hver notifikasjon ut fra konsumentens spesifikasjon /spørring. 
+Dette kan løses på ulike måter, herunder:
 
-d. Konsumenten ignorerer irrelevante notifikasjoner ved å filtrere innlesingen eller forkaste notifikasjoner etter innlesing.
+. Tilbyder tilbyr ulike hendelseslister, der det i utgangspunktet er gjort et utvalg fra det komplette utvalget innen tilbyders domene, basert på metadata og kriterier som tema eller konfidensialitet for hver hendelsesliste.
+
+. Tilbyder filtrerer innen hver hendelsesliste ut fra konsumentens spesifikasjon /spørring. 
+
+. Tilbyder minimerer innholdet i hver notifikasjon ut fra konsumentens spesifikasjon /spørring. 
+
+. Konsumenten ignorerer irrelevante notifikasjoner ved å filtrere innlesingen på konsumentsiden eller forkaste notifikasjoner etter innlesing.
 
 
 På veien fra tilbyder til konsument vil hendelseslister og notifikasjoner på denne måten endre innhold. Det er de samme hendelsene som gjelder, men nye datasett. Det kan være nyttig å skille mellom tilbyders publiserte notifikasjoner, utvekslede notifikasjoner (tilpasset for konsument av tilbyder) og de notifikasjonene som er relevante for konsument og tas videre til  prosessering. En kan tilsvarende se på serier av f.eks. utvekslede notifikasjoner som en utvekslet hendelsesliste. Dette begrepsapparatet er oppsummert i følgende modell.
@@ -974,7 +980,7 @@ Notifikasjoner leses på tilsvarende måte som beskrevet for generelle mønstre 
 
 
 .Konsumer notifikasjoner
-image::../nab_referanse_arkitekturer_enotifikasjon/media/Konsumer notifikasjoner.png[alt=Konsumer notifikasjoner image]
+image::../nab_referanse_arkitekturer_epublisering/media/Konsumer notifikasjoner.png[alt=Konsumer notifikasjoner image]
 
 [cols ="1,3", options="header"]
 .Elementer i view for Konsumer notifikasjoner
@@ -983,55 +989,57 @@ image::../nab_referanse_arkitekturer_enotifikasjon/media/Konsumer notifikasjoner
 | Element
 | Beskrivelse
 
-| Datakonsument
-| Den som innhenter eller mottar data fra andre aktører.
-
 | Innhente og håndtere notifikasjoner
 | Evnen til å konsumere hendelseslister ved å innhente notifikasjoner.
 
+| Datakonsument
+| Den som innhenter eller mottar data fra andre aktører.
+
+| Konsumer notifikasjoner
+| Prosessen med å lese og håndtere notifikasjoner.
+
+| Foresøpør og motta notifikasjoner
+| Prosess for å hente inn en eller flere notifikasjoner fra en hendelsesliste.
+
+| Vurder relevans av notifikasjon
+| Prosess med å vurdere om en hendelsen knyttet til lest notifikasjon er relevant for konsumenten.
+
+| Forkast notifikasjon
+| Prosess med å forkaste notifikasjon som ikke er relevant for virksomheten. Avhengig av krav til personvern og informasjonssikkerhet kan det være særskilte krav til hva som er lov å beholde. 
+
+| Videre behandling av notifikasjon
+| Prosess med videre behandling av en notifikasjon som normalt vil være å innhente mer informasjon om hendelsen eller subjektet notifikasjonen er knyttet til og eventuelt agere ut i fra denne.
+
 | Forespørsel om notifikasjoner
-| Dataobjekt med eventuelle parametere for spørring på notifikasjoner fra tilgjengelig hendelsesliste. Kan inneholde referanse til hvor i hendelselisten (f.eks. tid eller sekvensnummer) man ønsker å lese, avgrensning til temaer, rettigheter og liknende. 
+| Dataobjekt med eventuelle parametere for spørring på notifikasjoner fra tilgjengelig hendelsesliste. Kan inneholde referanse til hvor i hendelselisten (f.eks. tid eller sekvensnummer) man ønsker å lese, avgrensning til temaer, rettigheter og liknende.  
 Informasjonen er grunnlag for eventuell tilpasning av innhold og utvalg. 
 
-| Notifikasjoner
+| Kriterier og regler for å vurdere relevans av notifikasjoner
+| Informasjon om hva som legges til grunn for å vurdere relevansen av en hendelse, basert på informasjon i lest notifikasjon.
+
+| Notifikasjon
 | Dataobjekt som peker til (eller representerer) en hendelse og gjøres tilgjengelig på en hendelsesliste så konsumenten får vite om hendelsen.
 
 En notifikasjon kan inneholde lite eller mye informasjon om selve hendelsen, men det må være nok informasjon til at konsumenten kan vurdere om hendelsen er relevant for seg.
 
 En notifikasjon inneholder også en referanse til hendelsen og relevante grunnlagsdata.
 
-| Kriterier og regler for vurdering
-| Informasjon om hva som legges til grunn for å vurdere relevansen av en hendelse basert på tilgjengelig notifikasjon.
-
-| Konsumer notifikasjoner
-| Prosessen med å lese og håndtere notifikasjoner.
-
-| Les notifikasjoner
-| Prosess for å hente en eller flere notifikasjoner fra en hendelsesliste.
-
-| Vurder notifikasjon
-| Prosess med å vurdere om en hendelsen knyttet til lest notifikasjon er relevant for egen virksomhet.
-
-| Videre behandling av notifikasjon
-| Prosess med videre behandling av en notifikasjon som normalt vil være å innhente mer informasjon om hendelsen eller subjektet notifikasjonen er knyttet til og eventuelt agere ut i fra denne.
-
-| Forkast notifikasjon
-| Prosess med å forkaste notifikasjon som ikke er relevant for virksomheten. Avhengig av krav til personvern og informasjonssikkerhet kan det være særskilte krav til hva som er lov å beholde. 
-
-| Spørring mot eksponert hendelsesliste
-| Tjeneste(r) for å forespørre notifikasjoner og navigere i hendelseslister.
-
-| Datautvekslings-tjeneste
-| Tjeneste for utveksling av data. Samme som data exchange service. Benyttes av avsender og mottaker for transport av meldinger.
-
-| Filtrering av notifikasjoner
-| Tjeneste for å filtrere innhentede notifikasjoner. Dette er en tilleggsmekanisme for filtrering, sammenliknet med filtrering som gjøres gjennom spøringer mot datatilbyder, og benyttes ved behov.  Eksempler på behov:
+| Konsuments filtrerings- og minimeringstjeneste
+| Tjeneste for å filtrere innhentede notifikasjoner. Dette er en tilleggsmekanisme for filtrering og minimering, sammenliknet med det som gjøres gjennom spørringer mot datatilbyder, og benyttes ved behov. Filtreringen kan gjøres ved å filtrere selve innlesing eller ved å filtrere mottatte notifikasjoner etter innlesing. Etter innlesing kan det også gjøres minimeing av innholdet i notifikasjonen. Eksempler på behov:
 
 a. Datatilbyder gir ikke gode nok muligheter for filtrering.
 
-b. Formidling av notifikasjoner til flere og ulike typer (interne) konsumenter.
+b. Formidling av notifikasjoner til flere og ulike typer interne konsumenter.
+
+| Datautvekslings-tjeneste
+| Tjeneste for utveksling av data over aktuell transportprotokoll, f.eks, gjennom asynkrone medlinger eller synkrone API-oppslag.
+
+| Tilbyders spørretjeneste mot hendelsesliste
+| Tjeneste for spørring og navigering av hendelsesliste gjennom API. 
 
 |===
+
+
 
 == Løsningsarkitektur
 
