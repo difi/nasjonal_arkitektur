@@ -356,23 +356,21 @@ TIP: Globalt unike identifikatorer kan fungere som direkte pekere til aktuelle d
 
 === Filtrering og minimering av hendelseslister og notifikasjoner
 
-Filtrering og minimering av notifikasjoner kan løses på ulike måter. 
+Filtrering og minimering av notifikasjoner kan løses på ulike måter:
 
-Begrepsapparat for hendelseslister og notifikasjoner:
-
-.Filtrering og minimering av hendelseslister og notifikasjoner på tvers av tilbyder og konsument
-image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Filtrering og minimering av hendelseslister og notifikasjoner på tvers av tilbyder og konsument.png[alt=Filtrering og minimering av hendelseslister og notifikasjoner på tvers av tilbyder og konsument image]
-
-Eksempler:
-
-a. Tilbyder tilbyr ulike hendelseslister, der det i utgangspunktet er gjort et utvalg basert på metadata og kriterier som tema eller konfidensialitet for hver hendelsesliste.
+a. Tilbyder tilbyr ulike hendelseslister, der det i utgangspunktet er gjort et utvalg av det komplette utvalget innen tilbyders domene, basert på metadata og kriterier som tema eller konfidensialitet for hver hendelsesliste.
 
 b. Tilbyder filtrerer innen hver hendelsesliste ut fra konsumentens spesifikasjon /spørring.
 
-c. Minimering av innholdet i hver notifikasjon ut fra konsumentens spesifikasjon /spørring. 
+c. Tilbyder minimerer innholdet i hver notifikasjon ut fra konsumentens spesifikasjon /spørring. 
 
 d. Konsumenten ignorerer irrelevante notifikasjoner ved å filtrere innlesingen eller forkaste notifikasjoner etter innlesing.
 
+
+På veien fra tilbyder til konsument vil hendelseslister og notifikasjoner på dene måten endre innhold. Det er de samme hendelsene som gjelder, men nye datasett. Det kan være nyttig å skille mellom tilbyders publiserte notifikasjoner, utvekslede notifikasjoner (tilpasset for konsument av tilbyder) og de notifikasjonene som er relevante for konsument og tas videre til  prosessering. En kan tilsvarende se på serier av f.eks. utvekslede notifikasjoner som en utvekslet hendelsesliste. Dette begrepsapparatet er oppsummert i følgende modell.
+
+.Filtrering og minimering av hendelseslister og notifikasjoner på tvers av tilbyder og konsument
+image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Filtrering og minimering av hendelseslister og notifikasjoner på tvers av tilbyder og konsument.png[alt=Filtrering og minimering av hendelseslister og notifikasjoner på tvers av tilbyder og konsument image]
 
 
 
