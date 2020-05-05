@@ -695,7 +695,7 @@ Kommentarer til denne figuren:
 
 === eNotifikasjon - oversikt over verdistrømmer
 
-Følgende figur viser en oversikt over verdistrømmene på tvers av datatilbyder og datakonsument for eNotifikasjon. 
+Følgende modell viser en oversikt over verdistrømmene på tvers av datatilbyder og datakonsument for eNotifikasjon. Dette er en spesialisering av den generiske verdsistrømbeskrivelsen som finnes under link:../nab_arkitekturlandskap_segmentarkitektur_datadeling_verdistrømmer/[Felles referansemodeller for datadeling]
 
 .eNotifikasjon - oversikt over verdistrømmer
 image::../nab_referanse_arkitekturer_enotifikasjon/media/eNotifikasjon - oversikt over verdistrømmer.png[alt=eNotifikasjon - oversikt over verdistrømmer image]
@@ -703,12 +703,14 @@ image::../nab_referanse_arkitekturer_enotifikasjon/media/eNotifikasjon - oversik
 
 //Dette er en spesialisert utgave av tilsvarende #_felles referansemodell for datautveksling_#. 
 
-Stegene i verdistrømmen er nærmere forklart under egne avsnitt om verdistrømmene for hver rolle.  
+Disse verdistrømmene er nærmere beskrevet for hver rolle i påfølgende avsnitt.  
 
 === eNotifikasjon - verdistrøm for datatilbyder
 Her vises verdistrømmen for eNotifikasjon sett fra datatilbyder, med angivelse av kapabiliteter.
 
-Det som er spesifikt for eNotifikasjon er vist med uthevet skrift, dvs. _Inngå avtaler om tilgang og levering av hendelsesstrømmer_ og _Generere og tilby notifikasjoner_. Øvrige kapabiliteter er beskrevet andre steder, blant annet i tilknytning til referansearkitekturer for eMelding (Sende data) og  eOppslag (Avgi data på forespørsel).  
+Det som er spesifikt for eNotifikasjon er vist med uthevet skrift, dvs. _Inngå avtaler om tilgang og levering av hendelsesstrømmer_ og _Generere og tilby notifikasjoner_. Realiseringen av disse kapabilitetene beskrives i prosessmodeller m.v. for eNotifikasjon. 
+
+Øvrige kapabiliteter er beskrevet andre steder; se referansearkitektur for mønsteret eOppslag. 
 
 .eNotifikasjon - tilbyders verdistrøm
 image::../nab_referanse_arkitekturer_epublisering/media/eNotifikasjon - tilbyders verdistrøm.png[alt=eNotifikasjon - tilbyders verdistrøm image]
@@ -716,7 +718,9 @@ image::../nab_referanse_arkitekturer_epublisering/media/eNotifikasjon - tilbyder
 === eNotifikasjon - verdistrøm for datakonsumenter
 Her vises verdistrømmen for eNotifikasjon sett fra datakonsumenter, med angivelse av kapabiliteter.
 
-Det som er spesifikt for eNotifikasjon er vist med uthevet skrift, dvs. _Inngå avtaler om tilgang og innhenting av hendelsesstrømmer_ og _Innhente og håndtere notifikasjoner_. Øvrige kapabiliteter er beskrevet i tilknytning til andre mønstre. 
+Det som er spesifikt for eNotifikasjon er vist med uthevet skrift, dvs. _Inngå avtaler om tilgang og innhenting av hendelsesstrømmer_ og _Innhente og håndtere notifikasjoner_. Realiseringen av disse kapabilitetene beskrives i prosessmodeller m.v. for eNotifikasjon.
+
+Øvrige kapabiliteter er beskrevet andre steder; se referansearkitektur for mønsteret eOppslag.  
 
 
 .eNotifikasjon - konsumenters verdistrøm
@@ -725,7 +729,7 @@ image::../nab_referanse_arkitekturer_enotifikasjon/media/eNotifikasjon - konsume
 
 == Kapabilitetskart for eNotifikasjon
 
-Modellen under viser kapabiliteter som er spesifikke for eNotifikasjon. Øvrige kapabiliteter er beskrevet i samhandlingsmønsteret for _deling av data på forespørsel_.
+Modellen under viser kapabiliteter som er spesifikke for eNotifikasjon.
 
 .Kapabiliteter eNotifikasjon
 image::../nab_referanse_arkitekturer_enotifikasjon/media/Kapabiliteter eNotifikasjon.png[alt=Kapabiliteter eNotifikasjon image]
