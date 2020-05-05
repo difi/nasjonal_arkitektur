@@ -976,9 +976,6 @@ Eksempler på rettigheter kan komme av samtykker fra person eller virksomhet, el
 Notifikasjoner leses på tilsvarende måte som beskrevet for generelle mønstre for spørring og oppslag (herunder eOppslag), men konsumentene må holde orden på spesielle forhold som rekkefølge og hvilke notifikasjoner som er lest. Konsumenten må også være i stand til å vurdere relevansen av hendelsene før videre behandling av notifikasjonene.
 
 
-
-
-
 .Konsumer notifikasjoner
 image::../nab_referanse_arkitekturer_epublisering/media/Konsumer notifikasjoner.png[alt=Konsumer notifikasjoner image]
 
@@ -998,7 +995,7 @@ image::../nab_referanse_arkitekturer_epublisering/media/Konsumer notifikasjoner.
 | Konsumer notifikasjoner
 | Prosessen med å lese og håndtere notifikasjoner.
 
-| Foresøpør og motta notifikasjoner
+| Forespør og motta notifikasjoner
 | Prosess for å hente inn en eller flere notifikasjoner fra en hendelsesliste.
 
 | Vurder relevans av notifikasjon
@@ -1038,6 +1035,7 @@ b. Formidling av notifikasjoner til flere og ulike typer interne konsumenter.
 | Tjeneste for spørring og navigering av hendelsesliste gjennom API. 
 
 |===
+
 
 
 
