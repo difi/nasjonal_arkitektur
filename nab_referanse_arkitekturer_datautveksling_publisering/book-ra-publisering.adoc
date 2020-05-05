@@ -713,7 +713,7 @@ Det som er spesifikt for eNotifikasjon er vist med uthevet skrift, dvs. _Inngå 
 Øvrige kapabiliteter er beskrevet andre steder; se referansearkitektur for mønsteret eOppslag. 
 
 .eNotifikasjon - tilbyders verdistrøm
-image::../nab_referanse_arkitekturer_epublisering/media/eNotifikasjon - tilbyders verdistrøm.png[alt=eNotifikasjon - tilbyders verdistrøm image]
+image::../nab_referanse_arkitekturer_datautveksling_publisering/media/eNotifikasjon - tilbyders verdistrøm.png[alt=eNotifikasjon - tilbyders verdistrøm image]
 
 === eNotifikasjon - verdistrøm for datakonsumenter
 Her vises verdistrømmen for eNotifikasjon sett fra datakonsumenter, med angivelse av kapabiliteter.
