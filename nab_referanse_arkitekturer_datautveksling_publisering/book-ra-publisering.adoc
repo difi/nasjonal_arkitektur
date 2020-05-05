@@ -516,9 +516,7 @@ include::../nab_referanse_arkitekturer_enotifikasjon/book-ra-enotifikasjon.adoc[
 
 //=== Basismønstre for eNotifikasjon
 
-eNotifikasjon er en referansearkitektur for utveksling av notifikasjoner som er innrettet på å støtte opp under konsepter fra arkitekturmønsteret _Event Sourcing_; karakterisert ved at tilstanden til et _subjekt_ kan bestemmes gjennom en kronologisk sekvens av hendelser, ut fra et gitt øyeblikksbilde.
-
-Detaljer om dette mønsteret finnes under   <<litteraturhenvisninger-event-sourcing,litteraturhenvisninger om event sourcing>>
+eNotifikasjon er en referansearkitektur for utveksling av notifikasjoner som er innrettet på å støtte opp under konsepter fra arkitekturmønsteret _Event Sourcing_; karakterisert ved at tilstanden til et _subjekt_ kan bestemmes gjennom en kronologisk sekvens av hendelser, ut fra et gitt øyeblikksbilde. Se under  <<litteraturhenvisninger-event-sourcing,litteraturhenvisninger om event sourcing>> for detaljer om Event Sourcing som arkitekturmønster.
 
 
 //=== Egenskaper
