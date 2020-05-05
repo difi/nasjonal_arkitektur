@@ -977,7 +977,7 @@ Notifikasjoner leses på tilsvarende måte som beskrevet for generelle mønstre 
 
 
 .Konsumer notifikasjoner
-image::../nab_referanse_arkitekturer_epublisering/media/Konsumer notifikasjoner.png[alt=Konsumer notifikasjoner image]
+image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Konsumer notifikasjoner.png[alt=Konsumer notifikasjoner image]
 
 [cols ="1,3", options="header"]
 .Elementer i view for Konsumer notifikasjoner
