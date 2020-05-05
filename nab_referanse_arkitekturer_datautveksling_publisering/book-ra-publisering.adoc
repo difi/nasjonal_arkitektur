@@ -249,7 +249,8 @@ image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Notifikasj
 
 Forklaring til figuren over:
 
-* En notifikasjon inneholder som minimum en identifikator for notifikasjonen. Denne må være gyldig på tvers av tilbyder og konsument. Tilbyder må holde rede på sammenhengen mellom notifikasjon og assosierte, <<definisjon-hendelsesrelaterte-data,hendelsesrelaterte data>>. 
+
+* En notifikasjon inneholder som minimum en _identifikator for notifikasjonen_. Denne må være gyldig på tvers av tilbyder og konsument. Tilbyder må holde rede på sammenhengen mellom notifikasjon og assosierte, <<definisjon-hendelsesrelaterte-data,hendelsesrelaterte data>>. 
 
 * Hvilke notifikasjonsdata som forøvrig er relevante,  avhenger av hendelsestype og eventuell innholdsminimering.
 
@@ -327,10 +328,15 @@ For notifikasjoner som ikke gir et tilstrekkelig sett av _hendelsesrelaterte dat
 Det er uproblematisk å sende med en ny måleverdi for et termometer, mens det kan være mindre ønskelig å distribuere komplette kopier av større og distribuerte datasett. Hensyn til dataminimering (personvern eller andre hesnyn) spiller også en rolle i slike vurderinger.
 ****
 
-Prosessen er illustrert i følgende sekvensdiagram:  
+Den typiske prosessen er illustrert i følgende sekvensdiagram:  
 
 .Spørring mot hendelseslister - med innhenting av supplerende data
 image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Spørring mot hendelseslister - med innhenting av supplerende data.png[alt=Spørring mot hendelseslister - med innhenting av supplerende data image]
+
+I _forespørsel om supplerende hendelsesrelaterte data_ må det kunne identifiseres hvilke data som ønskes. Tilbyder kan gi ulike opsjoner for dette. En mulighet er at _identifikator for notifikasjonen_ entydig identifiserer aktuelle datasett. En annen mulighet er f.eks. spørring etter etter spesifikke informasjonselementer for et angitt subjekt.
+
+TIP: Det bør sikres at _hendelsesrelaterte data_ forblir identifiserbare og tilgjengelige over tid. En god måte å gjøre dette på er gjennom globalt unike identifikatorer i kombinasjon med en mekanisme for datavirtualisering, slik at aktuelle datasett kan flyttes uten at datakonsumenter behøver å se forskjellen. 
+
 
 ////
 Identifikasjon av aktuelle supplerende hendelsesrelaterte i notifikasjonen gjøres enten gjennom: 
