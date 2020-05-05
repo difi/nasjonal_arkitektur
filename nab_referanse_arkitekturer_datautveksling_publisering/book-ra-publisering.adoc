@@ -1022,7 +1022,7 @@ En notifikasjon kan inneholde lite eller mye informasjon om selve hendelsen, men
 En notifikasjon inneholder også en referanse til hendelsen og relevante grunnlagsdata.
 
 | Konsuments filtrerings- og minimeringstjeneste
-| Tjeneste for å filtrere innhentede notifikasjoner. Dette er en tilleggsmekanisme for filtrering og minimering, sammenliknet med det som gjøres gjennom spørringer mot datatilbyder, og benyttes ved behov. Filtreringen kan gjøres ved å filtrere selve innlesing eller ved å filtrere mottatte notifikasjoner etter innlesing. Etter innlesing kan det også gjøres minimeing av innholdet i notifikasjonen. Eksempler på behov:
+| Tjeneste for å filtrere innhentede notifikasjoner. Dette er en tilleggsmekanisme for filtrering og minimering, sammenliknet med det som gjøres gjennom spørringer mot datatilbyder, og benyttes ved behov. Filtreringen kan gjøres ved å filtrere selve innlesing eller ved å filtrere mottatte notifikasjoner etter innlesing. Etter innlesing kan det også gjøres minimering av innholdet i notifikasjonen. Eksempler på behov:
 
 a. Datatilbyder gir ikke gode nok muligheter for filtrering.
 
