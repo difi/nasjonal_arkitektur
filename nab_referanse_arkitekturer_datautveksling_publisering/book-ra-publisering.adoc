@@ -1053,9 +1053,12 @@ b. Formidling av notifikasjoner til flere og ulike typer interne konsumenter.
 
 == Løsningsarkitektur
 
-Spesifikke løsningsmønstre for eNotifikasjon er inntil videre ikke utarbeidet. Det er stor variasjon i praksis, og ingen fellesløsninger er så langt etablert i Norge.
+=== Generelt
 
-Det finnes i mellomtiden noen  gode eksempler å peke på. Open source produkter som er i utstrakt gir også en pekepinn om aktuelle løsningsmønstre. 
+Spesifikke løsningsmønstre for eNotifikasjon er inntil videre ikke utarbeidet. Det er stor variasjon i praksis, og ingen fellesløsninger er så langt etablert i Norge. 
+
+Det finnes i mellomtiden noen gode eksempler å peke på. 
+//Open source produkter som er i utstrakt gir også en pekepinn om aktuelle løsningsmønstre, men ingen spesifikke produkter nevnes innil videre her. 
 
 === Eksempler på anvendelse
 
@@ -1063,6 +1066,7 @@ Her nevnes spesielt:
 
 . Modernisert folkeregister fra Skatteetaten tilbyr hendelseslister og oppslag som konsumenttjenester. Disse tjenestene er beskrevet i link:https://skatteetaten.github.io/folkeregisteret-api-dokumentasjon/konsumenttjenester/[Folkeregisterets API dokumentasjon].
 
+////
 === Produkteksempler
 
 Eksempler på produkter som per 2020 er i utstrakt bruk og kan sies å være med på å definere beste praksis innen "event streaming":
@@ -1102,7 +1106,7 @@ https://www.cloudamqp.com/blog/2019-12-10-event-driven-and-streaming-apps.html[R
 . https://azure.microsoft.com/en-au/services/event-hubs/[Microsoft Azure Event Hub]
 +
 Stream millions of events per second from any source to build dynamic data pipelines and immediately respond to business challenges.
-// 
+////
 
 
 
