@@ -344,7 +344,8 @@ image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Spørring 
 
 I _forespørsel om supplerende hendelsesrelaterte data_ må det kunne identifiseres hvilke data som ønskes. Tilbyder kan gi ulike opsjoner for dette. En mulighet er at _identifikator for notifikasjonen_ entydig identifiserer aktuelle datasett. En annen mulighet er f.eks. spørring etter etter spesifikke informasjonselementer for et angitt subjekt.
 
-TIP: Det bør sikres at _hendelsesrelaterte data_ forblir identifiserbare og tilgjengelige over tid. En god måte å gjøre dette på er gjennom globalt unike identifikatorer i kombinasjon med en mekanisme for datavirtualisering, slik at aktuelle datasett kan flyttes uten at datakonsumenter behøver å se forskjellen. 
+TIP: Det bør sikres at _hendelsesrelaterte data_ forblir identifiserbare og tilgjengelige over tid. En god måte å gjøre dette på er gjennom globalt unike identifikatorer i kombinasjon med en mekanisme for datavirtualisering.
+// slik at aktuelle datasett kan flyttes uten at datakonsumenter behøver å se forskjellen. 
 
 
 ////
@@ -714,7 +715,7 @@ Disse verdistrømmene er nærmere beskrevet for hver rolle i påfølgende avsnit
 === eNotifikasjon - verdistrøm for datatilbyder
 Her vises verdistrømmen for eNotifikasjon sett fra datatilbyder, med angivelse av kapabiliteter.
 
-Det som er spesifikt for eNotifikasjon er vist med uthevet skrift, dvs. _Inngå avtaler om tilgang og levering av hendelsesstrømmer_ og _Generere og tilby notifikasjoner_. Realiseringen av disse kapabilitetene beskrives i prosessmodeller m.v. for eNotifikasjon. 
+Det som er spesifikt for eNotifikasjon er vist med uthevet skrift, dvs. _Inngå avtaler om tilgang og levering av hendelsesstrømmer_, _Generere og tilby notifikasjoner_, samt . Realiseringen av disse kapabilitetene beskrives i prosessmodeller m.v. for eNotifikasjon. 
 
 Øvrige kapabiliteter er beskrevet andre steder; se referansearkitektur for mønsteret eOppslag. 
 
