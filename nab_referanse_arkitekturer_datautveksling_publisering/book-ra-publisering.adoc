@@ -715,7 +715,7 @@ Disse verdistrømmene er nærmere beskrevet for hver rolle i påfølgende avsnit
 === eNotifikasjon - verdistrøm for datatilbyder
 Her vises verdistrømmen for eNotifikasjon sett fra datatilbyder, med angivelse av kapabiliteter.
 
-Det som er spesifikt for eNotifikasjon er vist med uthevet skrift, dvs. _Inngå avtaler om tilgang og levering av hendelsesstrømmer_, _Generere og tilby notifikasjoner_, samt . Realiseringen av disse kapabilitetene beskrives i prosessmodeller m.v. for eNotifikasjon. 
+Det som er spesifikt for eNotifikasjon er vist med uthevet skrift, dvs. _Inngå avtaler om tilgang og levering av hendelsesstrømmer_, _Generere og tilby notifikasjoner_, samt _Avgi forespurte notifikasjoner_. Realiseringen av disse kapabilitetene beskrives i prosessmodeller m.v. for eNotifikasjon. 
 
 Øvrige kapabiliteter er beskrevet andre steder; se referansearkitektur for mønsteret eOppslag. 
 
@@ -741,10 +741,6 @@ Modellen under viser kapabiliteter som er spesifikke for eNotifikasjon.
 .Kapabiliteter eNotifikasjon
 image::../nab_referanse_arkitekturer_enotifikasjon/media/Kapabiliteter eNotifikasjon.png[alt=Kapabiliteter eNotifikasjon image]
 
-//.Kapabiliteter eNotifikasjon
-//image::../nab_referanse_arkitekturer_enotifikasjon/media/Kapabiliteter eNotifikasjon.png[alt=Kapabiliteter eNotifikasjon image]
-
-
 [cols ="1,3", options="header"]
 .Elementer i view for Kapabiliteter eNotifikasjon
 |===
@@ -758,20 +754,21 @@ image::../nab_referanse_arkitekturer_enotifikasjon/media/Kapabiliteter eNotifika
 | Datakonsument
 | Den som innhenter eller mottar data fra andre aktører.
 
-| Inngå avtaler om tilgang og levering av hendelsesstrømmer
-| Evnen til å inngå avtaler med datakonsumenter om tilgengjengeliggjøring av hendelseslister med notifikasjoner om hendelser.
 
-| Inngå avtaler om tilgang og innhenting av hendelsesstrømmer 
-| Evnen til å inngå avtaler med datatilbyder om tilgang til hendelser gjennom hendelseslister med notifikasjoner.
-
-| Avgi data på forespørsel
-| Evnen til å avgi data på forespørsel
+| Innhente og håndtere notifikasjoner
+| Evnen til å konsumere hendelseslister ved å innhente notifikasjoner.
 
 | Generere og tilby notifikasjoner
 | Evnen til å dele informasjon om hendelser gjennom notifikasjoner som tilgjengeliggjøres for konsumenter gjennom hendelseslister.
 
-| Innhente og håndtere notifikasjoner
-| Evnen til å konsumere hendelseslister ved å innhente notifikasjoner.
+| Inngå avtaler om tilgang og innhenting av hendelsesstrømmer 
+| Evnen til å inngå avtaler med datatilbyder om tilgang til hendelser gjennom hendelseslister med notifikasjoner.
+
+| Inngå avtaler om tilgang og levering av hendelsesstrømmer
+| Evnen til å inngå avtaler med datakonsumenter om tilgengjengeliggjøring av hendelseslister med notifikasjoner om hendelser.
+
+| Avgi forespurte notifikasjoner
+| Evnen til å avgi notifikasjoner på forespørsel
 
 |===
 
@@ -963,7 +960,7 @@ Informasjonen er grunnlag for eventuell tilpasning av innhold og utvalg.
 | Tjeneste for å sjekke rettigheter til data. Kan være eksterne eller interne tjenester.
 Eksempler på rettigheter kan komme av samtykker fra person eller virksomhet, eller rollebasert fra vergemål, familierelasjon el.
 
-| Avgi notifikasjoner 
+| Avgi forespurte notifikasjoner
 | Evnen til å avgi notifikasjoner på forespørsel
 
 | Utvekslet hendelsesliste
