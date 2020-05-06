@@ -172,7 +172,7 @@ Datatilbyder [underline]#publiserer# hendelsestrømmer som [underline]##konsumer
 .Publisering av hendelser - grunnleggende konsept, med applikasjoner
 image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Publisering av hendelser - grunnleggende konsept, med applikasjoner.png[alt=Publisering av hendelser - grunnleggende konsept, med applikasjoner image]
 
-Legg merke til at den publiserte hendelseslisten her betraktes som en del av tilbyders løsning og ansvar. 
+Legg merke til at den publiserte hendelseslisten her er en del av tilbyders løsning og ansvar. 
 
 I praksis kan også både datatilbyder og datakonsument velge å benytte en ekstern tjenesteleverandør for å formidle hendelsesdata. I så fall kan ekstern tjenesteleverandørs løsninger og tjenester anses som del av tilbyders eller konsuments løsninger og tjenester på lik linje med interne leverandører (og behøver ikke vises som egen part).
 
@@ -320,14 +320,7 @@ Tilbyders spørretjeneste  mot hendelseslister må støtte ulike måter å lese 
 * Avspilling av seneste notifikasjoner, f.eks etter en gitt identifikator.
 
 
-[[utledning-av-subjekttilstand]]
-=== Utledning av subjekttilstand
-
-Subjektets tilstand kan beskrives i form av et øyeblikksbilde eller som en serie endringer ut fra et tidligere øyeblikksbilde. En notifikasjon inneholder tilsvarende enten et øyeblikksbilde av subjektet eller data om hendelsen som beskriver en inkrementell endringen. 
-
-Eksempel: Anta at termometeravlesninger rapporteres som daglige endringer siden forrige avlesning. For å finne dagens temperatur, må det være et kjent startpunkt (øyeblikksbilde).
-
-TIP: En kan tenke på notifikasjoner  som transaksjoner i et regskap som gjøres opp med jevne mellomrom. Subjekttilstanden tilsvarer saldo, og ny saldo kan enkelt regnes ut ved å legge sammen alle transaksjonene siden forrige dokumenterte oppgjør. En kan også gå hele veien tilbake til oppstart, som i dette tilfellet uten videre er et kjent utgansgpunkt (nullsaldo).  
+  
 
 === Innhenting av supplerende hendelsesrelaterte data
 
@@ -345,6 +338,7 @@ image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Spørring 
 I _forespørsel om supplerende hendelsesrelaterte data_ må det kunne identifiseres hvilke data som ønskes. Tilbyder kan gi ulike opsjoner for dette. En mulighet er at _identifikator for notifikasjonen_ entydig identifiserer aktuelle datasett. En annen mulighet er f.eks. spørring etter etter spesifikke informasjonselementer for et angitt subjekt.
 
 TIP: Det bør sikres at _hendelsesrelaterte data_ forblir identifiserbare og tilgjengelige over tid. En god måte å gjøre dette på er gjennom globalt unike identifikatorer i kombinasjon med en mekanisme for datavirtualisering.
+
 // slik at aktuelle datasett kan flyttes uten at datakonsumenter behøver å se forskjellen. 
 
 
@@ -494,6 +488,15 @@ På veien fra tilbyder til konsument vil hendelseslister og notifikasjoner på d
 .Filtrering og minimering av hendelseslister og notifikasjoner på tvers av tilbyder og konsument
 image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Filtrering og minimering av hendelseslister og notifikasjoner på tvers av tilbyder og konsument.png[alt=Filtrering og minimering av hendelseslister og notifikasjoner på tvers av tilbyder og konsument image]
 
+
+[[utledning-av-subjekttilstand]]
+=== Tilstand som resultat av hendelser 
+
+Et subjekts tilstand kan beskrives i form av et øyeblikksbilde eller som en serie endringer ut fra et tidligere øyeblikksbilde. En notifikasjon inneholder tilsvarende enten et øyeblikksbilde av subjektet eller data om hendelsen som beskriver en inkrementell endring. 
+
+Eksempel: Anta at termometeravlesninger rapporteres som daglige endringer siden forrige avlesning. For å finne dagens temperatur, må det være et kjent startpunkt (øyeblikksbilde).
+
+TIP: En kan tenke på notifikasjoner  som transaksjoner i et regskap som gjøres opp med jevne mellomrom. Subjekttilstanden tilsvarer saldo, og ny saldo kan enkelt regnes ut ved å legge sammen alle transaksjonene siden forrige dokumenterte oppgjør. En kan også gå hele veien tilbake til oppstart, som i dette tilfellet uten videre er et kjent utgansgpunkt (nullsaldo).
 
 ////
 [[versjonsstyring-av-notifikasjoner]]
@@ -698,7 +701,7 @@ Kommentarer til denne figuren:
 
 ////
 
-== Verdistrømsbeskrivelse
+== Verdistrømbeskrivelse
 
 === eNotifikasjon - oversikt over verdistrømmer
 
@@ -773,7 +776,7 @@ image::../nab_referanse_arkitekturer_enotifikasjon/media/Kapabiliteter eNotifika
 |===
 
 
-== Konseptuelle prosessbeskrivelser (arkitekturbyggeklosser)
+== Realisering av kapabiliteter - generelt arkitekturmønster
 
 Arkitekturmønster for eNotifikasjon beskriver realiseringen av kapabilitetene som er spesifikke for dette mønsteret.
 
@@ -1049,16 +1052,13 @@ b. Formidling av notifikasjoner til flere og ulike typer interne konsumenter.
 
 
 
-== Løsningsarkitektur
-
-=== Generelt
+== Løsningsmønstre for eNotifikasjon
 
 Spesifikke løsningsmønstre for eNotifikasjon er inntil videre ikke utarbeidet. Det er stor variasjon i praksis, og ingen fellesløsninger er så langt etablert i Norge. 
 
 Det finnes i mellomtiden noen gode eksempler å peke på. 
 //Open source produkter som er i utstrakt gir også en pekepinn om aktuelle løsningsmønstre, men ingen spesifikke produkter nevnes innil videre her. 
 
-=== Eksempler på anvendelse
 
 Her nevnes spesielt: 
 
