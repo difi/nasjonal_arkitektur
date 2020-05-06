@@ -11,7 +11,7 @@ include::../plattform_felles/includes/commonincludes.adoc[]
 _Dette er en del av link:../nab_referanse_arkitekturer_datautveksling/[Referansearkitektur for datautveksling]_
 
 //image:../plattform_felles/media/i-arbeid.png[width=45, height=45] _UNDER OPPDATERING etter innspill 2020-04-28_
-
+g
 
 
 == Introduksjon
@@ -254,7 +254,8 @@ Forklaring til figuren over:
 
 * Hvilke notifikasjonsdata som forøvrig er relevante,  avhenger av hendelsestype og eventuell innholdsminimering.
 
-** Hendelsestype angir hva som har skjedd.
+** _Hendelsestype_ identifiserer typen hendelse overfor konsument, som grunnlag  for filtrering og videre behandling.  
+
 
 ** Sekvensinformasjon kan gis ved å peke på foregående notifikasjon for samme subjekt. Tidsstempel med tilstrekkelig oppløsning kan også angi sekvens, men gir  ikke generelt en like direkte og treffsikker identifisering av foregående notifikasjon. _Merk: Løpende sekvensnummer er også mulig å benytte, men er ikke vist her._
 
@@ -496,7 +497,10 @@ Et subjekts tilstand kan beskrives i form av et øyeblikksbilde eller som en ser
 
 Eksempel: Anta at termometeravlesninger rapporteres som daglige endringer siden forrige avlesning. For å finne dagens temperatur, må det være et kjent startpunkt (øyeblikksbilde).
 
-TIP: En kan tenke på notifikasjoner  som transaksjoner i et regskap som gjøres opp med jevne mellomrom. Subjekttilstanden tilsvarer saldo, og ny saldo kan enkelt regnes ut ved å legge sammen alle transaksjonene siden forrige dokumenterte oppgjør. En kan også gå hele veien tilbake til oppstart, som i dette tilfellet uten videre er et kjent utgansgpunkt (nullsaldo).
+TIP: En kan tenke på notifikasjoner  som transaksjoner i et regskap som gjøres opp med jevne mellomrom. Subjekttilstanden tilsvarer saldo, og ny saldo kan enkelt regnes ut ved å legge sammen alle transaksjonene siden forrige dokumenterte oppgjør. En kan også gå hele veien tilbake til oppstart, som i dette tilfellet uten videre er et kjent utgangspunkt (nullsaldo).
+
+
+
 
 ////
 [[versjonsstyring-av-notifikasjoner]]
@@ -705,7 +709,7 @@ Kommentarer til denne figuren:
 
 === eNotifikasjon - oversikt over verdistrømmer
 
-Følgende modell viser en oversikt over verdistrømmene på tvers av datatilbyder og datakonsument for eNotifikasjon. Dette er en spesialisering av den generiske verdsistrømbeskrivelsen som finnes under link:../nab_arkitekturlandskap_segmentarkitektur_datadeling_verdistrømmer/[Felles referansemodeller for datadeling]
+Følgende modell viser en oversikt over verdistrømmene på tvers av datatilbyder og datakonsument for eNotifikasjon. Dette er en spesialisering av den generiske verdistrømbeskrivelsen som finnes under link:../nab_arkitekturlandskap_segmentarkitektur_datadeling_verdistrømmer/[Felles referansemodeller for datadeling].
 
 .eNotifikasjon - oversikt over verdistrømmer
 image::../nab_referanse_arkitekturer_enotifikasjon/media/eNotifikasjon - oversikt over verdistrømmer.png[alt=eNotifikasjon - oversikt over verdistrømmer image]
@@ -739,7 +743,8 @@ image::../nab_referanse_arkitekturer_enotifikasjon/media/eNotifikasjon - konsume
 
 == Kapabilitetskart for eNotifikasjon
 
-Modellen under viser kapabiliteter som er spesifikke for eNotifikasjon.
+Modellen under gir en samlet oversikt over kapabiliteter som er spesifikke for eNotifikasjon, slik disse er identifisert i foregående verdistrømbeskrivelse. 
+
 
 .Kapabiliteter eNotifikasjon
 image::../nab_referanse_arkitekturer_enotifikasjon/media/Kapabiliteter eNotifikasjon.png[alt=Kapabiliteter eNotifikasjon image]
@@ -776,15 +781,13 @@ image::../nab_referanse_arkitekturer_enotifikasjon/media/Kapabiliteter eNotifika
 |===
 
 
-== Realisering av kapabiliteter - generelt arkitekturmønster
+== Realisering av kapabiliteter - generisk arkitekturmønster
 
-Arkitekturmønster for eNotifikasjon beskriver realiseringen av kapabilitetene som er spesifikke for dette mønsteret.
-
-Beskrivelsene er forsøkt å holdes generisk uten å peke til løsningskomponenter, og det vil dermed kunne være flere måter å realisere de ulike elementene på.
+Her beskrives realiseringen av de kapabilitetene som er spesifikke for eNotifikasjon i form av et generisk, løsningsuavhengig arkitekturmønster. Det vil kunne være flere måter å realisere aktuelle arkitekturbyggeklosser på.
 
 
-=== Gi tilgang til notifikasjoner og hendelser
-Gi tilgang til notifikasjoner og hendelser er den prosessen datatilbyder må gjøre for å gi datakonsumenten tilgang til hendelseslister. Ved helt åpne hendelseslister kan prosessen være unødvendig og utgår, men vil normalt omfatte å tilgjengeliggjøre API som beskrevet i eOppslag. I tillegg må det eventuelt registreres en del informasjon i tilknytning til filtrering og tilpasning av hendelselister etter konsumentens behov og tilganger.
+=== Inngå avtaler om tilgang og levering av hendelsesstrømmer
+Gi tilgang til notifikasjoner og hendelser er den prosessen datatilbyder må gjøre for å gi datakonsumenten tilgang til hendelseslister. Ved helt åpne hendelseslister kan prosessen være unødvendig og utgår, men vil normalt omfatte å tilgjengeliggjøre API som beskrevet i eOppslag. I tillegg kan det eventuelt registreres informasjon i tilknytning til filtrering og tilpasning av hendelselister ut fra konsumentens behov og tilganger.
 
 
 .Gi tilgang til notifikasjoner og hendelser
@@ -818,7 +821,7 @@ image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Gi tilgang
 |===
 
 
-=== Få tilgang til notifikasjoner og hendelser
+=== Inngå avtaler om tilgang og innhenting av hendelsesstrømmer
 Få tilgang til notifikasjoner og hendelser er den prosessen datakonsument må gjøre for å sette opp og få tilganger til hendelseslister. Prosessetrinnene kommer i tillegg til prosessen for å få tigang til API som beskrevet i eOppslag.
 
 .Få tilgang til notifikasjoner og hendelser
@@ -856,7 +859,7 @@ image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Få tilgan
 Generer og publiser notifikasjoner er den prosessen datatilbyder må gjøre for å tilby notifikasjoner gjennom hendelseslister. Hendelselister tilbys på tilsvarende måte som beskrevet for generelle mønstre for spørring og oppslag (herunder eOppslag), men det finnes spesielle krav for hendelseslister med tanke på segmentering,  filtrering og navigering.
 
 
-.Generer og publiser notifikasjoner
+.Generere og tilby notifikasjoner
 image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Generer og publiser notifikasjoner.png[alt=Generer og publiser notifikasjoner image]
 
 [cols ="1,3", options="header"]
@@ -982,7 +985,7 @@ Eksempler på rettigheter kan komme av samtykker fra person eller virksomhet, el
 
 
 
-=== Konsumer notifikasjoner
+=== Innhente og håndtere notifikasjoner
 Notifikasjoner leses på tilsvarende måte som beskrevet for generelle mønstre for spørring og oppslag (herunder eOppslag), men konsumentene må holde orden på spesielle forhold som rekkefølge og hvilke notifikasjoner som er lest. Konsumenten må også være i stand til å vurdere relevansen av hendelsene før videre behandling av notifikasjonene.
 
 
@@ -1055,6 +1058,8 @@ b. Formidling av notifikasjoner til flere og ulike typer interne konsumenter.
 == Løsningsmønstre for eNotifikasjon
 
 Spesifikke løsningsmønstre for eNotifikasjon er inntil videre ikke utarbeidet. Det er stor variasjon i praksis, og ingen fellesløsninger er så langt etablert i Norge. 
+
+TIP: Mer om fellesløsninger, standarder og løsningsmønstre vil følge her etterhvert. 
 
 Det finnes i mellomtiden noen gode eksempler å peke på. 
 //Open source produkter som er i utstrakt gir også en pekepinn om aktuelle løsningsmønstre, men ingen spesifikke produkter nevnes innil videre her. 
