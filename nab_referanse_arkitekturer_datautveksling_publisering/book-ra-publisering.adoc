@@ -855,7 +855,7 @@ image::../nab_referanse_arkitekturer_datautveksling_publisering/media/Få tilgan
 |===
 
 
-=== Generer og publiser notifikasjoner
+=== Generere og tilby notifikasjoner
 Generer og publiser notifikasjoner er den prosessen datatilbyder må gjøre for å tilby notifikasjoner gjennom hendelseslister. Hendelselister tilbys på tilsvarende måte som beskrevet for generelle mønstre for spørring og oppslag (herunder eOppslag), men det finnes spesielle krav for hendelseslister med tanke på segmentering,  filtrering og navigering.
 
 
