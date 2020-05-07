@@ -68,8 +68,6 @@ Noen utvalgte henvisninger:
 
 . link:https://www.sciencedirect.com/topics/computer-science/event-notification[Event Notification ]
 
-
-[[litteraturhenvisninger-event-sourcing]]
 . https://doc.difi.no/nasjonal-arkitektur/kunnskap_/#event-sourcing[Event Sourcing]
 
 . https://doc.difi.no/nasjonal-arkitektur/kunnskap_/#_pattern_cqrs_command_query_responsibility_segregation[CQRS]
@@ -562,7 +560,7 @@ include::../nab_referanse_arkitekturer_enotifikasjon/book-ra-enotifikasjon.adoc[
 
 eNotifikasjon er en referansearkitektur for utveksling av notifikasjoner som er innrettet på å støtte opp under "nyere" arkitekturmønstre for distribuerte applikasjoner, særlig aktuelt innen Microservices som arkitekturparadigme.   
 
-NOTE: Det sentrale arkitekturmønsteret som støttes er best kjent som _Event Sourcing_. blant annet karakterisert ved at tilstanden til et _subjekt_ kan bestemmes ut fra en logg av hendelser. Se  <<litteraturhenvisninger-event-sourcing,litteraturhenvisninger om event sourcing>>.
+NOTE: Et sentralt arkitekturmønster som støttes, er best kjent som _Event Sourcing_, blant annet karakterisert ved at tilstanden til et system eller et _subjekt_ kan bestemmes ut fra en logg av hendelser. Se https://doc.difi.no/nasjonal-arkitektur/kunnskap_/#event-sourcing[litteratur om Event Sourcing]
 
 //=== Egenskaper
 
