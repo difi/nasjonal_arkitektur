@@ -22,7 +22,19 @@ link:../plattform_praktiske-tips_archi[Praktiske tips om samarbeid med Archi].
 
 
 == Web-publisering for lesing 
-Publiserte modeller fra _det primære fellesbiblioteket_ kan navigeres via nettleser; se https://nasjonal-arkitektur.github.io/nab_modeller_archi_html.
+Publiserte arkitekturmodeller fra _det primære fellesbiblioteket_ kan navigeres via nettleser; se https://nasjonal-arkitektur.github.io/nab_modeller_html_archi.
+
+
+image:../nab_modellsamling/media/inngangsport.png[]
+
+Navigering kan gjøres gjennom mappestrukturen i _Model Tree_. 
+
+Det er dessuten lagt opp navigasjonsstrukturer som går på tvers av mappestrukturen for å kunne gi enklere navigering for ulike formål og målgrupper. Øverste nivå i denne strukturen er vist i screenshot av skjermbildet over (_Inngangsport_).
+
+WARNING: Det er mulig å lenke direkte til enkeltmodeller, men da mistes mappestrukturen i Model Tree fra skjermbildet. Dette er en svakhet i gjeldende versjon av verktøyet Archi (per 2019). 
+
+
+
 
 
 == Nedlastbare modellfiler
