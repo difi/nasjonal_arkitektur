@@ -22,8 +22,7 @@ Dette betyr ikke at andre verktøy ikke kan brukes. Archi mangler endel funksjon
 
 == Archi repository på GitHub
 
-Et felles Archi-repository for arbeidet med nasjonal arkitektur finnes på Github, her: https://github.com/nasjonal-arkitektur/archi-collab-nasjonal-arkitektur.
-
+Et felles Archi-repository for arbeidet med nasjonal arkitektur finnes på Github, her: https://github.com/nasjonal-arkitektur/archi-collab-nab.
 Gi beskjed til nasjonalarkitektur@difi.no om du ønsker skriverettigheter til dette biblioteket.
 
 NOTE: I tillegg til dette biblioteket, finnes andre modeller som du kanskjeogså er interessert i. Se  
