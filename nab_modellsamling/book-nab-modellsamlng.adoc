@@ -14,14 +14,15 @@ image:../plattform_felles/media/i-arbeid.png[width=45, height=45]
 //:leveloffset: +1
 
 == Felles modellbibliotek på GitHub
-Det primære fellesbiblioteket er: https://github.com/nasjonal-arkitektur/archi-collab-nasjonal-arkitektur .
+Det primære fellesbiblioteket er: https://github.com/nasjonal-arkitektur/archi-collab-nab
+
 
 Alle kan laste ned innholdet fra dette til lokal Archi-installasjon gjennom Collaoration-plugin til Archi. Om du har skriverettigheter, vil du også kunne gjøre endringer og laste opp disse til Github. Se
 link:../plattform_praktiske-tips_archi[Praktiske tips om samarbeid med Archi].
 
 
 == Web-publisering for lesing 
-Publiserte modeller fra _det primære fellesbiblioteket_ kan navigeres via nettleser; se https://nasjonal-arkitektur.github.io/nab_modeller_html-hovedbibliotek .
+Publiserte modeller fra _det primære fellesbiblioteket_ kan navigeres via nettleser; se https://nasjonal-arkitektur.github.io/nab_modeller_archi_html.
 
 
 == Nedlastbare modellfiler
