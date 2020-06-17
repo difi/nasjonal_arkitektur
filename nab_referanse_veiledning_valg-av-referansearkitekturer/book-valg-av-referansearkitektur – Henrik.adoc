@@ -22,7 +22,7 @@ Målet er å få til samhandlingsevne i tverrgående prosesser, dvs. integrerte 
 
 
 
-= Metode for valg av arkitekturmønstre i tverrgående samhandlingsløsninger
+= Metode for valg av referansearkitekturer i tverrgående samhandlingsløsninger
 
 include::./metode-eif-forretningsdrevet.adoc[]
 

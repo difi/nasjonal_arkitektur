@@ -1130,3 +1130,4 @@ Hendelsesbasert deling av data
 
 ////
 
+// Heidi: Eventual consistency

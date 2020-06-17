@@ -34,7 +34,7 @@ NOTE: I tillegg til dette biblioteket, finnes andre modeller som du kanskjeogså
 +
 Last ned og installer siste versjon av Archi fra https://www.archimatetool.com/download/
 
-2. *Konfigurer "diagram appearance*
+2. *Konfigurer "diagram appearance"*
 +
 Det er generelt ønskelig at de fleste symboler har samme størrelse, Standard symbolstørrelse settes slik at det er plass til 4 linjer med "litt lange ord"; se figur nedenfor. Dette holder for de fleste formål. Det velges videre å bruke _gradienter_ i fargevisningen, fordi dette for mange oppleves som et mer "profesjonelt" uttrykk.
 +

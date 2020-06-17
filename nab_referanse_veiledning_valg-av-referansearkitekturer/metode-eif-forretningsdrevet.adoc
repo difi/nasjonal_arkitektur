@@ -18,7 +18,7 @@ Metoden sier noe om hvordan man skal oppnå digital samhandlingsevne og vil unde
 
 Metoden har som formål å sikre at man ikke snakker om teknisk samhandlingsevne før man forstår det forretningsmessige behovet på en tilfredsstillende måte. Erfaringene tilsier at man lettere kommer fram til et forslag til den digitale samhandlingsprosessen når man ikke snakker om teknologi. Når man har enighet om prosessen så kan man avklare hvordan den tekniske samhandlingsevnen skal ivaretas.
 
-Metoden er først og fremst tenkt å bidra til hvordan to virksomheter kan digitalisere sin samhandling, men tankegodset kan også ha en verdi når man ser på hvordan to domener i en virksomhet skal samhandle digitalt.
+Metoden er først og fremst tenkt å bidra til hvordan [red]#to virksomheter# kan digitalisere sin samhandling, men tankegodset kan også ha en verdi når man ser på hvordan to domener i en virksomhet skal samhandle digitalt.
 
 Metoden er uavhengig av om den ene, begge eller ingen benytter serviceprovidere i deres løsninger.
 
@@ -28,12 +28,20 @@ Metoden er delt inn i fem steg:
 . *Identifisere krav og egenskaper ved samhandlingen*
 . *Identifiser referansearkitektur med fokus på samhandling*
 . *Identifiser løsningsarkitektur*
-. *Realiseringshensyn*
+. *Realiseringshensyn* 
+
+//håkon: Fjern realiseringshensyn?????
 
 
 //Digital samhandling mellom virksomheter vil fra et forretningsperspektiv gjøres på et fåtall måter. Dette kaller vi samhandlingsmønstre og er beskrevet under.
 
-I steg 1 vil vi modellere en digital samhandlingsprosess og i steg 2 vil vi beskrive hvilke forretningsmessige krav som stilles og hvilke egenskaper det er behov at samhandlingsmønsteret har for å kunne realisere samhandlingsprosessen. I steg 3 vil vi vurdere hvilke referansearkitekturer som bør benyttes for den digitale samhandlingsprosessen. Først når man har identifisert samhandlingsmønstre og referansearkitektur, er det riktig å diskutere løsningsarkitektur og hvilke tekniske løsningsalternativer man har for hver enkelt samhandling. Dette ser vi på i steg 4. I steg 5 vurderer vi øvrige realiseringshensyn som tilleggskomponenter og tjenester. Det må også gjennomføres en risikoanalyse av løsningen og fattes nødvendige tiltak i henhold til risikoanalysen. 
+I steg 1 vil vi modellere en digital samhandlingsprosess og i steg 2 vil vi beskrive hvilke forretningsmessige krav som stilles og hvilke egenskaper det er behov at samhandlingsmønstrene har for å kunne realisere samhandlingsprosessen. 
+
+I steg 3 vil vi vurdere hvilke referansearkitekturer som bør benyttes for den digitale samhandlingsprosessen. Først når man har identifisert samhandlingsmønstre og referansearkitektur, er det riktig å diskutere løsningsarkitektur og hvilke tekniske løsningsalternativer man har for hver enkelt samhandling. 
+
+// Håkon: se 4 og 5 i sammenheng
+
+Dette ser vi på i steg 4. I steg 5 vurderer vi øvrige realiseringshensyn som tilleggskomponenter og tjenester. Det må også gjennomføres en risikoanalyse av løsningen og fattes nødvendige tiltak i henhold til risikoanalysen. 
 
 Sagt på en annen måte, man må forstå og være enige om behovet før man kan diskutere teknologi.
 
@@ -78,7 +86,7 @@ Forretningsprosessens hovedformål er å identifisere digitale samhandlinger på
 
 Figuren under er et eksempel på en prosess for behandling av konkursbo og samhandlingen mellom boet og NAV. Det er ikke lagt vekt på interne prosessene, men gitt en oversikt med fokus på samhandling partene i mellom. Denne prosessen vil følges og brukes som eksempel gjennom trinnen i metoden.
 
-image:../nab_referanse_veiledning_valg-av-referansearkitekturer/media/Konkursbo - forretningsprosess.png[alt="bad!", width=1100]
+image:../nab_referanse_veiledning_valg-av-referansearkitekturer/media/Konkursbo - forretningsprosess.png[alt="bad!"]
 
 //// 
 Et eksempler på hvordan man kan modellere digital samhandling er prosessen for samtykkebasert lånesøknad som for eksempel kan modelleres slik:
@@ -122,7 +130,7 @@ I eksempelet vårt med samtykkebasert lånesøknad vil det f.eks. være blant an
 * forretningsmessig behov for synkron kommunikasjon
 * behov for umiddelbar respons
 
-image:../nab_referanse_veiledning_valg-av-referansearkitekturer/media/Konkursbo - forretningsprosess med krav.png[alt="bad!", width=1100]
+image:../nab_referanse_veiledning_valg-av-referansearkitekturer/media/Konkursbo - forretningsprosess med krav.png[alt="bad!"]
 
 ////
 I prosessen for samtykkebasert lånesøknad kan for eksempel da identifisere samhandlingsmønster slik:
