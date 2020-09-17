@@ -52,7 +52,11 @@ image:../plattform_praktiske-tips_archi/media/preferences-default-figures.png[wi
 
 WARNING: Archi har per januar 2019 begrenset funksjonalitet for dette. En har f.eks, ikke noen alternativer for Actor. En kan heller ikke benytte egne symboler.
 
-== Installer og konfigurer Collaboration plugin
+== Installer og konfigurer coArchi collaboration plugin
+
+1. *Produktdokumentasjon*
++
+Gjør deg gjerne kjent med brukerveiledningen på https://github.com/archimatetool/archi-modelrepository-plugin - det er ikke sikkert at oppskriften som følger på norsk her er komplett eller oppdatert. 
 
 1. *Skaff deg en GitHub-bruker*
 +
@@ -62,28 +66,37 @@ Se eventuelt også link:../plattform_praktiske-tips_github/[praktiske tips om br
 
 3. *Last ned og installer Collaboration Plugin*
 +
-Last ned og installer Model Repository Collaboration Plugin fra  https://www.archimatetool.com/plugins/. Collaboration-menyen skal da komme til syne, slik: 
+Last ned og installer CoArchi plugin fra  https://www.archimatetool.com/plugins/. Collaboration-menyen skal da komme til syne, slik: 
 +
 image:../plattform_praktiske-tips_archi/media/collaboration-plugin.png[width=450, height=450]
 +
 
 4. *Konfigurer Collaboration Plugin*
 +
-Sett inn ditt git brukernavn (Name) og e-post (Email), og mappe-navnet (Local Repository Folder) der du ønsker at Archi skal legge filene når du importerer fra "Github-repoet". 
+Sett inn ditt git brukernavn (Name) og e-post (Email), og mappe-navnet (#Collaboration Workspace folder#) der du ønsker at Archi skal legge filene når du importerer fra "Github-repoet". 
 +
 image:../plattform_praktiske-tips_archi/media/archi-collaboration-preferences.png[width=600, height=600]
 
 == Importer Github-repository
+
 Velg [underline]#Import Remote Model to Workspace# fra menyen under Collaboration i Archi, og oppgi https://github.com/nasjonal-arkitektur/archi-collab-nab
  som URL og oppgi ditt git brukernavn og passord.
 
-Når du klikker OK, vil det bli opprettet en mappe ved navn  #_archi-collab-nab_# under den mappen du har satt opp under Preferences (se over).
+NOTE: Det arbeides per høst 2020 med oppsplitting av det komplette biblioteket i flere deler, der det skilles mellom gjeldende versjon og ulike deler som enda ikke er kvalitetssikret og eventuelt kan tilhøre ulike organisasjoner. Se eget avsnitt om dette.
+
 
 image:../plattform_praktiske-tips_archi/media/add-remote-model.png[width=550, height=550]
 
-Modell-vinduet i Archi vil vise #_nasjonalt-arkitekturbibliotek_# som modellnavn:
 
-image:../plattform_praktiske-tips_archi/media/archi-workspace.png[width=220, height=220]
+Når du klikker OK, vil det bli opprettet en mappe i filsystemet på din maskin med det aktuelle modellnavnet, som undermappe til den mappen du har satt opp i Preferences (se over).
+
+Det vil dessuten komme til syne en linje i #Collaboration Workspace# med det aktuelle modellnavnet.
+
+TIP: _Om du ikke får øye på panelet for Collaboration Workspace, kan du prøve Toggle Collaboration Workspace fra menyen. Det kan også hende at du finner panelet i en annen del av brukergrensesnittet (paneler kan flyttes på)._
+
+image:../plattform_praktiske-tips_archi/media/collaboration-workspace.png[width=350, height=350]
+
+Dobbeltklikk til slutt modellnavnet (eks. _nasjonalt-arkitekturbibliotek_) i Collaboration Workspace for å få det åpnet i _modelltreet_ (#Models#). 
 
 == Endring og synkronisering
 De endringene du gjør blir ikke synlige for andre før du publiserer endringene dine. Det finnes flere valg i Collaboration-menyen for synkronisering. Tips:
@@ -98,6 +111,52 @@ _NB: Om flere jobber på de samme modellene samtidig, kan det bli behov for litt
 Collaboration-plugin oppretter en .git undermappe som ikke uten videre er synlig, der det blant annet ligger en #temp.archimate# fil. Det er denne filen som åpnes i Archi når du har importert biblioteket. Nyttig å vite dersom du f.eks. har kommet til å lukke modellen fra workspace i Archi før du har publisert endringene dine. Det er altså bare å åpne denne filen, så kommer den opp i Archi, helt tilsvarende "normale" Archi-filer og med samme innhold som klonet og eventuelt modifisert modell.    
 
 image:../plattform_praktiske-tips_archi/media/hidden-git-files.png[width=300, height=300]
+
+== Avanserte tips om verktøyuavhengig samarbeid om Archimate-modeller
+
+=== Generelt 
+Arcimate-modeller kan utveksles mellom ulike verktøy gjennom et standardisert utvekslingsformat. Dette støttes av de fleste verktøy, og fungerer stort sett greit for engangs eksport-import og så lenge det ikke er gjort utvidelser i metamodellen (objekttyper, attributter, viewpoints).
+
+En kan f.eks. uten videre eksportere views og objekter fra det nasjonale Archi- arkitekturbiblioteket og importere i Visual Paradigm. Ved første øyekast ser modellene ganske like ut.
+
+=== Import av utvidelser - attributter
+Nasjonalt arkitekturbibliotek benytter et uvidet sett av Archimate-attributter, slik dette støttes i verktøyet Archi. Hvordan få med disse ved import til et annet verktøy?
+
+Måten å gjøre dette på vil variere fra verktøy til verktøy. Dette er bare delvis testet for import av modeller fra det Archi-baserte biblioteket som benyttes i Nasjonalt arkitekturbibliotek.
+
+Eksempel: Ved import til Software AG ARIS, må en først utvide metamodellen i ARIS med identisk navnede attributter som i Archi. Straks disse er definert, fungerer importen uten videre.
+
+=== Import av utvidelser - objekttyper
+
+image:../plattform_felles/media/i-arbeid.png[width=45, height=45] TBD.
+
+=== Gjentatt import og merge mellom ulike verktøy
+For å få til "merge" med tidligere importerte modeller og objekter, kreves en form for merge-mekanisme som det per i dag ikke kan forventes at støttes ut-av-esken på tvers av ulike Archimate-verktøy.
+
+image:../plattform_felles/media/i-arbeid.png[width=45, height=45] Uferdig innhold:
+
+
+Foreløpig hypotese: Det er en overkommelig jobb å utvikle scripts eller programmer i ulike verktøy som gjør slik "merge" ved gjentatt import fra et annet verktøy, gitt et minimum av standardisering for aktuelle brukstilfeller. 
+
+TIP: For gjentatt import og merge av objekter som kan være renavnet eller ha samme navn som andre objekter, kreves i praksis identifisering av objekter gjennom globalt unike identifikatorer. For at dette skal fungere, må en unngå utilsiktet endring av _globalt unike identifikatorer_ for objekter i kildesystemet.
+
+
+
+== Avanserte tips for samarbeid om Archimate-innhold i verktøyet Archi
+
+NOTE: Archi er gratis Open Source programvare, og støtter gjentatt import og merge av andre modeller fra og med Archi versjon 4.7.1 (juli 2020). Dette gir nye muligheter for gjenbruk og samarbeid, der involverte parter benytter samme verktøy.  Dette kan ikke forutsettes, men er tilfelle for noen sektorer og virksomheter i Norge og i EU per 2020.
+
+
+=== Brukstilfelle 1: Integrer nasjonalt Archi-bibliotek i et personlig Archi-bibliotek
+
+
+=== Brukstilfelle 2: Samarbeid med andre i din virksomhet om et Archi-bibliotek som er integrert med det nasjonale Archi-biblioteket
+TBD.
+
+=== Brukstilfelle 3: Integrer eksterne  Archi-biblioteker inn i det nasjonale Archi-biblioteket  
+TBD.
+
+
 
 == Archi scripts fra Difi for støtte til administrasjon og modellering
 Difi har utviklet noen scripts for å effektivisere modellering og administrasjon av arkitekturbibliotek. Disse scriptene er gjort i jArchi med bruk av Archi-s Scripting Plugin, og krever installasjon av Archi-s Scripting Plugin for å kunne kjøres.
