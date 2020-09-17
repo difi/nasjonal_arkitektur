@@ -14,18 +14,18 @@ Metoden som beskrives her tar utgangspunkt i de fire interoperabilitetsnivåene 
 
 image:./media/Samhandlingsevne.png[alt="Bilde mangler", width=750]
  
-Metoden sier noe om hvordan man kan oppnå digital samhandlingsevne og vil underveis peke på de fire interoperabilitetsnivåene. Det understrekes at man må jobbe i parallell med alle nivåene, da det er synergier mellom dem.
+Metoden sier noe om hvordan man skal oppnå digital samhandlingsevne og vil underveis peke på de fire interoperabilitetsnivåene. Det understrekes at man må jobbe i parallell med alle nivåene, da det er synergier mellom dem.
 
 Metoden har som formål å sikre at man ikke snakker om teknisk samhandlingsevne før man forstår det forretningsmessige behovet på en tilfredsstillende måte. Erfaringene tilsier at man lettere kommer fram til et forslag til den digitale samhandlingsprosessen når man ikke snakker om teknologi. Når man har enighet om prosessen så kan man avklare hvordan den tekniske samhandlingsevnen skal ivaretas.
 
 Metoden er først og fremst tenkt å bidra til hvordan [red]#to virksomheter# kan digitalisere sin samhandling, men tankegodset kan også ha en verdi når man ser på hvordan to domener i en virksomhet skal samhandle digitalt.
 
-//Metoden er uavhengig av om den ene, begge eller ingen benytter serviceprovidere i deres løsninger.
+Metoden er uavhengig av om den ene, begge eller ingen benytter serviceprovidere i deres løsninger.
 
 Metoden er delt inn i fem steg:
 
 . *Modeller fulldigitaliserte forretningsprosesser med fokus på samhandling*
-. *Identifisere forrteningsmessige krav og egenskaper ved samhandlingen*
+. *Identifisere krav og egenskaper ved samhandlingen*
 . *Identifiser referansearkitektur med fokus på samhandling*
 . *Identifiser løsningsarkitektur*
 . *Realiseringshensyn* 
@@ -121,7 +121,7 @@ Ikke de tekniske, men de forretningsmessige delene.#
 
 Som del av modellering av en digital samhandlingsprosess i steg 1, så er det naturlig å identifisere hvilke behov og krav man har til samhandlingsmønstre og beskrive dette for hver enkelt identifiserte samhandling.
 
-Dette gjøres best gjennom å forstå behovet for hver enkelt samhandling. Det er viktig at begge partene [red]#prater# gjennom prosessen sammen, slik at man får en felles forståelse av krav og egenskaper. I dette arbeidet kan man bruke faktorene som er beskrevet i kapittel 2 og se til de ulike interoperabilitetslagene, og på denne måten bestemme hvilke egenskaper som er viktig for den respektive samhandlingen og integrasjonen mellom partene.
+Dette gjøres best gjennom å forstå behovet for hver enkelt samhandling. Det er viktig at begge partene prater gjennom prosessen sammen, slik at man får en felles forståelse av krav og egenskaper. I dette arbeidet kan man bruke faktorene som er beskrevet i kapittel 2 og se til de ulike interoperabilitetslagene, og på denne måten bestemme hvilke egenskaper som er viktig for den respektive samhandlingen og integrasjonen mellom partene.
 
 I eksempelet vårt med samtykkebasert lånesøknad vil det f.eks. være blant annet følgende faktorer:
 

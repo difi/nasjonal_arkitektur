@@ -1,0 +1,58 @@
+:lang: no
+:doctitle: Vurdering av kvalitetsegenskaper
+:keywords: Norsk, arkitekturbibliotek, offenlig sektor, virksomhetsarkitektur, NIF, samhandlingsarkitektur, rammeverk, GitHub
+
+include::../plattform_felles/includes/commonincludes.adoc[]
+
+
+== Generelt om denne metoden for valg av referansearkitekturer
+
+image:../plattform_felles/media/i-arbeid.png[width=45, height=45] I arbeid
+
+Referansearkitekturer velges ut fra  behov. Dette kan gjøres ved å betrakte kapabiliter og kvalitetsegenskaper. 
+
+
+== Fra kapabilitet til referansearkitektur
+
+Aktuelle referansearkitekturer kan identifisere gjennom å vurdere kvalitetskrav ut fra kapabilitet.
+
+.Figur: Mapping fra kapabilitet og kvalitetskrav til referansearkitektur 
+image:../nab_referanse_arkitekturer/media/valg-av-ra-for-datautveksling-basert-på-kapabilitetsområde-og-kvalitetskrav.png[]
+
+== Fra samhandlingsmønster til referansearkitektur
+
+Alternativt kan en identifisere aktuelt samhandlingsmønster (business interaction) og derfra uten videre avlede referansearkitektur.
+
+.Figur: Mapping fra samhandlingsmønster til referansearkitektur
+image:../nab_referanse_veiledning_valg-av-referansearkitekturer\media/fra-samhandlingsmønster-til-referansearkitektur.png[]
+
+
+== Beslutningstre
+.Figur: Beslutningstre basert på samhandlingsmønstre
+image:../nab_referanse_veiledning_valg-av-referansearkitekturer/media/samhandlingsmønstre-hierarki-og-sammenheng-med-referansearkitekturer.png[]
+
+
+
+
+
+.Figur: Vesi i beslutningstre for samhandlingsmønster dataforsendelse
+image:../nab_referanse_veiledning_valg-av-referansearkitekturer/media/beslutningstre-samhandlingsmønster-dataforsendelse.png[]
+
+
+
+Følgende figur viser et eksempel som ser på kapabilitetsområdet __Deling på forespørsel__ og beslutning om synkront dataoppslag.
+
+.Figur: Eksempel på beslutningstre (bare en vei vist) . 
+//på sammeheng mellom kapabiliteter,  "samhandlingsmønstre" (business interaction og application interaction); her for 
+
+image:../nab_referanse_arkitekturer/media/område-deling-på-forespørsel-sammenheng.png[]
+
+NOTE: For kapabiliteer som krever samhandling med andre parter, benyttes konseptet  _Business Interaction_ (ref. modelleringsstandarden Archimate) for å knytte sammen samhandlende parter og kapabiliteter på forretningsmessig nivå. _Business Interaction_ tilsvarer begrepet _Samhandlingsmønster_. Tilsvarende brukes _Application Interaction_ eller _Technology Interaction_ på teknisk nivå.
+
+image:../plattform_felles/media/i-arbeid.png[width=45, height=45] I arbeid: Et mer komplett beslutningstre
+
+
+
+
+
+

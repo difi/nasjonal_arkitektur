@@ -74,13 +74,14 @@ Sett inn ditt git brukernavn (Name) og e-post (Email), og mappe-navnet (Local Re
 image:../plattform_praktiske-tips_archi/media/archi-collaboration-preferences.png[width=600, height=600]
 
 == Importer Github-repository
-Velg [underline]#Import Remote Model to Workspace# fra menyen under Collaboration i Archi, og oppgi https://github.com/nasjonal-arkitektur/archi-collab-nasjonal-arkitektur som URL og oppgi ditt git brukernavn og passord.
+Velg [underline]#Import Remote Model to Workspace# fra menyen under Collaboration i Archi, og oppgi https://github.com/nasjonal-arkitektur/archi-collab-nab
+ som URL og oppgi ditt git brukernavn og passord.
 
-Når du klikker OK, vil det bli opprettet en mappe ved navn  _archi-collab-nasjonal-arkitektur_ under den mappen du har satt opp under Preferences (se over).
+Når du klikker OK, vil det bli opprettet en mappe ved navn  #_archi-collab-nab_# under den mappen du har satt opp under Preferences (se over).
 
 image:../plattform_praktiske-tips_archi/media/add-remote-model.png[width=550, height=550]
 
-Modell-vinduet i Archi vil vise #difi-nasjonal-arkitektur# som modellnavn:
+Modell-vinduet i Archi vil vise #_nasjonalt-arkitekturbibliotek_# som modellnavn:
 
 image:../plattform_praktiske-tips_archi/media/archi-workspace.png[width=220, height=220]
 
