@@ -112,6 +112,46 @@ Collaboration-plugin oppretter en .git undermappe som ikke uten videre er synlig
 
 image:../plattform_praktiske-tips_archi/media/hidden-git-files.png[width=300, height=300]
 
+
+
+== Avanserte tips for samarbeid om Archimate-innhold i verktøyet Archi
+
+NOTE: Archi er gratis Open Source programvare, og støtter gjentatt import og merge av andre modeller fra og med Archi versjon 4.7.1 (juli 2020). Dette gir nye muligheter for gjenbruk og samarbeid, der involverte parter benytter samme verktøy.  Dette kan ikke forutsettes, men er tilfelle for noen sektorer og virksomheter i Norge og i EU per 2020.
+
+
+=== Brukstilfelle 1: Integrer nasjonalt Archi-bibliotek i ditt eget Archi-bibliotek
+
+1. Opprett ditt eget bibliotek (Archi-modell).
+
+2. Få fatt i archi-filen til det nasjonale biblioteket. En måte å gjøre dette på, er via coArch plugin https://github.com/nasjonal-arkitektur/ac-nab-gjeldende, og så benytte temp.archimate som ligger under mappen .git (se over).
+
+3. Importer archimate-filen fra det nasjonale biblioteket inn i ditt bibliotek.
+
+4. Importer deretter oppdaterte versjoner av det nasjonale biblioteket.
+
+Merk: Det vil være mulig å gjøre endringer i din lokale versjon av det nasjonale biblioteket og spille tilbake tl Digdir. Se Brukstilfelle 3.
+
+
+=== Brukstilfelle 2: Samarbeid med andre i din virksomhet om et Archi-bibliotek som er integrert med det nasjonale Archi-biblioteket.
+
+Gitt at du allerede har importert det nasjonale biblioteket inn i ditt eget, kan du nå dele dette videre via coArchi. Samme oppskrift for deling  via coArchi som ellers gjelder.
+
+Kort oppskrift:
+
+
+a. Opprett et git repo med minst en fil. Dette kan f.eks gjøres slik: Logg inn på din org under github.com; klikk Add; oppgi repository name; sjekk av _Public_; sjekk av _Add a readme file_; klikk Add repository.
+
+b. Via menyen under _Collaboration_: Add local model to workspace and publish. Du får da opp en dialog hvor du angir URL til det nyopprettede repoet.
+
+c. Via menyen under _Collaboration_: Publish changes.
+
+
+
+=== Brukstilfelle 3: Integrer eksterne  Archi-biblioteker inn i det nasjonale Archi-biblioteket  
+
+Import av eksterne biblioteker inn i det nasjonale biblioteket, bør gjøres av den som er ansvarlig for det nasjonale biblioteket. Opprydding og feilretting kan være påkrevd.
+
+
 == Avanserte tips om verktøyuavhengig samarbeid om Archimate-modeller
 
 === Generelt 
@@ -139,23 +179,6 @@ image:../plattform_felles/media/i-arbeid.png[width=45, height=45] Uferdig innhol
 Foreløpig hypotese: Det er en overkommelig jobb å utvikle scripts eller programmer i ulike verktøy som gjør slik "merge" ved gjentatt import fra et annet verktøy, gitt et minimum av standardisering for aktuelle brukstilfeller. 
 
 TIP: For gjentatt import og merge av objekter som kan være renavnet eller ha samme navn som andre objekter, kreves i praksis identifisering av objekter gjennom globalt unike identifikatorer. For at dette skal fungere, må en unngå utilsiktet endring av _globalt unike identifikatorer_ for objekter i kildesystemet.
-
-
-
-== Avanserte tips for samarbeid om Archimate-innhold i verktøyet Archi
-
-NOTE: Archi er gratis Open Source programvare, og støtter gjentatt import og merge av andre modeller fra og med Archi versjon 4.7.1 (juli 2020). Dette gir nye muligheter for gjenbruk og samarbeid, der involverte parter benytter samme verktøy.  Dette kan ikke forutsettes, men er tilfelle for noen sektorer og virksomheter i Norge og i EU per 2020.
-
-
-=== Brukstilfelle 1: Integrer nasjonalt Archi-bibliotek i et personlig Archi-bibliotek
-
-
-=== Brukstilfelle 2: Samarbeid med andre i din virksomhet om et Archi-bibliotek som er integrert med det nasjonale Archi-biblioteket
-TBD.
-
-=== Brukstilfelle 3: Integrer eksterne  Archi-biblioteker inn i det nasjonale Archi-biblioteket  
-TBD.
-
 
 
 == Archi scripts fra Difi for støtte til administrasjon og modellering
