@@ -104,7 +104,7 @@ De endringene du gjør blir ikke synlige for andre før du publiserer endringene
 * Bruk [underline]#Refresh# om du bare vil laste ned endringer som andre har gjort (git pull).
 * [underline]#Publish# gjør både Refresh, Commit og Publish - alt i ett.
 
-_NB: Om flere jobber på de samme modellene samtidig, kan det bli behov for litt kompliserte "merge-operasjoner". Om du opplever problemer med dette, er det fint om du melder fra via en _issue_ i GitHub (eller per e-post til nasjonalarkitektur@difi.no).
+_NB: Om flere jobber på de samme modellene samtidig, kan det bli behov for litt kompliserte "merge-operasjoner". Om du opplever problemer med dette, er det fint om du melder fra via en _issue_ i GitHub (eller per e-post til nasjonalarkitektur@digdir.no).
 
 
 == Tips for å finne og gjenåpne en lukket Archi-modell lokalt
@@ -128,6 +128,10 @@ NOTE: Archi er gratis Open Source programvare, og støtter gjentatt import og me
 3. Importer archimate-filen fra det nasjonale biblioteket inn i ditt bibliotek.
 
 4. Importer deretter oppdaterte versjoner av det nasjonale biblioteket.
++
+TIP: Archi vil ikke slette verken folders, views eller elementer ved ny "import another model into selected model". Start derfor gjerne med å slette alle folders (og implisitt alle views) før ny import - så blir det ikke hengende igjen folders og views som skulle ha vært slettet. Etter ny import, kan en også slette ubrukte elementer og relasjoner (egne scripts for dette finnes).
+
+
 
 Merk: Det vil være mulig å gjøre endringer i din lokale versjon av det nasjonale biblioteket og spille tilbake tl Digdir. Se Brukstilfelle 3.
 
