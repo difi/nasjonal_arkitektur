@@ -1,4 +1,6 @@
-Se: link:./plattform_/[Nasjonalt arkitekturverksted]
+Se: https://nasjonal-arkitektur.github.io
+
+//Se: link:./plattform_/[Nasjonalt arkitekturverksted]
 
 // Does not work, due to different folder levels: include::./plattform_/main.adoc[]
 
