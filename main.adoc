@@ -1,7 +1,6 @@
-Nasjonalt arkitekturverksted er per des. 2020 flyttet til https://nasjonal-arkitektur.github.io.
+Nasjonalt arkitekturverksted er per desember 2020 flyttet til https://nasjonal-arkitektur.github.io.
 
-(I en overgangsperiode er 
-Se: link:./plattform_/[tidligere versjon] tilgjengelig.)
+(I en overgangsperiode er også link:./plattform_/[tidligere versjon] tilgjengelig.)
 
 // Does not work, due to different folder levels: include::./plattform_/main.adoc[]
 
