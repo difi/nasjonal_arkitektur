@@ -1,8 +1,0 @@
-// Definisjoner for å inkludere kommentarer i html output. NB: Husk å kommentere ut kommentar-definisjonene før publisering på nett!   
-
-// Eriks kommentarer i form av uthevet eller markert tekst, i tillegg til annen tekst 
-
-:Erik-kommentarer:
-
-// Eriks forslag til ny eller endret tekst
-:Erik-forslag:

@@ -1,4 +1,0 @@
-//== Kort beskrivelse
-ifdef::Kort_beskrivelse[]
-**Kort beskrivelse**: {Kort_beskrivelse}
-endif::[]

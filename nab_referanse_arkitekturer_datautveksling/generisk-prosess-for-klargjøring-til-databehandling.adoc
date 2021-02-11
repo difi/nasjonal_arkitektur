@@ -1,7 +1,0 @@
-:lang: no
-:doctitle: Generisk prosess for klargjøring til databehandling
-:keywords: 
-
-include::../plattform_felles/includes/commonincludes.adoc[]
-
-TBD.

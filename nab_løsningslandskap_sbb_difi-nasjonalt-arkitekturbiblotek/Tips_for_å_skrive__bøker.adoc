@@ -1,8 +1,0 @@
-= Tips for å skrive dokumenter eller bøker
-
-Tips kommer her. I mellomtiden:
-
-* Se et eksempel på https://github.com/difi/dcat-ap-no
-* Sjekk https://asciidoctor.org/docs/user-manual/[Asciidoctor User Manual]
-
-

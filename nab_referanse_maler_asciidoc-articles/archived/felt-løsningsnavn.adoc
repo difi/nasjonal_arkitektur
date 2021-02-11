@@ -1,4 +1,0 @@
-//== Løsningsnavn
-ifdef::Losningsnavn[]
-**Løsningsnavn**: {Losningsnavn}
-endif::[]

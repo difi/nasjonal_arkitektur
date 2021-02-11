@@ -1,8 +1,0 @@
-:lang: no
-:doctitle: Introduksjon kvalitetsegenskaper
-:keywords: eMelding
-
-include::../plattform_felles/includes/commonincludes.adoc[]
-
-
-TBD.

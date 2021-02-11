@@ -1,9 +1,0 @@
-= Taksonomier
-
-Her kommer informasjon om taksonomier for
-
-* Datamodeller
-* Sluttbrukertjenester
-* IT-tjenester
-* Teknologier
-
