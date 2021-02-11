@@ -1,1 +1,1 @@
-include::boks-tes-cartography.adoc[]
+Nasjonalt arkitekturverksted er per desember 2020 flyttet til https://nasjonal-arkitektur.github.io.

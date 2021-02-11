@@ -1,13 +1,1 @@
-:lang: no
-:doctitle: Kravbibliotek - funksjonelle behov
-:keywords: Krav
-
-
-include::../plattform_felles/includes/commonincludes.adoc[]
-
-
-
-
-
-
-
+Nasjonalt arkitekturverksted er per desember 2020 flyttet til https://nasjonal-arkitektur.github.io.

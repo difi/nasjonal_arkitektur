@@ -1,2 +1,1 @@
-:lang: no
-include::book_datadeling_verdistrømmer.adoc[]
+Nasjonalt arkitekturverksted er per desember 2020 flyttet til https://nasjonal-arkitektur.github.io.

@@ -1,8 +1,1 @@
-:lang: no
-:doctitle: Informasjonssikkerhet
-:keywords: 
-
-include::../plattform_felles/includes/commonincludes.adoc[]
-
-Sikring av informasjon er sentralt i referansearkitekturene for informasjonsutveksling. Dette omfatter integritet, konfidensialitet og uavviselighet. Informasjon må kunne utveksles uendret mellom aktørene, og uvedkommende må ikke få tilgang til informasjonen. Avsendere og tilbydere må være trygge på at mottakere og konsumenter er riktige og mottakere og konsumenter må være trygge på at avsendere og tilbydere er de vedkommende utgir seg for å være. Informasjonen om transaksjoner må være sporbar i ettertid (uavviselig). Referansearkitekturene
-ivaretar disse behovene.
+Nasjonalt arkitekturverksted er per desember 2020 flyttet til https://nasjonal-arkitektur.github.io.

@@ -1,3 +1,1 @@
-= Behovsinnspill
-
-Her holdes oversikt over behovsinnspill og status for oppfølging
+Nasjonalt arkitekturverksted er per desember 2020 flyttet til https://nasjonal-arkitektur.github.io.

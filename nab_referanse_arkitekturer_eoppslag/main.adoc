@@ -1,1 +1,1 @@
-include::./book-eoppslag-referansearkitektur.adoc[]
+Nasjonalt arkitekturverksted er per desember 2020 flyttet til https://nasjonal-arkitektur.github.io.
