@@ -1,5 +1,9 @@
-Beklager - Nasjonalt arkitekturverksted er per desember 2020 flyttet til https://nasjonal-arkitektur.github.io.
+[red]#**Beklager utdatert lenke!**#
 
-Merk: Det er ryddet i innholdet, slik at deler av det tidligere innholdet kan være permanent eller midlertidig borte.
+====
+Nasjonalt arkitekturverksted er per desember 2020 flyttet til https://nasjonal-arkitektur.github.io. Vi håper du finner det du så etter der.
 
-Kontakt nasjonalarkitektur@digdir.no om du lurer på noe.
+_Merk: Det er ryddet i innholdet, slik at deler av det tidligere innholdet kan være permanent eller midlertidig borte._
+
+Kontakt nasjonalarkitektur @digdir.no om du lurer på noe eller har forslag til hvordan vi kan gjøre det bedre.
+====
