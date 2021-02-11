@@ -5,5 +5,5 @@ Nasjonalt arkitekturverksted er per desember 2020 flyttet til https://nasjonal-a
 
 _Merk: Det er ryddet i innholdet, slik at deler av det tidligere innholdet kan være permanent eller midlertidig borte._
 
-Kontakt nasjonalarkitektur @digdir.no om du lurer på noe eller har forslag til hvordan vi kan gjøre det bedre.
+Kontakt nasjonalarkitektur@digdir.no om du lurer på noe eller har forslag til hvordan vi kan gjøre det bedre.
 ====
